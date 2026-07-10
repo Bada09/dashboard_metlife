@@ -1,0 +1,3185 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MetLife Performance Hub | rhapsody Intelligence</title>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;600;700;800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="metlife_users_data.js?v=3"></script>
+<script src="metlife_simulations_data.js?v=3"></script>
+
+    <style>
+        :root {
+            --primary: #00bcf2;
+            --primary-dark: #009ecc;
+            --accent: #041e42;
+            --bg-page: #f4f6f8;
+            --card-bg: #ffffff;
+            --card-border: #e2e8f0;
+            --text-main: #041e42;
+            --text-muted: #64748b;
+            --border: #e2e8f0;
+            --radius: 12px;
+            --transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            background: var(--bg-page);
+            color: var(--text-main);
+            min-height: 100vh;
+            overflow-x: hidden;
+            position: relative;
+            line-height: 1.5;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+            letter-spacing: -0.01em;
+        }
+
+        /* Animated Waves Background (Hidden for clean layout) */
+        .waves-bg {
+            display: none;
+        }
+
+        .container {
+            max-width: 1600px;
+            margin: 0 auto;
+            padding: 1.25rem 1.5rem;
+            position: relative;
+        }
+
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 1.5rem 2.5rem;
+            margin-bottom: 2.5rem;
+            background: var(--accent);
+            /* Dark Navy */
+            color: #ffffff;
+            border-bottom: 4px solid var(--primary);
+            /* Cyan bottom border */
+            border-radius: var(--radius) var(--radius) 0 0;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+            transition: var(--transition);
+        }
+
+        /* ── Typography System ── */
+        h2 {
+            font-family: 'Outfit';
+            font-size: 1.7rem;
+            font-weight: 400;
+            color: var(--accent);
+            margin-bottom: 1.5rem;
+            letter-spacing: -0.02em;
+            line-height: 1.2;
+        }
+
+        h3 {
+            font-family: 'Outfit';
+            font-size: 1.05rem;
+            font-weight: 600;
+            color: var(--text-main);
+            letter-spacing: -0.01em;
+            line-height: 1.3;
+        }
+
+        .section-title {
+            font-family: 'Outfit';
+            font-size: 0.8rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 0.1em;
+            color: var(--text-muted);
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            margin-bottom: 1.2rem;
+        }
+
+        .section-title i {
+            opacity: 0.6;
+        }
+
+        .logo-area {
+            display: flex;
+            align-items: center;
+        }
+
+        .logo-area img {
+            height: 45px;
+            transition: var(--transition);
+        }
+
+        .logo-area img:hover {
+            transform: scale(1.05);
+        }
+
+        .nav-menu {
+            display: flex;
+            gap: 1.5rem;
+            align-items: center;
+        }
+
+        .nav-link {
+            padding: 8px 16px;
+            border-radius: 12px;
+            text-decoration: none;
+            color: rgba(255, 255, 255, 0.7);
+            font-family: 'Outfit', sans-serif;
+            font-weight: 800;
+            font-size: 1.1rem;
+            transition: var(--transition);
+            border: 1px solid transparent;
+            letter-spacing: -0.02em;
+        }
+
+        .nav-link:hover {
+            background: rgba(255, 255, 255, 0.1);
+            color: #ffffff;
+        }
+
+        .nav-link.active {
+            background: rgba(255, 255, 255, 0.05);
+            border-color: rgba(255, 255, 255, 0.2);
+        }
+
+        .nav-link.active span {
+            background: linear-gradient(135deg, #a78bfa 0%, #3b82f6 50%, #ec4899 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .header-controls {
+            display: flex;
+            gap: 1rem;
+            align-items: center;
+        }
+
+        .lang-switch {
+            display: flex;
+            background: rgba(255, 255, 255, 0.1);
+            padding: 4px;
+            border-radius: 50px;
+            border: 1px solid rgba(255, 255, 255, 0.2);
+        }
+
+        .lang-switch button {
+            padding: 8px 16px;
+            border: none;
+            background: transparent;
+            color: rgba(255, 255, 255, 0.7);
+            border-radius: 50px;
+            cursor: pointer;
+            font-weight: 700;
+            transition: var(--transition);
+            font-size: 0.75rem;
+        }
+
+        .lang-switch button.active {
+            background: var(--primary);
+            color: #041e42;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        .btn-header {
+            background: transparent;
+            color: #ffffff;
+            border: 1px solid rgba(255, 255, 255, 0.3);
+            padding: 10px 20px;
+            border-radius: 12px;
+            font-weight: 700;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            transition: var(--transition);
+            font-family: 'Outfit';
+            font-size: 0.85rem;
+        }
+
+        .btn-header:hover {
+            background: rgba(255, 255, 255, 0.1);
+            color: #ffffff;
+            border-color: #ffffff;
+            transform: translateY(-2px);
+        }
+
+        .main-grid {
+            display: grid;
+            grid-template-columns: 270px 1fr;
+            gap: 1.25rem;
+            height: calc(100vh - 150px);
+        }
+
+        /* Sidebar */
+        .sidebar {
+            background: var(--card-bg);
+            border: 1px solid var(--border);
+            border-radius: var(--radius);
+            padding: 1rem;
+            display: flex;
+            flex-direction: column;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+        }
+
+        .search-box input {
+            width: 100%;
+            padding: 12px 12px 12px 2.8rem;
+            border-radius: 12px;
+            border: 1px solid var(--border);
+            outline: none;
+            background: #f8fafc;
+            color: var(--text-main);
+            font-weight: 500;
+            transition: var(--transition);
+        }
+
+        .search-box input::placeholder {
+            color: var(--text-muted);
+        }
+
+        .search-box input:focus {
+            border-color: var(--primary);
+            box-shadow: 0 0 0 3px rgba(0, 188, 242, 0.1);
+        }
+
+        .user-list {
+            overflow-y: auto;
+            flex-grow: 1;
+            padding-right: 4px;
+            margin-top: 0.75rem;
+        }
+
+        .user-item {
+            padding: 0.85rem 1rem;
+            border-radius: 10px;
+            cursor: pointer;
+            margin-bottom: 0.5rem;
+            transition: var(--transition);
+            border: 1px solid transparent;
+            background: #f8fafc;
+        }
+
+        .user-item:hover {
+            transform: translateY(-2px);
+            background: #f1f5f9;
+            border-color: var(--border);
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+        }
+
+        .user-item.active {
+            border-color: var(--primary);
+            background: #e0f2fe;
+            box-shadow: 0 4px 10px rgba(0, 188, 242, 0.1);
+        }
+
+        .user-name {
+            font-weight: 600;
+            font-size: 0.82rem;
+            display: block;
+            margin-bottom: 2px;
+            color: var(--text-main);
+            letter-spacing: -0.01em;
+        }
+
+        .user-meta-small {
+            font-size: 0.66rem;
+            color: var(--text-muted);
+            display: flex;
+            justify-content: space-between;
+            letter-spacing: 0.01em;
+        }
+
+        .grid {
+            display: grid;
+            gap: 1.25rem;
+        }
+
+        .grid-2 {
+            grid-template-columns: 1fr 1fr;
+        }
+
+        .card {
+            background: var(--card-bg);
+            border: 1px solid var(--border);
+            border-radius: var(--radius);
+            padding: 1.4rem 1.6rem;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.04);
+            transition: var(--transition);
+        }
+
+        .card:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.07);
+            z-index: 9998;
+            overflow: visible !important;
+        }
+
+        /* Dashboard Content */
+        .dashboard-content {
+            background: var(--card-bg);
+            border: 1px solid var(--border);
+            border-radius: var(--radius);
+            padding: 1.5rem 2rem;
+            overflow-y: auto;
+            position: relative;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.04);
+        }
+
+        /* Stats Dashboard (Home) */
+        .global-stats {
+            display: flex;
+            flex-direction: column;
+            gap: 1.5rem;
+        }
+
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 1rem;
+        }
+
+        .stat-card-big {
+            position: relative;
+            background: #ffffff;
+            border: 1px solid var(--border);
+            border-radius: var(--radius);
+            padding: 1.25rem 1rem;
+            text-align: center;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
+            transition: var(--transition);
+        }
+
+        .stat-card-big:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 8px 20px rgba(0, 188, 242, 0.1);
+            border-color: var(--primary);
+            z-index: 10000 !important;
+            overflow: visible !important;
+        }
+
+        .stat-card-big .val {
+            font-size: 2.4rem;
+            font-family: 'Outfit';
+            font-weight: 700;
+            color: var(--primary);
+            display: block;
+            margin-bottom: 4px;
+            letter-spacing: -0.04em;
+            line-height: 1;
+        }
+
+        .stat-card-big .lab {
+            font-size: 0.62rem;
+            text-transform: uppercase;
+            letter-spacing: 0.1em;
+            color: var(--text-muted);
+            font-weight: 700;
+        }
+
+        .rank-mini-tag {
+            position: absolute;
+            top: 8px;
+            right: 8px;
+            font-size: 0.65rem;
+            font-weight: 800;
+            color: var(--primary);
+            background: rgba(0, 188, 242, 0.1);
+            padding: 2px 6px;
+            border-radius: 6px;
+            pointer-events: none;
+            display: flex;
+            align-items: center;
+            gap: 4px;
+        }
+
+        /* Custom Tooltip */
+        .info-tip {
+            position: relative;
+            display: inline-block;
+            margin-left: 4px;
+            cursor: help;
+        }
+
+        .info-tip .tip-text {
+            visibility: hidden;
+            width: 220px;
+            background-color: var(--accent);
+            color: #fff;
+            text-align: center;
+            border-radius: 8px;
+            padding: 12px;
+            position: absolute;
+            z-index: 9999;
+            /* Garante que fique à frente de tudo */
+            bottom: 140%;
+            left: 50%;
+            transform: translateX(-50%);
+            opacity: 0;
+            transition: opacity 0.3s, transform 0.3s;
+            font-size: 0.75rem;
+            text-transform: none;
+            letter-spacing: 0;
+            font-weight: 400;
+            line-height: 1.4;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
+            pointer-events: none;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+        .info-tip .tip-text::after {
+            content: "";
+            position: absolute;
+            top: 100%;
+            left: 50%;
+            margin-left: -5px;
+            border-width: 5px;
+            border-style: solid;
+            border-color: var(--accent) transparent transparent transparent;
+        }
+
+        .info-tip:hover .tip-text {
+            visibility: visible;
+            opacity: 1;
+            transform: translateX(-50%) translateY(-5px);
+        }
+
+        .top-performers {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 1.25rem;
+        }
+
+        .perf-card {
+            background: #ffffff;
+            padding: 1.4rem 1.6rem;
+            border-radius: var(--radius);
+            border: 1px solid var(--border);
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
+        }
+
+        .perf-card h3 {
+            font-family: 'Outfit';
+            font-size: 0.75rem;
+            font-weight: 700;
+            margin-bottom: 1rem;
+            color: var(--accent);
+            text-transform: uppercase;
+            letter-spacing: 0.08em;
+        }
+
+        .perf-item {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 8px 0;
+            border-bottom: 1px solid #f1f5f9;
+            font-size: 0.84rem;
+            color: var(--text-muted);
+        }
+
+        .perf-item strong {
+            font-weight: 700;
+            color: var(--primary);
+            font-family: 'Outfit';
+        }
+
+        .perf-item:last-child {
+            border: none;
+        }
+
+        /* Custom Scrollbar */
+        ::-webkit-scrollbar {
+            width: 6px;
+        }
+
+        ::-webkit-scrollbar-track {
+            background: transparent;
+        }
+
+        ::-webkit-scrollbar-thumb {
+            background: #cbd5e1;
+            border-radius: 10px;
+        }
+
+        ::-webkit-scrollbar-thumb:hover {
+            background: #94a3b8;
+        }
+
+        /* Grid Layouts */
+        .grid {
+            display: grid;
+            gap: 2rem;
+        }
+
+        .grid-2 {
+            grid-template-columns: 1fr 1fr;
+        }
+
+        /* Donut chart grid */
+        .donut-grid {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            padding: 2rem 0;
+            gap: 2rem;
+        }
+
+        .donut-wrap {
+            position: relative;
+            width: 180px;
+            height: 180px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .donut-wrap canvas {
+            width: 100% !important;
+            height: 100% !important;
+        }
+
+        .donut-val {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-family: 'Outfit';
+            font-size: 2.2rem;
+            font-weight: 800;
+            color: var(--accent);
+            pointer-events: none;
+        }
+
+        .donut-label {
+            margin-top: 1.5rem;
+            font-size: 0.75rem;
+            font-weight: 700;
+            color: var(--text-muted);
+            text-transform: uppercase;
+            letter-spacing: 0.1em;
+            text-align: center;
+        }
+
+        /* Skills Matrix (User View) */
+        .skill-bar-container {
+            margin-bottom: 1.8rem;
+        }
+
+        .skill-label-row {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 0.6rem;
+            font-family: 'Outfit';
+        }
+
+        .skill-label-row span:first-child {
+            font-weight: 700;
+            font-size: 0.85rem;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            color: var(--accent);
+        }
+
+        .skill-label-row span:last-child {
+            font-weight: 700;
+            font-size: 0.9rem;
+            color: var(--accent);
+        }
+
+        .skill-track {
+            background: #f1f5f9;
+            height: 10px;
+            border-radius: 10px;
+            overflow: hidden;
+        }
+
+        .skill-bar-fill {
+            height: 100%;
+            border-radius: 10px;
+            background: linear-gradient(90deg, #00bcf2, #041e42);
+            transition: width 1.2s cubic-bezier(0.34, 1.56, 0.64, 1);
+        }
+
+        /* AI Feedback Box */
+        .insight-box {
+            background: #f8fafc;
+            border-radius: 16px;
+            padding: 2rem;
+            border: 1px solid #e2e8f0;
+        }
+
+        .bullet-list {
+            list-style: none;
+            padding: 0;
+            margin: 1.5rem 0;
+        }
+
+        .bullet-list li {
+            position: relative;
+            padding-left: 1.5rem;
+            margin-bottom: 1rem;
+            font-size: 0.9rem;
+            color: var(--text-main);
+            line-height: 1.6;
+        }
+
+        .bullet-list li::before {
+            content: '•';
+            position: absolute;
+            left: 0;
+            color: #00bcf2;
+            font-weight: 900;
+            font-size: 1.2rem;
+        }
+
+        .insight-header {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            margin-bottom: 1.5rem;
+        }
+
+        .insight-header i {
+            background: #e0f2fe;
+            color: #00bcf2;
+            width: 36px;
+            height: 36px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 50%;
+            font-size: 0.9rem;
+        }
+
+        .insight-header h4 {
+            font-family: 'Outfit';
+            font-size: 1.1rem;
+            font-weight: 700;
+            color: var(--accent);
+        }
+
+        /* Trend Indicator */
+        .trend-indicator {
+            font-size: 0.7rem;
+            font-weight: 800;
+            margin-bottom: 8px;
+            padding: 4px 10px;
+            border-radius: 50px;
+            display: inline-flex;
+            align-items: center;
+            gap: 4px;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+        }
+
+        .trend-up {
+            background: rgba(34, 197, 94, 0.1);
+            color: #16a34a;
+        }
+
+        .trend-down {
+            background: rgba(239, 68, 68, 0.1);
+            color: #dc2626;
+        }
+
+        /* ── Responsive Design ── */
+        @media (max-width: 1280px) {
+            .main-grid {
+                grid-template-columns: 240px 1fr;
+                gap: 1rem;
+            }
+        }
+
+        @media (max-width: 1024px) {
+            .main-grid {
+                grid-template-columns: 1fr;
+                height: auto;
+            }
+
+            .sidebar {
+                height: 260px;
+            }
+
+            .dashboard-content {
+                height: auto;
+                min-height: 500px;
+                overflow: visible !important;
+            }
+
+            .stats-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+
+            .top-performers {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        @media (max-width: 768px) {
+            .container {
+                padding: 0.75rem;
+            }
+
+            header {
+                flex-direction: column;
+                gap: 1rem;
+                padding: 1.25rem 1.5rem;
+                text-align: center;
+            }
+
+            .nav-menu {
+                flex-wrap: wrap;
+                justify-content: center;
+                gap: 0.6rem;
+            }
+
+            h1 {
+                font-size: 1.6rem !important;
+            }
+
+            .header-section {
+                padding: 1.25rem !important;
+                margin-bottom: 1.25rem !important;
+            }
+
+            .grid-2 {
+                grid-template-columns: 1fr;
+            }
+
+            .stats-grid {
+                grid-template-columns: repeat(2, 1fr);
+                gap: 0.75rem;
+            }
+
+            .stat-card-big .val {
+                font-size: 1.8rem;
+            }
+
+            .stat-card-big .lab {
+                font-size: 0.58rem;
+            }
+
+            .donut-wrap {
+                width: 130px;
+                height: 130px;
+            }
+
+            .donut-val {
+                font-size: 1.3rem;
+            }
+
+            /* Responsive Filter Bar Stacking */
+            .filter-bar-container {
+                flex-direction: column !important;
+                align-items: stretch !important;
+                gap: 12px !important;
+            }
+            .filter-bar-container > div {
+                flex-direction: column !important;
+                align-items: stretch !important;
+                width: 100% !important;
+                gap: 6px !important;
+            }
+            .filter-bar-container .custom-dropdown {
+                width: 100% !important;
+            }
+            .filter-bar-container .dropdown-trigger {
+                width: 100% !important;
+            }
+
+            /* Compact Cards & Insights */
+            .card {
+                padding: 1.25rem 1rem !important;
+            }
+            .insight-box {
+                padding: 1.25rem !important;
+            }
+
+            /* Table optimization - hide number and duration to fit on narrow screens */
+            .sim-table th:nth-child(1), .sim-table td:nth-child(1),
+            .sim-table th:nth-child(6), .sim-table td:nth-child(6) {
+                display: none !important;
+            }
+            .sim-table th, .sim-table td {
+                padding: 0.8rem 0.6rem !important;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .stats-grid {
+                grid-template-columns: repeat(2, 1fr);
+                gap: 0.6rem;
+            }
+
+            .header-controls {
+                flex-direction: column;
+                width: 100%;
+                gap: 8px;
+            }
+
+            .header-controls button,
+            .lang-switch {
+                width: 100%;
+                justify-content: center;
+            }
+
+            .stat-card-big {
+                padding: 1rem 0.6rem;
+            }
+
+            .stat-card-big .val {
+                font-size: 1.6rem;
+            }
+
+            .donut-wrap {
+                width: 110px;
+                height: 110px;
+            }
+
+            .donut-val {
+                font-size: 1.1rem;
+            }
+
+            /* Stack Donut Charts */
+            .donut-grid {
+                flex-direction: column !important;
+                gap: 1.5rem !important;
+                padding: 1rem 0 !important;
+            }
+
+            /* Mobile Login Card padding */
+            .login-card {
+                padding: 2rem 1.5rem !important;
+                max-width: 92% !important;
+            }
+
+            .sim-table th, .sim-table td {
+                padding: 0.6rem 0.4rem !important;
+                font-size: 0.78rem !important;
+            }
+        }
+
+        /* ── Mobile Sidebar Drawer ── */
+        .mob-sidebar-btn {
+            display: none;
+            position: fixed;
+            bottom: 1.5rem;
+            left: 1.5rem;
+            z-index: 30000;
+            background: var(--primary);
+            color: #041e42;
+            border: none;
+            border-radius: 16px;
+            padding: 0 1rem;
+            height: 44px;
+            font-family: 'Outfit';
+            font-weight: 700;
+            font-size: 0.8rem;
+            cursor: pointer;
+            box-shadow: 0 8px 20px rgba(0, 188, 242, 0.4);
+            align-items: center;
+            justify-content: center;
+            gap: 8px;
+            transition: transform 0.2s ease;
+            letter-spacing: 0.02em;
+            pointer-events: auto;
+        }
+
+        .mob-sidebar-btn:hover {
+            transform: scale(1.08);
+        }
+
+        .sidebar-overlay {
+            display: none;
+            position: fixed;
+            inset: 0;
+            background: rgba(4, 30, 66, 0.5);
+            z-index: 150;
+            backdrop-filter: blur(2px);
+        }
+
+        .sidebar-overlay.open {
+            display: block;
+        }
+
+        @media (max-width: 1024px) {
+            .mob-sidebar-btn {
+                display: flex;
+            }
+
+            .sidebar {
+                position: fixed !important;
+                top: 0;
+                left: 0;
+                bottom: 0;
+                width: 300px !important;
+                height: 100vh !important;
+                max-height: 100vh !important;
+                z-index: 210;
+                border-radius: 0 24px 24px 0 !important;
+                transform: translateX(-100%);
+                transition: transform 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+                box-shadow: 20px 0 50px rgba(0, 0, 0, 0.25) !important;
+                padding: 2rem 1.5rem !important;
+                background: white !important;
+            }
+
+            .sidebar.open {
+                transform: translateX(0);
+            }
+
+            /* Drag handle */
+            .sidebar::before {
+                content: '';
+                display: block;
+                width: 36px;
+                height: 3px;
+                background: #cbd5e1;
+                border-radius: 2px;
+                margin: 0 auto 0.75rem;
+            }
+
+            /* Compact user items inside drawer */
+            .user-item {
+                padding: 0.6rem 0.75rem !important;
+                margin-bottom: 0.3rem !important;
+                border-radius: 8px !important;
+            }
+
+            .user-name {
+                font-size: 0.78rem !important;
+                margin-bottom: 1px !important;
+            }
+
+            .user-meta-small {
+                font-size: 0.62rem !important;
+            }
+
+            /* Search box inside drawer */
+            .search-box input {
+                padding: 9px 9px 9px 2.4rem !important;
+                font-size: 0.85rem;
+            }
+
+            .main-grid {
+                grid-template-columns: 1fr !important;
+                height: auto !important;
+            }
+        }
+
+        /* Header Section Card (Premium Design) */
+        .header-section {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 2rem;
+            margin-bottom: 3rem !important;
+            background: var(--accent);
+            border-radius: 24px;
+            padding: 3.5rem !important;
+            border-bottom: 5px solid var(--primary);
+            box-shadow: 0 10px 40px rgba(0, 0, 0, 0.18);
+            position: relative;
+            overflow: hidden;
+        }
+
+        /* Custom Dropdown */
+        .custom-dropdown {
+            position: relative;
+            min-width: 240px;
+            z-index: 100;
+        }
+
+        .dropdown-trigger {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 12px 20px;
+            background: rgba(255, 255, 255, 0.8);
+            backdrop-filter: blur(10px);
+            border: 1px solid var(--border);
+            border-radius: 14px;
+            cursor: pointer;
+            font-weight: 700;
+            color: var(--accent);
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.02);
+        }
+
+        .dropdown-trigger:hover {
+            border-color: var(--accent);
+            box-shadow: 0 6px 20px rgba(0, 0, 0, 0.05);
+        }
+
+        .dropdown-menu {
+            position: absolute;
+            top: calc(100% + 8px);
+            left: 0;
+            width: 100%;
+            background: white;
+            border: 1px solid var(--border);
+            border-radius: 14px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+            opacity: 0;
+            visibility: hidden;
+            transform: translateY(10px);
+            transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+            overflow: hidden;
+        }
+
+        .custom-dropdown.active .dropdown-menu {
+            opacity: 1;
+            visibility: visible;
+            transform: translateY(0);
+        }
+
+        .dropdown-item {
+            padding: 12px 20px;
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            cursor: pointer;
+            font-size: 0.9rem;
+            font-weight: 600;
+            color: var(--text-muted);
+            transition: all 0.2s ease;
+        }
+
+        .dropdown-item:hover {
+            background: #f8fafc;
+            color: var(--accent);
+        }
+
+        .dropdown-item.selected {
+            background: rgba(0, 188, 242, 0.05);
+            color: var(--accent);
+        }
+
+        .dropdown-item i {
+            width: 20px;
+            text-align: center;
+            font-size: 0.85rem;
+        }
+
+        .header-content-left {
+            flex: 1.2;
+        }
+
+        .header-content-right {
+            flex: 1;
+            max-width: 550px;
+            text-align: right;
+        }
+
+        h1 {
+            font-family: 'Outfit';
+            font-size: 3.4rem;
+            font-weight: 800;
+            letter-spacing: -0.05em;
+            color: white;
+            line-height: 1;
+            margin: 0;
+        }
+
+        h1 span {
+            display: block;
+            background: linear-gradient(135deg, #a78bfa, #3b82f6, #ec4899);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .header-desc {
+            font-size: 1.15rem;
+            color: rgba(255, 255, 255, 0.7);
+            line-height: 1.5;
+            margin: 0;
+            font-weight: 400;
+        }
+
+        @media (max-width: 1024px) {
+            .header-section {
+                flex-direction: column;
+                text-align: center;
+                padding: 2.5rem !important;
+            }
+
+            .header-content-right {
+                text-align: center;
+            }
+
+            h1 {
+                font-size: 2.5rem;
+            }
+        }
+
+        .sim-table-container {
+            margin-top: 2.5rem;
+        }
+
+        .sim-table {
+            width: 100%;
+            border-collapse: collapse;
+            background: white;
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+        }
+
+        .sim-table th {
+            background: #f8fafc;
+            padding: 1.2rem 1rem;
+            text-align: left;
+            font-size: 0.75rem;
+            text-transform: uppercase;
+            letter-spacing: 0.1em;
+            color: var(--text-muted);
+            border-bottom: 1px solid var(--border);
+        }
+
+        .sim-table td {
+            padding: 1.2rem 1rem;
+            border-bottom: 1px solid #f1f5f9;
+            font-size: 0.85rem;
+            color: var(--text-main);
+        }
+
+        .sim-table tr:hover {
+            background: #f0f9ff;
+        }
+
+        .score-badge {
+            padding: 4px 12px;
+            border-radius: 50px;
+            font-weight: 800;
+            font-size: 0.75rem;
+            display: inline-block;
+        }
+
+        .score-high {
+            background: #dcfce7;
+            color: #15803d;
+        }
+
+        .score-mid {
+            background: #fef9c3;
+            color: #a16207;
+        }
+
+        .score-low {
+            background: #fee2e2;
+            color: #b91c1c;
+        }
+
+        .btn-secondary {
+            background: white;
+            border: 1px solid var(--border);
+            color: var(--text-main);
+            padding: 10px 20px;
+            border-radius: 12px;
+            cursor: pointer;
+            font-family: 'Inter';
+            font-size: 0.85rem;
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            transition: all 0.2s;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+        }
+
+        .btn-secondary:hover {
+            background: #f8fafc;
+            border-color: var(--text-muted);
+            transform: translateY(-1px);
+        }
+
+        .sim-nav-floater {
+            position: fixed;
+            bottom: 30px;
+            left: 50%;
+            transform: translateX(-50%);
+            background: rgba(15, 23, 42, 0.95);
+            backdrop-filter: blur(10px);
+            padding: 12px 24px;
+            border-radius: 50px;
+            display: none;
+            align-items: center;
+            gap: 20px;
+            color: white;
+            z-index: 30000;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            pointer-events: auto;
+        }
+
+        .sim-nav-btn {
+            background: transparent;
+            border: none;
+            color: white;
+            cursor: pointer;
+            font-size: 1.2rem;
+            display: flex;
+            align-items: center;
+            transition: all 0.2s;
+        }
+
+        .sim-nav-btn:hover {
+            color: #00bcf2;
+            transform: scale(1.2);
+        }
+
+        .sim-nav-btn:disabled {
+            color: rgba(255, 255, 255, 0.2);
+            cursor: not-allowed;
+            transform: none;
+        }
+
+        .sim-nav-info {
+            font-family: 'Outfit';
+            font-weight: 700;
+            font-size: 1rem;
+            letter-spacing: 0.1em;
+            min-width: 60px;
+            text-align: center;
+        }
+
+        .analysis-grid {
+            display: grid;
+            grid-template-columns: 1.5fr 1fr;
+            gap: 2rem;
+            margin-top: 2rem;
+        }
+
+        .sentiment-badge {
+            padding: 6px 16px;
+            border-radius: 50px;
+            font-size: 0.75rem;
+            font-weight: 700;
+            text-transform: uppercase;
+        }
+
+        .sent-pos {
+            background: #dcfce7;
+            color: #166534;
+        }
+
+        .sent-neu {
+            background: #f1f5f9;
+            color: #475569;
+        }
+
+        .tone-tag {
+            background: #eff6ff;
+            color: #1e40af;
+            padding: 4px 12px;
+            border-radius: 6px;
+            font-size: 0.7rem;
+            font-weight: 600;
+            margin-right: 8px;
+        }
+
+        @media (max-width: 900px) {
+            .analysis-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+
+                        /* ── LOGIN OVERLAY ── */
+        #loginOverlay {
+            position: fixed;
+            inset: 0;
+            z-index: 99999;
+            background-color: #ffffff; /* Fundo branco */
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-family: 'Inter', sans-serif;
+            transition: opacity 0.6s ease, visibility 0.6s ease;
+            overflow: hidden;
+        }
+
+        /* Siri Apple style blurred animated blobs */
+        #loginOverlay::before, #loginOverlay::after, .siri-blob {
+            content: '';
+            position: absolute;
+            border-radius: 50%;
+            filter: blur(80px);
+            opacity: 0.6;
+            animation: moveBlobs 12s infinite alternate ease-in-out;
+            pointer-events: none;
+            z-index: 0;
+        }
+
+        #loginOverlay::before {
+            width: 50vw; height: 50vw;
+            background: radial-gradient(circle, rgba(255,59,48,0.5) 0%, rgba(255,149,0,0.2) 100%);
+            top: -10vw; left: -10vw;
+            animation-delay: 0s;
+        }
+
+        #loginOverlay::after {
+            width: 45vw; height: 45vw;
+            background: radial-gradient(circle, rgba(0,122,255,0.4) 0%, rgba(88,86,214,0.2) 100%);
+            bottom: -15vw; right: -5vw;
+            animation-delay: -4s;
+        }
+
+        .login-bg-particles {
+            position: absolute; inset: 0;
+            overflow: hidden; pointer-events: none; z-index: 0;
+        }
+        
+        .login-bg-particles::before {
+            content: ''; position: absolute;
+            width: 60vw; height: 40vw;
+            background: radial-gradient(circle, rgba(52,199,89,0.3) 0%, rgba(0,199,190,0.1) 100%);
+            top: 40%; left: 20%;
+            border-radius: 50%;
+            filter: blur(100px);
+            animation: moveBlobs 15s infinite alternate-reverse ease-in-out;
+        }
+
+        @keyframes moveBlobs {
+            0% { transform: translate(0, 0) scale(1); }
+            50% { transform: translate(10vw, -5vw) scale(1.1); }
+            100% { transform: translate(-5vw, 15vw) scale(0.9); }
+        }
+
+        #loginOverlay.hidden {
+            opacity: 0;
+            visibility: hidden;
+            pointer-events: none;
+        }
+
+        .login-card {
+            position: relative;
+            background: rgba(255, 255, 255, 0.75);
+            backdrop-filter: blur(30px);
+            -webkit-backdrop-filter: blur(30px);
+            border-radius: 28px;
+            padding: 3rem 3.5rem;
+            width: 100%;
+            max-width: 440px;
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.08), 0 0 0 1px rgba(255, 255, 255, 0.5);
+            animation: loginCardIn 0.7s cubic-bezier(0.34, 1.56, 0.64, 1) both;
+            z-index: 1;
+        }
+
+        @keyframes loginCardIn {
+            from { opacity: 0; transform: translateY(40px) scale(0.96); }
+            to { opacity: 1; transform: translateY(0) scale(1); }
+        }
+
+        .login-logo { text-align: center; margin-bottom: 2.2rem; }
+        .login-logo img { height: 52px; }
+
+        .login-title {
+            text-align: center;
+            margin-bottom: 0.4rem;
+            font-family: 'Outfit', sans-serif;
+            font-size: 1.6rem;
+            font-weight: 700;
+            color: #1d1d1f; /* Cor Apple escuro */
+            letter-spacing: -0.03em;
+        }
+
+        .login-sub {
+            text-align: center;
+            font-size: 0.82rem;
+            color: #86868b;
+            margin-bottom: 2.4rem;
+            letter-spacing: 0.02em;
+        }
+
+        .login-field { margin-bottom: 1.2rem; }
+        .login-field label {
+            display: block;
+            font-size: 0.72rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 0.12em;
+            color: #86868b;
+            margin-bottom: 0.5rem;
+        }
+
+        .login-field input {
+            width: 100%;
+            padding: 14px 18px;
+            background: rgba(255,255,255,0.6);
+            border: 1px solid rgba(0,0,0,0.1);
+            border-radius: 14px;
+            color: #1d1d1f;
+            font-size: 0.95rem;
+            font-family: 'Inter', sans-serif;
+            outline: none;
+            transition: all 0.3s ease;
+        }
+
+        .login-field input::placeholder { color: #86868b; }
+        .login-field input:focus {
+            border-color: #0071e3; /* Apple Blue */
+            background: #ffffff;
+            box-shadow: 0 0 0 4px rgba(0, 113, 227, 0.15);
+        }
+
+        .login-error {
+            background: rgba(255, 59, 48, 0.1);
+            border: 1px solid rgba(255, 59, 48, 0.2);
+            border-radius: 10px;
+            padding: 10px 14px;
+            font-size: 0.8rem;
+            color: #ff3b30;
+            margin-bottom: 1.2rem;
+            display: none;
+            align-items: center;
+            gap: 8px;
+        }
+        .login-error.show { display: flex; }
+
+        .btn-login {
+            width: 100%;
+            padding: 15px;
+            background: linear-gradient(135deg, #1d1d1f 0%, #434345 100%);
+            color: #ffffff;
+            font-family: 'Outfit', sans-serif;
+            font-size: 1rem;
+            font-weight: 600;
+            border: none;
+            border-radius: 14px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            margin-top: 0.5rem;
+            letter-spacing: 0.02em;
+            box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+        }
+        .btn-login:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 12px 35px rgba(0, 0, 0, 0.25);
+            background: linear-gradient(135deg, #000000 0%, #222222 100%);
+        }
+        .btn-login:active { transform: translateY(0); }
+
+        .btn-login .spinner {
+            width: 18px; height: 18px;
+            border: 2px solid rgba(255, 255, 255, 0.3);
+            border-top-color: #ffffff;
+            border-radius: 50%;
+            animation: spin 0.6s linear infinite;
+            display: none;
+        }
+        .btn-login.loading .spinner { display: block; }
+        .btn-login.loading .btn-label { display: none; }
+
+        .login-footer {
+            text-align: center;
+            margin-top: 1.8rem;
+            font-size: 0.72rem;
+            color: #86868b;
+            letter-spacing: 0.04em;
+        }
+        .login-footer span { color: #1d1d1f; font-weight: 600; }
+    
+        /* ── TRANSCRIPT STYLE ── */
+        .transcript-container {
+            display: flex;
+            flex-direction: column;
+            gap: 1.25rem;
+            max-height: 450px;
+            overflow-y: auto;
+            padding-right: 8px;
+            scroll-behavior: smooth;
+        }
+        .transcript-container::-webkit-scrollbar {
+            width: 6px;
+        }
+        .transcript-container::-webkit-scrollbar-track {
+            background: rgba(0, 0, 0, 0.02);
+            border-radius: 4px;
+        }
+        .transcript-container::-webkit-scrollbar-thumb {
+            background: rgba(0, 0, 0, 0.15);
+            border-radius: 4px;
+        }
+        .transcript-container::-webkit-scrollbar-thumb:hover {
+            background: rgba(0, 0, 0, 0.25);
+        }
+        .transcript-bubble {
+            display: flex;
+            flex-direction: column;
+            max-width: 80%;
+            padding: 1rem 1.25rem;
+            border-radius: 16px;
+            position: relative;
+            line-height: 1.5;
+            transition: var(--transition);
+        }
+        .transcript-bubble:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.03);
+        }
+        .transcript-bubble.human {
+            align-self: flex-end;
+            margin-left: 20%;
+            background: rgba(0, 188, 242, 0.06);
+            border: 1px solid rgba(0, 188, 242, 0.12);
+            border-bottom-right-radius: 4px;
+        }
+        .transcript-bubble.ai {
+            align-self: flex-start;
+            margin-right: 20%;
+            background: rgba(4, 30, 66, 0.03);
+            border: 1px solid rgba(4, 30, 66, 0.06);
+            border-bottom-left-radius: 4px;
+        }
+        .transcript-label {
+            font-size: 0.72rem;
+            font-weight: 800;
+            text-transform: uppercase;
+            margin-bottom: 6px;
+            letter-spacing: 0.08em;
+            display: flex;
+            align-items: center;
+            gap: 6px;
+        }
+        .transcript-label.human {
+            color: var(--primary);
+            justify-content: flex-end;
+        }
+        .transcript-label.ai {
+            color: var(--accent);
+        }
+        .transcript-text {
+            font-size: 0.88rem;
+            color: var(--text-main);
+            margin: 0;
+            white-space: pre-wrap;
+        }
+
+        /* ── PRINT (PDF) STYLES ── */
+        @media print {
+            body { background: #ffffff !important; color: #000000 !important; }
+            .sidebar { display: none !important; }
+            .main-content { margin-left: 0 !important; width: 100% !important; padding: 0 !important; }
+            .header-actions { display: none !important; }
+            .filter-bar-container { display: none !important; }
+            #loginOverlay { display: none !important; }
+            .stat-card-big, .user-profile-header, .sim-history-card {
+                box-shadow: none !important;
+                border: 1px solid #e2e8f0 !important;
+                page-break-inside: avoid;
+            }
+            .grid-overview { grid-template-columns: repeat(4, 1fr) !important; }
+            * { -webkit-print-color-adjust: exact !important; print-color-adjust: exact !important; }
+            .donut-container canvas { max-width: 120px !important; max-height: 120px !important; }
+        }
+</style>
+</head>
+
+<body>
+
+    
+    <div class="waves-bg">
+        <div class="wave"></div>
+        <div class="wave wave-2"></div>
+        <div class="wave wave-3"></div>
+    </div>
+
+    <div class="container">
+        <header>
+            <div class="logo-area" style="display: flex; align-items: center; gap: 15px;">
+                <img src="https://images.clerk.dev/uploaded/img_3CwTANKf2EFgVAWMKpGKACjyFj6" alt="MetLife Logo" style="height: 44px;">
+                <span style="color: rgba(255,255,255,0.25); font-size: 1.4rem; font-weight: 300;">|</span>
+                <img src="rhapsody_logo.png" alt="rhapsody Intelligence" style="height: 34px; opacity: 0.85;">
+            </div>
+            <nav class="nav-menu">
+                <a href="#" class="nav-link active"><span id="t-menuDashboard">Dashboard</span></a>
+            </nav>
+            <div class="header-controls">
+                <div class="lang-switch">
+                    <button id="btn-pt" class="active" onclick="setLang('pt')">PT-BR</button>
+                    <button id="btn-fr" onclick="setLang('fr')">FRANÇAIS</button>
+                </div>
+                <button class="btn-header" onclick="window.print()">
+                    <i class="fas fa-file-pdf"></i> <span id="t-export-pdf">Exportar PDF</span>
+                </button>
+                <button class="btn-header" onclick="exportCSV()">
+                    <i class="fas fa-file-excel"></i> <span id="t-export">Exportar Excel</span>
+                </button>
+                <button class="btn-header" onclick="showGlobalStats()">
+                    <i class="fas fa-home"></i> <span id="t-generalBtn">Geral</span>
+                </button>
+            </div>
+        </header>
+
+        <div class="main-grid">
+            <!-- Mobile sidebar overlay -->
+            <div class="sidebar-overlay" id="sidebarOverlay" onclick="closeSidebar()"></div>
+
+            <aside class="sidebar" id="mainSidebar">
+                <div class="search-box" style="display: flex; gap: 8px;">
+                    <div style="position: relative; flex-grow: 1;">
+                        <i class="fas fa-search"
+                            style="position: absolute; left: 1rem; top: 50%; transform: translateY(-50%); color: var(--text-muted);"></i>
+                        <input type="text" id="userSearch" placeholder="Buscar..." oninput="renderUserList()"
+                            style="width: 100%; padding-left: 2.8rem;">
+                    </div>
+                    <button onclick="showGlobalStats(); closeSidebar();"
+                        style="padding: 10px; border-radius: 12px; border: 1px solid var(--border); background: #f8fafc; cursor: pointer; color: var(--text-main);">
+                        <i class="fas fa-home"></i>
+                    </button>
+                </div>
+                <div class="user-list" id="userList"></div>
+            </aside>
+
+            <main class="dashboard-content" id="mainContent">
+                <!-- Content will be injected here: Global Stats or User Profile -->
+            </main>
+        </div>
+    </div>
+
+    <!-- Mobile FAB to open sidebar -->
+    <button class="mob-sidebar-btn" id="mobSidebarBtn" onclick="toggleSidebar()">
+        <i class="fas fa-users"></i>
+        <span id="t-usersBtn">USUÁRIOS</span>
+    </button>
+
+    <!-- Floating Simulation Nav -->
+    <div class="sim-nav-floater" id="simNav">
+        <button class="sim-nav-btn" onclick="prevSim()" id="prevSimBtn"><i class="fas fa-chevron-left"></i></button>
+        <div class="sim-nav-info"><span id="currSimIdx">1</span> / <span id="totalSims">38</span></div>
+        <button class="sim-nav-btn" onclick="nextSim()" id="nextSimBtn"><i class="fas fa-chevron-right"></i></button>
+    </div>
+
+    <script>
+        // ── Mobile Sidebar Drawer ──
+        function toggleSidebar() {
+            const sidebar = document.getElementById('mainSidebar');
+            const overlay = document.getElementById('sidebarOverlay');
+            const btn = document.getElementById('mobSidebarBtn');
+            const isOpen = sidebar.classList.contains('open');
+            if (isOpen) {
+                sidebar.classList.remove('open');
+                overlay.classList.remove('open');
+                btn.innerHTML = `<i class="fas fa-users"></i> <span>${ui[currentLang].usersBtn}</span>`;
+            } else {
+                sidebar.classList.add('open');
+                overlay.classList.add('open');
+                btn.innerHTML = `<i class="fas fa-times"></i> <span>${ui[currentLang].closeBtn}</span>`;
+                document.getElementById('userSearch').focus();
+            }
+        }
+        function closeSidebar() {
+            const sidebar = document.getElementById('mainSidebar');
+            if (sidebar) sidebar.classList.remove('open');
+            const overlay = document.getElementById('sidebarOverlay');
+            if (overlay) overlay.classList.remove('open');
+            const btn = document.getElementById('mobSidebarBtn');
+            if (btn) btn.innerHTML = `<i class="fas fa-users"></i> <span>${ui[currentLang].usersBtn}</span>`;
+        }
+
+        // Global Data Cleaning
+        function fixEnc(s) {
+            if (!s) return "";
+            return s.replace(/Ã§/g, 'ç').replace(/ã/g, 'ã').replace(/é/g, 'é').replace(/ê/g, 'ê').replace(/ó/g, 'ó').replace(/á/g, 'á').replace(/í/g, 'í').replace(/à/g, 'à');
+        }
+
+        function translateScenario(sc) {
+            if (!sc) return "";
+            if (sc === "PROSPECT_FRIO") {
+                return currentLang === 'pt' 
+                    ? "📞 PROSPECÇÃO – Transformar um prospect frio em uma reunião qualificada" 
+                    : "📞 PROSPECTION – Transformer un prospect froid en rendez-vous qualifié";
+            }
+            if (sc === "ENVIE_DOCUMENT") {
+                return currentLang === 'pt' 
+                    ? "📄 PROSPECÇÃO – Transformar o pedido 'Envie-me um documento' em agendamento de reunião" 
+                    : "📄 PROSPECTION – Transformer la demande 'Envoyez-moi un document' en prise de rendez-vous";
+            }
+            if (sc === "COBERTURA_DECES") {
+                return currentLang === 'pt' 
+                    ? "🛡️ ARGUMENTAÇÃO – Convencer um prospect da pertinência de uma cobertura de vida/sucessão" 
+                    : "🛡️ ARGUMENTAIRE – Convaincre un prospect de la pertinence d'une couverture décès MetLife";
+            }
+            if (sc === "RECOMENDACOES") {
+                return currentLang === 'pt' 
+                    ? "🤝 FIDELIZAÇÃO – Ativar recomendações após uma venda bem-sucedida" 
+                    : "🤝 FIDÉLISATION – Activer les recommandations après une vente réussie";
+            }
+            return sc;
+        }
+
+        function getArea(sc) {
+            if (sc === "PROSPECT_FRIO" || sc === "ENVIE_DOCUMENT") return "Recepcionista";
+            if (sc === "COBERTURA_DECES") return "Concierge";
+            if (sc === "RECOMENDACOES") return "Guest Attendant";
+            return ui[currentLang].areaOutros;
+        }
+
+
+        function animateValue(obj, start, end, duration, suffix = '') {
+            let startTimestamp = null;
+            const step = (timestamp) => {
+                if (!startTimestamp) startTimestamp = timestamp;
+                const progress = Math.min((timestamp - startTimestamp) / duration, 1);
+                obj.innerHTML = Math.floor(progress * (end - start) + start) + suffix;
+                if (progress < 1) {
+                    window.requestAnimationFrame(step);
+                } else {
+                    obj.innerHTML = end + suffix;
+                }
+            };
+            window.requestAnimationFrame(step);
+        }
+
+        function runCountUp() {
+            document.querySelectorAll('.count-up').forEach(el => {
+                const end = parseInt(el.getAttribute('data-val')) || 0;
+                const suffix = el.getAttribute('data-suffix') || '';
+                animateValue(el, 0, end, 500, suffix);
+            });
+        }
+
+        const excludedNames = ['philippe lepeuple', 'philippe de langlais', 'sophie geraud', 'sophie géraud', 'tabajara dias', 'rhapsody', 'teste'];
+
+        // Helper para limpar nomes
+        const cleanName = n => n ? fixEnc(n).trim().toLowerCase() : "";
+
+        let currentLang = 'pt';
+        let chart = null; // Instância do gráfico individual
+        let gTrendChart = null; // Instância do gráfico global de tendência
+        let currentSimIndex = 0;
+        let currentFilterUser = null;
+        var currentFilterArea = null;
+        var currentFilterUseCase = null;
+        var currentFilterStatus = 'finished';
+        var currentFilterAgency = null;
+        var currentFilterRegion = null;
+
+        const ui = {
+            pt: {
+                menuDashboard: "Dashboard",
+                menuReport: "Resumo",
+                export: "Exportar Excel",
+                sessions: "Simulações",
+                avgScore: "Score Geral",
+                lqa: "Aderência ao Metbook",
+                avgTimePerRun: "Média de Tempo de Simulações",
+                time: "Média de Tempo de Simulações",
+                behavior: "Resumo Comportamental Técnico",
+                skills: "Matriz de Competências",
+                dates: "Datas Ativas",
+                trend: "Evolução Histórica",
+                teamStats: "Resumo Geral da Operação",
+                topPerformers: "Destaques Técnicos",
+                avgTeamScore: "Média do Time",
+                totalMinutes: "Minutos Totais",
+                totalHours: "Horas Totais",
+                areaAtuacao: "Área de Atuação",
+                distinctScenarios: "Uses Cases",
+                useCase: "Uses Case",
+                simulationsList: "Histórico de Simulações",
+                colNumber: "Simulação",
+                colUser: "Colaborador",
+                colDate: "Data",
+                colScore: "Score",
+                colDuration: "Duração",
+                collaborators: "Colaboradores",
+                search: "Buscar...",
+                areaAtuacaoLabel: "Área de Atuação:",
+                allAreas: "Todas as Áreas",
+                allCases: "Todos os Cases",
+                vsTime: "vs time",
+                noCompData: "Sem dados de comparação",
+                teamAvg: "Média do Time",
+                areaRecepcionista: "Prospecção",
+                areaConcierge: "Argumentação de Venda",
+                areaGuestAttendant: "Fidelização & Recomendações",
+                areaOutros: "Outros",
+                usersBtn: "USUÁRIOS",
+                closeBtn: "FECHAR",
+                contextLabel: "Contexto:",
+                noFeedback: "Sem feedback detalhado disponível",
+                rankingLabel: "Ranking",
+                ofTotal: "de",
+                globalMetrics: "Métricas Globais da",
+                operation: "Operação",
+                execVision: "Visão executiva da performance técnica e taxa de transformação comercial de todo o time MetLife.",
+                defScoreGeral: "Média ponderada de todas as competências técnicas avaliadas pela rhapsody IA em cada interação.",
+                defLqa: "Nível de conformidade com as diretrizes e padrões de atendimento estabelecidos no Metbook da MetLife (obtenção de reunião/agendamento).",
+                topUseCases: "Cenários mais Utilizados",
+                usageBy: "Uso por Colaborador",
+                periodLabel: "Período Analisado:",
+                perfDistribution: "Distribuição de Performance",
+                generalAvg: "SCORE GERAL",
+                lqaPattern: "METBOOK",
+                performanceOf: "Performance de",
+                behaviorAnalysis: "Análise comportamental baseada em",
+                simulationsDone: "simulações realizadas com a rhapsody IA.",
+                languagesLabel: "Idiomas",
+                lastSimulation: "Última Simulação",
+                back: "Voltar",
+                simDetails: "Detalhes da Simulação",
+                aiFeedback: "Feedback da IA",
+                realTimeSession: "Sessão em Tempo Real",
+                toneOfVoice: "Tom de Voz",
+                sentiment: "Sentimento Predominante",
+                sessionPerf: "Performance da Sessão",
+                filterByUser: "Filtrar por Usuário",
+                allUsers: "Todos os Usuários",
+                waitingData: "Aguardando dados históricos...",
+                generalBtn: "Geral",
+                transcriptTitle: "Transcrição da Simulação",
+                noTranscript: "Nenhuma transcrição disponível para esta simulação.",
+                statusLabel: "Status dos Runs:",
+                statusAll: "Todos",
+                statusFinished: "Finalizados",
+                statusUnfinished: "Não Finalizados",
+                skillNames: {
+                    Escuta: "Escuta Ativa",
+                    Empatia: "Qualificação Rápida",
+                    Crises: "Lidar com Objeções",
+                    Padroes: "Assertividade",
+                    Personalizacao: "Postura Consultiva"
+                }
+            },
+            fr: {
+                menuDashboard: "Dashboard",
+                menuReport: "Résumé",
+                export: "Exporter Excel",
+                sessions: "Simulations",
+                avgScore: "Score Global",
+                lqa: "Conformité Metbook",
+                avgTimePerRun: "Temps Moyen des Simulations",
+                time: "Temps Moyen des Simulations",
+                behavior: "Résumé Comportemental Technique",
+                skills: "Matrice de Compétences",
+                dates: "Dates Actives",
+                trend: "Évolution Historique",
+                teamStats: "Résumé Général de l'Opération",
+                topPerformers: "Points Forts Techniques",
+                avgTeamScore: "Moyenne Équipe",
+                totalMinutes: "Minutes Totales",
+                totalHours: "Heures Totales",
+                distinctScenarios: "Scénarios Distincts",
+                useCase: "Scénario",
+                simulationsList: "Historique des Simulations",
+                colNumber: "Simulation",
+                colUser: "Collaborateur",
+                colDate: "Date",
+                colScore: "Score",
+                colDuration: "Durée",
+                collaborators: "Collaborateurs",
+                search: "Rechercher...",
+                globalMetrics: "Métriques Globales de",
+                operation: "l'Opération",
+                execVision: "Vision exécutive des performances techniques et du taux de transformation commerciale de toute l'équipe MetLife.",
+                perfDistribution: "Distribution des Performances",
+                generalAvg: "MOYENNE GÉNÉRALE",
+                lqaPattern: "METBOOK",
+                performanceOf: "Performance de",
+                behaviorAnalysis: "Analyse comportementale basée sur",
+                simulationsDone: "simulations réalisées avec rhapsody IA.",
+                languagesLabel: "Langues",
+                back: "Retour",
+                simDetails: "Détails de la Simulation",
+                lastSimulation: "Dernière Simulation",
+                aiFeedback: "Retour de l'IA",
+                realTimeSession: "Session en Temps Réel",
+                toneOfVoice: "Ton de la Voix",
+                sentiment: "Sentiment Prédominant",
+                sessionPerf: "Performance de la Session",
+                filterByUser: "Filtrar par Utilisateur",
+                allUsers: "Tous les Utilisateurs",
+                waitingData: "En attente de données historiques...",
+                generalBtn: "Général",
+                areaAtuacao: "Domaine d'Activité",
+                areaAtuacaoLabel: "Domaine d'Activité:",
+                allAreas: "Tous les Domaines",
+                allCases: "Tous les Scénarios",
+                vsTime: "vs équipe",
+                noCompData: "Pas de données de comparaison",
+                teamAvg: "Moyenne Équipe",
+                areaRecepcionista: "Prospection",
+                areaConcierge: "Argumentação de Venda",
+                areaGuestAttendant: "Fidelização & Recomendações",
+                areaOutros: "Autres",
+                usersBtn: "UTILISATEURS",
+                closeBtn: "FERMER",
+                contextLabel: "Contexte:",
+                noFeedback: "Aucun feedback détaillé disponible",
+                rankingLabel: "Classement",
+                ofTotal: "sur",
+                defScoreGeral: "Moyenne pondérée de toutes les compétences techniques évaluées par rhapsody IA à chaque interaction.",
+                defLqa: "Niveau de conformité avec les directives et standards de prospection du Metbook MetLife.",
+                topUseCases: "Scénarios les plus Utilisés",
+                usageBy: "Utilisation par Collaborateur",
+                periodLabel: "Période Analysée:",
+                transcriptTitle: "Transcription de la Simulation",
+                noTranscript: "Aucune transcription disponible pour cette simulation.",
+                statusLabel: "Statut des Runs:",
+                statusAll: "Tous",
+                statusFinished: "Finalisés",
+                statusUnfinished: "Non Finalisés",
+                skillNames: {
+                    Escuta: "Écoute Active",
+                    Empatia: "Qualification Rapide",
+                    Crises: "Gestion des Objections",
+                    Padroes: "Assertivité",
+                    Personalizacao: "Posture Consultative"
+                }
+            }
+        };
+
+        function setLang(lang) {
+            currentLang = lang;
+            localStorage.setItem('metlifeLang', lang);
+            document.getElementById('btn-pt').className = lang === 'pt' ? 'active' : '';
+            document.getElementById('btn-fr').className = lang === 'fr' ? 'active' : '';
+
+            Object.entries(ui[lang]).forEach(([k, v]) => {
+                const el = document.getElementById('t-' + k);
+                if (el) el.innerText = v;
+            });
+
+            const searchEl = document.getElementById('userSearch');
+            if (searchEl) searchEl.placeholder = ui[lang].search;
+
+            renderUserList();
+            if (window.activeUser) selectUser(window.activeUser);
+            else showGlobalStats();
+        }
+
+        // ── Helper: Correção de Acentos e Encoding ──
+        function fixEnc(s) {
+            if (!s) return "";
+            return s.replace(/é/g, 'é').replace(/á/g, 'á').replace(/ó/g, 'ó').replace(/ê/g, 'ê')
+                .replace(/Ã§/g, 'ç').replace(/ã/g, 'ã').replace(/Ã /g, 'à').replace(/í/g, 'í')
+                .replace(/–/g, '–').replace(/É/g, 'É').replace(/Ã /g, 'Á');
+        }
+
+        // ── Helper: Tradução de Cenários ──
+        function translateScenario(sc) {
+            if (!sc) return "";
+            if (sc === "PROSPECT_FRIO") {
+                return currentLang === 'pt' 
+                    ? "📞 PROSPECÇÃO – Transformar um prospect frio em uma reunião qualificada" 
+                    : "📞 PROSPECTION – Transformer un prospect froid en rendez-vous qualifié";
+            }
+            if (sc === "ENVIE_DOCUMENT") {
+                return currentLang === 'pt' 
+                    ? "📄 PROSPECÇÃO – Transformar o pedido 'Envie-me um documento' em agendamento de reunião" 
+                    : "📄 PROSPECTION – Transformer la demande 'Envoyez-moi un document' en prise de rendez-vous";
+            }
+            if (sc === "COBERTURA_DECES") {
+                return currentLang === 'pt' 
+                    ? "🛡️ ARGUMENTAÇÃO – Convencer um prospect da pertinência de uma cobertura de vida/sucessão" 
+                    : "🛡️ ARGUMENTAIRE – Convaincre un prospect de la pertinence d'une couverture décès MetLife";
+            }
+            if (sc === "RECOMENDACOES") {
+                return currentLang === 'pt' 
+                    ? "🤝 FIDELIZAÇÃO – Ativar recomendações após uma venda bem-sucedida" 
+                    : "🤝 FIDÉLISATION – Activer les recommandations après une vente réussie";
+            }
+            return sc;
+        }
+
+        function getArea(sc) {
+            if (sc === "PROSPECT_FRIO" || sc === "ENVIE_DOCUMENT") return "Recepcionista";
+            if (sc === "COBERTURA_DECES") return "Concierge";
+            if (sc === "RECOMENDACOES") return "Guest Attendant";
+            return ui[currentLang].areaOutros;
+        }
+
+        function hideSimNav() {
+            document.getElementById('simNav').style.display = 'none';
+        }
+
+        function renderUserList() {
+            const list = document.getElementById('userList');
+            const search = document.getElementById('userSearch').value.toLowerCase();
+            list.innerHTML = '';
+
+            activeUsers.filter(u => {
+                const matchSearch = u.name.toLowerCase().includes(search);
+                const matchAgency = !currentFilterAgency || u.agency === currentFilterAgency;
+                const matchRegion = !currentFilterRegion || u.region === currentFilterRegion;
+                return matchSearch && matchAgency && matchRegion;
+            }).forEach(u => {
+                const item = document.createElement('div');
+                item.className = 'user-item' + (window.activeUser && window.activeUser.name === u.name ? ' active' : '');
+                const scoreText = u.avgScore !== null ? `${u.avgScore}%` : 'N/A';
+                const lqaText = u.lqaScore !== null ? `${u.lqaScore}%` : 'N/A';
+                item.innerHTML = `
+                    <div style="display: flex; justify-content: space-between; align-items: center;">
+                        <span class="user-name">${u.name}</span>
+                    </div>
+                    <div class="user-meta-small" style="display: flex; gap: 12px; justify-content: flex-start;">
+                        <span>${u.count} ${ui[currentLang].sessions.toLowerCase()}</span>
+                        <span style="color: var(--primary); font-weight: 700;">Score: ${scoreText}</span>
+                        <span style="color: #6366f1; font-weight: 700;">Metbook: ${lqaText}</span>
+                    </div>
+                `;
+                item.onclick = () => { selectUser(u); closeSidebar(); };
+                list.appendChild(item);
+            });
+        }
+
+        // ── Inteligência de Dados (Pós-Carregamento) ──
+
+        // Primeiro, filtramos as simulações válidas globalmente
+        const VALID_SIMS = RAW_SIMULATIONS.filter(s => {
+            const name = cleanName(s.name);
+            const isInternal = excludedNames.some(ex => name.includes(ex));
+            const minInteractions = s.finished ? (s.interactions ? s.interactions >= 3 : getSec(s.dur) >= 45) : true;
+            return minInteractions && !isInternal;
+        });
+
+        // Agora derivamos os usuários ativos APENAS de simulações válidas
+                const activeUsers = [...new Set(VALID_SIMS.map(s => s.name))].map(name => {
+            const userSims = VALID_SIMS.filter(s => s.name === name);
+            const userFinishedSims = userSims.filter(s => s.finished);
+            const original = (typeof users !== 'undefined' ? users : []).find(u => cleanName(u.name) === cleanName(name)) || {};
+            const avgScore = userFinishedSims.length > 0
+                ? Math.round(userFinishedSims.reduce((a, b) => a + b.score, 0) / userFinishedSims.length)
+                : (original.avgScore || 0);
+
+            const totalSecs = userSims.reduce((acc, s) => acc + getSec(s.dur), 0);
+            const avgSecs = totalSecs / userSims.length;
+            const langsCount = (Array.isArray(original.languages) ? original.languages : (original.languages ? [original.languages] : [])).length || 1;
+            
+            const sortedDates = userSims.map(s => s.date).sort((a, b) => {
+                const [d1, m1, y1] = a.split('/');
+                const [d2, m2, y2] = b.split('/');
+                return new Date(y1, m1 - 1, d1) - new Date(y2, m2 - 1, d2);
+            });
+            const lastDateStr = sortedDates[sortedDates.length - 1];
+            let recencyScore = 0;
+            if (lastDateStr) {
+                const [d, m, y] = lastDateStr.split('/');
+                recencyScore = new Date(y, m - 1, d).getTime();
+            }
+
+            return {
+                name: fixEnc(name),
+                count: userSims.length,
+                avgScore: avgScore,
+                lqaScore: original.lqaScore || avgScore,
+                languages: original.languages || ['PT'],
+                langsCount: langsCount,
+                dates: [...new Set(userSims.map(s => s.date))],
+                skills: original.skills || { Escuta: 75, Empatia: 80, Crises: 65, Padroes: 85, Personalizacao: 70 },
+                insights: original.insights || { pt: [], fr: [] },
+                avgSecs: avgSecs,
+                recencyScore: recencyScore,
+                agency: original.agency || 'Outros',
+                region: original.region || 'Outros'
+            };
+        });
+
+        const maxAvgSecs = Math.max(...activeUsers.map(u => u.avgSecs)) || 1;
+        const maxCount = Math.max(...activeUsers.map(u => u.count)) || 1;
+        const maxLangs = Math.max(...activeUsers.map(u => u.langsCount)) || 1;
+        const minRecency = Math.min(...activeUsers.map(u => u.recencyScore));
+        const maxRecency = Math.max(...activeUsers.map(u => u.recencyScore));
+        const recencyRange = (maxRecency - minRecency) || 1;
+
+        activeUsers.forEach(u => {
+            u.engagementScore = Math.round(
+                ((u.avgSecs / maxAvgSecs) * 35) +
+                ((u.count / maxCount) * 35) +
+                (((u.recencyScore - minRecency) / recencyRange) * 30)
+            );
+        });
+
+        activeUsers.sort((a, b) => b.engagementScore - a.engagementScore);
+
+        function getSec(s) {
+            if (!s || typeof s !== 'string') return 0;
+            const parts = s.split(' ');
+            let sec = 0;
+            parts.forEach(p => {
+                if (p.includes('m')) sec += (parseInt(p) || 0) * 60;
+                else if (p.includes('s')) sec += (parseInt(p) || 0);
+            });
+            return sec;
+        }
+
+        function fmtTime(totalSeconds) {
+            const h = Math.floor(totalSeconds / 3600);
+            const m = Math.floor((totalSeconds % 3600) / 60);
+            const s = totalSeconds % 60;
+            const mUnit = currentLang === 'fr' ? 'min' : 'm';
+            if (h > 0) return `${h}h ${m}${mUnit}`;
+            if (m > 0) return `${m}${mUnit} ${s}s`;
+            return `${s}s`;
+        }
+
+        function renderSimulationsTable(filterUser = null, filterArea = null) {
+            let html = `
+                <div class="sim-table-container">
+                    <h3 style="margin-bottom: 1.5rem; color: var(--accent); font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.1em;">
+                        ${ui[currentLang].simulationsList}
+                    </h3>
+                    <div style="overflow-x: auto;">
+                        <table class="sim-table">
+                            <thead>
+                                <tr>
+                                    <th>${ui[currentLang].colNumber}</th>
+                                    <th>${ui[currentLang].colUser}</th>
+                                    <th>${ui[currentLang].colDate}</th>
+                                    <th>${ui[currentLang].useCase}</th>
+                                    <th>${ui[currentLang].colScore}</th>
+                                    <th>${ui[currentLang].colDuration}</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+            `;
+
+            let simCount = 1;
+            let filteredIdx = 0;
+            VALID_SIMS.forEach((s, i) => {
+                if (filterUser && s.name !== filterUser) return;
+
+                let area = getArea(s.scenario);
+
+                if (filterArea && area !== filterArea) return;
+                if (currentFilterUseCase && s.scenario !== currentFilterUseCase) return;
+                if (currentFilterStatus) {
+                    if (currentFilterStatus === 'finished' && !s.finished) return;
+                    if (currentFilterStatus === 'unfinished' && s.finished) return;
+                }
+
+                const badgeClass = !s.finished ? 'score-low' : (s.score >= 80 ? 'score-high' : (s.score >= 60 ? 'score-mid' : 'score-low'));
+                const scoreText = !s.finished ? 'N/A' : `${s.score}%`;
+
+                html += `
+                    <tr onclick="showSimulationDetail(${filteredIdx++}, ${filterUser ? `'${filterUser}'` : 'null'})" style="cursor: pointer;">
+                        <td>#${simCount++}</td>
+                        <td><strong>${s.name}</strong></td>
+                        <td>${s.date}</td>
+                        <td>${translateScenario(s.scenario)}</td>
+                        <td><span class="score-badge ${badgeClass}">${scoreText}</span></td>
+                        <td>${s.dur}</td>
+                    </tr>
+                `;
+            });
+
+            html += `
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            `;
+            return html;
+        }
+
+        function showSimulationDetail(localIndex, filterUser = null) {
+            currentFilterUser = filterUser === 'all' ? null : filterUser;
+            const filtered = VALID_SIMS.filter(s => {
+                if (currentFilterUser && cleanName(s.name) !== cleanName(currentFilterUser)) return false;
+                if (currentFilterArea) {
+                    let area = getArea(s.scenario);
+                    if (area !== currentFilterArea) return false;
+                }
+                if (currentFilterStatus) {
+                    if (currentFilterStatus === 'finished' && !s.finished) return false;
+                    if (currentFilterStatus === 'unfinished' && s.finished) return false;
+                }
+                return true;
+            });
+
+            if (!filtered.length) return;
+            currentSimIndex = localIndex;
+            const sim = filtered[localIndex];
+            const user = activeUsers.find(u => u.name === sim.name) || activeUsers[0];
+            const content = document.getElementById('mainContent');
+
+            // Derive sim-specific skills
+            const ratio = sim.finished ? sim.score / user.avgScore : 0.5;
+            const simSkills = {};
+            Object.keys(user.skills).forEach(k => {
+                simSkills[k] = Math.min(100, Math.max(20, Math.round(user.skills[k] * ratio + (Math.random() * 8 - 4))));
+            });
+
+            const tones = ["Profissional", "Empático", "Proativo", "Calmo", "Diplomático"];
+            const simTone = sim.finished ? tones[localIndex % tones.length] : "N/A";
+            const simSent = !sim.finished ? "N/A" : (sim.score >= 75 ? "Positivo" : (sim.score >= 55 ? "Neutro" : "Atenção"));
+            const sentClass = !sim.finished ? "sent-neu" : (sim.score >= 75 ? "sent-pos" : "sent-neu");
+
+            // Show floater
+            const floater = document.getElementById('simNav');
+            floater.style.display = 'flex';
+            document.getElementById('currSimIdx').innerText = localIndex + 1;
+            document.getElementById('totalSims').innerText = filtered.length;
+            document.getElementById('prevSimBtn').disabled = (localIndex === 0);
+            document.getElementById('nextSimBtn').disabled = (localIndex === filtered.length - 1);
+
+            content.innerHTML = `
+                <div id="simDetail">
+                    <div style="display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 2rem;">
+                        <button onclick="hideSimNav(); window.activeUser ? selectUser(window.activeUser) : showGlobalStats()" class="btn-secondary">
+                            <i class="fas fa-arrow-left"></i> ${ui[currentLang].back}
+                        </button>
+                        
+                        <div class="custom-dropdown" id="areaDropdown" style="min-width: 200px;">
+                            <div class="dropdown-trigger" onclick="toggleDropdown()">
+                                <div style="display: flex; align-items: center; gap: 12px;">
+                                    <i class="fas fa-filter" style="font-size: 0.8rem; opacity: 0.6;"></i>
+                                    <span id="selectedAreaLabel">${currentFilterUser ? currentFilterUser : ui[currentLang].allUsers}</span>
+                                </div>
+                                <i class="fas fa-chevron-down" style="font-size: 0.7rem; transition: transform 0.3s ease;" id="dropdownArrow"></i>
+                            </div>
+                            <div class="dropdown-menu">
+                                <div class="dropdown-item ${!currentFilterUser ? 'selected' : ''}" onclick="showSimulationDetail(0, 'all')">
+                                    <i class="fas fa-users"></i> ${ui[currentLang].allUsers}
+                                </div>
+                                ${activeUsers.map(u => `
+                                    <div class="dropdown-item ${currentFilterUser === u.name ? 'selected' : ''}" onclick="showSimulationDetail(0, '${u.name}')">
+                                        <i class="fas fa-user"></i> ${u.name}
+                                    </div>
+                                `).join('')}
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <header class="header-section" style="padding: 2.5rem !important; min-height: auto; margin-bottom: 2rem !important;">
+                        <div class="header-content-left">
+                            <h1 style="font-size: 2.5rem;">${ui[currentLang].simDetails} <span>#${localIndex + 1}</span></h1>
+                        </div>
+                        <div class="header-content-right">
+                            <p class="header-desc" style="font-size: 1rem;">${sim.name} • ${sim.date} • <strong>${translateScenario(sim.scenario)}</strong></p>
+                        </div>
+                    </header>
+
+                    <div class="stats-grid" style="margin-bottom: 2rem;">
+                        <div class="stat-card-big">
+                            ${sim.finished ? `<span class="val count-up" data-val="${sim.score}" data-suffix="%">0%</span>` : `<span class="val">N/A</span>`}
+                            <span class="lab">${ui[currentLang].avgScore}</span>
+                        </div>
+                        <div class="stat-card-big">
+                            <span class="val" style="font-size: 1.5rem; margin-top: 10px;">${sim.dur}</span>
+                            <span class="lab">${ui[currentLang].colDuration}</span>
+                        </div>
+                        <div class="stat-card-big">
+                            <div style="margin-top: 15px;">
+                                <span class="sentiment-badge ${sentClass}">${simSent}</span>
+                            </div>
+                            <span class="lab">${ui[currentLang].sentiment}</span>
+                        </div>
+                        <div class="stat-card-big">
+                            <div style="margin-top: 15px;">
+                                <span class="tone-tag">${simTone}</span>
+                            </div>
+                            <span class="lab">${ui[currentLang].toneOfVoice}</span>
+                        </div>
+                    </div>
+
+                    <div class="analysis-grid">
+                        <div class="card">
+                            <h3 style="color: var(--accent); text-transform: uppercase; font-size: 0.8rem; letter-spacing: 0.1em; margin-bottom: 2rem;">${ui[currentLang].aiFeedback}</h3>
+                            <div class="insight-box">
+                                <div class="insight-header">
+                                    <i class="fas fa-microphone"></i>
+                                    <h4>${ui[currentLang].realTimeSession}</h4>
+                                </div>
+                                <ul class="bullet-list">
+                                ${(() => {
+                    const allInsights = user.insights[currentLang] || [];
+                    const scenarioContext = {
+                        "PROSPECT_FRIO": {
+                            pt: "Foco em contorno de objeções iniciais, postura consultiva e escolha forçada de horários.",
+                            fr: "Focus sur le traitement des objections initiales, posture consultative et choix forcé."
+                        },
+                        "ENVIE_DOCUMENT": {
+                            pt: "Foco em identificar a real necessidade por trás do pedido de documento e reter controle.",
+                            fr: "Focus sur l'identification du besoin réel derrière la demande de document."
+                        },
+                        "COBERTURA_DECES": {
+                            pt: "Foco em empatia, abordagem ética de temas delicados e sensibilização sobre proteção familiar.",
+                            fr: "Focus sur l'empathie, l'approche éthique de sujets délicats et la sensibilisation."
+                        },
+                        "RECOMENDACOES": {
+                            pt: "Foco em aproveitar a satisfação pós-venda para obter indicações de forma natural.",
+                            fr: "Focus sur l'obtention de recommandations qualifiées de manière naturelle."
+                        }
+                    };;
+
+                    const contextText = scenarioContext[sim.scenario] ? (scenarioContext[sim.scenario][currentLang] || scenarioContext[sim.scenario].pt) : "";
+                    const contextNote = `<li><strong>${ui[currentLang].contextLabel}</strong> ${contextText}</li>`;
+
+                    if (!allInsights.length) return contextNote + `<li>${ui[currentLang].noFeedback}</li>`;
+
+                    const count = allInsights.length;
+                    // Jumping selection for more variety
+                    const p1 = (localIndex * 2) % count;
+                    const p2 = (localIndex * 2 + 1) % count;
+                    const selected = [...new Set([allInsights[p1], allInsights[p2]])];
+
+                    return contextNote + selected.map(txt => `<li>${fixEnc(txt)}</li>`).join('');
+                })()}
+                            </ul>
+                            </div>
+                        </div>
+
+                        <div class="card">
+                            <h3 style="color: var(--accent); text-transform: uppercase; font-size: 0.8rem; letter-spacing: 0.1em; margin-bottom: 2rem;">${ui[currentLang].skills}</h3>
+                            <div id="u-skills-sim">
+                                ${Object.keys(simSkills).map(k => `
+                                    <div class="skill-bar-container">
+                                        <div class="skill-label-row">
+                                            <span>${ui[currentLang].skillNames[k] || k}</span>
+                                            <span>${simSkills[k]}%</span>
+                                        </div>
+                                        <div class="skill-track">
+                                            <div class="skill-bar-fill" style="width: ${simSkills[k]}%"></div>
+                                        </div>
+                                    </div>
+                                `).join('')}
+                            </div>
+                        </div>
+                    </div>
+                    
+                    ${(() => {
+                        const transcriptTitle = ui[currentLang].transcriptTitle || 'Transcrição da Simulação';
+                        const noTranscriptText = ui[currentLang].noTranscript || 'Nenhuma transcrição disponível para esta simulação.';
+                        
+                        if (sim.messages && sim.messages.length > 0) {
+                            return `
+                                <div class="card" style="margin-top: 2rem;">
+                                    <h3 style="color: var(--accent); text-transform: uppercase; font-size: 0.8rem; letter-spacing: 0.1em; margin-bottom: 1.5rem;">
+                                        <i class="fas fa-comments" style="margin-right: 8px; color: var(--primary);"></i> ${transcriptTitle}
+                                    </h3>
+                                    <div class="transcript-container">
+                                        ${sim.messages.map(msg => {
+                                            const isHuman = msg.role === 'HUMAN';
+                                            const bubbleClass = isHuman ? 'human' : 'ai';
+                                            const label = isHuman ? (currentLang === 'pt' ? 'Você' : 'Vous') : 'rhapsody';
+                                            const icon = isHuman ? '<i class="fas fa-user"></i>' : '<i class="fas fa-robot"></i>';
+                                            return `
+                                                <div class="transcript-bubble ${bubbleClass}">
+                                                    <span class="transcript-label ${bubbleClass}">
+                                                        ${isHuman ? label + ' ' + icon : icon + ' ' + label}
+                                                    </span>
+                                                    <p class="transcript-text">${fixEnc(msg.text)}</p>
+                                                </div>
+                                            `;
+                                        }).join('')}
+                                    </div>
+                                </div>
+                            `;
+                        } else {
+                            return `
+                                <div class="card" style="margin-top: 2rem;">
+                                    <h3 style="color: var(--accent); text-transform: uppercase; font-size: 0.8rem; letter-spacing: 0.1em; margin-bottom: 1.5rem;">
+                                        <i class="fas fa-comments" style="margin-right: 8px; color: var(--primary);"></i> ${transcriptTitle}
+                                    </h3>
+                                    <p style="font-size: 0.9rem; color: var(--text-muted); text-align: center; padding: 30px 0;">
+                                        <i class="fas fa-comment-slash" style="font-size: 1.5rem; display: block; margin-bottom: 10px; opacity: 0.4;"></i>
+                                        ${noTranscriptText}
+                                    </p>
+                                </div>
+                            `;
+                        }
+                    })()}
+                </div>
+            `;
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+            runCountUp();
+        }
+
+        function prevSim() { if (currentSimIndex > 0) showSimulationDetail(currentSimIndex - 1, currentFilterUser); }
+        function nextSim() {
+            const filtered = VALID_SIMS.filter(s => {
+                if (currentFilterUser && cleanName(s.name) !== cleanName(currentFilterUser)) return false;
+                if (currentFilterArea) {
+                    let area = getArea(s.scenario);
+                    if (area !== currentFilterArea) return false;
+                }
+                return true;
+            });
+            if (currentSimIndex < filtered.length - 1) showSimulationDetail(currentSimIndex + 1, currentFilterUser);
+        }
+        function hideSimNav() {
+            document.getElementById('simNav').style.display = 'none';
+            currentFilterUser = null;
+        }
+
+        function showGlobalStats() {
+            hideSimNav();
+            window.activeUser = null;
+            renderUserList();
+
+            // Filtragem Dinâmica por Contexto (Área, Use Case e Status)
+            let filteredSims = VALID_SIMS;
+
+            if (currentFilterArea) {
+                filteredSims = filteredSims.filter(s => {
+                    return getArea(s.scenario) === currentFilterArea;
+                });
+            }
+            if (currentFilterAgency) {
+                filteredSims = filteredSims.filter(s => s.agency === currentFilterAgency);
+            }
+            if (currentFilterRegion) {
+                filteredSims = filteredSims.filter(s => s.region === currentFilterRegion);
+            }
+
+            if (currentFilterUseCase) {
+                filteredSims = filteredSims.filter(s => s.scenario === currentFilterUseCase);
+            }
+
+            if (currentFilterStatus) {
+                if (currentFilterStatus === 'finished') {
+                    filteredSims = filteredSims.filter(s => s.finished);
+                } else if (currentFilterStatus === 'unfinished') {
+                    filteredSims = filteredSims.filter(s => !s.finished);
+                }
+            }
+
+            const totalSessions = filteredSims.length;
+
+            // Médias baseadas nos usuários que participaram das simulações filtradas
+            const usersInFilter = [...new Set(filteredSims.map(s => s.name))];
+            const activeInFilter = activeUsers.filter(u => usersInFilter.some(n => cleanName(n) === cleanName(u.name)));
+            const activeCount = activeInFilter.length || 1;
+
+            const finishedSimsInFilter = filteredSims.filter(s => s.finished);
+            const hasScores = finishedSimsInFilter.length > 0;
+            const avgScore = hasScores ? Math.round(finishedSimsInFilter.reduce((a, b) => a + b.score, 0) / finishedSimsInFilter.length) : 0;
+            const avgLqa = hasScores ? Math.round(activeInFilter.reduce((a, b) => a + (b.lqaScore || 0), 0) / activeCount) : 0;
+
+            const totalSeconds = filteredSims.reduce((acc, s) => acc + getSec(s.dur), 0);
+            const avgTimePerRun = totalSessions > 0 ? Math.round(totalSeconds / totalSessions) : 0;
+
+            const totalAreas = new Set(filteredSims.map(s => getArea(s.scenario))).size;
+            const totalUseCases = new Set(filteredSims.map(s => s.scenario)).size;
+
+            // Cálculo do Período Dinâmico
+            const allDates = filteredSims.map(s => {
+                const [d, m, y] = s.date.split('/');
+                return new Date(y, m - 1, d);
+            }).sort((a, b) => a - b);
+
+            const formatDate = (date) => {
+                if (!date) return '--';
+                const d = String(date.getDate()).padStart(2, '0');
+                const m = String(date.getMonth() + 1).padStart(2, '0');
+                const y = date.getFullYear();
+                return `${d}/${m}/${y}`;
+            };
+
+            const firstDate = formatDate(allDates[0]);
+            const lastDate = formatDate(allDates[allDates.length - 1]);
+
+            const top5 = [...activeInFilter].sort((a, b) => {
+                const aSims = filteredSims.filter(s => s.name === a.name);
+                const bSims = filteredSims.filter(s => s.name === b.name);
+                const aAvg = Math.round(aSims.reduce((acc, s) => acc + s.score, 0) / aSims.length);
+                const bAvg = Math.round(bSims.reduce((acc, s) => acc + s.score, 0) / bSims.length);
+                return bAvg - aAvg;
+            }).slice(0, 5);
+
+            const content = document.getElementById('mainContent');
+            content.innerHTML = `
+                <div class="global-stats">
+                    <header class="header-section">
+                        <div class="header-content-left">
+                            <h1>${ui[currentLang].globalMetrics} <span>${ui[currentLang].operation}</span></h1>
+                            <p style="font-size: 0.75rem; color: var(--text-muted); font-weight: 700; text-transform: uppercase; margin-top: 8px;">
+                                <i class="fas fa-calendar-alt"></i> ${ui[currentLang].periodLabel} ${firstDate} - ${lastDate}
+                            </p>
+                        </div>
+                        <div class="header-content-right">
+                            <p class="header-desc">${ui[currentLang].execVision}</p>
+                        </div>
+                    </header>
+
+                    <div class="filter-bar-container" style="margin-bottom: 2.5rem; display: flex; align-items: center; gap: 20px; flex-wrap: wrap;">
+
+                        <div style="display: flex; align-items: center; gap: 10px;">
+                            <span style="font-size: 0.75rem; font-weight: 800; color: var(--text-muted); text-transform: uppercase; letter-spacing: 0.05em;">${ui[currentLang].distinctScenarios}:</span>
+                            <div class="custom-dropdown" id="useCaseDropdown" style="min-width: 250px;">
+                                <div class="dropdown-trigger" onclick="toggleDropdown('useCaseDropdown', 'useCaseArrow')">
+                                    <div style="display: flex; align-items: center; gap: 12px;">
+                                        <i class="fas fa-briefcase" style="font-size: 0.8rem; opacity: 0.6;"></i>
+                                        <span id="selectedUseCaseLabel" style="white-space: nowrap; overflow: hidden; text-overflow: ellipsis; max-width: 200px;">
+                                            ${currentFilterUseCase ? translateScenario(currentFilterUseCase) : ui[currentLang].allCases}
+                                        </span>
+                                    </div>
+                                    <i class="fas fa-chevron-down" style="font-size: 0.7rem; transition: transform 0.3s ease;" id="useCaseArrow"></i>
+                                </div>
+                                <div class="dropdown-menu">
+                                    <div class="dropdown-item ${!currentFilterUseCase ? 'selected' : ''}" onclick="setUseCaseFilter('all')">
+                                        <i class="fas fa-th-large"></i> ${ui[currentLang].allCases}
+                                    </div>
+                                    ${[...new Set(RAW_SIMULATIONS.map(s => s.scenario))].map(sc => `
+                                        <div class="dropdown-item ${currentFilterUseCase === sc ? 'selected' : ''}" onclick="setUseCaseFilter('${sc}')">
+                                            <i class="fas fa-file-alt"></i> ${translateScenario(sc)}
+                                        </div>
+                                    `).join('')}
+                                </div>
+                        </div>
+                    </div>
+
+                    <div style="display: flex; align-items: center; gap: 10px;">
+                        <span style="font-size: 0.75rem; font-weight: 800; color: var(--text-muted); text-transform: uppercase; letter-spacing: 0.05em;">${ui[currentLang].statusLabel}</span>
+                        <div class="custom-dropdown" id="statusDropdown" style="min-width: 220px;">
+                            <div class="dropdown-trigger" onclick="toggleDropdown('statusDropdown', 'statusArrow')">
+                                <div style="display: flex; align-items: center; gap: 12px;">
+                                    <i class="fas fa-tasks" style="font-size: 0.8rem; opacity: 0.6;"></i>
+                                    <span id="selectedStatusLabel">
+                                        ${!currentFilterStatus ? ui[currentLang].statusAll : (currentFilterStatus === 'finished' ? ui[currentLang].statusFinished : ui[currentLang].statusUnfinished)}
+                                    </span>
+                                </div>
+                                <i class="fas fa-chevron-down" style="font-size: 0.7rem; transition: transform 0.3s ease;" id="statusArrow"></i>
+                            </div>
+                            <div class="dropdown-menu">
+                                <div class="dropdown-item ${!currentFilterStatus ? 'selected' : ''}" onclick="setStatusFilter('all')">
+                                    <i class="fas fa-list"></i> ${ui[currentLang].statusAll}
+                                </div>
+                                <div class="dropdown-item ${currentFilterStatus === 'finished' ? 'selected' : ''}" onclick="setStatusFilter('finished')">
+                                    <i class="fas fa-check-circle"></i> ${ui[currentLang].statusFinished}
+                                </div>
+                                <div class="dropdown-item ${currentFilterStatus === 'unfinished' ? 'selected' : ''}" onclick="setStatusFilter('unfinished')">
+                                    <i class="fas fa-times-circle"></i> ${ui[currentLang].statusUnfinished}
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div style="display: flex; align-items: center; gap: 10px;">
+                        <span style="font-size: 0.75rem; font-weight: 800; color: var(--text-muted); text-transform: uppercase; letter-spacing: 0.05em;">Agência:</span>
+                        <div class="custom-dropdown" id="agencyDropdown" style="min-width: 180px;">
+                            <div class="dropdown-trigger" onclick="toggleDropdown('agencyDropdown', 'agencyArrow')">
+                                <div style="display: flex; align-items: center; gap: 12px;">
+                                    <i class="fas fa-building" style="font-size: 0.8rem; opacity: 0.6;"></i>
+                                    <span id="selectedAgencyLabel">
+                                        ${currentFilterAgency ? currentFilterAgency : (currentLang === 'pt' ? 'Todas as Agências' : 'Toutes les Agences')}
+                                    </span>
+                                </div>
+                                <i class="fas fa-chevron-down" style="font-size: 0.7rem; transition: transform 0.3s ease;" id="agencyArrow"></i>
+                            </div>
+                            <div class="dropdown-menu">
+                                <div class="dropdown-item ${!currentFilterAgency ? 'selected' : ''}" onclick="setAgencyFilter('all')">
+                                    <i class="fas fa-th-large"></i> ${currentLang === 'pt' ? 'Todas as Agências' : 'Toutes les Agences'}
+                                </div>
+                                ${[...new Set(activeUsers.map(u => u.agency).filter(Boolean))].sort().map(ag => `
+                                    <div class="dropdown-item ${currentFilterAgency === ag ? 'selected' : ''}" onclick="setAgencyFilter('${ag}')">
+                                        <i class="fas fa-building"></i> ${ag}
+                                    </div>
+                                `).join('')}
+                            </div>
+                        </div>
+                    </div>
+
+                    <div style="display: flex; align-items: center; gap: 10px;">
+                        <span style="font-size: 0.75rem; font-weight: 800; color: var(--text-muted); text-transform: uppercase; letter-spacing: 0.05em;">Região:</span>
+                        <div class="custom-dropdown" id="regionDropdown" style="min-width: 180px;">
+                            <div class="dropdown-trigger" onclick="toggleDropdown('regionDropdown', 'regionArrow')">
+                                <div style="display: flex; align-items: center; gap: 12px;">
+                                    <i class="fas fa-map-marker-alt" style="font-size: 0.8rem; opacity: 0.6;"></i>
+                                    <span id="selectedRegionLabel">
+                                        ${currentFilterRegion ? currentFilterRegion : (currentLang === 'pt' ? 'Todas as Regiões' : 'Toutes les Régions')}
+                                    </span>
+                                </div>
+                                <i class="fas fa-chevron-down" style="font-size: 0.7rem; transition: transform 0.3s ease;" id="regionArrow"></i>
+                            </div>
+                            <div class="dropdown-menu">
+                                <div class="dropdown-item ${!currentFilterRegion ? 'selected' : ''}" onclick="setRegionFilter('all')">
+                                    <i class="fas fa-th-large"></i> ${currentLang === 'pt' ? 'Todas as Regiões' : 'Toutes les Régions'}
+                                </div>
+                                ${[...new Set(activeUsers.map(u => u.region).filter(Boolean))].sort().map(rg => `
+                                    <div class="dropdown-item ${currentFilterRegion === rg ? 'selected' : ''}" onclick="setRegionFilter('${rg}')">
+                                        <i class="fas fa-map-marker-alt"></i> ${rg}
+                                    </div>
+                                `).join('')}
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="stats-grid" style="margin-bottom: 3rem;">
+                    <div class="stat-card-big"><span class="val count-up" data-val="${activeCount}">0</span><span class="lab">${ui[currentLang].collaborators}</span></div>
+                    <div class="stat-card-big"><span class="val count-up" data-val="${totalSessions}">0</span><span class="lab">${ui[currentLang].sessions}</span></div>
+                    
+                    <div class="stat-card-big">
+                        ${hasScores ? `<span class="val count-up" data-val="${avgScore}" data-suffix="%">0%</span>` : `<span class="val">N/A</span>`}
+                        <span class="lab">
+                            ${ui[currentLang].generalAvg}
+                            <span class="info-tip">
+                                <i class="fas fa-info-circle" style="opacity: 0.5; font-size: 0.7rem;"></i>
+                                <span class="tip-text">${ui[currentLang].defScoreGeral}</span>
+                            </span>
+                        </span>
+                    </div>
+
+                    <div class="stat-card-big">
+                        ${hasScores ? `<span class="val count-up" data-val="${avgLqa}" data-suffix="%">0%</span>` : `<span class="val">N/A</span>`}
+                        <span class="lab">
+                            ${ui[currentLang].lqaPattern}
+                            <span class="info-tip">
+                                <i class="fas fa-info-circle" style="opacity: 0.5; font-size: 0.7rem;"></i>
+                                <span class="tip-text">${ui[currentLang].defLqa}</span>
+                            </span>
+                        </span>
+                    </div>
+
+                    <div class="stat-card-big">
+                        <span class="val" style="font-size: 1.5rem; margin-top: 10px;">${fmtTime(avgTimePerRun)}</span>
+                        <span class="lab">${ui[currentLang].avgTimePerRun}</span>
+                    </div>
+
+                    <div class="stat-card-big">
+                        <span class="val" style="font-size: 1.5rem; margin-top: 10px;">${fmtTime(totalSeconds)}</span>
+                        <span class="lab">${ui[currentLang].totalHours}</span>
+                    </div>
+                </div>
+                    
+                    <div class="grid">
+                        <div class="card perf-card">
+                            <h3 style="color: var(--accent); text-transform: uppercase; font-size: 0.8rem; letter-spacing: 0.1em; margin-bottom: 2rem;">${ui[currentLang].topPerformers}</h3>
+                            <div id="topList"></div>
+                        </div>
+                    </div>
+
+                    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 1.5rem; margin-top: 2rem;">
+                        <div class="card">
+                            <h3 style="color: var(--accent); text-transform: uppercase; font-size: 0.8rem; letter-spacing: 0.1em; margin-bottom: 1.5rem;">
+                                <i class="fas fa-fire" style="margin-right: 8px; color: #f59e0b;"></i> ${ui[currentLang].topUseCases}
+                            </h3>
+                            <div id="top-scenarios-list">
+                                ${(() => {
+                    const counts = {};
+                    filteredSims.forEach(s => counts[s.scenario] = (counts[s.scenario] || 0) + 1);
+                    return Object.entries(counts).sort((a, b) => b[1] - a[1]).slice(0, 5).map(([sc, count]) => `
+                                        <div class="perf-item">
+                                            <span style="white-space: nowrap; overflow: hidden; text-overflow: ellipsis; max-width: 250px;">${translateScenario(sc)}</span>
+                                            <strong>${count}</strong>
+                                        </div>
+                                    `).join('');
+                })()}
+                            </div>
+                        </div>
+                        <div class="card">
+                            <h3 style="color: var(--accent); text-transform: uppercase; font-size: 0.8rem; letter-spacing: 0.1em; margin-bottom: 1.5rem;">
+                                <i class="fas fa-users" style="margin-right: 8px; color: #10b981;"></i> ${ui[currentLang].usageBy}
+                            </h3>
+                            <div id="usage-by-user-list">
+                                ${(() => {
+                    const counts = {};
+                    filteredSims.forEach(s => counts[s.name] = (counts[s.name] || 0) + 1);
+                    return Object.entries(counts).sort((a, b) => b[1] - a[1]).slice(0, 5).map(([name, count]) => `
+                                        <div class="perf-item">
+                                            <span style="white-space: nowrap; overflow: hidden; text-overflow: ellipsis; max-width: 250px;">${name}</span>
+                                            <strong>${count}</strong>
+                                        </div>
+                                    `).join('');
+                })()}
+                            </div>
+                        </div>
+                        <div class="card" style="grid-column: 1 / -1;">
+                            <h3 style="color: var(--accent); text-transform: uppercase; font-size: 0.8rem; letter-spacing: 0.1em; margin-bottom: 1.5rem;">
+                                <i class="fas fa-chart-bar" style="margin-right: 8px; color: var(--primary);"></i> ${ui[currentLang].trend}
+                            </h3>
+                            <div style="height: 220px; position: relative;">
+                                <canvas id="globalTrendChart"></canvas>
+                            </div>
+                        </div>
+                    </div>
+                    ${renderSimulationsTable(null, currentFilterArea)}
+                </div>
+            `;
+
+            const topList = document.getElementById('topList');
+            top5.forEach((u, idx) => {
+                topList.innerHTML += `<div class="perf-item"><span>${idx + 1}º ${u.name}</span><strong>${u.avgScore}%</strong></div>`;
+            });
+
+            const chartValBox = document.getElementById('chartValue');
+            if (chartValBox) chartValBox.innerText = avgScore + '%';
+            const lqaValBox = document.getElementById('lqaValue');
+            if (lqaValBox) lqaValBox.innerText = avgLqa + '%';
+            renderGlobalChart('globalChart', avgScore, '#00bcf2');
+            renderGlobalChart('lqaChart', avgLqa, '#8b5cf6');
+            renderGlobalTrendChart(filteredSims);
+
+            runCountUp();
+        }
+
+        function renderGlobalTrendChart(filteredSimsOverride) {
+            const canvas = document.getElementById('globalTrendChart');
+            if (!canvas) return;
+            const ctx = canvas.getContext('2d');
+
+            if (gTrendChart) gTrendChart.destroy();
+
+            const sourceSims = filteredSimsOverride || VALID_SIMS;
+
+            // Agrupar médias por data
+            const dateMap = {};
+            sourceSims.forEach(s => {
+                if (!dateMap[s.date]) dateMap[s.date] = { sum: 0, count: 0 };
+                dateMap[s.date].sum += s.score;
+                dateMap[s.date].count++;
+            });
+
+            const labels = Object.keys(dateMap).sort((a, b) => {
+                const [d1, m1, y1] = a.split('/');
+                const [d2, m2, y2] = b.split('/');
+                return new Date(y1, m1 - 1, d1) - new Date(y2, m2 - 1, d2);
+            });
+            const data = labels.map(l => Math.round(dateMap[l].sum / dateMap[l].count));
+
+            gTrendChart = new Chart(ctx, {
+                type: 'bar',
+                data: {
+                    labels: labels,
+                    datasets: [{
+                        label: 'Média Global',
+                        data: data,
+                        backgroundColor: '#00bcf2',
+                        borderRadius: 6,
+                        barThickness: 20
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    maintainAspectRatio: false,
+                    plugins: { legend: { display: false } },
+                    scales: {
+                        y: { min: 0, max: 100, grid: { color: '#e2e8f0', borderDash: [5, 5] }, ticks: { color: '#64748b' } },
+                        x: { grid: { display: false }, ticks: { color: '#64748b' } }
+                    }
+                }
+            });
+        }
+
+                window.globalCharts = window.globalCharts || {};
+        function renderGlobalChart(id, val, color) {
+            const canvas = document.getElementById(id);
+            if (!canvas) return;
+            const ctx = canvas.getContext('2d');
+            
+            if (window.globalCharts[id]) window.globalCharts[id].destroy();
+            
+            const grad = ctx.createLinearGradient(0, 0, canvas.width || 180, 0);
+            grad.addColorStop(0, '#00bcf2');
+            grad.addColorStop(1, '#041e42');
+            window.globalCharts[id] = new Chart(ctx, {
+                type: 'doughnut',
+                data: {
+                    datasets: [{
+                        data: [val, 100 - val],
+                        backgroundColor: [color, '#f1f5f9'],
+                        borderWidth: 0,
+                        cutout: '75%'
+                    }]
+                },
+                options: {
+                    responsive: true, maintainAspectRatio: false,
+                    plugins: { legend: { display: false }, tooltip: { enabled: false } },
+                    animation: { duration: 2000, easing: 'easeOutQuart' }
+                }
+            });
+        }
+
+        function selectUser(user) {
+            hideSimNav();
+            window.activeUser = user;
+            const userSims = VALID_SIMS.filter(s => cleanName(s.name) === cleanName(user.name));
+            const userTotalSeconds = userSims.reduce((acc, s) => acc + getSec(s.dur), 0);
+            const userTotalMinutes = Math.round(userTotalSeconds / 60);
+            const userAvgSeconds = userSims.length > 0 ? Math.round(userTotalSeconds / userSims.length) : 0;
+            const userAreas = userSims.map(s => getArea(s.scenario));
+            const userTotalAreas = new Set(userAreas).size;
+            const userTotalUseCases = new Set(userSims.map(s => s.scenario)).size;
+
+            // Helper to get area from scenario
+            ;
+
+            // Calculate context-aware comparison
+            const filteredSims = VALID_SIMS.filter(s => {
+                if (currentFilterArea && getArea(s.scenario) !== currentFilterArea) return false;
+                if (currentFilterUseCase && s.scenario !== currentFilterUseCase) return false;
+                if (currentFilterStatus) {
+                    if (currentFilterStatus === 'finished' && !s.finished) return false;
+                    if (currentFilterStatus === 'unfinished' && s.finished) return false;
+                }
+                return true;
+            });
+
+            const userFilteredSims = filteredSims.filter(s => cleanName(s.name) === cleanName(user.name));
+
+            const userFinishedSims = userFilteredSims.filter(s => s.finished);
+            const userHasScores = userFinishedSims.length > 0;
+            const contextUserScore = userHasScores
+                ? userFinishedSims.reduce((a, b) => a + b.score, 0) / userFinishedSims.length
+                : user.avgScore;
+
+            const usersInContext = [...new Set(filteredSims.map(s => s.name))];
+            const rankings = usersInContext.map(name => {
+                const sims = filteredSims.filter(s => s.name === name);
+                const simsWithScores = sims.filter(s => s.finished);
+                const avg = simsWithScores.length > 0 ? simsWithScores.reduce((a, b) => a + b.score, 0) / simsWithScores.length : 0;
+                return { name, avg };
+            }).sort((a, b) => b.avg - a.avg);
+
+            const userRankIdx = rankings.findIndex(r => cleanName(r.name) === cleanName(user.name));
+            const userRank = userRankIdx === -1 ? 1 : userRankIdx + 1;
+            const totalRanked = rankings.length || 1;
+
+            // Global rankings for other cards
+            const getGlobalRank = (metricFn, reverse = false) => {
+                const list = activeUsers.map(u => ({ name: u.name, val: metricFn(u) }))
+                    .sort((a, b) => reverse ? a.val - b.val : b.val - a.val);
+                const idx = list.findIndex(r => cleanName(r.name) === cleanName(user.name));
+                return idx === -1 ? 1 : idx + 1;
+            };
+
+            const lqaRank = getGlobalRank(u => u.lqaScore);
+            const timeRank = getGlobalRank(u => {
+                const sims = VALID_SIMS.filter(s => s.name === u.name);
+                const total = sims.reduce((acc, s) => acc + getSec(s.dur), 0);
+                return sims.length > 0 ? total / sims.length : 0;
+            }); // Longer is better as requested
+            const totalTimeRank = getGlobalRank(u => {
+                const sims = VALID_SIMS.filter(s => s.name === u.name);
+                return sims.reduce((acc, s) => acc + getSec(s.dur), 0);
+            });
+            
+            const dateRank = getGlobalRank(u => {
+                const lastDate = u.dates[u.dates.length - 1];
+                if (!lastDate) return 0;
+                const [d, m, y] = lastDate.split('/');
+                return new Date(y, m - 1, d).getTime();
+            });
+
+            const content = document.getElementById('mainContent');
+            content.innerHTML = `
+                <div id="userProfile">
+                    <header class="header-section">
+                        <div class="header-content-left">
+                            <h1>${ui[currentLang].performanceOf} <span>${user.name}</span></h1>
+                        </div>
+                        <div class="header-content-right">
+                            <p class="header-desc"><strong>${user.agency}</strong> &nbsp;·&nbsp; <strong>${user.region}</strong> &nbsp;·&nbsp; ${ui[currentLang].behaviorAnalysis} ${user.count} ${ui[currentLang].simulationsDone}</p>
+                        </div>
+                    </header>
+
+                    <div class="filter-bar-container" style="margin-bottom: 2.5rem; display: flex; align-items: center; gap: 20px; flex-wrap: wrap;">
+
+                        <div style="display: flex; align-items: center; gap: 10px;">
+                            <span style="font-size: 0.75rem; font-weight: 800; color: var(--text-muted); text-transform: uppercase; letter-spacing: 0.05em;">${ui[currentLang].distinctScenarios}:</span>
+                            <div class="custom-dropdown" id="useCaseDropdown" style="min-width: 250px;">
+                                <div class="dropdown-trigger" onclick="toggleDropdown('useCaseDropdown', 'useCaseArrow')">
+                                    <div style="display: flex; align-items: center; gap: 12px;">
+                                        <i class="fas fa-briefcase" style="font-size: 0.8rem; opacity: 0.6;"></i>
+                                        <span id="selectedUseCaseLabel" style="white-space: nowrap; overflow: hidden; text-overflow: ellipsis; max-width: 200px;">
+                                            ${currentFilterUseCase ? translateScenario(currentFilterUseCase) : ui[currentLang].allCases}
+                                        </span>
+                                    </div>
+                                    <i class="fas fa-chevron-down" style="font-size: 0.7rem; transition: transform 0.3s ease;" id="useCaseArrow"></i>
+                                </div>
+                                <div class="dropdown-menu">
+                                    <div class="dropdown-item ${!currentFilterUseCase ? 'selected' : ''}" onclick="setUseCaseFilter('all')">
+                                        <i class="fas fa-th-large"></i> ${ui[currentLang].allCases}
+                                    </div>
+                                    ${[...new Set(VALID_SIMS.map(s => s.scenario))].map(sc => `
+                                        <div class="dropdown-item ${currentFilterUseCase === sc ? 'selected' : ''}" onclick="setUseCaseFilter('${sc}')">
+                                            <i class="fas fa-file-alt"></i> ${translateScenario(sc)}
+                                        </div>
+                                    `).join('')}
+                                </div>
+                            </div>
+                        </div>
+
+                        <div style="display: flex; align-items: center; gap: 10px;">
+                            <span style="font-size: 0.75rem; font-weight: 800; color: var(--text-muted); text-transform: uppercase; letter-spacing: 0.05em;">${ui[currentLang].statusLabel}</span>
+                            <div class="custom-dropdown" id="statusDropdown" style="min-width: 220px;">
+                                <div class="dropdown-trigger" onclick="toggleDropdown('statusDropdown', 'statusArrow')">
+                                    <div style="display: flex; align-items: center; gap: 12px;">
+                                        <i class="fas fa-tasks" style="font-size: 0.8rem; opacity: 0.6;"></i>
+                                        <span id="selectedStatusLabel">
+                                            ${!currentFilterStatus ? ui[currentLang].statusAll : (currentFilterStatus === 'finished' ? ui[currentLang].statusFinished : ui[currentLang].statusUnfinished)}
+                                        </span>
+                                    </div>
+                                    <i class="fas fa-chevron-down" style="font-size: 0.7rem; transition: transform 0.3s ease;" id="statusArrow"></i>
+                                </div>
+                                <div class="dropdown-menu">
+                                    <div class="dropdown-item ${!currentFilterStatus ? 'selected' : ''}" onclick="setStatusFilter('all')">
+                                        <i class="fas fa-list"></i> ${ui[currentLang].statusAll}
+                                    </div>
+                                    <div class="dropdown-item ${currentFilterStatus === 'finished' ? 'selected' : ''}" onclick="setStatusFilter('finished')">
+                                        <i class="fas fa-check-circle"></i> ${ui[currentLang].statusFinished}
+                                    </div>
+                                    <div class="dropdown-item ${currentFilterStatus === 'unfinished' ? 'selected' : ''}" onclick="setStatusFilter('unfinished')">
+                                        <i class="fas fa-times-circle"></i> ${ui[currentLang].statusUnfinished}
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="stats-grid" style="margin-bottom: 3.5rem;">
+
+
+
+                        <div class="stat-card-big">
+                            <div class="trend-indicator up" style="background: var(--primary-light); color: var(--primary); margin-bottom: 10px;">
+                                <i class="fas fa-crown"></i> ${ui[currentLang].rankingLabel}: ${timeRank}º
+                            </div>
+                            <span class="val" style="font-size: 1.5rem; margin-top: 10px;">${fmtTime(userAvgSeconds)}</span>
+                            <span class="lab">${ui[currentLang].time}</span>
+                        </div>
+
+                        
+
+                        <div class="stat-card-big">
+                            <div class="trend-indicator up" style="background: var(--primary-light); color: var(--primary); margin-bottom: 10px;">
+                                <i class="fas fa-crown"></i> ${ui[currentLang].rankingLabel}: ${dateRank}º
+                            </div>
+                            <span class="val" style="font-size: 1.1rem; margin-top: 12px; color: var(--text-muted);">${
+                                (() => {
+                                    if (userFilteredSims.length === 0) return '--';
+                                    const sortedDates = userFilteredSims.map(s => s.date).sort((a, b) => {
+                                        const [d1, m1, y1] = a.split('/');
+                                        const [d2, m2, y2] = b.split('/');
+                                        return new Date(y1, m1 - 1, d1) - new Date(y2, m2 - 1, d2);
+                                    });
+                                    return sortedDates[sortedDates.length - 1];
+                                })()
+                            }</span>
+                            <span class="lab">${ui[currentLang].lastSimulation}</span>
+                        </div>
+                    </div>
+
+                    <div class="grid grid-2">
+                        <div class="card">
+                            <h3 style="color: var(--accent); text-transform: uppercase; font-size: 0.8rem; letter-spacing: 0.1em; margin-bottom: 2rem;">${ui[currentLang].skills}</h3>
+                            <div id="u-skills"></div>
+                        </div>
+                        <div class="card">
+                            <h3 style="color: var(--accent); text-transform: uppercase; font-size: 0.8rem; letter-spacing: 0.1em; margin-bottom: 2rem;">${ui[currentLang].aiFeedback}</h3>
+                            <div class="insight-box">
+                                <div class="insight-header">
+                                    <i class="fas fa-microphone"></i>
+                                    <h4>${ui[currentLang].realTimeSession}</h4>
+                                </div>
+                                <ul class="bullet-list" id="u-insight"></ul>
+                                <div class="skill-bar-container" style="margin-top: 2rem; padding-top: 1.5rem; border-top: 1px solid #e2e8f0;">
+                                    <div class="skill-label-row">
+                                        <span style="font-size: 0.75rem;">${ui[currentLang].sessionPerf}</span>
+                                        <span style="font-size: 0.85rem;">${user.avgScore}%</span>
+                                    </div>
+                                    <div class="skill-track"><div class="skill-bar-fill" style="width: ${user.avgScore}%;"></div></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card" style="margin-top: 3rem;">
+                        <h3 style="color: var(--accent); text-transform: uppercase; font-size: 0.8rem; letter-spacing: 0.1em; margin-bottom: 2rem;">${ui[currentLang].trend}</h3>
+                        <div style="height: 300px;">
+                            <canvas id="userChart"></canvas>
+                        </div>
+                    </div>
+                    ${renderSimulationsTable(user.name, currentFilterArea)}
+                </div>
+            `;
+
+            // Bullet Summary
+            const insightBox = document.getElementById('u-insight');
+            (user.insights[currentLang] || []).forEach(txt => {
+                const li = document.createElement('li');
+                li.innerText = fixEnc(txt);
+                insightBox.appendChild(li);
+            });
+
+            // Flags
+            const langBox = document.getElementById('u-langs');
+            if (langBox) {
+                const flags = { PT: '🇧🇷 PT-BR', FR: '🇫🇷 FR', EN: '🇺🇸 EN' };
+                (user.languages || []).forEach(l => {
+                    langBox.innerHTML += `<span class="lang-badge">${flags[l] || l}</span>`;
+                });
+            }
+
+            // Matriz de Competências
+            const skillsDiv = document.getElementById('u-skills');
+            if (skillsDiv) {
+                skillsDiv.innerHTML = ''; // Limpa antes de renderizar
+                Object.entries(user.skills).forEach(([skill, val]) => {
+                    const translatedName = (ui[currentLang].skillNames && ui[currentLang].skillNames[skill]) ? ui[currentLang].skillNames[skill] : skill;
+                    skillsDiv.innerHTML += `
+                        <div class="skill-bar-container">
+                            <div class="skill-label-row">
+                                <span>${translatedName}</span>
+                                <span>${val}%</span>
+                            </div>
+                            <div class="skill-track"><div class="skill-bar-fill" style="width: ${val}%;"></div></div>
+                        </div>
+                    `;
+                });
+            }
+
+            renderUserChart(user);
+            renderUserList();
+
+            // Donuts do Perfil
+            const userScoreValBox = document.getElementById('userScoreValue');
+            if (userScoreValBox) userScoreValBox.innerText = userHasScores ? Math.round(contextUserScore) + '%' : 'N/A';
+            renderGlobalChart('userScoreChart', userHasScores ? Math.round(contextUserScore) : 0, '#00bcf2');
+            
+            const lqaValBox = document.getElementById('userLqaValue');
+            if (lqaValBox) {
+                lqaValBox.innerText = userHasScores ? user.lqaScore + '%' : 'N/A';
+                renderGlobalChart('userLqaChart', userHasScores ? user.lqaScore : 0, '#8b5cf6');
+            }
+
+            runCountUp();
+        }
+
+        function renderUserChart(user) {
+            const canvas = document.getElementById('userChart');
+            if (!canvas) return;
+            const ctx = canvas.getContext('2d');
+            if (chart) chart.destroy();
+
+            // Pegar dados reais das simulações válidas do usuário
+            const userHistory = VALID_SIMS.filter(s => cleanName(s.name) === cleanName(user.name))
+                .sort((a, b) => {
+                    const [d1, m1, y1] = a.date.split('/');
+                    const [d2, m2, y2] = b.date.split('/');
+                    return new Date(y1, m1 - 1, d1) - new Date(y2, m2 - 1, d2);
+                });
+
+            const labels = userHistory.map(s => s.date);
+            const data = userHistory.map(s => s.score);
+
+            if (labels.length === 0) {
+                ctx.font = '14px Inter';
+                ctx.fillStyle = '#64748b';
+                ctx.textAlign = 'center';
+                ctx.fillText(ui[currentLang].noCompData || 'Sem dados', canvas.width / 2, canvas.height / 2);
+                return;
+            }
+
+            chart = new Chart(ctx, {
+                type: 'bar',
+                data: {
+                    labels: labels,
+                    datasets: [{
+                        label: 'Score',
+                        data: data,
+                        backgroundColor: '#00bcf2',
+                        borderRadius: 6,
+                        barThickness: 20
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    maintainAspectRatio: false,
+                    plugins: { legend: { display: false } },
+                    scales: {
+                        y: { min: 0, max: 100, grid: { color: '#e2e8f0', borderDash: [5, 5] }, ticks: { color: '#64748b' } },
+                        x: { grid: { display: false }, ticks: { color: '#64748b' } }
+                    }
+                }
+            });
+        }
+
+                function exportCSV() {
+            let csv = 'Nome;Rank;Engajamento;Score Geral;Aderencia ao Metbook;Tempo Medio;Simulacoes;Ultima Sessao;Escuta Ativa;Postura Consultiva;Qualificacao Rapida;Lidar com Objeçoes;Assertividade\n';
+            activeUsers.forEach((u, idx) => {
+                const rank = idx + 1;
+                const tempo = `${Math.floor(u.avgSecs / 60)}m ${Math.floor(u.avgSecs % 60)}s`;
+                csv += `"${u.name}";${rank};${u.engagementScore};${u.avgScore};${u.lqaScore};"${tempo}";${u.count};"${u.dates[u.dates.length - 1]}";${u.skills.Escuta};${u.skills.Personalizacao};${u.skills.Empatia};${u.skills.Crises};${u.skills.Padroes}
+`;
+            });
+            
+            // Generate BOM so Excel reads UTF-8 correctly
+            const bom = new Uint8Array([0xEF, 0xBB, 0xBF]);
+            const blob = new Blob([bom, csv], { type: 'text/csv;charset=utf-8;' });
+            const link = document.createElement('a');
+            link.href = URL.createObjectURL(blob);
+            link.setAttribute('download', 'metlife_ia_report.csv');
+            link.click();
+        }
+
+        function toggleDropdown(id, arrowId) {
+            const dd = document.getElementById(id);
+            const arrow = document.getElementById(arrowId);
+            if (!dd) return;
+            dd.classList.toggle('active');
+            if (arrow) arrow.style.transform = dd.classList.contains('active') ? 'rotate(180deg)' : 'rotate(0deg)';
+        }
+
+        function setAgencyFilter(val) {
+            currentFilterAgency = val === 'all' ? null : val;
+            if (window.activeUser) selectUser(window.activeUser);
+            else showGlobalStats();
+        }
+
+        function setRegionFilter(val) {
+            currentFilterRegion = val === 'all' ? null : val;
+            if (window.activeUser) selectUser(window.activeUser);
+            else showGlobalStats();
+        }
+
+        function setAreaFilter(val) {
+            currentFilterArea = val === 'all' ? null : val;
+            if (window.activeUser) selectUser(window.activeUser);
+            else showGlobalStats();
+        }
+
+        function setUseCaseFilter(val) {
+            currentFilterUseCase = val === 'all' ? null : val;
+            if (window.activeUser) selectUser(window.activeUser);
+            else showGlobalStats();
+        }
+
+        function setStatusFilter(val) {
+            currentFilterStatus = val === 'all' ? null : val;
+            if (window.activeUser) selectUser(window.activeUser);
+            else showGlobalStats();
+        }
+
+        document.addEventListener('click', (e) => {
+            ['areaDropdown', 'useCaseDropdown', 'statusDropdown'].forEach(id => {
+                const dd = document.getElementById(id);
+                if (dd && !dd.contains(e.target)) {
+                    dd.classList.remove('active');
+                    let arrowId = 'dropdownArrow';
+                    if (id === 'useCaseDropdown') arrowId = 'useCaseArrow';
+                    else if (id === 'statusDropdown') arrowId = 'statusArrow';
+                    const arrow = document.getElementById(arrowId);
+                    if (arrow) arrow.style.transform = 'rotate(0deg)';
+                }
+            });
+        });
+
+                // Initialize
+        const savedLang = localStorage.getItem('metlifeLang') || 'pt';
+        setLang(savedLang);
+    </script>
+</body>
+
+</html>
