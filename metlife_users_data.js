@@ -89,32 +89,38 @@ const users = [
         "avgDurMin": 2
     },
     {
-        "avgDurSec": 0,
-        "avgScore": null,
+        "avgDurSec": 19,
+        "avgScore": 47.8,
         "skills": {
-            "Escuta": 0.0,
-            "Empatia": 0.0,
-            "Crises": 0.0,
-            "Padroes": 0.0,
-            "Personalizacao": 0.0
+            "Escuta": 52.6,
+            "Empatia": 50.3,
+            "Crises": 42.3,
+            "Padroes": 60.0,
+            "Personalizacao": 43.7
         },
-        "count": 1,
+        "count": 5,
         "insights": {
             "pt": [
                 "Focar no objetivo principal (agendar reunião).",
                 "Evitar descrever produtos ou preços por telefone.",
-                "Melhorar postura ética e empatia na abertura."
+                "Melhorar postura ética e empatia na abertura.",
+                "Reforçar o método 'sim, mas' para objeções.",
+                "Aproveitar momento da venda para pedir indicações.",
+                "Utilizar a escolha forçada na proposta de horários."
             ],
             "fr": [
                 "Se concentrer sur l'objectif principal (RDV).",
                 "Éviter de décrire les produits par téléphone.",
-                "Améliorer la posture éthique et l'empathie à l'ouverture."
+                "Améliorer la posture éthique et l'empathie à l'ouverture.",
+                "Renforcer la méthode 'oui, mais' pour les objections.",
+                "Profiter de la vente pour demander des recommandations.",
+                "Utiliser le choix forcé pour proposer des créneaux."
             ]
         },
         "name": "Monique",
         "agency": "Gorilla",
         "region": "São Paulo",
-        "lqaScore": null,
+        "lqaScore": 60.0,
         "languages": [
             "PT"
         ],
@@ -123,19 +129,20 @@ const users = [
             "fr": "Renforcer les 8 étapes MetLife"
         },
         "dates": [
-            "2026-07-05"
+            "2026-07-05",
+            "2026-07-08"
         ],
-        "avgDurMin": 0
+        "avgDurMin": 5
     },
     {
         "avgDurSec": 18,
         "avgScore": 73.0,
         "skills": {
-            "Escuta": 77.3,
+            "Escuta": 76.7,
             "Empatia": 75.5,
             "Crises": 67.5,
-            "Padroes": 58.0,
-            "Personalizacao": 68.9
+            "Padroes": 42.0,
+            "Personalizacao": 67.0
         },
         "count": 4,
         "insights": {
@@ -157,7 +164,7 @@ const users = [
         "name": "Eliana",
         "agency": "Inside",
         "region": "Rio de Janeiro",
-        "lqaScore": 58.0,
+        "lqaScore": 42.0,
         "languages": [
             "PT"
         ],
@@ -171,16 +178,16 @@ const users = [
         "avgDurMin": 1
     },
     {
-        "avgDurSec": 9,
-        "avgScore": 54.2,
+        "avgDurSec": 6,
+        "avgScore": 54.1,
         "skills": {
-            "Escuta": 58.9,
-            "Empatia": 56.7,
-            "Crises": 48.7,
-            "Padroes": 58.0,
-            "Personalizacao": 47.3
+            "Escuta": 58.7,
+            "Empatia": 56.6,
+            "Crises": 48.6,
+            "Padroes": 60.9,
+            "Personalizacao": 49.2
         },
-        "count": 11,
+        "count": 13,
         "insights": {
             "pt": [
                 "Focar no objetivo principal (agendar reunião).",
@@ -202,10 +209,10 @@ const users = [
         "name": "Debora Alves",
         "agency": "Apice",
         "region": "São Paulo",
-        "lqaScore": 58.0,
+        "lqaScore": 60.9,
         "languages": [
-            "PT",
-            "EN"
+            "EN",
+            "PT"
         ],
         "improvement": {
             "pt": "Reforçar as 8 etapas MetLife",
@@ -213,7 +220,8 @@ const users = [
         },
         "dates": [
             "2026-07-03",
-            "2026-07-06"
+            "2026-07-06",
+            "2026-07-10"
         ],
         "avgDurMin": 3
     },
@@ -284,47 +292,60 @@ const users = [
         "avgDurMin": 0
     },
     {
-        "avgDurSec": 0,
-        "avgScore": null,
+        "avgDurSec": 9,
+        "avgScore": 32.0,
         "skills": {
-            "Escuta": 0.0,
-            "Empatia": 0.0,
-            "Crises": 0.0,
-            "Padroes": 0.0,
-            "Personalizacao": 0.0
+            "Escuta": 36.8,
+            "Empatia": 34.5,
+            "Crises": 26.5,
+            "Padroes": 40.0,
+            "Personalizacao": 24.8
         },
-        "count": 0,
+        "count": 3,
         "insights": {
             "pt": [
-                "Aguardando início das simulações."
+                "Focar no objetivo principal (agendar reunião).",
+                "Evitar descrever produtos ou preços por telefone.",
+                "Melhorar postura ética e empatia na abertura.",
+                "Reforçar o método 'sim, mas' para objeções.",
+                "Aproveitar momento da venda para pedir indicações.",
+                "Utilizar a escolha forçada na proposta de horários."
             ],
             "fr": [
-                "En attente du début des simulations."
+                "Se concentrer sur l'objectif principal (RDV).",
+                "Éviter de décrire les produits par téléphone.",
+                "Améliorer la posture éthique et l'empathie à l'ouverture.",
+                "Renforcer la méthode 'oui, mais' pour les objections.",
+                "Profiter de la vente pour demander des recommandations.",
+                "Utiliser le choix forcé pour proposer des créneaux."
             ]
         },
         "name": "Mauro Omarini",
         "agency": "Inside",
         "region": "São Paulo",
-        "lqaScore": null,
+        "lqaScore": 40.0,
         "languages": [
-            "FR"
+            "EN",
+            "PT"
         ],
         "improvement": {
             "pt": "Reforçar as 8 etapas MetLife",
             "fr": "Renforcer les 8 étapes MetLife"
         },
-        "dates": [],
-        "avgDurMin": 0
+        "dates": [
+            "2026-07-11"
+        ],
+        "avgDurMin": 12
     },
     {
         "avgDurSec": 53,
         "avgScore": 36.5,
         "skills": {
-            "Escuta": 40.2,
+            "Escuta": 41.8,
             "Empatia": 39.0,
             "Crises": 31.0,
-            "Padroes": 21.5,
-            "Personalizacao": 30.1
+            "Padroes": 15.0,
+            "Personalizacao": 31.9
         },
         "count": 8,
         "insights": {
@@ -348,10 +369,10 @@ const users = [
         "name": "Fabi",
         "agency": "Geração",
         "region": "Belo Horizonte",
-        "lqaScore": 21.5,
+        "lqaScore": 15.0,
         "languages": [
-            "PT",
-            "EN"
+            "EN",
+            "PT"
         ],
         "improvement": {
             "pt": "Reforçar as 8 etapas MetLife",
@@ -366,11 +387,11 @@ const users = [
         "avgDurSec": 38,
         "avgScore": 56.0,
         "skills": {
-            "Escuta": 61.6,
+            "Escuta": 60.0,
             "Empatia": 58.5,
             "Crises": 50.5,
-            "Padroes": 82.5,
-            "Personalizacao": 49.0
+            "Padroes": 76.5,
+            "Personalizacao": 51.4
         },
         "count": 3,
         "insights": {
@@ -392,7 +413,7 @@ const users = [
         "name": "Marcelo",
         "agency": "Rivo Rio",
         "region": "Rio de Janeiro",
-        "lqaScore": 82.5,
+        "lqaScore": 76.5,
         "languages": [
             "PT"
         ],
@@ -477,11 +498,11 @@ const users = [
         "avgDurSec": 54,
         "avgScore": 26.4,
         "skills": {
-            "Escuta": 30.2,
+            "Escuta": 30.5,
             "Empatia": 28.9,
             "Crises": 20.9,
-            "Padroes": 61.4,
-            "Personalizacao": 21.5
+            "Padroes": 59.9,
+            "Personalizacao": 21.0
         },
         "count": 11,
         "insights": {
@@ -505,10 +526,10 @@ const users = [
         "name": "João Maldonado",
         "agency": "Gorilla",
         "region": "São Paulo",
-        "lqaScore": 61.4,
+        "lqaScore": 59.9,
         "languages": [
-            "PT",
-            "EN"
+            "EN",
+            "PT"
         ],
         "improvement": {
             "pt": "Reforçar as 8 etapas MetLife",
@@ -520,46 +541,60 @@ const users = [
         "avgDurMin": 3
     },
     {
-        "avgDurSec": 0,
-        "avgScore": null,
+        "avgDurSec": 15,
+        "avgScore": 56.0,
         "skills": {
-            "Escuta": 0.0,
-            "Empatia": 0.0,
-            "Crises": 0.0,
-            "Padroes": 0.0,
-            "Personalizacao": 0.0
+            "Escuta": 60.8,
+            "Empatia": 58.5,
+            "Crises": 50.5,
+            "Padroes": 60.2,
+            "Personalizacao": 48.8
         },
-        "count": 0,
+        "count": 7,
         "insights": {
             "pt": [
-                "Aguardando início das simulações."
+                "Focar no objetivo principal (agendar reunião).",
+                "Evitar descrever produtos ou preços por telefone.",
+                "Melhorar postura ética e empatia na abertura.",
+                "Reforçar o método 'sim, mas' para objeções.",
+                "Aproveitar momento da venda para pedir indicações.",
+                "Utilizar a escolha forçada na proposta de horários."
             ],
             "fr": [
-                "En attente du début des simulations."
+                "Se concentrer sur l'objectif principal (RDV).",
+                "Éviter de décrire les produits par téléphone.",
+                "Améliorer la posture éthique et l'empathie à l'ouverture.",
+                "Renforcer la méthode 'oui, mais' pour les objections.",
+                "Profiter de la vente pour demander des recommandations.",
+                "Utiliser le choix forcé pour proposer des créneaux."
             ]
         },
         "name": "Wilson Arita",
         "agency": "Inside",
         "region": "São Paulo",
-        "lqaScore": null,
+        "lqaScore": 60.2,
         "languages": [
-            "FR"
+            "EN",
+            "PT"
         ],
         "improvement": {
             "pt": "Reforçar as 8 etapas MetLife",
             "fr": "Renforcer les 8 étapes MetLife"
         },
-        "dates": [],
-        "avgDurMin": 0
+        "dates": [
+            "2026-07-08",
+            "2026-07-10"
+        ],
+        "avgDurMin": 2
     },
     {
         "avgDurSec": 1,
         "avgScore": 0.0,
         "skills": {
-            "Escuta": 3.3,
+            "Escuta": 4.6,
             "Empatia": 2.5,
             "Crises": 0.0,
-            "Padroes": 57.0,
+            "Padroes": 58.5,
             "Personalizacao": 0.0
         },
         "count": 3,
@@ -582,7 +617,7 @@ const users = [
         "name": "João Pedro",
         "agency": "Apice",
         "region": "Salvador",
-        "lqaScore": 57.0,
+        "lqaScore": 58.5,
         "languages": [
             "PT"
         ],
@@ -656,8 +691,8 @@ const users = [
         "region": "Belo Horizonte",
         "lqaScore": null,
         "languages": [
-            "PT",
-            "EN"
+            "EN",
+            "PT"
         ],
         "improvement": {
             "pt": "Reforçar as 8 etapas MetLife",
@@ -697,8 +732,8 @@ const users = [
         "region": "Belo Horizonte",
         "lqaScore": null,
         "languages": [
-            "PT",
-            "EN"
+            "EN",
+            "PT"
         ],
         "improvement": {
             "pt": "Reforçar as 8 etapas MetLife",
@@ -711,33 +746,40 @@ const users = [
         "avgDurMin": 0
     },
     {
-        "avgDurSec": 0,
-        "avgScore": null,
+        "avgDurSec": 55,
+        "avgScore": 70.0,
         "skills": {
-            "Escuta": 0.0,
-            "Empatia": 0.0,
-            "Crises": 0.0,
-            "Padroes": 0.0,
-            "Personalizacao": 0.0
+            "Escuta": 73.2,
+            "Empatia": 72.5,
+            "Crises": 64.5,
+            "Padroes": 76.0,
+            "Personalizacao": 64.8
         },
-        "count": 1,
+        "count": 4,
         "insights": {
             "pt": [
-                "Focar no objetivo principal (agendar reunião).",
-                "Evitar descrever produtos ou preços por telefone.",
-                "Melhorar postura ética e empatia na abertura."
+                "Bom engajamento inicial na ligação.",
+                "Argumentação de vendas em evolução.",
+                "Ajustar tom para parecer mais consultivo.",
+                "Reforçar o método 'sim, mas' para objeções.",
+                "Aproveitar momento da venda para pedir indicações.",
+                "Utilizar a escolha forçada na proposta de horários."
             ],
             "fr": [
-                "Se concentrer sur l'objectif principal (RDV).",
-                "Éviter de décrire les produits par téléphone.",
-                "Améliorer la posture éthique et l'empathie à l'ouverture."
+                "Bon engagement initial lors de l'appel.",
+                "Argumentation commerciale en évolution.",
+                "Ajuster le ton pour être plus consultatif.",
+                "Renforcer la méthode 'oui, mais' pour les objections.",
+                "Profiter de la vente pour demander des recommandations.",
+                "Utiliser le choix forcé pour proposer des créneaux."
             ]
         },
         "name": "Aline Almeida",
         "agency": "Ark",
         "region": "São Paulo",
-        "lqaScore": null,
+        "lqaScore": 76.0,
         "languages": [
+            "EN",
             "PT"
         ],
         "improvement": {
@@ -745,54 +787,68 @@ const users = [
             "fr": "Renforcer les 8 étapes MetLife"
         },
         "dates": [
-            "2026-07-07"
+            "2026-07-07",
+            "2026-07-08",
+            "2026-07-10"
         ],
-        "avgDurMin": 0
+        "avgDurMin": 1
     },
     {
-        "avgDurSec": 0,
-        "avgScore": null,
+        "avgDurSec": 19,
+        "avgScore": 67.3,
         "skills": {
-            "Escuta": 0.0,
-            "Empatia": 0.0,
-            "Crises": 0.0,
-            "Padroes": 0.0,
-            "Personalizacao": 0.0
+            "Escuta": 72.2,
+            "Empatia": 69.8,
+            "Crises": 61.8,
+            "Padroes": 100.0,
+            "Personalizacao": 59.8
         },
-        "count": 0,
+        "count": 4,
         "insights": {
             "pt": [
-                "Aguardando início das simulações."
+                "Bom engajamento inicial na ligação.",
+                "Argumentação de vendas em evolução.",
+                "Ajustar tom para parecer mais consultivo.",
+                "Aproveitar momento da venda para pedir indicações.",
+                "Utilizar a escolha forçada na proposta de horários."
             ],
             "fr": [
-                "En attente du début des simulations."
+                "Bon engagement initial lors de l'appel.",
+                "Argumentation commerciale en évolution.",
+                "Ajuster le ton pour être plus consultatif.",
+                "Profiter de la vente pour demander des recommandations.",
+                "Utiliser le choix forcé pour proposer des créneaux."
             ]
         },
         "name": "Luis Sertoni",
         "agency": "Ark",
         "region": "São Paulo",
-        "lqaScore": null,
+        "lqaScore": 100.0,
         "languages": [
-            "FR"
+            "EN",
+            "PT"
         ],
         "improvement": {
             "pt": "Reforçar as 8 etapas MetLife",
             "fr": "Renforcer les 8 étapes MetLife"
         },
-        "dates": [],
-        "avgDurMin": 0
+        "dates": [
+            "2026-07-09",
+            "2026-07-10"
+        ],
+        "avgDurMin": 10
     },
     {
-        "avgDurSec": 41,
+        "avgDurSec": 33,
         "avgScore": 26.5,
         "skills": {
-            "Escuta": 31.9,
+            "Escuta": 29.6,
             "Empatia": 29.0,
             "Crises": 21.0,
-            "Padroes": 24.9,
-            "Personalizacao": 19.6
+            "Padroes": 23.9,
+            "Personalizacao": 21.6
         },
-        "count": 27,
+        "count": 34,
         "insights": {
             "pt": [
                 "Focar no objetivo principal (agendar reunião).",
@@ -814,7 +870,7 @@ const users = [
         "name": "Sophie Géraud",
         "agency": "Outros",
         "region": "Outros",
-        "lqaScore": 24.9,
+        "lqaScore": 23.9,
         "languages": [
             "FR",
             "PT"
@@ -827,7 +883,8 @@ const users = [
             "2026-05-06",
             "2026-05-12",
             "2026-05-13",
-            "2026-07-02"
+            "2026-07-02",
+            "2026-07-10"
         ],
         "avgDurMin": 0
     },
@@ -835,11 +892,11 @@ const users = [
         "avgDurSec": 44,
         "avgScore": 61.0,
         "skills": {
-            "Escuta": 64.4,
+            "Escuta": 67.0,
             "Empatia": 63.5,
             "Crises": 55.5,
-            "Padroes": 57.0,
-            "Personalizacao": 53.3
+            "Padroes": 49.0,
+            "Personalizacao": 53.6
         },
         "count": 1,
         "insights": {
@@ -859,7 +916,7 @@ const users = [
         "name": "GerenteSp Parceira",
         "agency": "Outros",
         "region": "Outros",
-        "lqaScore": 57.0,
+        "lqaScore": 49.0,
         "languages": [
             "PT"
         ],
@@ -873,37 +930,49 @@ const users = [
         "avgDurMin": 1
     },
     {
-        "avgDurSec": 0,
-        "avgScore": null,
+        "avgDurSec": 25,
+        "avgScore": 29.2,
         "skills": {
-            "Escuta": 0.0,
-            "Empatia": 0.0,
-            "Crises": 0.0,
-            "Padroes": 0.0,
-            "Personalizacao": 0.0
+            "Escuta": 33.3,
+            "Empatia": 31.7,
+            "Crises": 23.7,
+            "Padroes": 45.8,
+            "Personalizacao": 23.4
         },
-        "count": 0,
+        "count": 4,
         "insights": {
             "pt": [
-                "Aguardando início das simulações."
+                "Focar no objetivo principal (agendar reunião).",
+                "Evitar descrever produtos ou preços por telefone.",
+                "Melhorar postura ética e empatia na abertura.",
+                "Reforçar o método 'sim, mas' para objeções.",
+                "Aproveitar momento da venda para pedir indicações.",
+                "Utilizar a escolha forçada na proposta de horários."
             ],
             "fr": [
-                "En attente du début des simulations."
+                "Se concentrer sur l'objectif principal (RDV).",
+                "Éviter de décrire les produits par téléphone.",
+                "Améliorer la posture éthique et l'empathie à l'ouverture.",
+                "Renforcer la méthode 'oui, mais' pour les objections.",
+                "Profiter de la vente pour demander des recommandations.",
+                "Utiliser le choix forcé pour proposer des créneaux."
             ]
         },
         "name": "Camila Barbosa",
         "agency": "Rivo Rio",
         "region": "Rio de Janeiro",
-        "lqaScore": null,
+        "lqaScore": 45.8,
         "languages": [
-            "FR"
+            "PT"
         ],
         "improvement": {
             "pt": "Reforçar as 8 etapas MetLife",
             "fr": "Renforcer les 8 étapes MetLife"
         },
-        "dates": [],
-        "avgDurMin": 0
+        "dates": [
+            "2026-07-10"
+        ],
+        "avgDurMin": 4
     },
     {
         "avgDurSec": 0,
@@ -1071,16 +1140,16 @@ const users = [
         "avgDurMin": 0
     },
     {
-        "avgDurSec": 39,
-        "avgScore": 54.7,
+        "avgDurSec": 11,
+        "avgScore": 48.6,
         "skills": {
-            "Escuta": 57.9,
-            "Empatia": 57.2,
-            "Crises": 49.2,
-            "Padroes": 55.8,
-            "Personalizacao": 48.1
+            "Escuta": 51.8,
+            "Empatia": 51.1,
+            "Crises": 43.1,
+            "Padroes": 56.2,
+            "Personalizacao": 42.1
         },
-        "count": 37,
+        "count": 47,
         "insights": {
             "pt": [
                 "Focar no objetivo principal (agendar reunião).",
@@ -1102,7 +1171,7 @@ const users = [
         "name": "Philippe Lepeuple",
         "agency": "Outros",
         "region": "Outros",
-        "lqaScore": 55.8,
+        "lqaScore": 56.2,
         "languages": [
             "FR",
             "PT"
@@ -1119,7 +1188,8 @@ const users = [
             "2026-06-29",
             "2026-06-30",
             "2026-07-01",
-            "2026-07-02"
+            "2026-07-02",
+            "2026-07-10"
         ],
         "avgDurMin": 3
     },
@@ -1157,16 +1227,16 @@ const users = [
         "avgDurMin": 0
     },
     {
-        "avgDurSec": 39,
-        "avgScore": 37.9,
+        "avgDurSec": 48,
+        "avgScore": 39.5,
         "skills": {
-            "Escuta": 41.4,
-            "Empatia": 40.4,
-            "Crises": 32.4,
-            "Padroes": 65.3,
-            "Personalizacao": 32.5
+            "Escuta": 44.8,
+            "Empatia": 42.0,
+            "Crises": 34.0,
+            "Padroes": 63.5,
+            "Personalizacao": 34.6
         },
-        "count": 38,
+        "count": 40,
         "insights": {
             "pt": [
                 "Focar no objetivo principal (agendar reunião).",
@@ -1188,7 +1258,7 @@ const users = [
         "name": "Sabrina Oliveira",
         "agency": "Outros",
         "region": "Outros",
-        "lqaScore": 65.3,
+        "lqaScore": 63.5,
         "languages": [
             "PT"
         ],
@@ -1205,19 +1275,60 @@ const users = [
             "2026-06-24",
             "2026-06-29",
             "2026-06-30",
-            "2026-07-02"
+            "2026-07-02",
+            "2026-07-08",
+            "2026-07-09"
         ],
         "avgDurMin": 2
+    },
+    {
+        "avgDurSec": 0,
+        "avgScore": null,
+        "skills": {
+            "Escuta": 0.0,
+            "Empatia": 0.0,
+            "Crises": 0.0,
+            "Padroes": 0.0,
+            "Personalizacao": 0.0
+        },
+        "count": 1,
+        "insights": {
+            "pt": [
+                "Focar no objetivo principal (agendar reunião).",
+                "Evitar descrever produtos ou preços por telefone.",
+                "Melhorar postura ética e empatia na abertura."
+            ],
+            "fr": [
+                "Se concentrer sur l'objectif principal (RDV).",
+                "Éviter de décrire les produits par téléphone.",
+                "Améliorer la posture éthique et l'empathie à l'ouverture."
+            ]
+        },
+        "name": "Gorilla Su2026",
+        "agency": "Outros",
+        "region": "Outros",
+        "lqaScore": null,
+        "languages": [
+            "EN"
+        ],
+        "improvement": {
+            "pt": "Reforçar as 8 etapas MetLife",
+            "fr": "Renforcer les 8 étapes MetLife"
+        },
+        "dates": [
+            "2026-07-10"
+        ],
+        "avgDurMin": 0
     },
     {
         "avgDurSec": 32,
         "avgScore": 36.2,
         "skills": {
-            "Escuta": 41.0,
+            "Escuta": 40.4,
             "Empatia": 38.7,
             "Crises": 30.7,
-            "Padroes": 35.2,
-            "Personalizacao": 31.5
+            "Padroes": 36.5,
+            "Personalizacao": 31.9
         },
         "count": 10,
         "insights": {
@@ -1241,7 +1352,7 @@ const users = [
         "name": "Tabajara Dias",
         "agency": "Outros",
         "region": "Outros",
-        "lqaScore": 35.2,
+        "lqaScore": 36.5,
         "languages": [
             "PT"
         ],
@@ -1294,16 +1405,16 @@ const users = [
         "avgDurMin": 0
     },
     {
-        "avgDurSec": 46,
-        "avgScore": 39.8,
+        "avgDurSec": 43,
+        "avgScore": 40.4,
         "skills": {
-            "Escuta": 43.9,
-            "Empatia": 42.3,
-            "Crises": 34.3,
-            "Padroes": 27.8,
-            "Personalizacao": 31.8
+            "Escuta": 46.1,
+            "Empatia": 42.9,
+            "Crises": 34.9,
+            "Padroes": 30.1,
+            "Personalizacao": 33.8
         },
-        "count": 6,
+        "count": 8,
         "insights": {
             "pt": [
                 "Focar no objetivo principal (agendar reunião).",
@@ -1325,7 +1436,7 @@ const users = [
         "name": "Philippe de Langlais",
         "agency": "Outros",
         "region": "Outros",
-        "lqaScore": 27.8,
+        "lqaScore": 30.1,
         "languages": [
             "PT"
         ],
@@ -1338,7 +1449,8 @@ const users = [
             "2026-05-05",
             "2026-05-13",
             "2026-06-18",
-            "2026-06-30"
+            "2026-06-30",
+            "2026-07-10"
         ],
         "avgDurMin": 4
     }

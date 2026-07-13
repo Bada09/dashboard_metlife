@@ -1074,6 +1074,586 @@ const RAW_SIMULATIONS = [
         "finished": false
     },
     {
+        "name": "Monique",
+        "agency": "Gorilla",
+        "region": "São Paulo",
+        "date": "08/07/2026",
+        "dur": "6m 34s",
+        "score": 81,
+        "scenario": "PROSPECT_FRIO",
+        "lqa": "N/A",
+        "interactions": 15,
+        "messages": [
+            {
+                "role": "HUMAN",
+                "text": "Olá, tudo bem?"
+            },
+            {
+                "role": "AI",
+                "text": "Estou ocupado agora, fale diretamente e objetivo. Quem é você e qual o motivo da ligação?"
+            },
+            {
+                "role": "HUMAN",
+                "text": "Oi João, meu nome é Monique, tudo joia? Quem me passou seu contato foi o seu amigo Carlos. Ele acabou me recomendando você ao trabalho-- eu faço exex-- executo um trabalho totalmente personalizado, é, e totalmente consultivo."
+            },
+            {
+                "role": "HUMAN",
+                "text": "E ele acabou me recomendando você. Ele acredita que o meu trabalho possa fazer sentido, assim como fez pra ele. Trabalho com planejamento financeiro e proteção familiar, identificando a gestão de riscos."
+            },
+            {
+                "role": "AI",
+                "text": "Carlos? não sei qual Carlos. Você tem algum vínculo com ele que eu deva conhecer? Diga objetivo direto: o que exatamente você propõe e por que seria relevante para mim agora."
+            },
+            {
+                "role": "HUMAN",
+                "text": "O Carlos, ele fala-- ele falou que vocês são muito amigos, que vocês estudaram juntos, que vocês se formaram juntos, e como vocês têm a mesma profissão, os dois engenheiros, ele acredita que meu trabalho possa fazer sentido pra você, principalmente vocês, que geralmente trabalham de forma autônoma."
+            },
+            {
+                "role": "AI",
+                "text": "Não conheço esse Carlos e não trabalho como engenheiro. Seja objetiva: do que se trata o produto e por que eu deveria perder minutos da minha agenda com você agora?"
+            },
+            {
+                "role": "HUMAN",
+                "text": "Uai, cê não conhece o Carlos?"
+            },
+            {
+                "role": "HUMAN",
+                "text": "Carlos."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Ele que me passou seu contato. Eu vou até pedir pra ele, depois a gente... Gostei."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Bom, é, Carlos, eu trabalho com-- de forma de planejamento financeiro e proteção familiar, é, na MetLife, uma empresa-- a maior do mundo, ela tá há cento e cinquenta e sete anos no mercado e o meu trabalho é consultivo, onde eu, através dum bate-papo, eu consigo identificar os seus pontos de vulnerabilidade, se existe algum gap dentro do seu planejamento e, caso haja, meu papel é trazer uma solução totalmente sob medida e personalizada pra você."
+            },
+            {
+                "role": "HUMAN",
+                "text": "É, podemos agendar um bate-papo?"
+            },
+            {
+                "role": "AI",
+                "text": "Posso atender, mas sou direto: explique em duas frases objetivas o que pretende levantar no bate-papo e qual benefício concreto eu teria."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Como eu te disse Carlos, o meu papel é identificar se existe algum gap, algum ponto de vulnerabilidade na questão de riscos dentro do seu planejamento né da sua vida, e caso haja, eu tra- Uma solução sob medida. A partir da nossa conversa que consigo identificar os pontos de vulnerabilidades. É, a gente poderia marcar um bate-papo breve?"
+            },
+            {
+                "role": "AI",
+                "text": "Se"
+            },
+            {
+                "role": "HUMAN",
+                "text": "Como que você-- como que tá a sua agenda na semana que vem? Na quinta-feira? Eu c-- tenho um horário, hã, às nove e um horário às catorze. Ficaria disponível pra você? Daria certo?"
+            },
+            {
+                "role": "AI",
+                "text": "Quinta-feira às nove não funciona para mim. Às catorze posso, desde que a conversa seja objetiva e dure no máximo trinta minutos."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Sim, claro. É, quinta-feira às catorze horas. Poderia me passar seu e-mail pra eu poder encaminhar o invite da nossa reunião, por favor?"
+            },
+            {
+                "role": "HUMAN",
+                "text": "E não passará de trinta minutos, pode ter certeza que esse é o tempo suficiente pra eu poder apresentar de forma bem objetiva o meu, o meu trabalho."
+            },
+            {
+                "role": "AI",
+                "text": "Passa o invite no calendário corporativo para o meu e-mail profissional, por favor. Preferência por reunião presencial no escritório; confirmo sala depois. Despesas relacionadas a deslocamento não serão cobertas por mim."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Não, tranquilo. É, me passa qual que é o seu e-mail, por gentileza?"
+            },
+            {
+                "role": "AI",
+                "text": "Não vou passar meu e-mail pessoal por telefone. Envie o convite para o e-mail institucional que aparece no meu perfil do LinkedIn."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Perfeito então Carlos, já tô encaminhando o invite da nossa reunião que ficou agendada na quinta-feira às catorze horas, é, presencialmente, tudo bem?"
+            },
+            {
+                "role": "AI",
+                "text": "Não sou o Carlos. Confirme o escritório onde será presencial e envie o convite ao e-mail institucional que está no meu LinkedIn. Não reembolso deslocamento. Até lá."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Tudo bem, eu vou encaminhar o meu endereço. Será então no meu, no meu endereço, escritório em Perdizes. Eu te passo a localização, tudo certinho. Eu só peço um grande favor, se você tiver qualquer grande imprevisto-- qualquer não, mas se você tiver um grande imprevisto e você não puder, é, comparecer, eu peço que me avise com antecedência, por favor. Eu também trabalho de forma, é, através de agendamentos. Tudo bem, Ca-- é, João?"
+            },
+            {
+                "role": "AI",
+                "text": "Confirmo presença na quinta-feira às quatorze no seu escritório em Perdizes. Aviso com antecedência caso haja imprevisto. Despesas de deslocamento não serão reembolsadas."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Perfeito, Carlos, será um prazer tê-lo em meu escritório, a gente tomar um café juntos e eu poder te ajudar da melhor forma possível."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Obrigada mais uma vez pelo seu tempo e quinta-feira estaremos, é... juntos."
+            },
+            {
+                "role": "AI",
+                "text": "Ok. Nos vemos quinta-feira às quatorze no seu escritório em Perdizes. Até lá."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Até, abraço. Tchau."
+            },
+            {
+                "role": "AI",
+                "text": "Ok, até quinta-feira então."
+            }
+        ],
+        "finished": true
+    },
+    {
+        "name": "Monique",
+        "agency": "Gorilla",
+        "region": "São Paulo",
+        "date": "08/07/2026",
+        "dur": "2m 31s",
+        "score": 46,
+        "scenario": "PROSPECT_FRIO",
+        "lqa": "N/A",
+        "interactions": 4,
+        "messages": [
+            {
+                "role": "HUMAN",
+                "text": "Olá, boa tarde, tudo joia?"
+            },
+            {
+                "role": "HUMAN",
+                "text": "Fala com o João? É."
+            },
+            {
+                "role": "AI",
+                "text": "Sou eu, João. Quem está falando?"
+            },
+            {
+                "role": "HUMAN",
+                "text": "Oi, João, boa tarde. Monique, tudo bem? Quem me passou seu contato foi seu amigo Carlos. Eles falaram-- ele falou que vocês se formaram juntos, certo?"
+            },
+            {
+                "role": "AI",
+                "text": "É, eu e o Carlos nos conhecemos na escola, mas faz tempo. Por que você entrou em contato?"
+            },
+            {
+                "role": "HUMAN",
+                "text": "Perfeito. Bom, eu fiz-- eu desenvolvi um trabalho de consultoria de forma totalmente planejada pro Carlos, né, sobre planejamento financeiro e proteção familiar, questão de gestão de riscos, né, onde eu identifico se existe algum gap, ou algum ponto de vulnerabilidade dentro do se-- da, dos seus planejamentos e caso haja, meu trabalho é trazer uma solução sob medida e totalmente personalizada. E ele gostou muito, e ele acredita que o meu trabalho... ...posso fazer sentido pra você, assim como fez pra ele. Eu queria m-- é, poder marcar uma reunião com você pra poder explicar melhor como funciona."
+            },
+            {
+                "role": "AI",
+                "text": "Olha, Monique, posso só dizer uma coisa rápida? Estou no meio de uma correção de prova e tenho pouco tempo. Antes de marcar, me diz rapidamente quais benefícios concretos eu teria nessa reunião."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Tudo bem. Os benefícios concretos, João, é que muitas vezes nós, com a correria do nosso dia a dia e com o nosso trabalho, muitas vezes a gente não pensa em fazer uma estratégia, é, inteligente no quesito de planejamento, de proteção, de organização. Muitas vezes a gente pensa em construir, mas a gente não pensa em prot-- em proteger e blindar o nosso patrimônio ou até mesmo nós, né? Porque sem nós, é, a nossa vida não gira."
+            }
+        ],
+        "finished": true
+    },
+    {
+        "name": "Monique",
+        "agency": "Gorilla",
+        "region": "São Paulo",
+        "date": "08/07/2026",
+        "dur": "12m 38s",
+        "score": 64,
+        "scenario": "PROSPECT_FRIO",
+        "lqa": "N/A",
+        "interactions": 33,
+        "messages": [
+            {
+                "role": "HUMAN",
+                "text": "Olá João, boa tarde, tudo joia?"
+            },
+            {
+                "role": "AI",
+                "text": "Boa tarde. Quem está falando e qual o motivo da ligação? Estou com pouco tempo."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Oi João, meu nome é Monique, tudo bem?"
+            },
+            {
+                "role": "HUMAN",
+                "text": "Bom, João, eu tô entrando em contado-- em contato por quê? Eu realizo um trabalho totalmente personalizado e através de indicação, e quem me indicou você foi... O seu amigo Carlos. Ele disse que vocês estudaram juntos, né? É."
+            },
+            {
+                "role": "AI",
+                "text": "Monique, confirma de onde você tirou meu número e por que o Carlos não me avisou disso antes. Estou com pouco tempo."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Então, eu até peço desculpa. Geralmente eu peço pra pessoa que pediu pra eu entrar em contato, me avisar, né? A indicação que eu estaria conver-- é, ligando, porque meu trabalho, ele é bem personalizado e bem exclusivo. Oh, você nunca vai ver ninguém ligando..."
+            },
+            {
+                "role": "HUMAN",
+                "text": "É referente à MetLife. Pelo contrário, né? É só por indicação. É algo bem personalizado e bem exclusivo. E ele acabou lembrando de você. Eu desenvolvo um trabalho totalmente personalizado sobre planejamento financeiro e proteção familiar."
+            },
+            {
+                "role": "HUMAN",
+                "text": "E ele acredita que o meu trabalho possa fazer muito sentido pra você, assim como fez pra ele. E eu queria poder marcar bate-papo com você. É, como que tá a sua agenda na próxima semana, João?"
+            },
+            {
+                "role": "AI",
+                "text": "Monique, antes de qualquer coisa confirme como você obteve meu número e por que o Carlos não me avisou. Tenho pouco tempo agora."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Então, é o que eu havia falado. Quem passou seu contato foi o Carlos."
+            },
+            {
+                "role": "AI",
+                "text": "Monique,"
+            },
+            {
+                "role": "HUMAN",
+                "text": "Desenvolvi um trabalho pra ele, uma consultoria."
+            },
+            {
+                "role": "AI",
+                "text": "Certo."
+            },
+            {
+                "role": "HUMAN",
+                "text": "De planejamento financeiro e proteção familiar. Ele gostou muito, inclusive hoje ele é meu cliente, e eu não sei porque a-- o momento, ele lembrou de você, e no final ele pediu que eu entrasse em contato com você porque ele acredita que possa fazer sentido assim como fez pra ele."
+            },
+            {
+                "role": "AI",
+                "text": "Monique, tudo bem. Repita: como exatamente você conseguiu meu número e por que o Carlos não me avisou? Estou indo para uma reunião, tenho pouco tempo."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Não, tudo bem. Ééé, como eu te disse, o Carlos, ele ao longo da minha consultoria, ele lembrou de você. Não sei porque, ele lembrou de você e ele acabou me passando o seu contato, o Carlos, seu amigo, pra que eu possa apresentar o meu trabalho pra você, por-pois ele acredita que possa fazer sentido, assim como fez pra ele. E eu tô ligando a pedido dele."
+            },
+            {
+                "role": "AI",
+                "text": "Monique, você já respondeu duas vezes a mesma coisa. Vou ser direto: preciso que você confirme quem exatamente te passou meu número. Se foi o Carlos, por que ele não me avisou antes? Tenho dois minutos."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Isso, foi o Carlos, seu amigo. Eu só não sei porque que ele não avisou, até porque eu peço pra avisar antes. Inclusive, eu vou até pedir pra e-ele depois te ligar, é, informando sobre o meu trabalho, que ele que pediu pra eu entrar em contato com você."
+            },
+            {
+                "role": "AI",
+                "text": "Ok. Peça ao Carlos que me ligue e me avise por mensagem antes de qualquer contato. Tenho que ir agora."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Carlos."
+            },
+            {
+                "role": "HUMAN",
+                "text": "\"A gente pode só marcar nosso bate-papo? Eu trabalho com a agenda fechada. Pro Carlos, ele é muito importante, é, eu atender você e eu queria, por favor, ter uma oportunidade. Como que tá sua agenda na próxima semana?\""
+            },
+            {
+                "role": "AI",
+                "text": "Monique, insisto: peça ao Carlos que me avise antes por mensagem. Sobre agenda, não marco nada por telefone agora. Envie um resumo por e-mail e eu avalio."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Na verdade, eu não tenho nenhum resumo por e-mail, porque meu-- como eu te disse, o meu trabalho ele é bem exclusivo e bem personalizado. Eu só in-- eu só trabalho por indicação. Eu desenvolvo um trabalho aonde eu identifico riscos e necessidades de planejamento, aonde eu ver-- verifico se existe algum ponto de vulnerabilidade ou algum gap dentro dos seus planejamento, isso é de acordo com uma conversa, não vou te vender nada, é apenas bate-papo, pra eu poder identificar o que o Carlos tentou identificar e em algum momento ele lembrou de você."
+            },
+            {
+                "role": "HUMAN",
+                "text": "É, posso tá te mandando um invite da nossa reunião? Eu tenho o horário das-- na terça-feira às nove e uma às quinze. Qual ficaria melhor pra você, por favor?"
+            },
+            {
+                "role": "AI",
+                "text": "Monique, insisto no pedido: peça ao Carlos que me confirme por mensagem antes. Quanto aos horários, não marco nada por telefone agora. Envie um e-mail com um breve resumo e então eu avalio."
+            },
+            {
+                "role": "HUMAN",
+                "text": "João. Eu entendo que você não fecha nada por telefone. É, o meu trabalho, ele também, ele é bem, né, personalizado, como eu te disse. Ééé, eu faço um trabalho por indicação. O seu amigo Carlos, ele pediu que eu agendasse a reunião com você. Eu tô pedi-- eu tô falando, é, pra gente poder marcar bate-papo. É, não tem um prévio documento pra te enviar, de uma apresentação, porque é um bate-papo, é eu identificar sua necessidade de acordo com a nossa conversa. É, vamo agendar pra semana que vem um bate-papo na terça? Como que tá a sua agenda? A gente já trava nossas agendas, porque a minha agenda também é muito concorrida."
+            },
+            {
+                "role": "AI",
+                "text": "Monique, insisto: peça ao Carlos para me avisar por mensagem antes. Não marco nada por telefone agora. Envie um e-mail com um resumo objetivo e eu avalio."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Carlos, tudo bem, eu vou te enviar um e-mail, vou pedir pro Carlos entrar em contato, mas eu já gostaria de pre... Te agendar um bate-papo com você."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Tudo bem se você quiser cancelar depois, mas eu preciso agendar porque depois eu não vou po-- não vou entrar em contato novamente."
+            },
+            {
+                "role": "AI",
+                "text": "Monique, eu já disse o essencial: peça ao Carlos que me avise por mensagem antes. Se o Carlos confirmar, eu avalio o e-mail com o resumo e aí a gente combina. Boa tarde."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Carlos."
+            },
+            {
+                "role": "HUMAN",
+                "text": "João, perdão."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Bom, eu entendo. Eu vou pedir pro Carlos, inclusive, eu pedi agora já pra ele te mandar uma mensagem, ele falou que já estava mandando. Vê se você não recebeu no seu WhatsApp, por favor."
+            },
+            {
+                "role": "AI",
+                "text": "Recebi nada ainda. Estou a caminho de uma reunião; não posso checar agora. Peça ao Carlos que me envie a mensagem e depois eu vejo quando puder."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Sim, ele já disse que já enviou. Acredito que já tenha chego aí no seu WhatsApp. É, o Carlos ele é-- ele falou muito bem de você, inclusive, falou que vocês são amigos há muito tempo e queee seria muito legal o meu atendimento pra você. Ele disse que você é uma pessoa, ééé... Bem fechada, que não se abre pra qualquer pessoa, é... Mas ele é um-- ele é um espaço de transformação, né? Você é uma indicação Dele pra mim. É... Você confia no Carlos?"
+            },
+            {
+                "role": "HUMAN",
+                "text": "João."
+            },
+            {
+                "role": "AI",
+                "text": "Monique, eu confio no Carlos profissionalmente. Peça a ele que me confirme por mensagem e eu verei quando puder. Boa tarde."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Tá bom, ele acabou de confirmar, viu? Ele já confirmou. Acredito que já esteja aí no seu WhatsApp. Se você... Olha a sua mensagem, você já vai ver, que é uma indicação, é, e só pelo fato de você confiar no Carlos profissionalmente, ele ter me indicado pra você, significa..."
+            },
+            {
+                "role": "AI",
+                "text": "Recebi"
+            },
+            {
+                "role": "HUMAN",
+                "text": "...falasse com você. É, e eu tô aqui pra-- Estou à disposição pra poder marcar uma conversa com você. É o meu papel identificar, é-- ajudar as pessoas a criarem futuros mais seguros."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Eu posso já deixar pré-agendado? Porque eu não-- depois a minha lista, a minha, a..."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Não. E eu não vou conseguir depois atender (efeito sonoro de interrupção)"
+            },
+            {
+                "role": "HUMAN",
+                "text": "To pre-- pedindo pra deixar pré-agendado. E assim que o Carlos já confirmar, porque ele já me avisou que já avisou você pelo WhatsApp, se for o caso, você cancela, mas eu gostaria..."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Inala."
+            },
+            {
+                "role": "AI",
+                "text": "Monique, pare com a pressão. Eu pedi ao Carlos que confirmasse por mensagem e ele já fez isso. Não vou pré-agendar por telefone. Envie um e-mail com um resumo objetivo e eu avalio quando puder. Boa tarde."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Não, tudo bem! Eu-- Como eu te disse, eu não tenho um... Sim?"
+            },
+            {
+                "role": "HUMAN",
+                "text": "Um creme..."
+            },
+            {
+                "role": "AI",
+                "text": "Monique, não entendi"
+            },
+            {
+                "role": "HUMAN",
+                "text": "Eu não tenho, eu não tenho um-um-um... (pausa)"
+            },
+            {
+                "role": "HUMAN",
+                "text": "Oi."
+            },
+            {
+                "role": "AI",
+                "text": "Recebi sua mensagem do Carlos. Não tenho tempo agora. Peça ao Carlos que confirme por escrito o motivo da indicação e depois me envie um e-mail com um resumo objetivo. Boa tarde."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Ah, sim, o motivo da reunião é que ele comentou que você é um empresário de sucesso, é, que você tava estruturando a questão de holder, a questão sucessória, que você tem dois filhos pequenos."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Ter sentido essa proteção justamente porque você é o pilar financeiro dentro da sua casa. É, então meu trabalho, ele entra nesse, nesse quesito."
+            },
+            {
+                "role": "HUMAN",
+                "text": "O Carlos é uma pessoa que se preocupa muito com você. Mas sim, como eu sei que você tá com pressa, eu vou te mandar um e-mail com o invite..."
+            },
+            {
+                "role": "HUMAN",
+                "text": "E a gente conversa melhor na terça-feira?"
+            },
+            {
+                "role": "HUMAN",
+                "text": "Você prefere de manhã ou à tarde?"
+            },
+            {
+                "role": "AI",
+                "text": "Tarde. Prefiro após as quatorze horas. Envie o e-mail com o convite e eu avalio. Boa tarde."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Perfeito, então. Tô te mandando um e-mail. Você poderia confirmar seu e-mail, por favor? É João ponto..."
+            },
+            {
+                "role": "HUMAN",
+                "text": "É pedro@gmail.com?"
+            },
+            {
+                "role": "AI",
+                "text": "Não. Esse e-mail não é o meu. Envie para joao.silveira arroba gmail ponto com."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Ah, okay! joãovalsilveira@hotmail.com. Perfeito, João! Tô agendando, já encaminhei um e-mail pra você, ééé, com o bate-papo que nós teremos na terça-feira às quinze horas, tá bom? Muito obrigada. Pra novamente o Carlos entrar em contato com você pra reforçar a indicação dele. E você pode ter certeza que o meu trabalho vai fazer muito sentido pra você. É, brigada, não quero te ocupar mais. É, ótima tarde pra você e uma boa reunião. Bons negócios."
+            },
+            {
+                "role": "AI",
+                "text": "Recebi nada ainda. Peça ao Carlos para confirmar por mensagem e eu verei quando puder. Boa tarde."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Boa tarde. Tchau."
+            },
+            {
+                "role": "AI",
+                "text": "Recebi sua mensagem do Carlos e o e-mail não chegou ainda. Peça a ele para reenviar a confirmação por WhatsApp e eu verifico quando puder. Boa tarde."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Tá bom então João, brigada viu mais uma vez agradeço o seu atendimento."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Agradeço."
+            },
+            {
+                "role": "AI",
+                "text": "De nada. Boa tarde."
+            }
+        ],
+        "finished": true
+    },
+    {
+        "name": "Monique",
+        "agency": "Gorilla",
+        "region": "São Paulo",
+        "date": "08/07/2026",
+        "dur": "4m 55s",
+        "score": 0,
+        "scenario": "ENVIE_DOCUMENT",
+        "lqa": "N/A",
+        "interactions": 12,
+        "messages": [
+            {
+                "role": "AI",
+                "text": "O mais simples: encaminhe-me o documento por e-mail, eu o analiso com tranquilidade e lhe dou um retorno."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Oi, Roberta, tudo bem?"
+            },
+            {
+                "role": "HUMAN",
+                "text": "Nossa, cê tá... A minha melada."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Amiga, cê acredita? Que legal, fico feliz. Bom, Roberta, é, eu não tenho nenhum material pra te enviar porque realmente meu trabalho ele é muito personalizado, então é só através de um bate-papo, de uma conversa onde eu vou identificando pontos de vulnerabilidade ou se existe algum gap dentro do seu planejamento para que eu, ah, é, consiga elaborar um projeto de acordo com as suas necessidades. É, eu não tenho material pra te enviar."
+            },
+            {
+                "role": "HUMAN",
+                "text": "O que a gente pode fazer é enca--é enviar--é, eu posso enviar o inva..."
+            },
+            {
+                "role": "AI",
+                "text": "Roberta, agradeço, mas eu preciso ver algo por escrito antes de marcar qualquer conversa. Pode enviar o material por e‑mail?"
+            },
+            {
+                "role": "HUMAN",
+                "text": "Então Roberta, como eu te disse, eu não tenho material por e-mail. O que eu consigo te mandar por e-mail, é o invite da nossa reunião. Meu trabalho, ele é muito específico e muito personalizado. Então, é só através de uma conversa, pra eu con-- que eu consiga analisar quais são as suas reais necessidades, se existe algum ponto de vulnerabilidade, e caso haja, o meu papel é trazer uma solução sob medida. Mas isso é através de uma conversa, de um bate-papo, é, eu precisaria tá verificando um dia pra te mandar o invite. Como que está a sua terça-feira? Eu tenho horário da manhã e da tarde. O que que ficaria melhor pra você?"
+            },
+            {
+                "role": "AI",
+                "text": "Roberta, eu já disse que preciso ver algo por escrito antes de marcar. Se não tem material, então por favor envie um resumo por e‑mail com pontos principais; assim eu avalio e respondo."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Tudo bem, eu vou tá encaminhando o e-mail. É... (pausa)"
+            },
+            {
+                "role": "AI",
+                "text": "Ok, aguardo o e‑mail"
+            },
+            {
+                "role": "HUMAN",
+                "text": "É, eu trabalho com planejamento financeiro e proteção familiar, onde eu identifico, é, os pontos vulneráveis dentro do seu planejamento. Meu trabalho é consultivo, totalmente personalizado, é, e através de indicação. Inclusive, eu só tô entrando em contato com você porque a sua amiga, Camila, é, que acabou me indicando, porque ela acredita que meu trabalho possa mo-- fazer muito sentido pra você, assim como fez para ela. É, até comentou que você tem um filho pequeno, certo?"
+            },
+            {
+                "role": "HUMAN",
+                "text": "Ok."
+            },
+            {
+                "role": "AI",
+                "text": "Roberta, eu não tenho filho. Por favor, envie o resumo por e‑mail como combinamos. Adeus."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Tudo bem."
+            },
+            {
+                "role": "HUMAN",
+                "text": "É..."
+            },
+            {
+                "role": "AI",
+                "text": "Roberta, por favor confirme se vai"
+            },
+            {
+                "role": "HUMAN",
+                "text": "Deixar um pré-agendamento pra semana que vem- Sim."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Porque a minha agenda, ela é muitooo... Ainda dá tempo de fazer muita coisa."
+            },
+            {
+                "role": "HUMAN",
+                "text": "E como a sua amiga pediu muito que eu entrasse em contato, eu vou te mandar o materi--um, uma foto daquela carta. Um pré-resumo do que é o meu trabalho. Em contrapartida, eu já vou tá mandando um invite junto com esse e-mail, tá? Pra-- na terça-feira. Você prefere-- tem preferência..."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Quer sua comida de manhã ou à tarde, por favor?"
+            },
+            {
+                "role": "AI",
+                "text": "Prefiro à tarde. Aguardo o e‑mail com o resumo e o convite. Adeus."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Perfeito, então. É, só confere-- confirma pra mim seu e-mail, por gentileza?"
+            },
+            {
+                "role": "AI",
+                "text": "Posso receber no meu e‑mail pessoal, camila.floripa arroba exemplo ponto com. Adeus."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Perfeito. Camila.Floripa@exemplo.com. Ok, Camila ficou agendado então às quinze, já tô te mandando um, um- Um resumo no meu-- no seu e-mail sobre o meu trabalho e vai ser um prazer falar com você na terça-feira. Obrigada mais uma vez e até terça. Até breve! Tchau."
+            },
+            {
+                "role": "AI",
+                "text": "Tudo bem, obrigada. Até terça às quinze. Adeus."
+            }
+        ],
+        "finished": true
+    },
+    {
         "name": "Eliana",
         "agency": "Inside",
         "region": "Rio de Janeiro",
@@ -1943,6 +2523,328 @@ const RAW_SIMULATIONS = [
             {
                 "role": "AI",
                 "text": "Tudo bem, Débora. Agradeço a"
+            }
+        ],
+        "finished": true
+    },
+    {
+        "name": "Debora Alves",
+        "agency": "Apice",
+        "region": "São Paulo",
+        "date": "10/07/2026",
+        "dur": "3m 30s",
+        "score": 57,
+        "scenario": "PROSPECT_FRIO",
+        "lqa": "N/A",
+        "interactions": 7,
+        "messages": [
+            {
+                "role": "HUMAN",
+                "text": "Pode começar."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Oi Larissa, boa tarde! Tudo bem com você? Aqui quem fala é a Débora, eu estou te ligando a pedido do João Pedro, seu amigo de infância que também tem um salão de beleza. Tudo bem com você?"
+            },
+            {
+                "role": "AI",
+                "text": "Oi, Débora. Estou no meio de um atendimento. O João Pedro não comentou que você ia ligar. Você pode ser direta? Que assunto é esse?"
+            },
+            {
+                "role": "HUMAN",
+                "text": "Claro, Larissa, sem problema nenhum. Na verdade, é uma ligação bem rápida aqui, tá? Na verdade, eu tô te ligando porque o João Pedro pediu. Ele deve ter esquecido de comentar com você que eu ia te ligar, mas é que eu fiz um trabalho para ele, como ele é cabeleireiro também, e ele falou que você tem salão de beleza, eu fiz trabalho pra ele de proteção de renda e ele pediu pra te apresentar, pra você conhecer, pra ver se faz sentido pra você, entender também se faz sentido pra gente ter a Larissa como cliente. E aí eu só estou te ligando hoje pra gente marcar bate-papo de quinze minutos semana que vem online, pra gente ter essa conversa, pra você conhecer. Qual que é o dia que é melhor pra você? Na segunda ou na terça-feira?"
+            },
+            {
+                "role": "AI",
+                "text": "Não fui avisada pelo João Pedro que você ia ligar, achei estranho. Antes de marcar, me explica rápido o que essa proteção de renda cobre e por que eu, dona de salão, precisaria disso."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Então Larissa, é... É um modelo de proteção de renda voltada justamente ao quê, né? Como você é proprietária, você é empresária, se acontecer algum imprevisto de saúde e você não puder estar na linha de frente do seu trabalho, essa proteção ela vai garantir o mesmo valor que você gera de receita mensal. João Pedro gostou muito e ele pediu pra te apresentar pra você conhecer."
+            },
+            {
+                "role": "AI",
+                "text": "Certo, entendi a ideia. Me diz uma coisa rápida: isso cobre afastamento por doença comum ou só por acidente e doenças graves? Quero saber se paga enquanto eu fico fora cuidando de mim."
+            },
+            {
+                "role": "HUMAN",
+                "text": "O Claro que cobre isso, justamente por conta disso, que o João Pedro pensou em você. Então a gente consegue marcar um bate-papo pra eu te explicar melhor sobre essa questão do afastamento. É uma conversa de quinze minutos. O que que funciona melhor para você na segunda ou na terça?"
+            },
+            {
+                "role": "AI",
+                "text": "Antes de marcar, quero saber quem vai participar desse bate-papo e quanto tempo exatamente vai durar."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Olha, quem vai participar desse bate-papo é eu e a Larissa e vai demorar aproximadamente quinze minutos. Tá bom, Larissa? O que que funciona melhor pra você, na segunda ou na terça?"
+            },
+            {
+                "role": "AI",
+                "text": "Tô de agenda cheia, mas consigo na terça pela manhã. Que horário exatamente você propõe?"
+            },
+            {
+                "role": "HUMAN",
+                "text": "Ah, perfeito Larissa! Então na terça-feira às dez horas da manhã. Aí um dia antes eu mando um lembrete pra você e coloco o link no WhatsApp pra gente conversar, tudo bem?"
+            },
+            {
+                "role": "AI",
+                "text": "Tudo bem, pode ser. Só peço que seja pontual, por favor. Até terça às dez então."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Perfeito, Larissa, muito obrigada!"
+            }
+        ],
+        "finished": true
+    },
+    {
+        "name": "Debora Alves",
+        "agency": "Apice",
+        "region": "São Paulo",
+        "date": "10/07/2026",
+        "dur": "2m 17s",
+        "score": 51,
+        "scenario": "PROSPECT_FRIO",
+        "lqa": "N/A",
+        "interactions": 8,
+        "messages": [
+            {
+                "role": "HUMAN",
+                "text": "Quando eu te falo, é quando você pode falar."
+            },
+            {
+                "role": "AI",
+                "text": "Certo, estou ouvindo. Pode falar rápido, estou no meio de atendimento."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Vai, fala."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Larissa, quem me passou seu contato foi Débora, que tem um salão de beleza..."
+            },
+            {
+                "role": "AI",
+                "text": "Débora? Ah, conheço sim, cliente e amiga. Diga rápido o que você quer; estou com tempo contado."
+            },
+            {
+                "role": "HUMAN",
+                "text": "É isso, sublinho aqui. O motivo da minha, da minha ligação aqui é justamente pra gente marcar uma conversa- É por isso que eu posso ser o seu contato, porque eu tenho um trabalho interessante para proteção de renda?"
+            },
+            {
+                "role": "HUMAN",
+                "text": "E aí ela acredita que faz muito sentido para você também."
+            },
+            {
+                "role": "HUMAN",
+                "text": "E aí me diga uma coisa: o que que eu melhorasse em mundo na quarta-feira?"
+            },
+            {
+                "role": "AI",
+                "text": "Quarta-feira eu tenho agenda cheia de manhã, mas à tarde posso por volta das quatro horas. Isso funciona pra você?"
+            },
+            {
+                "role": "HUMAN",
+                "text": "Entrando aqui."
+            },
+            {
+                "role": "AI",
+                "text": "Ok, confirme então: você prefere quarta-feira às quatro horas da tarde ou quer sugerir outro horário próximo?"
+            },
+            {
+                "role": "HUMAN",
+                "text": "Não, conselho não acontece com vocês, senhores."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Informa o ID, tá joia?"
+            },
+            {
+                "role": "AI",
+                "text": "Desculpa, não posso passar meu ID por telefone agora. Prefiro confirmar o horário primeiro e receber as informações por mensagem. Pode mandar um resumo por WhatsApp e a gente confirma quarta às quatro horas da tarde?"
+            },
+            {
+                "role": "HUMAN",
+                "text": "Larissa é o seguinte: aqui eu tô entre uma reunião e outra também, então... Vamos deixar confirmado na quarta-feira? À parte das quatro da tarde e a gente- Uhum!"
+            },
+            {
+                "role": "HUMAN",
+                "text": "Quando for na quarta eu mando o link pra você da nossa reunião online. Pode ser?"
+            },
+            {
+                "role": "AI",
+                "text": "Pode. Manda o link no meu WhatsApp na quarta-feira perto do horário combinado. Até lá."
+            }
+        ],
+        "finished": true
+    },
+    {
+        "name": "Mauro Omarini",
+        "agency": "Inside",
+        "region": "São Paulo",
+        "date": "11/07/2026",
+        "dur": "1m 42s",
+        "score": 64,
+        "scenario": "PROSPECT_FRIO",
+        "lqa": "N/A",
+        "interactions": 8,
+        "messages": [
+            {
+                "role": "HUMAN",
+                "text": "Bom dia, João Pedro, tudo bem?"
+            },
+            {
+                "role": "HUMAN",
+                "text": "Tô te ligando a pedido do Leonardo..."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Ele me falou que é um grande amigo seu e eu fiz um trabalho com ele essa semana e ele falou: \"Po, seu João Pedro tem que ouvir também.\""
+            },
+            {
+                "role": "HUMAN",
+                "text": "Você... Teria disponibilidade na próxima semana?"
+            },
+            {
+                "role": "HUMAN",
+                "text": "Prefere que a gente fale dentro ou fora do horário comercial?"
+            },
+            {
+                "role": "AI",
+                "text": "Bom dia. Prefiro fora do horário comercial, depois das sete da noite funciona melhor."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Não, legal, tô olhando aqui pra minha agenda. É, depois das sete eu consigo na terça ou na quinta, qual ficaria melhor?"
+            },
+            {
+                "role": "AI",
+                "text": "Terça funciona melhor para mim. Que horário depois das sete você tem disponível?"
+            },
+            {
+                "role": "HUMAN",
+                "text": "Oi João Pedro, pode ser às vinte horas?"
+            },
+            {
+                "role": "HUMAN",
+                "text": "Se você concordando, me passa seu e-mail, por favor, que eu já vou te mandar um invite para travar as nossas agendas."
+            },
+            {
+                "role": "AI",
+                "text": "Posso, terça às vinte horas está bom. Meu e-mail é fernanda.moura.bh arroba gmail ponto com."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Perfeito. A gente acaba na reunião aqui, eu já vou te mandar esse invite."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Obrigado aí pelo, pela recepção. Valeu."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Estou ansioso pra te conhecer e caso você tenha um grande imprevisto, por favor, você me avisa com antecedência?"
+            },
+            {
+                "role": "AI",
+                "text": "Tudo bem, eu aviso se surgir algum imprevisto. Até terça às vinte horas."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Muito obrigado."
+            }
+        ],
+        "finished": true
+    },
+    {
+        "name": "Mauro Omarini",
+        "agency": "Inside",
+        "region": "São Paulo",
+        "date": "11/07/2026",
+        "dur": "4m 46s",
+        "score": 0,
+        "scenario": "PROSPECT_FRIO",
+        "lqa": "N/A",
+        "interactions": 1,
+        "messages": [
+            {
+                "role": "HUMAN",
+                "text": "Hello, bom dia."
+            },
+            {
+                "role": "AI",
+                "text": "Hi. I’m a bit busy right now. Who is this and what do you need briefly?"
+            }
+        ],
+        "finished": false
+    },
+    {
+        "name": "Mauro Omarini",
+        "agency": "Inside",
+        "region": "São Paulo",
+        "date": "11/07/2026",
+        "dur": "78m 34s",
+        "score": 0,
+        "scenario": "ENVIE_DOCUMENT",
+        "lqa": "N/A",
+        "interactions": 7,
+        "messages": [
+            {
+                "role": "AI",
+                "text": "O mais simples: encaminhe-me o documento por e-mail, eu o analiso com tranquilidade e lhe dou um retorno."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Ô Roberta, é, entenda aí a questão do e-mail, mas infelizmente eu não tenho um documento pra te enviar."
+            },
+            {
+                "role": "HUMAN",
+                "text": "A gente trabalha exclusivamente aí pra cada cliente, cada um tem o seu perfil, a gente não tem produto de prateleira, então eu preciso realmente te conhecer, entender as suas necessidades pra que eu possa te enviar algo por e-mail."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Na semana que vem, fica mais fácil a gente conversar dentro ou fora do horário comercial?"
+            },
+            {
+                "role": "AI",
+                "text": "Prefiro fora do horário comercial, por favor."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Ah, legal! É... Fora do horário comercial, às dezenove seria um bom horário? Às dezenove eu conseguiria na terça ou na quarta-feira."
+            },
+            {
+                "role": "AI",
+                "text": "Terça às dezenove funciona bem para mim. Pode ser videoconferência?"
+            },
+            {
+                "role": "HUMAN",
+                "text": "Pode sim, Roberto. É... Me passa, por favor, o seu e-mail que eu já vou te mandar um invite, né? Já coloco ali o link da nossa reunião e na terça eu te explico, é, um pouquinho do meu trabalho e aí, sim, consigo te mandar por e-mail. Tá bom? Muito obrigado por enquanto."
+            },
+            {
+                "role": "AI",
+                "text": "Desculpe, senhor, não passo e-mail por telefone. Pode enviar o convite por mensagem de texto para meu número, por favor?"
+            },
+            {
+                "role": "HUMAN",
+                "text": "Ah, sem problema, não tem problema, tô já gerando o invite aqui."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Eh, pra ficar na minha agenda e aí encaminho para você por mensagem. Peço somente que você coloque na sua agenda também, né? Pra que a gente possa reservar esse horário na-nas nossas agendas."
+            },
+            {
+                "role": "AI",
+                "text": "Tudo bem, senhor. Vou colocar na minha agenda também e aguardar sua mensagem."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Tenha um ótimo dia. Até terça. Muito obrigado."
+            },
+            {
+                "role": "AI",
+                "text": "Obrigada, senhor. Até terça, então."
             }
         ],
         "finished": true
@@ -3816,6 +4718,520 @@ const RAW_SIMULATIONS = [
         "finished": false
     },
     {
+        "name": "Wilson Arita",
+        "agency": "Inside",
+        "region": "São Paulo",
+        "date": "08/07/2026",
+        "dur": "0m 0s",
+        "score": 0,
+        "scenario": "PROSPECT_FRIO",
+        "lqa": "N/A",
+        "interactions": 1,
+        "messages": [
+            {
+                "role": "HUMAN",
+                "text": "Hola."
+            },
+            {
+                "role": "AI",
+                "text": "Hello. I'm a bit busy right now. Who is this and what do you want?"
+            }
+        ],
+        "finished": false
+    },
+    {
+        "name": "Wilson Arita",
+        "agency": "Inside",
+        "region": "São Paulo",
+        "date": "08/07/2026",
+        "dur": "0m 0s",
+        "score": 0,
+        "scenario": "PROSPECT_FRIO",
+        "lqa": "N/A",
+        "interactions": 2,
+        "messages": [
+            {
+                "role": "HUMAN",
+                "text": "Olá, bom dia!"
+            },
+            {
+                "role": "AI",
+                "text": "Bom dia. Estou um pouco ocupado agora, posso ouvir rápido. Quem está falando e por que ligou?"
+            },
+            {
+                "role": "HUMAN",
+                "text": "Oi Paulo, meu nome é... Eu ganhei o seu contato com o Kazu."
+            },
+            {
+                "role": "AI",
+                "text": "Desculpa, acho que você se enganou. Eu não sou o Paulo. Quem é você e como conseguiu meu número?"
+            }
+        ],
+        "finished": false
+    },
+    {
+        "name": "Wilson Arita",
+        "agency": "Inside",
+        "region": "São Paulo",
+        "date": "08/07/2026",
+        "dur": "2m 4s",
+        "score": 34,
+        "scenario": "PROSPECT_FRIO",
+        "lqa": "N/A",
+        "interactions": 5,
+        "messages": [
+            {
+                "role": "HUMAN",
+                "text": "Olá, bom dia Paulo. Bom dia!"
+            },
+            {
+                "role": "AI",
+                "text": "Bom dia. Acho que você se confundiu; meu nome não é Paulo. Estou ocupado agora, pode ser rápido?"
+            },
+            {
+                "role": "HUMAN",
+                "text": "Qual o seu nome, por favor?"
+            },
+            {
+                "role": "AI",
+                "text": "Meu nome é Patrícia. Estou ocupado agora, pode ser rápido?"
+            },
+            {
+                "role": "HUMAN",
+                "text": "Oi Patrícia, claro, desculpa viu? Vai ser bem breve. Patrícia, eu peguei o seu telefone com o Casuarita. Ele comentou que eu ligaria pra você?"
+            },
+            {
+                "role": "AI",
+                "text": "Não, ele não mencionou que você ligaria. Estou no meio de coisas e só tenho poucos minutos. O que você quer?"
+            },
+            {
+                "role": "HUMAN",
+                "text": "Não, maravilha. Conversei com o Kazu sobre sustentabilidade financeira devido a questões profissionais e pessoais. Ele falou que você tem uma filha de dez anos. E aí eu queria conversar sobre algumas necessidades específicas que a vida traz. Não precisa ser agora, mas a gente pode organizar uma agenda, pode ser?"
+            },
+            {
+                "role": "AI",
+                "text": "Você disse que conversou com o Kazu, não com o Casuarita. Além disso, minha filha não tem ten anos. Tenho pouco tempo; por que eu receberia uma reunião com você?"
+            },
+            {
+                "role": "HUMAN",
+                "text": "Ah, entendi. É, dessa forma eu vou voltar o contato com o Kazu e vou conversar com ele que você não teve interesse então. Porque ele me passou algumas informações erradas né, o seu nome não é Paulo, você não tem um filho de dez anos, então dessa forma não dá nem pra treinar também se eu não tenho informações certas."
+            },
+            {
+                "role": "AI",
+                "text": "Isso não funciona. Se você não tem as informações corretas, não faz sentido insistir. Fale com o Kazu e volte quando tiver dados precisos e um objetivo claro para a reunião."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Perfeito, muito obrigado."
+            }
+        ],
+        "finished": true
+    },
+    {
+        "name": "Wilson Arita",
+        "agency": "Inside",
+        "region": "São Paulo",
+        "date": "08/07/2026",
+        "dur": "0m 0s",
+        "score": 0,
+        "scenario": "PROSPECT_FRIO",
+        "lqa": "N/A",
+        "interactions": 1,
+        "messages": [
+            {
+                "role": "HUMAN",
+                "text": "Olá, boa tarde Roberta?"
+            },
+            {
+                "role": "AI",
+                "text": "Não sou a Roberta. Quem fala? Estou ocupada agora, diga rápido o motivo da ligação."
+            }
+        ],
+        "finished": false
+    },
+    {
+        "name": "Wilson Arita",
+        "agency": "Inside",
+        "region": "São Paulo",
+        "date": "08/07/2026",
+        "dur": "1m 15s",
+        "score": 25,
+        "scenario": "PROSPECT_FRIO",
+        "lqa": "N/A",
+        "interactions": 5,
+        "messages": [
+            {
+                "role": "HUMAN",
+                "text": "Alô, boa tarde, João?"
+            },
+            {
+                "role": "AI",
+                "text": "Oi, tudo bem. Quem está falando? Estou com pouco tempo, posso falar por alguns minutos."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Oi, maravilha, João. Aqui é o Wilson Arita, tudo bem? Eu peguei o seu contato com o Kazuo Arita, seu, seu amigo."
+            },
+            {
+                "role": "AI",
+                "text": "Estranho, não conheço nenhum Kazuo Arita. Quem é você e por que pegou meu contato com ele?"
+            },
+            {
+                "role": "HUMAN",
+                "text": "Não, na realidade você é uma indicação dele. Ele falou que é um seu amigo pessoal de infância. Ele estudou com você no colégio Companhia de Maria."
+            },
+            {
+                "role": "AI",
+                "text": "Estranho, não tenho esse nome entre meus amigos de infância. Como você conseguiu meu telefone?"
+            },
+            {
+                "role": "HUMAN",
+                "text": "Eu consegui através dele. Conversei com, é, Felipe Kazuarieta. É, você conhece algum Felipe?"
+            },
+            {
+                "role": "AI",
+                "text": "Não, não conheço nenhum Felipe Kazuarieta. Por favor explique claramente de onde veio meu número."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Ah, entendi."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Hã... Eu acredito que esse tipo de objeção, hã, não faz parte do nosso trabalho, porque se a gente desconhece, a gente nem continua a ligação."
+            }
+        ],
+        "finished": true
+    },
+    {
+        "name": "Wilson Arita",
+        "agency": "Inside",
+        "region": "São Paulo",
+        "date": "10/07/2026",
+        "dur": "5m 21s",
+        "score": 78,
+        "scenario": "PROSPECT_FRIO",
+        "lqa": "N/A",
+        "interactions": 15,
+        "messages": [
+            {
+                "role": "HUMAN",
+                "text": "Olá, bom dia."
+            },
+            {
+                "role": "AI",
+                "text": "Bom dia. Posso falar agora, mas só tenho alguns minutos."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Oi Roberta, bom dia, tudo bem? Meu nome é Wilson Arita, eu peguei o seu contato com a Isabela."
+            },
+            {
+                "role": "AI",
+                "text": "Oi, Wilson. Tudo bem, estou ocupada agora e só tenho alguns minutos. Como você obteve meu contato pela Isabela?"
+            },
+            {
+                "role": "HUMAN",
+                "text": "Ah, conversei com a Isabela Coelho sobre sustentabilidade financeira, que é voltada pra parte profissional e pessoal. Ela comentou que você é uma empresária de sucesso, tem dois filhos e... E aí eu queria bater um papo com você sobre algumas necessidades específicas de vida."
+            },
+            {
+                "role": "HUMAN",
+                "text": "E te mostrar como a gente desenvolve o nosso trabalho. (pausa de seis segundos)"
+            },
+            {
+                "role": "AI",
+                "text": "Isabela falou com você sobre mim antes de eu saber, então eu gostaria de entender primeiro como você conseguiu meu número."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Isso através da Isabela. Como eu conversei com ela, ela achou muito interessante o meu trabalho. Ela falou: \"Liga pra Roberta, que a Roberta também é antenada na parte profissional e é uma mãezona, e ela teria muito interesse em ouvir você\". E aí, ela me passou o contato. Eu achei que ela teria te avisado antes."
+            },
+            {
+                "role": "AI",
+                "text": "Entendi. Agradeço por esclarecer. Só mais uma coisa antes de continuar: você disse que quer falar sobre necessidades de vida — pode resumir em poucas palavras qual o objetivo desse papo para eu saber se vale a pena seguir agora?"
+            },
+            {
+                "role": "HUMAN",
+                "text": "Claro, a gente fala muito sobre imprevistos de vida, né? E necessidades. Então tudo é linkado, sua vida profissional, sua vida pessoal. E aí eu queria bater um papo com você pra enxergar essas necessidades."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Puts! Se Roberta parar de trabalhar, como fica a empresa dela? Então, a gente vai bater um papo sem compromisso só pra você entender um pouco mais."
+            },
+            {
+                "role": "AI",
+                "text": "Se a minha empresa ficasse sem mim, essa é exatamente a questão que eu quero entender melhor antes de aceitar uma reunião. Posso ouvir um exemplo concreto de como você ajudaria alguém nessa situação, em poucas palavras?"
+            },
+            {
+                "role": "HUMAN",
+                "text": "Claro, é que fica muitooo, muito superficial essa parte da conversa. Por quê? Porque eu preciso entender o seu papel dentro da sua empresa. Então a sua empresa ela consegue, é, funcionar se você ficar afastado há um ano?"
+            },
+            {
+                "role": "HUMAN",
+                "text": "Como que seria uma contratação de uma gerente comercial ou um gerente administrativo? Essa parte que eu preciso entender um pouco mais."
+            },
+            {
+                "role": "AI",
+                "text": "Uma contratação de gerente aqui geralmente levaria pelo menos dois meses até a pessoa entender processos e equipe.  \nCustos diretos e indiretos dariam impacto no caixa por alguns meses, então preciso saber quanto isso cobriria."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Perfeito, é isso que a gente vai conversar. Ah, preciso pelo menos de trinta a quarenta minutos com... Como que você tá na segunda-feira na parte da manhã ou na terça-feira na parte da tarde?"
+            },
+            {
+                "role": "AI",
+                "text": "Segunda de manhã eu tenho compromisso.  \nTerça à tarde fica melhor, que horário você sugere entre duas e quatro horas?"
+            },
+            {
+                "role": "HUMAN",
+                "text": "Pode ser às quinze horas?"
+            },
+            {
+                "role": "AI",
+                "text": "Quinze horas funciona para mim.  \nOnde prefere que a gente se encontre: pela escola perto da minha casa ou em um café próximo ao centro?"
+            },
+            {
+                "role": "HUMAN",
+                "text": "Hã, eu posso ir no seu escritório se você estiver um pouco mais tranquila."
+            },
+            {
+                "role": "AI",
+                "text": "Prefiro receber em um local neutro, mais prático para mim.  \nPodemos combinar no café próximo ao centro às quinze horas na terça-feira."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Pode ser, qual o endereço do café? Qual o nome do café?"
+            },
+            {
+                "role": "AI",
+                "text": "Prefiro que você me diga o nome e o endereço do café, por favor."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Maravilha, então vamo no Starbucks às quinze horas ali do centro, tá bom? Combinado. Ah, eu vou pedir seu e-mail."
+            },
+            {
+                "role": "AI",
+                "text": "Starbucks do centro está ok às quinze horas na terça-feira.  \nNão vou passar meu e-mail por telefone; prefiro falar os detalhes pessoalmente no encontro."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Ah não, maravilha! O e-mail seria mais pra te mandar um invite."
+            },
+            {
+                "role": "AI",
+                "text": "Prefiro não passar e-mail por telefone.  \nSe for preciso, você pode me mandar o convite pelo app de mensagens no dia anterior; aí confirmo quando puder."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Combinado! Vou já deixar separado na minha agenda e aí eu vou te pedir só um favor. Eu trabalho extremamente-- o meu trabalho é extremamente muito corrido, eu trabalho com uma agenda muito apertada. Caso você tenha algum grande imprevisto, você consegue me avisar dois dias... É, antes-"
+            },
+            {
+                "role": "AI",
+                "text": "Posso avisar com dois dias de antecedência, sem problema.  \nSe for preciso mudar com menos tempo, aviso assim que souber."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Ok, maravilha! Então na terça-feira às quinze horas estarei lá no Starbucks de conversa e eu a-- acredito que cê vá gostar muito do-do nosso bate-papo. Brigado viu Roberto? Um bom dia."
+            },
+            {
+                "role": "AI",
+                "text": "Certo, estarei lá às quinze horas no Starbucks do centro.  \nAté lá e bom dia."
+            }
+        ],
+        "finished": true
+    },
+    {
+        "name": "Wilson Arita",
+        "agency": "Inside",
+        "region": "São Paulo",
+        "date": "10/07/2026",
+        "dur": "7m 11s",
+        "score": 87,
+        "scenario": "PROSPECT_FRIO",
+        "lqa": "N/A",
+        "interactions": 22,
+        "messages": [
+            {
+                "role": "HUMAN",
+                "text": "Alô, bom dia. Diego?"
+            },
+            {
+                "role": "HUMAN",
+                "text": "(cachorro latindo)"
+            },
+            {
+                "role": "AI",
+                "text": "Oi, sou eu sim. Estou no meio de uma reunião rápida, você pode falar rápido?"
+            },
+            {
+                "role": "HUMAN",
+                "text": "Claro, Diego, tudo bem? Meu nome é Wilson Harita, eu sou um grande amigo do Bruno. Uhum."
+            },
+            {
+                "role": "HUMAN",
+                "text": "O Bruno que joga futebol com você?"
+            },
+            {
+                "role": "AI",
+                "text": "Sim, é esse Bruno. Por que?"
+            },
+            {
+                "role": "HUMAN",
+                "text": "Ô maravilha! O Bruno é um grande amigo pessoal também. Eu acredito que ele até tenha jogado bola com você, porque eu participo de algumas ações eee, ele falou: \"Putz, liga pro Diego que o Diego é meio perna de pau.\" (risada)."
+            },
+            {
+                "role": "HUMAN",
+                "text": "(risadas)"
+            },
+            {
+                "role": "AI",
+                "text": "(risadas) Verdade, ele é exagerado. Tenho só uns dois minutos, o que você precisa?"
+            },
+            {
+                "role": "HUMAN",
+                "text": "Não, Maravilha. Diego."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Eu estive com o Bruno na semana passada conversando sobre sustentabilidade, que é voltada pra algumas necessidades específicas do trabalho e da vida pessoal. E ele falou: \"Putz, eu acho que é a cara do Diego. Liga pro Diego que ele vai gostar de bater um papo sobre isso\". E aí eu tô te ligando pra te explicar um pouco mais."
+            },
+            {
+                "role": "AI",
+                "text": "Olha, Wilson, tenho só dois minutos mesmo. Me diz rapidamente qual o interesse pra mim em aceitar uma conversa mais longa."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Não, maravilha. Vamo conversar então sobre algumas necessidades específicas no dia a dia? Hã, eu preciso de trinta, quarenta minutos. Você pode ir na segunda-feira na parte da manhã ou na terça-feira, na parte da tarde?"
+            },
+            {
+                "role": "AI",
+                "text": "Eu só tenho alguns minutos agora. Não consigo marcar na segunda de manhã nem na terça à tarde. Você pode explicar rapidinho o que eu ganho com essa conversa?"
+            },
+            {
+                "role": "HUMAN",
+                "text": "Claro, claro. Vamo lá. Hã, eu preciso entender um pouco da sua vida profissional. Ele falou que você é um grande empresário do ramo automotivo, né? E, se você ficar parado um ou dois anos do-das suas atividades, como que fica a sua vida pessoal? E ele falou: \"Putz, Diego também é pai de duas crianças, ele é o provedor da família.\" Conversa com ele sobre algumas necessidades, explica pra ele. Então, é um bate-papo sem compromisso. Eu queria marcar uma reunião com você, pra te explicar um pouco melhor, é, e comais calma. (pausa de cinco segundos)"
+            },
+            {
+                "role": "AI",
+                "text": "Wilson, só tenho alguns minutos agora. Me explica objetivamente o que eu ganho na reunião em trinta segundos."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Maravilha! Hã, vamo lá. Nessa reunião que eu vou fazer com você, eu vou te apresentar essas necessidades. Simples assim."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Se você ficar parado um mês ou dois meses por alguma invalidez, por uma doença, como que você mantém a sua família?"
+            },
+            {
+                "role": "HUMAN",
+                "text": "Você tem algum plano B?"
+            },
+            {
+                "role": "AI",
+                "text": "Tenho reservas, sim. Tenho uma reserva financeira que cobre uns três meses de despesas. Não gosto de depender só disso, por isso quero entender opções que sejam digitais, flexíveis e com bom custo-benefício."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Perfeito! É isso que eu vou fazer com você, porque a sua reserva é pra urgências mais específicas e muitas vezes é pra você criar uma independência financeira, uma aposentadoria, né? Se passar de três meses um imprevisto, como que fica a sua família? É sobre essa necessidade que eu vou conversar com você."
+            },
+            {
+                "role": "AI",
+                "text": "Certo. Antes de marcar, me explica rápido: a oferta é mais proteção por incapacidade temporária ou um plano com componente de investimento também?"
+            },
+            {
+                "role": "HUMAN",
+                "text": "Isso vai depender muito só... Sobre valorização de patrimônio que você tem."
+            },
+            {
+                "role": "AI",
+                "text": "Ok."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Então, eu não consigo te detalhar especificamente agora. É um trabalho muito consultivo, né, então seria muitooo superficial da minha parte se eu te-- falar o que, que seria, é, especial pra você nesse momento. Então, é claro que eu vou trabalhar com a parte de necessidades do dia a dia, uma incapacidade temporária, uma incapacidade permanente, né? Mas também a gente pode falar sobre isso, os planejamentos sucessório, dedutibilidade fiscal, se isso se encaixar no quadro de empresa que você tem."
+            },
+            {
+                "role": "AI",
+                "text": "Certo, Wilson. Me explica então qual é o objetivo concreto dessa reunião e o que eu ganho de valor imediato ao participar."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Legal, o objetivo é fazer uma consultoria financeira?"
+            },
+            {
+                "role": "HUMAN",
+                "text": "Principalmente na sustentabilidade. E se você gostar do nosso planejamento, você vai proteger a sua empresa e a sua família. Então, a gente vai falar muito sobre proteções."
+            },
+            {
+                "role": "AI",
+                "text": "Certo, Wilson. Antes de marcar, me diz qual o formato da reunião: é tudo remoto por vídeo ou tem parte presencial?"
+            },
+            {
+                "role": "HUMAN",
+                "text": "Aí vai, é, pode ser presencial ou pode ser por videoconferência. O que você acha melhor?"
+            },
+            {
+                "role": "AI",
+                "text": "Videoconferência, por favor. Prefiro evitar deslocamento e gosto de ver material na tela. Que plataformas você usa?"
+            },
+            {
+                "role": "HUMAN",
+                "text": "Eu uso o zoom, pode ser?"
+            },
+            {
+                "role": "AI",
+                "text": "Zoom funciona pra mim. Me manda duas opções de horário, preferencialmente em quarenta e oito ou setenta e duas horas, e eu vejo qual bate com minha agenda."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Maravilha. Como você falou que a segunda e a terça estão mais complicadas, eu tenho na quarta-feira, na parte da manhã ou quinta-feira na parte da tarde. Qual a melhor opção pra você?"
+            },
+            {
+                "role": "AI",
+                "text": "Quinta-feira à tarde funciona melhor pra mim. Que horário você sugere entre duas e quatro da tarde?"
+            },
+            {
+                "role": "HUMAN",
+                "text": "Quinta-feira às quinze horas, pode ser?"
+            },
+            {
+                "role": "AI",
+                "text": "Quinta-feira às quinze horas funciona pra mim. Envia o link do Zoom e a pauta resumida por mensagem."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Legal, você prefere que eu te envie um invite por e-mail?"
+            },
+            {
+                "role": "AI",
+                "text": "Prefiro pelo WhatsApp; recebo mais rápido lá. Pode mandar o link do Zoom também, e um resumo da pauta por mensagem no WhatsApp."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Maravilha, combinado então quinta-feira às quinze horas te mando o link, a pauta."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Qualquer grande imprevisto que você tenha, você pode me avisar com dois dias de antecedência? Meu trabalho é muito corrido, minha agenda é muito concorrida também."
+            },
+            {
+                "role": "AI",
+                "text": "Posso sim, desde que você me avise com pelo menos dois dias de antecedência. Se algo mudar de última hora, prefiro uma mensagem pelo WhatsApp."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Maravilha, Diego. Combinado, então. A gente se fala aí na quinta-feira e eu vou falar com o Brunão pra ver se a gente marca um futebol pra eu te conhecer pessoalmente também. Ah! Acredito que já te conheço (risada). Tá bom? Um bom dia."
+            },
+            {
+                "role": "AI",
+                "text": "Beleza, até quinta às quinze horas no WhatsApp então. Bom dia."
+            }
+        ],
+        "finished": true
+    },
+    {
         "name": "João Pedro",
         "agency": "Apice",
         "region": "Salvador",
@@ -4316,6 +5732,468 @@ const RAW_SIMULATIONS = [
             }
         ],
         "finished": false
+    },
+    {
+        "name": "Aline Almeida",
+        "agency": "Ark",
+        "region": "São Paulo",
+        "date": "08/07/2026",
+        "dur": "0m 0s",
+        "score": 0,
+        "scenario": "PROSPECT_FRIO",
+        "lqa": "N/A",
+        "interactions": 1,
+        "messages": [
+            {
+                "role": "HUMAN",
+                "text": "Hello, good afternoon. I'm Aline."
+            },
+            {
+                "role": "AI",
+                "text": "Afternoon, Aline. I’m a bit busy right now. Who are you with and what do you want?"
+            }
+        ],
+        "finished": false
+    },
+    {
+        "name": "Aline Almeida",
+        "agency": "Ark",
+        "region": "São Paulo",
+        "date": "08/07/2026",
+        "dur": "3m 5s",
+        "score": 78,
+        "scenario": "PROSPECT_FRIO",
+        "lqa": "N/A",
+        "interactions": 7,
+        "messages": [
+            {
+                "role": "HUMAN",
+                "text": "Olááá, boa tarde, tudo bem? Eu sou Aline, quem me passou o seu contato foi a Roberta e eu gostaria de fazer um convite a você, porque eu sou consultora de proteção financeira e eu estive com a Roberta na semana passada e ela lembrou de você na mesma hora e falou: \"Ai, fala com a Juliana que ela vai te atender\"."
+            },
+            {
+                "role": "AI",
+                "text": "Oi, Aline. Estou"
+            },
+            {
+                "role": "HUMAN",
+                "text": "E eu gostaria-- a meu-- minha intenção é marcar um convite, tá? Vamo marcar uma reunião na próxima semana pra que nós possamos conversar e eu te apresento essa proposta que eu apresentei pra Roberta, tá? O meu, a minha, o meu planejamento, minha metodologia de trabalho e, e você vai ver que vai ser tão legal quanto foi pra ela. Que dia que é melhor pra você? Na segunda ou na terça-feira?"
+            },
+            {
+                "role": "AI",
+                "text": "Olha, Aline, eu tô no meio de uma correria aqui. Antes de marcar, manda um resumo do que você vai mostrar pra eu decidir."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Então, Juliana, é, eu posso te mandar um resumo, mas assim, eu não tenho o material completo. Pra eu te mandar esse material, o ideal é que a gente converse antes e eu te explico, a gente monta junto, eu colho algumas informações suas e te mando. Quando que você prefere falar? Na segunda ou na terça?"
+            },
+            {
+                "role": "AI",
+                "text": "Olha, Aline, eu realmente não tenho tempo segunda. Terça pode ser melhor, no período da tarde. Que horário você tem disponível na terça-feira?"
+            },
+            {
+                "role": "HUMAN",
+                "text": "Ah, legal. Ó, minha terça-feira tá livre às quinze ou às dezesseis. Você pode ir em algum desses horários?"
+            },
+            {
+                "role": "AI",
+                "text": "Quinze tá ótimo pra mim. Onde você prefere que a gente se encontre, na sua sala ou eu passo aí na sua rua?"
+            },
+            {
+                "role": "HUMAN",
+                "text": "Eh, se você quiser, eu posso é ir até você. Se for mais confortável, fala pra mim onde você tá?"
+            },
+            {
+                "role": "AI",
+                "text": "Prefiro que você venha até a minha loja, que fica na Rua Haddock Lobo, Tijuca. Nos encontramos na entrada às quinze horas."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Combinado então. Ó, me passa o seu e-mail que eu já te mando um convite e pra gente não esquecer e já bloquear as agendas, tá bom?"
+            },
+            {
+                "role": "AI",
+                "text": "Desculpa, Aline, não posso passar meu e-mail por telefone. Você pode me enviar um WhatsApp no número que apareceu na sua ligação e eu confirmo por lá."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Com certeza, então. Combinado, tá bom Juliana? Então nos vemos terça-feira às quinze na sua loja na rua Haddock Lobo. Até lá."
+            },
+            {
+                "role": "AI",
+                "text": "Perfeito, Aline. Até terça às quinze na entrada da loja."
+            }
+        ],
+        "finished": true
+    },
+    {
+        "name": "Aline Almeida",
+        "agency": "Ark",
+        "region": "São Paulo",
+        "date": "10/07/2026",
+        "dur": "4m 38s",
+        "score": 62,
+        "scenario": "PROSPECT_FRIO",
+        "lqa": "N/A",
+        "interactions": 7,
+        "messages": [
+            {
+                "role": "HUMAN",
+                "text": "Opa."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Olá Karla, boa tarde! Tudo bem? Quem fala é Aline. Eu consegui o seu contato através da indicação da-da Cristiana. Eu estive em reunião com ela, apresentei o meu trabalho. Eu atuo com consultoria de proteção financeira, com foco em gestão de riscos, é, proteção de renda, proteção de família, de patrimônio. A Carla falou que faz total sentido você conhecer. Você é empresária, certo? Tem uma loja? Ela lembrou de você na hora. Ela falou: \"Ó, fala com a Carla que vai fazer total sentido!\". A minha intenção é a gente marcar uma reunião pra semana que vem."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Você teria disponibilidade na terça ou na quarta-feira?"
+            },
+            {
+                "role": "AI",
+                "text": "Estou ocupada agora e não posso marcar nada no momento. Prefiro que você me envie um resumo por email antes de combinar reunião."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Perfeito. Ó, eu vou ter material pra te enviar logo depois da nossa conversa. O meu trabalho, ele é cem por cento personalizado, por isso que é importante agendarmos essa reunião. Pode até ver com a Carla. A Carla adorou, ela falou: \"Aline, olha, é, vai fazer muito sentido e ela precisa receber esse material\". O que você acha?"
+            },
+            {
+                "role": "AI",
+                "text": "Pode enviar por email então. Quero ver primeiro os pontos de cobertura, exclusões e prazos de carência no material."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Certo. Eu não tenho nenhum material ainda pra te enviar. É, por isso que é importante nós termos essa conversa, pra eu poder construir o seu material personalizado. Aí, sim, você vai conseguir entender melhor a importância, os tempos de carência e vai fazer sentido pra você. É algo que precisa ser construído junto. Vamos marcar então a nossa reunião? Pra você é melhor na quarta ou na quinta-feira?"
+            },
+            {
+                "role": "AI",
+                "text": "Não. Eu prefiro receber primeiro por email os pontos de cobertura, exclusões e prazos de carência. Depois eu avalio e marco, se fizer sentido."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Legal, legal. É... Mas nós estamos falando aqui do seu planejamento, é, financeiro, né? Um planejamento de proteção de risco pra você ter essas coberturas. Eu vou-- posso te mandar, assim- Documento muito extenso. É, pra você entender melhor, eu preciso te explicar pra que que existe as coberturas, como elas funcionam, quais são os benefícios e aí eu te passo junto, pode ser?"
+            },
+            {
+                "role": "AI",
+                "text": "Entendo, mas insisto: quero primeiro os pontos de cobertura, exclusões e prazos de carência por email. Se puder incluir exemplos de valores e cenários práticos, melhor. Depois eu analiso e respondo sobre reunião."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Perfeito. Eu posso te mandar, sim, as condições gerais, é, mas com relação a valores, eu só vou ter esses valores depois da nossa reunião, tá? Por isso que é importante falarmos primeiro. Então eu consigo te mandar um material prévio, que aí é um padrão da seguradora, tá, pra todas as coberturas, mas eu gostaria de ter a oportunidade de te apresentar também."
+            },
+            {
+                "role": "AI",
+                "text": "Tudo bem. Mande então as condições gerais por email, com destaque para exclusões e prazos de carência. Inclua exemplos práticos de aplicação das coberturas, sem valores, que eu avalio antes de decidir pela reunião."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Certo. É... Se eu te passar com algumas opções de valores, você não vai ter o valor exato do documento, tá? Então o valor que eu digo é a entendimento da importância, entendimento das coberturas, como que a gente trabalha. Então, eu acredito que o ideal seriamos construir juntos, aí eu te passo um material personalizado pra você, é, logo depois da nossa reunião. Então, vamos já deixar pré-agendado? Eu te passo o material, você dá uma olhada e aí na reunião a gente constrói junto."
+            },
+            {
+                "role": "AI",
+                "text": "Não aceito pré-agendamento. Quero primeiro receber por email as condições gerais com destaque para exclusões, prazos de carência e exemplos práticos sem valores. Depois eu avalio e te respondo sobre reunião. Despeço."
+            }
+        ],
+        "finished": true
+    },
+    {
+        "name": "Luis Sertoni",
+        "agency": "Ark",
+        "region": "São Paulo",
+        "date": "09/07/2026",
+        "dur": "5m 18s",
+        "score": 68,
+        "scenario": "PROSPECT_FRIO",
+        "lqa": "N/A",
+        "interactions": 13,
+        "messages": [
+            {
+                "role": "HUMAN",
+                "text": "Bom dia, Paula."
+            },
+            {
+                "role": "AI",
+                "text": "Bom dia. Quem está falando mesmo? Estou no meio de uma reunião curta agora."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Tudo bem? Aqui quem fala é Luiz Sertori, eu tô entrando em contato pelo Ricardo, ele falou que você teria uns minutinhos pra conversar comigo rapidamente."
+            },
+            {
+                "role": "AI",
+                "text": "Oi Luiz. Não fui avisada sobre essa ligação pelo Ricardo, por isso estou em dúvida. Tenho poucos minutos agora, qual é o motivo do contato?"
+            },
+            {
+                "role": "HUMAN",
+                "text": "Ah, o Ricardo, complicado. Ele falou pra mim que ia falar contigo, mas tudo bem. Vou puxar a orelha dele lá depois. O meu contato aqui é pra me apresentar e tentar marcar contigo uma reunião rápida na semana que vem?"
+            },
+            {
+                "role": "HUMAN",
+                "text": "O Ricardo me, me co-comentou comigo que você me receberia pra-pra eu poder apresentar pra você o meu trabalho."
+            },
+            {
+                "role": "AI",
+                "text": "Olha, Luiz, não fui avisada pelo Ricardo e estou no meio de coisas agora. Se é só se apresentar, me diga em poucas palavras qual é o benefício claro para mim nessa reunião."
+            },
+            {
+                "role": "HUMAN",
+                "text": "O benefício claro da, pra você nessa reunião, é, além de você com-- da gente se conhecer, trocar uma ideia e-e aprofundar a conversa, é, eu poder te apresentar meu trabalho de proteção de renda. Eu trabalho com proteção de renda, prote-proteção patrimonial, então, junto com a MetLife. Então, a ideia aqui é a gente bater um papo pra eu poder te apresentar, além da gente se con-conhecer pessoalmente."
+            },
+            {
+                "role": "AI",
+                "text": "Se for só me apresentar, não faz sentido perder tempo. Me diga em poucas palavras qual benefício financeiro concreto eu teria ao participar dessa reunião."
+            },
+            {
+                "role": "HUMAN",
+                "text": "E participar da reunião, você teria o entendimento e a clareza do-do meu trabalho, que é ligado a seguro de vida e que caso aconteça algum imprevisto, você vai trazer benefício financeiro pra você, protegendo toda a sua renda e seu patrimônio. Então, eu prefiro que a gente marque uma conversa, pra eu poder te explicar com calma e te tirar todas as suas dúvidas."
+            },
+            {
+                "role": "AI",
+                "text": "Ok. Antes de marcar, eu preciso de dois pontos esclarecidos rápido. Primeiro, como é a parte digital: tem aplicativo ou tudo exige contato presencial? Segundo, tem alguma vantagem financeira concreta em relação ao que já existe no mercado digital, tipo Youse ou Onze?"
+            },
+            {
+                "role": "HUMAN",
+                "text": "Perfeito. É, a gente trabalha online, tem aplicativo, a empresa tá super digitalizada. A MetLife tem investido no Brasil como principal mercado, é, no mundo. Então muita inovação, muita proposta de valor pro cliente."
+            },
+            {
+                "role": "AI",
+                "text": "Certo. Me diga então uma vantagem financeira concreta, com números ou exemplo simples, comparando com Youse ou Onze. Tenho só mais alguns minutos."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Perfeito. O benefício tá, tá diretamente ligado com a concepção do produto. Então imagina que a Youse ou as outras empresas são trabalhos de varejo. Aqui a gente fala sobre um trabalho customizado, então o benefício financeiro pra você vai ser criado com base no que você precisa. Então, eu falo muito num trabalho de, é... Ateliê, né? De alfaiataria. Então, tirar suas medidas, te oferecer o melhor produto do-do-do mundo e tendo sempre uma pessoa na linha de frente. Então, além da parte de tecnologia e aplicativo, você teria uma pessoa e não só um-um-um atendente via um chatbot dentro de algum aplicativo."
+            },
+            {
+                "role": "AI",
+                "text": "Ok. Então me dê um exemplo numérico simples comparando com Youse ou Onze. tenho só mais dois minutos."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Pra eu te dar o exemplo claro, eu preciso conhecer um pouco melhor a sua realidade. É como eu te disse, o trabalho é customizado."
+            },
+            {
+                "role": "AI",
+                "text": "Tudo bem, entendo que é customizado, mas não tenho tempo agora pra uma conversa longa. Se quiser um exemplo rápido, envie um caso hipotético com números por mensagem."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Não, então, eu entendo que a sua agenda tá super apertada, por isso que eu tô entrando em contato pra gente marcar uma conversa com mais tempo de qualidade na semana que vem. Como é que tá a sua agenda na terça-feira?"
+            },
+            {
+                "role": "AI",
+                "text": "Terça-feira está complicada. Prefiro quarta pela manhã ou quinta no fim da tarde. Qual desses dois horários você tem disponível?"
+            },
+            {
+                "role": "HUMAN",
+                "text": "Quarta-feira às dez horas funciona?"
+            },
+            {
+                "role": "AI",
+                "text": "Quarta às dez funciona para mim. Prefiro videoconferência; você manda o link por mensagem?"
+            },
+            {
+                "role": "HUMAN",
+                "text": "Maravilha, combinado então. Qual que é o seu-- Posso mandar pra você aqui, é, via WhatsApp o link na quarta-feira que vem às dez horas?"
+            },
+            {
+                "role": "AI",
+                "text": "Pode mandar o link por WhatsApp sim, manda no mesmo número que você ligou agora.  \nConfirmo presença na quarta-feira às dez e prefiro videoconferência."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Maravilha, combinado. Muito obrigado. Bom final de semana, até semana que vem, na quarta às dez horas da manhã."
+            },
+            {
+                "role": "AI",
+                "text": "Ok, combinado. Bom final de semana pra você também."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Obrigado, um abraço."
+            },
+            {
+                "role": "AI",
+                "text": "Valeu, até quarta."
+            }
+        ],
+        "finished": true
+    },
+    {
+        "name": "Luis Sertoni",
+        "agency": "Ark",
+        "region": "São Paulo",
+        "date": "09/07/2026",
+        "dur": "1m 55s",
+        "score": 58,
+        "scenario": "PROSPECT_FRIO",
+        "lqa": "N/A",
+        "interactions": 6,
+        "messages": [
+            {
+                "role": "HUMAN",
+                "text": "Bom dia, Paula, tudo bem? Aqui quem fala é Luiz Sertori. O-o Paulo me passou o seu contato, pediu pra eu entrar em contato com você, pra gente bater um papo rápido."
+            },
+            {
+                "role": "AI",
+                "text": "Oi, Luiz. Estou no meio de uma entrega agora e só tenho alguns minutos. O que você precisa?"
+            },
+            {
+                "role": "HUMAN",
+                "text": "Claro, eu tô entrando em contato de forma breve pra gente agendar uma conversa na semana que vem, pra eu poder apresentar meu trabalho, entender um pouco melhor sobre a sua realidade e a gente entender se faz sentido ou não evoluir pruma próxima, prum-pruma próxima conversa. Como é que tá a sua agenda na semana que vem em terça-feira às dez?"
+            },
+            {
+                "role": "AI",
+                "text": "Terça às dez não dá pra mim, estou com entrega importante nesse horário. Pode sugerir outro horário na terça-feira perto das dez ou uma alternativa na quarta de manhã?"
+            },
+            {
+                "role": "HUMAN",
+                "text": "Que fica melhor na terça-feira às onze e meia ou na quarta-feira às nove?"
+            },
+            {
+                "role": "AI",
+                "text": "Quarta às nove funciona melhor pra mim. Prefiro vídeo; pode ser por Google Meet ou Zoom."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Maravilha, combinado. É, qual que é o seu e-mail aqui? Porque eu já encaminho o invite pra você, mas também na quarta-feira eu encaminho via WhatsApp o link da nossa conversa. Pode ser?"
+            },
+            {
+                "role": "AI",
+                "text": "Prefiro não passar meu e-mail por telefone. Você pode enviar o convite para o número que o Paulo te passou ou me mandar o link direto no WhatsApp na quarta-feira de manhã."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Ah, perfeito. Então eu encaminho pra você na quarta-feira de manhã. Combinado. Muito obrigado. Boas entregas e até quarta-feira."
+            },
+            {
+                "role": "AI",
+                "text": "Perfeito, até quarta-feira."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Obrigado, um abraço, bom final de semana."
+            },
+            {
+                "role": "AI",
+                "text": "Obrigada, bom final de semana pra você também."
+            }
+        ],
+        "finished": true
+    },
+    {
+        "name": "Luis Sertoni",
+        "agency": "Ark",
+        "region": "São Paulo",
+        "date": "09/07/2026",
+        "dur": "753m 45s",
+        "score": 0,
+        "scenario": "PROSPECT_FRIO",
+        "lqa": "N/A",
+        "interactions": 1,
+        "messages": [
+            {
+                "role": "HUMAN",
+                "text": "Good morning, Ricardo."
+            },
+            {
+                "role": "AI",
+                "text": "Morning. I am busy on the farm right now. What do you want?"
+            }
+        ],
+        "finished": false
+    },
+    {
+        "name": "Luis Sertoni",
+        "agency": "Ark",
+        "region": "São Paulo",
+        "date": "10/07/2026",
+        "dur": "4m 5s",
+        "score": 76,
+        "scenario": "PROSPECT_FRIO",
+        "lqa": "N/A",
+        "interactions": 10,
+        "messages": [
+            {
+                "role": "HUMAN",
+                "text": "Bom dia, Maria, tudo bem? Aqui quem fala é o Luiz Sertório. O Paulo pediu pra entrar em contato com você. Cê tá podendo falar um minutinho?"
+            },
+            {
+                "role": "AI",
+                "text": "Bom dia, Luiz. Posso falar, mas só tenho poucos minutos. Por favor, vá direto ao ponto."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Não, maravilha. Eu trabalho com proteção financeira vinculada à MetLife e o Paulo pediu pra eu entrar em contato pra gente marcar uma conversa, preu poder apresentar meu trabalho pra você na semana que vem. Eu sei que você tá corrido, então o intuito aqui é realmente só a gente validar a agenda. Como é que tá sua agenda na terça-feira pela manhã?"
+            },
+            {
+                "role": "AI",
+                "text": "Terça de manhã não dá para mim. Preciso que você explique primeiro por que essa reunião me seria útil, sem enviar material antes. Se for relevante, ajustamos horário."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Não, maravilha. Assim como o Paulo, é, gostou muito do meu trabalho, é, e é um trabalho muito customizado. Eu sempre falo que é uma questão de-- Como se fosse um ateliê. Então, eu preciso entender todas as suas características, entender um pouco da sua vida, pra ver se faz sentido pra você, ter o mesmo, o mesmo produto ou o mesmo trabalho que eu faço com o Paulo."
+            },
+            {
+                "role": "HUMAN",
+                "text": "É, eu sei que você comentou que na terça não funciona pra você. Quarta-feira de manhã ou à tarde, o que que fica melhor?"
+            },
+            {
+                "role": "AI",
+                "text": "Quarta-feira só cabe de tarde. Antes de fechar, preciso saber objetivamente que benefício concreto eu terei ao aceitar essa reunião. O que você me mostra em trinta minutos que faça valer meu tempo?"
+            },
+            {
+                "role": "HUMAN",
+                "text": "Perfeito."
+            },
+            {
+                "role": "AI",
+                "text": "Certo. Pode"
+            },
+            {
+                "role": "HUMAN",
+                "text": "É, quarta-feira então, às catorze horas, funciona? E aí respondendo à sua pergunta. É, a ideia é eu te apresentar o âmbito geral da-da--do meu trabalho, é, te apresentar quais são os lugares que a gente atua, mas pra proteger renda, proteger, é, patrimônio, pensar em sucessão, é, empresarial, familiar. É um produto que tem várias aplicações, por isso que é tão importante a gente sentar e bater um papo, porque senão eu não con-- não consigo levar pra você o valor sem te conhecer, isso é fundamental. Pode ser quarta-feira às catorze?"
+            },
+            {
+                "role": "AI",
+                "text": "Quarta às quatorze horas só se você for objetivo e vier com exemplos concretos de aplicação para alguém na minha situação.  \nQuero ver casos práticos, impacto em renda na aposentadoria e opções de sucessão, em trinta minutos."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Maravilha. Prometo que vou oc-ocupar menos que trinta minutos da sua agenda. Então, combinado. Nos vemos na quarta-feira, às catorze. Você prefere o-online ou presencial?"
+            },
+            {
+                "role": "AI",
+                "text": "Prefiro online. Envie o link e confirme se vai trazer pelo menos dois exemplos práticos aplicáveis a quem tem patrimônio parcial e preocupação com sucessão."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Perfeito, combinado. É, você quer que eu te envie um convite por e-mail ou eu te mando o link aqui no WhatsApp mesmo?"
+            },
+            {
+                "role": "AI",
+                "text": "WhatsApp é melhor. Manda o link e confirme que trará dois exemplos práticos aplicáveis a quem tem patrimônio parcial e preocupação com sucessão."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Perfeito. Combinado então. Nos vemos na semana que vem. Vou encaminhar o link pra você via WhatsApp. Excelente final de semana. Até semana que vem."
+            },
+            {
+                "role": "AI",
+                "text": "Ok. Até quarta-feira então. Boa semana."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Obrigado, um abraço."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Vamos?"
+            },
+            {
+                "role": "AI",
+                "text": "Vamos sim. Confirmo online quarta às quatorze e aguardo o link no WhatsApp."
+            }
+        ],
+        "finished": true
     },
     {
         "name": "Sophie Géraud",
@@ -5320,6 +7198,168 @@ const RAW_SIMULATIONS = [
         "finished": false
     },
     {
+        "name": "Sophie Géraud",
+        "agency": "Outros",
+        "region": "Outros",
+        "date": "10/07/2026",
+        "dur": "0m 0s",
+        "score": 0,
+        "scenario": "PROSPECT_FRIO",
+        "lqa": "N/A",
+        "interactions": 1,
+        "messages": [
+            {
+                "role": "HUMAN",
+                "text": "Oi, tout du bien ?"
+            },
+            {
+                "role": "AI",
+                "text": "Bonjour, je suis un peu occupée maintenant."
+            }
+        ],
+        "finished": false
+    },
+    {
+        "name": "Sophie Géraud",
+        "agency": "Outros",
+        "region": "Outros",
+        "date": "10/07/2026",
+        "dur": "0m 0s",
+        "score": 0,
+        "scenario": "PROSPECT_FRIO",
+        "lqa": "N/A",
+        "interactions": 1,
+        "messages": [
+            {
+                "role": "HUMAN",
+                "text": "Oi, tudo bem?"
+            },
+            {
+                "role": "AI",
+                "text": "Oi. Estou ocupado agora. Quem está"
+            }
+        ],
+        "finished": false
+    },
+    {
+        "name": "Sophie Géraud",
+        "agency": "Outros",
+        "region": "Outros",
+        "date": "10/07/2026",
+        "dur": "0m 0s",
+        "score": 0,
+        "scenario": "PROSPECT_FRIO",
+        "lqa": "N/A",
+        "interactions": 1,
+        "messages": [
+            {
+                "role": "HUMAN",
+                "text": "(efeito sonoro)"
+            },
+            {
+                "role": "HUMAN",
+                "text": "Oi, tudo bem?"
+            },
+            {
+                "role": "AI",
+                "text": "Certo. Estou ocupado agora, mas posso"
+            }
+        ],
+        "finished": false
+    },
+    {
+        "name": "Sophie Géraud",
+        "agency": "Outros",
+        "region": "Outros",
+        "date": "10/07/2026",
+        "dur": "0m 0s",
+        "score": 0,
+        "scenario": "PROSPECT_FRIO",
+        "lqa": "N/A",
+        "interactions": 1,
+        "messages": [
+            {
+                "role": "HUMAN",
+                "text": "Ay, senhor, como você está?"
+            },
+            {
+                "role": "AI",
+                "text": "Bonjour. Je suis pressée en ce moment, peux-tu dire brièvement pourquoi"
+            }
+        ],
+        "finished": false
+    },
+    {
+        "name": "Sophie Géraud",
+        "agency": "Outros",
+        "region": "Outros",
+        "date": "10/07/2026",
+        "dur": "0m 0s",
+        "score": 0,
+        "scenario": "PROSPECT_FRIO",
+        "lqa": "N/A",
+        "interactions": 1,
+        "messages": [
+            {
+                "role": "HUMAN",
+                "text": "Oui, señor. Comment vous está?"
+            },
+            {
+                "role": "AI",
+                "text": "Bonjour. Je suis occupée"
+            }
+        ],
+        "finished": false
+    },
+    {
+        "name": "Sophie Géraud",
+        "agency": "Outros",
+        "region": "Outros",
+        "date": "10/07/2026",
+        "dur": "0m 0s",
+        "score": 0,
+        "scenario": "PROSPECT_FRIO",
+        "lqa": "N/A",
+        "interactions": 1,
+        "messages": [
+            {
+                "role": "HUMAN",
+                "text": "Oi, senhor Eduardo, como você está hoje?"
+            },
+            {
+                "role": "AI",
+                "text": "Estou bem, obrigado. Estou no meio de uma tarefa agora, sou direto: qual é o motivo da ligação?"
+            }
+        ],
+        "finished": false
+    },
+    {
+        "name": "Sophie Géraud",
+        "agency": "Outros",
+        "region": "Outros",
+        "date": "10/07/2026",
+        "dur": "0m 0s",
+        "score": 0,
+        "scenario": "PROSPECT_FRIO",
+        "lqa": "N/A",
+        "interactions": 1,
+        "messages": [
+            {
+                "role": "HUMAN",
+                "text": "Nossa, então já arrasa."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Oi, tudo bem?"
+            },
+            {
+                "role": "AI",
+                "text": "Certo. Estou no meio de uma tarefa, fala rápido. Quem está falando"
+            }
+        ],
+        "finished": false
+    },
+    {
         "name": "GerenteSp Parceira",
         "agency": "Outros",
         "region": "Outros",
@@ -5357,6 +7397,306 @@ const RAW_SIMULATIONS = [
             {
                 "role": "AI",
                 "text": "Prefiro o material por e-mail primeiro. Se não puder enviar, não consigo abrir horário para conversa agora."
+            }
+        ],
+        "finished": true
+    },
+    {
+        "name": "Camila Barbosa",
+        "agency": "Rivo Rio",
+        "region": "Rio de Janeiro",
+        "date": "10/07/2026",
+        "dur": "5m 22s",
+        "score": 0,
+        "scenario": "ENVIE_DOCUMENT",
+        "lqa": "N/A",
+        "interactions": 9,
+        "messages": [
+            {
+                "role": "AI",
+                "text": "O mais simples: encaminhe-me o documento por e-mail, eu o analiso com tranquilidade e lhe dou um retorno."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Oooi, tudo bem? Eu até poderia fazer isso, mas o que acontece? Meu trabalho é extremamente consultivo, então não faz sentido eu mandar pra você, é..."
+            },
+            {
+                "role": "AI",
+                "text": "Então, senhor, eu prefiro receber um material escrito antes de marcar qualquer conversa. Envie por e-mail e eu analiso."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Eu entendo, mas o que acontece? O meu trabalho é um trabalho consultivo e eu trabalho com vários tipos de soluções. Então pra eu te mandar esse e-mail, eu terei que mandar várias soluções pra você que nem vão fazer sentido. Vai ficar um material extenso, longo e até chato."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Então faz muito mais sentido, é muito mais inteligente a gente sentar, conversar e eu te passar depois esse material."
+            },
+            {
+                "role": "AI",
+                "text": "Senhor, eu entendo seu ponto, mas prefiro analisar por escrito primeiro. Envie o material por e-mail e eu retorno depois."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Ah, eu entendo, eu entendo o seu ponto. Mas o que acontece, se eu fizer isso, a gente não vai ter uma comunicação eficiente. E também, o recomendante falou pra mim que você me recebe muito bem."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Então tenho certeza que se a gente sentar e tomar um cafezinho rapidinho, fizer esse bate-papo, sabe? De uma forma bem tranquila, descontraída, a gente vai conseguir chegar assim num denominador comum, que vai ser melhor e vai ser mais eficiente para você também."
+            },
+            {
+                "role": "AI",
+                "text": "Senhor, eu prefiro mesmo receber o material por e-mail antes. Se não puder enviar, não tenho como agendar."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Eu entendo a sua posição, de verdade. Eu sei que a gente às vezes recebe, né, muitas propostas e tudo pra marcar um café, mas realmente, é, quando a gente fala de um trabalho construtivo, um trabalho personalizado, né? Uma solução que é específica pra você, não faz sentido eu mandar o material, que não vai, não vai contar, né, não vai-- não vai conter os seus, os seus dados, não vai ter sido feito especificamente pra você. Vai ser um material, né, de, é... Vai ser um material institucional que não vai fazer muito sentido, né? Vai ser chato, inclusive maçante. Então, eu realmente não insistiria pra gente marcar esse café, se não fosse importante eu sentar, conversar com você primeiro pra depois sim, a gente entrar em material e tudo mais."
+            },
+            {
+                "role": "AI",
+                "text": "Senhor, eu mantenho a minha posição: prefiro analisar o material por e-mail antes de qualquer encontro.  \nSe não puder enviar, infelizmente não tenho como agendar. Adeus."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Ok, se você é inflexível em relação a isso e eu não consigo, não vou conseguir agendar uma reunião com você sem te mandar o material, eu vou te mandar esse material institucional. Eu peço pra que você faça a gentileza de me enviar, é, a comprovação de que recebeu o material, me avisar se tem alguma dúvida e tudo e pra gente poder seguir marcando, é, o nosso café. E aí eu queria também que você, por favor, confirmasse pra mim se pra você ficar melhor a gente agendar esse café na segunda ou na terça-feira."
+            },
+            {
+                "role": "AI",
+                "text": "Senhor, eu não envio confirmação de recebimento de material.  \nQuanto ao dia, segunda-feira me serve melhor. Goodbye."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Tá ok então. Na segunda-feira a gente consegue falar na parte da manhã? Ou fica melhor pra você no finalzinho da tarde? É... Sem problemas. De qualquer forma eu vou te enviar o material e a gente já, já deixa agendado aqui. É... Só confirma pra mim se pra você é melhor na manhã ou à tarde."
+            },
+            {
+                "role": "AI",
+                "text": "Senhor, prefiro manhã. Que tal entre nove e onze horas?"
+            },
+            {
+                "role": "HUMAN",
+                "text": "Perfeito. A gente consegue marcar às nove, é, eu te envio o material. Até lá, você já vai ter, é, acessado esse material. De qualquer forma, às nove horas a gente se encontra pro nosso café, tá bom? Muito obrigada. Tenha um bom dia."
+            },
+            {
+                "role": "AI",
+                "text": "Senhor, eu receberei o material e verei quando puder.  \nConfirmo manhã às nove horas. Adeus."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Tá ótimo, perfeito. Muito obrigada. Até amanhã. Tchau, tchau."
+            },
+            {
+                "role": "AI",
+                "text": "Senhor, obrigado. Até amanhã às nove horas. Boa tarde."
+            }
+        ],
+        "finished": true
+    },
+    {
+        "name": "Camila Barbosa",
+        "agency": "Rivo Rio",
+        "region": "Rio de Janeiro",
+        "date": "10/07/2026",
+        "dur": "5m 25s",
+        "score": 76,
+        "scenario": "PROSPECT_FRIO",
+        "lqa": "N/A",
+        "interactions": 9,
+        "messages": [
+            {
+                "role": "HUMAN",
+                "text": "Bom dia, João, como vai? Tudo bem? Aqui quem tá falando é Camila, você ainda não me conhece. É, eu peguei o seu contato com o Pedro e eu fiz um bate-papo com ele e ele disse para mim que faria muito sentido a gente sentar, conversar, tomar um café. Eu tô ligando pra saber da sua agenda, como é que tá a sua agenda na próxima semana? Cê teria disponibilidade na segunda ou na terça? Como é que fica melhor?"
+            },
+            {
+                "role": "AI",
+                "text": "Oi, Camila. Estou no meio do expediente e com pouco tempo. Antes de marcar, como você obteve meu número com o Pedro?"
+            },
+            {
+                "role": "HUMAN",
+                "text": "Oi João, tudo bem? Desculpa, o que eu tenho para falar com você é super rapidinho, é mais para a gente agendar esse café mesmo e lá eu consigo entrar em maiores detalhes. É, ele me indicou você, porque ele entendeu que o assunto que a gente conversou nessa reunião, faz muito sentido para você e é importante que você escute também o que eu tenho para dizer. Então confirma para mim, por gentileza, se para você ficar melhor é, na quarta ou na quinta-feira."
+            },
+            {
+                "role": "AI",
+                "text": "Camila, eu já perguntei como você conseguiu meu número, ainda não respondeu. Não tenho tempo pra tomar café sem saber quem você é e o que vai propor. Se for algo relacionado a seguro, me diga agora em poucas palavras; caso contrário, não tenho interesse em quarta ou quinta."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Ah, entendo. Então, como eu te disse, quem me passou o seu contato..."
+            },
+            {
+                "role": "AI",
+                "text": "Camila, eu já disse que não tenho tempo de ouvir história sobre quem te"
+            },
+            {
+                "role": "HUMAN",
+                "text": "Foi o João, foi Pedro. Ele que me passou seu contato, então foi assim que eu obtive seu contato. Ele entendeu que é muito importante para você também conversar comigo, porque o assunto que eu trato vai muito além do seguro, né? Eu trabalho com gestão de risco, proteção familiar, planejamento financeiro, é algo que é importante para você saber também. Então ele pensou em você, né? Escolheu os amigos que ele tem mais apreço pra compartilhar o contato comigo e falou: \"Camila, entra em contato lá com o João, combina com ele um café, porque eu tenho certeza absoluta que ele vai gostar de conversar com você e que ele vai te receber muito bem\"."
+            },
+            {
+                "role": "AI",
+                "text": "Certo. Você diz que cuida de gestão de risco e planejamento financeiro. Me diga em poucas palavras: o que concreto eu ganho se eu aceitar esse café?"
+            },
+            {
+                "role": "HUMAN",
+                "text": "Bom, em primeiro lugar, é, a gente fazendo esse bate-papo, eu vou entender um pouco melhor o seu contexto e respondendo objetivamente, o que você ganha, você ganha uma consultoria, né? Um consultor, um especialista, que vai poder sentar com você, entender o seu contexto, entender como tá o seu planejamento financeiro, como tá sendo feita a sua gestão de risco pra gente poder, a partir de então seguir, né? Se fizer sentido para você e tudo mais. Mas é inicialmente um bate-papo pra gente poder levantar o seu panorama, ver o que que fica melhor pra você e depois a gente dá seguimento. Então é um café, é, tranquilo, tá? É, entendendo mais o seu contexto pessoal primeiro, pra-pra que eu possa poder prestar essa consultoria para você e a gente poder seguir a partir daí."
+            },
+            {
+                "role": "AI",
+                "text": "Certo. Antes de marcar, diz direto: quanto tempo desse café você quer tomar comigo e que resultado concreto eu saio com ele?"
+            },
+            {
+                "role": "HUMAN",
+                "text": "Olha, é, rapidinho a gente consegue-- eu consigo levantar essas informações, tá? Então, vinte, trinta minutinhos do seu dia a gente toma esse café e com o resultado, você sai comigo já fazendo um levantamento, tudo sobre todo o seu-- a sua questão financeira, pra que a gente possa depois dar segmento num segundo momento, eu vou fazer planejamento específico para você e aí, é, eu vou apresentar depois esse planejamento para você. Tá? Mas inicialmente respondendo objetivamente, é, vinte, trinta minutinhos do seu tempo já são suficientes pra gente poder começar."
+            },
+            {
+                "role": "AI",
+                "text": "Vinte, trinta minutos tá ok se for objetivo. Me diz então: você vem com proposta pronta ou só diagnóstico inicial nesse encontro?"
+            },
+            {
+                "role": "HUMAN",
+                "text": "Como meu trabalho é construtivo e personalizado, eu não venho com uma proposta pronta. Eu vou criar uma proposta depois, um planejamento específico pra você, que faça sentido para você, até para não tirar o seu tempo, para você não perder tempo com coisas que não fazem nenhum sentido para você. Então eu prefiro entender o seu contexto e fazer um planejamento, algo que seja específico e focado para você, para que a gente possa otimizar tanto o meu tempo quanto o seu, porque eu sei que assim como eu, você também tem uma agenda bem complicada."
+            },
+            {
+                "role": "AI",
+                "text": "Certo. Eu aceito vir pro café desde que seja só diagnóstico, sem proposta comercial na primeira reunião. Você marca um horário entre terça e quarta de manhã, e confirma onde a gente se encontra."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Tá ok, a gente pode se encontrar na próxima terça às dez horas da manhã no café que tem aí do outro lado da rua do seu escritório. Combinado?"
+            },
+            {
+                "role": "AI",
+                "text": "Tá bom. Terça às dez no café do outro lado do escritório. Vou estar ocupado antes, chego no horário e quero só diagnóstico, sem proposta comercial na primeira reunião. Até lá."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Até lá, perfeito, combinado. Tchau, tchau."
+            },
+            {
+                "role": "AI",
+                "text": "Perfeito. Até terça então. Tchau."
+            }
+        ],
+        "finished": true
+    },
+    {
+        "name": "Camila Barbosa",
+        "agency": "Rivo Rio",
+        "region": "Rio de Janeiro",
+        "date": "10/07/2026",
+        "dur": "1m 40s",
+        "score": 41,
+        "scenario": "PROSPECT_FRIO",
+        "lqa": "N/A",
+        "interactions": 5,
+        "messages": [
+            {
+                "role": "HUMAN",
+                "text": "Olá, Juliana, bom dia, tudo bem?"
+            },
+            {
+                "role": "AI",
+                "text": "Oi,"
+            },
+            {
+                "role": "HUMAN",
+                "text": "Como é que você tá? Pode falar um minutinho? Aqui quem tá falando é Camila. Eu peguei o seu contato com a Maria e eu tô entrando em contato com você pra gente falar bem rapidamente, para agendar um café na próxima semana. Como é que tá a sua agenda na semana que vem?"
+            },
+            {
+                "role": "AI",
+                "text": "Oi, Camila. Estou no meio de um atendimento agora e só tenho dois minutos. Pode ser rápido."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Ah, perfeito! Só preciso saber como é que tá sua agenda na próxima semana. É, pra você ficar melhor, a gente conversar, na segunda ou na terça?"
+            },
+            {
+                "role": "AI",
+                "text": "Posso na terça à tarde, depois das quatro, se for rápido. Se for longo, prefiro segunda de manhã cedo."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Vamos fazer o seguinte? Vamos conversar então na segunda de manhã cedo, porque aí a gente consegue sentar e conversar com calma, pode ser? Segunda-feira às nove da manhã ou às oito, como é que fica melhor para você?"
+            },
+            {
+                "role": "AI",
+                "text": "Oito horas fica melhor pra mim. Onde a gente se encontra?"
+            },
+            {
+                "role": "HUMAN",
+                "text": "Ah, perfeito! Vamos fazer o seguinte vamos encontrar nesse café que tem ao lado do seu escritório segunda-feira, às oito horas da manhã. Aí eu consigo sentar e con-- a gente conversa com calma, toma um cafezinho. Vai ser ótimo!"
+            },
+            {
+                "role": "AI",
+                "text": "Tudo bem, então combinado. Segunda às oito no café ao lado do meu escritório. Vou estar lá. Até lá."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Até lá e tchau, tchau."
+            }
+        ],
+        "finished": true
+    },
+    {
+        "name": "Camila Barbosa",
+        "agency": "Rivo Rio",
+        "region": "Rio de Janeiro",
+        "date": "10/07/2026",
+        "dur": "5m 15s",
+        "score": 0,
+        "scenario": "ENVIE_DOCUMENT",
+        "lqa": "N/A",
+        "interactions": 6,
+        "messages": [
+            {
+                "role": "AI",
+                "text": "O mais simples: encaminhe-me o documento por e-mail, eu o analiso com tranquilidade e lhe dou um retorno."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Perfeito. Eu entendo que num primeiro momento, enviar o material pode parecer algo mais, é, efetivo, mas na verdade é o oposto, porque como o meu trabalho é construtivo, ele é personalizado, eu trabalho com vários tipos de solução e muitas delas não vão fazer nenhum sentido para você. Então eu terei que te mandar um material institucional enorme, super extenso, que assim não vai nem fazer sentido. Então vamos lá, vamos sentar, tomar esse café quinze minutinhos. Eu co-- pego todas as informações que eu preciso de você, pra depois sim, a gente seguir pra um material mais robusto, um planejamento, tá? Algo mais nessa linha. Mas inicialmente o meu trabalho, por ser construtivo e personalizado, ele funciona assim, a gente precisa fazer esse bate-papo. É só um cafezinho. É, o recomendador já disse que você vai me receber super bem, que você é um querido, né? Eu sei que vocês são amigos há muito tempo, então certamente ele não indicaria você para fazer uma reunião, um café que você-- seria uma perda de tempo para você, né? Então vamos seguir dessa forma? Como é que fica melhor para você, na segunda ou na terça?"
+            },
+            {
+                "role": "AI",
+                "text": "Olha, eu não gosto de perder tempo. Segunda ou terça eu tenho agenda cheia. Se for rápido mesmo, prefiro uma videochamada de quinze minutos no horário de almoço. Pode ser segunda ao meio-dia?"
+            },
+            {
+                "role": "HUMAN",
+                "text": "Pode ser, se essa for a única forma da gente conseguir trocar uma ideia, pode ser por uma vídeo chamada, tá? Mas eu vou te ser bem sincera, eu prefiro, é, fazer presencial. Então, se possível, a gente não pode fazer meio-dia, horário de almoço, a gente não pode fazer, é, esse café presencial?"
+            },
+            {
+                "role": "AI",
+                "text": "Olha, eu prefiro presencial, mas almoço é complicado demais. Se for presencial, agenda só após as sete horas da noite. Prefiro vídeo ao meio-dia, então fecha vídeo chamada segunda ao meio-dia."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Bom, na verdade, é, eu não tinha proposto um almoço. Eu falei que como é a hora do almoço, a gente poderia pegar um pedacinho dessa hora do almoço, quinze minutinhos para a gente tomar um café pós-almoço. Eu sei que a sua agenda é complicada, a minha também é, então eu entendo que a gente precisa ser bem eficiente com as nossas agendas. Vamos fazer esse café segunda-feira na hora do almoço, é, no horário de almoço, pós-almoço? Lá, por exemplo, meio-dia e quarenta e cinco? Que a gente pega esses últimos quinze minutinhos de almoço e toma o nosso café. E ali enquanto a gente toma café, eu pego todas as informações rapidinho com você, passo to-todas as informações que eu preciso e depois a gente segue pro planejamento, enfim, pra próxima etapa. Mas de início, é interessante a gente fazer esse café presencial."
+            },
+            {
+                "role": "AI",
+                "text": "Não rola presencial no horário de almoço, eu não consigo sair do ponto. Mantemos vídeo chamada segunda ao meio-dia, quinze minutos. Vai ser objetivo."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Ah, sim, sem dúvidas vai ser o objetivo. Não tem problema, a gente consegue fazer pós-trabalho então, já que você não consegue no almoço. A gente pode fazer às sete ou às sete e meia, como é que fica melhor para você?"
+            },
+            {
+                "role": "AI",
+                "text": "Sete horas e meia é complicado pra mim, prefiro video chamada ao meio-dia mesmo."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Entendo. Bom, se essa é a única opção que você tem, é, queria só entender com você, se realmente a única opção é a gente fazer por vídeo chamada, porque eu prefiro o presencial, mas se essa for a única opção da gente conseguir falar, então a gente pode fazer, é, videochamada meio-dia. Mas só confirma pra mim, por favor, se você realmente não consegue quinze minutinhos da sua agenda para a gente poder fazer esse café em algum outro horário."
+            },
+            {
+                "role": "AI",
+                "text": "Confirmo que não tenho quinze minutos fora do horário de almoço. Vídeo chamada segunda ao meio-dia está ok. Adeus."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Ok então. Segunda-feira a gente se fala por videochamada, meio-dia. Até lá."
+            },
+            {
+                "role": "AI",
+                "text": "Certo, combinado. Até segunda-feira então."
             }
         ],
         "finished": true
@@ -8920,6 +11260,650 @@ const RAW_SIMULATIONS = [
         "finished": true
     },
     {
+        "name": "Philippe Lepeuple",
+        "agency": "Outros",
+        "region": "Outros",
+        "date": "10/07/2026",
+        "dur": "0m 0s",
+        "score": 0,
+        "scenario": "PROSPECT_FRIO",
+        "lqa": "N/A",
+        "interactions": 7,
+        "messages": [
+            {
+                "role": "HUMAN",
+                "text": "Bonjour Eduardo, c'est Philippe de Netlife. Je vous appelle de la part de Paolo, est-ce que je peux vous prendre juste quelques minutes ?"
+            },
+            {
+                "role": "AI",
+                "text": "Bonjour Philippe. Je suis un peu pris là, parlez vite et dites pourquoi Paolo vous a recommandé."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Écoutez, j'ai fait un travail pour Paolo qui a pour objectif de protéger sa famille et ses revenus. Il a trouvé que c'était un travail tout à fait intéressant et il a pensé que ça serait bien qu'on puisse avoir un échange vous et moi pour voir si ce qu'on a mis en place pour lui aurait du sens pour vous."
+            },
+            {
+                "role": "AI",
+                "text": "D'accord, mais je n'aime pas les appels à l'aveugle. Avant d'aller plus loin, vous pouvez m'expliquer concrètement ce que vous proposez en quinze secondes ?"
+            },
+            {
+                "role": "HUMAN",
+                "text": "Alors là, ce que je vous propose, c'est juste de prendre rendez-vous pour une quinzaine de minutes, de façon à ce que je puisse comprendre votre situation, comprendre vos besoins et commencer à travailler avec vous sur des solutions qui permettraient de mieux protéger vos proches et de mieux protéger vos revenus. C'est ça l'objet de mon appel, ce n'est pas du tout de faire le travail maintenant, c'est de convenir d'un rendez-vous par visio avec vous d'une quinzaine de minutes pour vous apporter les mêmes bénéfices que ceux dont Paolo a bénéficié lui-même."
+            },
+            {
+                "role": "AI",
+                "text": "D'accord, je suis toujours hésitant. Avant de fixer quoi que ce soit, j'aimerais que vous m'envoyiez un court résumé par email de ce que vous allez couvrir dans ces quinze minutes."
+            },
+            {
+                "role": "HUMAN",
+                "text": "L'objectif de ces quinze minutes, c'est justement de faire un petit tour très rapide avec vous de votre situation. Là, je ne peux pas vous envoyer grand-chose parce que je ne sais rien de vous et c'est normal. Donc là, l'objectif, c'est vraiment de trouver avec vous des points sur lesquels on pourrait, nous, MetLife, mettre en place des solutions pour vous protéger et mieux protéger votre famille. Ça dure quinze minutes, c'est rapide, et vous allez voir, vraiment, vous en sortirez avec des éléments de réflexion et de tranquillité tout à fait remarquables."
+            },
+            {
+                "role": "AI",
+                "text": "Non. J'insiste : je veux d'abord un résumé par email. Sans document, je ne prends pas rendez-vous."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Le problème Eduardo c'est qu'on n'a pas de documents comme ça qui sont... Enfin, on a beaucoup beaucoup beaucoup de documents et si je vous aurais quelque chose pour l'instant, je ne sais pas trop quoi vous envoyer. C'est pour ça que notre prochain contact de quinze minutes, ça a pour objectif de bien comprendre ce qui ensuite va vous rendre service. Et là, je pourrais vous envoyer un document utile pour vous."
+            },
+            {
+                "role": "AI",
+                "text": "Non, je reste sur ma position : je veux un résumé avant de convenir d'un rendez-vous. Envoyez-moi un court email avec les points que vous comptez aborder, et je regarderai."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Le problème de ce résumé, c'est que je vais le faire sur quoi ? Je ne sais rien de vous. Donc le... Je je j'ai beaucoup de mal si vous voulez à vous adresser quelque chose de pertinent, parce que nos solutions n'ont de sens que lorsqu'elles sont personnalisées."
+            },
+            {
+                "role": "AI",
+                "text": "Écoute, Philippe, je comprends votre point. Mais moi, si vous ne pouvez pas m'envoyer un court résumé, je ne prendrai pas rendez-vous maintenant. Proposez-moi une autre option concrète."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Et l'autre option, c'est donc ce petit rendez-vous par visio. Euh- Une quinzaine de minutes et on regarde ensemble, c'est très rapide, vous allez voir, ce n'est pas intrusif, et on regarde ensemble quels sont les éléments que je pourrais vous envoyer pour que vous les regardiez tranquillement."
+            },
+            {
+                "role": "AI",
+                "text": "Non. Je ne fais pas de visio à l'aveugle non plus. Proposez-moi une autre alternative concrète et courte, pas"
+            }
+        ],
+        "finished": false
+    },
+    {
+        "name": "Philippe Lepeuple",
+        "agency": "Outros",
+        "region": "Outros",
+        "date": "10/07/2026",
+        "dur": "0m 0s",
+        "score": 0,
+        "scenario": "PROSPECT_FRIO",
+        "lqa": "N/A",
+        "interactions": 6,
+        "messages": [
+            {
+                "role": "HUMAN",
+                "text": "Bonjour, c'est moi Philippe. Ecoutez, je vous appelle de la part de Paolo. Il... Qui m'a demandé de vous passer un coup de fil rapide pour vous parler des solutions qu'on peut mettre en place pour vous et pour protéger votre famille. Est-ce que je peux vous prendre juste deux minutes ?"
+            },
+            {
+                "role": "AI",
+                "text": "Deux minutes, vraiment ? Je suis au bureau et chargé. Dites rapidement qui vous êtes, et pourquoi Paolo vous a recommandé."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Je suis Philippe de la société MetLife. Paolo nous a recommandés parce que nous avons travaillé pour lui, nous avons fait un travail consistant à protéger sa famille et protéger ses revenus, et il s'est dit que ça serait vraiment un service à vous rendre que de voir si on peut faire le même type de travail pour vous. Là, l'objectif, ce n'est pas du tout de parler de ça, c'est de prendre rendez-vous avec vous une quinzaine de minutes... Une visio d'une quinzaine de minutes afin qu'on puisse regarder ensemble ce qu'on peut faire pour vous."
+            },
+            {
+                "role": "AI",
+                "text": "Écoutez, je suis pressé et je n'aime pas les appels à l'improviste. Dites-moi en deux phrases ce que cette visio m'apportera concrètement."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Écoute, cette— écouter cette visio de dix à quinze minutes va me permettre de recueillir quelques éléments sur votre situation personnelle et familiale et de voir avec vous comment on peut ensuite travailler pour mettre en place des solutions qui vont vous permettre de- Protégez votre famille, protégez vos revenus et ainsi gagner beaucoup en tranquillité d'esprit. Ça, c'est l'objectif de la visio de quinze minutes. Pour ça, on pourrait se parler par exemple mardi matin ou jeudi après-midi, si ça vous convient."
+            },
+            {
+                "role": "AI",
+                "text": "Je préfère d'abord recevoir un résumé par email. Je n'ai pas quinze minutes à perdre sans voir d'abord ce que vous proposez."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Bravo ! Le problème, c'est qu'on a énormément de documentation, mais que je ne peux pas vous envoyer quelque chose qui aura du sens pour vous. Et c'est pour ça que ce rendez-vous de quinze minutes, vous savez, c'est très vite fait, c'est par visio, ce rendez-vous de quinze minutes me permettra ensuite de vous adresser des documents et des informations extrêmement utiles pour vous. Avant, ça n'a pas beaucoup de sens parce qu'on a énormément de documentation généraliste qui ne vous concerneront pas."
+            },
+            {
+                "role": "AI",
+                "text": "Non, je veux quand même voir un résumé avant. Envoyez-moi une page qui dit en termes clairs ce que vous proposez et les bénéfices pour ma famille. Si vous ne pouvez pas, proposez alors deux créneaux précis pour la visio."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Alors effectivement, je vais pas pouvoir vous envoyer une synthèse parce que je ne sais rien de votre situation. En revanche- Ce que je vous propose, c'est qu'on se parle une quinzaine de minutes, soit mardi prochain, le matin, entre neuf et, et onze heures à votre convenance, soit jeudi après-midi, entre quinze heures et dix-sept heures. Est-ce qu'un de ces créneaux vous conviendrait ?"
+            },
+            {
+                "role": "AI",
+                "text": "Très bien, mais d'abord j'insiste : je veux recevoir une page synthèse avant de bloquer du temps. Envoyez-moi un résumé clair des bénéfices pour ma famille, et je choisirai un créneau parmi vos propositions."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Alors... J'ai du mal à vous parler des bénéfices pour votre famille parce que je ne sais rien de votre situation et c'est bien l'objectif de ce rendez-vous de quinze minutes, c'est de voir comment on peut ensemble avec les quelques éléments que je vais recueillir construire une démarche qui va comme pour Paolo d'ailleurs aboutir à une solution extrêmement intéressante pour vous et votre famille."
+            },
+            {
+                "role": "AI",
+                "text": "Non. Je refuse qu'on m'impose un rendez-vous sans document préalable."
+            }
+        ],
+        "finished": false
+    },
+    {
+        "name": "Philippe Lepeuple",
+        "agency": "Outros",
+        "region": "Outros",
+        "date": "10/07/2026",
+        "dur": "3m 6s",
+        "score": 85,
+        "scenario": "PROSPECT_FRIO",
+        "lqa": "N/A",
+        "interactions": 6,
+        "messages": [
+            {
+                "role": "HUMAN",
+                "text": "Bonjour Eduardo, je suis Philippe de la société Metlife. Je vous appelle de la part de Paolo qui m'a demandé de vous contacter. Est-ce que je peux vous prendre juste quelques minutes ?"
+            },
+            {
+                "role": "AI",
+                "text": "Non, je n'ai pas beaucoup de temps maintenant. Qui est Paolo exactement et pourquoi il vous a donné mon numéro ?"
+            },
+            {
+                "role": "HUMAN",
+                "text": "Alors Paolo est un ancien camarade d'université à vous et en fait euh... Alors, j'ai fait un travail pour Paolo, qui a pour objectif de mieux protéger sa famille et ses revenus, et il m'a dit que ça pourrait vous intéresser de façon extrêmement importante. L'objectif là de notre échange, ce n'est pas du tout de parler de ça, mais c'est de convenir d'un rendez-vous d'une quinzaine de minutes pour que nous puissions aborder ces sujets."
+            },
+            {
+                "role": "AI",
+                "text": "Tá bom, outra coisa… Je ne connais pas Paolo personnellement. Pourquoi il vous a recommandé moi précisément ?"
+            },
+            {
+                "role": "HUMAN",
+                "text": "Eh bien parce qu'il pense que votre situation personnelle et familiale euh bénéficierait de façon très importante des solutions que nous pouvons mettre en place pour vous chez MetLife. Il s'agit pour vous de gagner en tranquillité d'esprit parce qu'une fois que nos solutions ont été mises en place, votre famille est protégée et vos revenus sont protégés. Et ce que je vous propose, c'est qu'on convienne d'un rendez-vous d'une quinzaine de minutes. La semaine prochaine, par exemple mardi matin ou jeudi après-midi, pour pouvoir recueillir les informations qui nous permettront de voir ensemble si ça a du sens."
+            },
+            {
+                "role": "AI",
+                "text": "Entendi. Mas eu já tenho um seguro há anos."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Oui, c'est un argument qu'on a souvent. Et en fait, il s'agit de faire un bilan de votre situation actuelle en tenant compte de vos garanties actuelles et de façon à voir si on peut améliorer la situation. Et ça ne vous prendra que quinze minutes par visio, donc c'est très rapide."
+            },
+            {
+                "role": "AI",
+                "text": "Tá bom, outra coisa… Je manque de temps ces jours-ci. Peut-on programmer le rendez-vous pour une quinzaine de minutes, mais seulement en fin de journée s'il vous plaît ?"
+            },
+            {
+                "role": "HUMAN",
+                "text": "Très bien, bien sûr, on va s'adapter. Est-ce que mardi soir, vers 18 heures, c'est possible pour vous ? Ou mercredi soir, même heure, 18 heures ?"
+            },
+            {
+                "role": "AI",
+                "text": "Entendi. Mas tem outro ponto… Je préfère mercredi soir à dix-huit heures."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Très bien. Ben écoutez, on dit mercredi soir dix-huit heures, de façon à pouvoir regarder ensemble quel type de solution on peut mettre ensemble. Pour vous. Eh bien, merci et à mercredi soir donc."
+            },
+            {
+                "role": "AI",
+                "text": "Tudo bem, obrigado pela ligação. Até quarta."
+            }
+        ],
+        "finished": true
+    },
+    {
+        "name": "Philippe Lepeuple",
+        "agency": "Outros",
+        "region": "Outros",
+        "date": "10/07/2026",
+        "dur": "3m 27s",
+        "score": 0,
+        "scenario": "PROSPECT_FRIO",
+        "lqa": "N/A",
+        "interactions": 13,
+        "messages": [
+            {
+                "role": "HUMAN",
+                "text": "Bonjour Eduardo, c'est Philippe de la société MetLife, je vous appelle de la part de Paolo, est-ce que je peux vous prendre juste quelques minutes ?"
+            },
+            {
+                "role": "AI",
+                "text": "Non, je suis pris pour le moment. Qui vous a donné mon nom exactement ?"
+            },
+            {
+                "role": "HUMAN",
+                "text": "Il s'agit de Paolo qui était un de nos bons clients et qui m'a dit que ça serait extrêmement utile pour vous de pouvoir réfléchir à une solution du type de celle qu'on a mise en place pour lui. Je peux vous prendre juste deux minutes. L'objectif n'est pas de parler de ces solutions, mais de convenir d'un autre rendez-vous avec vous."
+            },
+            {
+                "role": "AI",
+                "text": "Tá bom, outra coisa… Je préfère recevoir un document avant d'envisager un rendez-vous."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Alors Eduardo, des documents, nous en avons beaucoup, mais pour que je— ce soit utile pour vous plutôt que de vous noyer dans la paperasse, je vous propose un rendez-vous d'une quinzaine de minutes par visio, extrêmement court, vous voyez, au cours duquel je recueillerai quelques éléments de façon confidentielle sur votre situation familiale et vos revenus, de façon à mieux protéger votre famille et de mieux protéger vos, vos revenus."
+            },
+            {
+                "role": "AI",
+                "text": "Tá bom, outra coisa… Je suis déjà assuré depuis des années."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Eh bien l'objectif de notre échange de quinze minutes, c'est de... ? Euh, ben c'est de regarder si le contrat que vous avez est bon, ce qui m'étonnerait."
+            },
+            {
+                "role": "AI",
+                "text": "Entendi. Mais tem outro ponto… Je n'ai pas beaucoup de temps ces jours-ci, alors si on y va, ce sera court et précis."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Mardi soir ?"
+            },
+            {
+                "role": "AI",
+                "text": "Ok. Aliás… Je peux mardi soir, mais préciserez l'heure et proposez aussi un autre créneau, mercredi matin par exemple."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Bah, vous pouvez mardi soir ou vous pouvez mercredi matin."
+            },
+            {
+                "role": "AI",
+                "text": "Certo. Aliás… Je veux mardi soir à vingt heures ou mercredi matin à neuf heures, à vous de choisir."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Eh bien, disons jeudi à quinze heures."
+            },
+            {
+                "role": "AI",
+                "text": "Ok. Olha, e além disso… Je ne connais pas vraiment Paolo, il doit m'avoir recommandé sans me prévenir."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Oui d'accord, mais vous acceptez le rendez-vous de quinze minutes ou pas ?"
+            },
+            {
+                "role": "AI",
+                "text": "Tá bom, outra coisa… Je veux clarifier : jeudi à quinze heures ne m'arrange pas. Proposez mardi soir à vingt heures ou mercredi matin à neuf heures, et je choisis."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Et bien, allez-y choisissez."
+            },
+            {
+                "role": "AI",
+                "text": "Ok, mardi soir à vingt heures alors. À visio, quinze minutes."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Je vous envoie un lien pour la visio mardi soir à vingt heures, ok ?"
+            },
+            {
+                "role": "AI",
+                "text": "Tudo bem, obrigado pela ligação. Até terça."
+            },
+            {
+                "role": "HUMAN",
+                "text": "À bientôt."
+            },
+            {
+                "role": "AI",
+                "text": "Tudo bem. À mardi soir à vingt heures, donc."
+            },
+            {
+                "role": "HUMAN",
+                "text": "À bientôt."
+            },
+            {
+                "role": "AI",
+                "text": "Tudo bem. À mardi soir à vingt heures."
+            },
+            {
+                "role": "HUMAN",
+                "text": "À bientôt."
+            },
+            {
+                "role": "AI",
+                "text": "Tudo bem. À mardi soir à vingt heures."
+            }
+        ],
+        "finished": true
+    },
+    {
+        "name": "Philippe Lepeuple",
+        "agency": "Outros",
+        "region": "Outros",
+        "date": "10/07/2026",
+        "dur": "3m 31s",
+        "score": 0,
+        "scenario": "PROSPECT_FRIO",
+        "lqa": "N/A",
+        "interactions": 8,
+        "messages": [
+            {
+                "role": "HUMAN",
+                "text": "Bonjour Coralie, je suis Philippe de MetLife et je vous appelle de la part de Paolo qui m'a demandé de vous passer un coup de fil. Est-ce que je vous dérange ?"
+            },
+            {
+                "role": "AI",
+                "text": "Bonjour. Vous me surprenez un peu, je suis occupée. Qui est Paolo exactement et comment il vous a recommandé ?"
+            },
+            {
+                "role": "HUMAN",
+                "text": "Alors Paolo est un de vos amis, en tout cas c'est comme ça qu'il se présente, et on a travaillé pour Paolo de façon à améliorer la protection de sa famille et de ses revenus, et il m'a dit que le type de démarche en question pourrait vous intéresser. Mon objectif aujourd'hui n'est pas du tout de passer du temps avec vous, c'est de convenir. D'une date de rendez-vous pour une quinzaine de minutes au cours de laquelle je pourrais, euh- Intégrer des éléments vous concernant et formuler une proposition euh..."
+            },
+            {
+                "role": "AI",
+                "text": "Tá bom, outra coisa…  \nJe préfère recevoir un document synthétique avant de prendre rendez-vous."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Le problème, c'est qu'on a énormément de documents et si je vous noie sous la paperasse, vous n'allez rien en tirer. Donc, je pense que le mieux pour vous est de faire cette visio d'une quinzaine de minutes avec moi, ce qui me permettra ensuite de vous proposer une analyse des documents qui seront vraiment personnalisés pour vous et qui vous permettront de comprendre les bénéfices que vous pourrez tirer d'une solution pour protéger votre famille et vos revenus."
+            },
+            {
+                "role": "AI",
+                "text": "Tá bom, outra coisa…  \nJe suis déjà assurée depuis plusieurs années, donc je doute d'avoir besoin de plus."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Ah ben c'est très bien et du coup cet échange d'une quinzaine de minutes nous permettra de vérifier que vous êtes bien assuré et d'identifier d'éventuels axes pour optimiser votre protection."
+            },
+            {
+                "role": "AI",
+                "text": "Entendi. Mas tem outro ponto…  \nJe manque de temps en semaine; je préfère un créneau court en début de soirée ou le samedi matin."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Samedi à dix heures, est-ce que ça vous conviendrait ?"
+            },
+            {
+                "role": "AI",
+                "text": "Ok. Aliás…  \nSamedi matin me va mieux, mais dix heures est un peu tôt. Pouvez-vous proposer dix heures et demie ou onze heures?"
+            },
+            {
+                "role": "HUMAN",
+                "text": "Eh bien onze heures comme ça, ça vous permettra de faire un peu la grasse matinée."
+            },
+            {
+                "role": "AI",
+                "text": "Tá bom, outra coisa…  \nOnze heures me va finalement, mais je veux que la visio dure strictement quinze minutes."
+            },
+            {
+                "role": "HUMAN",
+                "text": "C'est entendu, j'en prends l'engagement, on se parle quinze minutes et je recueille là tous les éléments qui me permettront de vous faire une proposition intéressante."
+            },
+            {
+                "role": "AI",
+                "text": "Entendi. Mas tem outro ponto…  \nJe veux juste confirmer le format : visio quinze minutes, samedi à onze heures. Est-ce que vous enverrez le lien de réunion ?"
+            },
+            {
+                "role": "HUMAN",
+                "text": "Oui, je vous envoie ça tout de suite dès qu'on a raccroché. Je vous dis donc à samedi 11h00."
+            },
+            {
+                "role": "AI",
+                "text": "Certo. E outra questão…  \nTrès bien, j'attends le lien. À samedi onze heures, quinzième minutes strictes. Au revoir."
+            }
+        ],
+        "finished": true
+    },
+    {
+        "name": "Philippe Lepeuple",
+        "agency": "Outros",
+        "region": "Outros",
+        "date": "10/07/2026",
+        "dur": "4m 36s",
+        "score": 0,
+        "scenario": "PROSPECT_FRIO",
+        "lqa": "N/A",
+        "interactions": 13,
+        "messages": [
+            {
+                "role": "HUMAN",
+                "text": "Vous m'entendez ?"
+            },
+            {
+                "role": "AI",
+                "text": "Oui, je vous entends. Qui vous a donné mon numéro et pourquoi vous appelez ?"
+            },
+            {
+                "role": "HUMAN",
+                "text": "C'est Paolo qui m'a donné votre numéro et je vous appelle pour prendre un rendez-vous de quinze minutes pour parler de contrat d'assurance vie."
+            },
+            {
+                "role": "AI",
+                "text": "Tá bom, outra coisa…  \nNon, je ne signe rien aujourd'hui. Avant, j'aimerais recevoir un petit document expliquant ce que vous proposez."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Je ne vais pas vous envoyer de documents parce qu'aucun document n'est personnalisé. Ce que je vous propose, c'est de faire une étude personnalisée."
+            },
+            {
+                "role": "AI",
+                "text": "Certo. E outra questão…  \nD'accord, mais j'ai déjà un assurance depuis des années. Qu'est-ce que votre étude personnalisée m'apportera de plus que ce que j'ai?"
+            },
+            {
+                "role": "HUMAN",
+                "text": "Déjà, il faudrait s'assurer que votre assurance est bonne. Les produits Make life sont quand même les meilleurs. Et puis faire un point sur ce qu'on pourrait améliorer."
+            },
+            {
+                "role": "AI",
+                "text": "Entendi. Mas tem outro ponto…  \nD'accord, mais avant d'aller plus loin, j'aimerais savoir combien de temps ça prendrait pour que ma femme voie une somme si je décède demain, sans avocat."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Pourquoi vous me parlez d'avocat ?"
+            },
+            {
+                "role": "AI",
+                "text": "Ok. Aliás…  \nJe demande pourquoi, parce que je veux savoir si ma femme touchera vite l'argent sans passer par un long procès."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Un contrat d'assurance vie, il faut le temps que... Ça prend, c'est-à-dire qu'il y a quelques formalités. Et ça peut prendre entre un et trois mois."
+            },
+            {
+                "role": "AI",
+                "text": "Tá bom, outra coisa…  \nD'accord, mais vous dites un à trois mois, c'est long pour ma femme si je meurs demain. Qui paie les frais de ces formalités?"
+            },
+            {
+                "role": "HUMAN",
+                "text": "Ça fait partie des choses qu'on va regarder lors de notre visio. Donc, on peut prendre rendez-vous ?"
+            },
+            {
+                "role": "AI",
+                "text": "Entendi. Mas tem outro ponto…  \nEu tenho um amigo que já trabalha com seguro e me dá aconselhamento."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Oui, on a tous des amis qui font des tas de choses formidables, mais là, euh, moi, je suis un professionnel et donc je vais pouvoir vous proposer quelque chose de particulièrement bien structuré, comme un expert."
+            },
+            {
+                "role": "AI",
+                "text": "Certo. E outra questão…  \nD'accord, mais je préfère parler avec mon ami avant de décider quoi que ce soit."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Rien n'empêchera votre ami de regarder les travaux qu'on a faits ensemble. Donc, je propose quand même le rendez-vous de quinze minutes par Visio."
+            },
+            {
+                "role": "AI",
+                "text": "Ok. Aliás…  \nHmm, entendo, mas eu preciso falar com minha esposa antes de marcar qualquer coisa."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Oui, votre épouse sera la bienvenue à cette visio. Quel est le créneau qui vous conviendrait le même— le mieux ?"
+            },
+            {
+                "role": "AI",
+                "text": "Ok. Aliás…  \nQuinze minutes, c'est court, mais peut-être demain de manhã ou depois de almoço funciona. Quels deux créneaux vous proposez, exactement ?"
+            },
+            {
+                "role": "HUMAN",
+                "text": "Mardi matin ou jeudi après-midi ?"
+            },
+            {
+                "role": "AI",
+                "text": "Tudo bem, obrigado pela sugestão. Prefiro quinta-feira à tarde."
+            },
+            {
+                "role": "HUMAN",
+                "text": "15 heures."
+            },
+            {
+                "role": "AI",
+                "text": "Tudo bem, obrigado. Quinta-feira às quinze horas está certo para mim. Até lá."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Atela."
+            },
+            {
+                "role": "AI",
+                "text": "Certo. Até quinta-feira então. Bom dia."
+            },
+            {
+                "role": "HUMAN",
+                "text": "On dira."
+            }
+        ],
+        "finished": true
+    },
+    {
+        "name": "Philippe Lepeuple",
+        "agency": "Outros",
+        "region": "Outros",
+        "date": "10/07/2026",
+        "dur": "0m 0s",
+        "score": 0,
+        "scenario": "PROSPECT_FRIO",
+        "lqa": "N/A",
+        "interactions": 1,
+        "messages": [
+            {
+                "role": "HUMAN",
+                "text": "Boa, Eduardo. Sei, Philippe. De maneira que se você perde o Paulo. Puis-je vous prendre quelques minutes ?"
+            },
+            {
+                "role": "AI",
+                "text": "Olha, estou no meio de uma tarefa e não tenho muito tempo agora. Podemos falar rápido, do que se trata?"
+            }
+        ],
+        "finished": false
+    },
+    {
+        "name": "Philippe Lepeuple",
+        "agency": "Outros",
+        "region": "Outros",
+        "date": "10/07/2026",
+        "dur": "0m 0s",
+        "score": 0,
+        "scenario": "PROSPECT_FRIO",
+        "lqa": "N/A",
+        "interactions": 1,
+        "messages": [
+            {
+                "role": "HUMAN",
+                "text": "Bom dia Eduardo. Arrepia. (música melancólica) É, o Paulo que mii... Muito obrigado por nos ligar. Posso te falar uns minutos?"
+            },
+            {
+                "role": "AI",
+                "text": "Ok. Só tenho alguns minutos agora, fale rápido."
+            }
+        ],
+        "finished": false
+    },
+    {
+        "name": "Philippe Lepeuple",
+        "agency": "Outros",
+        "region": "Outros",
+        "date": "10/07/2026",
+        "dur": "0m 0s",
+        "score": 0,
+        "scenario": "PROSPECT_FRIO",
+        "lqa": "N/A",
+        "interactions": 6,
+        "messages": [
+            {
+                "role": "HUMAN",
+                "text": "Olá Eduardo, eu sou Filipe. É o Paulo que me disse que eu deveria te falar."
+            },
+            {
+                "role": "AI",
+                "text": "Tá bom, Filipe. Estou no meio de uma revisão técnica agora, pode ser rápido? Diga por que o Paulo te indicou."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Paulo pensa que você deveria falar comigo da proteção da sua família."
+            },
+            {
+                "role": "AI",
+                "text": "Tá bom. Olha, primeiro ponto: não gosto de receber ligação sem aviso. Você foi indicado pelo Paulo, mas ele não me falou que você ia ligar. Prefiro marcar coisa assim, não ser pego desprevenido."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Entendo bem. Paulo me disse que... Ele te avisaria, mas provavelmente que lá ele não tinha tempo pra fazer isso. Mas só preciso de uns minutos para falar com você."
+            },
+            {
+                "role": "AI",
+                "text": "Certo. Outra coisa, antes de continuar: quanto tempo exatamente você quer e qual o objetivo prático dessa conversa?"
+            },
+            {
+                "role": "HUMAN",
+                "text": "É, eu ligo pra você pra marcar uma reunião com você por vídeo de... Quinze minutos para falar das soluções que você poderia, é, escolher. Para proteger a sua família e... A, a sua renda?"
+            },
+            {
+                "role": "AI",
+                "text": "Ok. Olha, primeiro ponto: não tenho tempo agora, posso só receber um resumo por e-mail antes?"
+            },
+            {
+                "role": "HUMAN",
+                "text": "Olha Eduardo, temos muito o que conversar e eu... Papéis para explicar o que fazemos, mas, é, não vai dar pra você, porque, é, eu quero fazer uma proposta personalizada e... Ah... ... Reunião que eu te proponho por vídeo é só quinze minutos para decidir juntos ou, hã, poderia fazermos em grupo. É..."
+            },
+            {
+                "role": "AI",
+                "text": "Certo. Outra coisa, já tenho um seguro contratado há anos, não sei se faz sentido revisar agora."
+            },
+            {
+                "role": "HUMAN",
+                "text": "É mais uma razão pra falar juntos. Vamos ver se esse contrato é bem... É, talvez, vamos encontrar, é, jeitos para melhorar sua proteção."
+            },
+            {
+                "role": "AI",
+                "text": "Certo. Tá bom, outra coisa: eu já tenho um seguro, então."
+            }
+        ],
+        "finished": false
+    },
+    {
+        "name": "Philippe Lepeuple",
+        "agency": "Outros",
+        "region": "Outros",
+        "date": "10/07/2026",
+        "dur": "0m 0s",
+        "score": 0,
+        "scenario": "PROSPECT_FRIO",
+        "lqa": "N/A",
+        "interactions": 1,
+        "messages": [
+            {
+                "role": "HUMAN",
+                "text": "Olá Eduardo, sou eu- Sou o Felipe, eu te ligo..."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Por recomendação de Paulo."
+            },
+            {
+                "role": "AI",
+                "text": "Tá bom, Felipe. Ouvi dizer que foi indicação do Paulo, mas ele não me avisou da ligação. Estou no meio de uma reunião agora, pode ser rápido?"
+            }
+        ],
+        "finished": false
+    },
+    {
         "name": "Sabrina Oliveira",
         "agency": "Outros",
         "region": "Outros",
@@ -10676,6 +13660,148 @@ const RAW_SIMULATIONS = [
         "finished": true
     },
     {
+        "name": "Sabrina Oliveira",
+        "agency": "Outros",
+        "region": "Outros",
+        "date": "08/07/2026",
+        "dur": "5m 53s",
+        "score": 38,
+        "scenario": "RECOMENDACOES",
+        "lqa": "N/A",
+        "interactions": 6,
+        "messages": [
+            {
+                "role": "HUMAN",
+                "text": "Oi senhora Roberta. Bom, queria te agradecer aqui pela oportunidade, né? Eu creio que você conseguiu compre-compreender bem os benefícios do, do produto, né? O que ele pode proporcionar aí pra você, pra sua família, é... Pra sua empresa, pros seus funcionários inclusive, né? É... E eu acho que e-esse seguro que você acabou de, de aderir vai exatamente de encontro com as suas necessidades, né? É... Como você pode perceber, o meu trabalho, é, ele é divulgado através de recomendações, né? Então, por isso, senhora Roberta, se você tiver algum conhecido que talvez, é, você entenda que possa ser útil também essa informação, gostaria muito que você pudesse me recomendar essa pessoa. É... Eu gosto de me encontrar pe-- com pessoas justamente como você, é... Que tem aí uma carreira muito bem-sucedida, né? Que, hã, precisa aí do seguro, uma vez que você tem aí de-- (pausa de quatro segundos)."
+            },
+            {
+                "role": "AI",
+                "text": "Oi, Roberta. Eu gostei muito do atendimento e do produto, ficou claro o valor pra mim e pro meu salão. Ainda prefiro pensar um pouco antes de indicar alguém agora, posso te dar nomes mais tarde por mensagem."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Entendo perfeitamente, ééé, senhora Roberta, mas como eu te disse, né? O meu trabalho é, é feito, é, através aí dessas recomendações, né? E eu acho que a gente aqui em cinco minutos conseguiria pensar em dois, três nomes, é, que você conheça, que seja de pro-- da mesma profissão que você, é, e assim a gente já encerra por aqui, eu não preciso ficar te perturbando ou ficar lembrando aí pra você me enviar esses nomes, pode ser?"
+            },
+            {
+                "role": "AI",
+                "text": "Olha, eu entendo a importância, mas prefiro não dar nomes no calor do momento. Podemos fazer assim: você me manda uma mensagem descrevendo o perfil ideal, que eu respondo com calma depois."
+            },
+            {
+                "role": "HUMAN",
+                "text": "É, pode ser, eu entendo a sua, a sua preocupação, mas eu só gostaria realmente de lembrar que a gente faz esse trabalho de, de consultoria, enfim, com o maior sigilo e discrição, então não precisa, é, ter nenhuma preocupação com me enviar o nome no calor do momento. Eu sou-- meu trabalho é, é muito baseado nessa consultoria, é, de maneira realmente personalizada, que atenda às necessidades, então tenho certeza que seus amigos aí vão ficar muito satisfeitos, igual você ficou aqui com, com o meu trabalho e com adesão dessa, dessa protec-- dessa proteção, né? Esse, esse sentimento é comum, é, mas realmente eu acho que a gente poderia caminhar aqui pra conseguir, é, dar essa proteção, enfim, a-a-a-as pessoas aí que você conhece, que você acha que faz sentido o meu trabalho, justamente porque, como a gente falou, a gente não sabe o dia de amanhã, né? Então, é, esse tempo aí de pensar em nos enviar um nome é um tempo..."
+            },
+            {
+                "role": "AI",
+                "text": "Olha, entendo o que você fala, mas insisto que não vou passar nomes agora. Manda a descrição do perfil por mensagem e eu respondo com calma mais tarde."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Tudo bem, eu entendo, mas eu gostaria de pedir, é, a gentileza aí de olhar pra essa minha situação um ponto de vista um pouco diferente, né? A gente tá apenas falando de proporcionar a chance pra alguns conhecidos seus de conhecer o meu trabalho, né? A gente não tá falando ainda de venda, de, de-- é, eu não vou obrigar ninguém a comprar nada. É, a gente tá falando justamente de apresentar pessoas que possam me conhecer, é, e se no final a gente entender que não faz sentido pra elas, ok, mas eu acho que networking nunca é demais, não é mesmo?"
+            },
+            {
+                "role": "AI",
+                "text": "Olha, eu entendo seu ponto, mas insisto que não dou nomes agora sem pensar. Mande a descrição do perfil que você quer e eu vejo com calma."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Bom, tudo bem então, senhora Roberta, eu te agradeço. Vou passar, é, obviamente, a descrição aqui da, do, do, do perfil dos clientes aí que eu costumo proteger e aguardo suas recomendações."
+            },
+            {
+                "role": "AI",
+                "text": "Tudo bem. Manda o perfil e eu vejo com calma. Te respondo depois por mensagem."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Ok, obrigada."
+            },
+            {
+                "role": "AI",
+                "text": "Perfeito, vou ficar aguardando a sua mensagem com o perfil então. Boa"
+            }
+        ],
+        "finished": true
+    },
+    {
+        "name": "Sabrina Oliveira",
+        "agency": "Outros",
+        "region": "Outros",
+        "date": "09/07/2026",
+        "dur": "5m 8s",
+        "score": 68,
+        "scenario": "PROSPECT_FRIO",
+        "lqa": "N/A",
+        "interactions": 5,
+        "messages": [
+            {
+                "role": "HUMAN",
+                "text": "Olá, bom dia, tudo bem? Aqui quem fala é a Sabrina."
+            },
+            {
+                "role": "AI",
+                "text": "Bom dia. Estou no meio de uma tarefa e tenho poucos minutos. Do que se trata?"
+            },
+            {
+                "role": "HUMAN",
+                "text": "Bom dia senhora, tudo bem? O Paulo me passou o seu contato e eu gostaria de falar um pouquinho com você. Você me falou agora que tá no meio de uma tarefa, mas a gente pode falar por um momentinho?"
+            },
+            {
+                "role": "AI",
+                "text": "Posso falar por alguns minutos. O que você precisa?"
+            },
+            {
+                "role": "HUMAN",
+                "text": "Tá bem, vamo lá. É, eu me chamo Sabrina, eu sou uma consultora de proteção financeira da MetLife. Não sei se você conhece a MetLife, mas a MetLife é uma multinacional americana, é, no setor financeiro, a gente tem mais de cento e cinquenta e sete anos de história."
+            },
+            {
+                "role": "HUMAN",
+                "text": "É... Nós trabalhamos com produtos de segurança patrimonial e seguro de vida. É, o Paulo comentou comigo que você tem buscado, inclusive, um seguro de vida, porque recentemente você casou, está com dois filhos e também tá ampliando aí os seus negócios. Ele disse que era muito importante que eu falasse com você, porque é exatamente o que eu fechei com ele é o que você tá procurando. E aí você vai me perguntar: \"Ok, Sabrina, mas o quê que você fechou com o Paulo? O que você tem pra me mostrar?\""
+            },
+            {
+                "role": "AI",
+                "text": "Antes de mais nada, como você obteve meu"
+            },
+            {
+                "role": "HUMAN",
+                "text": "O que eu co-- gostaria de te propor, até porque você me trouxe, que tá com pouco tempo, ééé, um pouquinho sobre o meu trabalho, um pouquinho sobre as proteções que a gente tem. Isso tudo pensada na sua realidade, né? A realidade do Paulo é uma, a gente trabalhou algo personalizado juntos, é, de acordo com a necessidade dele, com, com a, a, a vida dele e é algo que eu gostaria de fazer com você. Na segunda-feira, eu tenho horário às dez da manhã, aí perto da, da região em que você trabalha. A gente poderia marcar café? Se você não puder na segunda, na quinta-feira eu volto de novo no período da tarde, porque eu também tenho pilates aí perto."
+            },
+            {
+                "role": "AI",
+                "text": "Antes de agendar, como você obteve meu número?"
+            },
+            {
+                "role": "HUMAN",
+                "text": "Como eu te falei, quem me passou o seu número foi o Paulo, seu amigo da academia. Ele disse que vocês tomaram um café depois do treino e estava procurando algo assim. E aí ele falou: \"Gente, eu vou falar com a Sabrina, vê se ela consegue personalizar algum produto para minha amiga e eu tô entrando em contato com você\". Como eu te disse, foi o Paulo. Agora que eu já falei, a gente pode agendar na segunda de manhã ou na quinta à tarde?"
+            },
+            {
+                "role": "AI",
+                "text": "O Paulo não me avisou que ia te passar o contato. Antes de marcar, preciso saber por que essa reunião é interessante para mim. Que benefício concreto você traz em vinte minutos de conversa?"
+            }
+        ],
+        "finished": true
+    },
+    {
+        "name": "Gorilla Su2026",
+        "agency": "Outros",
+        "region": "Outros",
+        "date": "10/07/2026",
+        "dur": "0m 0s",
+        "score": 0,
+        "scenario": "PROSPECT_FRIO",
+        "lqa": "N/A",
+        "interactions": 1,
+        "messages": [
+            {
+                "role": "HUMAN",
+                "text": "The ideal world, yes. In the ideal world, the customer is informed. We are not always in an ideal world. Sometimes crazy things happen too. So, it's part of it (laughs)."
+            },
+            {
+                "role": "HUMAN",
+                "text": "(laughs)"
+            }
+        ],
+        "finished": false
+    },
+    {
         "name": "Tabajara Dias",
         "agency": "Outros",
         "region": "Outros",
@@ -11899,6 +15025,218 @@ const RAW_SIMULATIONS = [
             {
                 "role": "AI",
                 "text": "Obrigado. Tenha um bom fim de semana também."
+            }
+        ],
+        "finished": true
+    },
+    {
+        "name": "Philippe de Langlais",
+        "agency": "Outros",
+        "region": "Outros",
+        "date": "10/07/2026",
+        "dur": "4m 42s",
+        "score": 32,
+        "scenario": "PROSPECT_FRIO",
+        "lqa": "N/A",
+        "interactions": 9,
+        "messages": [
+            {
+                "role": "HUMAN",
+                "text": "Senhor do Ed-Eduardo, é isso? Bom dia. Tudo bem com o senhor?"
+            },
+            {
+                "role": "HUMAN",
+                "text": "Estou-- estou ligando para você."
+            },
+            {
+                "role": "AI",
+                "text": "Olha, eu tô no meio de uma sprint agora e não"
+            },
+            {
+                "role": "HUMAN",
+                "text": "É... A partir de uma recomendação do seu cunhado, Marcelo Castro. Eu já te aviso, é... dessa ligação e eu sou Felipe Delonglei, corretor, e eu gostaria de, é, conversar a respeito de uma proposta, é, que poderia te interessar muito como, é, ela interessou o-o Marcelo."
+            },
+            {
+                "role": "AI",
+                "text": "Olha, estou no meio de uma sprint agora e não posso falar longamente. Tá bom, mas quem é o Marcelo Castro exatamente pra você?"
+            },
+            {
+                "role": "HUMAN",
+                "text": "Marcelo Ke-- de Castro. Você não conhece ele? Ele é o seu cunhado. Vocês trabalham na mesma empresa em São José dos Campos. Cê lembra? Ele é engenheiro de, de qualidade."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Como você, igual a você."
+            },
+            {
+                "role": "AI",
+                "text": "Certo. Mas quem é exatamente o Marcelo pra você, que motivo ele deu pra te passar meu número?"
+            },
+            {
+                "role": "HUMAN",
+                "text": "Ele é um dos nossos clientes, hã? É, faz anos que a gente trabalha com ele e recentemente ele comprou um seguro de vida, hã, contemplando também o futuro, hã, dele e também, sobretudo, o futuro da família."
+            },
+            {
+                "role": "AI",
+                "text": "Tá bom, mas eu não gosto de receber ligação sem aviso. Quero que você me mande um resumo por e-mail antes de marcar qualquer reunião."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Eu entendo. Né, eu achava que o-o Eduardo, é, podia justamente te avisar dessa ligação. Me desculpe por, por incomodar a-a senhora."
+            },
+            {
+                "role": "AI",
+                "text": "Ok."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Você teria interesse, é, a gente marcar rapidamente um compromisso de quinze minutos para eu te explicar mais rápido, é, qual poderia ser a nossa proposta de intervenção?"
+            },
+            {
+                "role": "AI",
+                "text": "Certo. Aliás, prefiro que você me explique por que eu precisaria disso, antes de marcar qualquer coisa."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Ah, eu entendo a senhora. É importante porque cada proposta está concebida sob medida, tá? Então é como a senhora acabou de me dizer que ela está ocupada e eu não gostaria de-de... Incomodar a senhora então seria melhor a gente conversar e o momento é aonde você estaria mais tranquila para aprofundar essa proposta?"
+            },
+            {
+                "role": "AI",
+                "text": "Tá bom. Outra coisa... antes de marcar, me diz: por que exatamente eu precisaria desse seguro?"
+            },
+            {
+                "role": "HUMAN",
+                "text": "E a senhora que vai me dizer, hã, porque o quê que eu entendi é que a senhora é casada, que você tem três filhos, hã? Que são os primos dos filhos do Eduardo e que você tem, justamente, um perfil semelhante. E, hã, se não me engano, depois que ele falou comigo, e-e vocês-- ele falou com o seu marido justamente desse seguro de vida para proteger bem a família."
+            },
+            {
+                "role": "AI",
+                "text": "Entendi. Mas olha, isso está bem errado: eu não tenho filhos nem conheço nenhum dos filhos do Eduardo."
+            }
+        ],
+        "finished": true
+    },
+    {
+        "name": "Philippe de Langlais",
+        "agency": "Outros",
+        "region": "Outros",
+        "date": "10/07/2026",
+        "dur": "4m 33s",
+        "score": 52,
+        "scenario": "PROSPECT_FRIO",
+        "lqa": "N/A",
+        "interactions": 14,
+        "messages": [
+            {
+                "role": "HUMAN",
+                "text": "Bom dia, senhor Eduardo, tudo bem com você?"
+            },
+            {
+                "role": "HUMAN",
+                "text": "Estou te ligando da parte do teu cunhado."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Que se chama..."
+            },
+            {
+                "role": "HUMAN",
+                "text": "É..."
+            },
+            {
+                "role": "AI",
+                "text": "Tá bom, quem é exatamente?"
+            },
+            {
+                "role": "HUMAN",
+                "text": "Eduardo de Quastra."
+            },
+            {
+                "role": "AI",
+                "text": "Certo. E outra questão: esse Eduardo de Quastra é quem te indicou, é isso?"
+            },
+            {
+                "role": "HUMAN",
+                "text": "Exatamente, eu sou o cunhado, se não me engano, né? É."
+            },
+            {
+                "role": "HUMAN",
+                "text": "E aquele, aquela pessoa que trabalhou na-- em- Na mesma empresa que você, ele me falou que ele casou com a sua irmã."
+            },
+            {
+                "role": "AI",
+                "text": "Ok. Tá bom, outra coisa... como você conseguiu meu número sem avisar antes?"
+            },
+            {
+                "role": "HUMAN",
+                "text": "Ele que, conversando comigo quando, é, ele assinou um seguro de vida, que me falou que talvez, é, você poderia ter um interesse a fazer a mesma coisa, sabendo que vocês têm um perfil similar e também, é, tanto em termo profissional que de família."
+            },
+            {
+                "role": "AI",
+                "text": "Certo. E outra questão: eu não tenho tempo agora, estou no meio de uma revisão de processo importante."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Ah, é muito importante. Então, eu não, eu não quero atrapalhar o senhor. Então, a minha proposta é pra semana que vem, talvez marcar seja, é, segunda ou terça-feira, uma conversinha de, hã, quinze até trinta minutos pra eu te, te, te falar do que que esse seguro de vida-- como que esse seguro de vida poderia te proteger, você e a sua família."
+            },
+            {
+                "role": "AI",
+                "text": "Entendi. Tá bom, aliás... eu já tenho um seguro."
+            },
+            {
+                "role": "HUMAN",
+                "text": "\"Ah, você tem um seguro?\" Que legal, mas é um seguro de vida?"
+            },
+            {
+                "role": "AI",
+                "text": "Tá bom, outra coisa... é um seguro pelo trabalho, coletivo, com cobertura básica."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Ah, isso é uma cobertura básica, né? É, hã, o nosso seguro de vida tem muitas possibilidades em termos de proteções da família, dos seus filhos, da sua esposa e de você mesmo."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Se ele é bom, você até poder comparar com... O seguro de vida da empresa com o nosso seguro de vida, como fez exatamente o teu cunhado."
+            },
+            {
+                "role": "AI",
+                "text": "Tá bom. Olha, e além disso... prefiro receber alguma comparação objetiva antes, um resumo com coberturas e diferenças."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Ah, seria interessante fazer isso. Eu concordo com o senhor, só que eu não tenho, justamente, os dados da, do seu seguro de vida de, de empresa. Mais, hã... (pausa)"
+            },
+            {
+                "role": "HUMAN",
+                "text": "O dia que nós poderíamos conversar, se você pudesse me enviar as características do seguro de vida da-da empresa, eu poderia fazer um-um comparativo. O que você acha? Poderia ser interessante, não é?"
+            },
+            {
+                "role": "AI",
+                "text": "Ok. Certo. E outra questão: prefiro que a conversa seja por vídeo, não por telefone."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Ah, eu concordo, é muito mais agradável, hã? Eu gostaria de, de, de conhecer o senhor diretamente, é melhor ver um rosto que sua voz, tá?"
+            },
+            {
+                "role": "AI",
+                "text": "Ok. Entendi. Olha, e além disso... prefiro marcar na parte da manhã, pois minhas tardes estão cheias."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Ótimo. Então vamos para segunda-feira de manhã, às dez horas da manhã. É... Você poderia me dar, hã, o seu e-mail para eu te enviar o link correspondendo à nossa, à nossa próxima conversa?"
+            },
+            {
+                "role": "AI",
+                "text": "Ok. Pode mandar para eduardo.almeida at exemplo ponto com. Até segunda às dez da manhã."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Ótimo. Excelente fim de semana e até breve. Tchau, tchau."
+            },
+            {
+                "role": "AI",
+                "text": "Tudo bem, obrigado. Até segunda às dez horas. Boa semana."
             }
         ],
         "finished": true
