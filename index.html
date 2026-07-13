@@ -2089,8 +2089,8 @@
                 insights: original.insights || { pt: [], fr: [] },
                 avgSecs: avgSecs,
                 recencyScore: recencyScore,
-                agency: original.agency || "Outros",
-                region: original.region || "Outros"
+                agency: original.agency || 'Outros',
+                region: original.region || 'Outros'
             };
         });
 
@@ -2513,32 +2513,6 @@
                     </header>
 
                     <div class="filter-bar-container" style="margin-bottom: 2.5rem; display: flex; align-items: center; gap: 20px; flex-wrap: wrap;">
-                        <div style="display: flex; align-items: center; gap: 10px;">
-                            <span style="font-size: 0.75rem; font-weight: 800; color: var(--text-muted); text-transform: uppercase; letter-spacing: 0.05em;">${ui[currentLang].areaAtuacaoLabel}</span>
-                            <div class="custom-dropdown" id="areaDropdown">
-                                <div class="dropdown-trigger" onclick="toggleDropdown('areaDropdown', 'dropdownArrow')">
-                                    <div style="display: flex; align-items: center; gap: 12px;">
-                                        <i class="fas fa-filter" style="font-size: 0.8rem; opacity: 0.6;"></i>
-                                        <span id="selectedAreaLabel">${currentFilterArea ? (ui[currentLang]['area' + currentFilterArea.replace(' ', '')] || currentFilterArea) : ui[currentLang].allAreas}</span>
-                                    </div>
-                                    <i class="fas fa-chevron-down" style="font-size: 0.7rem; transition: transform 0.3s ease;" id="dropdownArrow"></i>
-                                </div>
-                                <div class="dropdown-menu">
-                                    <div class="dropdown-item ${!currentFilterArea ? 'selected' : ''}" onclick="setAreaFilter('all')">
-                                        <i class="fas fa-th-large"></i> ${ui[currentLang].allAreas}
-                                    </div>
-                                    <div class="dropdown-item ${currentFilterArea === 'Recepcionista' ? 'selected' : ''}" onclick="setAreaFilter('Recepcionista')">
-                                        <i class="fas fa-user-tie"></i> ${ui[currentLang].areaRecepcionista}
-                                    </div>
-                                    <div class="dropdown-item ${currentFilterArea === 'Concierge' ? 'selected' : ''}" onclick="setAreaFilter('Concierge')">
-                                        <i class="fas fa-concierge-bell"></i> ${ui[currentLang].areaConcierge}
-                                    </div>
-                                    <div class="dropdown-item ${currentFilterArea === 'Guest Attendant' ? 'selected' : ''}" onclick="setAreaFilter('Guest Attendant')">
-                                        <i class="fas fa-utensils"></i> ${ui[currentLang].areaGuestAttendant}
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
 
                         <div style="display: flex; align-items: center; gap: 10px;">
                             <span style="font-size: 0.75rem; font-weight: 800; color: var(--text-muted); text-transform: uppercase; letter-spacing: 0.05em;">${ui[currentLang].distinctScenarios}:</span>
@@ -2679,37 +2653,10 @@
                     </div>
                 </div>
                     
-                    <div class="grid grid-2">
+                    <div class="grid">
                         <div class="card perf-card">
                             <h3 style="color: var(--accent); text-transform: uppercase; font-size: 0.8rem; letter-spacing: 0.1em; margin-bottom: 2rem;">${ui[currentLang].topPerformers}</h3>
                             <div id="topList"></div>
-                        </div>
-                        <div class="card perf-card">
-                            <h3 style="color: var(--accent); text-transform: uppercase; font-size: 0.8rem; letter-spacing: 0.1em; margin-bottom: 1rem;">${ui[currentLang].perfDistribution}</h3>
-                            <div class="donut-grid">
-                                <div class="donut-wrap">
-                                    <canvas id="globalChart"></canvas>
-                                    <div class="donut-val" id="chartValue">0%</div>
-                                    <span class="donut-label">
-                                        ${ui[currentLang].generalAvg}
-                                        <span class="info-tip">
-                                            <i class="fas fa-info-circle" style="opacity: 0.5; font-size: 0.7rem;"></i>
-                                            <span class="tip-text">${ui[currentLang].defScoreGeral}</span>
-                                        </span>
-                                    </span>
-                                </div>
-                                <div class="donut-wrap">
-                                    <canvas id="lqaChart"></canvas>
-                                    <div class="donut-val" id="lqaValue">0%</div>
-                                    <span class="donut-label">
-                                        ${ui[currentLang].lqaPattern}
-                                        <span class="info-tip">
-                                            <i class="fas fa-info-circle" style="opacity: 0.5; font-size: 0.7rem;"></i>
-                                            <span class="tip-text">${ui[currentLang].defLqa}</span>
-                                        </span>
-                                    </span>
-                                </div>
-                            </div>
                         </div>
                     </div>
 
@@ -2766,8 +2713,10 @@
                 topList.innerHTML += `<div class="perf-item"><span>${idx + 1}º ${u.name}</span><strong>${u.avgScore}%</strong></div>`;
             });
 
-            document.getElementById('chartValue').innerText = avgScore + '%';
-            document.getElementById('lqaValue').innerText = avgLqa + '%';
+            const chartValBox = document.getElementById('chartValue');
+            if (chartValBox) chartValBox.innerText = avgScore + '%';
+            const lqaValBox = document.getElementById('lqaValue');
+            if (lqaValBox) lqaValBox.innerText = avgLqa + '%';
             renderGlobalChart('globalChart', avgScore, '#00bcf2');
             renderGlobalChart('lqaChart', avgLqa, '#8b5cf6');
             renderGlobalTrendChart(filteredSims);
@@ -2936,32 +2885,6 @@
                     </header>
 
                     <div class="filter-bar-container" style="margin-bottom: 2.5rem; display: flex; align-items: center; gap: 20px; flex-wrap: wrap;">
-                        <div style="display: flex; align-items: center; gap: 10px;">
-                            <span style="font-size: 0.75rem; font-weight: 800; color: var(--text-muted); text-transform: uppercase; letter-spacing: 0.05em;">${ui[currentLang].areaAtuacaoLabel}</span>
-                            <div class="custom-dropdown" id="areaDropdown">
-                                <div class="dropdown-trigger" onclick="toggleDropdown('areaDropdown', 'dropdownArrow')">
-                                    <div style="display: flex; align-items: center; gap: 12px;">
-                                        <i class="fas fa-filter" style="font-size: 0.8rem; opacity: 0.6;"></i>
-                                        <span id="selectedAreaLabel">${currentFilterArea ? (ui[currentLang]['area' + currentFilterArea.replace(' ', '')] || currentFilterArea) : ui[currentLang].allAreas}</span>
-                                    </div>
-                                    <i class="fas fa-chevron-down" style="font-size: 0.7rem; transition: transform 0.3s ease;" id="dropdownArrow"></i>
-                                </div>
-                                <div class="dropdown-menu">
-                                    <div class="dropdown-item ${!currentFilterArea ? 'selected' : ''}" onclick="setAreaFilter('all')">
-                                        <i class="fas fa-th-large"></i> ${ui[currentLang].allAreas}
-                                    </div>
-                                    <div class="dropdown-item ${currentFilterArea === 'Recepcionista' ? 'selected' : ''}" onclick="setAreaFilter('Recepcionista')">
-                                        <i class="fas fa-user-tie"></i> ${ui[currentLang].areaRecepcionista}
-                                    </div>
-                                    <div class="dropdown-item ${currentFilterArea === 'Concierge' ? 'selected' : ''}" onclick="setAreaFilter('Concierge')">
-                                        <i class="fas fa-concierge-bell"></i> ${ui[currentLang].areaConcierge}
-                                    </div>
-                                    <div class="dropdown-item ${currentFilterArea === 'Guest Attendant' ? 'selected' : ''}" onclick="setAreaFilter('Guest Attendant')">
-                                        <i class="fas fa-utensils"></i> ${ui[currentLang].areaGuestAttendant}
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
 
                         <div style="display: flex; align-items: center; gap: 10px;">
                             <span style="font-size: 0.75rem; font-weight: 800; color: var(--text-muted); text-transform: uppercase; letter-spacing: 0.05em;">${ui[currentLang].distinctScenarios}:</span>
@@ -3016,36 +2939,8 @@
                     </div>
 
                     <div class="stats-grid" style="margin-bottom: 3.5rem;">
-                        <div class="stat-card-big" style="display: flex; flex-direction: column; align-items: center; justify-content: center; padding: 20px;">
-                            <div class="donut-container" style="width: 140px; height: 140px; margin-bottom: 15px;">
-                                <canvas id="userScoreChart"></canvas>
-                                <div class="donut-val" id="userScoreValue" style="font-size: 1.4rem;">0%</div>
-                                <span class="donut-label">
-                                    ${ui[currentLang].avgScore}
-                                    <span class="info-tip">
-                                        <i class="fas fa-info-circle" style="opacity: 0.5; font-size: 0.7rem;"></i>
-                                        <span class="tip-text">${ui[currentLang].defScoreGeral}</span>
-                                    </span>
-                                </span>
-                            </div>
-                            <div class="trend-indicator up" style="background: var(--primary-light); color: var(--primary); margin-top: 5px;">
-                                <i class="fas fa-crown"></i> ${ui[currentLang].rankingLabel}: ${userRank}º
-                            </div>
-                        </div>
 
-                        
-                                <span class="donut-label">
-                                    ${ui[currentLang].lqaPattern}
-                                    <span class="info-tip">
-                                        <i class="fas fa-info-circle" style="opacity: 0.5; font-size: 0.7rem;"></i>
-                                        <span class="tip-text">${ui[currentLang].defLqa}</span>
-                                    </span>
-                                </span>
-                            </div>
-                            <div class="trend-indicator up" style="background: var(--primary-light); color: var(--primary); margin-top: 5px;">
-                                <i class="fas fa-crown"></i> ${ui[currentLang].rankingLabel}: ${lqaRank}º
-                            </div>
-                        </div>
+
 
                         <div class="stat-card-big">
                             <div class="trend-indicator up" style="background: var(--primary-light); color: var(--primary); margin-bottom: 10px;">
@@ -3149,7 +3044,8 @@
             renderUserList();
 
             // Donuts do Perfil
-            document.getElementById('userScoreValue').innerText = userHasScores ? Math.round(contextUserScore) + '%' : 'N/A';
+            const userScoreValBox = document.getElementById('userScoreValue');
+            if (userScoreValBox) userScoreValBox.innerText = userHasScores ? Math.round(contextUserScore) + '%' : 'N/A';
             renderGlobalChart('userScoreChart', userHasScores ? Math.round(contextUserScore) : 0, '#00bcf2');
             
             const lqaValBox = document.getElementById('userLqaValue');
