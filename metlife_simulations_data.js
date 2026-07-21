@@ -9721,6 +9721,91 @@ const RAW_SIMULATIONS = [
         "finished": true
     },
     {
+        "name": "GerenteSp Parceira",
+        "agency": "Outros",
+        "region": "Outros",
+        "date": "17/07/2026",
+        "dur": "0m 24s",
+        "score": 0,
+        "scenario": "PROSPECT_FRIO",
+        "lqa": "N/A",
+        "interactions": 1,
+        "messages": [
+            {
+                "role": "HUMAN",
+                "text": "Olá, tudo bem? O Paulo me indicou falar com você. Eu queria saber se cê tem um horário, é, na próxima semana pra eu tá ligando e explicando melhor as informações aqui da empresa pra você tá conhecendo"
+            },
+            {
+                "role": "AI",
+                "text": "Oi, tudo bem. Estou ocupada agora e prefiro marcar só se eu souber o que vou ganhar com essa conversa. Você pode resumir em uma frase qual o benefício concreto pra mim?"
+            }
+        ],
+        "finished": false
+    },
+    {
+        "name": "GerenteSp Parceira",
+        "agency": "Outros",
+        "region": "Outros",
+        "date": "17/07/2026",
+        "dur": "0m 0s",
+        "score": 0,
+        "scenario": "PROSPECT_FRIO",
+        "lqa": "N/A",
+        "interactions": 1,
+        "messages": [],
+        "finished": false
+    },
+    {
+        "name": "GerenteSp Parceira",
+        "agency": "Outros",
+        "region": "Outros",
+        "date": "17/07/2026",
+        "dur": "1m 15s",
+        "score": 32,
+        "scenario": "PROSPECT_FRIO",
+        "lqa": "N/A",
+        "interactions": 5,
+        "messages": [
+            {
+                "role": "HUMAN",
+                "text": "Olá Fernanda, tudo bem? Tudo bom"
+            },
+            {
+                "role": "HUMAN",
+                "text": "Passou seu contato. Eu queria saber se você tem um tempinho pra gente tá falando, pra eu tá te explicando como são, é, os produtos, as coisas aqui da Match Life. Cê tem algum tempo na próxima semana?"
+            },
+            {
+                "role": "AI",
+                "text": "Posso falar por alguns minutos agora, mas estou atendendo pacientes depois. O que você precisa explicar rapidamente?"
+            },
+            {
+                "role": "HUMAN",
+                "text": "Então, Fernando, eu queria marcar com você pra tá te explicando um pouco sobre nossa metodologia de trabalho, mas assim, eu queria mesmo marcar na semana que vem, cê tem algum tempo que cê teja disponível?"
+            },
+            {
+                "role": "AI",
+                "text": "Primeiro, não me chame de Fernando. Tenho alguns horários na terça e na quinta da próxima semana, de manhã cedo antes dos atendimentos. Prefiro que você explique por email primeiro o objetivo da reunião."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Tá bom. Eu te mando então por, por e-mail, se cê puder me passar seu e-mail, eu te explico por alto o que que a gente vai discutir. Então pode ser na próxima semana, na quinta então"
+            },
+            {
+                "role": "AI",
+                "text": "Não vou passar meu e-mail por telefone. Se você preferir, me envia por mensagem de texto o resumo e eu vejo. Quinta pela manhã funciona, prefiro horário antes das nove."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Tá certo. Te passarei uma mensagem de texto então. Brigada"
+            },
+            {
+                "role": "AI",
+                "text": "Obrigada. Vou esperar a mensagem de texto e confirmo o horário da quinta de manhã."
+            }
+        ],
+        "finished": true
+    },
+    {
         "name": "Parceiro Rivorio3a12",
         "agency": "Rivório",
         "region": "Sul",
@@ -10177,6 +10262,228 @@ const RAW_SIMULATIONS = [
             }
         ],
         "finished": true
+    },
+    {
+        "name": "Parceiro Luark",
+        "agency": "Ark",
+        "region": "Nordeste",
+        "date": "20/07/2026",
+        "dur": "0m 7s",
+        "score": 0,
+        "scenario": "PROSPECT_FRIO",
+        "lqa": "N/A",
+        "interactions": 4,
+        "messages": [
+            {
+                "role": "HUMAN",
+                "text": "Nada aí"
+            },
+            {
+                "role": "HUMAN",
+                "text": "[silêncio]"
+            },
+            {
+                "role": "HUMAN",
+                "text": "Não, mas ele dá ooo, ele dá o"
+            },
+            {
+                "role": "AI",
+                "text": "Desculpa, não entendi. Você pode ser mais claro sobre o que quis dizer?"
+            },
+            {
+                "role": "HUMAN",
+                "text": "Não, porque eu enten"
+            }
+        ],
+        "finished": false
+    },
+    {
+        "name": "Parceiro Luark",
+        "agency": "Ark",
+        "region": "Nordeste",
+        "date": "20/07/2026",
+        "dur": "0m 13s",
+        "score": 0,
+        "scenario": "PROSPECT_FRIO",
+        "lqa": "N/A",
+        "interactions": 6,
+        "messages": [
+            {
+                "role": "HUMAN",
+                "text": "Alô"
+            },
+            {
+                "role": "AI",
+                "text": "Alô. Posso falar agora? Estou ocupada,"
+            },
+            {
+                "role": "HUMAN",
+                "text": "Estou ocupada"
+            },
+            {
+                "role": "AI",
+                "text": "Já disse que estou ocupada. Se for sobre"
+            },
+            {
+                "role": "HUMAN",
+                "text": "A gente já disse que estou ocupado"
+            },
+            {
+                "role": "HUMAN",
+                "text": "[inaudível]"
+            },
+            {
+                "role": "HUMAN",
+                "text": "[ruído]"
+            },
+            {
+                "role": "AI",
+                "text": "Não entendi o que você falou por causa do ruído."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Não entendi o que você saiu"
+            }
+        ],
+        "finished": false
+    },
+    {
+        "name": "Parceiro Luark",
+        "agency": "Ark",
+        "region": "Nordeste",
+        "date": "20/07/2026",
+        "dur": "0m 10s",
+        "score": 0,
+        "scenario": "PROSPECT_FRIO",
+        "lqa": "N/A",
+        "interactions": 4,
+        "messages": [
+            {
+                "role": "HUMAN",
+                "text": "Alô, boa tarde, com quem eu falo?"
+            },
+            {
+                "role": "AI",
+                "text": "Boa tarde. Posso saber rapidamente do que se trata? Estou ocupada e só tenho alguns minutos."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Com quem eu falo?"
+            },
+            {
+                "role": "HUMAN",
+                "text": "Não, particular"
+            },
+            {
+                "role": "HUMAN",
+                "text": "Qual foi? Cê também não me falou"
+            }
+        ],
+        "finished": false
+    },
+    {
+        "name": "Parceiro Luark",
+        "agency": "Ark",
+        "region": "Nordeste",
+        "date": "20/07/2026",
+        "dur": "0m 27s",
+        "score": 0,
+        "scenario": "PROSPECT_FRIO",
+        "lqa": "N/A",
+        "interactions": 11,
+        "messages": [
+            {
+                "role": "HUMAN",
+                "text": "Alô, boa tarde, Roberta, tudo bem?"
+            },
+            {
+                "role": "AI",
+                "text": "Boa tarde. Posso falar agora, mas tenho pouco tempo. Sobre o"
+            },
+            {
+                "role": "HUMAN",
+                "text": "Sim."
+            },
+            {
+                "role": "HUMAN",
+                "text": "[ruído]"
+            },
+            {
+                "role": "HUMAN",
+                "text": "[inaudível]"
+            },
+            {
+                "role": "AI",
+                "text": "Desculpe, não consegui ouvir direito."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Desculpe, não consegui ouvir direito"
+            },
+            {
+                "role": "HUMAN",
+                "text": "Aqui quem tá falando é o Silas da MetLife, tudo bem?"
+            },
+            {
+                "role": "AI",
+                "text": "Quem é Silas e como conseguiu meu"
+            },
+            {
+                "role": "HUMAN",
+                "text": "Em que as filas e como consegui o meu número"
+            },
+            {
+                "role": "AI",
+                "text": "Quem é Silas e como conseguiu meu"
+            },
+            {
+                "role": "HUMAN",
+                "text": "Quem é Silas e como conseguiu isso?"
+            },
+            {
+                "role": "AI",
+                "text": "Quem é Silas e como você conseguiu"
+            },
+            {
+                "role": "HUMAN",
+                "text": "Quem é Silas e como você conseguiu?"
+            },
+            {
+                "role": "AI",
+                "text": "Quem é Silas e como você conseguiu"
+            },
+            {
+                "role": "HUMAN",
+                "text": "Quem é Silas e como você con-"
+            },
+            {
+                "role": "AI",
+                "text": "Quem é Silas e como você conseguiu meu"
+            },
+            {
+                "role": "HUMAN",
+                "text": "E aí, Silas, e como você conseguiu?"
+            }
+        ],
+        "finished": false
+    },
+    {
+        "name": "Parceiro Luark",
+        "agency": "Ark",
+        "region": "Nordeste",
+        "date": "20/07/2026",
+        "dur": "0m 5s",
+        "score": 0,
+        "scenario": "ENVIO_DOCUMENTO",
+        "lqa": "N/A",
+        "interactions": 1,
+        "messages": [
+            {
+                "role": "AI",
+                "text": "O mais simples: encaminhe-me o documento por e-mail, eu o analiso com tranquilidade e lhe dou um retorno."
+            }
+        ],
+        "finished": false
     },
     {
         "name": "Philippe Lepeuple",
@@ -16842,6 +17149,675 @@ const RAW_SIMULATIONS = [
                 "text": "Uma lapidada mesmo, do dez"
             }
         ],
+        "finished": false
+    },
+    {
+        "name": "Sabrina Oliveira",
+        "agency": "Outros",
+        "region": "Outros",
+        "date": "16/07/2026",
+        "dur": "2m 10s",
+        "score": 0,
+        "scenario": "RECOMENDACOES",
+        "lqa": "N/A",
+        "interactions": 4,
+        "messages": [
+            {
+                "role": "HUMAN",
+                "text": "Eu falo muito obrigado pela confiança"
+            },
+            {
+                "role": "HUMAN",
+                "text": "What?"
+            },
+            {
+                "role": "HUMAN",
+                "text": "Thiago, muito obrigado pela confiança, é, por depositar, é, toda essa parte da preocupação que você tem com relação à proteção financeira da sua família, do seu negócio, nas minhas mãos aqui, tá? Pode ter certeza, como eu disse ao longo dessa apresentação, que o meu papel vai ser envelhecer ao seu lado, acompanhar sua trajetória, acompanhar sua família. E se porventura, no momento que você mais precisar, pode ter certeza que você vai contar comigo, tá? Que a gente sabe que imprevistos acontecem, a gente só não sabe quando e nem quando, nem como nem quando, mas acontece E nesse momento eu, eu me farei presente, tá? Então obrigado pela sua confiança, Thiago. E aproveitando, lembra lá no início da nossa reunião que eu cheguei a comentar com você que esse trabalho ele é desenvolvido por recomendação, né? Então até Por isso que eu cheguei até você, né? Eu só cheguei até aqui, nós só sentamos e falamos Porque o Fabiano, seu amigo Fabiano É, avisou que ia entrar em contato pra falar sobre a, esse trabalho, sobre toda a questão financeira, sobre Uma ferramenta que protegeria aqui a sucessão da sua empresa, né? Então só por conta dele que nós chegamos a esse ponto. E da mesma forma, esse trabalho não pode parar aqui, Thiago. Da mesma forma, você vai ajudar a chegar em outras pessoas. Tudo isso depende de pessoas como você, que se tornaram meu, meus clientes. Então Eu gostaria que você, assim como o Fabiano fez, me recomendasse pessoas do seu ciclo, pessoas próximas de você, é, pessoas queridas, colegas de trabalho, da época, é, da faculdade, empresários, né? O amigo do futebol que você joga bola junto, é, pessoas que você faz-- que você entende que faz sentido eu levar esse mesmo trabalho"
+            },
+            {
+                "role": "AI",
+                "text": "Look, I appreciate you saying that and I"
+            },
+            {
+                "role": "HUMAN",
+                "text": "É, e pode ter certeza, essa pessoa ela vai me receber assim como você me recebeu também, né? Então, é, levando isso em consideração, o que que são as pessoas que você vai me recomendar pra eu levar esse mesmo trabalho pra elas, por favor?"
+            },
+            {
+                "role": "AI",
+                "text": "Slow down—I’m fine with helping, but I don’t give out names on the spot.    \nIf you want, tell me which specific profiles you need first."
+            }
+        ],
+        "finished": false
+    },
+    {
+        "name": "Sabrina Oliveira",
+        "agency": "Outros",
+        "region": "Outros",
+        "date": "16/07/2026",
+        "dur": "0m 1s",
+        "score": 0,
+        "scenario": "RECOMENDACOES",
+        "lqa": "N/A",
+        "interactions": 1,
+        "messages": [
+            {
+                "role": "HUMAN",
+                "text": "No"
+            }
+        ],
+        "finished": false
+    },
+    {
+        "name": "Sabrina Oliveira",
+        "agency": "Outros",
+        "region": "Outros",
+        "date": "16/07/2026",
+        "dur": "8m 56s",
+        "score": 48,
+        "scenario": "RECOMENDACOES",
+        "lqa": "N/A",
+        "interactions": 24,
+        "messages": [
+            {
+                "role": "HUMAN",
+                "text": "Thiago, muito obrigado pela confiança, meu amigo. Ééé, pode ter certeza, a partir de agora você se tornou meu cliente, né? Eee eu vou acompanhar você, vou acompanhar sua família a partir desse momento. Eee se porventura chegar esse momento, o momento que você mais precisar, ali eu me farei presente, né? Você confiou em mim ali, a segurança, tranquilidade financeira da sua família, da sua empresa"
+            },
+            {
+                "role": "HUMAN",
+                "text": "Fiz essa transferência de risco financeiro e o meu papel agora é permanecer ao seu lado, te acompanhar, acompanhar tua família, tá? Então conta comigo. Eu quero aproveitar, Thiago, inclusive, e relembrar, né? É, o início da nossa conversa, no início da apresentação que eu fiz, eu cheguei a comentar contigo que esse trabalho, eu desenvolvo esse trabalho através de recomendação, que é o melhor marketing que existe, né? O bo-- famoso boca a boca. Se foi bom pra você, se você se tornou meu cliente, é porque você entendeu que fez sentido, que faz sentido. E esse trabalho não pode morrer aqui, Thiago. Esse trabalho a gente tem que passar pra frente. Com certeza, você conhece pessoas queridas, pessoas próximas, um amigo da faculdade, a, o seu amigo que joga futebol com você, né? Pessoas bem próximas que você entende que faria sentido levar esse trabalho. E fica tranquilo, elas vão me atender assim como você me atendeu, né? Eu só cheguei em você através do Fabiano, se não fosse o Fabiano E se bom, é, se bom querer esse trabalho que ele é assim como você quis Então diante disso, Thiago, ééé, quem são as pessoas mais próximas que você poderia me recomendar pra eu levar esse trabalho pra elas também? Quais são esses nomes? Me passa, por favor"
+            },
+            {
+                "role": "AI",
+                "text": "Olha, eu entendo a importância, mas agora não tô à vontade pra sair passando nomes assim na hora. Prefiro conversar com meu pessoal antes de expor eles."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Ótimo, Thiago, eu entendo perfeitamente o que você quer dizer. É, inclusive, é, quando o Fabiano passou você também como recomendação, ele teve essa mesma sensação, tá, Thiago? E eu fiz um combinado com ele e esse combinado eu vou fazer com você também Eu não vou entrar em contato com essas pessoas antes de você avisar. Então eu quero fazer um combinado com você Você vai me passar o contato dessas pessoas Eee, e na sequência você vai entrar em contato com essas pessoas, avisar que eu vou ligar Eu prometo, eu faço um acordo com você. Eu não vou ligar antes de você avisar, tá? Cê me passa o nome, me passa o telefone e assim que você avisar, eu entro em contato pra me apresentar, pra"
+            },
+            {
+                "role": "AI",
+                "text": "Olha, eu disse que prefiro"
+            },
+            {
+                "role": "HUMAN",
+                "text": "Falar que você é meu cliente, que hoje eu desenvolvo um, um trabalho de proteção financeira pra você e que você entendeu que faz sentido elas também me receberem pra eu levar esse trabalho pra elas também. E fica tranquilo, a decisão quem tem que tomar é elas, não é verdade? Então me passa o nome e o telefone, mas eu ligo somente quando você avisar que eu vou entrar em contato, tá bom?"
+            },
+            {
+                "role": "AI",
+                "text": "Não vou passar número agora. Prefiro avisar a pessoa antes. Se você quiser, me diz como vai abrir a conversa por mensagem que eu encaminho pra ela primeiro."
+            },
+            {
+                "role": "HUMAN",
+                "text": "E Thiago, concordo com você, eu acho que é uma, tem uma, uma opção, inclusive eu já tenho um modelo de mensagem aqui, eu vou te encaminhar ele agora. Faz essa gentileza, passa essa mensagem aqui mesmo"
+            },
+            {
+                "role": "HUMAN",
+                "text": "essas pessoas e na sequência eu entro em contato com elas"
+            },
+            {
+                "role": "AI",
+                "text": "Não vou sair copiando e colando mensagem pronta assim. Se você quer que eu fale com meu pessoal, me manda só uma sugestão curta do que eu devo dizer por voz ou texto. Eu repasso do meu jeito e aviso quando puder."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Passa uma mensagem aí agora. Na mensagem, Thiago, você vai falar que você recebeu o Anderson, representante da Netlife"
+            },
+            {
+                "role": "AI",
+                "text": "Olha, não vou"
+            },
+            {
+                "role": "HUMAN",
+                "text": "Que ele é um especialista quando se trata do assunto de proteção financeira familiar e também sobre a parte, é, de sucessão empresarial. Passa essa mensagem e diz que eu vou entrar em contato com elas pra dar uma palavrinha de apenas dois minutos, que você me recebeu, que achou interessante, é, o assunto que nós falamos aqui na nossa reunião e que faria sentido pra elas também a gente explorar esse assunto. Po-pode passar essa mensagem aí agora pra elas e me passar o contato delas também?"
+            },
+            {
+                "role": "AI",
+                "text": "Não vou passar contatos agora. Não gosto de empurrar mensagem pronta pros meus amigos. Se você quer, manda só a sugestão curta de texto que eu adapto e encaminho quando for conveniente."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Tá bom. E eu vou te passar aí, Thiago, a mensagem, ó, tô te passando agora a mensagenzinha aí, tá? Mas como eu trabalho somente por recomendação, Thiago, e foi assim que eu cheguei em você também, é, eu preciso que você me passe agora cinco nomes, tá? Cinco nomes de pessoas que tão próximas de você"
+            },
+            {
+                "role": "HUMAN",
+                "text": "E eu vou entrar em contato com elas assim que você avisar"
+            },
+            {
+                "role": "AI",
+                "text": "Não vou passar cinco nomes agora. Mando dois ou três quando eu tiver conversado com eles."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Quais são os nomes, Thiago?"
+            },
+            {
+                "role": "AI",
+                "text": "Não vou te dar nomes agora. Quando eu tiver falado com o cara eu te passo um ou dois, por mensagem, sem pressa."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Ah, não, você me disse que ia passar três nomes, né? Então vamos lá, me passa três nomes, eu anoto aqui, eu espero você avisá-los e eu entro em contato depois. Quem são essas pessoas?"
+            },
+            {
+                "role": "AI",
+                "text": "Não vou passar três nomes agora. Quando eu falar com eles eu te mando um ou dois, por mensagem, sem pressa."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Tá, perfeito. Mas vamo lá, deixa eu entender melhor. Thiago, por que que você não quer passar esses nomes? Tem alguma dúvida?"
+            },
+            {
+                "role": "AI",
+                "text": "Porque eu cuido da imagem e do tempo do meu pessoal. Não gosto de expor amigo sem avisar antes. Se quiser, manda a sugestão curta de mensagem que eu adapto e envio quando achar oportuno."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Mas o Fabiano, quando eu entrei em contato com você, ele avisou que eu ia entrar em contato com você, não foi?"
+            },
+            {
+                "role": "AI",
+                "text": "O Fabiano avisou porque ele combinou antes com os caras, e com ele isso funcionou. Minha relação com meu pessoal é diferente; eu prefiro falar com eles antes. Manda a sugestão curta de texto que eu adapto e envio quando for o momento certo."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Vamo lá. Thiago, você tá dando a oportunidade dessas pessoas"
+            },
+            {
+                "role": "HUMAN",
+                "text": "ouvirem um trabalho que vai oferecer a proteção financeira que a família delas precisa, que é o seguro de vida, né? Eee Às vezes a pessoa não tem tempo, imprevistos acontecem a qualquer momento O imprevisto pode acontecer com essas pessoas daqui a cinco minutos. Você tem o poder de evitar isso Cabe a você a decisão de me indicar ou não. Se você me indicar Você vai dar a oportunidade dessas pessoas de, de repente, fecharem uma proteção financeira e protegerem as pessoas que mais amam"
+            },
+            {
+                "role": "HUMAN",
+                "text": "Então você tá fazendo o bem pro próximo, Thiago. Me ajude a chegar nessas pessoas. Quem são as três pessoas, então, pelo menos, que você vai me indicar, quais são os nomes delas, para que eu consiga agendar essa reunião e apresentar esse mesmo trabalho pra eles"
+            },
+            {
+                "role": "AI",
+                "text": "Não vou passar três nomes agora. Já disse que falo com eles primeiro e depois te envio um ou dois quando eu tiver confirmado. Se quiser, manda a sugestão curta de mensagem que eu adapto e encaminho quando for o momento."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Bom, deixa eu te fazer uma pergunta, Thiago, é, pra gente finalizar, porque não quero tomar muito o seu tempo, tá? Qual foi o ponto, quais foram os pontos que você mais gostou da nossa apresentação?"
+            },
+            {
+                "role": "AI",
+                "text": "O que mais gostei foi a objetividade. Explicou de forma direta como protege minha família sem enrolação, e os exemplos práticos fizeram sentido pra minha realidade."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Perfeito. E foi possível compreender o perfil da Netlive?"
+            },
+            {
+                "role": "AI",
+                "text": "Entendi o perfil: vocês são práticos, orientados a proteção familiar e com solução que considera sucessão empresarial. Ficou claro que atuam como consultores, não só vendendo apólices."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Ótimo, ótimo, Thiago. E foi possível compreender também a importância do seguro de vida?"
+            },
+            {
+                "role": "AI",
+                "text": "Sim, ficou claro. Entendi que o seguro garante renda pra família e protege o negócio na falta de alguém chave. Quero ver só os valores finais pra fechar sem surpresas."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Ótimo, ótimo. E foi possível compreender também a importância de ter um corretor especialista?"
+            },
+            {
+                "role": "AI",
+                "text": "Sim, ficou claro que ter um corretor especialista faz diferença. Quero alguém que entenda meu negócio, antecipe riscos e fale direto, sem rodeio."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Ótimo, Thiago. E foi também, é, você recomendaria, ééé, a Mentelife pra familiares e amigos?"
+            },
+            {
+                "role": "AI",
+                "text": "Recomendaria sim, desde que o corretor mantenha a postura prática e sem enrolação que você teve hoje. Vou recomendar quem eu achar que realmente vai aceitar esse papo, mas só passo nomes depois que eu avisar essas pessoas."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Perfeito! E quem são as cinco pessoas que você poderia me indicar pra eu levar esse trabalho?"
+            },
+            {
+                "role": "AI",
+                "text": "Não vou passar cinco nomes agora. Como já disse, eu falo com o pessoal antes e te envio um ou dois por mensagem quando eu tiver confirmados."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Combinado, Thiago. Brigado"
+            },
+            {
+                "role": "AI",
+                "text": "Beleza. Vou te enviar um ou dois contatos por mensagem quando eu falar com eles. Até mais."
+            }
+        ],
+        "finished": true
+    },
+    {
+        "name": "Sabrina Oliveira",
+        "agency": "Outros",
+        "region": "Outros",
+        "date": "19/07/2026",
+        "dur": "0m 5s",
+        "score": 0,
+        "scenario": "PROSPECT_FRIO",
+        "lqa": "N/A",
+        "interactions": 3,
+        "messages": [
+            {
+                "role": "HUMAN",
+                "text": "[background noise]"
+            },
+            {
+                "role": "HUMAN",
+                "text": "Da Argentina"
+            },
+            {
+                "role": "AI",
+                "text": "I'm busy right now and didn't expect this call. Who is calling and what do you want?"
+            },
+            {
+                "role": "HUMAN",
+                "text": "It features"
+            }
+        ],
+        "finished": false
+    },
+    {
+        "name": "Sabrina Oliveira",
+        "agency": "Outros",
+        "region": "Outros",
+        "date": "19/07/2026",
+        "dur": "0m 0s",
+        "score": 0,
+        "scenario": "PROSPECT_FRIO",
+        "lqa": "N/A",
+        "interactions": 1,
+        "messages": [],
+        "finished": false
+    },
+    {
+        "name": "Sabrina Oliveira",
+        "agency": "Outros",
+        "region": "Outros",
+        "date": "19/07/2026",
+        "dur": "0m 0s",
+        "score": 0,
+        "scenario": "PROSPECT_FRIO",
+        "lqa": "N/A",
+        "interactions": 1,
+        "messages": [],
+        "finished": false
+    },
+    {
+        "name": "Sabrina Oliveira",
+        "agency": "Outros",
+        "region": "Outros",
+        "date": "19/07/2026",
+        "dur": "4m 35s",
+        "score": 28,
+        "scenario": "PROSPECT_FRIO",
+        "lqa": "N/A",
+        "interactions": 28,
+        "messages": [
+            {
+                "role": "HUMAN",
+                "text": "Ah, o, o, o limite é d-- é 90% da franquia total"
+            },
+            {
+                "role": "HUMAN",
+                "text": "Então vamos lá, João"
+            },
+            {
+                "role": "HUMAN",
+                "text": "Só fazer negócio rápido"
+            },
+            {
+                "role": "AI",
+                "text": "Eu tenho pouco tempo, então fala direto: o que você quer oferecer e qual o benefício concreto pra mim?"
+            },
+            {
+                "role": "HUMAN",
+                "text": "Tem, tem um seguro de vida completíssimo"
+            },
+            {
+                "role": "HUMAN",
+                "text": "Queee cobre muitas coisas, apenas R$ 300 pro mês"
+            },
+            {
+                "role": "AI",
+                "text": "Trezentos reais por mês? Então explica rápido: que coberturas tem esse seu \"completíssimo\" e"
+            },
+            {
+                "role": "HUMAN",
+                "text": "Tá. Cobre, ééé, ace-- ééé, mortes por acidente, qualquer tipo deee i-i-invalidez na sua vida Ééé, você também consegue sacar em dinheiro quando tiver a, a situação acontecendo"
+            },
+            {
+                "role": "HUMAN",
+                "text": "É, você consegue sacar até 60 dias. Isso"
+            },
+            {
+                "role": "AI",
+                "text": "Sessenta dias de adiantamento?"
+            },
+            {
+                "role": "HUMAN",
+                "text": "O que?"
+            },
+            {
+                "role": "HUMAN",
+                "text": "Não, eu não falei 60 dias de adian-tem-- adiantamento. Eu falei que a pessoa segurada consegue tirar esse dinheiro em 60 dias após o incidente, o sinistro"
+            },
+            {
+                "role": "AI",
+                "text": "Certo, então confirma: esse saque em até sessenta dias vale pra qualquer sinistro previsto? Quero saber se existe carência ou condição que limite isso."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Não, por isso que eu falei que é imperdível, entendeu? Não tem nenhum tipo de carência ou nenhum tipo de condição. Só R$300 por mês"
+            },
+            {
+                "role": "AI",
+                "text": "Tá, mas preciso saber uma coisa rápida: esse pagamento antes do encerramento do sinistro pode ser usado pra cobrir perda de faturamento do meu salão?"
+            },
+            {
+                "role": "HUMAN",
+                "text": "De que salão você tá falando? Salão de cabeleireiro?"
+            },
+            {
+                "role": "AI",
+                "text": "Sim, meu salão de beleza aqui em Brasília. Quero saber se esse adiantamento em até sessenta dias cobre perda de faturamento por parada forçada do salão."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Depende. Se for por invalidez, por algum tipo de, deee acontecimento meteorológico, como enchede-- enchente, incêndio ou terremoto, sim. Outros motivos não estariam cobertos"
+            },
+            {
+                "role": "AI",
+                "text": "Ok, entendi. Me diz então: quais são exatamente os eventos cobertos que permitem esse saque para cobrir perda de faturamento?"
+            },
+            {
+                "role": "HUMAN",
+                "text": "Terremoto Ééé Incêndio, enchente"
+            },
+            {
+                "role": "HUMAN",
+                "text": "É tiroteio"
+            },
+            {
+                "role": "HUMAN",
+                "text": "E qualquer tipo, sei lá, explosão, alguma coisa que não tenha sido feita com negligência humana, quer dizer, que não foi feita em-- de maneira intencional"
+            },
+            {
+                "role": "AI",
+                "text": "Certo, então confirma pra mim: tiroteio e explosão entram nessa lista sem exceção? Quero saber se há alguma exclusão por investigação policial ou responsabilidade civil."
+            },
+            {
+                "role": "HUMAN",
+                "text": "A-apenas por autossabotagem. Então, se for feito, por exemplo, um exemplo bem, bem, bem aleatório: se fo-- se a própria pessoa fizer alguma alteração no botijão de gás e causar uma explosão, isso não estaria coberto pelo seguro"
+            },
+            {
+                "role": "AI",
+                "text": "Ou seja, se for por culpa minha, por uma alteração intencional, não tem cobertura. Certo. Agora me diz uma coisa rápida: tem alguma franquia ou limite de valor pro adiantamento em caso desses eventos?"
+            },
+            {
+                "role": "AI",
+                "text": "Noventa por cento da franquia total? Isso parece confuso. Me diz direto: qual é o teto em reais que eu poderia receber como adiantamento?"
+            },
+            {
+                "role": "HUMAN",
+                "text": "R$ 300.000 ou dois bitcoins"
+            },
+            {
+                "role": "AI",
+                "text": "R$ trezentos mil ou dois bitcoins? Isso muda tudo. Dois bitcoins hoje valem muito mais; prefiro receber em reais. Qual o prazo de pagamento desse teto?"
+            },
+            {
+                "role": "HUMAN",
+                "text": "É, 60 dias após o aprovação do sinistro"
+            },
+            {
+                "role": "AI",
+                "text": "Sessenta dias após aprovação do sinistro está ok, mas preciso saber: esse prazo começa a contar a partir de quando exatamente, da data do sinistro ou da data de entrega de documentos?"
+            },
+            {
+                "role": "HUMAN",
+                "text": "A partir da data de entrega de documentos"
+            },
+            {
+                "role": "AI",
+                "text": "Certo, então deixa eu confirmar só uma última coisa rápida: se o prazo começa na data de entrega dos documentos, quem paga os custos de envio ou tramitação desses documentos?"
+            },
+            {
+                "role": "HUMAN",
+                "text": "inicialmente você, porém eles são reembolsa-é, é, reembolsáveis caso seja aprovado a, a, a sua situação"
+            },
+            {
+                "role": "AI",
+                "text": "Ok, então me confirma: esses custos reembolsáveis têm algum teto ou prazo para pedir o reembolso?"
+            },
+            {
+                "role": "HUMAN",
+                "text": "Não, nenhum"
+            },
+            {
+                "role": "AI",
+                "text": "Certo. Outra coisa: quem vai analisar e aprovar o sinistro? Quero saber se é uma equipe independente ou própria da seguradora."
+            },
+            {
+                "role": "HUMAN",
+                "text": "É uma equipe própria da seguradora. Eles são conhecidos como time de investigação de sinistros"
+            },
+            {
+                "role": "AI",
+                "text": "Ok. Mais uma dúvida rápida: esse time de investigação usa peritos externos independentes em casos de incêndio ou explosão?"
+            },
+            {
+                "role": "HUMAN",
+                "text": "Sim"
+            },
+            {
+                "role": "AI",
+                "text": "Certo. E qual é o prazo médio desses peritos para entregar o laudo nos casos de incêndio ou explosão?"
+            },
+            {
+                "role": "HUMAN",
+                "text": "Depende da-- normalmente depende da com-complexidade do, da, do, do cenário que está atualmente. Porém, normalmente, ele tem uma média de 15 dias de entrega"
+            },
+            {
+                "role": "AI",
+                "text": "Quinze dias em média me parece razoável. Me diz só uma coisa rápida: se eu aceitar marcar uma reunião, você tem amanhã de manhã ou depois da tarde livre?"
+            },
+            {
+                "role": "HUMAN",
+                "text": "E por não ter o que falar"
+            },
+            {
+                "role": "HUMAN",
+                "text": "Eu tenho amanhã das 9 da manhã até às 11:30. Dá-- só me mandar o invite"
+            },
+            {
+                "role": "AI",
+                "text": "Beleza, então marca às nove e meia da manhã. Vou me organizar por aqui."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Prezado Valeu!"
+            },
+            {
+                "role": "AI",
+                "text": "Ok, confirmo nove e meia da manhã. Até lá."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Tchau"
+            },
+            {
+                "role": "AI",
+                "text": "Até mais."
+            }
+        ],
+        "finished": true
+    },
+    {
+        "name": "Sabrina Oliveira",
+        "agency": "Outros",
+        "region": "Outros",
+        "date": "20/07/2026",
+        "dur": "0m 12s",
+        "score": 0,
+        "scenario": "RECOMENDACOES",
+        "lqa": "N/A",
+        "interactions": 2,
+        "messages": [
+            {
+                "role": "HUMAN",
+                "text": "Pela contratação e obrigado pela confiança. Pedindo pra que você tome cuidado com a minha vida, proteção"
+            },
+            {
+                "role": "HUMAN",
+                "text": "E não fica muito publicistic"
+            },
+            {
+                "role": "AI",
+                "text": "Tá bom, pode deixar.  \nQuero que seja simples e sem alarde, só o que for preciso pra minha família ficar tranquila."
+            }
+        ],
+        "finished": false
+    },
+    {
+        "name": "Sabrina Oliveira",
+        "agency": "Outros",
+        "region": "Outros",
+        "date": "20/07/2026",
+        "dur": "0m 0s",
+        "score": 0,
+        "scenario": "RECOMENDACOES",
+        "lqa": "N/A",
+        "interactions": 1,
+        "messages": [],
+        "finished": false
+    },
+    {
+        "name": "Sabrina Oliveira",
+        "agency": "Outros",
+        "region": "Outros",
+        "date": "20/07/2026",
+        "dur": "0m 15s",
+        "score": 0,
+        "scenario": "RECOMENDACOES",
+        "lqa": "N/A",
+        "interactions": 5,
+        "messages": [
+            {
+                "role": "HUMAN",
+                "text": "[ruído]"
+            },
+            {
+                "role": "HUMAN",
+                "text": "[ruído]"
+            },
+            {
+                "role": "HUMAN",
+                "text": "[ruído]"
+            },
+            {
+                "role": "AI",
+                "text": "Desculpa, não consegui ouvir direito por causa do ruído. Pode repetir, por favor?"
+            },
+            {
+                "role": "HUMAN",
+                "text": "Então vamos lá, vamos estudar"
+            },
+            {
+                "role": "HUMAN",
+                "text": "Aí a gente fez, a gente fez essa situação, fez, deu certo. Eu fechei aqui minha sacada, é"
+            }
+        ],
+        "finished": false
+    },
+    {
+        "name": "Sabrina Oliveira",
+        "agency": "Outros",
+        "region": "Outros",
+        "date": "20/07/2026",
+        "dur": "0m 0s",
+        "score": 0,
+        "scenario": "RECOMENDACOES",
+        "lqa": "N/A",
+        "interactions": 1,
+        "messages": [],
+        "finished": false
+    },
+    {
+        "name": "Sabrina Oliveira",
+        "agency": "Outros",
+        "region": "Outros",
+        "date": "20/07/2026",
+        "dur": "0m 1s",
+        "score": 10,
+        "scenario": "RECOMENDACOES",
+        "lqa": "N/A",
+        "interactions": 10,
+        "messages": [
+            {
+                "role": "HUMAN",
+                "text": "Sim, sim, tranquilo"
+            },
+            {
+                "role": "HUMAN",
+                "text": "[ruído]"
+            },
+            {
+                "role": "HUMAN",
+                "text": "[ruído]"
+            },
+            {
+                "role": "HUMAN",
+                "text": "[ruído]"
+            },
+            {
+                "role": "HUMAN",
+                "text": "Não está nem aí"
+            },
+            {
+                "role": "HUMAN",
+                "text": "Uhum. Então tá lá, o que que ela fez?"
+            },
+            {
+                "role": "HUMAN",
+                "text": "Já comprei uma vez na Apple TV também"
+            },
+            {
+                "role": "AI",
+                "text": "Tranquilo. O que você precisa agora?"
+            },
+            {
+                "role": "HUMAN",
+                "text": "Não"
+            },
+            {
+                "role": "HUMAN",
+                "text": "Não, eu acho que é um bug pequenininho"
+            },
+            {
+                "role": "HUMAN",
+                "text": "E aqui eu posso passar para o debriefing"
+            }
+        ],
+        "finished": true
+    },
+    {
+        "name": "Sabrina Oliveira",
+        "agency": "Outros",
+        "region": "Outros",
+        "date": "20/07/2026",
+        "dur": "0m 0s",
+        "score": 0,
+        "scenario": "PROSPECT_FRIO",
+        "lqa": "N/A",
+        "interactions": 1,
+        "messages": [],
         "finished": false
     },
     {

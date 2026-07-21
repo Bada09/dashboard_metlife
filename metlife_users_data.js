@@ -207,28 +207,32 @@ const users = [
         "avgDurMin": 0
     },
     {
-        "avgDurSec": 4,
-        "avgScore": 61.0,
+        "avgDurSec": 9,
+        "avgScore": 46.5,
         "skills": {
-            "Escuta": 65.2,
-            "Empatia": 72.5,
-            "Crises": 49.9,
-            "Padroes": 68.0,
-            "Personalizacao": 52.1
+            "Escuta": 48.6,
+            "Empatia": 55.3,
+            "Crises": 41.1,
+            "Padroes": 48.8,
+            "Personalizacao": 42.4
         },
-        "count": 2,
+        "count": 5,
         "insights": {
             "pt": [
-                "Faltou validar explicitamente o sentimento da prospect (“Sim, entendo que queira ver antes…”), usando a técnica do “Sim,",
-                "Faltou oferecer datas concretas para agendamento — usou perguntas abertas e formulou convites pouco assertivos.",
-                "Ao sugerir “conversar rapidinho”, tentou ganhar tempo, mas faltou clareza nos benefícios e na estrutura da abordagem.",
-                "Posso te explicar em quinze minutos o que faria sentido no seu caso, sem compromisso algum."
+                "Persona interpretada: Fernanda, dentista autônoma, perfil dominância do DISC Verde, pragmática, analítica e cuidadosa co",
+                "Corretor respondeu de forma sucinta às objeções, mas não demonstrou clareza em convertê-las em oportunidades.",
+                "Não ficou claro para a prospect o benefício direto da reunião, nem houve uma defesa assertiva da proposta.",
+                "O objetivo de obter uma reunião qualificada ficou parcialmente atingido, com vários pontos críticos.",
+                "Demonstrou cordialidade e manteve tom amigável durante todo o contato.",
+                "Fez tentativa de propor um agendamento, mostrando postura ativa, ainda que pouco estruturada."
             ],
             "fr": [
-                "Faltou validar explicitamente o sentimento da prospect (“Sim, entendo que queira ver antes…”), usando a técnica do “Sim,",
-                "Faltou oferecer datas concretas para agendamento — usou perguntas abertas e formulou convites pouco assertivos.",
-                "Ao sugerir “conversar rapidinho”, tentou ganhar tempo, mas faltou clareza nos benefícios e na estrutura da abordagem.",
-                "Posso te explicar em quinze minutos o que faria sentido no seu caso, sem compromisso algum."
+                "Persona interpretada: Fernanda, dentista autônoma, perfil dominância do DISC Verde, pragmática, analítica e cuidadosa co",
+                "Corretor respondeu de forma sucinta às objeções, mas não demonstrou clareza em convertê-las em oportunidades.",
+                "Não ficou claro para a prospect o benefício direto da reunião, nem houve uma defesa assertiva da proposta.",
+                "O objetivo de obter uma reunião qualificada ficou parcialmente atingido, com vários pontos críticos.",
+                "Demonstrou cordialidade e manteve tom amigável durante todo o contato.",
+                "Fez tentativa de propor um agendamento, mostrando postura ativa, ainda que pouco estruturada."
             ]
         },
         "name": "GerenteSp Parceira",
@@ -239,12 +243,13 @@ const users = [
             "PT"
         ],
         "improvement": {
-            "pt": "Aperfeiçoar técnica de fechamento",
-            "fr": "Perfectionner la technique de closing"
+            "pt": "Melhorar gestão de objeções",
+            "fr": "Améliorer la gestion des objections"
         },
         "dates": [
             "2026-07-02",
-            "2026-07-06"
+            "2026-07-06",
+            "2026-07-17"
         ],
         "avgDurMin": 1
     },
@@ -1099,7 +1104,7 @@ const users = [
             "Padroes": 0.0,
             "Personalizacao": 0.0
         },
-        "count": 0,
+        "count": 5,
         "insights": {
             "pt": [
                 "Focar no objetivo principal (agendar reunião).",
@@ -1116,12 +1121,16 @@ const users = [
         "agency": "Ark",
         "region": "Nordeste",
         "lqaScore": 0.0,
-        "languages": [],
+        "languages": [
+            "PT"
+        ],
         "improvement": {
             "pt": "Iniciar as simulações",
             "fr": "Commencer les simulations"
         },
-        "dates": [],
+        "dates": [
+            "2026-07-20"
+        ],
         "avgDurMin": 0
     },
     {
@@ -1276,16 +1285,16 @@ const users = [
         "avgDurMin": 3
     },
     {
-        "avgDurSec": 50,
-        "avgScore": 64.7,
+        "avgDurSec": 57,
+        "avgScore": 57.9,
         "skills": {
-            "Escuta": 69.7,
-            "Empatia": 63.3,
-            "Crises": 58.4,
-            "Padroes": 61.9,
-            "Personalizacao": 64.7
+            "Escuta": 62.6,
+            "Empatia": 57.1,
+            "Crises": 52.3,
+            "Padroes": 54.3,
+            "Personalizacao": 57.5
         },
-        "count": 57,
+        "count": 70,
         "insights": {
             "pt": [
                 "As objeções referentes à origem do contato foram minimamente endereçadas.",
@@ -1313,8 +1322,8 @@ const users = [
             "PT"
         ],
         "improvement": {
-            "pt": "Aperfeiçoar técnica de fechamento",
-            "fr": "Perfectionner la technique de closing"
+            "pt": "Melhorar gestão de objeções",
+            "fr": "Améliorer la gestion des objections"
         },
         "dates": [
             "2026-06-12",
@@ -1330,7 +1339,9 @@ const users = [
             "2026-07-08",
             "2026-07-09",
             "2026-07-13",
-            "2026-07-16"
+            "2026-07-16",
+            "2026-07-19",
+            "2026-07-20"
         ],
         "avgDurMin": 3
     },
