@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="pt-br">
 
 <head>
@@ -423,7 +423,7 @@
             padding: 12px;
             position: absolute;
             z-index: 9999;
-            /* Garante que fique Ã  frente de tudo */
+            /* Garante que fique à frente de tudo */
             bottom: 140%;
             left: 50%;
             transform: translateX(-50%);
@@ -639,7 +639,7 @@
         }
 
         .bullet-list li::before {
-            content: 'â€¢';
+            content: '”¢';
             position: absolute;
             left: 0;
             color: #00bcf2;
@@ -1615,7 +1615,7 @@
             <div class="header-controls">
                 <div class="lang-switch">
                     <button id="btn-pt" class="active" onclick="setLang('pt')">PT-BR</button>
-                    <button id="btn-fr" onclick="setLang('fr')">FRANÃ‡AIS</button>
+                    <button id="btn-fr" onclick="setLang('fr')">FRANÇAIS</button>
                 </div>
                 <button class="btn-header" onclick="window.print()">
                     <i class="fas fa-file-pdf"></i> <span id="t-export-pdf">Exportar PDF</span>
@@ -1658,7 +1658,7 @@
     <!-- Mobile FAB to open sidebar -->
     <button class="mob-sidebar-btn" id="mobSidebarBtn" onclick="toggleSidebar()">
         <i class="fas fa-users"></i>
-        <span id="t-usersBtn">USUÃRIOS</span>
+        <span id="t-usersBtn">USUÁRIOS</span>
     </button>
 
     <!-- Floating Simulation Nav -->
@@ -1698,30 +1698,30 @@
         // Global Data Cleaning
         function fixEnc(s) {
             if (!s) return "";
-            return s.replace(/ÃƒÂ§/g, 'Ã§').replace(/Ã£/g, 'Ã£').replace(/Ã©/g, 'Ã©').replace(/Ãª/g, 'Ãª').replace(/Ã³/g, 'Ã³').replace(/Ã¡/g, 'Ã¡').replace(/Ã­/g, 'Ã­').replace(/Ã /g, 'Ã ');
+            return s.replace(/ç/g, 'ç').replace(/ã/g, 'ã').replace(/é/g, 'é').replace(/ê/g, 'ê').replace(/ó/g, 'ó').replace(/á/g, 'á').replace(/í/g, 'í').replace(/à/g, 'à');
         }
 
         function translateScenario(sc) {
             if (!sc) return "";
             if (sc === "PROSPECT_FRIO") {
                 return currentLang === 'pt' 
-                    ? "ðŸ“ž PROSPECÃ‡ÃƒO â€“ Transformar um prospect frio em uma reuniÃ£o qualificada" 
-                    : "ðŸ“ž PROSPECTION â€“ Transformer un prospect froid en rendez-vous qualifiÃ©";
+                    ? "ðŸ“ž PROSPECÇÃO “ Transformar um prospect frio em uma reunião qualificada" 
+                    : "ðŸ“ž PROSPECTION “ Transformer un prospect froid en rendez-vous qualifié";
             }
             if (sc === "ENVIE_DOCUMENT") {
                 return currentLang === 'pt' 
-                    ? "ðŸ“„ PROSPECÃ‡ÃƒO â€“ Transformar o pedido 'Envie-me um documento' em agendamento de reuniÃ£o" 
-                    : "ðŸ“„ PROSPECTION â€“ Transformer la demande 'Envoyez-moi un document' en prise de rendez-vous";
+                    ? "ðŸ“„ PROSPECÇÃO “ Transformar o pedido 'Envie-me um documento' em agendamento de reunião" 
+                    : "ðŸ“„ PROSPECTION “ Transformer la demande 'Envoyez-moi un document' en prise de rendez-vous";
             }
             if (sc === "COBERTURA_DECES") {
                 return currentLang === 'pt' 
-                    ? "ðŸ›¡ï¸ ARGUMENTAÃ‡ÃƒO â€“ Convencer um prospect da pertinÃªncia de uma cobertura de vida/sucessÃ£o" 
-                    : "ðŸ›¡ï¸ ARGUMENTAIRE â€“ Convaincre un prospect de la pertinence d'une couverture dÃ©cÃ¨s MetLife";
+                    ? "ðŸ›¡️ ARGUMENTAÇÃO “ Convencer um prospect da pertinência de uma cobertura de vida/sucessão" 
+                    : "ðŸ›¡️ ARGUMENTAIRE “ Convaincre un prospect de la pertinence d'une couverture décès MetLife";
             }
             if (sc === "RECOMENDACOES") {
                 return currentLang === 'pt' 
-                    ? "ðŸ¤ FIDELIZAÃ‡ÃƒO â€“ Ativar recomendaÃ§Ãµes apÃ³s uma venda bem-sucedida" 
-                    : "ðŸ¤ FIDÃ‰LISATION â€“ Activer les recommandations aprÃ¨s une vente rÃ©ussie";
+                    ? "ðŸ¤ FIDELIZAÇÃO “ Ativar recomendações após uma venda bem-sucedida" 
+                    : "ðŸ¤ FIDÉLISATION “ Activer les recommandations après une vente réussie";
             }
             return sc;
         }
@@ -1757,14 +1757,14 @@
             });
         }
 
-        const excludedNames = ['philippe lepeuple', 'philippe de langlais', 'sophie geraud', 'sophie gÃ©raud', 'tabajara dias', 'rhapsody', 'teste'];
+        const excludedNames = ['philippe lepeuple', 'philippe de langlais', 'sophie geraud', 'sophie géraud', 'tabajara dias', 'rhapsody', 'teste'];
 
         // Helper para limpar nomes
         const cleanName = n => n ? fixEnc(n).trim().toLowerCase() : "";
 
         let currentLang = 'pt';
-        let chart = null; // InstÃ¢ncia do grÃ¡fico individual
-        let gTrendChart = null; // InstÃ¢ncia do grÃ¡fico global de tendÃªncia
+        let chart = null; // Instância do gráfico individual
+        let gTrendChart = null; // Instância do gráfico global de tendência
         let currentSimIndex = 0;
         let currentFilterUser = null;
         var currentFilterArea = null;
@@ -1778,171 +1778,171 @@
                 menuDashboard: "Dashboard",
                 menuReport: "Resumo",
                 export: "Exportar Excel",
-                sessions: "SimulaÃ§Ãµes",
+                sessions: "Simulações",
                 avgScore: "Score Geral",
-                lqa: "AderÃªncia ao Metbook",
-                avgTimePerRun: "MÃ©dia de Tempo de SimulaÃ§Ãµes",
-                time: "MÃ©dia de Tempo de SimulaÃ§Ãµes",
-                behavior: "Resumo Comportamental TÃ©cnico",
-                skills: "Matriz de CompetÃªncias",
+                lqa: "Aderência ao Metbook",
+                avgTimePerRun: "Média de Tempo de Simulações",
+                time: "Média de Tempo de Simulações",
+                behavior: "Resumo Comportamental Técnico",
+                skills: "Matriz de Competências",
                 dates: "Datas Ativas",
-                trend: "EvoluÃ§Ã£o HistÃ³rica",
-                teamStats: "Resumo Geral da OperaÃ§Ã£o",
-                topPerformers: "Destaques TÃ©cnicos",
-                avgTeamScore: "MÃ©dia do Time",
+                trend: "Evolução Histórica",
+                teamStats: "Resumo Geral da Operação",
+                topPerformers: "Destaques Técnicos",
+                avgTeamScore: "Média do Time",
                 totalMinutes: "Minutos Totais",
                 totalHours: "Horas Totais",
-                areaAtuacao: "Ãrea de AtuaÃ§Ã£o",
+                areaAtuacao: "Área de Atuação",
                 distinctScenarios: "Uses Cases",
                 useCase: "Uses Case",
-                simulationsList: "HistÃ³rico de SimulaÃ§Ãµes",
-                colNumber: "SimulaÃ§Ã£o",
+                simulationsList: "Histórico de Simulações",
+                colNumber: "Simulação",
                 colUser: "Colaborador",
                 colDate: "Data",
                 colScore: "Score",
-                colDuration: "DuraÃ§Ã£o",
+                colDuration: "Duração",
                 collaborators: "Colaboradores",
                 search: "Buscar...",
-                areaAtuacaoLabel: "Ãrea de AtuaÃ§Ã£o:",
-                allAreas: "Todas as Ãreas",
+                areaAtuacaoLabel: "Área de Atuação:",
+                allAreas: "Todas as Áreas",
                 allCases: "Todos os Cases",
                 vsTime: "vs time",
-                noCompData: "Sem dados de comparaÃ§Ã£o",
-                teamAvg: "MÃ©dia do Time",
-                areaRecepcionista: "ProspecÃ§Ã£o",
-                areaConcierge: "ArgumentaÃ§Ã£o de Venda",
-                areaGuestAttendant: "FidelizaÃ§Ã£o & RecomendaÃ§Ãµes",
+                noCompData: "Sem dados de comparação",
+                teamAvg: "Média do Time",
+                areaRecepcionista: "Prospecção",
+                areaConcierge: "Argumentação de Venda",
+                areaGuestAttendant: "Fidelização & Recomendações",
                 areaOutros: "Outros",
-                usersBtn: "USUÃRIOS",
+                usersBtn: "USUÁRIOS",
                 closeBtn: "FECHAR",
                 contextLabel: "Contexto:",
-                noFeedback: "Sem feedback detalhado disponÃ­vel",
+                noFeedback: "Sem feedback detalhado disponível",
                 rankingLabel: "Ranking",
                 ofTotal: "de",
-                globalMetrics: "MÃ©tricas Globais da",
-                operation: "OperaÃ§Ã£o",
-                execVision: "VisÃ£o executiva da performance tÃ©cnica e taxa de transformaÃ§Ã£o comercial de todo o time MetLife.",
-                defScoreGeral: "MÃ©dia ponderada de todas as competÃªncias tÃ©cnicas avaliadas pela rhapsody IA em cada interaÃ§Ã£o.",
-                defLqa: "NÃ­vel de conformidade com as diretrizes e padrÃµes de atendimento estabelecidos no Metbook da MetLife (obtenÃ§Ã£o de reuniÃ£o/agendamento).",
-                topUseCases: "CenÃ¡rios mais Utilizados",
+                globalMetrics: "Métricas Globais da",
+                operation: "Operação",
+                execVision: "Visão executiva da performance técnica e taxa de transformação comercial de todo o time MetLife.",
+                defScoreGeral: "Média ponderada de todas as competências técnicas avaliadas pela rhapsody IA em cada interação.",
+                defLqa: "Nível de conformidade com as diretrizes e padrões de atendimento estabelecidos no Metbook da MetLife (obtenção de reunião/agendamento).",
+                topUseCases: "Cenários mais Utilizados",
                 usageBy: "Uso por Colaborador",
-                periodLabel: "PerÃ­odo Analisado:",
-                perfDistribution: "DistribuiÃ§Ã£o de Performance",
+                periodLabel: "Período Analisado:",
+                perfDistribution: "Distribuição de Performance",
                 generalAvg: "SCORE GERAL",
                 lqaPattern: "METBOOK",
                 performanceOf: "Performance de",
-                behaviorAnalysis: "AnÃ¡lise comportamental baseada em",
-                simulationsDone: "simulaÃ§Ãµes realizadas com a rhapsody IA.",
+                behaviorAnalysis: "Análise comportamental baseada em",
+                simulationsDone: "simulações realizadas com a rhapsody IA.",
                 languagesLabel: "Idiomas",
-                lastSimulation: "Ãšltima SimulaÃ§Ã£o",
+                lastSimulation: "Última Simulação",
                 back: "Voltar",
-                simDetails: "Detalhes da SimulaÃ§Ã£o",
+                simDetails: "Detalhes da Simulação",
                 aiFeedback: "Feedback da IA",
-                realTimeSession: "SessÃ£o em Tempo Real",
+                realTimeSession: "Sessão em Tempo Real",
                 toneOfVoice: "Tom de Voz",
                 sentiment: "Sentimento Predominante",
-                sessionPerf: "Performance da SessÃ£o",
-                filterByUser: "Filtrar por UsuÃ¡rio",
-                allUsers: "Todos os UsuÃ¡rios",
-                waitingData: "Aguardando dados histÃ³ricos...",
+                sessionPerf: "Performance da Sessão",
+                filterByUser: "Filtrar por Usuário",
+                allUsers: "Todos os Usuários",
+                waitingData: "Aguardando dados históricos...",
                 generalBtn: "Geral",
-                transcriptTitle: "TranscriÃ§Ã£o da SimulaÃ§Ã£o",
-                noTranscript: "Nenhuma transcriÃ§Ã£o disponÃ­vel para esta simulaÃ§Ã£o.",
+                transcriptTitle: "Transcrição da Simulação",
+                noTranscript: "Nenhuma transcrição disponível para esta simulação.",
                 statusLabel: "Status dos Runs:",
                 statusAll: "Todos",
                 statusFinished: "Finalizados",
-                statusUnfinished: "NÃ£o Finalizados",
+                statusUnfinished: "Não Finalizados",
                 skillNames: {
                     Escuta: "Escuta Ativa",
-                    Empatia: "QualificaÃ§Ã£o RÃ¡pida",
-                    Crises: "Lidar com ObjeÃ§Ãµes",
+                    Empatia: "Qualificação Rápida",
+                    Crises: "Lidar com Objeções",
                     Padroes: "Assertividade",
                     Personalizacao: "Postura Consultiva"
                 }
             },
             fr: {
                 menuDashboard: "Dashboard",
-                menuReport: "RÃ©sumÃ©",
+                menuReport: "Résumé",
                 export: "Exporter Excel",
                 sessions: "Simulations",
                 avgScore: "Score Global",
-                lqa: "ConformitÃ© Metbook",
+                lqa: "Conformité Metbook",
                 avgTimePerRun: "Temps Moyen des Simulations",
                 time: "Temps Moyen des Simulations",
-                behavior: "RÃ©sumÃ© Comportemental Technique",
-                skills: "Matrice de CompÃ©tences",
+                behavior: "Résumé Comportemental Technique",
+                skills: "Matrice de Compétences",
                 dates: "Dates Actives",
-                trend: "Ã‰volution Historique",
-                teamStats: "RÃ©sumÃ© GÃ©nÃ©ral de l'OpÃ©ration",
+                trend: "Évolution Historique",
+                teamStats: "Résumé Général de l'Opération",
                 topPerformers: "Points Forts Techniques",
-                avgTeamScore: "Moyenne Ã‰quipe",
+                avgTeamScore: "Moyenne Équipe",
                 totalMinutes: "Minutes Totales",
                 totalHours: "Heures Totales",
-                distinctScenarios: "ScÃ©narios Distincts",
-                useCase: "ScÃ©nario",
+                distinctScenarios: "Scénarios Distincts",
+                useCase: "Scénario",
                 simulationsList: "Historique des Simulations",
                 colNumber: "Simulation",
                 colUser: "Collaborateur",
                 colDate: "Date",
                 colScore: "Score",
-                colDuration: "DurÃ©e",
+                colDuration: "Durée",
                 collaborators: "Collaborateurs",
                 search: "Rechercher...",
-                globalMetrics: "MÃ©triques Globales de",
-                operation: "l'OpÃ©ration",
-                execVision: "Vision exÃ©cutive des performances techniques et du taux de transformation commerciale de toute l'Ã©quipe MetLife.",
+                globalMetrics: "Métriques Globales de",
+                operation: "l'Opération",
+                execVision: "Vision exécutive des performances techniques et du taux de transformation commerciale de toute l'équipe MetLife.",
                 perfDistribution: "Distribution des Performances",
-                generalAvg: "MOYENNE GÃ‰NÃ‰RALE",
+                generalAvg: "MOYENNE GÉNÉRALE",
                 lqaPattern: "METBOOK",
                 performanceOf: "Performance de",
-                behaviorAnalysis: "Analyse comportementale basÃ©e sur",
-                simulationsDone: "simulations rÃ©alisÃ©es avec rhapsody IA.",
+                behaviorAnalysis: "Analyse comportementale basée sur",
+                simulationsDone: "simulations réalisées avec rhapsody IA.",
                 languagesLabel: "Langues",
                 back: "Retour",
-                simDetails: "DÃ©tails de la Simulation",
-                lastSimulation: "DerniÃ¨re Simulation",
+                simDetails: "Détails de la Simulation",
+                lastSimulation: "Dernière Simulation",
                 aiFeedback: "Retour de l'IA",
-                realTimeSession: "Session en Temps RÃ©el",
+                realTimeSession: "Session en Temps Réel",
                 toneOfVoice: "Ton de la Voix",
-                sentiment: "Sentiment PrÃ©dominant",
+                sentiment: "Sentiment Prédominant",
                 sessionPerf: "Performance de la Session",
                 filterByUser: "Filtrar par Utilisateur",
                 allUsers: "Tous les Utilisateurs",
-                waitingData: "En attente de donnÃ©es historiques...",
-                generalBtn: "GÃ©nÃ©ral",
-                areaAtuacao: "Domaine d'ActivitÃ©",
-                areaAtuacaoLabel: "Domaine d'ActivitÃ©:",
+                waitingData: "En attente de données historiques...",
+                generalBtn: "Général",
+                areaAtuacao: "Domaine d'Activité",
+                areaAtuacaoLabel: "Domaine d'Activité:",
                 allAreas: "Tous les Domaines",
-                allCases: "Tous les ScÃ©narios",
-                vsTime: "vs Ã©quipe",
-                noCompData: "Pas de donnÃ©es de comparaison",
-                teamAvg: "Moyenne Ã‰quipe",
+                allCases: "Tous les Scénarios",
+                vsTime: "vs équipe",
+                noCompData: "Pas de données de comparaison",
+                teamAvg: "Moyenne Équipe",
                 areaRecepcionista: "Prospection",
-                areaConcierge: "ArgumentaÃ§Ã£o de Venda",
-                areaGuestAttendant: "FidelizaÃ§Ã£o & RecomendaÃ§Ãµes",
+                areaConcierge: "Argumentação de Venda",
+                areaGuestAttendant: "Fidelização & Recomendações",
                 areaOutros: "Autres",
                 usersBtn: "UTILISATEURS",
                 closeBtn: "FERMER",
                 contextLabel: "Contexte:",
-                noFeedback: "Aucun feedback dÃ©taillÃ© disponible",
+                noFeedback: "Aucun feedback détaillé disponible",
                 rankingLabel: "Classement",
                 ofTotal: "sur",
-                defScoreGeral: "Moyenne pondÃ©rÃ©e de toutes les compÃ©tences techniques Ã©valuÃ©es par rhapsody IA Ã  chaque interaction.",
-                defLqa: "Niveau de conformitÃ© avec les directives et standards de prospection du Metbook MetLife.",
-                topUseCases: "ScÃ©narios les plus UtilisÃ©s",
+                defScoreGeral: "Moyenne pondérée de toutes les compétences techniques évaluées par rhapsody IA à chaque interaction.",
+                defLqa: "Niveau de conformité avec les directives et standards de prospection du Metbook MetLife.",
+                topUseCases: "Scénarios les plus Utilisés",
                 usageBy: "Utilisation par Collaborateur",
-                periodLabel: "PÃ©riode AnalysÃ©e:",
+                periodLabel: "Période Analysée:",
                 transcriptTitle: "Transcription de la Simulation",
                 noTranscript: "Aucune transcription disponible pour cette simulation.",
                 statusLabel: "Statut des Runs:",
                 statusAll: "Tous",
-                statusFinished: "FinalisÃ©s",
-                statusUnfinished: "Non FinalisÃ©s",
+                statusFinished: "Finalisés",
+                statusUnfinished: "Non Finalisés",
                 skillNames: {
-                    Escuta: "Ã‰coute Active",
+                    Escuta: "Écoute Active",
                     Empatia: "Qualification Rapide",
                     Crises: "Gestion des Objections",
-                    Padroes: "AssertivitÃ©",
+                    Padroes: "Assertivité",
                     Personalizacao: "Posture Consultative"
                 }
             }
@@ -1967,36 +1967,36 @@
             else showGlobalStats();
         }
 
-        // â”€â”€ Helper: CorreÃ§Ã£o de Acentos e Encoding â”€â”€
+        // â”€â”€ Helper: Correção de Acentos e Encoding â”€â”€
         function fixEnc(s) {
             if (!s) return "";
-            return s.replace(/Ã©/g, 'Ã©').replace(/Ã¡/g, 'Ã¡').replace(/Ã³/g, 'Ã³').replace(/Ãª/g, 'Ãª')
-                .replace(/ÃƒÂ§/g, 'Ã§').replace(/Ã£/g, 'Ã£').replace(/Ãƒ /g, 'Ã ').replace(/Ã­/g, 'Ã­')
-                .replace(/â€“/g, 'â€“').replace(/Ã‰/g, 'Ã‰').replace(/Ãƒ /g, 'Ã');
+            return s.replace(/é/g, 'é').replace(/á/g, 'á').replace(/ó/g, 'ó').replace(/ê/g, 'ê')
+                .replace(/ç/g, 'ç').replace(/ã/g, 'ã').replace(/Ã /g, 'à').replace(/í/g, 'í')
+                .replace(/“/g, '“').replace(/É/g, 'É').replace(/Ã /g, 'Á');
         }
 
-        // â”€â”€ Helper: TraduÃ§Ã£o de CenÃ¡rios â”€â”€
+        // â”€â”€ Helper: Tradução de Cenários â”€â”€
         function translateScenario(sc) {
             if (!sc) return "";
             if (sc === "PROSPECT_FRIO") {
                 return currentLang === 'pt' 
-                    ? "ðŸ“ž PROSPECÃ‡ÃƒO â€“ Transformar um prospect frio em uma reuniÃ£o qualificada" 
-                    : "ðŸ“ž PROSPECTION â€“ Transformer un prospect froid en rendez-vous qualifiÃ©";
+                    ? "ðŸ“ž PROSPECÇÃO “ Transformar um prospect frio em uma reunião qualificada" 
+                    : "ðŸ“ž PROSPECTION “ Transformer un prospect froid en rendez-vous qualifié";
             }
             if (sc === "ENVIE_DOCUMENT") {
                 return currentLang === 'pt' 
-                    ? "ðŸ“„ PROSPECÃ‡ÃƒO â€“ Transformar o pedido 'Envie-me um documento' em agendamento de reuniÃ£o" 
-                    : "ðŸ“„ PROSPECTION â€“ Transformer la demande 'Envoyez-moi un document' en prise de rendez-vous";
+                    ? "ðŸ“„ PROSPECÇÃO “ Transformar o pedido 'Envie-me um documento' em agendamento de reunião" 
+                    : "ðŸ“„ PROSPECTION “ Transformer la demande 'Envoyez-moi un document' en prise de rendez-vous";
             }
             if (sc === "COBERTURA_DECES") {
                 return currentLang === 'pt' 
-                    ? "ðŸ›¡ï¸ ARGUMENTAÃ‡ÃƒO â€“ Convencer um prospect da pertinÃªncia de uma cobertura de vida/sucessÃ£o" 
-                    : "ðŸ›¡ï¸ ARGUMENTAIRE â€“ Convaincre un prospect de la pertinence d'une couverture dÃ©cÃ¨s MetLife";
+                    ? "ðŸ›¡️ ARGUMENTAÇÃO “ Convencer um prospect da pertinência de uma cobertura de vida/sucessão" 
+                    : "ðŸ›¡️ ARGUMENTAIRE “ Convaincre un prospect de la pertinence d'une couverture décès MetLife";
             }
             if (sc === "RECOMENDACOES") {
                 return currentLang === 'pt' 
-                    ? "ðŸ¤ FIDELIZAÃ‡ÃƒO â€“ Ativar recomendaÃ§Ãµes apÃ³s uma venda bem-sucedida" 
-                    : "ðŸ¤ FIDÃ‰LISATION â€“ Activer les recommandations aprÃ¨s une vente rÃ©ussie";
+                    ? "ðŸ¤ FIDELIZAÇÃO “ Ativar recomendações após uma venda bem-sucedida" 
+                    : "ðŸ¤ FIDÉLISATION “ Activer les recommandations après une vente réussie";
             }
             return sc;
         }
@@ -2042,9 +2042,9 @@
             });
         }
 
-        // â”€â”€ InteligÃªncia de Dados (PÃ³s-Carregamento) â”€â”€
+        // â”€â”€ Inteligência de Dados (Pós-Carregamento) â”€â”€
 
-        // Primeiro, filtramos as simulaÃ§Ãµes vÃ¡lidas globalmente
+        // Primeiro, filtramos as simulações válidas globalmente
         const VALID_SIMS = RAW_SIMULATIONS.filter(s => {
             const name = cleanName(s.name);
             const isInternal = excludedNames.some(ex => name.includes(ex));
@@ -2052,7 +2052,7 @@
             return minInteractions && !isInternal;
         });
 
-        // Agora derivamos os usuÃ¡rios ativos APENAS de simulaÃ§Ãµes vÃ¡lidas
+        // Agora derivamos os usuários ativos APENAS de simulações válidas
                 const activeUsers = [...new Set(VALID_SIMS.map(s => s.name))].map(name => {
             const userSims = VALID_SIMS.filter(s => s.name === name);
             const userFinishedSims = userSims.filter(s => s.finished);
@@ -2219,9 +2219,9 @@
                 simSkills[k] = Math.min(100, Math.max(20, Math.round(user.skills[k] * ratio + (Math.random() * 8 - 4))));
             });
 
-            const tones = ["Profissional", "EmpÃ¡tico", "Proativo", "Calmo", "DiplomÃ¡tico"];
+            const tones = ["Profissional", "Empático", "Proativo", "Calmo", "Diplomático"];
             const simTone = sim.finished ? tones[localIndex % tones.length] : "N/A";
-            const simSent = !sim.finished ? "N/A" : (sim.score >= 75 ? "Positivo" : (sim.score >= 55 ? "Neutro" : "AtenÃ§Ã£o"));
+            const simSent = !sim.finished ? "N/A" : (sim.score >= 75 ? "Positivo" : (sim.score >= 55 ? "Neutro" : "Atenção"));
             const sentClass = !sim.finished ? "sent-neu" : (sim.score >= 75 ? "sent-pos" : "sent-neu");
 
             // Show floater
@@ -2265,7 +2265,7 @@
                             <h1 style="font-size: 2.5rem;">${ui[currentLang].simDetails} <span>#${localIndex + 1}</span></h1>
                         </div>
                         <div class="header-content-right">
-                            <p class="header-desc" style="font-size: 1rem;">${sim.name} â€¢ ${sim.date} â€¢ <strong>${translateScenario(sim.scenario)}</strong></p>
+                            <p class="header-desc" style="font-size: 1rem;">${sim.name} ”¢ ${sim.date} ”¢ <strong>${translateScenario(sim.scenario)}</strong></p>
                         </div>
                     </header>
 
@@ -2305,20 +2305,20 @@
                     const allInsights = user.insights[currentLang] || [];
                     const scenarioContext = {
                         "PROSPECT_FRIO": {
-                            pt: "Foco em contorno de objeÃ§Ãµes iniciais, postura consultiva e escolha forÃ§ada de horÃ¡rios.",
-                            fr: "Focus sur le traitement des objections initiales, posture consultative et choix forcÃ©."
+                            pt: "Foco em contorno de objeções iniciais, postura consultiva e escolha forçada de horários.",
+                            fr: "Focus sur le traitement des objections initiales, posture consultative et choix forcé."
                         },
                         "ENVIE_DOCUMENT": {
-                            pt: "Foco em identificar a real necessidade por trÃ¡s do pedido de documento e reter controle.",
-                            fr: "Focus sur l'identification du besoin rÃ©el derriÃ¨re la demande de document."
+                            pt: "Foco em identificar a real necessidade por trás do pedido de documento e reter controle.",
+                            fr: "Focus sur l'identification du besoin réel derrière la demande de document."
                         },
                         "COBERTURA_DECES": {
-                            pt: "Foco em empatia, abordagem Ã©tica de temas delicados e sensibilizaÃ§Ã£o sobre proteÃ§Ã£o familiar.",
-                            fr: "Focus sur l'empathie, l'approche Ã©thique de sujets dÃ©licats et la sensibilisation."
+                            pt: "Foco em empatia, abordagem ética de temas delicados e sensibilização sobre proteção familiar.",
+                            fr: "Focus sur l'empathie, l'approche éthique de sujets délicats et la sensibilisation."
                         },
                         "RECOMENDACOES": {
-                            pt: "Foco em aproveitar a satisfaÃ§Ã£o pÃ³s-venda para obter indicaÃ§Ãµes de forma natural.",
-                            fr: "Focus sur l'obtention de recommandations qualifiÃ©es de maniÃ¨re naturelle."
+                            pt: "Foco em aproveitar a satisfação pós-venda para obter indicações de forma natural.",
+                            fr: "Focus sur l'obtention de recommandations qualifiées de manière naturelle."
                         }
                     };;
 
@@ -2358,8 +2358,8 @@
                     </div>
                     
                     ${(() => {
-                        const transcriptTitle = ui[currentLang].transcriptTitle || 'TranscriÃ§Ã£o da SimulaÃ§Ã£o';
-                        const noTranscriptText = ui[currentLang].noTranscript || 'Nenhuma transcriÃ§Ã£o disponÃ­vel para esta simulaÃ§Ã£o.';
+                        const transcriptTitle = ui[currentLang].transcriptTitle || 'Transcrição da Simulação';
+                        const noTranscriptText = ui[currentLang].noTranscript || 'Nenhuma transcrição disponível para esta simulação.';
                         
                         if (sim.messages && sim.messages.length > 0) {
                             return `
@@ -2371,7 +2371,7 @@
                                         ${sim.messages.map(msg => {
                                             const isHuman = msg.role === 'HUMAN';
                                             const bubbleClass = isHuman ? 'human' : 'ai';
-                                            const label = isHuman ? (currentLang === 'pt' ? 'VocÃª' : 'Vous') : 'rhapsody';
+                                            const label = isHuman ? (currentLang === 'pt' ? 'Você' : 'Vous') : 'rhapsody';
                                             const icon = isHuman ? '<i class="fas fa-user"></i>' : '<i class="fas fa-robot"></i>';
                                             return `
                                                 <div class="transcript-bubble ${bubbleClass}">
@@ -2427,7 +2427,7 @@
             window.activeUser = null;
             renderUserList();
 
-            // Filtragem DinÃ¢mica por Contexto (Ãrea, Use Case e Status)
+            // Filtragem Dinâmica por Contexto (Área, Use Case e Status)
             let filteredSims = VALID_SIMS;
 
             if (currentFilterArea) {
@@ -2456,7 +2456,7 @@
 
             const totalSessions = filteredSims.length;
 
-            // MÃ©dias baseadas nos usuÃ¡rios que participaram das simulaÃ§Ãµes filtradas
+            // Médias baseadas nos usuários que participaram das simulações filtradas
             const usersInFilter = [...new Set(filteredSims.map(s => s.name))];
             const activeInFilter = activeUsers.filter(u => usersInFilter.some(n => cleanName(n) === cleanName(u.name)));
             const activeCount = activeInFilter.length || 1;
@@ -2472,7 +2472,7 @@
             const totalAreas = new Set(filteredSims.map(s => getArea(s.scenario))).size;
             const totalUseCases = new Set(filteredSims.map(s => s.scenario)).size;
 
-            // CÃ¡lculo do PerÃ­odo DinÃ¢mico
+            // Cálculo do Período Dinâmico
             const allDates = filteredSims.map(s => {
                 const [d, m, y] = s.date.split('/');
                 return new Date(y, m - 1, d);
@@ -2566,20 +2566,20 @@
                     </div>
 
                     <div style="display: flex; align-items: center; gap: 10px;">
-                        <span style="font-size: 0.75rem; font-weight: 800; color: var(--text-muted); text-transform: uppercase; letter-spacing: 0.05em;">AgÃªncia:</span>
+                        <span style="font-size: 0.75rem; font-weight: 800; color: var(--text-muted); text-transform: uppercase; letter-spacing: 0.05em;">Agência:</span>
                         <div class="custom-dropdown" id="agencyDropdown" style="min-width: 180px;">
                             <div class="dropdown-trigger" onclick="toggleDropdown('agencyDropdown', 'agencyArrow')">
                                 <div style="display: flex; align-items: center; gap: 12px;">
                                     <i class="fas fa-building" style="font-size: 0.8rem; opacity: 0.6;"></i>
                                     <span id="selectedAgencyLabel">
-                                        ${currentFilterAgency ? currentFilterAgency : (currentLang === 'pt' ? 'Todas as AgÃªncias' : 'Toutes les Agences')}
+                                        ${currentFilterAgency ? currentFilterAgency : (currentLang === 'pt' ? 'Todas as Agências' : 'Toutes les Agences')}
                                     </span>
                                 </div>
                                 <i class="fas fa-chevron-down" style="font-size: 0.7rem; transition: transform 0.3s ease;" id="agencyArrow"></i>
                             </div>
                             <div class="dropdown-menu">
                                 <div class="dropdown-item ${!currentFilterAgency ? 'selected' : ''}" onclick="setAgencyFilter('all')">
-                                    <i class="fas fa-th-large"></i> ${currentLang === 'pt' ? 'Todas as AgÃªncias' : 'Toutes les Agences'}
+                                    <i class="fas fa-th-large"></i> ${currentLang === 'pt' ? 'Todas as Agências' : 'Toutes les Agences'}
                                 </div>
                                 ${[...new Set(activeUsers.map(u => u.agency).filter(Boolean))].sort().map(ag => `
                                     <div class="dropdown-item ${currentFilterAgency === ag ? 'selected' : ''}" onclick="setAgencyFilter('${ag}')">
@@ -2591,20 +2591,20 @@
                     </div>
 
                     <div style="display: flex; align-items: center; gap: 10px;">
-                        <span style="font-size: 0.75rem; font-weight: 800; color: var(--text-muted); text-transform: uppercase; letter-spacing: 0.05em;">RegiÃ£o:</span>
+                        <span style="font-size: 0.75rem; font-weight: 800; color: var(--text-muted); text-transform: uppercase; letter-spacing: 0.05em;">Região:</span>
                         <div class="custom-dropdown" id="regionDropdown" style="min-width: 180px;">
                             <div class="dropdown-trigger" onclick="toggleDropdown('regionDropdown', 'regionArrow')">
                                 <div style="display: flex; align-items: center; gap: 12px;">
                                     <i class="fas fa-map-marker-alt" style="font-size: 0.8rem; opacity: 0.6;"></i>
                                     <span id="selectedRegionLabel">
-                                        ${currentFilterRegion ? currentFilterRegion : (currentLang === 'pt' ? 'Todas as RegiÃµes' : 'Toutes les RÃ©gions')}
+                                        ${currentFilterRegion ? currentFilterRegion : (currentLang === 'pt' ? 'Todas as Regiões' : 'Toutes les Régions')}
                                     </span>
                                 </div>
                                 <i class="fas fa-chevron-down" style="font-size: 0.7rem; transition: transform 0.3s ease;" id="regionArrow"></i>
                             </div>
                             <div class="dropdown-menu">
                                 <div class="dropdown-item ${!currentFilterRegion ? 'selected' : ''}" onclick="setRegionFilter('all')">
-                                    <i class="fas fa-th-large"></i> ${currentLang === 'pt' ? 'Todas as RegiÃµes' : 'Toutes les RÃ©gions'}
+                                    <i class="fas fa-th-large"></i> ${currentLang === 'pt' ? 'Todas as Regiões' : 'Toutes les Régions'}
                                 </div>
                                 ${[...new Set(activeUsers.map(u => u.region).filter(Boolean))].sort().map(rg => `
                                     <div class="dropdown-item ${currentFilterRegion === rg ? 'selected' : ''}" onclick="setRegionFilter('${rg}')">
@@ -2710,7 +2710,7 @@
 
             const topList = document.getElementById('topList');
             top5.forEach((u, idx) => {
-                topList.innerHTML += `<div class="perf-item"><span>${idx + 1}Âº ${u.name}</span><strong>${u.avgScore}%</strong></div>`;
+                topList.innerHTML += `<div class="perf-item"><span>${idx + 1}º ${u.name}</span><strong>${u.avgScore}%</strong></div>`;
             });
 
             const chartValBox = document.getElementById('chartValue');
@@ -2733,7 +2733,7 @@
 
             const sourceSims = filteredSimsOverride || VALID_SIMS;
 
-            // Agrupar mÃ©dias por data
+            // Agrupar médias por data
             const dateMap = {};
             sourceSims.forEach(s => {
                 if (!dateMap[s.date]) dateMap[s.date] = { sum: 0, count: 0 };
@@ -2753,7 +2753,7 @@
                 data: {
                     labels: labels,
                     datasets: [{
-                        label: 'MÃ©dia Global',
+                        label: 'Média Global',
                         data: data,
                         backgroundColor: '#00bcf2',
                         borderRadius: 6,
@@ -2880,7 +2880,7 @@
                             <h1>${ui[currentLang].performanceOf} <span>${user.name}</span></h1>
                         </div>
                         <div class="header-content-right">
-                            <p class="header-desc"><strong>${user.agency}</strong> &nbsp;Â·&nbsp; <strong>${user.region}</strong> &nbsp;Â·&nbsp; ${ui[currentLang].behaviorAnalysis} ${user.count} ${ui[currentLang].simulationsDone}</p>
+                            <p class="header-desc"><strong>${user.agency}</strong> &nbsp;·&nbsp; <strong>${user.region}</strong> &nbsp;·&nbsp; ${ui[currentLang].behaviorAnalysis} ${user.count} ${ui[currentLang].simulationsDone}</p>
                         </div>
                     </header>
 
@@ -2944,7 +2944,7 @@
 
                         <div class="stat-card-big">
                             <div class="trend-indicator up" style="background: var(--primary-light); color: var(--primary); margin-bottom: 10px;">
-                                <i class="fas fa-crown"></i> ${ui[currentLang].rankingLabel}: ${timeRank}Âº
+                                <i class="fas fa-crown"></i> ${ui[currentLang].rankingLabel}: ${timeRank}º
                             </div>
                             <span class="val" style="font-size: 1.5rem; margin-top: 10px;">${fmtTime(userAvgSeconds)}</span>
                             <span class="lab">${ui[currentLang].time}</span>
@@ -2954,7 +2954,7 @@
 
                         <div class="stat-card-big">
                             <div class="trend-indicator up" style="background: var(--primary-light); color: var(--primary); margin-bottom: 10px;">
-                                <i class="fas fa-crown"></i> ${ui[currentLang].rankingLabel}: ${dateRank}Âº
+                                <i class="fas fa-crown"></i> ${ui[currentLang].rankingLabel}: ${dateRank}º
                             </div>
                             <span class="val" style="font-size: 1.1rem; margin-top: 12px; color: var(--text-muted);">${
                                 (() => {
@@ -3022,7 +3022,7 @@
                 });
             }
 
-            // Matriz de CompetÃªncias
+            // Matriz de Competências
             const skillsDiv = document.getElementById('u-skills');
             if (skillsDiv) {
                 skillsDiv.innerHTML = ''; // Limpa antes de renderizar
@@ -3063,7 +3063,7 @@
             const ctx = canvas.getContext('2d');
             if (chart) chart.destroy();
 
-            // Pegar dados reais das simulaÃ§Ãµes vÃ¡lidas do usuÃ¡rio
+            // Pegar dados reais das simulações válidas do usuário
             const userHistory = VALID_SIMS.filter(s => cleanName(s.name) === cleanName(user.name))
                 .sort((a, b) => {
                     const [d1, m1, y1] = a.date.split('/');
@@ -3107,7 +3107,7 @@
         }
 
                 function exportCSV() {
-            let csv = 'Nome;Rank;Engajamento;Score Geral;Aderencia ao Metbook;Tempo Medio;Simulacoes;Ultima Sessao;Escuta Ativa;Postura Consultiva;Qualificacao Rapida;Lidar com ObjeÃ§oes;Assertividade\n';
+            let csv = 'Nome;Rank;Engajamento;Score Geral;Aderencia ao Metbook;Tempo Medio;Simulacoes;Ultima Sessao;Escuta Ativa;Postura Consultiva;Qualificacao Rapida;Lidar com Objeçoes;Assertividade\n';
             activeUsers.forEach((u, idx) => {
                 const rank = idx + 1;
                 const tempo = `${Math.floor(u.avgSecs / 60)}m ${Math.floor(u.avgSecs % 60)}s`;
