@@ -413,6 +413,41 @@ const users = [
         "avgDurMin": 0
     },
     {
+        "avgDurSec": 0,
+        "avgScore": 0.0,
+        "skills": {
+            "Escuta": 0.0,
+            "Empatia": 0.0,
+            "Crises": 0.0,
+            "Padroes": 0.0,
+            "Personalizacao": 0.0
+        },
+        "count": 0,
+        "insights": {
+            "pt": [
+                "Focar no objetivo principal (agendar reunião).",
+                "Evitar descrever produtos ou preços por telefone.",
+                "Melhorar postura ética e empatia na abertura."
+            ],
+            "fr": [
+                "Focar no objetivo principal (agendar reunião).",
+                "Evitar descrever produtos ou preços por telefone.",
+                "Melhorar postura ética e empatia na abertura."
+            ]
+        },
+        "name": "Madeireiros fc",
+        "agency": "Outros",
+        "region": "Outros",
+        "lqaScore": 0.0,
+        "languages": [],
+        "improvement": {
+            "pt": "Iniciar as simulações",
+            "fr": "Commencer les simulations"
+        },
+        "dates": [],
+        "avgDurMin": 0
+    },
+    {
         "avgDurSec": 13,
         "avgScore": 56.0,
         "skills": {
@@ -909,16 +944,16 @@ const users = [
         "avgDurMin": 0
     },
     {
-        "avgDurSec": 21,
-        "avgScore": 61.7,
+        "avgDurSec": 18,
+        "avgScore": 66.2,
         "skills": {
-            "Escuta": 72.9,
-            "Empatia": 66.9,
-            "Crises": 59.3,
-            "Padroes": 61.2,
-            "Personalizacao": 56.8
+            "Escuta": 70.8,
+            "Empatia": 70.7,
+            "Crises": 60.9,
+            "Padroes": 64.0,
+            "Personalizacao": 63.7
         },
-        "count": 12,
+        "count": 17,
         "insights": {
             "pt": [
                 "Utilizou o gatilho de recomendação mencionando João Vitor de maneira personalizada, trazendo credibilidade à abordagem.",
@@ -950,9 +985,10 @@ const users = [
             "fr": "Perfectionner la technique de closing"
         },
         "dates": [
-            "2026-07-03"
+            "2026-07-03",
+            "2026-07-22"
         ],
-        "avgDurMin": 5
+        "avgDurMin": 4
     },
     {
         "avgDurSec": 23,
@@ -1134,16 +1170,16 @@ const users = [
         "avgDurMin": 0
     },
     {
-        "avgDurSec": 38,
-        "avgScore": 58.3,
+        "avgDurSec": 51,
+        "avgScore": 70.0,
         "skills": {
-            "Escuta": 65.5,
-            "Empatia": 57.8,
-            "Crises": 50.8,
-            "Padroes": 55.1,
-            "Personalizacao": 55.6
+            "Escuta": 75.6,
+            "Empatia": 72.1,
+            "Crises": 67.2,
+            "Padroes": 69.1,
+            "Personalizacao": 69.6
         },
-        "count": 9,
+        "count": 26,
         "insights": {
             "pt": [
                 "Você utilizou de forma enfática a recomendação do Pedro como gatilho de confiança e aproximação.",
@@ -1165,17 +1201,19 @@ const users = [
         "name": "Parceiro Rivorio3a12",
         "agency": "Rivório",
         "region": "Sul",
-        "lqaScore": 0.0,
+        "lqaScore": 90.0,
         "languages": [
+            "EN",
             "PT"
         ],
         "improvement": {
-            "pt": "Melhorar gestão de objeções",
-            "fr": "Améliorer la gestion des objections"
+            "pt": "Aperfeiçoar técnica de fechamento",
+            "fr": "Perfectionner la technique de closing"
         },
         "dates": [
             "2026-07-10",
-            "2026-07-14"
+            "2026-07-14",
+            "2026-07-23"
         ],
         "avgDurMin": 3
     },
@@ -1234,16 +1272,16 @@ const users = [
         "avgDurMin": 4
     },
     {
-        "avgDurSec": 44,
-        "avgScore": 37.1,
+        "avgDurSec": 39,
+        "avgScore": 42.0,
         "skills": {
-            "Escuta": 42.0,
-            "Empatia": 43.7,
-            "Crises": 30.5,
-            "Padroes": 34.5,
-            "Personalizacao": 32.9
+            "Escuta": 47.7,
+            "Empatia": 47.7,
+            "Crises": 35.9,
+            "Padroes": 40.0,
+            "Personalizacao": 37.3
         },
-        "count": 10,
+        "count": 11,
         "insights": {
             "pt": [
                 "Faltou estruturar a conversa nas oito etapas Metlife: não houve solicitação de autorização, nem brise-glace pessoal ou m",
@@ -1270,8 +1308,8 @@ const users = [
             "PT"
         ],
         "improvement": {
-            "pt": "Reforçar as 8 etapas MetLife",
-            "fr": "Renforcer les 8 étapes MetLife"
+            "pt": "Melhorar gestão de objeções",
+            "fr": "Améliorer la gestion des objections"
         },
         "dates": [
             "2026-05-04",
@@ -1280,7 +1318,8 @@ const users = [
             "2026-06-18",
             "2026-06-30",
             "2026-07-10",
-            "2026-07-13"
+            "2026-07-13",
+            "2026-07-21"
         ],
         "avgDurMin": 3
     },
@@ -1294,7 +1333,7 @@ const users = [
             "Padroes": 54.3,
             "Personalizacao": 57.5
         },
-        "count": 70,
+        "count": 71,
         "insights": {
             "pt": [
                 "As objeções referentes à origem do contato foram minimamente endereçadas.",
@@ -1341,7 +1380,8 @@ const users = [
             "2026-07-13",
             "2026-07-16",
             "2026-07-19",
-            "2026-07-20"
+            "2026-07-20",
+            "2026-07-21"
         ],
         "avgDurMin": 3
     },
