@@ -8,7 +8,7 @@ const RAW_SIMULATIONS = [
         "score": 0,
         "scenario": "PROSPECT_FRIO",
         "lqa": "N/A",
-        "interactions": 1,
+        "interactions": 0,
         "messages": [],
         "finished": false
     },
@@ -39,11 +39,11 @@ const RAW_SIMULATIONS = [
         "agency": "Outros",
         "region": "Outros",
         "date": "19/06/2026",
-        "dur": "0m 17s",
+        "dur": "0m 9s",
         "score": 0,
         "scenario": "PROSPECT_FRIO",
         "lqa": "N/A",
-        "interactions": 3,
+        "interactions": 5,
         "messages": [
             {
                 "role": "HUMAN",
@@ -73,11 +73,11 @@ const RAW_SIMULATIONS = [
         "agency": "Outros",
         "region": "Outros",
         "date": "25/06/2026",
-        "dur": "0m 30s",
+        "dur": "0m 19s",
         "score": 32,
         "scenario": "PROSPECT_FRIO",
         "lqa": "N/A",
-        "interactions": 4,
+        "interactions": 7,
         "messages": [
             {
                 "role": "HUMAN",
@@ -115,11 +115,11 @@ const RAW_SIMULATIONS = [
         "agency": "Outros",
         "region": "Outros",
         "date": "16/06/2026",
-        "dur": "2m 4s",
+        "dur": "1m 23s",
         "score": 46,
         "scenario": "PROSPECT_FRIO",
         "lqa": "N/A",
-        "interactions": 8,
+        "interactions": 12,
         "messages": [
             {
                 "role": "HUMAN",
@@ -177,7 +177,7 @@ const RAW_SIMULATIONS = [
         "agency": "Outros",
         "region": "Outros",
         "date": "16/06/2026",
-        "dur": "0m 7s",
+        "dur": "0m 0s",
         "score": 0,
         "scenario": "ENVIO_DOCUMENTO",
         "lqa": "N/A",
@@ -195,7 +195,7 @@ const RAW_SIMULATIONS = [
         "agency": "Outros",
         "region": "Outros",
         "date": "16/06/2026",
-        "dur": "0m 5s",
+        "dur": "0m 0s",
         "score": 0,
         "scenario": "ENVIO_DOCUMENTO",
         "lqa": "N/A",
@@ -213,11 +213,11 @@ const RAW_SIMULATIONS = [
         "agency": "Outros",
         "region": "Outros",
         "date": "16/06/2026",
-        "dur": "0m 7s",
+        "dur": "0m 0s",
         "score": 0,
         "scenario": "PROSPECT_FRIO",
         "lqa": "N/A",
-        "interactions": 1,
+        "interactions": 2,
         "messages": [
             {
                 "role": "HUMAN",
@@ -228,18 +228,18 @@ const RAW_SIMULATIONS = [
                 "text": "De nada. Estou à espera da sua proposta de reunião ou de alguma informação específica que ache relevante."
             }
         ],
-        "finished": false
+        "finished": true
     },
     {
         "name": "Carolina Bandeliauskas",
         "agency": "Outros",
         "region": "Outros",
         "date": "16/06/2026",
-        "dur": "0m 43s",
+        "dur": "0m 16s",
         "score": 41,
         "scenario": "PROSPECT_FRIO",
         "lqa": "N/A",
-        "interactions": 5,
+        "interactions": 10,
         "messages": [
             {
                 "role": "HUMAN",
@@ -289,11 +289,11 @@ const RAW_SIMULATIONS = [
         "agency": "Outros",
         "region": "Outros",
         "date": "18/06/2026",
-        "dur": "0m 45s",
+        "dur": "0m 25s",
         "score": 15,
         "scenario": "PROSPECT_FRIO",
         "lqa": "N/A",
-        "interactions": 4,
+        "interactions": 7,
         "messages": [
             {
                 "role": "AI",
@@ -331,11 +331,11 @@ const RAW_SIMULATIONS = [
         "agency": "Outros",
         "region": "Outros",
         "date": "18/06/2026",
-        "dur": "3m 52s",
+        "dur": "3m 4s",
         "score": 77,
         "scenario": "PROSPECT_FRIO",
         "lqa": "N/A",
-        "interactions": 8,
+        "interactions": 14,
         "messages": [
             {
                 "role": "HUMAN",
@@ -401,11 +401,11 @@ const RAW_SIMULATIONS = [
         "agency": "Outros",
         "region": "Outros",
         "date": "18/06/2026",
-        "dur": "2m 1s",
+        "dur": "1m 31s",
         "score": 47,
         "scenario": "ENVIO_DOCUMENTO",
         "lqa": "N/A",
-        "interactions": 5,
+        "interactions": 10,
         "messages": [
             {
                 "role": "AI",
@@ -455,11 +455,11 @@ const RAW_SIMULATIONS = [
         "agency": "Outros",
         "region": "Outros",
         "date": "18/06/2026",
-        "dur": "5m 1s",
+        "dur": "3m 42s",
         "score": 68,
         "scenario": "PROSPECT_FRIO",
         "lqa": "N/A",
-        "interactions": 14,
+        "interactions": 25,
         "messages": [
             {
                 "role": "HUMAN",
@@ -569,11 +569,11 @@ const RAW_SIMULATIONS = [
         "agency": "Outros",
         "region": "Outros",
         "date": "18/06/2026",
-        "dur": "1m 37s",
+        "dur": "1m 3s",
         "score": 23,
         "scenario": "PROSPECT_FRIO",
         "lqa": "N/A",
-        "interactions": 6,
+        "interactions": 12,
         "messages": [
             {
                 "role": "HUMAN",
@@ -649,11 +649,11 @@ const RAW_SIMULATIONS = [
         "agency": "Outros",
         "region": "Outros",
         "date": "22/06/2026",
-        "dur": "0m 5s",
+        "dur": "0m 1s",
         "score": 0,
         "scenario": "PROSPECT_FRIO",
         "lqa": "N/A",
-        "interactions": 1,
+        "interactions": 2,
         "messages": [
             {
                 "role": "HUMAN",
@@ -671,11 +671,11 @@ const RAW_SIMULATIONS = [
         "agency": "Outros",
         "region": "Outros",
         "date": "22/06/2026",
-        "dur": "0m 5s",
+        "dur": "0m 1s",
         "score": 0,
         "scenario": "PROSPECT_FRIO",
         "lqa": "N/A",
-        "interactions": 2,
+        "interactions": 4,
         "messages": [
             {
                 "role": "HUMAN",
@@ -701,11 +701,11 @@ const RAW_SIMULATIONS = [
         "agency": "Outros",
         "region": "Outros",
         "date": "22/06/2026",
-        "dur": "3m 56s",
+        "dur": "3m 11s",
         "score": 58,
         "scenario": "PROSPECT_FRIO",
         "lqa": "N/A",
-        "interactions": 12,
+        "interactions": 21,
         "messages": [
             {
                 "role": "HUMAN",
@@ -803,7 +803,7 @@ const RAW_SIMULATIONS = [
         "score": 41,
         "scenario": "PROSPECT_FRIO",
         "lqa": "N/A",
-        "interactions": 8,
+        "interactions": 13,
         "messages": [
             {
                 "role": "HUMAN",
@@ -865,11 +865,11 @@ const RAW_SIMULATIONS = [
         "agency": "Outros",
         "region": "Outros",
         "date": "22/06/2026",
-        "dur": "1m 43s",
+        "dur": "1m 13s",
         "score": 81,
         "scenario": "ENVIO_DOCUMENTO",
         "lqa": "N/A",
-        "interactions": 4,
+        "interactions": 9,
         "messages": [
             {
                 "role": "AI",
@@ -915,11 +915,11 @@ const RAW_SIMULATIONS = [
         "agency": "Outros",
         "region": "Outros",
         "date": "23/06/2026",
-        "dur": "0m 15s",
+        "dur": "0m 3s",
         "score": 0,
         "scenario": "PROSPECT_FRIO",
         "lqa": "N/A",
-        "interactions": 3,
+        "interactions": 5,
         "messages": [
             {
                 "role": "HUMAN",
@@ -949,11 +949,11 @@ const RAW_SIMULATIONS = [
         "agency": "Outros",
         "region": "Outros",
         "date": "23/06/2026",
-        "dur": "0m 15s",
+        "dur": "0m 9s",
         "score": 0,
         "scenario": "PROSPECT_FRIO",
         "lqa": "N/A",
-        "interactions": 2,
+        "interactions": 3,
         "messages": [
             {
                 "role": "HUMAN",
@@ -975,11 +975,11 @@ const RAW_SIMULATIONS = [
         "agency": "Outros",
         "region": "Outros",
         "date": "24/06/2026",
-        "dur": "6m 59s",
+        "dur": "5m 31s",
         "score": 83,
         "scenario": "PROSPECT_FRIO",
         "lqa": "N/A",
-        "interactions": 11,
+        "interactions": 20,
         "messages": [
             {
                 "role": "HUMAN",
@@ -1069,11 +1069,11 @@ const RAW_SIMULATIONS = [
         "agency": "Gorilla",
         "region": "Sul",
         "date": "05/07/2026",
-        "dur": "0m 3s",
+        "dur": "0m 0s",
         "score": 0,
         "scenario": "PROSPECT_FRIO",
         "lqa": "N/A",
-        "interactions": 1,
+        "interactions": 2,
         "messages": [
             {
                 "role": "HUMAN",
@@ -1091,11 +1091,11 @@ const RAW_SIMULATIONS = [
         "agency": "Gorilla",
         "region": "Sul",
         "date": "08/07/2026",
-        "dur": "4m 22s",
+        "dur": "3m 11s",
         "score": 81,
         "scenario": "PROSPECT_FRIO",
         "lqa": "N/A",
-        "interactions": 19,
+        "interactions": 31,
         "messages": [
             {
                 "role": "HUMAN",
@@ -1229,11 +1229,11 @@ const RAW_SIMULATIONS = [
         "agency": "Gorilla",
         "region": "Sul",
         "date": "08/07/2026",
-        "dur": "1m 55s",
+        "dur": "1m 41s",
         "score": 46,
         "scenario": "PROSPECT_FRIO",
         "lqa": "N/A",
-        "interactions": 5,
+        "interactions": 8,
         "messages": [
             {
                 "role": "HUMAN",
@@ -1279,7 +1279,7 @@ const RAW_SIMULATIONS = [
         "score": 0,
         "scenario": "PROSPECT_FRIO",
         "lqa": "N/A",
-        "interactions": 1,
+        "interactions": 0,
         "messages": [],
         "finished": false
     },
@@ -1288,11 +1288,11 @@ const RAW_SIMULATIONS = [
         "agency": "Gorilla",
         "region": "Sul",
         "date": "08/07/2026",
-        "dur": "9m 7s",
+        "dur": "7m 4s",
         "score": 64,
         "scenario": "PROSPECT_FRIO",
         "lqa": "N/A",
-        "interactions": 44,
+        "interactions": 67,
         "messages": [
             {
                 "role": "HUMAN",
@@ -1533,6 +1533,34 @@ const RAW_SIMULATIONS = [
             {
                 "role": "AI",
                 "text": "Não. Esse e-mail não é o meu. Envie para joao.silveira arroba gmail ponto com."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Ah, okay! joãovalsilveira@hotmail.com. Perfeito, João! Tô agendando, já encaminhei um e-mail pra você, ééé, com o bate-papo que nós teremos na terça-feira às quinze horas, tá bom? Muito obrigada. Pra novamente o Carlos entrar em contato com você pra reforçar a indicação dele. E você pode ter certeza que o meu trabalho vai fazer muito sentido pra você. É, brigada, não quero te ocupar mais. É, ótima tarde pra você e uma boa reunião. Bons negócios."
+            },
+            {
+                "role": "AI",
+                "text": "Recebi nada ainda. Peça ao Carlos para confirmar por mensagem e eu verei quando puder. Boa tarde."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Boa tarde. Tchau."
+            },
+            {
+                "role": "AI",
+                "text": "Recebi sua mensagem do Carlos e o e-mail não chegou ainda. Peça a ele para reenviar a confirmação por WhatsApp e eu verifico quando puder. Boa tarde."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Tá bom então João, brigada viu mais uma vez agradeço o seu atendimento."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Agradeço."
+            },
+            {
+                "role": "AI",
+                "text": "De nada. Boa tarde."
             }
         ],
         "finished": true
@@ -1546,7 +1574,7 @@ const RAW_SIMULATIONS = [
         "score": 0,
         "scenario": "ENVIO_DOCUMENTO",
         "lqa": "N/A",
-        "interactions": 1,
+        "interactions": 0,
         "messages": [],
         "finished": false
     },
@@ -1555,11 +1583,11 @@ const RAW_SIMULATIONS = [
         "agency": "Gorilla",
         "region": "Sul",
         "date": "08/07/2026",
-        "dur": "3m 24s",
+        "dur": "2m 41s",
         "score": 0,
         "scenario": "ENVIO_DOCUMENTO",
         "lqa": "N/A",
-        "interactions": 16,
+        "interactions": 25,
         "messages": [
             {
                 "role": "AI",
@@ -1673,7 +1701,7 @@ const RAW_SIMULATIONS = [
         "score": 0,
         "scenario": "PROSPECT_FRIO",
         "lqa": "N/A",
-        "interactions": 1,
+        "interactions": 0,
         "messages": [],
         "finished": false
     },
@@ -1682,7 +1710,7 @@ const RAW_SIMULATIONS = [
         "agency": "Inside",
         "region": "Sudeste",
         "date": "02/07/2026",
-        "dur": "0m 7s",
+        "dur": "0m 0s",
         "score": 0,
         "scenario": "ENVIO_DOCUMENTO",
         "lqa": "N/A",
@@ -1704,7 +1732,7 @@ const RAW_SIMULATIONS = [
         "score": 0,
         "scenario": "ENVIO_DOCUMENTO",
         "lqa": "N/A",
-        "interactions": 1,
+        "interactions": 0,
         "messages": [],
         "finished": false
     },
@@ -1713,11 +1741,11 @@ const RAW_SIMULATIONS = [
         "agency": "Inside",
         "region": "Sudeste",
         "date": "02/07/2026",
-        "dur": "4m 3s",
+        "dur": "3m 3s",
         "score": 73,
         "scenario": "ENVIO_DOCUMENTO",
         "lqa": "N/A",
-        "interactions": 10,
+        "interactions": 17,
         "messages": [
             {
                 "role": "AI",
@@ -1795,7 +1823,7 @@ const RAW_SIMULATIONS = [
         "agency": "Inside",
         "region": "Sudeste",
         "date": "02/07/2026",
-        "dur": "0m 7s",
+        "dur": "0m 0s",
         "score": 0,
         "scenario": "ENVIO_DOCUMENTO",
         "lqa": "N/A",
@@ -1813,7 +1841,7 @@ const RAW_SIMULATIONS = [
         "agency": "Inside",
         "region": "Sudeste",
         "date": "02/07/2026",
-        "dur": "0m 6s",
+        "dur": "0m 0s",
         "score": 0,
         "scenario": "ENVIO_DOCUMENTO",
         "lqa": "N/A",
@@ -1835,7 +1863,7 @@ const RAW_SIMULATIONS = [
         "score": 0,
         "scenario": "ENVIO_DOCUMENTO",
         "lqa": "N/A",
-        "interactions": 1,
+        "interactions": 0,
         "messages": [],
         "finished": false
     },
@@ -1848,7 +1876,7 @@ const RAW_SIMULATIONS = [
         "score": 0,
         "scenario": "ENVIO_DOCUMENTO",
         "lqa": "N/A",
-        "interactions": 1,
+        "interactions": 0,
         "messages": [],
         "finished": false
     },
@@ -1861,7 +1889,7 @@ const RAW_SIMULATIONS = [
         "score": 0,
         "scenario": "PROSPECT_FRIO",
         "lqa": "N/A",
-        "interactions": 1,
+        "interactions": 0,
         "messages": [],
         "finished": false
     },
@@ -1870,11 +1898,11 @@ const RAW_SIMULATIONS = [
         "agency": "Inside",
         "region": "Sudeste",
         "date": "13/07/2026",
-        "dur": "4m 29s",
+        "dur": "3m 7s",
         "score": 0,
         "scenario": "ENVIO_DOCUMENTO",
         "lqa": "N/A",
-        "interactions": 8,
+        "interactions": 17,
         "messages": [
             {
                 "role": "AI",
@@ -1956,7 +1984,7 @@ const RAW_SIMULATIONS = [
         "score": 0,
         "scenario": "ENVIO_DOCUMENTO",
         "lqa": "N/A",
-        "interactions": 1,
+        "interactions": 0,
         "messages": [],
         "finished": false
     },
@@ -1965,7 +1993,7 @@ const RAW_SIMULATIONS = [
         "agency": "Inside",
         "region": "Sudeste",
         "date": "13/07/2026",
-        "dur": "0m 7s",
+        "dur": "0m 0s",
         "score": 0,
         "scenario": "ENVIO_DOCUMENTO",
         "lqa": "N/A",
@@ -1983,7 +2011,7 @@ const RAW_SIMULATIONS = [
         "agency": "Inside",
         "region": "Sudeste",
         "date": "13/07/2026",
-        "dur": "0m 6s",
+        "dur": "0m 0s",
         "score": 0,
         "scenario": "ENVIO_DOCUMENTO",
         "lqa": "N/A",
@@ -2001,11 +2029,11 @@ const RAW_SIMULATIONS = [
         "agency": "Inside",
         "region": "Sudeste",
         "date": "13/07/2026",
-        "dur": "1m 2s",
+        "dur": "0m 34s",
         "score": 41,
         "scenario": "PROSPECT_FRIO",
         "lqa": "N/A",
-        "interactions": 3,
+        "interactions": 6,
         "messages": [
             {
                 "role": "HUMAN",
@@ -2039,11 +2067,11 @@ const RAW_SIMULATIONS = [
         "agency": "Inside",
         "region": "Sudeste",
         "date": "13/07/2026",
-        "dur": "1m 40s",
+        "dur": "1m 2s",
         "score": 0,
         "scenario": "ENVIO_DOCUMENTO",
         "lqa": "N/A",
-        "interactions": 7,
+        "interactions": 13,
         "messages": [
             {
                 "role": "AI",
@@ -2109,7 +2137,7 @@ const RAW_SIMULATIONS = [
         "score": 0,
         "scenario": "PROSPECT_FRIO",
         "lqa": "N/A",
-        "interactions": 1,
+        "interactions": 0,
         "messages": [],
         "finished": false
     },
@@ -2122,7 +2150,7 @@ const RAW_SIMULATIONS = [
         "score": 0,
         "scenario": "PROSPECT_FRIO",
         "lqa": "N/A",
-        "interactions": 1,
+        "interactions": 0,
         "messages": [],
         "finished": false
     },
@@ -2131,11 +2159,11 @@ const RAW_SIMULATIONS = [
         "agency": "Ápice",
         "region": "Norte",
         "date": "03/07/2026",
-        "dur": "0m 5s",
+        "dur": "0m 3s",
         "score": 0,
         "scenario": "PROSPECT_FRIO",
         "lqa": "N/A",
-        "interactions": 3,
+        "interactions": 4,
         "messages": [
             {
                 "role": "HUMAN",
@@ -2165,7 +2193,7 @@ const RAW_SIMULATIONS = [
         "score": 0,
         "scenario": "PROSPECT_FRIO",
         "lqa": "N/A",
-        "interactions": 1,
+        "interactions": 0,
         "messages": [],
         "finished": false
     },
@@ -2174,11 +2202,11 @@ const RAW_SIMULATIONS = [
         "agency": "Ápice",
         "region": "Norte",
         "date": "03/07/2026",
-        "dur": "0m 10s",
+        "dur": "0m 6s",
         "score": 0,
         "scenario": "PROSPECT_FRIO",
         "lqa": "N/A",
-        "interactions": 2,
+        "interactions": 3,
         "messages": [
             {
                 "role": "HUMAN",
@@ -2200,11 +2228,11 @@ const RAW_SIMULATIONS = [
         "agency": "Ápice",
         "region": "Norte",
         "date": "03/07/2026",
-        "dur": "0m 54s",
+        "dur": "0m 37s",
         "score": 52,
         "scenario": "ENVIO_DOCUMENTO",
         "lqa": "N/A",
-        "interactions": 6,
+        "interactions": 10,
         "messages": [
             {
                 "role": "AI",
@@ -2254,11 +2282,11 @@ const RAW_SIMULATIONS = [
         "agency": "Ápice",
         "region": "Norte",
         "date": "03/07/2026",
-        "dur": "3m 50s",
+        "dur": "2m 33s",
         "score": 54,
         "scenario": "ENVIO_DOCUMENTO",
         "lqa": "N/A",
-        "interactions": 9,
+        "interactions": 19,
         "messages": [
             {
                 "role": "AI",
@@ -2344,11 +2372,11 @@ const RAW_SIMULATIONS = [
         "agency": "Ápice",
         "region": "Norte",
         "date": "03/07/2026",
-        "dur": "0m 6s",
+        "dur": "0m 0s",
         "score": 0,
         "scenario": "PROSPECT_FRIO",
         "lqa": "N/A",
-        "interactions": 1,
+        "interactions": 2,
         "messages": [
             {
                 "role": "HUMAN",
@@ -2366,11 +2394,11 @@ const RAW_SIMULATIONS = [
         "agency": "Ápice",
         "region": "Norte",
         "date": "06/07/2026",
-        "dur": "0m 8s",
+        "dur": "0m 3s",
         "score": 0,
         "scenario": "PROSPECT_FRIO",
         "lqa": "N/A",
-        "interactions": 1,
+        "interactions": 2,
         "messages": [
             {
                 "role": "HUMAN",
@@ -2388,11 +2416,11 @@ const RAW_SIMULATIONS = [
         "agency": "Ápice",
         "region": "Norte",
         "date": "06/07/2026",
-        "dur": "8m 36s",
+        "dur": "5m 34s",
         "score": 45,
         "scenario": "PROSPECT_FRIO",
         "lqa": "N/A",
-        "interactions": 24,
+        "interactions": 45,
         "messages": [
             {
                 "role": "HUMAN",
@@ -2582,11 +2610,11 @@ const RAW_SIMULATIONS = [
         "agency": "Ápice",
         "region": "Norte",
         "date": "06/07/2026",
-        "dur": "3m 41s",
+        "dur": "2m 32s",
         "score": 55,
         "scenario": "PROSPECT_FRIO",
         "lqa": "N/A",
-        "interactions": 14,
+        "interactions": 23,
         "messages": [
             {
                 "role": "HUMAN",
@@ -2688,11 +2716,11 @@ const RAW_SIMULATIONS = [
         "agency": "Ápice",
         "region": "Norte",
         "date": "06/07/2026",
-        "dur": "3m 5s",
+        "dur": "1m 49s",
         "score": 78,
         "scenario": "PROSPECT_FRIO",
         "lqa": "N/A",
-        "interactions": 9,
+        "interactions": 18,
         "messages": [
             {
                 "role": "HUMAN",
@@ -2774,11 +2802,11 @@ const RAW_SIMULATIONS = [
         "agency": "Ápice",
         "region": "Norte",
         "date": "06/07/2026",
-        "dur": "1m 29s",
+        "dur": "1m 5s",
         "score": 0,
         "scenario": "PROSPECT_FRIO",
         "lqa": "N/A",
-        "interactions": 3,
+        "interactions": 5,
         "messages": [
             {
                 "role": "HUMAN",
@@ -2808,11 +2836,11 @@ const RAW_SIMULATIONS = [
         "agency": "Ápice",
         "region": "Norte",
         "date": "06/07/2026",
-        "dur": "3m 25s",
+        "dur": "2m 2s",
         "score": 41,
         "scenario": "PROSPECT_FRIO",
         "lqa": "N/A",
-        "interactions": 8,
+        "interactions": 15,
         "messages": [
             {
                 "role": "HUMAN",
@@ -2882,11 +2910,11 @@ const RAW_SIMULATIONS = [
         "agency": "Ápice",
         "region": "Norte",
         "date": "10/07/2026",
-        "dur": "2m 28s",
+        "dur": "1m 41s",
         "score": 57,
         "scenario": "PROSPECT_FRIO",
         "lqa": "N/A",
-        "interactions": 8,
+        "interactions": 14,
         "messages": [
             {
                 "role": "HUMAN",
@@ -2952,11 +2980,11 @@ const RAW_SIMULATIONS = [
         "agency": "Ápice",
         "region": "Norte",
         "date": "10/07/2026",
-        "dur": "1m 17s",
+        "dur": "0m 36s",
         "score": 51,
         "scenario": "PROSPECT_FRIO",
         "lqa": "N/A",
-        "interactions": 11,
+        "interactions": 17,
         "messages": [
             {
                 "role": "HUMAN",
@@ -3034,11 +3062,11 @@ const RAW_SIMULATIONS = [
         "agency": "Inside",
         "region": "Sudeste",
         "date": "11/07/2026",
-        "dur": "1m 0s",
+        "dur": "0m 44s",
         "score": 64,
         "scenario": "PROSPECT_FRIO",
         "lqa": "N/A",
-        "interactions": 12,
+        "interactions": 16,
         "messages": [
             {
                 "role": "HUMAN",
@@ -3112,11 +3140,11 @@ const RAW_SIMULATIONS = [
         "agency": "Inside",
         "region": "Sudeste",
         "date": "11/07/2026",
-        "dur": "0m 4s",
+        "dur": "0m 0s",
         "score": 0,
         "scenario": "PROSPECT_FRIO",
         "lqa": "N/A",
-        "interactions": 1,
+        "interactions": 2,
         "messages": [
             {
                 "role": "HUMAN",
@@ -3127,18 +3155,18 @@ const RAW_SIMULATIONS = [
                 "text": "Hi. I’m a bit busy right now. Who is this and what do you need briefly?"
             }
         ],
-        "finished": false
+        "finished": true
     },
     {
         "name": "Parceiro Insidelu",
         "agency": "Inside",
         "region": "Sudeste",
         "date": "11/07/2026",
-        "dur": "1m 27s",
+        "dur": "1m 4s",
         "score": 83,
         "scenario": "ENVIO_DOCUMENTO",
         "lqa": "N/A",
-        "interactions": 8,
+        "interactions": 14,
         "messages": [
             {
                 "role": "AI",
@@ -3222,11 +3250,11 @@ const RAW_SIMULATIONS = [
         "agency": "Geração",
         "region": "Centro-Oeste",
         "date": "07/07/2026",
-        "dur": "0m 12s",
+        "dur": "0m 7s",
         "score": 0,
         "scenario": "PROSPECT_FRIO",
         "lqa": "N/A",
-        "interactions": 1,
+        "interactions": 2,
         "messages": [
             {
                 "role": "HUMAN",
@@ -3244,11 +3272,11 @@ const RAW_SIMULATIONS = [
         "agency": "Geração",
         "region": "Centro-Oeste",
         "date": "07/07/2026",
-        "dur": "8m 11s",
+        "dur": "5m 52s",
         "score": 0,
         "scenario": "PROSPECT_FRIO",
         "lqa": "N/A",
-        "interactions": 19,
+        "interactions": 33,
         "messages": [
             {
                 "role": "HUMAN",
@@ -3390,11 +3418,11 @@ const RAW_SIMULATIONS = [
         "agency": "Geração",
         "region": "Centro-Oeste",
         "date": "07/07/2026",
-        "dur": "1m 10s",
+        "dur": "0m 47s",
         "score": 31,
         "scenario": "RECOMENDACOES",
         "lqa": "N/A",
-        "interactions": 5,
+        "interactions": 10,
         "messages": [
             {
                 "role": "HUMAN",
@@ -3448,7 +3476,7 @@ const RAW_SIMULATIONS = [
         "score": 0,
         "scenario": "RECOMENDACOES",
         "lqa": "N/A",
-        "interactions": 1,
+        "interactions": 0,
         "messages": [],
         "finished": false
     },
@@ -3457,7 +3485,7 @@ const RAW_SIMULATIONS = [
         "agency": "Geração",
         "region": "Centro-Oeste",
         "date": "07/07/2026",
-        "dur": "0m 6s",
+        "dur": "0m 0s",
         "score": 0,
         "scenario": "ENVIO_DOCUMENTO",
         "lqa": "N/A",
@@ -3475,7 +3503,7 @@ const RAW_SIMULATIONS = [
         "agency": "Geração",
         "region": "Centro-Oeste",
         "date": "07/07/2026",
-        "dur": "0m 4s",
+        "dur": "0m 0s",
         "score": 0,
         "scenario": "ENVIO_DOCUMENTO",
         "lqa": "N/A",
@@ -3493,7 +3521,7 @@ const RAW_SIMULATIONS = [
         "agency": "Geração",
         "region": "Centro-Oeste",
         "date": "07/07/2026",
-        "dur": "0m 6s",
+        "dur": "0m 0s",
         "score": 0,
         "scenario": "ENVIO_DOCUMENTO",
         "lqa": "N/A",
@@ -3511,11 +3539,11 @@ const RAW_SIMULATIONS = [
         "agency": "Geração",
         "region": "Centro-Oeste",
         "date": "07/07/2026",
-        "dur": "4m 2s",
+        "dur": "2m 16s",
         "score": 42,
         "scenario": "ENVIO_DOCUMENTO",
         "lqa": "N/A",
-        "interactions": 13,
+        "interactions": 25,
         "messages": [
             {
                 "role": "AI",
@@ -3622,8 +3650,8 @@ const RAW_SIMULATIONS = [
     },
     {
         "name": "Marcelo Bernardes",
-        "agency": "Outros",
-        "region": "Outros",
+        "agency": "Rivório",
+        "region": "Nordeste",
         "date": "02/07/2026",
         "dur": "0m 2s",
         "score": 0,
@@ -3640,14 +3668,14 @@ const RAW_SIMULATIONS = [
     },
     {
         "name": "Marcelo Bernardes",
-        "agency": "Outros",
-        "region": "Outros",
+        "agency": "Rivório",
+        "region": "Nordeste",
         "date": "04/07/2026",
-        "dur": "1m 33s",
+        "dur": "1m 4s",
         "score": 56,
         "scenario": "PROSPECT_FRIO",
         "lqa": "N/A",
-        "interactions": 10,
+        "interactions": 18,
         "messages": [
             {
                 "role": "HUMAN",
@@ -3726,14 +3754,14 @@ const RAW_SIMULATIONS = [
     },
     {
         "name": "Marcelo Bernardes",
-        "agency": "Outros",
-        "region": "Outros",
+        "agency": "Rivório",
+        "region": "Nordeste",
         "date": "06/07/2026",
-        "dur": "2m 53s",
+        "dur": "2m 8s",
         "score": 56,
         "scenario": "PROSPECT_FRIO",
         "lqa": "N/A",
-        "interactions": 24,
+        "interactions": 35,
         "messages": [
             {
                 "role": "HUMAN",
@@ -3883,11 +3911,11 @@ const RAW_SIMULATIONS = [
         "agency": "Gorilla",
         "region": "Sul",
         "date": "03/07/2026",
-        "dur": "0m 45s",
+        "dur": "0m 19s",
         "score": 0,
         "scenario": "ENVIO_DOCUMENTO",
         "lqa": "N/A",
-        "interactions": 9,
+        "interactions": 14,
         "messages": [
             {
                 "role": "HUMAN",
@@ -3953,7 +3981,7 @@ const RAW_SIMULATIONS = [
         "agency": "Gorilla",
         "region": "Sul",
         "date": "03/07/2026",
-        "dur": "0m 4s",
+        "dur": "0m 0s",
         "score": 0,
         "scenario": "ENVIO_DOCUMENTO",
         "lqa": "N/A",
@@ -3971,11 +3999,11 @@ const RAW_SIMULATIONS = [
         "agency": "Gorilla",
         "region": "Sul",
         "date": "03/07/2026",
-        "dur": "2m 21s",
+        "dur": "1m 2s",
         "score": 41,
         "scenario": "PROSPECT_FRIO",
         "lqa": "N/A",
-        "interactions": 15,
+        "interactions": 25,
         "messages": [
             {
                 "role": "HUMAN",
@@ -4085,11 +4113,11 @@ const RAW_SIMULATIONS = [
         "agency": "Gorilla",
         "region": "Sul",
         "date": "03/07/2026",
-        "dur": "4m 19s",
+        "dur": "2m 29s",
         "score": 0,
         "scenario": "ENVIO_DOCUMENTO",
         "lqa": "N/A",
-        "interactions": 14,
+        "interactions": 27,
         "messages": [
             {
                 "role": "AI",
@@ -4207,11 +4235,11 @@ const RAW_SIMULATIONS = [
         "agency": "Gorilla",
         "region": "Sul",
         "date": "03/07/2026",
-        "dur": "4m 56s",
+        "dur": "3m 27s",
         "score": 0,
         "scenario": "ENVIO_DOCUMENTO",
         "lqa": "N/A",
-        "interactions": 11,
+        "interactions": 21,
         "messages": [
             {
                 "role": "AI",
@@ -4305,11 +4333,11 @@ const RAW_SIMULATIONS = [
         "agency": "Gorilla",
         "region": "Sul",
         "date": "03/07/2026",
-        "dur": "3m 29s",
+        "dur": "1m 49s",
         "score": 0,
         "scenario": "ENVIO_DOCUMENTO",
         "lqa": "N/A",
-        "interactions": 22,
+        "interactions": 36,
         "messages": [
             {
                 "role": "HUMAN",
@@ -4467,7 +4495,7 @@ const RAW_SIMULATIONS = [
         "score": 0,
         "scenario": "ENVIO_DOCUMENTO",
         "lqa": "N/A",
-        "interactions": 1,
+        "interactions": 0,
         "messages": [],
         "finished": false
     },
@@ -4476,11 +4504,11 @@ const RAW_SIMULATIONS = [
         "agency": "Gorilla",
         "region": "Sul",
         "date": "03/07/2026",
-        "dur": "10m 1s",
+        "dur": "6m 19s",
         "score": 65,
         "scenario": "ENVIO_DOCUMENTO",
         "lqa": "N/A",
-        "interactions": 32,
+        "interactions": 60,
         "messages": [
             {
                 "role": "AI",
@@ -4730,11 +4758,11 @@ const RAW_SIMULATIONS = [
         "agency": "Gorilla",
         "region": "Sul",
         "date": "03/07/2026",
-        "dur": "3m 41s",
+        "dur": "2m 24s",
         "score": 79,
         "scenario": "PROSPECT_FRIO",
         "lqa": "N/A",
-        "interactions": 21,
+        "interactions": 32,
         "messages": [
             {
                 "role": "HUMAN",
@@ -4872,11 +4900,11 @@ const RAW_SIMULATIONS = [
         "agency": "Gorilla",
         "region": "Sul",
         "date": "03/07/2026",
-        "dur": "1m 47s",
+        "dur": "1m 10s",
         "score": 0,
         "scenario": "PROSPECT_FRIO",
         "lqa": "N/A",
-        "interactions": 7,
+        "interactions": 13,
         "messages": [
             {
                 "role": "HUMAN",
@@ -4938,11 +4966,11 @@ const RAW_SIMULATIONS = [
         "agency": "Gorilla",
         "region": "Sul",
         "date": "03/07/2026",
-        "dur": "2m 42s",
+        "dur": "1m 38s",
         "score": 0,
         "scenario": "PROSPECT_FRIO",
         "lqa": "N/A",
-        "interactions": 9,
+        "interactions": 17,
         "messages": [
             {
                 "role": "HUMAN",
@@ -5020,11 +5048,11 @@ const RAW_SIMULATIONS = [
         "agency": "Gorilla",
         "region": "Sul",
         "date": "03/07/2026",
-        "dur": "2m 11s",
+        "dur": "1m 35s",
         "score": 0,
         "scenario": "PROSPECT_FRIO",
         "lqa": "N/A",
-        "interactions": 9,
+        "interactions": 16,
         "messages": [
             {
                 "role": "HUMAN",
@@ -5098,11 +5126,11 @@ const RAW_SIMULATIONS = [
         "agency": "Gorilla",
         "region": "Sul",
         "date": "22/07/2026",
-        "dur": "3m 20s",
+        "dur": "2m 12s",
         "score": 62,
         "scenario": "PROSPECT_FRIO",
         "lqa": "N/A",
-        "interactions": 13,
+        "interactions": 24,
         "messages": [
             {
                 "role": "HUMAN",
@@ -5208,11 +5236,11 @@ const RAW_SIMULATIONS = [
         "agency": "Gorilla",
         "region": "Sul",
         "date": "22/07/2026",
-        "dur": "6m 34s",
+        "dur": "4m 25s",
         "score": 48,
         "scenario": "PROSPECT_FRIO",
         "lqa": "N/A",
-        "interactions": 28,
+        "interactions": 44,
         "messages": [
             {
                 "role": "HUMAN",
@@ -5398,11 +5426,11 @@ const RAW_SIMULATIONS = [
         "agency": "Gorilla",
         "region": "Sul",
         "date": "22/07/2026",
-        "dur": "2m 4s",
+        "dur": "1m 4s",
         "score": 78,
         "scenario": "PROSPECT_FRIO",
         "lqa": "N/A",
-        "interactions": 16,
+        "interactions": 25,
         "messages": [
             {
                 "role": "HUMAN",
@@ -5512,11 +5540,11 @@ const RAW_SIMULATIONS = [
         "agency": "Gorilla",
         "region": "Sul",
         "date": "22/07/2026",
-        "dur": "2m 32s",
+        "dur": "1m 46s",
         "score": 78,
         "scenario": "PROSPECT_FRIO",
         "lqa": "N/A",
-        "interactions": 7,
+        "interactions": 14,
         "messages": [
             {
                 "role": "HUMAN",
@@ -5582,11 +5610,11 @@ const RAW_SIMULATIONS = [
         "agency": "Gorilla",
         "region": "Sul",
         "date": "22/07/2026",
-        "dur": "3m 56s",
+        "dur": "1m 54s",
         "score": 79,
         "scenario": "PROSPECT_FRIO",
         "lqa": "N/A",
-        "interactions": 18,
+        "interactions": 31,
         "messages": [
             {
                 "role": "HUMAN",
@@ -5720,11 +5748,11 @@ const RAW_SIMULATIONS = [
         "agency": "Inside",
         "region": "Sudeste",
         "date": "08/07/2026",
-        "dur": "0m 4s",
+        "dur": "0m 0s",
         "score": 0,
         "scenario": "PROSPECT_FRIO",
         "lqa": "N/A",
-        "interactions": 1,
+        "interactions": 2,
         "messages": [
             {
                 "role": "HUMAN",
@@ -5742,11 +5770,11 @@ const RAW_SIMULATIONS = [
         "agency": "Inside",
         "region": "Sudeste",
         "date": "08/07/2026",
-        "dur": "0m 14s",
+        "dur": "0m 3s",
         "score": 0,
         "scenario": "PROSPECT_FRIO",
         "lqa": "N/A",
-        "interactions": 2,
+        "interactions": 4,
         "messages": [
             {
                 "role": "HUMAN",
@@ -5772,11 +5800,11 @@ const RAW_SIMULATIONS = [
         "agency": "Inside",
         "region": "Sudeste",
         "date": "08/07/2026",
-        "dur": "1m 24s",
+        "dur": "0m 48s",
         "score": 34,
         "scenario": "PROSPECT_FRIO",
         "lqa": "N/A",
-        "interactions": 6,
+        "interactions": 11,
         "messages": [
             {
                 "role": "HUMAN",
@@ -5830,11 +5858,11 @@ const RAW_SIMULATIONS = [
         "agency": "Inside",
         "region": "Sudeste",
         "date": "08/07/2026",
-        "dur": "0m 5s",
+        "dur": "0m 1s",
         "score": 0,
         "scenario": "PROSPECT_FRIO",
         "lqa": "N/A",
-        "interactions": 1,
+        "interactions": 2,
         "messages": [
             {
                 "role": "HUMAN",
@@ -5856,7 +5884,7 @@ const RAW_SIMULATIONS = [
         "score": 0,
         "scenario": "PROSPECT_FRIO",
         "lqa": "N/A",
-        "interactions": 1,
+        "interactions": 0,
         "messages": [],
         "finished": false
     },
@@ -5865,11 +5893,11 @@ const RAW_SIMULATIONS = [
         "agency": "Inside",
         "region": "Sudeste",
         "date": "08/07/2026",
-        "dur": "0m 46s",
+        "dur": "0m 30s",
         "score": 25,
         "scenario": "PROSPECT_FRIO",
         "lqa": "N/A",
-        "interactions": 6,
+        "interactions": 10,
         "messages": [
             {
                 "role": "HUMAN",
@@ -5919,11 +5947,11 @@ const RAW_SIMULATIONS = [
         "agency": "Inside",
         "region": "Sudeste",
         "date": "10/07/2026",
-        "dur": "3m 58s",
+        "dur": "2m 14s",
         "score": 78,
         "scenario": "PROSPECT_FRIO",
         "lqa": "N/A",
-        "interactions": 17,
+        "interactions": 31,
         "messages": [
             {
                 "role": "HUMAN",
@@ -6057,11 +6085,11 @@ const RAW_SIMULATIONS = [
         "agency": "Inside",
         "region": "Sudeste",
         "date": "10/07/2026",
-        "dur": "5m 24s",
+        "dur": "3m 26s",
         "score": 87,
         "scenario": "PROSPECT_FRIO",
         "lqa": "N/A",
-        "interactions": 26,
+        "interactions": 44,
         "messages": [
             {
                 "role": "HUMAN",
@@ -6247,11 +6275,11 @@ const RAW_SIMULATIONS = [
         "agency": "Inside",
         "region": "Sudeste",
         "date": "15/07/2026",
-        "dur": "1m 25s",
+        "dur": "0m 52s",
         "score": 62,
         "scenario": "PROSPECT_FRIO",
-        "lqa": 40.0,
-        "interactions": 8,
+        "lqa": "N/A",
+        "interactions": 15,
         "messages": [
             {
                 "role": "HUMAN",
@@ -6321,11 +6349,11 @@ const RAW_SIMULATIONS = [
         "agency": "Inside",
         "region": "Sudeste",
         "date": "15/07/2026",
-        "dur": "0m 59s",
+        "dur": "0m 25s",
         "score": 0,
         "scenario": "ENVIO_DOCUMENTO",
         "lqa": "N/A",
-        "interactions": 8,
+        "interactions": 16,
         "messages": [
             {
                 "role": "AI",
@@ -6399,11 +6427,11 @@ const RAW_SIMULATIONS = [
         "agency": "Inside",
         "region": "Sudeste",
         "date": "15/07/2026",
-        "dur": "1m 50s",
+        "dur": "1m 15s",
         "score": 39,
         "scenario": "ENVIO_DOCUMENTO",
         "lqa": "N/A",
-        "interactions": 9,
+        "interactions": 15,
         "messages": [
             {
                 "role": "AI",
@@ -6473,11 +6501,11 @@ const RAW_SIMULATIONS = [
         "agency": "Inside",
         "region": "Sudeste",
         "date": "15/07/2026",
-        "dur": "2m 0s",
+        "dur": "1m 5s",
         "score": 81,
         "scenario": "PROSPECT_FRIO",
         "lqa": "N/A",
-        "interactions": 13,
+        "interactions": 23,
         "messages": [
             {
                 "role": "HUMAN",
@@ -6576,14 +6604,14 @@ const RAW_SIMULATIONS = [
     },
     {
         "name": "João Pedro",
-        "agency": "Outros",
-        "region": "Outros",
+        "agency": "Ápice",
+        "region": "Norte",
         "date": "02/07/2026",
-        "dur": "6m 3s",
+        "dur": "5m 1s",
         "score": 0,
         "scenario": "ENVIO_DOCUMENTO",
         "lqa": "N/A",
-        "interactions": 12,
+        "interactions": 19,
         "messages": [
             {
                 "role": "AI",
@@ -6666,14 +6694,14 @@ const RAW_SIMULATIONS = [
     },
     {
         "name": "João Pedro",
-        "agency": "Outros",
-        "region": "Outros",
+        "agency": "Ápice",
+        "region": "Norte",
         "date": "02/07/2026",
-        "dur": "0m 3s",
+        "dur": "0m 0s",
         "score": 0,
         "scenario": "ENVIO_DOCUMENTO",
         "lqa": "N/A",
-        "interactions": 3,
+        "interactions": 7,
         "messages": [
             {
                 "role": "AI",
@@ -6708,27 +6736,27 @@ const RAW_SIMULATIONS = [
     },
     {
         "name": "João Pedro",
-        "agency": "Outros",
-        "region": "Outros",
+        "agency": "Ápice",
+        "region": "Norte",
         "date": "02/07/2026",
         "dur": "0m 0s",
         "score": 0,
         "scenario": "ENVIO_DOCUMENTO",
         "lqa": "N/A",
-        "interactions": 1,
+        "interactions": 0,
         "messages": [],
         "finished": false
     },
     {
         "name": "João Pedro",
-        "agency": "Outros",
-        "region": "Outros",
+        "agency": "Ápice",
+        "region": "Norte",
         "date": "02/07/2026",
-        "dur": "1m 4s",
+        "dur": "0m 48s",
         "score": 0,
         "scenario": "ENVIO_DOCUMENTO",
         "lqa": "N/A",
-        "interactions": 1,
+        "interactions": 3,
         "messages": [
             {
                 "role": "AI",
@@ -6743,18 +6771,18 @@ const RAW_SIMULATIONS = [
                 "text": "Desculpe, não posso agendar sem antes receber o material por e-mail.  \nSe preferir, envie um resumo técnico objetivo com coberturas e custo estimado."
             }
         ],
-        "finished": false
+        "finished": true
     },
     {
         "name": "Michele Geracao12a24",
         "agency": "Geração",
         "region": "Centro-Oeste",
         "date": "07/07/2026",
-        "dur": "0m 3s",
+        "dur": "0m 1s",
         "score": 0,
         "scenario": "PROSPECT_FRIO",
         "lqa": "N/A",
-        "interactions": 1,
+        "interactions": 2,
         "messages": [
             {
                 "role": "HUMAN",
@@ -6772,11 +6800,11 @@ const RAW_SIMULATIONS = [
         "agency": "Geração",
         "region": "Centro-Oeste",
         "date": "07/07/2026",
-        "dur": "1m 15s",
+        "dur": "0m 47s",
         "score": 0,
         "scenario": "PROSPECT_FRIO",
         "lqa": "N/A",
-        "interactions": 6,
+        "interactions": 11,
         "messages": [
             {
                 "role": "HUMAN",
@@ -6841,18 +6869,18 @@ const RAW_SIMULATIONS = [
                 "text": "(silence)"
             }
         ],
-        "finished": false
+        "finished": true
     },
     {
         "name": "Michele Geracao12a24",
         "agency": "Geração",
         "region": "Centro-Oeste",
         "date": "16/07/2026",
-        "dur": "2m 5s",
+        "dur": "1m 17s",
         "score": 50,
         "scenario": "PROSPECT_FRIO",
         "lqa": "N/A",
-        "interactions": 14,
+        "interactions": 23,
         "messages": [
             {
                 "role": "HUMAN",
@@ -6958,7 +6986,7 @@ const RAW_SIMULATIONS = [
         "score": 0,
         "scenario": "PROSPECT_FRIO",
         "lqa": "N/A",
-        "interactions": 1,
+        "interactions": 0,
         "messages": [],
         "finished": false
     },
@@ -6967,11 +6995,11 @@ const RAW_SIMULATIONS = [
         "agency": "Geração",
         "region": "Centro-Oeste",
         "date": "16/07/2026",
-        "dur": "1m 31s",
+        "dur": "1m 6s",
         "score": 52,
         "scenario": "PROSPECT_FRIO",
         "lqa": "N/A",
-        "interactions": 6,
+        "interactions": 10,
         "messages": [
             {
                 "role": "HUMAN",
@@ -7025,7 +7053,7 @@ const RAW_SIMULATIONS = [
         "score": 0,
         "scenario": "RECOMENDACOES",
         "lqa": "N/A",
-        "interactions": 1,
+        "interactions": 2,
         "messages": [
             {
                 "role": "HUMAN",
@@ -7043,11 +7071,11 @@ const RAW_SIMULATIONS = [
         "agency": "Geração",
         "region": "Centro-Oeste",
         "date": "07/07/2026",
-        "dur": "0m 42s",
+        "dur": "0m 19s",
         "score": 0,
         "scenario": "RECOMENDACOES",
         "lqa": "N/A",
-        "interactions": 4,
+        "interactions": 6,
         "messages": [
             {
                 "role": "HUMAN",
@@ -7081,11 +7109,11 @@ const RAW_SIMULATIONS = [
         "agency": "Geração",
         "region": "Centro-Oeste",
         "date": "07/07/2026",
-        "dur": "2m 29s",
+        "dur": "1m 56s",
         "score": 0,
         "scenario": "RECOMENDACOES",
         "lqa": "N/A",
-        "interactions": 8,
+        "interactions": 13,
         "messages": [
             {
                 "role": "HUMAN",
@@ -7151,7 +7179,7 @@ const RAW_SIMULATIONS = [
         "score": 0,
         "scenario": "PROSPECT_FRIO",
         "lqa": "N/A",
-        "interactions": 1,
+        "interactions": 0,
         "messages": [],
         "finished": false
     },
@@ -7160,11 +7188,11 @@ const RAW_SIMULATIONS = [
         "agency": "Geração",
         "region": "Centro-Oeste",
         "date": "07/07/2026",
-        "dur": "4m 0s",
+        "dur": "2m 39s",
         "score": 0,
         "scenario": "PROSPECT_FRIO",
         "lqa": "N/A",
-        "interactions": 10,
+        "interactions": 18,
         "messages": [
             {
                 "role": "HUMAN",
@@ -7246,11 +7274,11 @@ const RAW_SIMULATIONS = [
         "agency": "Ark",
         "region": "Nordeste",
         "date": "07/07/2026",
-        "dur": "1m 2s",
+        "dur": "0m 33s",
         "score": 0,
         "scenario": "ENVIO_DOCUMENTO",
         "lqa": "N/A",
-        "interactions": 2,
+        "interactions": 5,
         "messages": [
             {
                 "role": "AI",
@@ -7284,7 +7312,7 @@ const RAW_SIMULATIONS = [
         "score": 0,
         "scenario": "PROSPECT_FRIO",
         "lqa": "N/A",
-        "interactions": 1,
+        "interactions": 0,
         "messages": [],
         "finished": false
     },
@@ -7293,11 +7321,11 @@ const RAW_SIMULATIONS = [
         "agency": "Ark",
         "region": "Nordeste",
         "date": "08/07/2026",
-        "dur": "0m 7s",
+        "dur": "0m 2s",
         "score": 0,
         "scenario": "PROSPECT_FRIO",
         "lqa": "N/A",
-        "interactions": 1,
+        "interactions": 2,
         "messages": [
             {
                 "role": "HUMAN",
@@ -7315,11 +7343,11 @@ const RAW_SIMULATIONS = [
         "agency": "Ark",
         "region": "Nordeste",
         "date": "08/07/2026",
-        "dur": "2m 23s",
+        "dur": "1m 31s",
         "score": 78,
         "scenario": "PROSPECT_FRIO",
         "lqa": "N/A",
-        "interactions": 7,
+        "interactions": 14,
         "messages": [
             {
                 "role": "AI",
@@ -7385,11 +7413,11 @@ const RAW_SIMULATIONS = [
         "agency": "Ark",
         "region": "Nordeste",
         "date": "10/07/2026",
-        "dur": "3m 51s",
+        "dur": "2m 45s",
         "score": 62,
         "scenario": "PROSPECT_FRIO",
         "lqa": "N/A",
-        "interactions": 8,
+        "interactions": 14,
         "messages": [
             {
                 "role": "HUMAN",
@@ -7455,11 +7483,11 @@ const RAW_SIMULATIONS = [
         "agency": "Ark",
         "region": "Nordeste",
         "date": "13/07/2026",
-        "dur": "1m 45s",
+        "dur": "1m 21s",
         "score": 0,
         "scenario": "PROSPECT_FRIO",
         "lqa": "N/A",
-        "interactions": 4,
+        "interactions": 8,
         "messages": [
             {
                 "role": "HUMAN",
@@ -7501,11 +7529,11 @@ const RAW_SIMULATIONS = [
         "agency": "Ark",
         "region": "Nordeste",
         "date": "13/07/2026",
-        "dur": "2m 14s",
+        "dur": "1m 38s",
         "score": 53,
         "scenario": "PROSPECT_FRIO",
         "lqa": "N/A",
-        "interactions": 6,
+        "interactions": 12,
         "messages": [
             {
                 "role": "HUMAN",
@@ -7563,11 +7591,11 @@ const RAW_SIMULATIONS = [
         "agency": "Ark",
         "region": "Nordeste",
         "date": "13/07/2026",
-        "dur": "1m 21s",
+        "dur": "1m 1s",
         "score": 73,
         "scenario": "PROSPECT_FRIO",
         "lqa": "N/A",
-        "interactions": 5,
+        "interactions": 9,
         "messages": [
             {
                 "role": "HUMAN",
@@ -7613,11 +7641,11 @@ const RAW_SIMULATIONS = [
         "agency": "Ark",
         "region": "Nordeste",
         "date": "14/07/2026",
-        "dur": "2m 52s",
+        "dur": "1m 52s",
         "score": 52,
         "scenario": "PROSPECT_FRIO",
         "lqa": "N/A",
-        "interactions": 9,
+        "interactions": 16,
         "messages": [
             {
                 "role": "HUMAN",
@@ -7695,20 +7723,364 @@ const RAW_SIMULATIONS = [
         "score": 0,
         "scenario": "PROSPECT_FRIO",
         "lqa": "N/A",
-        "interactions": 1,
+        "interactions": 0,
         "messages": [],
         "finished": false
+    },
+    {
+        "name": "Parceira Ark",
+        "agency": "Ark",
+        "region": "Nordeste",
+        "date": "28/07/2026",
+        "dur": "0m 0s",
+        "score": 0,
+        "scenario": "RECOMENDACOES",
+        "lqa": "N/A",
+        "interactions": 0,
+        "messages": [],
+        "finished": false
+    },
+    {
+        "name": "Parceira Ark",
+        "agency": "Ark",
+        "region": "Nordeste",
+        "date": "28/07/2026",
+        "dur": "0m 11s",
+        "score": 0,
+        "scenario": "RECOMENDACOES",
+        "lqa": "N/A",
+        "interactions": 3,
+        "messages": [
+            {
+                "role": "HUMAN",
+                "text": "Olá!"
+            },
+            {
+                "role": "HUMAN",
+                "text": "É, não sei se você sabe, mas a MetLife ela investe num marketing, é, de branding, por isso que os nossos serviços são todos personalizados. O que você achou dessa reunião?"
+            },
+            {
+                "role": "AI",
+                "text": "You did well. The presentation was clear and focused on what"
+            }
+        ],
+        "finished": false
+    },
+    {
+        "name": "Parceira Ark",
+        "agency": "Ark",
+        "region": "Nordeste",
+        "date": "28/07/2026",
+        "dur": "2m 9s",
+        "score": 53,
+        "scenario": "RECOMENDACOES",
+        "lqa": "N/A",
+        "interactions": 31,
+        "messages": [
+            {
+                "role": "HUMAN",
+                "text": "Então Roberta, até aqui você ficou com alguma dúvida?"
+            },
+            {
+                "role": "AI",
+                "text": "Ficou tudo claro, Roberta.  \nA única coisa que quero confirmar é o início da vigência da apólice."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Perfeito. Agora nós colocaremos o seu-- preencheremos a sua ficha de saúde e você vai passar por uma análise da seguradora. Somente após a aprovação da seguradora que você começa com as coberturas vigentes"
+            },
+            {
+                "role": "AI",
+                "text": "Beleza. Pode seguir com a ficha de saúde então.  \nMe avisa se precisarem de algo específico meu, por favor."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Perfeito. É, até aqui ficou alguma dúvida? Você, você tem alguma observação?"
+            },
+            {
+                "role": "AI",
+                "text": "Tudo certo por aqui.  \nSó peço que, se aparecer alguma pendência na ficha, você me avise por mensagem rápida."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Com certeza, pode ficar tranquila. Assim que a MetLife me notificar, eu te aviso. É, como que ficou? Você gostou da apresentação? Me dá uma nota de zero a dez"
+            },
+            {
+                "role": "AI",
+                "text": "Nota oito.  \nApresentação foi clara e objetiva, só esperava um pouco mais de exemplos práticos sobre sinistros."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Perfeito. É, e você conhece alguém que também pode conhecer essa apresentação, conhecer um pouco mais sobre as proteções? Me fala quem você acha que do seu ciclo de amizade, seus familiares, pessoas que você ama, que você acha que faz sentido conhecer também"
+            },
+            {
+                "role": "AI",
+                "text": "Olha, prefiro não dar nomes agora.  \nSe você me mostrar como vai abordar essas pessoas sem me expor, aí eu penso em indicar alguém."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Com certeza, você pode ficar tranquila. Como que eu faço, tá? Eu te mando uma mensagem, você avisa a essas pessoas que eu vou entrar em contato, que é uma apresentação sem compromisso pra eles conhecerem o planejamento financeiro e somente após você me sinalizar que avisou, eu entro em contato com eles"
+            },
+            {
+                "role": "AI",
+                "text": "Certo. Me manda a mensagem quando for para eu avisar, combinado.  \nEu aviso só as pessoas mais próximas e te dou sinal verde antes de você falar com elas."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Legal! Me fala o nome de quem você tá pensando em avisar"
+            },
+            {
+                "role": "AI",
+                "text": "Prefiro começar com uma pessoa só.  \nPenso na minha irmã, Ana, que toma decisões financeiras com cuidado e pode se interessar."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Muito legal, a Ana. Quem mais que você acha que ia legal também saber?"
+            },
+            {
+                "role": "AI",
+                "text": "Penso no meu cunhado, Marcelo.  \nEle gere as finanças da família e costuma ouvir recomendações práticas."
+            },
+            {
+                "role": "HUMAN",
+                "text": "A Ana, o Marcelo. Ééé, você tem também mais algum amigo, alguém mais próximo que você queira pensar assim, queira falar?"
+            },
+            {
+                "role": "AI",
+                "text": "Tem mais uma pessoa que eu lembro agora, o meu sócio, Ricardo.  \nEle lida direto com risco e custos, pode achar útil."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Perfeito, o que mais?"
+            },
+            {
+                "role": "AI",
+                "text": "Tem mais uma colega da franquia, a Juliana.  \nEla cuida dos recursos humanos e curte esse tipo de planejamento."
+            },
+            {
+                "role": "HUMAN",
+                "text": "A Juliana, o Ricardo, Marcela, a Ana. Tem mais alguém próximo? O, o seu personal, o advogado?"
+            },
+            {
+                "role": "AI",
+                "text": "Não, por enquanto é só essa galera mesmo.  \nSe eu lembrar de mais alguém eu te aviso antes, combinado?"
+            },
+            {
+                "role": "HUMAN",
+                "text": "Perfeito, combinado. Agora me fala o telefone da Ana"
+            },
+            {
+                "role": "AI",
+                "text": "Desculpa, não posso compartilhar dados pessoais aqui.  \nPosso avisar a Ana e pedir que ela entre em contato com você quando estiver pronta."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Claro, pode sim, sem problema. Mas eu, eu gosto de pegar o contato, até porque a vi-- a gente sabe que a vida dela é muito corrida. Se ela, caso ela esquecer, quando você avisar, aí assim eu mando a mensagem pra ela, pode ser?"
+            },
+            {
+                "role": "AI",
+                "text": "Desculpa, não vou passar o número dela.  \nAviso a Ana e peço para ela te retornar quando puder."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Tá bem, mas eu garanto pra você que você pode ficar tranquila, tá? Assim como a Cristiane fez com você, eu só vou av-- entrar em contato quando você me sinalizar que eu posso, tá? Pode confiar em mim"
+            },
+            {
+                "role": "AI",
+                "text": "Tá bom, confio.  \nSó não me peça o número dela; eu aviso e te dou o sinal verde quando ela confirmar."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Combinado então, vamo fazer assim. Assim que cê fala com ela, cê me passa, mas eu, euuu posso-- eu vou te lembrar, tá bem?"
+            },
+            {
+                "role": "AI",
+                "text": "Beleza, pode me lembrar sim.  \nQuando eu falar com ela, eu te dou o sinal verde antes de você entrar em contato."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Tá bem então, obrigada"
+            }
+        ],
+        "finished": true
+    },
+    {
+        "name": "Parceira Ark",
+        "agency": "Ark",
+        "region": "Nordeste",
+        "date": "28/07/2026",
+        "dur": "0m 0s",
+        "score": 0,
+        "scenario": "RECOMENDACOES",
+        "lqa": "N/A",
+        "interactions": 0,
+        "messages": [],
+        "finished": false
+    },
+    {
+        "name": "Parceira Ark",
+        "agency": "Ark",
+        "region": "Nordeste",
+        "date": "28/07/2026",
+        "dur": "3m 11s",
+        "score": 73,
+        "scenario": "RECOMENDACOES",
+        "lqa": "N/A",
+        "interactions": 35,
+        "messages": [
+            {
+                "role": "HUMAN",
+                "text": "Então Juliana, é, até aqui ficou alguma dúvida?"
+            },
+            {
+                "role": "AI",
+                "text": "Não, está claro. A proposta e os custos que você explicou fazem sentido. Pode seguir com o encaminhamento."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Perfeito, agora nós vamos colocar sua proposta em análise, preencher a sua ficha de saúde e após a aprovação você já estará com o seguro ativo, certo?"
+            },
+            {
+                "role": "AI",
+                "text": "Certo, perfeito. Só confirme uma coisa rápida: vocês me avisam por e-mail quando a ficha de saúde estiver pronta para eu assinar?"
+            },
+            {
+                "role": "HUMAN",
+                "text": "Não, nós vamos fazer agora, tá? Juntas e eu já te passo o talking e você assina agora mesmo. A gente já deixa a sua ficha, é, aprovada pra análise, tá bem?"
+            },
+            {
+                "role": "AI",
+                "text": "Tudo bem, então vamos fazer agora. Estou pronta para preencher a ficha com você."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Perfeito, agora que já preenchemos a ficha, é, eu gostaria de saber o que, é-- primeiramente, né, parabéns pela sua escolha. A sua decisão vai ser muito importante aí pra você, pra quem você ama, com certeza Muito parabéns É, e seja bem-vinda à seguradora"
+            },
+            {
+                "role": "HUMAN",
+                "text": "Agora, ééé, eu queria que você me desse uma nota de zero a dez na apresentação"
+            },
+            {
+                "role": "AI",
+                "text": "Sete. Você explicou bem os pontos essenciais, mas houve algumas pausas e repetições que quebraram o ritmo."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Perfeito, muito obrigado pelo feedback, irei melhorar isso pras próximas. É muito importante mesmo a gente receber, é, feedbacks desse tipo, até pro meu melhor desempenho. Muito obrigado mesmo. E você acredita"
+            },
+            {
+                "role": "HUMAN",
+                "text": "Quem vem na sua mente que também poderia conhecer um pouco sobre essa proteção, sobre garantias, o que que você pensa? Alguém que, é, do seu meio de amigos"
+            },
+            {
+                "role": "HUMAN",
+                "text": "Gaguejei"
+            },
+            {
+                "role": "AI",
+                "text": "Tudo bem, acontece. Quem me veio à cabeça agora foi o Alexandre, do meu círculo profissional. Pode perguntar para ele só que eu aviso antes, e prefiro que você não mencione meu nome no primeiro contato."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Perfeito! Ééé, você prefere que não fale? É que normalmente quando nós pegamos a referência, eu falo de onde eu veio, né, essa referência. Posso pelo menos dizer que você lembrou dele durante a apresentação?"
+            },
+            {
+                "role": "AI",
+                "text": "Prefiro que você não mencione meu nome no primeiro contato. Pode dizer apenas que lembraram dele durante a apresentação, sem associar a mim."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Certo. Seria importante até pra ele entender o porquê que eu tô fazendo esse contato, por que que eu tô entrando, é, explicando pra ele a importância da proteção, que viesse de alguém próximo essa lembrança. É importante que o Alexandre saiba que você se preocupa e gostaria que ele também conhecesse. Posso só mencionar que você lembrou dele?"
+            },
+            {
+                "role": "AI",
+                "text": "Prefiro que não. Pode dizer apenas que lembraram dele durante a apresentação, sem citar meu nome nem sugerir que fui eu."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Sem problema, perfeito. É, você tem alguém mais próximo, um irmão, uma irmã, um primo, um amigo que você queira também que conheça? Alguém mais pessoal?"
+            },
+            {
+                "role": "AI",
+                "text": "Tem a Cláudia, minha irmã, que talvez se interesse."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Legal, a Cláudia. Ééé, o que que a Cláudia faz?"
+            },
+            {
+                "role": "AI",
+                "text": "Ela é diretora de uma escola primária, trabalha com gestão escolar e tem interesse em proteção para a família. Pode ser um bom contato."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Perfeito. Tem a Cláudia também, muito bom. Quem mais que você pensa que faz sentido? De repente, um médico, advogado, personal trainer"
+            },
+            {
+                "role": "AI",
+                "text": "Pensei no Alexandre e na Cláudia mesmo. Fora eles, talvez a Célia, que é dentista e tem família jovem. Posso te passar o contato dela, mas aviso antes."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Perfeito, muito legal. Tem mais alguém que você pensa que faz sentido também?"
+            },
+            {
+                "role": "AI",
+                "text": "Acho que, por enquanto, é só a Célia além da Cláudia e do Alexandre. Se quiser, posso te passar a indicação da Célia depois, quando eu avisar ela."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Perfeito. Ééé, pode me passar o contato de todos, tá? Perfeito, que eu só vou fazer contato com eles após você avisar. Exceto Alexandre, que você prefere que eu não mencione seu nome, tá bem? Ééé, eu agradeço muito. Mais uma vez eu parabenizo a sua decisão e assim que a sua proposta for aprovada, eu volto com você pra te avisar, tá bem?"
+            },
+            {
+                "role": "AI",
+                "text": "Posso te passar depois os contatos da Cláudia e da Célia quando eu avisar elas.  \nSobre o Alexandre, mantenha sem meu nome no primeiro contato, por favor."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Com certeza, pode ficar tranquilo. Ééé, combinado então, me passa os contatos da Célia e da Cláudia e pode deixar que com o Alexandre eu falo sem mencionar você"
+            },
+            {
+                "role": "AI",
+                "text": "Tudo bem. Eu te passo os contatos da Cláudia e da Célia depois que eu avisar elas, como combinamos. Pode seguir com o contato do Alexandre sem mencionar meu nome."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Certo, perfeito. É, você não prefere já me passar o contato da Célia e da Cláudia? Porqueee eu sei que a vida é bem corrida, você vai ca-acabar fazendo outras coisas e aca-- e esquece depois. É, me passa agora e aí eu aguardo só você me dar o ok pra falar com elas"
+            },
+            {
+                "role": "AI",
+                "text": "Prefiro passar depois, quando eu já tiver avisado elas. Se quiser, deixa registrado aqui que eu confirmo antes de você fazer o primeiro contato."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Tá bem então, combinado. Muito obrigado, viu Juliana?"
+            },
+            {
+                "role": "AI",
+                "text": "Por nada. Fico no aguardo do seu retorno sobre a aprovação."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Perfeito. Até logo"
+            },
+            {
+                "role": "AI",
+                "text": "Até logo."
+            }
+        ],
+        "finished": true
     },
     {
         "name": "Ark Parceiro",
         "agency": "Ark",
         "region": "Nordeste",
         "date": "09/07/2026",
-        "dur": "3m 54s",
+        "dur": "2m 37s",
         "score": 68,
         "scenario": "PROSPECT_FRIO",
-        "lqa": 100.0,
-        "interactions": 14,
+        "lqa": "N/A",
+        "interactions": 27,
         "messages": [
             {
                 "role": "HUMAN",
@@ -7826,11 +8198,11 @@ const RAW_SIMULATIONS = [
         "agency": "Ark",
         "region": "Nordeste",
         "date": "09/07/2026",
-        "dur": "1m 19s",
+        "dur": "0m 48s",
         "score": 58,
         "scenario": "PROSPECT_FRIO",
         "lqa": "N/A",
-        "interactions": 6,
+        "interactions": 12,
         "messages": [
             {
                 "role": "HUMAN",
@@ -7888,11 +8260,11 @@ const RAW_SIMULATIONS = [
         "agency": "Ark",
         "region": "Nordeste",
         "date": "09/07/2026",
-        "dur": "0m 4s",
+        "dur": "0m 0s",
         "score": 0,
         "scenario": "PROSPECT_FRIO",
         "lqa": "N/A",
-        "interactions": 1,
+        "interactions": 2,
         "messages": [
             {
                 "role": "HUMAN",
@@ -7903,18 +8275,18 @@ const RAW_SIMULATIONS = [
                 "text": "Morning. I am busy on the farm right now. What do you want?"
             }
         ],
-        "finished": false
+        "finished": true
     },
     {
         "name": "Ark Parceiro",
         "agency": "Ark",
         "region": "Nordeste",
         "date": "10/07/2026",
-        "dur": "2m 54s",
+        "dur": "1m 51s",
         "score": 76,
         "scenario": "PROSPECT_FRIO",
         "lqa": "N/A",
-        "interactions": 11,
+        "interactions": 20,
         "messages": [
             {
                 "role": "HUMAN",
@@ -8000,28 +8372,2360 @@ const RAW_SIMULATIONS = [
         "finished": true
     },
     {
-        "name": "GerenteSp Parceira",
-        "agency": "Outros",
+        "name": "Sophie Géraud",
+        "agency": "rhapsody",
         "region": "Outros",
-        "date": "02/07/2026",
+        "date": "06/05/2026",
+        "dur": "0m 0s",
+        "score": 0,
+        "scenario": "PROSPECT_FRIO",
+        "lqa": "N/A",
+        "interactions": 0,
+        "messages": [],
+        "finished": false
+    },
+    {
+        "name": "Sophie Géraud",
+        "agency": "rhapsody",
+        "region": "Outros",
+        "date": "06/05/2026",
+        "dur": "0m 0s",
+        "score": 23,
+        "scenario": "PROSPECT_FRIO",
+        "lqa": "N/A",
+        "interactions": 6,
+        "messages": [
+            {
+                "role": "HUMAN",
+                "text": "Bom dia! Roberta Touloube. Mm."
+            },
+            {
+                "role": "AI",
+                "text": "Bom dia. Quem é exatamente e qual o motivo da ligação? Tenho só uns minutos."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Onze minutos? É... Então, uma amiga me disse que você precisa uma contrato de... (suspiro) São de... Seguro de vida. Seguro de vida. É, é."
+            },
+            {
+                "role": "AI",
+                "text": "Olha, sou a Fernanda. Tenho só uns minutos porque estou atendendo paciente. Não goste de abordagens comerciais inesperadas. Diga rápido: por que eu precisaria de um seguro de vida?"
+            },
+            {
+                "role": "HUMAN",
+                "text": "Você conhecem a Silvia? Ela me falos-- falo sobre você."
+            },
+            {
+                "role": "AI",
+                "text": "Conheço a Silvia, sim. Ela já me falou que você trabalha com seguros. O que exatamente você quer propor, seja breve."
+            }
+        ],
+        "finished": true
+    },
+    {
+        "name": "Sophie Géraud",
+        "agency": "rhapsody",
+        "region": "Outros",
+        "date": "06/05/2026",
+        "dur": "0m 0s",
+        "score": 0,
+        "scenario": "PROSPECT_FRIO",
+        "lqa": "N/A",
+        "interactions": 0,
+        "messages": [],
+        "finished": false
+    },
+    {
+        "name": "Sophie Géraud",
+        "agency": "rhapsody",
+        "region": "Outros",
+        "date": "06/05/2026",
+        "dur": "0m 0s",
+        "score": 25,
+        "scenario": "PROSPECT_FRIO",
+        "lqa": "N/A",
+        "interactions": 8,
+        "messages": [
+            {
+                "role": "HUMAN",
+                "text": "Oi, Paulo, tudo bem?"
+            },
+            {
+                "role": "AI",
+                "text": "Oi. Não sou o Paulo. Quem está falando?"
+            },
+            {
+                "role": "HUMAN",
+                "text": "Desculpe, o que é o seu nome?"
+            },
+            {
+                "role": "AI",
+                "text": "Marcos. Quem fala aí? Estou ocupado agora, é sobre o Paulo?"
+            },
+            {
+                "role": "HUMAN",
+                "text": "Oh, this could be a thing. Cinco minutos para falar um pouco."
+            },
+            {
+                "role": "AI",
+                "text": "Cinco minutos agora está bom. Pode falar."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Você conhece a Roberta? Ela me falou sobre você."
+            },
+            {
+                "role": "AI",
+                "text": "Conheço não, não lembro de nenhuma Roberta que me tenha recomendado. Quem é a Roberta?"
+            }
+        ],
+        "finished": true
+    },
+    {
+        "name": "Sophie Géraud",
+        "agency": "rhapsody",
+        "region": "Outros",
+        "date": "06/05/2026",
+        "dur": "0m 0s",
+        "score": 35,
+        "scenario": "PROSPECT_FRIO",
+        "lqa": "N/A",
+        "interactions": 8,
+        "messages": [
+            {
+                "role": "HUMAN",
+                "text": "Bonjour, Sophie, conseillère MetLife, vous allez bien ?"
+            },
+            {
+                "role": "AI",
+                "text": "Qui êtes-vous vraiment et comment avez-vous eu mon numéro ?"
+            },
+            {
+                "role": "HUMAN",
+                "text": "Alors, je vous appelle de la part de Patrick, votre collègue qui m'a dit que vous lui avez évoqué des... Et des besoins, notamment en assurance vie."
+            },
+            {
+                "role": "AI",
+                "text": "Patrick ? Je ne connais pas de Patrick. Qui êtes-vous exactement et pourquoi vous me dites ça maintenant ?"
+            },
+            {
+                "role": "HUMAN",
+                "text": "Alors c'était Patrick de la compta."
+            },
+            {
+                "role": "AI",
+                "text": "Patrick de la compta ? Bon, d'accord. C'est quoi exactement votre proposition et pourquoi vous me réveillez au milieu du taf ?"
+            },
+            {
+                "role": "HUMAN",
+                "text": "(rire) Vous dormez au taf ?"
+            },
+            {
+                "role": "AI",
+                "text": "Non, je suis au comptoir, j'ai pas le temps de plaisanter. Expliquez vite ce que vous voulez."
+            }
+        ],
+        "finished": true
+    },
+    {
+        "name": "Sophie Géraud",
+        "agency": "rhapsody",
+        "region": "Outros",
+        "date": "06/05/2026",
+        "dur": "0m 0s",
+        "score": 21,
+        "scenario": "PROSPECT_FRIO",
+        "lqa": "N/A",
+        "interactions": 6,
+        "messages": [
+            {
+                "role": "HUMAN",
+                "text": "Oi... (pigarreia) (pigarreia) Oi? (risos) Não estou incômoda em dizer."
+            },
+            {
+                "role": "AI",
+                "text": "Quem é? Como conseguiu meu número? Tenho só alguns minutos."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Não é fácil, hã... (riso) (imita o sotaque francês) \"Estou ligando em nome da Roberta, sua prima. Você tem cinco minutos para mim?\""
+            },
+            {
+                "role": "AI",
+                "text": "Não sou prima da Roberta. Como conseguiu meu número? Tenho poucos minutos, seja direto."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Roberta, sua prima?"
+            },
+            {
+                "role": "AI",
+                "text": "Não, não conheço nenhuma Roberta. Como conseguiu meu número? Tenho pouco tempo, seja direto."
+            }
+        ],
+        "finished": true
+    },
+    {
+        "name": "Sophie Géraud",
+        "agency": "rhapsody",
+        "region": "Outros",
+        "date": "12/05/2026",
         "dur": "0m 0s",
         "score": 0,
         "scenario": "ENVIO_DOCUMENTO",
         "lqa": "N/A",
         "interactions": 1,
+        "messages": [
+            {
+                "role": "AI",
+                "text": "Très bien. Quel e-mail dois-je indiquer pour l'envoi du document, et quel format préférez-vous recevoir ?"
+            }
+        ],
+        "finished": false
+    },
+    {
+        "name": "Sophie Géraud",
+        "agency": "rhapsody",
+        "region": "Outros",
+        "date": "12/05/2026",
+        "dur": "0m 0s",
+        "score": 0,
+        "scenario": "ENVIO_DOCUMENTO",
+        "lqa": "N/A",
+        "interactions": 1,
+        "messages": [
+            {
+                "role": "AI",
+                "text": "Envoyez-moi le document par e-mail, je l’examinerai tranquillement et je vous ferai un retour."
+            }
+        ],
+        "finished": false
+    },
+    {
+        "name": "Sophie Géraud",
+        "agency": "rhapsody",
+        "region": "Outros",
+        "date": "12/05/2026",
+        "dur": "0m 0s",
+        "score": 0,
+        "scenario": "ENVIO_DOCUMENTO",
+        "lqa": "N/A",
+        "interactions": 1,
+        "messages": [
+            {
+                "role": "AI",
+                "text": "Envoyez le document par e-mail, je l'examinerai tranquillement et je vous ferai un retour."
+            }
+        ],
+        "finished": false
+    },
+    {
+        "name": "Sophie Géraud",
+        "agency": "rhapsody",
+        "region": "Outros",
+        "date": "12/05/2026",
+        "dur": "0m 0s",
+        "score": 0,
+        "scenario": "ENVIO_DOCUMENTO",
+        "lqa": "N/A",
+        "interactions": 1,
+        "messages": [
+            {
+                "role": "AI",
+                "text": "Envoyez-moi le document par e-mail, je l’étudierai calmement et je vous ferai un retour."
+            }
+        ],
+        "finished": false
+    },
+    {
+        "name": "Sophie Géraud",
+        "agency": "rhapsody",
+        "region": "Outros",
+        "date": "12/05/2026",
+        "dur": "0m 0s",
+        "score": 0,
+        "scenario": "ENVIO_DOCUMENTO",
+        "lqa": "N/A",
+        "interactions": 1,
+        "messages": [
+            {
+                "role": "AI",
+                "text": "Le mieux serait de me transmettre le document par mail, je l'étudie au calme et je reviens vers vous rapidement."
+            }
+        ],
+        "finished": false
+    },
+    {
+        "name": "Sophie Géraud",
+        "agency": "rhapsody",
+        "region": "Outros",
+        "date": "12/05/2026",
+        "dur": "0m 0s",
+        "score": 0,
+        "scenario": "ENVIO_DOCUMENTO",
+        "lqa": "N/A",
+        "interactions": 1,
+        "messages": [
+            {
+                "role": "AI",
+                "text": "Le mieux serait de me transmettre le document par mail, je l'étudie au calme et je reviens vers vous rapidement."
+            }
+        ],
+        "finished": false
+    },
+    {
+        "name": "Sophie Géraud",
+        "agency": "rhapsody",
+        "region": "Outros",
+        "date": "12/05/2026",
+        "dur": "0m 0s",
+        "score": 0,
+        "scenario": "ENVIO_DOCUMENTO",
+        "lqa": "N/A",
+        "interactions": 0,
+        "messages": [],
+        "finished": false
+    },
+    {
+        "name": "Sophie Géraud",
+        "agency": "rhapsody",
+        "region": "Outros",
+        "date": "12/05/2026",
+        "dur": "0m 0s",
+        "score": 0,
+        "scenario": "ENVIO_DOCUMENTO",
+        "lqa": "N/A",
+        "interactions": 0,
+        "messages": [],
+        "finished": false
+    },
+    {
+        "name": "Sophie Géraud",
+        "agency": "rhapsody",
+        "region": "Outros",
+        "date": "12/05/2026",
+        "dur": "0m 0s",
+        "score": 0,
+        "scenario": "ENVIO_DOCUMENTO",
+        "lqa": "N/A",
+        "interactions": 1,
+        "messages": [
+            {
+                "role": "AI",
+                "text": "Le plus simple : faites-moi suivre le document par e-mail, je l'analyse posément et je vous fais un retour."
+            }
+        ],
+        "finished": false
+    },
+    {
+        "name": "Sophie Géraud",
+        "agency": "rhapsody",
+        "region": "Outros",
+        "date": "12/05/2026",
+        "dur": "0m 0s",
+        "score": 0,
+        "scenario": "ENVIO_DOCUMENTO",
+        "lqa": "N/A",
+        "interactions": 1,
+        "messages": [
+            {
+                "role": "AI",
+                "text": "Le plus simple : faites-moi suivre le document par e-mail, je l'analyse posément et je vous fais un retour."
+            }
+        ],
+        "finished": false
+    },
+    {
+        "name": "Sophie Géraud",
+        "agency": "rhapsody",
+        "region": "Outros",
+        "date": "12/05/2026",
+        "dur": "0m 0s",
+        "score": 0,
+        "scenario": "ENVIO_DOCUMENTO",
+        "lqa": "N/A",
+        "interactions": 1,
+        "messages": [
+            {
+                "role": "AI",
+                "text": "Le plus simple : faites-moi suivre le"
+            }
+        ],
+        "finished": false
+    },
+    {
+        "name": "Sophie Géraud",
+        "agency": "rhapsody",
+        "region": "Outros",
+        "date": "12/05/2026",
+        "dur": "0m 0s",
+        "score": 0,
+        "scenario": "ENVIO_DOCUMENTO",
+        "lqa": "N/A",
+        "interactions": 1,
+        "messages": [
+            {
+                "role": "AI",
+                "text": "Le plus simple : faites-moi suivre le document par"
+            }
+        ],
+        "finished": false
+    },
+    {
+        "name": "Sophie Géraud",
+        "agency": "rhapsody",
+        "region": "Outros",
+        "date": "12/05/2026",
+        "dur": "0m 0s",
+        "score": 0,
+        "scenario": "ENVIO_DOCUMENTO",
+        "lqa": "N/A",
+        "interactions": 1,
+        "messages": [
+            {
+                "role": "AI",
+                "text": "Le plus pratique, c'est de m'envoyer le document par mail, je le parcours à mon rythme et je reviens vers vous avec mes impressions."
+            }
+        ],
+        "finished": false
+    },
+    {
+        "name": "Sophie Géraud",
+        "agency": "rhapsody",
+        "region": "Outros",
+        "date": "12/05/2026",
+        "dur": "0m 0s",
+        "score": 0,
+        "scenario": "ENVIO_DOCUMENTO",
+        "lqa": "N/A",
+        "interactions": 1,
+        "messages": [
+            {
+                "role": "AI",
+                "text": "Le plus simple : faites-moi suivre le document par e-mail, je l'analyse posément et je vous reviens dessus."
+            }
+        ],
+        "finished": false
+    },
+    {
+        "name": "Sophie Géraud",
+        "agency": "rhapsody",
+        "region": "Outros",
+        "date": "12/05/2026",
+        "dur": "0m 0s",
+        "score": 0,
+        "scenario": "ENVIO_DOCUMENTO",
+        "lqa": "N/A",
+        "interactions": 1,
+        "messages": [
+            {
+                "role": "AI",
+                "text": "Le plus simple : faites‑moi suivre le"
+            }
+        ],
+        "finished": false
+    },
+    {
+        "name": "Sophie Géraud",
+        "agency": "rhapsody",
+        "region": "Outros",
+        "date": "12/05/2026",
+        "dur": "0m 0s",
+        "score": 0,
+        "scenario": "ENVIO_DOCUMENTO",
+        "lqa": "N/A",
+        "interactions": 1,
+        "messages": [
+            {
+                "role": "AI",
+                "text": "Le plus simple : faites-moi suivre le document par e-mail, je l'analyse posément et je vous reviens dessus."
+            }
+        ],
+        "finished": false
+    },
+    {
+        "name": "Sophie Géraud",
+        "agency": "rhapsody",
+        "region": "Outros",
+        "date": "13/05/2026",
+        "dur": "0m 0s",
+        "score": 0,
+        "scenario": "PROSPECT_FRIO",
+        "lqa": "N/A",
+        "interactions": 2,
+        "messages": [
+            {
+                "role": "HUMAN",
+                "text": "Un deux un deux."
+            },
+            {
+                "role": "AI",
+                "text": "Je suis occupé, dites vite ce que vous voulez."
+            }
+        ],
+        "finished": false
+    },
+    {
+        "name": "Sophie Géraud",
+        "agency": "rhapsody",
+        "region": "Outros",
+        "date": "13/05/2026",
+        "dur": "0m 0s",
+        "score": 54,
+        "scenario": "RECOMENDACOES",
+        "lqa": "N/A",
+        "interactions": 41,
+        "messages": [
+            {
+                "role": "HUMAN",
+                "text": "Et bien, tiens, Gaud? Euh, voilà, c'est fait. On a conclu cette affaire. (rire) Moi personnellement je suis très content du travail qu'on a accompli ensemble et vous ?"
+            },
+            {
+                "role": "AI",
+                "text": "Content, oui. Vous avez fait le taf proprement et vite, j'apprécie. Dites-moi simplement quelle suite vous attendez de moi maintenant."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Alors qu'est-ce que vous avez apprécié dans notre démarche commune ?"
+            },
+            {
+                "role": "AI",
+                "text": "Vous avez été clair et rapide, sans blabla inutile.  \nVotre sens du timing m'a plu, et la solution était adaptée à ma situation réelle."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Donc, vous trouvez que ce qu'on a fait, nous avons du service ?"
+            },
+            {
+                "role": "AI",
+                "text": "Oui, clairement. Service réactif, rien de superflu, et la solution colle à ma réalité d'exploitant."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Bien. Du coup, euh... Est-ce qu'il y a des gens..."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Hein ? Est-ce qu'il y a des gens autour de vous... Faaack, euh... Ce même type de démarche rendrait également service à-"
+            },
+            {
+                "role": "AI",
+                "text": "Peut-être, oui. J'ai des collègues franchisés et quelques fournisseurs qui pourraient être intéressés, mais je préfère que vous cibliez plutôt les patrons de restaurants et commerçants."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Parce qu'en fait, les besoins que vous avez, ils sont uniques. En revanche, vous avez beaucoup de gens autour de vous qui ont le même type de situation à traiter. Et la question que je me pose c'est : est-ce que vous ne leur rendriez pas service en me les présentant de façon à ce que je puisse pour eux également ?"
+            },
+            {
+                "role": "AI",
+                "text": "Oui, je peux aider. Donnez-moi le profil précis que vous voulez toucher chez les restaurateurs, et je verrai qui dans mon réseau correspond."
+            },
+            {
+                "role": "HUMAN",
+                "text": "J'ai envie de vous retourner à la question, c'est: quelles sont les personnes qui ont le type de problématiques auxquelles nous, on répond C'est-à-dire des besoins de protection, des besoins d'épargne et des besoins de protection contre les coups durs ?"
+            },
+            {
+                "role": "AI",
+                "text": "Des patrons de restaurants indépendants, surtout ceux qui ont des emprunts ou des baux lourds.  \nLes commerçants avec familles et peu d’épargne, et les franchisés qui emploient du monde."
+            },
+            {
+                "role": "HUMAN",
+                "text": "D'accord et compte tenu de ce que vous savez de nos prestations et services quels sont les trois ou quatre noms- Auquel vous penseriez prioritaire ? Et auprès desquels notre démarche serait particulièrement utile ?"
+            },
+            {
+                "role": "AI",
+                "text": "Je préfère donner d'abord un nom ou deux ciblés, pas toute une liste d'un coup.  \nCommencez par contacter Marco, propriétaire d'une pizzeria face au centre commercial, et Sonia, qui tient une boulangerie et a récemment investi dans un deuxième four."
+            },
+            {
+                "role": "HUMAN",
+                "text": "C'est super. Bah écoutez, je vais les contacter euh... Bien sûr que je peux me recommander de votre part. Très bien."
+            },
+            {
+                "role": "AI",
+                "text": "D'accord pour Marco et Sonia, vous pouvez donner mon nom au premier contact.  \nPrévenez-moi quand vous les aurez appelés, je suis disponible pour en parler rapidement."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Très bien, je vais les appeler de votre part. Je vais leur dire que vous avez, euh, apprécié la façon dont on a travaillé ensemble pour mettre en place des solutions qui améliorent votre sécurité et, euh... Je vous donnerai après, je vous ferai part de leur réaction."
+            },
+            {
+                "role": "AI",
+                "text": "Parfait. Appelez-les quand vous voulez, je suis disponible le soir après mon service pour en parler rapidement."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Du coup, afin d'améliorer la perception qu'ils auront de ma démarche, est-ce que vous acceptez euh, de répondre à quelques questions qui me permettra de mieux cerner ma démarche vis-à-vis d'eux quand je prendrai contact avec eux ?"
+            },
+            {
+                "role": "AI",
+                "text": "Oui, je veux bien répondre. Posez vos questions précises, une ou deux à la fois, pour que ce soit rapide."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Déjà, quel est leur âge respectif ? (rire) Ah, pardon."
+            },
+            {
+                "role": "AI",
+                "text": "Marco a la quarantaine passée, autour de quarante-cinq ans.  \nSonia est plus jeune, elle a la trentaine avancée, environ trente-huit ans."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Est-ce que vous avez une idée approximative de leur niveau de revenus ? De façon à ce qu'on puisse rapidement calibrer la protection dont ils ont besoin en cas de coup dur ?"
+            },
+            {
+                "role": "AI",
+                "text": "Je n'ai pas leurs fiches de paie. Marco tourne un bon chiffre pour une pizzeria de quartier, probablement dans la fourchette supérieure des commerçants locaux.  \nSonia gagne moins, revenu moyen pour une boulangère qui réinvestit beaucoup dans son matériel."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Coucou !"
+            },
+            {
+                "role": "HUMAN",
+                "text": "Vous pouvez me communiquer leur numéro de téléphone ?"
+            },
+            {
+                "role": "AI",
+                "text": "Je ne peux pas communiquer leurs numéros de téléphone.  \nJe peux, si vous voulez, appeler Marco et Sonia pour les prévenir de votre démarche et leur demander si elles acceptent d’être contactées."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Je veux bien qu'on procède comme ça. Ma crainte, c'est que ça se perde un petit peu si je n'ai pas leur numéro de téléphone maintenant."
+            },
+            {
+                "role": "AI",
+                "text": "Ok, faites comme ça. Prévenez-les puis dites-moi quand elles ont accepté, et je vous confirmerai rapidement ma disponibilité pour en parler."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Donnez-moi deux... Ok, mais je n'ai pas leur numéro de téléphone justement."
+            },
+            {
+                "role": "AI",
+                "text": "Je ne peux pas vous donner leurs numéros. Appelez-moi quand vous les aurez prévenus et acceptés, je vous dirai quand je peux répondre ou échanger avec eux."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Alors, je ne comprends pas bien et je ne peux pas les contacter si vous— je n'ai pas le numéro de téléphone."
+            },
+            {
+                "role": "AI",
+                "text": "Calmez-vous. Je vous ai dit que je ne donne pas leurs numéros.  \nDonnez-moi plutôt un message court que je peux leur envoyer par WhatsApp pour les prévenir, et je vous dirai quand elles auront accepté d’être contactées."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Je suis d'accord avec vous, c'est mieux de respecter leur euh... Privauté. Donc, euh... Entendu pour que vous leur adressiez un message et dès qu'ils leur ont donné leur accord, je vous invite à me passer leur numéro de téléphone."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Entendu pour respecter... Leur privauté. Savez-vous s'ils ont des enfants ?"
+            },
+            {
+                "role": "AI",
+                "text": "Marco a deux enfants, des garçons.  \nSonia a un enfant, une petite fille."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Et connaissez-vous la Robi ?"
+            },
+            {
+                "role": "AI",
+                "text": "Non, je ne la connais pas. Qui est-elle exactement et quel lien elle aurait avec Marco ou Sonia ?"
+            },
+            {
+                "role": "HUMAN",
+                "text": "Pouvez-vous me donner leur passion ? Savez-vous ce qu'ils aiment faire en dehors de leur travail ?"
+            },
+            {
+                "role": "AI",
+                "text": "Marco aime le football et traîner au bar avec les autres patrons après le service.  \nSonia adore la cuisine maison et passe son dimanche à tester des recettes pour la boutique."
+            }
+        ],
+        "finished": true
+    },
+    {
+        "name": "Sophie Géraud",
+        "agency": "rhapsody",
+        "region": "Outros",
+        "date": "13/05/2026",
+        "dur": "0m 0s",
+        "score": 0,
+        "scenario": "RECOMENDACOES",
+        "lqa": "N/A",
+        "interactions": 22,
+        "messages": [
+            {
+                "role": "HUMAN",
+                "text": "Bon, très bien. Vous êtes content d'avoir signé ?"
+            },
+            {
+                "role": "AI",
+                "text": "Oui, satisfait. Le montage correspond exactement à ce que j'attendais sur le plan fiscal et de liquidité."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Super. Euh, dites, on n'a pas beaucoup de temps donc j'y vais franco. Vous auriez dans votre entourage des personnes qui pourraient être intéressées par une telle démarche ?"
+            },
+            {
+                "role": "AI",
+                "text": "Peut-être oui, mais dites d'abord précisément quel profil vous cherchez. Je préfère cibler avant de donner des noms."
+            },
+            {
+                "role": "HUMAN",
+                "text": "On partirait sur une comme pour vous sur une approche plutôt globale et je ne vais pas vous dire de profil particulier moi je m'adapte."
+            },
+            {
+                "role": "AI",
+                "text": "D'accord. Je peux réfléchir à deux ou trois personnes. Préférez-vous des profils entrepreneurs, cadres supérieurs ou professions libérales pour commencer ?"
+            },
+            {
+                "role": "HUMAN",
+                "text": "Écoutez, j'aurais tendance à vous dire des personnes qui vraiment sont le plus proche de vous et auprès desquelles vous avez beaucoup d'impact."
+            },
+            {
+                "role": "AI",
+                "text": "Ça me va, mais précisez juste une chose : je préfère que vous contactiez d'abord par message, en disant que je vous ai recommandé, pas d'appel direct sans prévenance."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Bien entendu, je l'aurais évoqué juste après. Euh, vous avez donc des noms à me proposer ?"
+            },
+            {
+                "role": "AI",
+                "text": "Je peux vous donner deux contacts. Le premier est un associé d'une family office, la quarantaine, actif sur les allocations alternatives. Le second est un ancien camarade promu récemment, cadre supérieur en gestion de fortune, la cinquantaine. Vous pouvez les contacter par message en disant que je vous ai recommandé."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Très bien. Vous pouvez me donner des éléments complémentaires sur leur âge, leur situation de famille et leur mail, bien entendu."
+            },
+            {
+                "role": "AI",
+                "text": "Je ne peux pas communiquer d'adresses mail personnelles.  \n\nJe peux par contre vous donner l'âge approximatif et la situation de famille de chacun, et vous mettre en relation différemment : je peux prévenir mes contacts que vous allez les contacter par message, ou leur transmettre votre message si vous me le donnez. Que préférez-vous ?"
+            },
+            {
+                "role": "HUMAN",
+                "text": "Bon ok, tu veux pas me donner leur email, mais, euh, tu peux me donner leur compte Instagram ?"
+            },
+            {
+                "role": "AI",
+                "text": "Non. Je ne partage pas leurs comptes Instagram.  \n\nJe peux prévenir chacun que vous allez leur envoyer un message ou transmettre votre message à leur place. Que préférez-vous ?"
+            },
+            {
+                "role": "HUMAN",
+                "text": "Moi, ce que je vous aurais bien proposé, c'est de leur envoyer un message directement en vous mettant en copie, comme ça, vous aviez tous les éléments."
+            },
+            {
+                "role": "AI",
+                "text": "Non, je préfère ne pas être mis en copie. Prévenez-les d'abord par message que vous allez les contacter et proposez que je fasse le relais si nécessaire."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Vous voulez que je les prévienne par message, mais alors comment je fais ?"
+            },
+            {
+                "role": "AI",
+                "text": "Envoyez un court message privé, poli et direct. Indiquez que vous avez récemment travaillé avec moi sur une solution patrimoniale et que je les ai invités à échanger si cela les intéresse. \n\nSi vous voulez, je vous propose un texte type très court que vous pouvez copier-coller."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Je veux bien vous faciliter la tâche. Euh... Ceci dit, oui, Colombe... Comment puis-je les contacter si vous ne me donnez pas leur email ?"
+            },
+            {
+                "role": "AI",
+                "text": "Vous les contactez comme je l'ai dit : envoyez-leur un court message privé pour dire que vous avez travaillé avec moi et que je peux les aider.  \n\nSi vous préférez, je peux remettre leur contact à jour en informant moi-même ces deux personnes que vous allez leur écrire, et leur demander l'autorisation de vous transmettre leur email. Quelle option choisissez-vous ?"
+            },
+            {
+                "role": "HUMAN",
+                "text": "Comment vous souhaitez que je les contacte ?"
+            },
+            {
+                "role": "AI",
+                "text": "Par message privé, court et direct, en précisant que vous les avez en tête et que je les ai invités à échanger. Si vous préférez, je peux d'abord les prévenir de votre message et demander l'autorisation de transmettre leur email."
+            }
+        ],
+        "finished": false
+    },
+    {
+        "name": "Sophie Géraud",
+        "agency": "rhapsody",
+        "region": "Outros",
+        "date": "02/07/2026",
+        "dur": "0m 38s",
+        "score": 24,
+        "scenario": "RECOMENDACOES",
+        "lqa": "N/A",
+        "interactions": 8,
+        "messages": [
+            {
+                "role": "AI",
+                "text": "Vous commencez par remercier et reconnaître ma décision, puis vous me demandez quoi exactement. Je ne donne pas de noms sans y réfléchir."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Très bien. Maintenant qu'vous, vous avez signé ce contrat, j'ai une petite-- un petit service à vous demander. Est-ce que vous pourriez- De 2 000 énormes personnes autour de vous qui peuvent être intéressées par nos services."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Très bien. Alors pour rappeler la situation, nous...- Oui. Votre ami Pedro m'a recommandé. De vous contacter pour un besoin en assurance santé. C'était bien ça ?"
+            },
+            {
+                "role": "AI",
+                "text": "Oui, c'est bien Pedro qui vous a parlé de moi. Il a mentionné que vous pourriez aider pour une assurance santé."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Très bien. Donc là, nous venons de le signer. Vous, vous en êtes ravie ?"
+            },
+            {
+                "role": "AI",
+                "text": "Oui, très satisfait. Le process a été fluide et vous avez été clair sur les options. J'attends maintenant que tout se mette en place."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Eh bien connaissez-vous autour de vous une personne qui comme le fait les autres pourrait euh être intéressée et au... Auprès de qui ? Vous pourriez dire que- (rire) Oui, oui, oui. Pouvons leur proposer quelque chose ?"
+            },
+            {
+                "role": "AI",
+                "text": "Je comprends l'idée, mais donnez-moi d'abord un peu de contexte sur la façon dont vous contacterez ces personnes. Je ne donne pas de noms sans être sûr que vous resterez discret."
+            }
+        ],
+        "finished": true
+    },
+    {
+        "name": "Sophie Géraud",
+        "agency": "rhapsody",
+        "region": "Outros",
+        "date": "02/07/2026",
+        "dur": "0m 21s",
+        "score": 0,
+        "scenario": "RECOMENDACOES",
+        "lqa": "N/A",
+        "interactions": 6,
+        "messages": [
+            {
+                "role": "HUMAN",
+                "text": "Très bien. Maintenant, vous venez de signer votre premier contrat avec nous. Félicitations et merci. Êtes-vous satisfaite du process ?"
+            },
+            {
+                "role": "AI",
+                "text": "Oui, globalement satisfaite. Le process était fluide et la visio claire, j'ai surtout apprécié votre réactivité."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Très bien, je vous remercie. Euh, vous pouvez aussi remercier Pedro alors, qui nous a mis en contact."
+            },
+            {
+                "role": "AI",
+                "text": "Parfait, merci. Dites-lui que je l'ai remercié de ma part. Vous pouvez mentionner mon nom au premier contact, à condition que vous restiez discret."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Ah très bien, euh, bien sûr, donnez-le-moi, je vous préviendrai avant de le contacter pour que vous m'assuriez que la méthode est bien la bonne."
+            },
+            {
+                "role": "AI",
+                "text": "Je préfère d'abord savoir comment vous comptez l'approcher. Quelle méthode utiliserez-vous au premier contact, et combien de temps ça prendra en moyenne ?"
+            }
+        ],
+        "finished": true
+    },
+    {
+        "name": "Sophie Géraud",
+        "agency": "rhapsody",
+        "region": "Outros",
+        "date": "02/07/2026",
+        "dur": "0m 14s",
+        "score": 30,
+        "scenario": "RECOMENDACOES",
+        "lqa": "N/A",
+        "interactions": 6,
+        "messages": [
+            {
+                "role": "HUMAN",
+                "text": "Très bien, je vous remercie pour cet entretien. Est-ce que vous êtes satisfait de notre process ?"
+            },
+            {
+                "role": "AI",
+                "text": "Oui, globalement satisfait. Vous avez été clair, méthodique et vous avez répondu à mes questions sans précipitation."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Très bien. Pedro a eu le...- Le défunt de nous mettre en contact."
+            },
+            {
+                "role": "AI",
+                "text": "Je ne comprends pas bien. Vous dites que Pedro vous a mis en contact avec qui exactement ?"
+            },
+            {
+                "role": "HUMAN",
+                "text": "Je veux parler de votre ami Pedro."
+            },
+            {
+                "role": "AI",
+                "text": "Pedro est un ancien collègue. Pourquoi voulez-vous le contacter exactement ?"
+            }
+        ],
+        "finished": true
+    },
+    {
+        "name": "Sophie Géraud",
+        "agency": "rhapsody",
+        "region": "Outros",
+        "date": "02/07/2026",
+        "dur": "0m 0s",
+        "score": 0,
+        "scenario": "RECOMENDACOES",
+        "lqa": "N/A",
+        "interactions": 0,
+        "messages": [],
+        "finished": false
+    },
+    {
+        "name": "Sophie Géraud",
+        "agency": "rhapsody",
+        "region": "Outros",
+        "date": "02/07/2026",
+        "dur": "1m 22s",
+        "score": 0,
+        "scenario": "RECOMENDACOES",
+        "lqa": "N/A",
+        "interactions": 15,
+        "messages": [
+            {
+                "role": "HUMAN",
+                "text": "Eh bien donc, vous venez de signer votre premier contrat avec nous. Etes-vous content ?"
+            },
+            {
+                "role": "AI",
+                "text": "Oui, très content. L'offre correspond bien à ce dont j'avais besoin et notre échange m'a mis en confiance."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Très bien. Votre ami Paolo avait visé juste par rapport à vos besoins."
+            },
+            {
+                "role": "AI",
+                "text": "Paolo a bien fait, oui. C'est agréable quand un collègue connaît nos besoins."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Écoutez, oui, effectivement. Est-ce que vous-même, vous pensez à des personnes autour de vous qui pourraient être intéressées ?"
+            },
+            {
+                "role": "AI",
+                "text": "Honnêtement, je suis un peu gêné à l'idée de filer des noms comme ça.  \nJ'aime pas transformer mes proches en carnet d'adresses sans les prévenir."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Écoutez, je comprends, mais si vous réfléchissez un petit peu, peut-être que vous avez des noms qui... Des personnes à qui ça rendrait service, justement ?"
+            },
+            {
+                "role": "AI",
+                "text": "Je comprends l'idée, mais j'ai besoin de prévenir les gens avant de leur donner votre contact.  \nDonnez-moi un peu de temps, je peux réfléchir et revenir vers vous avec une ou deux personnes."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Bien sûr, je me laisse réfléchir un petit peu. Vous parliez de Paolo, justement, qui est un collègue. Vous n'auriez pas d'autres collègues qui seraient... Potentiellement dans les mêmes... (musique intro)"
+            },
+            {
+                "role": "AI",
+                "text": "Honnêtement, je suis un peu gêné encore.  \nJ'ai des collègues, oui, mais je préfère les prévenir avant que vous ne les contactiez."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Oui, bien sûr. De toute façon, je ne les contacterai pas sans que vous m'en ayez donné l'autorisation."
+            },
+            {
+                "role": "AI",
+                "text": "Très bien, merci.  \nJe vais en parler discrètement autour de moi et je reviens vers vous quand j'ai le feu vert d'une ou deux personnes."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Très bien, mais juste pour savoir comme ça, vous pensez à des personnes en particulier ?"
+            },
+            {
+                "role": "AI",
+                "text": "Pour l'instant, je n'ai personne en tête précis.  \nJe préfère d'abord en parler avec ma compagne et quelques collègues avant de vous donner un nom."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Et votre compagne ? Pourquoi donc euh... ? Non, j'ai regardé. C'est le petit jeune de cinquante ans. Parce qu'ils occupent mes enfants, pardon. C'est ça qui m'arrive. Persona, persona, persona, ici. Euh... Euh... Il est vert, je crois. Oui. Non. Il est où, le nœud ? Rhôôô ! Oh ! On va pas dire 5e année pré-fil. Très bouche à oreille. En couple. Mon panier d'avocate. C'est un... Le... C'est le Badorien. J'ai envie de faire référence à sa compagne et avocate. C'est le mot expressif, sensibele. On va à l'Orne, c'est pas de la musique ? Si, il est bien hein. Festival de musique, carnaval, Saint-Jean. En beaucoup entre amis. Il a quarante-deux ans ? J'ai rien à voir avec ça, le contre. Pardon. Euh... Ah."
+            }
+        ],
+        "finished": false
+    },
+    {
+        "name": "Sophie Géraud",
+        "agency": "rhapsody",
+        "region": "Outros",
+        "date": "02/07/2026",
+        "dur": "0m 16s",
+        "score": 0,
+        "scenario": "RECOMENDACOES",
+        "lqa": "N/A",
+        "interactions": 2,
+        "messages": [
+            {
+                "role": "HUMAN",
+                "text": "Et voilà, je vous remets donc ici votre premier contrat signé. Vous êtes content ? Oui ?"
+            },
+            {
+                "role": "HUMAN",
+                "text": "Allô ? Tu parles. (musique en fond) Ah, oui ! (rire) C'est un sushot. Oui, c'est ça, les chins en l'air. Ah oui, j'ai trouvé ça... j'ai... Il faut que j'enlève les alertes Google parce que ça m'agace. Il y a un jaune, je ne sais pas ce que c'est jaune. À la gare. Tu vas donc quand même pas y aller, héhé. (rire)"
+            }
+        ],
+        "finished": false
+    },
+    {
+        "name": "Sophie Géraud",
+        "agency": "rhapsody",
+        "region": "Outros",
+        "date": "02/07/2026",
+        "dur": "1m 5s",
+        "score": 0,
+        "scenario": "RECOMENDACOES",
+        "lqa": "N/A",
+        "interactions": 12,
+        "messages": [
+            {
+                "role": "HUMAN",
+                "text": "Voilà, très bien. Écoutez, je vous remets ici votre premier contrat. Euhhh, avec nos signatures. Je vous remercie. Comment avez-vous trouvé le process ?"
+            },
+            {
+                "role": "AI",
+                "text": "Le process était efficace et sans surprise. J'ai apprécié la clarté des explications et la rapidité."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Très bien, écoutez, je suis ravie de vous, de vous entendre dire ça. Paolo a eu une très bonne idée de me mettre en contact."
+            },
+            {
+                "role": "AI",
+                "text": "Dites-lui que le contact était pertinent, je confirme. Avez-vous besoin que je vous donne un retour plus détaillé sur un point précis du dossier ?"
+            },
+            {
+                "role": "HUMAN",
+                "text": "Non, à ce stade, je pense que nous avons tous les éléments. De toute façon, vous savez que je reste disponible si vous aviez la moindre question. Je voulais savoir si vous avez dans votre entourage des personnes qui pourraient être intéressées ?"
+            },
+            {
+                "role": "AI",
+                "text": "Je préfère ne pas transmettre des noms sans prévenir les intéressés. Donnez-moi un peu de temps pour y penser et prévenir les personnes potentielles."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Bien entendu, je ne vais pas vous demander de noms maintenant. Et dans tous les cas, cette opération sera faite en accord avec vous. Mais vous pensez à des personnes comme ça ?"
+            },
+            {
+                "role": "AI",
+                "text": "Je vois quelques profils en tête, mais je préfère d'abord prévenir ces personnes avant que vous ne les contactiez. Donnez-moi le temps d'en parler avec eux, je reviens vers vous rapidement."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Très bien, j'ai compris. J'ai compris que vous deviez les contacter avant, c'est tout à fait légitime. Mais je voulais juste savoir si je peux vous aider, justement, dans cette démarche, notamment dans votre famille, vous avez peut-être des personnes qui ont les mêmes besoins que vous ?"
+            },
+            {
+                "role": "AI",
+                "text": "Je préfère procéder progressivement. Si vous me donnez un court script ou un angle clair, je peux en parler d'abord à ma sœur ou à mon frère et vous dire si l'un d'eux est intéressé."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Très bien. Dans quelle catégorie de produits pensez-vous qu'il pourrait avoir besoin ?"
+            },
+            {
+                "role": "AI",
+                "text": "Pour ma famille ce serait plutôt une protection décès ou une rente éducative pour les enfants.  \nDans mon cercle pro, des solutions d'épargne retraite défiscalisante seraient pertinentes."
+            }
+        ],
+        "finished": false
+    },
+    {
+        "name": "Sophie Géraud",
+        "agency": "rhapsody",
+        "region": "Outros",
+        "date": "10/07/2026",
+        "dur": "0m 0s",
+        "score": 0,
+        "scenario": "PROSPECT_FRIO",
+        "lqa": "N/A",
+        "interactions": 2,
+        "messages": [
+            {
+                "role": "HUMAN",
+                "text": "Oi, tout du bien ?"
+            },
+            {
+                "role": "AI",
+                "text": "Bonjour, je suis un peu occupée maintenant."
+            }
+        ],
+        "finished": false
+    },
+    {
+        "name": "Sophie Géraud",
+        "agency": "rhapsody",
+        "region": "Outros",
+        "date": "10/07/2026",
+        "dur": "0m 0s",
+        "score": 0,
+        "scenario": "PROSPECT_FRIO",
+        "lqa": "N/A",
+        "interactions": 2,
+        "messages": [
+            {
+                "role": "HUMAN",
+                "text": "Oi, tudo bem?"
+            },
+            {
+                "role": "AI",
+                "text": "Oi. Estou ocupado agora. Quem está"
+            }
+        ],
+        "finished": false
+    },
+    {
+        "name": "Sophie Géraud",
+        "agency": "rhapsody",
+        "region": "Outros",
+        "date": "10/07/2026",
+        "dur": "0m 0s",
+        "score": 0,
+        "scenario": "PROSPECT_FRIO",
+        "lqa": "N/A",
+        "interactions": 3,
+        "messages": [
+            {
+                "role": "HUMAN",
+                "text": "(efeito sonoro)"
+            },
+            {
+                "role": "HUMAN",
+                "text": "Oi, tudo bem?"
+            },
+            {
+                "role": "AI",
+                "text": "Certo. Estou ocupado agora, mas posso"
+            }
+        ],
+        "finished": false
+    },
+    {
+        "name": "Sophie Géraud",
+        "agency": "rhapsody",
+        "region": "Outros",
+        "date": "10/07/2026",
+        "dur": "0m 1s",
+        "score": 0,
+        "scenario": "PROSPECT_FRIO",
+        "lqa": "N/A",
+        "interactions": 2,
+        "messages": [
+            {
+                "role": "HUMAN",
+                "text": "Ay, senhor, como você está?"
+            },
+            {
+                "role": "AI",
+                "text": "Bonjour. Je suis pressée en ce moment, peux-tu dire brièvement pourquoi"
+            }
+        ],
+        "finished": false
+    },
+    {
+        "name": "Sophie Géraud",
+        "agency": "rhapsody",
+        "region": "Outros",
+        "date": "10/07/2026",
+        "dur": "0m 2s",
+        "score": 0,
+        "scenario": "PROSPECT_FRIO",
+        "lqa": "N/A",
+        "interactions": 2,
+        "messages": [
+            {
+                "role": "HUMAN",
+                "text": "Oui, señor. Comment vous está?"
+            },
+            {
+                "role": "AI",
+                "text": "Bonjour. Je suis occupée"
+            }
+        ],
+        "finished": false
+    },
+    {
+        "name": "Sophie Géraud",
+        "agency": "rhapsody",
+        "region": "Outros",
+        "date": "10/07/2026",
+        "dur": "0m 0s",
+        "score": 0,
+        "scenario": "PROSPECT_FRIO",
+        "lqa": "N/A",
+        "interactions": 0,
+        "messages": [],
+        "finished": false
+    },
+    {
+        "name": "Sophie Géraud",
+        "agency": "rhapsody",
+        "region": "Outros",
+        "date": "10/07/2026",
+        "dur": "0m 0s",
+        "score": 0,
+        "scenario": "PROSPECT_FRIO",
+        "lqa": "N/A",
+        "interactions": 0,
+        "messages": [],
+        "finished": false
+    },
+    {
+        "name": "Sophie Géraud",
+        "agency": "rhapsody",
+        "region": "Outros",
+        "date": "10/07/2026",
+        "dur": "0m 0s",
+        "score": 0,
+        "scenario": "PROSPECT_FRIO",
+        "lqa": "N/A",
+        "interactions": 0,
+        "messages": [],
+        "finished": false
+    },
+    {
+        "name": "Sophie Géraud",
+        "agency": "rhapsody",
+        "region": "Outros",
+        "date": "10/07/2026",
+        "dur": "0m 0s",
+        "score": 0,
+        "scenario": "PROSPECT_FRIO",
+        "lqa": "N/A",
+        "interactions": 0,
+        "messages": [],
+        "finished": false
+    },
+    {
+        "name": "Sophie Géraud",
+        "agency": "rhapsody",
+        "region": "Outros",
+        "date": "10/07/2026",
+        "dur": "0m 0s",
+        "score": 0,
+        "scenario": "PROSPECT_FRIO",
+        "lqa": "N/A",
+        "interactions": 0,
+        "messages": [],
+        "finished": false
+    },
+    {
+        "name": "Sophie Géraud",
+        "agency": "rhapsody",
+        "region": "Outros",
+        "date": "10/07/2026",
+        "dur": "0m 0s",
+        "score": 0,
+        "scenario": "PROSPECT_FRIO",
+        "lqa": "N/A",
+        "interactions": 0,
+        "messages": [],
+        "finished": false
+    },
+    {
+        "name": "Sophie Géraud",
+        "agency": "rhapsody",
+        "region": "Outros",
+        "date": "10/07/2026",
+        "dur": "0m 2s",
+        "score": 0,
+        "scenario": "PROSPECT_FRIO",
+        "lqa": "N/A",
+        "interactions": 2,
+        "messages": [
+            {
+                "role": "HUMAN",
+                "text": "Oi, senhor Eduardo, como você está hoje?"
+            },
+            {
+                "role": "AI",
+                "text": "Estou bem, obrigado. Estou no meio de uma tarefa agora, sou direto: qual é o motivo da ligação?"
+            }
+        ],
+        "finished": false
+    },
+    {
+        "name": "Sophie Géraud",
+        "agency": "rhapsody",
+        "region": "Outros",
+        "date": "10/07/2026",
+        "dur": "0m 2s",
+        "score": 0,
+        "scenario": "PROSPECT_FRIO",
+        "lqa": "N/A",
+        "interactions": 3,
+        "messages": [
+            {
+                "role": "HUMAN",
+                "text": "Nossa, então já arrasa."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Oi, tudo bem?"
+            },
+            {
+                "role": "AI",
+                "text": "Certo. Estou no meio de uma tarefa, fala rápido. Quem está falando"
+            }
+        ],
+        "finished": false
+    },
+    {
+        "name": "Sophie Géraud",
+        "agency": "rhapsody",
+        "region": "Outros",
+        "date": "13/07/2026",
+        "dur": "0m 10s",
+        "score": 25,
+        "scenario": "RECOMENDACOES",
+        "lqa": "N/A",
+        "interactions": 8,
+        "messages": [
+            {
+                "role": "HUMAN",
+                "text": "Vous êtes content de notre échange ?"
+            },
+            {
+                "role": "AI",
+                "text": "Oui, globalement satisfaite. Votre clarté et la rapidité pour finaliser le contrat m'ont rassurée."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Très bien, je suis ravie également."
+            },
+            {
+                "role": "HUMAN",
+                "text": "(rire)"
+            },
+            {
+                "role": "HUMAN",
+                "text": "On pourrait remercier Paolo de... De vous avoir mis en contact."
+            },
+            {
+                "role": "AI",
+                "text": "Oui, bonne idée. Merci de transmettre à Paolo que j'apprécie."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Très bien. Et vous-même, est-ce que vous aviez une possibilité de me recommander ?"
+            },
+            {
+                "role": "AI",
+                "text": "Je suis prête à recommander, mais pas comme ça, à chaud. Je préfère d'abord savoir comment vous souhaitez que je formule l'introduction. Vous demandez à"
+            }
+        ],
+        "finished": true
+    },
+    {
+        "name": "Sophie Géraud",
+        "agency": "rhapsody",
+        "region": "Outros",
+        "date": "13/07/2026",
+        "dur": "0m 0s",
+        "score": 0,
+        "scenario": "PROSPECT_FRIO",
+        "lqa": "N/A",
+        "interactions": 0,
+        "messages": [],
+        "finished": false
+    },
+    {
+        "name": "Sophie Géraud",
+        "agency": "rhapsody",
+        "region": "Outros",
+        "date": "13/07/2026",
+        "dur": "1m 9s",
+        "score": 45,
+        "scenario": "PROSPECT_FRIO",
+        "lqa": "N/A",
+        "interactions": 10,
+        "messages": [
+            {
+                "role": "HUMAN",
+                "text": "Bonjour mesdames et messieurs, vous démarrez pas ?"
+            },
+            {
+                "role": "AI",
+                "text": "Bonjour. Je suis un peu occupée maintenant, de quoi s'agit-il rapidement ?"
+            },
+            {
+                "role": "HUMAN",
+                "text": "Ah excusez-moi alors. En fait, je vous appelais parce que votre ami Antonio. Il m'a parlé de vous et, euh, m'a fait part d'un des besoins que vous pourriez avoir en, en produits d'assurance vie. Et du coup, je voulais voir avec vous si vous auriez quelques minutes à m'accorder pour qu'on en parle ensemble brièvement."
+            },
+            {
+                "role": "AI",
+                "text": "D'accord. Je suis pressée là, mais dis rapidement quel bénéfice concret j'aurais à vous consacrer quinze minutes."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Bah écoutez, votre ami m'a dit que... Que je pouvais vous en parler d'ailleurs, ce n'était pas, pas secret, que vous aviez bénéficié d'un, d'un héritage récemment et que vous pensiez, euh, l'investir ? Et il m'a dit que vous manquiez d'informations sur le sujet et que vous aviez besoin de conseils. C'est bien cela ?"
+            },
+            {
+                "role": "AI",
+                "text": "D'accord, mais je n'ai pas de temps maintenant pour une discussion longue. Je peux juste écouter un résumé très bref."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Oui, très bien. Écoutez."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Plutôt que de faire ça dans la précipitation, moi, je vais vous proposer qu'on se fasse un petit créneau. Si vous voulez, je peux venir vous voir ou vous venez dans une de nos agences, parce qu'il me semble que vous êtes voisine."
+            },
+            {
+                "role": "HUMAN",
+                "text": "De notre contact commun. Donc si vous voulez, on peut se faire un point, euh, d'une heure dans les, dans la semaine à venir. Et comme ça, je vous expliquerai, euh, plus posément les tenants et les aboutissants."
+            },
+            {
+                "role": "AI",
+                "text": "Ok. D'abord, je n'ai pas le temps pour une heure. Peux-tu proposer un créneau de quinze minutes par vidéo ?"
+            }
+        ],
+        "finished": true
+    },
+    {
+        "name": "Sophie Géraud",
+        "agency": "rhapsody",
+        "region": "Outros",
+        "date": "13/07/2026",
+        "dur": "1m 26s",
+        "score": 0,
+        "scenario": "PROSPECT_FRIO",
+        "lqa": "N/A",
+        "interactions": 16,
+        "messages": [
+            {
+                "role": "AI",
+                "text": "Ok. Certo. E outra questão: je manque de temps en ce moment, quinze minutes c'est trop."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Bonjour madame, je suis Caroline de MedLife euh, je vous appelle sur recommandation de votre ami Pedro euh, vous auriez quelques minutes à m'accorder ? Ce ne sera pas long."
+            },
+            {
+                "role": "AI",
+                "text": "Bonjour. Je n'ai pas été prévenue par Pedro, c'est surprenant. Je suis pressée, pourquoi exactement vous m'appelez ?"
+            },
+            {
+                "role": "HUMAN",
+                "text": "Mince, excusez-moi. Alors, en fait, votre appelant m'a dit que vous aviez un petit souci, euh... Enfin, un questionnement actuellement suite à une rentrée d'argent importante, c'est bien cela ?"
+            },
+            {
+                "role": "AI",
+                "text": "Bon. Mais non, ce n'est pas une rentrée d'argent importante. J'ai juste quelques économies et je veux savoir si ça vaut la peine de revoir ma protection financière."
+            },
+            {
+                "role": "HUMAN",
+                "text": "D'accord, très bien. En effet, oui, je savais que vous vouliez trouver un... Oui. Un autre assureur peut vous occuper de vos biens. Euh, et c'est dans ce sens que Pedro m'a recommandé de vous contacter pour justement, euh, ben organiser un rendez-vous avec vous et faire le point pour vous conseiller. Est-ce que ça vous dirait ?"
+            },
+            {
+                "role": "HUMAN",
+                "text": "Oui, oui bien sûr, euh, mais l'idée c'est de vraiment d'optimiser. Donc ce que je-- Est-ce que je peux vous proposer de m'accorder trente minutes en présentiel ou en visio comme vous verrez, on bloquera bien le créneau, on ne dépassera pas et euh, comme ça, on parlera un petit peu plus précisément de votre situation."
+            },
+            {
+                "role": "AI",
+                "text": "Ok. Aliás, je manque vraiment de temps; quinze minutes, c'est le maximum que je peux libérer."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Très bien, j'ai manqué. Vous, vous manquez de temps. Bah, écoutez quinze minutes dans les trois prochains jours, vous avez une disponibilité ?"
+            },
+            {
+                "role": "AI",
+                "text": "Ok. Certo. E outra questão : je préfère la visio. Je peux mardi matin ou jeudi soir, quinze minutes seulement."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Écoutez, je vous propose mardi matin à dix heures une petite visio. Ça vous conviendrait ?"
+            },
+            {
+                "role": "AI",
+                "text": "D'accord, mardi matin à dix heures me va. Vous m'envoyez le lien de visio et la durée confirmée à quinze minutes, s'il vous plaît."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Oui, je vous envoie ça euh... dans d'ici quelques minutes. Votre adresse mail est bien euh... A-B-C-D arrobase gmail point com ?"
+            },
+            {
+                "role": "AI",
+                "text": "Ok. Aliás, confirmez plutôt le lien par message sur WhatsApp, c'est plus pratique pour moi."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Très bien. Pourquoi vous dites alias sans arrêt ?"
+            },
+            {
+                "role": "AI",
+                "text": "Ok. Certo. E outra questão : vous dites « alias » parce que vous mélangez le portugais et le français, ça m'embrouille. Je préfère les choses claires, envoyez plutôt le lien par WhatsApp comme convenu."
+            }
+        ],
+        "finished": true
+    },
+    {
+        "name": "Sophie Géraud",
+        "agency": "rhapsody",
+        "region": "Outros",
+        "date": "14/07/2026",
+        "dur": "1m 45s",
+        "score": 0,
+        "scenario": "PROSPECT_FRIO",
+        "lqa": "N/A",
+        "interactions": 14,
+        "messages": [
+            {
+                "role": "HUMAN",
+                "text": "Bonjour madame, euh, je vous appelle sur la recommandation de Roberto. Euh, je suis une courtière pour la société MetLife. Vous auriez quelques minutes pour échanger avec moi ?"
+            },
+            {
+                "role": "AI",
+                "text": "Bonjour. Je suis un peu pressée, pourquoi Roberto vous a-t-il donné mon numéro sans prévenir ?"
+            },
+            {
+                "role": "HUMAN",
+                "text": "Mince, je comprends, ce rendez-vous ne sera pas long. Cet échange ne sera pas long, pardon. Euh, Roberto a dû être occupé par ailleurs. En fait, Roberto est un de mes clients avec qui j'ai su- récemment euh... ... Souscrit une assurance vie et Roberto m'a recommandé ensuite à vous parce que apparemment, vous pourriez être intéressé par ce sujet aussi."
+            },
+            {
+                "role": "AI",
+                "text": "Bon. Je suis pressée, donc allez à l'essentiel : c'est quoi exactement que vous proposez ?"
+            },
+            {
+                "role": "HUMAN",
+                "text": "Alors, nous proposons différentes solutions de placement adaptées aux différents projets et aux différents profils de nos clients. Et euh... Donc, nous avons vraiment une multitude de produits. Donc, je pense que le mieux serait que nous en parlions dans un, lors d'un rendez-vous pour que vous puissiez me... Tu vis un petit peu de nos services. Et que je puisse vous aider et vous faire mes recommandations."
+            },
+            {
+                "role": "AI",
+                "text": "D'accord, mais avant d'aller plus loin, je veux savoir si c'est une assurance vie, parce que si c'est ça je n'en veux pas."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Alors oui, c'est une assurance vie, mais en fait, nous en avons beaucoup de modèles. Donc des modèles très adaptatifs. Pourquoi vous ne voulez pas d'assurance vie ?"
+            },
+            {
+                "role": "AI",
+                "text": "Alors déjà, je ne veux pas d'assurance vie parce que pour moi c'est surtout un produit pour couvrir décès, et je n'ai pas envie d'acheter ça maintenant."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Très bien, je comprends. Vous savez qu'il y a d'autres utilisations pour l'assurance vie. Si vous avez des projets, je ne sais pas, immobiliers ou... Euh... autre ? Cela peut s'appliquer aussi. Écoutez, je veux vraiment pas vous retenir trop longtemps. Ce que je vous propose, c'est que... On se voit et on en parle plus facilement."
+            },
+            {
+                "role": "AI",
+                "text": "Bon, écoutez, je n'ai pas envie d'acheter une assurance vie.  \nCela dit, si c'est pour une analyse rapide et sans engagement, je peux écouter. Mais avant, qui m'explique concrètement le bénéfice pour moi en deux phrases ?"
+            },
+            {
+                "role": "HUMAN",
+                "text": "L'idée, c'est de protéger votre argent. D'un côté, vous pouvez protéger votre argent, de l'autre, vous pouvez aussi espérer de meilleurs rendements qu'un simple livret qui dormirait ou le simple argent qui dormirait chez vous."
+            },
+            {
+                "role": "AI",
+                "text": "D'accord. Mais avant d'aller plus loin, comment vous avez eu mon numéro exactement ?"
+            },
+            {
+                "role": "HUMAN",
+                "text": "Alors comme je vous l'ai dit tout à l'heure, c'est Roberto qui est une connaissance commune que j'ai vu récemment pour souscrire un, un contrat d'assurance vie aussi et qui m'a recommandé à vous."
+            },
+            {
+                "role": "AI",
+                "text": "Bon, d'accord. Mais ça me gêne que Roberto ne m'ait pas prévenue avant de partager mon numéro. Je préfère qu'on fixe un rendez-vous court par visio plutôt qu'une rencontre en personne."
+            }
+        ],
+        "finished": false
+    },
+    {
+        "name": "Sophie Géraud",
+        "agency": "rhapsody",
+        "region": "Outros",
+        "date": "16/07/2026",
+        "dur": "0m 44s",
+        "score": 47,
+        "scenario": "PROSPECT_FRIO",
+        "lqa": "N/A",
+        "interactions": 14,
+        "messages": [
+            {
+                "role": "HUMAN",
+                "text": "Bonjour, je me permets de vous appeler de la part de votre ami Paulo, je suis Gabriel de MedLife."
+            },
+            {
+                "role": "AI",
+                "text": "Bonjour. Paulo ne m'a rien dit de cet appel, pourquoi vous appelez sans prévenir ?"
+            },
+            {
+                "role": "HUMAN",
+                "text": "Alors en fait, nous avons récemment souscrit à un contrat. Avec Paulo, un contrat d'assurance vie et Paulo a tout de suite pensé à vous pour... Voir aussi et vous conseiller sur votre situation actuelle."
+            },
+            {
+                "role": "AI",
+                "text": "D'accord, mais dites-moi clairement : c'est quoi l'objet précis de votre appel ?"
+            },
+            {
+                "role": "HUMAN",
+                "text": "C'est de voir avec vous quels sont vos besoins en assurance vie pour que je puisse vous aider à faire des investissements."
+            },
+            {
+                "role": "HUMAN",
+                "text": "En table ronde."
+            },
+            {
+                "role": "AI",
+                "text": "Bon, mais je ne veux pas de réunion collective. Je préfère un rendez-vous individuel."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Très bien, vous êtes donc disponible pour un rendez-vous bientôt ?"
+            },
+            {
+                "role": "AI",
+                "text": "Désolée, mais je n'ai pas de temps libre en ce moment. Proposez d'abord quel serait le bénéfice concret pour moi, et je verrai ensuite."
+            },
+            {
+                "role": "HUMAN",
+                "text": "D'avoir des rendements réguliers plus intéressants que ce que vous avez actuellement."
+            },
+            {
+                "role": "AI",
+                "text": "C'est intéressant, mais dites-moi plutôt comment vous calculez ces rendements et quel risque je prends."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Alors ça, justement, ce serait un petit peu long pour en parler par téléphone, mais nous pouvons convenir d'un rendez-vous pour que je vous explique tout. Je peux me déplacer si vous voulez."
+            },
+            {
+                "role": "AI",
+                "text": "Bon, mais je suis très occupée. Expliquez rapidement : vous venez chez moi, ou je viens à votre bureau ?"
+            },
+            {
+                "role": "HUMAN",
+                "text": "N'importe."
+            }
+        ],
+        "finished": true
+    },
+    {
+        "name": "Sophie Géraud",
+        "agency": "rhapsody",
+        "region": "Outros",
+        "date": "16/07/2026",
+        "dur": "0m 0s",
+        "score": 0,
+        "scenario": "PROSPECT_FRIO",
+        "lqa": "N/A",
+        "interactions": 0,
+        "messages": [],
+        "finished": false
+    },
+    {
+        "name": "Sophie Géraud",
+        "agency": "rhapsody",
+        "region": "Outros",
+        "date": "16/07/2026",
+        "dur": "2m 1s",
+        "score": 63,
+        "scenario": "PROSPECT_FRIO",
+        "lqa": "N/A",
+        "interactions": 20,
+        "messages": [
+            {
+                "role": "HUMAN",
+                "text": "Bonjour Madame, je suis Sophie de MedLife, je me permets de vous appeler sur une recommandation de Paolo, votre ami, qui m'a dit que vous pourriez peut-être avoir besoin de conseils en ce moment sur des placements financiers."
+            },
+            {
+                "role": "AI",
+                "text": "Bonjour, Sophie. Paolo ne m'a rien dit de cet appel, je suis un peu surprise. Je n'ai pas beaucoup de temps aujourd'hui, c'est rapide ?"
+            },
+            {
+                "role": "HUMAN",
+                "text": "Oui, excusez-moi, Paolo, on s'est vus il y a une semaine, peut-être qu'il a été occupé par ailleurs. L'idée, c'est de vous présenter un petit peu ce que nous avons comme produit qui pourrait correspondre à vos besoins. Parce que Paolo, il me disait que lors de l'anniversaire auquel vous avez été invité il y a un mois, vous aviez évoqué ce sujet d'argent à placer."
+            },
+            {
+                "role": "AI",
+                "text": "Bon, déjà, Paolo ne m'a pas prévenue, ça m'embête un peu. Je n'ai pas de temps à perdre, vous allez droit au but."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Excusez-moi, je pense que je suis allée droit au but. Je vous ai expliqué l'objet de mon appel, c'est de vous proposer une réunion, un échange, toutes les deux."
+            },
+            {
+                "role": "AI",
+                "text": "Bon. Je n'ai vraiment pas beaucoup de temps. Dites clairement en quoi cette réunion m'apporterait un bénéfice concret."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Apparemment, vous avez actuellement des petits problèmes avec vos contrats actuels et vous vouliez réfléchir à une solution où vous seriez plus encadré, mieux conseillé, mieux suivi, tout simplement. Et c'est ce que je voulais vous proposer."
+            },
+            {
+                "role": "AI",
+                "text": "D'accord, mais avant d'aller plus loin je veux savoir si c'est bien une assurance vie dont vous parlez."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Oui, je parle bien d'une assurance vie, mais c'est une assurance vie nouvelle que nous proposons chez MetLife avec un suivi régulier, très régulier."
+            },
+            {
+                "role": "AI",
+                "text": "Très bien. Je reste sceptique, mais dites-moi rapidement : ce contrat, il sert surtout à protéger ma famille ou à faire fructifier mon argent ?"
+            },
+            {
+                "role": "HUMAN",
+                "text": "Alors les deux justement tout peut se jouer."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Tout peut être... En fait, c'est selon vos projets de vie, excusez-moi."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Et ce sera justement en fonction de vos objectifs que je pense pouvoir vous aiguiller sur tel ou tel placement avec tel ou tel horizon."
+            },
+            {
+                "role": "AI",
+                "text": "Bon, merci. Je reste sceptique mais passons à autre chose : je n'ai pas le temps maintenant, comment se déroule concrètement la réunion que vous proposez ?"
+            },
+            {
+                "role": "HUMAN",
+                "text": "Écoutez, il y a deux options, c'est ou vous venez nous voir à notre siège, ou moi, je viens vous voir dans vos bureaux ou chez vous pour vous proposer en... Trente minutes à une heure pour vous présenter nos produits et échanger un petit peu ensemble pour vous faire quelque chose de très personnalisé."
+            },
+            {
+                "role": "AI",
+                "text": "D'accord. Je n'ai pas beaucoup de temps, donc c'est trente minutes maximum. Préférez-vous venir à mon bureau ou je me rends à votre siège ?"
+            },
+            {
+                "role": "HUMAN",
+                "text": "Écoutez, je vous propose de moi venir à votre bureau pour vous faire gagner du temps."
+            },
+            {
+                "role": "AI",
+                "text": "Très bien, mais avant on va avancer vite : je veux trente minutes maximum au bureau. Proposez-moi matin ou après-midi, deux jours possibles cette semaine et deux créneaux horaires précis."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Alors ou mardi de dix heures à dix heures trente, ou jeudi de quinze heures à quinze heures trente. Que préférez-vous ?"
+            },
+            {
+                "role": "AI",
+                "text": "D'accord pour mardi matin. Mardi à dix heures me convient, je vous attends dans mon bureau."
+            }
+        ],
+        "finished": true
+    },
+    {
+        "name": "Sophie Géraud",
+        "agency": "rhapsody",
+        "region": "Outros",
+        "date": "16/07/2026",
+        "dur": "0m 34s",
+        "score": 0,
+        "scenario": "PROSPECT_FRIO",
+        "lqa": "N/A",
+        "interactions": 6,
+        "messages": [
+            {
+                "role": "HUMAN",
+                "text": "Bonjour madame, je suis Sophie de la société MedLife. Je me permets de vous appeler sur la recommandation de Paolo, l'un de vos amis que j'ai vu récemment et avec qui j'ai souscrit un— nous avons souscrit à un contrat. Vous auriez quelques minutes à m'accorder ?"
+            },
+            {
+                "role": "AI",
+                "text": "Bonjour, je suis un peu pressée maintenant. Dites vite qui vous êtes et ce que Paolo vous a dit à mon sujet."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Je viens de vous dire que je suis Sophie et Paolo me disait qu'il y a deux semaines, quand vous vous êtes vus à l'anniversaire d'une amie commune, vous lui avez dit que vous aviez quelques soucis avec votre assureur actuel."
+            },
+            {
+                "role": "AI",
+                "text": "Écoutez, déjà je n'aime pas qu'on m'appelle sans prévenir. Qui vous a donné mon numéro exactement ?"
+            },
+            {
+                "role": "HUMAN",
+                "text": "Je viens de vous dire, Paolo, ça fait deux fois que je vous le dis."
+            },
+            {
+                "role": "AI",
+                "text": "Bon. Je suis pressée et je n'aime pas être appelée à"
+            }
+        ],
+        "finished": false
+    },
+    {
+        "name": "Sophie Géraud",
+        "agency": "rhapsody",
+        "region": "Outros",
+        "date": "16/07/2026",
+        "dur": "0m 0s",
+        "score": 0,
+        "scenario": "PROSPECT_FRIO",
+        "lqa": "N/A",
+        "interactions": 2,
+        "messages": [
+            {
+                "role": "AI",
+                "text": "Allô ? Qui est"
+            },
+            {
+                "role": "HUMAN",
+                "text": "[silence]"
+            }
+        ],
+        "finished": false
+    },
+    {
+        "name": "Sophie Géraud",
+        "agency": "rhapsody",
+        "region": "Outros",
+        "date": "16/07/2026",
+        "dur": "0m 0s",
+        "score": 0,
+        "scenario": "PROSPECT_FRIO",
+        "lqa": "N/A",
+        "interactions": 2,
+        "messages": [
+            {
+                "role": "HUMAN",
+                "text": "[silence]"
+            },
+            {
+                "role": "AI",
+                "text": "Allô ? Qui est à l'appareil ?"
+            }
+        ],
+        "finished": false
+    },
+    {
+        "name": "Sophie Géraud",
+        "agency": "rhapsody",
+        "region": "Outros",
+        "date": "16/07/2026",
+        "dur": "0m 38s",
+        "score": 0,
+        "scenario": "PROSPECT_FRIO",
+        "lqa": "N/A",
+        "interactions": 16,
+        "messages": [
+            {
+                "role": "HUMAN",
+                "text": "(clic de souris)"
+            },
+            {
+                "role": "HUMAN",
+                "text": "Bonjour, je suis Gabriel, je vous appelle sur la recommandation de Paolo. Je ne vous dérange pas ?"
+            },
+            {
+                "role": "AI",
+                "text": "Allô ? Qui est Paolo déjà et qu'est-ce que vous voulez ?"
+            },
+            {
+                "role": "HUMAN",
+                "text": "Paolo est votre ami commun. Vous étiez à un mariage tous les deux d'une amie commune il y a trois semaines et Paolo, à cette occasion, m'a donné votre nom."
+            },
+            {
+                "role": "AI",
+                "text": "Écoutez, je suis occupée. Dites vite de quoi il s'agit."
+            },
+            {
+                "role": "HUMAN",
+                "text": "En fait, euh..."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Je finis mes cours pour mettre la RIF et je propose des solutions d'assurance vie. C'est pour ça que Paolo pensait justement que vous pourriez être intéressé."
+            },
+            {
+                "role": "AI",
+                "text": "D'accord, mais c'est quoi exactement que vous proposez ?"
+            },
+            {
+                "role": "HUMAN",
+                "text": "Différents contrats d'assurance vie personnalisés selon vos envies et vos besoins."
+            },
+            {
+                "role": "AI",
+                "text": "Bon, mais j'ai déjà une question directe : c'est une assurance vie classique ou un autre produit ?"
+            },
+            {
+                "role": "HUMAN",
+                "text": "C'est une assurance vie classique avec de la personnalisation."
+            },
+            {
+                "role": "AI",
+                "text": "Bon, mais j'ai déjà une assurance vie depuis plusieurs années."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Oui, mais celle-ci... Et vous êtes satisfaite justement du conseil qui vous est donné ?"
+            },
+            {
+                "role": "AI",
+                "text": "En fait, non. Mon conseiller actuel me paraît suffisant."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Nous vous proposons un accompagnement personnalisé et un point tous les mois."
+            },
+            {
+                "role": "AI",
+                "text": "Bon, mais j'ai déjà un conseiller financier qui s'occupe de tout."
+            }
+        ],
+        "finished": false
+    },
+    {
+        "name": "Sophie Géraud",
+        "agency": "rhapsody",
+        "region": "Outros",
+        "date": "16/07/2026",
+        "dur": "0m 8s",
+        "score": 0,
+        "scenario": "PROSPECT_FRIO",
+        "lqa": "N/A",
+        "interactions": 3,
+        "messages": [
+            {
+                "role": "HUMAN",
+                "text": "[bruit de transition]"
+            },
+            {
+                "role": "HUMAN",
+                "text": "Bonjour, je suis Johanna de MedLife. Je vous appelle sur la recommandation de Roberto qui m'a dit que vous pourriez avoir des besoins en matière d'assurance vie."
+            },
+            {
+                "role": "AI",
+                "text": "Allô? Qui parle? Je suis occupée, allez droit au but."
+            }
+        ],
+        "finished": false
+    },
+    {
+        "name": "Sophie Géraud",
+        "agency": "rhapsody",
+        "region": "Outros",
+        "date": "16/07/2026",
+        "dur": "0m 21s",
+        "score": 38,
+        "scenario": "PROSPECT_FRIO",
+        "lqa": "N/A",
+        "interactions": 7,
+        "messages": [
+            {
+                "role": "HUMAN",
+                "text": "[silence]"
+            },
+            {
+                "role": "HUMAN",
+                "text": "Bonjour, je suis Camille, je vous appelle sur la recommandation de votre amie Roberta. Est-ce que vous auriez deux minutes à m'accorder ? Je suis de la société MetLife."
+            },
+            {
+                "role": "AI",
+                "text": "Allô? Qui est-ce? Je suis occupée, parlez vite."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Je suis conseillée pour MetLife et je voulais savoir si vous seriez intéressé par un rendez-vous pour que je puisse vous présenter nos solutions."
+            },
+            {
+                "role": "AI",
+                "text": "Écoutez, je ne sais pas de quoi il s'agit. Expliquez vite."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Alors votre amie Roberta m'a dit que vous aviez des problèmes actuellement avec votre assureur et que vous cherchiez à placer votre argent ailleurs"
+            },
+            {
+                "role": "AI",
+                "text": "Écoutez, Roberta ne m'a rien dit de tout ça. Qui vous a donné mon numéro exactement ?"
+            }
+        ],
+        "finished": true
+    },
+    {
+        "name": "Sophie Géraud",
+        "agency": "rhapsody",
+        "region": "Outros",
+        "date": "16/07/2026",
+        "dur": "0m 26s",
+        "score": 0,
+        "scenario": "PROSPECT_FRIO",
+        "lqa": "N/A",
+        "interactions": 4,
+        "messages": [
+            {
+                "role": "HUMAN",
+                "text": "Bonjour, je suis Camille. Je vous appelle de la part de votre ami Roberto. Vous auriez quelques minutes à m'accorder, s'il vous plaît ?"
+            },
+            {
+                "role": "AI",
+                "text": "Bonjour Camille, je n'avais pas été prévenue par Roberto. Je suis un peu occupée maintenant, c'est quoi l'objet de l'appel ?"
+            },
+            {
+                "role": "HUMAN",
+                "text": "Roberto me disait que vous aviez besoin d'un... D'un nouveau, euh, d'un nouvel assureur et, euh, il avait pensé à À vous justement. Il m'a demandé de vous contacter pour que l'on puisse discuter ensemble. L'objet n'est pas de, d'évoquer ça tout de suite lors de notre échange, mais plutôt de prévoir un échange en physique pour en parler"
+            },
+            {
+                "role": "AI",
+                "text": "Bon, je suis pressée. Je ne peux pas recevoir quelqu'un en physique ces jours-ci. Expliquez-moi rapidement pourquoi je perdrais quinze minutes en visio."
+            }
+        ],
+        "finished": false
+    },
+    {
+        "name": "Sophie Géraud",
+        "agency": "rhapsody",
+        "region": "Outros",
+        "date": "16/07/2026",
+        "dur": "0m 18s",
+        "score": 0,
+        "scenario": "PROSPECT_FRIO",
+        "lqa": "N/A",
+        "interactions": 3,
+        "messages": [
+            {
+                "role": "HUMAN",
+                "text": "Par exemple, la prévention des infections respiratoires."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Bonjour monsieur, je suis Camille de la société Mega, spécialiste en assurance vie. Je vous appelle sur la recommandation de votre ami Roberto Qui m'a dit que vous aviez quelques soucis actuellement avec votre assureur. Apparemment, vous lui avez dit ça lors d'un mariage auquel vous avez tous les deux assisté pour une amie commune"
+            },
+            {
+                "role": "AI",
+                "text": "Allô? Qui est-ce? Je suis prise, allez droit au but."
+            }
+        ],
+        "finished": false
+    },
+    {
+        "name": "Sophie Géraud",
+        "agency": "rhapsody",
+        "region": "Outros",
+        "date": "16/07/2026",
+        "dur": "0m 0s",
+        "score": 0,
+        "scenario": "PROSPECT_FRIO",
+        "lqa": "N/A",
+        "interactions": 1,
+        "messages": [
+            {
+                "role": "HUMAN",
+                "text": "(musique)"
+            }
+        ],
+        "finished": false
+    },
+    {
+        "name": "Sophie Géraud",
+        "agency": "rhapsody",
+        "region": "Outros",
+        "date": "16/07/2026",
+        "dur": "0m 25s",
+        "score": 0,
+        "scenario": "PROSPECT_FRIO",
+        "lqa": "N/A",
+        "interactions": 8,
+        "messages": [
+            {
+                "role": "HUMAN",
+                "text": "Pouët !"
+            },
+            {
+                "role": "AI",
+                "text": "Bonjour. De quoi s'agit-il ?"
+            },
+            {
+                "role": "HUMAN",
+                "text": "Bonjour Fernanda, je vous appelle sur la recommandation de votre ami Roberto, qui, que vous avez vu apparemment il y a deux semaines lors du mariage de votre amie Civique"
+            },
+            {
+                "role": "HUMAN",
+                "text": "Et lors de cet échange, apparemment, vous lui avez dit que vous aviez besoin de changer d'assureur parce que le vôtre ne vous convenait pas. Ça vous rappelle quelque chose ?"
+            },
+            {
+                "role": "AI",
+                "text": "Écoutez, je ne me souviens pas d'avoir dit ça en public. Qui est exactement Roberto pour vous ?"
+            },
+            {
+                "role": "HUMAN",
+                "text": "Alors, c'est l'un de mes clients et justement, je l'ai vu la semaine dernière pour tout ce qui est rentré à l'assurance vie."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Et le livre."
+            },
+            {
+                "role": "AI",
+                "text": "Ensuite ? Je n'ai pas compris ce que vous voulez dire par « et le livre ». Expliquez clairement."
+            }
+        ],
+        "finished": false
+    },
+    {
+        "name": "Sophie Géraud",
+        "agency": "rhapsody",
+        "region": "Outros",
+        "date": "16/07/2026",
+        "dur": "0m 0s",
+        "score": 0,
+        "scenario": "PROSPECT_FRIO",
+        "lqa": "N/A",
+        "interactions": 0,
+        "messages": [],
+        "finished": false
+    },
+    {
+        "name": "Sophie Géraud",
+        "agency": "rhapsody",
+        "region": "Outros",
+        "date": "16/07/2026",
+        "dur": "0m 59s",
+        "score": 0,
+        "scenario": "PROSPECT_FRIO",
+        "lqa": "N/A",
+        "interactions": 21,
+        "messages": [
+            {
+                "role": "HUMAN",
+                "text": "Bonjour Camilla, je suis Gabrielle de la société Mega, spécialiste en assurance vie. Euh, je vous appelle de la part de votre amie Juliana"
+            },
+            {
+                "role": "HUMAN",
+                "text": "Est-ce que vous auriez quelques minutes à m'accorder ?"
+            },
+            {
+                "role": "AI",
+                "text": "Non, je suis occupée maintenant. De quoi s'agit-il ?"
+            },
+            {
+                "role": "HUMAN",
+                "text": "Alors, ce ne sera pas long, je vous rassure, c'est l'idée juste de me présenter sommairement. Il s'agit de... Nous proposons des solutions d'assurance vie. Et justement votre ami m'a dit que vous étiez à la recherche d'un nouvel assureur."
+            },
+            {
+                "role": "AI",
+                "text": "D'accord, mais Juliana ne m'avait rien dit. Qui vous a donné mon numéro exactement ?"
+            },
+            {
+                "role": "HUMAN",
+                "text": "Alors je vous confirme que c'est bien Juliana Lopez que j'ai vue la semaine dernière après... Après, elle n'a peut-être pas eu le temps de vous contacter depuis ce temps."
+            },
+            {
+                "role": "AI",
+                "text": "Bon, d'accord. Je suis pressée aujourd'hui, mais dites-moi rapidement : c'est exactement quoi votre proposition ?"
+            },
+            {
+                "role": "HUMAN",
+                "text": "Alors justement, de vous rencontrer afin d'échanger avec vous sur vos besoins."
+            },
+            {
+                "role": "AI",
+                "text": "D'accord, mais je"
+            },
+            {
+                "role": "HUMAN",
+                "text": "Et euh, et de vous recommander la, la meilleure offre. Pour ça, je peux vous proposer un rendez-vous physique dans nos bureaux ou alors je me déplace et euh, et nous parlons de tout ça"
+            },
+            {
+                "role": "AI",
+                "text": "Bon, mais je n'ai pas besoin d'une assurance vie."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Et puis, nous on a vu, mais c'est factuel, non ?"
+            },
+            {
+                "role": "AI",
+                "text": "Bon, mais je répète : je n'ai pas besoin d'une assurance vie."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Vous en avez une actuellement ?"
+            },
+            {
+                "role": "AI",
+                "text": "De fait, oui, j'ai déjà une assurance vie."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Vous êtes satisfaite du conseil ?"
+            },
+            {
+                "role": "AI",
+                "text": "Honnêtement, c'est mitigé. J'ai déjà un conseiller, et pour l'instant ça me suffit."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Et votre conseiller vous contacte régulièrement ? Il vous a contacté dans des derniers baisses, baisses boursières ?"
+            },
+            {
+                "role": "AI",
+                "text": "Connecteur: De toute façon, mon conseiller m'appelle uniquement si nécessaire, pas de façon proactive pendant les baisses."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Et vous n'aimeriez pas justement être appelé pendant ces baisses ?"
+            },
+            {
+                "role": "AI",
+                "text": "Connecteur: Non, je préfère gérer moi-même mes investissements quand ça baisse."
+            }
+        ],
+        "finished": true
+    },
+    {
+        "name": "Sophie Géraud",
+        "agency": "rhapsody",
+        "region": "Outros",
+        "date": "16/07/2026",
+        "dur": "0m 34s",
+        "score": 41,
+        "scenario": "PROSPECT_FRIO",
+        "lqa": "N/A",
+        "interactions": 6,
+        "messages": [
+            {
+                "role": "HUMAN",
+                "text": "Bonjour, je suis Sabrina de la société Mega, spécialisée en assurance vie. Je vous appelle sur la recommandation de Juliana. Vous auriez quelques minutes à m'accorder ?"
+            },
+            {
+                "role": "AI",
+                "text": "Non merci, je ne donne pas mon temps à des démarcheurs."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Écoutez, je comprends et c'est ce que m'avait dit votre ami justement. Euh, l'idée de cet appel est juste de vous proposer sommairement ce que nous faisons afin de déterminer d'un rendez-vous ultérieur"
+            },
+            {
+                "role": "AI",
+                "text": "Je ne connais pas Juliana et je n'ai pas demandé à être contactée. Que voulez-vous exactement?"
+            },
+            {
+                "role": "HUMAN",
+                "text": "Et Juliana m'a dit que vous étiez, euh, toutes les deux présentes au mariage de, d'une de vos amies il y a quinze jours et que à ce moment, vous lui avez parlé de soucis que vous rencontriez actuellement avec votre assureur"
+            },
+            {
+                "role": "AI",
+                "text": "Je ne connais pas Juliana et je n'ai rien dit au mariage. Je suis occupée, dites vite ce que vous voulez ou raccrochez."
+            }
+        ],
+        "finished": true
+    },
+    {
+        "name": "Sophie Géraud",
+        "agency": "rhapsody",
+        "region": "Outros",
+        "date": "16/07/2026",
+        "dur": "0m 25s",
+        "score": 0,
+        "scenario": "PROSPECT_FRIO",
+        "lqa": "N/A",
+        "interactions": 8,
+        "messages": [
+            {
+                "role": "HUMAN",
+                "text": "Bonjour, je suis Gabrielle, société Mega, spécialisée en assurance vie. Je vous appelle de la part d'Alfonso. Est-ce que vous auriez quelques minutes à m'accorder, s'il vous plaît ?"
+            },
+            {
+                "role": "AI",
+                "text": "Bonjour. Je suis pressée, je peux prendre deux minutes. Dites vite de quoi il s'agit."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Très bien, je vous remercie, ce ne sera pas alors de toute façon. Euh, bah écoutez, l'idée, c'est de vous présenter un petit peu notre gamme de produits, euh, et de la personnaliser à vos besoins. Et donc de De prévoir un rendez-vous, euh, pour vous présenter tout ça"
+            },
+            {
+                "role": "AI",
+                "text": "D'accord, mais avant d'aller plus loin, dites-moi précisément de quoi il s'agit."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Alors il s'agit principalement, euh, de contrats d'assurance vie"
+            },
+            {
+                "role": "AI",
+                "text": "Ah d'accord. Franchement, assurance vie ça ne m'emballe pas trop. Je préfère investir autrement."
+            },
+            {
+                "role": "HUMAN",
+                "text": "C'est-à-dire ?"
+            },
+            {
+                "role": "AI",
+                "text": "En fait je place surtout en CDB, Tesouro Direto et un peu de crypto. Je préfère gérer en ligne et garder la flexibilité."
+            }
+        ],
+        "finished": false
+    },
+    {
+        "name": "Sophie Géraud",
+        "agency": "rhapsody",
+        "region": "Outros",
+        "date": "28/07/2026",
+        "dur": "0m 2s",
+        "score": 0,
+        "scenario": "PROSPECT_FRIO",
+        "lqa": "N/A",
+        "interactions": 2,
+        "messages": [
+            {
+                "role": "HUMAN",
+                "text": "Amém. Eu tô aqui. Ah, muito спасибо"
+            },
+            {
+                "role": "HUMAN",
+                "text": "Ah bah attends, ceci dit, hop là, attends attends, faut"
+            }
+        ],
+        "finished": false
+    },
+    {
+        "name": "Sophie Géraud",
+        "agency": "rhapsody",
+        "region": "Outros",
+        "date": "28/07/2026",
+        "dur": "0m 0s",
+        "score": 0,
+        "scenario": "PROSPECT_FRIO",
+        "lqa": "N/A",
+        "interactions": 2,
+        "messages": [
+            {
+                "role": "HUMAN",
+                "text": "Non"
+            },
+            {
+                "role": "AI",
+                "text": "D'accord, je refuse poliment. Merci de votre appel, bonne journée."
+            }
+        ],
+        "finished": false
+    },
+    {
+        "name": "GerenteSp Parceira",
+        "agency": "Outros",
+        "region": "Sudeste",
+        "date": "02/07/2026",
+        "dur": "0m 0s",
+        "score": 0,
+        "scenario": "ENVIO_DOCUMENTO",
+        "lqa": "N/A",
+        "interactions": 0,
         "messages": [],
         "finished": false
     },
     {
         "name": "GerenteSp Parceira",
         "agency": "Outros",
-        "region": "Outros",
+        "region": "Sudeste",
         "date": "06/07/2026",
-        "dur": "1m 4s",
+        "dur": "0m 28s",
         "score": 61,
         "scenario": "ENVIO_DOCUMENTO",
         "lqa": "N/A",
-        "interactions": 3,
+        "interactions": 7,
         "messages": [
             {
                 "role": "AI",
@@ -8057,13 +10761,13 @@ const RAW_SIMULATIONS = [
     {
         "name": "GerenteSp Parceira",
         "agency": "Outros",
-        "region": "Outros",
+        "region": "Sudeste",
         "date": "17/07/2026",
-        "dur": "0m 24s",
+        "dur": "0m 11s",
         "score": 0,
         "scenario": "PROSPECT_FRIO",
         "lqa": "N/A",
-        "interactions": 1,
+        "interactions": 2,
         "messages": [
             {
                 "role": "HUMAN",
@@ -8079,26 +10783,26 @@ const RAW_SIMULATIONS = [
     {
         "name": "GerenteSp Parceira",
         "agency": "Outros",
-        "region": "Outros",
+        "region": "Sudeste",
         "date": "17/07/2026",
         "dur": "0m 0s",
         "score": 0,
         "scenario": "PROSPECT_FRIO",
         "lqa": "N/A",
-        "interactions": 1,
+        "interactions": 0,
         "messages": [],
         "finished": false
     },
     {
         "name": "GerenteSp Parceira",
         "agency": "Outros",
-        "region": "Outros",
+        "region": "Sudeste",
         "date": "17/07/2026",
-        "dur": "1m 15s",
+        "dur": "0m 36s",
         "score": 32,
         "scenario": "PROSPECT_FRIO",
         "lqa": "N/A",
-        "interactions": 5,
+        "interactions": 9,
         "messages": [
             {
                 "role": "HUMAN",
@@ -8142,13 +10846,13 @@ const RAW_SIMULATIONS = [
     {
         "name": "Parceiro Rivorio3a12",
         "agency": "Rivório",
-        "region": "Sul",
+        "region": "Nordeste",
         "date": "10/07/2026",
-        "dur": "3m 27s",
+        "dur": "2m 37s",
         "score": 0,
         "scenario": "ENVIO_DOCUMENTO",
         "lqa": "N/A",
-        "interactions": 10,
+        "interactions": 19,
         "messages": [
             {
                 "role": "AI",
@@ -8232,26 +10936,26 @@ const RAW_SIMULATIONS = [
     {
         "name": "Parceiro Rivorio3a12",
         "agency": "Rivório",
-        "region": "Sul",
+        "region": "Nordeste",
         "date": "10/07/2026",
         "dur": "0m 0s",
         "score": 0,
         "scenario": "PROSPECT_FRIO",
         "lqa": "N/A",
-        "interactions": 1,
+        "interactions": 0,
         "messages": [],
         "finished": false
     },
     {
         "name": "Parceiro Rivorio3a12",
         "agency": "Rivório",
-        "region": "Sul",
+        "region": "Nordeste",
         "date": "10/07/2026",
-        "dur": "4m 16s",
+        "dur": "3m 17s",
         "score": 76,
         "scenario": "PROSPECT_FRIO",
         "lqa": "N/A",
-        "interactions": 9,
+        "interactions": 18,
         "messages": [
             {
                 "role": "HUMAN",
@@ -8331,39 +11035,39 @@ const RAW_SIMULATIONS = [
     {
         "name": "Parceiro Rivorio3a12",
         "agency": "Rivório",
-        "region": "Sul",
+        "region": "Nordeste",
         "date": "10/07/2026",
         "dur": "0m 0s",
         "score": 0,
         "scenario": "PROSPECT_FRIO",
         "lqa": "N/A",
-        "interactions": 1,
+        "interactions": 0,
         "messages": [],
         "finished": false
     },
     {
         "name": "Parceiro Rivorio3a12",
         "agency": "Rivório",
-        "region": "Sul",
+        "region": "Nordeste",
         "date": "10/07/2026",
         "dur": "0m 0s",
         "score": 0,
         "scenario": "PROSPECT_FRIO",
         "lqa": "N/A",
-        "interactions": 1,
+        "interactions": 0,
         "messages": [],
         "finished": false
     },
     {
         "name": "Parceiro Rivorio3a12",
         "agency": "Rivório",
-        "region": "Sul",
+        "region": "Nordeste",
         "date": "10/07/2026",
-        "dur": "1m 8s",
+        "dur": "0m 42s",
         "score": 41,
         "scenario": "PROSPECT_FRIO",
         "lqa": "N/A",
-        "interactions": 6,
+        "interactions": 11,
         "messages": [
             {
                 "role": "HUMAN",
@@ -8415,13 +11119,13 @@ const RAW_SIMULATIONS = [
     {
         "name": "Parceiro Rivorio3a12",
         "agency": "Rivório",
-        "region": "Sul",
+        "region": "Nordeste",
         "date": "10/07/2026",
-        "dur": "3m 26s",
+        "dur": "2m 30s",
         "score": 0,
         "scenario": "ENVIO_DOCUMENTO",
         "lqa": "N/A",
-        "interactions": 6,
+        "interactions": 13,
         "messages": [
             {
                 "role": "AI",
@@ -8481,26 +11185,26 @@ const RAW_SIMULATIONS = [
     {
         "name": "Parceiro Rivorio3a12",
         "agency": "Rivório",
-        "region": "Sul",
+        "region": "Nordeste",
         "date": "14/07/2026",
         "dur": "0m 0s",
         "score": 0,
         "scenario": "PROSPECT_FRIO",
         "lqa": "N/A",
-        "interactions": 1,
+        "interactions": 0,
         "messages": [],
         "finished": false
     },
     {
         "name": "Parceiro Rivorio3a12",
         "agency": "Rivório",
-        "region": "Sul",
+        "region": "Nordeste",
         "date": "14/07/2026",
-        "dur": "5m 32s",
+        "dur": "4m 27s",
         "score": 58,
         "scenario": "PROSPECT_FRIO",
         "lqa": "N/A",
-        "interactions": 13,
+        "interactions": 23,
         "messages": [
             {
                 "role": "HUMAN",
@@ -8600,13 +11304,13 @@ const RAW_SIMULATIONS = [
     {
         "name": "Parceiro Rivorio3a12",
         "agency": "Rivório",
-        "region": "Sul",
+        "region": "Nordeste",
         "date": "23/07/2026",
-        "dur": "0m 7s",
+        "dur": "0m 2s",
         "score": 0,
         "scenario": "PROSPECT_FRIO",
         "lqa": "N/A",
-        "interactions": 1,
+        "interactions": 2,
         "messages": [
             {
                 "role": "HUMAN",
@@ -8622,13 +11326,13 @@ const RAW_SIMULATIONS = [
     {
         "name": "Parceiro Rivorio3a12",
         "agency": "Rivório",
-        "region": "Sul",
+        "region": "Nordeste",
         "date": "23/07/2026",
-        "dur": "0m 5s",
+        "dur": "0m 0s",
         "score": 0,
         "scenario": "PROSPECT_FRIO",
         "lqa": "N/A",
-        "interactions": 1,
+        "interactions": 2,
         "messages": [
             {
                 "role": "HUMAN",
@@ -8644,13 +11348,13 @@ const RAW_SIMULATIONS = [
     {
         "name": "Parceiro Rivorio3a12",
         "agency": "Rivório",
-        "region": "Sul",
+        "region": "Nordeste",
         "date": "23/07/2026",
-        "dur": "0m 16s",
+        "dur": "0m 10s",
         "score": 0,
         "scenario": "PROSPECT_FRIO",
         "lqa": "N/A",
-        "interactions": 3,
+        "interactions": 4,
         "messages": [
             {
                 "role": "HUMAN",
@@ -8674,13 +11378,13 @@ const RAW_SIMULATIONS = [
     {
         "name": "Parceiro Rivorio3a12",
         "agency": "Rivório",
-        "region": "Sul",
+        "region": "Nordeste",
         "date": "23/07/2026",
-        "dur": "3m 34s",
+        "dur": "2m 29s",
         "score": 82,
         "scenario": "PROSPECT_FRIO",
         "lqa": "N/A",
-        "interactions": 11,
+        "interactions": 22,
         "messages": [
             {
                 "role": "HUMAN",
@@ -8776,13 +11480,13 @@ const RAW_SIMULATIONS = [
     {
         "name": "Parceiro Rivorio3a12",
         "agency": "Rivório",
-        "region": "Sul",
+        "region": "Nordeste",
         "date": "23/07/2026",
-        "dur": "2m 5s",
+        "dur": "1m 29s",
         "score": 0,
         "scenario": "ENVIO_DOCUMENTO",
         "lqa": "N/A",
-        "interactions": 6,
+        "interactions": 13,
         "messages": [
             {
                 "role": "AI",
@@ -8842,13 +11546,13 @@ const RAW_SIMULATIONS = [
     {
         "name": "Parceiro Rivorio3a12",
         "agency": "Rivório",
-        "region": "Sul",
+        "region": "Nordeste",
         "date": "23/07/2026",
-        "dur": "0m 5s",
+        "dur": "0m 2s",
         "score": 0,
         "scenario": "PROSPECT_FRIO",
         "lqa": "N/A",
-        "interactions": 2,
+        "interactions": 3,
         "messages": [
             {
                 "role": "HUMAN",
@@ -8868,13 +11572,13 @@ const RAW_SIMULATIONS = [
     {
         "name": "Parceiro Rivorio3a12",
         "agency": "Rivório",
-        "region": "Sul",
+        "region": "Nordeste",
         "date": "23/07/2026",
-        "dur": "1m 47s",
+        "dur": "1m 22s",
         "score": 0,
         "scenario": "PROSPECT_FRIO",
         "lqa": "N/A",
-        "interactions": 6,
+        "interactions": 10,
         "messages": [
             {
                 "role": "HUMAN",
@@ -8922,13 +11626,13 @@ const RAW_SIMULATIONS = [
     {
         "name": "Parceiro Rivorio3a12",
         "agency": "Rivório",
-        "region": "Sul",
+        "region": "Nordeste",
         "date": "23/07/2026",
-        "dur": "2m 4s",
+        "dur": "1m 18s",
         "score": 78,
         "scenario": "PROSPECT_FRIO",
         "lqa": "N/A",
-        "interactions": 9,
+        "interactions": 18,
         "messages": [
             {
                 "role": "HUMAN",
@@ -9008,13 +11712,13 @@ const RAW_SIMULATIONS = [
     {
         "name": "Parceiro Rivorio3a12",
         "agency": "Rivório",
-        "region": "Sul",
+        "region": "Nordeste",
         "date": "23/07/2026",
-        "dur": "6m 11s",
+        "dur": "4m 18s",
         "score": 77,
         "scenario": "PROSPECT_FRIO",
         "lqa": "N/A",
-        "interactions": 20,
+        "interactions": 38,
         "messages": [
             {
                 "role": "AI",
@@ -9174,13 +11878,13 @@ const RAW_SIMULATIONS = [
     {
         "name": "Parceiro Rivorio3a12",
         "agency": "Rivório",
-        "region": "Sul",
+        "region": "Nordeste",
         "date": "23/07/2026",
-        "dur": "0m 7s",
+        "dur": "0m 2s",
         "score": 0,
         "scenario": "ENVIO_DOCUMENTO",
         "lqa": "N/A",
-        "interactions": 1,
+        "interactions": 2,
         "messages": [
             {
                 "role": "AI",
@@ -9196,13 +11900,13 @@ const RAW_SIMULATIONS = [
     {
         "name": "Parceiro Rivorio3a12",
         "agency": "Rivório",
-        "region": "Sul",
+        "region": "Nordeste",
         "date": "23/07/2026",
-        "dur": "2m 57s",
+        "dur": "2m 11s",
         "score": 54,
         "scenario": "ENVIO_DOCUMENTO",
-        "lqa": 100.0,
-        "interactions": 7,
+        "lqa": "N/A",
+        "interactions": 15,
         "messages": [
             {
                 "role": "AI",
@@ -9270,13 +11974,13 @@ const RAW_SIMULATIONS = [
     {
         "name": "Parceiro Rivorio3a12",
         "agency": "Rivório",
-        "region": "Sul",
+        "region": "Nordeste",
         "date": "23/07/2026",
-        "dur": "8m 33s",
+        "dur": "6m 18s",
         "score": 82,
         "scenario": "ENVIO_DOCUMENTO",
-        "lqa": 60.0,
-        "interactions": 20,
+        "lqa": "N/A",
+        "interactions": 40,
         "messages": [
             {
                 "role": "AI",
@@ -9444,13 +12148,13 @@ const RAW_SIMULATIONS = [
     {
         "name": "Parceiro Rivorio3a12",
         "agency": "Rivório",
-        "region": "Sul",
+        "region": "Nordeste",
         "date": "23/07/2026",
-        "dur": "3m 16s",
+        "dur": "2m 17s",
         "score": 82,
         "scenario": "PROSPECT_FRIO",
-        "lqa": 100.0,
-        "interactions": 13,
+        "lqa": "N/A",
+        "interactions": 25,
         "messages": [
             {
                 "role": "HUMAN",
@@ -9558,13 +12262,13 @@ const RAW_SIMULATIONS = [
     {
         "name": "Parceiro Rivorio3a12",
         "agency": "Rivório",
-        "region": "Sul",
+        "region": "Nordeste",
         "date": "23/07/2026",
-        "dur": "3m 13s",
+        "dur": "2m 24s",
         "score": 67,
         "scenario": "PROSPECT_FRIO",
-        "lqa": 100.0,
-        "interactions": 11,
+        "lqa": "N/A",
+        "interactions": 22,
         "messages": [
             {
                 "role": "HUMAN",
@@ -9660,13 +12364,13 @@ const RAW_SIMULATIONS = [
     {
         "name": "Parceiro Rivorio3a12",
         "agency": "Rivório",
-        "region": "Sul",
+        "region": "Nordeste",
         "date": "23/07/2026",
-        "dur": "0m 22s",
+        "dur": "0m 12s",
         "score": 0,
         "scenario": "ENVIO_DOCUMENTO",
         "lqa": "N/A",
-        "interactions": 2,
+        "interactions": 4,
         "messages": [
             {
                 "role": "AI",
@@ -9690,13 +12394,13 @@ const RAW_SIMULATIONS = [
     {
         "name": "Parceiro Rivorio3a12",
         "agency": "Rivório",
-        "region": "Sul",
+        "region": "Nordeste",
         "date": "23/07/2026",
-        "dur": "5m 45s",
+        "dur": "3m 52s",
         "score": 0,
         "scenario": "ENVIO_DOCUMENTO",
-        "lqa": 80.0,
-        "interactions": 20,
+        "lqa": "N/A",
+        "interactions": 37,
         "messages": [
             {
                 "role": "AI",
@@ -9852,13 +12556,13 @@ const RAW_SIMULATIONS = [
     {
         "name": "Parceiro Rivorio3a12",
         "agency": "Rivório",
-        "region": "Sul",
+        "region": "Nordeste",
         "date": "23/07/2026",
-        "dur": "1m 39s",
+        "dur": "1m 9s",
         "score": 73,
         "scenario": "PROSPECT_FRIO",
         "lqa": "N/A",
-        "interactions": 11,
+        "interactions": 19,
         "messages": [
             {
                 "role": "HUMAN",
@@ -9944,11 +12648,11 @@ const RAW_SIMULATIONS = [
         "agency": "Ark",
         "region": "Nordeste",
         "date": "20/07/2026",
-        "dur": "0m 7s",
+        "dur": "0m 2s",
         "score": 0,
         "scenario": "PROSPECT_FRIO",
         "lqa": "N/A",
-        "interactions": 4,
+        "interactions": 5,
         "messages": [
             {
                 "role": "HUMAN",
@@ -9978,11 +12682,11 @@ const RAW_SIMULATIONS = [
         "agency": "Ark",
         "region": "Nordeste",
         "date": "20/07/2026",
-        "dur": "0m 13s",
+        "dur": "0m 6s",
         "score": 0,
         "scenario": "PROSPECT_FRIO",
         "lqa": "N/A",
-        "interactions": 6,
+        "interactions": 9,
         "messages": [
             {
                 "role": "HUMAN",
@@ -10028,11 +12732,11 @@ const RAW_SIMULATIONS = [
         "agency": "Ark",
         "region": "Nordeste",
         "date": "20/07/2026",
-        "dur": "0m 10s",
+        "dur": "0m 5s",
         "score": 0,
         "scenario": "PROSPECT_FRIO",
         "lqa": "N/A",
-        "interactions": 4,
+        "interactions": 5,
         "messages": [
             {
                 "role": "HUMAN",
@@ -10062,11 +12766,11 @@ const RAW_SIMULATIONS = [
         "agency": "Ark",
         "region": "Nordeste",
         "date": "20/07/2026",
-        "dur": "0m 27s",
+        "dur": "0m 14s",
         "score": 0,
         "scenario": "PROSPECT_FRIO",
         "lqa": "N/A",
-        "interactions": 11,
+        "interactions": 18,
         "messages": [
             {
                 "role": "HUMAN",
@@ -10148,7 +12852,7 @@ const RAW_SIMULATIONS = [
         "agency": "Ark",
         "region": "Nordeste",
         "date": "20/07/2026",
-        "dur": "0m 5s",
+        "dur": "0m 0s",
         "score": 0,
         "scenario": "ENVIO_DOCUMENTO",
         "lqa": "N/A",
@@ -10163,14 +12867,14 @@ const RAW_SIMULATIONS = [
     },
     {
         "name": "Philippe Lepeuple",
-        "agency": "Outros",
+        "agency": "rhapsody",
         "region": "Outros",
         "date": "29/04/2026",
         "dur": "0m 0s",
         "score": 0,
         "scenario": "PROSPECT_FRIO",
         "lqa": "N/A",
-        "interactions": 2,
+        "interactions": 4,
         "messages": [
             {
                 "role": "AI",
@@ -10193,14 +12897,14 @@ const RAW_SIMULATIONS = [
     },
     {
         "name": "Philippe Lepeuple",
-        "agency": "Outros",
+        "agency": "rhapsody",
         "region": "Outros",
         "date": "29/04/2026",
         "dur": "0m 0s",
         "score": 0,
         "scenario": "PROSPECT_FRIO",
         "lqa": "N/A",
-        "interactions": 16,
+        "interactions": 32,
         "messages": [
             {
                 "role": "HUMAN",
@@ -10335,14 +13039,14 @@ const RAW_SIMULATIONS = [
     },
     {
         "name": "Philippe Lepeuple",
-        "agency": "Outros",
+        "agency": "rhapsody",
         "region": "Outros",
         "date": "13/05/2026",
         "dur": "0m 0s",
         "score": 0,
         "scenario": "ENVIO_DOCUMENTO",
         "lqa": "N/A",
-        "interactions": 15,
+        "interactions": 31,
         "messages": [
             {
                 "role": "AI",
@@ -10473,14 +13177,14 @@ const RAW_SIMULATIONS = [
     },
     {
         "name": "Philippe Lepeuple",
-        "agency": "Outros",
+        "agency": "rhapsody",
         "region": "Outros",
         "date": "13/05/2026",
         "dur": "0m 0s",
         "score": 64,
         "scenario": "ENVIO_DOCUMENTO",
         "lqa": "N/A",
-        "interactions": 11,
+        "interactions": 23,
         "messages": [
             {
                 "role": "AI",
@@ -10579,14 +13283,14 @@ const RAW_SIMULATIONS = [
     },
     {
         "name": "Philippe Lepeuple",
-        "agency": "Outros",
+        "agency": "rhapsody",
         "region": "Outros",
         "date": "13/05/2026",
         "dur": "0m 0s",
         "score": 0,
         "scenario": "ENVIO_DOCUMENTO",
         "lqa": "N/A",
-        "interactions": 14,
+        "interactions": 28,
         "messages": [
             {
                 "role": "AI",
@@ -10705,14 +13409,14 @@ const RAW_SIMULATIONS = [
     },
     {
         "name": "Philippe Lepeuple",
-        "agency": "Outros",
+        "agency": "rhapsody",
         "region": "Outros",
         "date": "13/05/2026",
         "dur": "0m 0s",
         "score": 67,
         "scenario": "ENVIO_DOCUMENTO",
         "lqa": "N/A",
-        "interactions": 19,
+        "interactions": 38,
         "messages": [
             {
                 "role": "AI",
@@ -10871,14 +13575,14 @@ const RAW_SIMULATIONS = [
     },
     {
         "name": "Philippe Lepeuple",
-        "agency": "Outros",
+        "agency": "rhapsody",
         "region": "Outros",
         "date": "13/05/2026",
         "dur": "0m 0s",
         "score": 86,
         "scenario": "ENVIO_DOCUMENTO",
         "lqa": "N/A",
-        "interactions": 10,
+        "interactions": 21,
         "messages": [
             {
                 "role": "AI",
@@ -10969,14 +13673,14 @@ const RAW_SIMULATIONS = [
     },
     {
         "name": "Philippe Lepeuple",
-        "agency": "Outros",
+        "agency": "rhapsody",
         "region": "Outros",
         "date": "13/05/2026",
         "dur": "0m 0s",
         "score": 0,
         "scenario": "ENVIO_DOCUMENTO",
         "lqa": "N/A",
-        "interactions": 18,
+        "interactions": 37,
         "messages": [
             {
                 "role": "AI",
@@ -11131,27 +13835,27 @@ const RAW_SIMULATIONS = [
     },
     {
         "name": "Philippe Lepeuple",
-        "agency": "Outros",
+        "agency": "rhapsody",
         "region": "Outros",
         "date": "18/06/2026",
         "dur": "0m 0s",
         "score": 0,
-        "scenario": "CONVENCIMENTO",
+        "scenario": "COBERTURA",
         "lqa": "N/A",
-        "interactions": 1,
+        "interactions": 0,
         "messages": [],
         "finished": false
     },
     {
         "name": "Philippe Lepeuple",
-        "agency": "Outros",
+        "agency": "rhapsody",
         "region": "Outros",
         "date": "18/06/2026",
-        "dur": "3m 6s",
+        "dur": "2m 9s",
         "score": 88,
-        "scenario": "CONVENCIMENTO",
+        "scenario": "COBERTURA",
         "lqa": "N/A",
-        "interactions": 9,
+        "interactions": 19,
         "messages": [
             {
                 "role": "AI",
@@ -11234,14 +13938,14 @@ const RAW_SIMULATIONS = [
     },
     {
         "name": "Philippe Lepeuple",
-        "agency": "Outros",
+        "agency": "rhapsody",
         "region": "Outros",
         "date": "19/06/2026",
-        "dur": "0m 9s",
+        "dur": "0m 2s",
         "score": 0,
         "scenario": "ENVIO_DOCUMENTO",
         "lqa": "N/A",
-        "interactions": 2,
+        "interactions": 4,
         "messages": [
             {
                 "role": "AI",
@@ -11264,14 +13968,14 @@ const RAW_SIMULATIONS = [
     },
     {
         "name": "Philippe Lepeuple",
-        "agency": "Outros",
+        "agency": "rhapsody",
         "region": "Outros",
         "date": "29/06/2026",
-        "dur": "0m 14s",
+        "dur": "0m 7s",
         "score": 0,
         "scenario": "RECOMENDACOES",
         "lqa": "N/A",
-        "interactions": 1,
+        "interactions": 2,
         "messages": [
             {
                 "role": "HUMAN",
@@ -11286,14 +13990,14 @@ const RAW_SIMULATIONS = [
     },
     {
         "name": "Philippe Lepeuple",
-        "agency": "Outros",
+        "agency": "rhapsody",
         "region": "Outros",
         "date": "29/06/2026",
-        "dur": "0m 27s",
+        "dur": "0m 14s",
         "score": 0,
         "scenario": "RECOMENDACOES",
         "lqa": "N/A",
-        "interactions": 2,
+        "interactions": 4,
         "messages": [
             {
                 "role": "HUMAN",
@@ -11316,14 +14020,14 @@ const RAW_SIMULATIONS = [
     },
     {
         "name": "Philippe Lepeuple",
-        "agency": "Outros",
+        "agency": "rhapsody",
         "region": "Outros",
         "date": "29/06/2026",
-        "dur": "0m 44s",
+        "dur": "0m 27s",
         "score": 0,
         "scenario": "RECOMENDACOES",
         "lqa": "N/A",
-        "interactions": 3,
+        "interactions": 6,
         "messages": [
             {
                 "role": "HUMAN",
@@ -11354,14 +14058,14 @@ const RAW_SIMULATIONS = [
     },
     {
         "name": "Philippe Lepeuple",
-        "agency": "Outros",
+        "agency": "rhapsody",
         "region": "Outros",
         "date": "29/06/2026",
-        "dur": "0m 23s",
+        "dur": "0m 8s",
         "score": 0,
         "scenario": "RECOMENDACOES",
         "lqa": "N/A",
-        "interactions": 2,
+        "interactions": 4,
         "messages": [
             {
                 "role": "HUMAN",
@@ -11384,14 +14088,14 @@ const RAW_SIMULATIONS = [
     },
     {
         "name": "Philippe Lepeuple",
-        "agency": "Outros",
+        "agency": "rhapsody",
         "region": "Outros",
         "date": "29/06/2026",
-        "dur": "0m 13s",
+        "dur": "0m 5s",
         "score": 0,
         "scenario": "RECOMENDACOES",
         "lqa": "N/A",
-        "interactions": 1,
+        "interactions": 2,
         "messages": [
             {
                 "role": "HUMAN",
@@ -11406,14 +14110,14 @@ const RAW_SIMULATIONS = [
     },
     {
         "name": "Philippe Lepeuple",
-        "agency": "Outros",
+        "agency": "rhapsody",
         "region": "Outros",
         "date": "29/06/2026",
-        "dur": "0m 51s",
+        "dur": "0m 18s",
         "score": 0,
         "scenario": "RECOMENDACOES",
         "lqa": "N/A",
-        "interactions": 4,
+        "interactions": 8,
         "messages": [
             {
                 "role": "HUMAN",
@@ -11452,14 +14156,14 @@ const RAW_SIMULATIONS = [
     },
     {
         "name": "Philippe Lepeuple",
-        "agency": "Outros",
+        "agency": "rhapsody",
         "region": "Outros",
         "date": "30/06/2026",
-        "dur": "2m 0s",
+        "dur": "0m 47s",
         "score": 0,
         "scenario": "RECOMENDACOES",
         "lqa": "N/A",
-        "interactions": 8,
+        "interactions": 16,
         "messages": [
             {
                 "role": "HUMAN",
@@ -11530,14 +14234,14 @@ const RAW_SIMULATIONS = [
     },
     {
         "name": "Philippe Lepeuple",
-        "agency": "Outros",
+        "agency": "rhapsody",
         "region": "Outros",
         "date": "30/06/2026",
-        "dur": "0m 47s",
+        "dur": "0m 19s",
         "score": 0,
         "scenario": "RECOMENDACOES",
         "lqa": "N/A",
-        "interactions": 3,
+        "interactions": 6,
         "messages": [
             {
                 "role": "HUMAN",
@@ -11568,27 +14272,27 @@ const RAW_SIMULATIONS = [
     },
     {
         "name": "Philippe Lepeuple",
-        "agency": "Outros",
+        "agency": "rhapsody",
         "region": "Outros",
         "date": "30/06/2026",
         "dur": "0m 0s",
         "score": 0,
         "scenario": "RECOMENDACOES",
         "lqa": "N/A",
-        "interactions": 1,
+        "interactions": 0,
         "messages": [],
         "finished": false
     },
     {
         "name": "Philippe Lepeuple",
-        "agency": "Outros",
+        "agency": "rhapsody",
         "region": "Outros",
         "date": "30/06/2026",
-        "dur": "1m 38s",
+        "dur": "0m 43s",
         "score": 0,
         "scenario": "RECOMENDACOES",
         "lqa": "N/A",
-        "interactions": 7,
+        "interactions": 14,
         "messages": [
             {
                 "role": "HUMAN",
@@ -11651,14 +14355,14 @@ const RAW_SIMULATIONS = [
     },
     {
         "name": "Philippe Lepeuple",
-        "agency": "Outros",
+        "agency": "rhapsody",
         "region": "Outros",
         "date": "30/06/2026",
-        "dur": "4m 35s",
+        "dur": "3m 29s",
         "score": 48,
         "scenario": "RECOMENDACOES",
         "lqa": "N/A",
-        "interactions": 11,
+        "interactions": 22,
         "messages": [
             {
                 "role": "HUMAN",
@@ -11753,14 +14457,14 @@ const RAW_SIMULATIONS = [
     },
     {
         "name": "Philippe Lepeuple",
-        "agency": "Outros",
+        "agency": "rhapsody",
         "region": "Outros",
         "date": "30/06/2026",
-        "dur": "6m 19s",
+        "dur": "4m 19s",
         "score": 72,
         "scenario": "RECOMENDACOES",
         "lqa": "N/A",
-        "interactions": 19,
+        "interactions": 38,
         "messages": [
             {
                 "role": "HUMAN",
@@ -11919,14 +14623,14 @@ const RAW_SIMULATIONS = [
     },
     {
         "name": "Philippe Lepeuple",
-        "agency": "Outros",
+        "agency": "rhapsody",
         "region": "Outros",
         "date": "01/07/2026",
-        "dur": "6m 29s",
+        "dur": "3m 49s",
         "score": 52,
         "scenario": "RECOMENDACOES",
         "lqa": "N/A",
-        "interactions": 18,
+        "interactions": 36,
         "messages": [
             {
                 "role": "HUMAN",
@@ -12077,14 +14781,14 @@ const RAW_SIMULATIONS = [
     },
     {
         "name": "Philippe Lepeuple",
-        "agency": "Outros",
+        "agency": "rhapsody",
         "region": "Outros",
         "date": "01/07/2026",
-        "dur": "0m 56s",
+        "dur": "0m 29s",
         "score": 0,
         "scenario": "RECOMENDACOES",
         "lqa": "N/A",
-        "interactions": 3,
+        "interactions": 6,
         "messages": [
             {
                 "role": "HUMAN",
@@ -12115,14 +14819,14 @@ const RAW_SIMULATIONS = [
     },
     {
         "name": "Philippe Lepeuple",
-        "agency": "Outros",
+        "agency": "rhapsody",
         "region": "Outros",
         "date": "01/07/2026",
-        "dur": "6m 7s",
+        "dur": "3m 51s",
         "score": 55,
         "scenario": "RECOMENDACOES",
         "lqa": "N/A",
-        "interactions": 20,
+        "interactions": 40,
         "messages": [
             {
                 "role": "HUMAN",
@@ -12289,14 +14993,14 @@ const RAW_SIMULATIONS = [
     },
     {
         "name": "Philippe Lepeuple",
-        "agency": "Outros",
+        "agency": "rhapsody",
         "region": "Outros",
         "date": "01/07/2026",
-        "dur": "5m 53s",
+        "dur": "3m 56s",
         "score": 36,
         "scenario": "RECOMENDACOES",
         "lqa": "N/A",
-        "interactions": 17,
+        "interactions": 34,
         "messages": [
             {
                 "role": "HUMAN",
@@ -12439,14 +15143,14 @@ const RAW_SIMULATIONS = [
     },
     {
         "name": "Philippe Lepeuple",
-        "agency": "Outros",
+        "agency": "rhapsody",
         "region": "Outros",
         "date": "01/07/2026",
-        "dur": "1m 0s",
+        "dur": "0m 23s",
         "score": 12,
         "scenario": "RECOMENDACOES",
         "lqa": "N/A",
-        "interactions": 4,
+        "interactions": 8,
         "messages": [
             {
                 "role": "HUMAN",
@@ -12485,14 +15189,14 @@ const RAW_SIMULATIONS = [
     },
     {
         "name": "Philippe Lepeuple",
-        "agency": "Outros",
+        "agency": "rhapsody",
         "region": "Outros",
         "date": "02/07/2026",
-        "dur": "5m 14s",
+        "dur": "3m 18s",
         "score": 49,
         "scenario": "RECOMENDACOES",
         "lqa": "N/A",
-        "interactions": 16,
+        "interactions": 32,
         "messages": [
             {
                 "role": "HUMAN",
@@ -12627,14 +15331,14 @@ const RAW_SIMULATIONS = [
     },
     {
         "name": "Philippe Lepeuple",
-        "agency": "Outros",
+        "agency": "rhapsody",
         "region": "Outros",
         "date": "02/07/2026",
-        "dur": "5m 34s",
+        "dur": "3m 6s",
         "score": 37,
         "scenario": "RECOMENDACOES",
         "lqa": "N/A",
-        "interactions": 19,
+        "interactions": 38,
         "messages": [
             {
                 "role": "HUMAN",
@@ -12793,27 +15497,27 @@ const RAW_SIMULATIONS = [
     },
     {
         "name": "Philippe Lepeuple",
-        "agency": "Outros",
+        "agency": "rhapsody",
         "region": "Outros",
         "date": "02/07/2026",
         "dur": "0m 0s",
         "score": 0,
         "scenario": "RECOMENDACOES",
         "lqa": "N/A",
-        "interactions": 1,
+        "interactions": 0,
         "messages": [],
         "finished": false
     },
     {
         "name": "Philippe Lepeuple",
-        "agency": "Outros",
+        "agency": "rhapsody",
         "region": "Outros",
         "date": "02/07/2026",
-        "dur": "4m 32s",
+        "dur": "2m 52s",
         "score": 54,
         "scenario": "RECOMENDACOES",
         "lqa": "N/A",
-        "interactions": 16,
+        "interactions": 32,
         "messages": [
             {
                 "role": "HUMAN",
@@ -12948,14 +15652,14 @@ const RAW_SIMULATIONS = [
     },
     {
         "name": "Philippe Lepeuple",
-        "agency": "Outros",
+        "agency": "rhapsody",
         "region": "Outros",
         "date": "02/07/2026",
-        "dur": "3m 42s",
+        "dur": "1m 53s",
         "score": 42,
         "scenario": "RECOMENDACOES",
         "lqa": "N/A",
-        "interactions": 13,
+        "interactions": 26,
         "messages": [
             {
                 "role": "HUMAN",
@@ -13066,14 +15770,14 @@ const RAW_SIMULATIONS = [
     },
     {
         "name": "Philippe Lepeuple",
-        "agency": "Outros",
+        "agency": "rhapsody",
         "region": "Outros",
         "date": "02/07/2026",
-        "dur": "2m 8s",
+        "dur": "1m 13s",
         "score": 0,
         "scenario": "RECOMENDACOES",
         "lqa": "N/A",
-        "interactions": 8,
+        "interactions": 15,
         "messages": [
             {
                 "role": "HUMAN",
@@ -13140,14 +15844,14 @@ const RAW_SIMULATIONS = [
     },
     {
         "name": "Philippe Lepeuple",
-        "agency": "Outros",
+        "agency": "rhapsody",
         "region": "Outros",
         "date": "02/07/2026",
-        "dur": "4m 55s",
+        "dur": "3m 1s",
         "score": 83,
         "scenario": "RECOMENDACOES",
         "lqa": "N/A",
-        "interactions": 17,
+        "interactions": 34,
         "messages": [
             {
                 "role": "AI",
@@ -13290,14 +15994,14 @@ const RAW_SIMULATIONS = [
     },
     {
         "name": "Philippe Lepeuple",
-        "agency": "Outros",
+        "agency": "rhapsody",
         "region": "Outros",
         "date": "02/07/2026",
-        "dur": "3m 6s",
+        "dur": "1m 44s",
         "score": 0,
         "scenario": "RECOMENDACOES",
         "lqa": "N/A",
-        "interactions": 9,
+        "interactions": 18,
         "messages": [
             {
                 "role": "HUMAN",
@@ -13376,14 +16080,14 @@ const RAW_SIMULATIONS = [
     },
     {
         "name": "Philippe Lepeuple",
-        "agency": "Outros",
+        "agency": "rhapsody",
         "region": "Outros",
         "date": "02/07/2026",
-        "dur": "4m 13s",
+        "dur": "2m 41s",
         "score": 0,
         "scenario": "RECOMENDACOES",
         "lqa": "N/A",
-        "interactions": 11,
+        "interactions": 22,
         "messages": [
             {
                 "role": "HUMAN",
@@ -13478,14 +16182,14 @@ const RAW_SIMULATIONS = [
     },
     {
         "name": "Philippe Lepeuple",
-        "agency": "Outros",
+        "agency": "rhapsody",
         "region": "Outros",
         "date": "02/07/2026",
-        "dur": "0m 47s",
+        "dur": "0m 23s",
         "score": 0,
         "scenario": "RECOMENDACOES",
         "lqa": "N/A",
-        "interactions": 3,
+        "interactions": 6,
         "messages": [
             {
                 "role": "HUMAN",
@@ -13516,14 +16220,14 @@ const RAW_SIMULATIONS = [
     },
     {
         "name": "Philippe Lepeuple",
-        "agency": "Outros",
+        "agency": "rhapsody",
         "region": "Outros",
         "date": "02/07/2026",
-        "dur": "4m 29s",
+        "dur": "3m 10s",
         "score": 85,
         "scenario": "RECOMENDACOES",
         "lqa": "N/A",
-        "interactions": 13,
+        "interactions": 26,
         "messages": [
             {
                 "role": "AI",
@@ -13634,14 +16338,14 @@ const RAW_SIMULATIONS = [
     },
     {
         "name": "Philippe Lepeuple",
-        "agency": "Outros",
+        "agency": "rhapsody",
         "region": "Outros",
         "date": "02/07/2026",
-        "dur": "4m 3s",
+        "dur": "2m 14s",
         "score": 54,
         "scenario": "RECOMENDACOES",
         "lqa": "N/A",
-        "interactions": 14,
+        "interactions": 28,
         "messages": [
             {
                 "role": "HUMAN",
@@ -13760,14 +16464,14 @@ const RAW_SIMULATIONS = [
     },
     {
         "name": "Philippe Lepeuple",
-        "agency": "Outros",
+        "agency": "rhapsody",
         "region": "Outros",
         "date": "10/07/2026",
-        "dur": "2m 55s",
+        "dur": "2m 11s",
         "score": 0,
         "scenario": "PROSPECT_FRIO",
         "lqa": "N/A",
-        "interactions": 7,
+        "interactions": 14,
         "messages": [
             {
                 "role": "HUMAN",
@@ -13830,14 +16534,14 @@ const RAW_SIMULATIONS = [
     },
     {
         "name": "Philippe Lepeuple",
-        "agency": "Outros",
+        "agency": "rhapsody",
         "region": "Outros",
         "date": "10/07/2026",
-        "dur": "3m 4s",
+        "dur": "2m 15s",
         "score": 0,
         "scenario": "PROSPECT_FRIO",
         "lqa": "N/A",
-        "interactions": 6,
+        "interactions": 12,
         "messages": [
             {
                 "role": "HUMAN",
@@ -13892,14 +16596,14 @@ const RAW_SIMULATIONS = [
     },
     {
         "name": "Philippe Lepeuple",
-        "agency": "Outros",
+        "agency": "rhapsody",
         "region": "Outros",
         "date": "10/07/2026",
-        "dur": "2m 17s",
+        "dur": "1m 48s",
         "score": 85,
         "scenario": "PROSPECT_FRIO",
         "lqa": "N/A",
-        "interactions": 6,
+        "interactions": 12,
         "messages": [
             {
                 "role": "HUMAN",
@@ -13954,14 +16658,14 @@ const RAW_SIMULATIONS = [
     },
     {
         "name": "Philippe Lepeuple",
-        "agency": "Outros",
+        "agency": "rhapsody",
         "region": "Outros",
         "date": "10/07/2026",
-        "dur": "2m 4s",
+        "dur": "1m 7s",
         "score": 0,
         "scenario": "PROSPECT_FRIO",
         "lqa": "N/A",
-        "interactions": 13,
+        "interactions": 26,
         "messages": [
             {
                 "role": "HUMAN",
@@ -14072,14 +16776,14 @@ const RAW_SIMULATIONS = [
     },
     {
         "name": "Philippe Lepeuple",
-        "agency": "Outros",
+        "agency": "rhapsody",
         "region": "Outros",
         "date": "10/07/2026",
-        "dur": "2m 26s",
+        "dur": "1m 34s",
         "score": 0,
         "scenario": "PROSPECT_FRIO",
         "lqa": "N/A",
-        "interactions": 8,
+        "interactions": 16,
         "messages": [
             {
                 "role": "HUMAN",
@@ -14150,14 +16854,14 @@ const RAW_SIMULATIONS = [
     },
     {
         "name": "Philippe Lepeuple",
-        "agency": "Outros",
+        "agency": "rhapsody",
         "region": "Outros",
         "date": "10/07/2026",
-        "dur": "2m 25s",
+        "dur": "1m 6s",
         "score": 0,
         "scenario": "PROSPECT_FRIO",
         "lqa": "N/A",
-        "interactions": 14,
+        "interactions": 27,
         "messages": [
             {
                 "role": "HUMAN",
@@ -14272,14 +16976,14 @@ const RAW_SIMULATIONS = [
     },
     {
         "name": "Philippe Lepeuple",
-        "agency": "Outros",
+        "agency": "rhapsody",
         "region": "Outros",
         "date": "10/07/2026",
-        "dur": "0m 11s",
+        "dur": "0m 5s",
         "score": 0,
         "scenario": "PROSPECT_FRIO",
         "lqa": "N/A",
-        "interactions": 1,
+        "interactions": 2,
         "messages": [
             {
                 "role": "HUMAN",
@@ -14294,14 +16998,14 @@ const RAW_SIMULATIONS = [
     },
     {
         "name": "Philippe Lepeuple",
-        "agency": "Outros",
+        "agency": "rhapsody",
         "region": "Outros",
         "date": "10/07/2026",
-        "dur": "0m 9s",
+        "dur": "0m 6s",
         "score": 0,
         "scenario": "PROSPECT_FRIO",
         "lqa": "N/A",
-        "interactions": 1,
+        "interactions": 2,
         "messages": [
             {
                 "role": "HUMAN",
@@ -14316,14 +17020,14 @@ const RAW_SIMULATIONS = [
     },
     {
         "name": "Philippe Lepeuple",
-        "agency": "Outros",
+        "agency": "rhapsody",
         "region": "Outros",
         "date": "10/07/2026",
-        "dur": "2m 0s",
+        "dur": "1m 19s",
         "score": 0,
         "scenario": "PROSPECT_FRIO",
         "lqa": "N/A",
-        "interactions": 6,
+        "interactions": 12,
         "messages": [
             {
                 "role": "HUMAN",
@@ -14378,14 +17082,14 @@ const RAW_SIMULATIONS = [
     },
     {
         "name": "Philippe Lepeuple",
-        "agency": "Outros",
+        "agency": "rhapsody",
         "region": "Outros",
         "date": "10/07/2026",
-        "dur": "0m 13s",
+        "dur": "0m 5s",
         "score": 0,
         "scenario": "PROSPECT_FRIO",
         "lqa": "N/A",
-        "interactions": 2,
+        "interactions": 3,
         "messages": [
             {
                 "role": "HUMAN",
@@ -14403,15 +17107,58 @@ const RAW_SIMULATIONS = [
         "finished": false
     },
     {
+        "name": "Philippe Lepeuple",
+        "agency": "rhapsody",
+        "region": "Outros",
+        "date": "24/07/2026",
+        "dur": "0m 0s",
+        "score": 0,
+        "scenario": "PROSPECT_FRIO",
+        "lqa": "N/A",
+        "interactions": 0,
+        "messages": [],
+        "finished": false
+    },
+    {
+        "name": "Philippe Lepeuple",
+        "agency": "rhapsody",
+        "region": "Outros",
+        "date": "27/07/2026",
+        "dur": "0m 5s",
+        "score": 0,
+        "scenario": "RECOMENDACOES",
+        "lqa": "N/A",
+        "interactions": 4,
+        "messages": [
+            {
+                "role": "HUMAN",
+                "text": "Bom dia, Ricardo. Sou eu, Felipe"
+            },
+            {
+                "role": "AI",
+                "text": "Bom dia, Felipe. Tudo certo por aqui. Seguimos com os próximos passos do contrato?"
+            },
+            {
+                "role": "HUMAN",
+                "text": "Sim, como você achou a, o nosso trabalho?"
+            },
+            {
+                "role": "AI",
+                "text": "Fiz a leitura técnica e gostei do raciocínio. Explicou bem os trade-offs e a estrutura fiscal ficou clara. Onde você vê margem para otimizar custos de carregamento?"
+            }
+        ],
+        "finished": false
+    },
+    {
         "name": "Sabrina Oliveira",
         "agency": "Outros",
         "region": "Outros",
         "date": "12/06/2026",
-        "dur": "1m 38s",
+        "dur": "0m 57s",
         "score": 0,
         "scenario": "PROSPECT_FRIO",
         "lqa": "N/A",
-        "interactions": 17,
+        "interactions": 26,
         "messages": [
             {
                 "role": "HUMAN",
@@ -14525,11 +17272,11 @@ const RAW_SIMULATIONS = [
         "agency": "Outros",
         "region": "Outros",
         "date": "12/06/2026",
-        "dur": "0m 27s",
+        "dur": "0m 18s",
         "score": 0,
         "scenario": "PROSPECT_FRIO",
         "lqa": "N/A",
-        "interactions": 2,
+        "interactions": 4,
         "messages": [
             {
                 "role": "HUMAN",
@@ -14555,11 +17302,11 @@ const RAW_SIMULATIONS = [
         "agency": "Outros",
         "region": "Outros",
         "date": "15/06/2026",
-        "dur": "1m 12s",
+        "dur": "0m 34s",
         "score": 0,
         "scenario": "PROSPECT_FRIO",
         "lqa": "N/A",
-        "interactions": 8,
+        "interactions": 16,
         "messages": [
             {
                 "role": "HUMAN",
@@ -14633,11 +17380,11 @@ const RAW_SIMULATIONS = [
         "agency": "Outros",
         "region": "Outros",
         "date": "15/06/2026",
-        "dur": "0m 12s",
+        "dur": "0m 7s",
         "score": 0,
         "scenario": "PROSPECT_FRIO",
         "lqa": "N/A",
-        "interactions": 3,
+        "interactions": 4,
         "messages": [
             {
                 "role": "HUMAN",
@@ -14681,11 +17428,11 @@ const RAW_SIMULATIONS = [
         "agency": "Outros",
         "region": "Outros",
         "date": "19/06/2026",
-        "dur": "0m 8s",
+        "dur": "0m 1s",
         "score": 0,
         "scenario": "PROSPECT_FRIO",
         "lqa": "N/A",
-        "interactions": 1,
+        "interactions": 2,
         "messages": [
             {
                 "role": "HUMAN",
@@ -14707,7 +17454,7 @@ const RAW_SIMULATIONS = [
         "score": 0,
         "scenario": "PROSPECT_FRIO",
         "lqa": "N/A",
-        "interactions": 1,
+        "interactions": 0,
         "messages": [],
         "finished": false
     },
@@ -14716,11 +17463,11 @@ const RAW_SIMULATIONS = [
         "agency": "Outros",
         "region": "Outros",
         "date": "23/06/2026",
-        "dur": "1m 44s",
+        "dur": "1m 23s",
         "score": 28,
         "scenario": "PROSPECT_FRIO",
         "lqa": "N/A",
-        "interactions": 5,
+        "interactions": 9,
         "messages": [
             {
                 "role": "HUMAN",
@@ -14766,11 +17513,11 @@ const RAW_SIMULATIONS = [
         "agency": "Outros",
         "region": "Outros",
         "date": "23/06/2026",
-        "dur": "0m 5s",
+        "dur": "0m 1s",
         "score": 0,
         "scenario": "PROSPECT_FRIO",
         "lqa": "N/A",
-        "interactions": 3,
+        "interactions": 4,
         "messages": [
             {
                 "role": "HUMAN",
@@ -14796,11 +17543,11 @@ const RAW_SIMULATIONS = [
         "agency": "Outros",
         "region": "Outros",
         "date": "23/06/2026",
-        "dur": "0m 20s",
+        "dur": "0m 10s",
         "score": 0,
         "scenario": "PROSPECT_FRIO",
         "lqa": "N/A",
-        "interactions": 4,
+        "interactions": 5,
         "messages": [
             {
                 "role": "HUMAN",
@@ -14830,11 +17577,11 @@ const RAW_SIMULATIONS = [
         "agency": "Outros",
         "region": "Outros",
         "date": "23/06/2026",
-        "dur": "4m 47s",
+        "dur": "3m 42s",
         "score": 41,
         "scenario": "PROSPECT_FRIO",
         "lqa": "N/A",
-        "interactions": 14,
+        "interactions": 22,
         "messages": [
             {
                 "role": "HUMAN",
@@ -14932,11 +17679,11 @@ const RAW_SIMULATIONS = [
         "agency": "Outros",
         "region": "Outros",
         "date": "23/06/2026",
-        "dur": "0m 7s",
+        "dur": "0m 0s",
         "score": 0,
         "scenario": "ENVIO_DOCUMENTO",
         "lqa": "N/A",
-        "interactions": 1,
+        "interactions": 2,
         "messages": [
             {
                 "role": "HUMAN",
@@ -14976,7 +17723,7 @@ const RAW_SIMULATIONS = [
         "score": 0,
         "scenario": "ENVIO_DOCUMENTO",
         "lqa": "N/A",
-        "interactions": 1,
+        "interactions": 0,
         "messages": [],
         "finished": false
     },
@@ -14985,7 +17732,7 @@ const RAW_SIMULATIONS = [
         "agency": "Outros",
         "region": "Outros",
         "date": "23/06/2026",
-        "dur": "0m 7s",
+        "dur": "0m 0s",
         "score": 0,
         "scenario": "ENVIO_DOCUMENTO",
         "lqa": "N/A",
@@ -15007,7 +17754,7 @@ const RAW_SIMULATIONS = [
         "score": 0,
         "scenario": "ENVIO_DOCUMENTO",
         "lqa": "N/A",
-        "interactions": 1,
+        "interactions": 0,
         "messages": [],
         "finished": false
     },
@@ -15020,7 +17767,7 @@ const RAW_SIMULATIONS = [
         "score": 0,
         "scenario": "ENVIO_DOCUMENTO",
         "lqa": "N/A",
-        "interactions": 1,
+        "interactions": 2,
         "messages": [
             {
                 "role": "HUMAN",
@@ -15042,7 +17789,7 @@ const RAW_SIMULATIONS = [
         "score": 0,
         "scenario": "ENVIO_DOCUMENTO",
         "lqa": "N/A",
-        "interactions": 1,
+        "interactions": 0,
         "messages": [],
         "finished": false
     },
@@ -15051,11 +17798,11 @@ const RAW_SIMULATIONS = [
         "agency": "Outros",
         "region": "Outros",
         "date": "23/06/2026",
-        "dur": "3m 32s",
+        "dur": "2m 53s",
         "score": 0,
         "scenario": "ENVIO_DOCUMENTO",
         "lqa": "N/A",
-        "interactions": 9,
+        "interactions": 17,
         "messages": [
             {
                 "role": "AI",
@@ -15133,11 +17880,11 @@ const RAW_SIMULATIONS = [
         "agency": "Outros",
         "region": "Outros",
         "date": "23/06/2026",
-        "dur": "0m 5s",
+        "dur": "0m 0s",
         "score": 0,
         "scenario": "PROSPECT_FRIO",
         "lqa": "N/A",
-        "interactions": 2,
+        "interactions": 3,
         "messages": [
             {
                 "role": "HUMAN",
@@ -15185,7 +17932,7 @@ const RAW_SIMULATIONS = [
         "score": 0,
         "scenario": "PROSPECT_FRIO",
         "lqa": "N/A",
-        "interactions": 1,
+        "interactions": 0,
         "messages": [],
         "finished": false
     },
@@ -15194,11 +17941,11 @@ const RAW_SIMULATIONS = [
         "agency": "Outros",
         "region": "Outros",
         "date": "23/06/2026",
-        "dur": "2m 31s",
+        "dur": "2m 2s",
         "score": 56,
         "scenario": "PROSPECT_FRIO",
         "lqa": "N/A",
-        "interactions": 6,
+        "interactions": 11,
         "messages": [
             {
                 "role": "HUMAN",
@@ -15252,11 +17999,11 @@ const RAW_SIMULATIONS = [
         "agency": "Outros",
         "region": "Outros",
         "date": "23/06/2026",
-        "dur": "5m 23s",
+        "dur": "4m 41s",
         "score": 84,
         "scenario": "PROSPECT_FRIO",
         "lqa": "N/A",
-        "interactions": 9,
+        "interactions": 15,
         "messages": [
             {
                 "role": "AI",
@@ -15326,11 +18073,11 @@ const RAW_SIMULATIONS = [
         "agency": "Outros",
         "region": "Outros",
         "date": "24/06/2026",
-        "dur": "1m 31s",
+        "dur": "1m 16s",
         "score": 0,
         "scenario": "PROSPECT_FRIO",
         "lqa": "N/A",
-        "interactions": 3,
+        "interactions": 6,
         "messages": [
             {
                 "role": "HUMAN",
@@ -15364,11 +18111,11 @@ const RAW_SIMULATIONS = [
         "agency": "Outros",
         "region": "Outros",
         "date": "24/06/2026",
-        "dur": "0m 56s",
+        "dur": "0m 38s",
         "score": 0,
         "scenario": "PROSPECT_FRIO",
         "lqa": "N/A",
-        "interactions": 3,
+        "interactions": 6,
         "messages": [
             {
                 "role": "HUMAN",
@@ -15402,11 +18149,11 @@ const RAW_SIMULATIONS = [
         "agency": "Outros",
         "region": "Outros",
         "date": "29/06/2026",
-        "dur": "0m 9s",
+        "dur": "0m 0s",
         "score": 0,
         "scenario": "ENVIO_DOCUMENTO",
         "lqa": "N/A",
-        "interactions": 1,
+        "interactions": 3,
         "messages": [
             {
                 "role": "AI",
@@ -15428,11 +18175,11 @@ const RAW_SIMULATIONS = [
         "agency": "Outros",
         "region": "Outros",
         "date": "29/06/2026",
-        "dur": "0m 6s",
+        "dur": "0m 0s",
         "score": 0,
         "scenario": "ENVIO_DOCUMENTO",
         "lqa": "N/A",
-        "interactions": 1,
+        "interactions": 2,
         "messages": [
             {
                 "role": "AI",
@@ -15450,11 +18197,11 @@ const RAW_SIMULATIONS = [
         "agency": "Outros",
         "region": "Outros",
         "date": "29/06/2026",
-        "dur": "3m 57s",
+        "dur": "3m 23s",
         "score": 0,
         "scenario": "ENVIO_DOCUMENTO",
         "lqa": "N/A",
-        "interactions": 10,
+        "interactions": 15,
         "messages": [
             {
                 "role": "AI",
@@ -15524,11 +18271,11 @@ const RAW_SIMULATIONS = [
         "agency": "Outros",
         "region": "Outros",
         "date": "29/06/2026",
-        "dur": "1m 43s",
+        "dur": "1m 30s",
         "score": 0,
         "scenario": "ENVIO_DOCUMENTO",
         "lqa": "N/A",
-        "interactions": 6,
+        "interactions": 10,
         "messages": [
             {
                 "role": "AI",
@@ -15578,11 +18325,11 @@ const RAW_SIMULATIONS = [
         "agency": "Outros",
         "region": "Outros",
         "date": "29/06/2026",
-        "dur": "1m 23s",
+        "dur": "1m 6s",
         "score": 93,
         "scenario": "ENVIO_DOCUMENTO",
         "lqa": "N/A",
-        "interactions": 3,
+        "interactions": 6,
         "messages": [
             {
                 "role": "AI",
@@ -15638,11 +18385,11 @@ const RAW_SIMULATIONS = [
         "agency": "Outros",
         "region": "Outros",
         "date": "29/06/2026",
-        "dur": "0m 18s",
+        "dur": "0m 14s",
         "score": 0,
         "scenario": "PROSPECT_FRIO",
         "lqa": "N/A",
-        "interactions": 3,
+        "interactions": 4,
         "messages": [
             {
                 "role": "HUMAN",
@@ -15672,7 +18419,7 @@ const RAW_SIMULATIONS = [
         "score": 37,
         "scenario": "PROSPECT_FRIO",
         "lqa": "N/A",
-        "interactions": 6,
+        "interactions": 10,
         "messages": [
             {
                 "role": "HUMAN",
@@ -15726,7 +18473,7 @@ const RAW_SIMULATIONS = [
         "score": 0,
         "scenario": "ENVIO_DOCUMENTO",
         "lqa": "N/A",
-        "interactions": 1,
+        "interactions": 0,
         "messages": [],
         "finished": false
     },
@@ -15735,11 +18482,11 @@ const RAW_SIMULATIONS = [
         "agency": "Outros",
         "region": "Outros",
         "date": "29/06/2026",
-        "dur": "1m 59s",
+        "dur": "1m 35s",
         "score": 0,
         "scenario": "ENVIO_DOCUMENTO",
         "lqa": "N/A",
-        "interactions": 7,
+        "interactions": 11,
         "messages": [
             {
                 "role": "AI",
@@ -15793,11 +18540,11 @@ const RAW_SIMULATIONS = [
         "agency": "Outros",
         "region": "Outros",
         "date": "29/06/2026",
-        "dur": "4m 42s",
+        "dur": "3m 52s",
         "score": 81,
         "scenario": "PROSPECT_FRIO",
         "lqa": "N/A",
-        "interactions": 6,
+        "interactions": 11,
         "messages": [
             {
                 "role": "HUMAN",
@@ -15851,11 +18598,11 @@ const RAW_SIMULATIONS = [
         "agency": "Outros",
         "region": "Outros",
         "date": "29/06/2026",
-        "dur": "2m 1s",
+        "dur": "1m 23s",
         "score": 85,
         "scenario": "ENVIO_DOCUMENTO",
         "lqa": "N/A",
-        "interactions": 5,
+        "interactions": 11,
         "messages": [
             {
                 "role": "AI",
@@ -15909,11 +18656,11 @@ const RAW_SIMULATIONS = [
         "agency": "Outros",
         "region": "Outros",
         "date": "29/06/2026",
-        "dur": "3m 15s",
+        "dur": "2m 49s",
         "score": 72,
         "scenario": "PROSPECT_FRIO",
         "lqa": "N/A",
-        "interactions": 10,
+        "interactions": 15,
         "messages": [
             {
                 "role": "HUMAN",
@@ -15983,11 +18730,11 @@ const RAW_SIMULATIONS = [
         "agency": "Outros",
         "region": "Outros",
         "date": "30/06/2026",
-        "dur": "2m 22s",
+        "dur": "1m 41s",
         "score": 68,
         "scenario": "PROSPECT_FRIO",
         "lqa": "N/A",
-        "interactions": 8,
+        "interactions": 15,
         "messages": [
             {
                 "role": "HUMAN",
@@ -16057,11 +18804,11 @@ const RAW_SIMULATIONS = [
         "agency": "Outros",
         "region": "Outros",
         "date": "30/06/2026",
-        "dur": "1m 9s",
+        "dur": "0m 52s",
         "score": 0,
         "scenario": "ENVIO_DOCUMENTO",
         "lqa": "N/A",
-        "interactions": 4,
+        "interactions": 7,
         "messages": [
             {
                 "role": "AI",
@@ -16103,7 +18850,7 @@ const RAW_SIMULATIONS = [
         "score": 0,
         "scenario": "PROSPECT_FRIO",
         "lqa": "N/A",
-        "interactions": 1,
+        "interactions": 0,
         "messages": [],
         "finished": false
     },
@@ -16112,11 +18859,11 @@ const RAW_SIMULATIONS = [
         "agency": "Outros",
         "region": "Outros",
         "date": "30/06/2026",
-        "dur": "0m 6s",
+        "dur": "0m 2s",
         "score": 0,
         "scenario": "PROSPECT_FRIO",
         "lqa": "N/A",
-        "interactions": 1,
+        "interactions": 2,
         "messages": [
             {
                 "role": "HUMAN",
@@ -16138,7 +18885,7 @@ const RAW_SIMULATIONS = [
         "score": 0,
         "scenario": "PROSPECT_FRIO",
         "lqa": "N/A",
-        "interactions": 1,
+        "interactions": 0,
         "messages": [],
         "finished": false
     },
@@ -16147,11 +18894,11 @@ const RAW_SIMULATIONS = [
         "agency": "Outros",
         "region": "Outros",
         "date": "02/07/2026",
-        "dur": "1m 57s",
+        "dur": "1m 22s",
         "score": 0,
         "scenario": "ENVIO_DOCUMENTO",
         "lqa": "N/A",
-        "interactions": 7,
+        "interactions": 11,
         "messages": [
             {
                 "role": "HUMAN",
@@ -16205,11 +18952,11 @@ const RAW_SIMULATIONS = [
         "agency": "Outros",
         "region": "Outros",
         "date": "02/07/2026",
-        "dur": "2m 30s",
+        "dur": "1m 56s",
         "score": 0,
         "scenario": "ENVIO_DOCUMENTO",
         "lqa": "N/A",
-        "interactions": 7,
+        "interactions": 12,
         "messages": [
             {
                 "role": "AI",
@@ -16271,7 +19018,7 @@ const RAW_SIMULATIONS = [
         "score": 0,
         "scenario": "PROSPECT_FRIO",
         "lqa": "N/A",
-        "interactions": 1,
+        "interactions": 0,
         "messages": [],
         "finished": false
     },
@@ -16284,7 +19031,7 @@ const RAW_SIMULATIONS = [
         "score": 0,
         "scenario": "PROSPECT_FRIO",
         "lqa": "N/A",
-        "interactions": 1,
+        "interactions": 0,
         "messages": [],
         "finished": false
     },
@@ -16297,7 +19044,7 @@ const RAW_SIMULATIONS = [
         "score": 0,
         "scenario": "RECOMENDACOES",
         "lqa": "N/A",
-        "interactions": 1,
+        "interactions": 0,
         "messages": [],
         "finished": false
     },
@@ -16306,11 +19053,11 @@ const RAW_SIMULATIONS = [
         "agency": "Outros",
         "region": "Outros",
         "date": "08/07/2026",
-        "dur": "4m 20s",
+        "dur": "3m 35s",
         "score": 38,
         "scenario": "RECOMENDACOES",
         "lqa": "N/A",
-        "interactions": 6,
+        "interactions": 12,
         "messages": [
             {
                 "role": "HUMAN",
@@ -16368,11 +19115,11 @@ const RAW_SIMULATIONS = [
         "agency": "Outros",
         "region": "Outros",
         "date": "09/07/2026",
-        "dur": "2m 40s",
+        "dur": "2m 19s",
         "score": 68,
         "scenario": "PROSPECT_FRIO",
         "lqa": "N/A",
-        "interactions": 6,
+        "interactions": 11,
         "messages": [
             {
                 "role": "HUMAN",
@@ -16426,11 +19173,11 @@ const RAW_SIMULATIONS = [
         "agency": "Outros",
         "region": "Outros",
         "date": "13/07/2026",
-        "dur": "1m 29s",
+        "dur": "1m 8s",
         "score": 0,
         "scenario": "RECOMENDACOES",
         "lqa": "N/A",
-        "interactions": 9,
+        "interactions": 13,
         "messages": [
             {
                 "role": "HUMAN",
@@ -16492,11 +19239,11 @@ const RAW_SIMULATIONS = [
         "agency": "Outros",
         "region": "Outros",
         "date": "13/07/2026",
-        "dur": "1m 17s",
+        "dur": "0m 52s",
         "score": 0,
         "scenario": "RECOMENDACOES",
         "lqa": "N/A",
-        "interactions": 4,
+        "interactions": 7,
         "messages": [
             {
                 "role": "HUMAN",
@@ -16538,7 +19285,7 @@ const RAW_SIMULATIONS = [
         "score": 0,
         "scenario": "RECOMENDACOES",
         "lqa": "N/A",
-        "interactions": 1,
+        "interactions": 0,
         "messages": [],
         "finished": false
     },
@@ -16547,11 +19294,11 @@ const RAW_SIMULATIONS = [
         "agency": "Outros",
         "region": "Outros",
         "date": "13/07/2026",
-        "dur": "14m 44s",
+        "dur": "12m 0s",
         "score": 90,
         "scenario": "RECOMENDACOES",
         "lqa": "N/A",
-        "interactions": 46,
+        "interactions": 77,
         "messages": [
             {
                 "role": "HUMAN",
@@ -16792,6 +19539,74 @@ const RAW_SIMULATIONS = [
             {
                 "role": "HUMAN",
                 "text": "Eu não quero te delegar essa responsabilidade de, é, contatá-los, é, e, e vou respeitar obviamente, né, que você fale com eles primeiro, mas assim que você falar, é, eu te dou um toque e eu já tenho os, os contatos deles comigo e obviamente já entraria em seguida, poder marcar essa conversa conforme foi com a gente, de forma tranquila, sempre respeitando, é, o tempo e a condição de, de receber essa visita. De acordo com cada um, tá? Então a Beatriz, pra depois que você. Falar com ela, como é que eu faço pra contatar ela? Qual que seria o telefone, pra eu, um WhatsApp ou mesmo ligar?"
+            },
+            {
+                "role": "AI",
+                "text": "Não vou passar número de telefone.  \nFalo com a Beatriz antes e te aviso por mensagem quando ela autorizar o contato. Adeus."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Entendi, Camila, deixa eu te perguntar uma coisa, qual que é o teu receio em, em ter, em poder passar esse contato? Porque assim, tem..."
+            },
+            {
+                "role": "HUMAN",
+                "text": "É, eu entendi que você ficou satisfeita que houve uma confiança, né, pra gente fechar esse contrato. O processo decorreu da mesma forma, né? A Carol me passou o teu contato telefônico, avisou para você que eu ia ligar. Você autorizou. Então eu entrei em contato. Tudo correu dentro do combinado. Tem algum receio, alguma coisa que, que talvez eu precise saber melhor? Por que, que você não gostaria de passar o, o contato dessas pessoas, já que você tá de acordo, de que foi um bom trabalho e que seria interessante pra elas?"
+            },
+            {
+                "role": "AI",
+                "text": "Meu receio é simples e pessoal: não quero expor contatos sem antes avisá-los.  \nPrefiro controlar o momento e a forma do primeiro contato; depois aviso e autorizo. Adeus."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Certo, eu entendi, mas ficou alguma... Alguma situação que tenha causado essa desconfiança em você? Ou, ou... (silêncio)"
+            },
+            {
+                "role": "HUMAN",
+                "text": "Teria alguma chance de, de você não confiar de que a Beatriz, o Ricardo e Juliana mereceriam esse contato? Tem alguma coisa, só pra eu entender melhor, ô Camilo."
+            },
+            {
+                "role": "AI",
+                "text": "Não é falta de confiança neles.  \nÉ uma questão de respeito pela privacidade e pelo timing deles; eu prefiro avisá-los antes. Adeus."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Ah, entendi."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Beleza, como foi com a Carol e você? Cê se sentiu invadida quando-- depois que a Carol avisou que eu ia ligar e você consentiu, eu te liguei, é, houve algum constrangimento? Por isso talvez cê tá pensando dessa forma ou pra você foi tranquilo?"
+            },
+            {
+                "role": "AI",
+                "text": "Foi tranquilo, sem constrangimento.  \nA Carol avisou e eu tive tempo de pensar; por isso quero manter a mesma regra com meus contatos. Adeus."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Claro, não é por isso que eu tô, é, insistindo um pouco, viu Camila? Porque realmente eu sei como as coisas funcionam, sabe? A gente trabalha aqui no mundo comercial. Sim. Talvez seja um mundo um pouquinho diferente do teu, onde a gente tem, é, essa atribuição de seguir com os contatos das pessoas e às vezes acontece, sabe o quê? A pessoa fala: \"Ah, eu vou falar com a Beatriz, vou falar com o Ricardo e tal.\" E aí o dia a dia vai engolindo a gente, cê acaba às vezes não falando ou mesmo que fale, não volta com elas pra, é... Avisar que, que eu já tô disponível pra... Poder contatar e também da mesma forma acontece que depois cê acaba não passando o contato pra mim e fica até, é... Às vezes solto, né? Que a pessoa... Recebe o teu aviso de que vai-- eu vou ligar e depois eu não ligo porque eu não tenho os telefones, então só por isso eu não vou trair jamais essa confiança de só entrar em contato depois que você me disser que ok, já falou com eles, porque se eles falarem ok, não faz diferença eu ter o telefone antes ou depois, a menos que você não estivesse confiando em mim. Por isso que foi o motivo da minha pergunta. Só se você realmente decidir que eu posso falar com a Beatriz e eu honrar o compromisso de que só vou falar com a Beatriz depois que você ligar e me disser \"ok, pode ligar\". Eu não veria problema de você passar os números dessas pessoas para mim. E aí a gente já deixa tudo encaminhado e... Pre-preparado pra poder atuar em seguida."
+            },
+            {
+                "role": "AI",
+                "text": "Entendo seu ponto, mas mantenho minha posição: não vou passar números.  \nVocê me envia a mensagem com os nomes confirmados e eu aviso cada um; depois te dou o sinal verde. Adeus."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Tá bom então, Camila, eu vou te mandar um WhatsApp agora confirmando essas três-- quatro pessoas que você me recomendou e eu volto a ligação com você amanhã pra saber se você já combinou com elas e aí sim você me passar os números, tá combinado assim?"
+            },
+            {
+                "role": "AI",
+                "text": "Combina. Manda a mensagem com os nomes e eu aviso cada um antes de você ligar. Adeus."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Tá ótimo, tô te passando agora, tá bom?"
+            },
+            {
+                "role": "HUMAN",
+                "text": "Um abraço pra você. Brigado. Até amanhã."
+            },
+            {
+                "role": "AI",
+                "text": "Ok, bom abraço. Até amanhã."
             }
         ],
         "finished": true
@@ -16805,7 +19620,7 @@ const RAW_SIMULATIONS = [
         "score": 0,
         "scenario": "PROSPECT_FRIO",
         "lqa": "N/A",
-        "interactions": 1,
+        "interactions": 0,
         "messages": [],
         "finished": false
     },
@@ -16832,11 +19647,11 @@ const RAW_SIMULATIONS = [
         "agency": "Outros",
         "region": "Outros",
         "date": "16/07/2026",
-        "dur": "2m 10s",
+        "dur": "2m 0s",
         "score": 0,
         "scenario": "RECOMENDACOES",
         "lqa": "N/A",
-        "interactions": 4,
+        "interactions": 6,
         "messages": [
             {
                 "role": "HUMAN",
@@ -16888,11 +19703,11 @@ const RAW_SIMULATIONS = [
         "agency": "Outros",
         "region": "Outros",
         "date": "16/07/2026",
-        "dur": "8m 56s",
+        "dur": "5m 47s",
         "score": 48,
         "scenario": "RECOMENDACOES",
         "lqa": "N/A",
-        "interactions": 24,
+        "interactions": 43,
         "messages": [
             {
                 "role": "HUMAN",
@@ -17074,11 +19889,11 @@ const RAW_SIMULATIONS = [
         "agency": "Outros",
         "region": "Outros",
         "date": "19/07/2026",
-        "dur": "0m 5s",
+        "dur": "0m 1s",
         "score": 0,
         "scenario": "PROSPECT_FRIO",
         "lqa": "N/A",
-        "interactions": 3,
+        "interactions": 4,
         "messages": [
             {
                 "role": "HUMAN",
@@ -17108,7 +19923,7 @@ const RAW_SIMULATIONS = [
         "score": 0,
         "scenario": "PROSPECT_FRIO",
         "lqa": "N/A",
-        "interactions": 1,
+        "interactions": 0,
         "messages": [],
         "finished": false
     },
@@ -17121,7 +19936,7 @@ const RAW_SIMULATIONS = [
         "score": 0,
         "scenario": "PROSPECT_FRIO",
         "lqa": "N/A",
-        "interactions": 1,
+        "interactions": 0,
         "messages": [],
         "finished": false
     },
@@ -17130,11 +19945,11 @@ const RAW_SIMULATIONS = [
         "agency": "Outros",
         "region": "Outros",
         "date": "19/07/2026",
-        "dur": "4m 35s",
+        "dur": "2m 12s",
         "score": 28,
         "scenario": "PROSPECT_FRIO",
         "lqa": "N/A",
-        "interactions": 28,
+        "interactions": 49,
         "messages": [
             {
                 "role": "HUMAN",
@@ -17340,11 +20155,11 @@ const RAW_SIMULATIONS = [
         "agency": "Outros",
         "region": "Outros",
         "date": "20/07/2026",
-        "dur": "0m 12s",
+        "dur": "0m 6s",
         "score": 0,
         "scenario": "RECOMENDACOES",
         "lqa": "N/A",
-        "interactions": 2,
+        "interactions": 3,
         "messages": [
             {
                 "role": "HUMAN",
@@ -17370,7 +20185,7 @@ const RAW_SIMULATIONS = [
         "score": 0,
         "scenario": "RECOMENDACOES",
         "lqa": "N/A",
-        "interactions": 1,
+        "interactions": 0,
         "messages": [],
         "finished": false
     },
@@ -17379,11 +20194,11 @@ const RAW_SIMULATIONS = [
         "agency": "Outros",
         "region": "Outros",
         "date": "20/07/2026",
-        "dur": "0m 15s",
+        "dur": "0m 11s",
         "score": 0,
         "scenario": "RECOMENDACOES",
         "lqa": "N/A",
-        "interactions": 5,
+        "interactions": 6,
         "messages": [
             {
                 "role": "HUMAN",
@@ -17421,7 +20236,7 @@ const RAW_SIMULATIONS = [
         "score": 0,
         "scenario": "RECOMENDACOES",
         "lqa": "N/A",
-        "interactions": 1,
+        "interactions": 0,
         "messages": [],
         "finished": false
     },
@@ -17434,7 +20249,7 @@ const RAW_SIMULATIONS = [
         "score": 10,
         "scenario": "RECOMENDACOES",
         "lqa": "N/A",
-        "interactions": 10,
+        "interactions": 11,
         "messages": [
             {
                 "role": "HUMAN",
@@ -17492,7 +20307,7 @@ const RAW_SIMULATIONS = [
         "score": 0,
         "scenario": "PROSPECT_FRIO",
         "lqa": "N/A",
-        "interactions": 1,
+        "interactions": 0,
         "messages": [],
         "finished": false
     },
@@ -17501,11 +20316,11 @@ const RAW_SIMULATIONS = [
         "agency": "Outros",
         "region": "Outros",
         "date": "21/07/2026",
-        "dur": "0m 23s",
+        "dur": "0m 19s",
         "score": 0,
         "scenario": "PROSPECT_FRIO",
         "lqa": "N/A",
-        "interactions": 1,
+        "interactions": 2,
         "messages": [
             {
                 "role": "HUMAN",
@@ -17517,6 +20332,357 @@ const RAW_SIMULATIONS = [
             }
         ],
         "finished": false
+    },
+    {
+        "name": "Sabrina Oliveira",
+        "agency": "Outros",
+        "region": "Outros",
+        "date": "27/07/2026",
+        "dur": "3m 32s",
+        "score": 31,
+        "scenario": "RECOMENDACOES",
+        "lqa": "N/A",
+        "interactions": 24,
+        "messages": [
+            {
+                "role": "HUMAN",
+                "text": "Oi, tudo bem? Que bom, parabéns! Ééé, tô feliz que a gente conseguiu fechar um plano bem personalizado pra você. Ééé, agora como parte do encerramento, né, lembra que quando eu te abordei, ééé, você sendo uma jovem executiva, né, eu contei pra você que o meu contato com você foi feito através do Paulo. O Paulo fez a indicação até que eu chegasse no seu nome e quando a gente foi conversando no processo de personalizar, ééé, é, essa segurança patrimonial, lembra que eu falei que eu ia pedir, é, a recomendação de três pessoas dentro do seu, do seuuu"
+            },
+            {
+                "role": "HUMAN",
+                "text": "Da sua bolha, né, profissional, dentro da sua bolha pessoal. Então, esse chega um momento aqui, né, de, de pegar essas recomendações. Antes de qualquer coisa, é, eu também gostaria de aproveitar esse momento pra saber se você ficou satisfeita com o plano que a gente fechou pra você, se está satisfeita com o produto, se ficou satisfeita com o meu atendimento"
+            },
+            {
+                "role": "AI",
+                "text": "Fiquei satisfeita sim, o plano pareceu alinhado com o que eu precisava.  \nGostei do seu atendimento, foi claro e atento aos detalhes.  \nPosso pensar em indicações, mas prefiro falar com você depois por mensagem sobre isso."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Ah, sim, perfeito, perfeito. Mas aproveitando aqui que você disse pra mim que você tinha, é, um momento pra me passar, quem são as pessoas que você pensou pra indicar esse mesmo plano que a gente fechou pra você? Quem são as pessoas que você acredita que nesse momento, é, merecem ser seguradas? Quem você vai querer me ajudar a proteger?"
+            },
+            {
+                "role": "AI",
+                "text": "Olha, eu prefiro não falar nomes agora.  \nQuero pensar com calma e combinar com as pessoas antes de passar."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Ah, sim. E tem algum motivo que você não queira passar agora esses nomes?"
+            },
+            {
+                "role": "AI",
+                "text": "Quero ter certeza de que não vou colocar ninguém em uma situação desconfortável.  \nPrefiro avisar as pessoas antes e confirmar que elas topam ser contatadas."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Ah, claro, mas eu gostaria de saber se em algum momento, é, quando a gente começou o contato, você se sentiu desconfortada, é, com o meu contato. Você teve essa experiência ruim?"
+            },
+            {
+                "role": "AI",
+                "text": "Não, não me senti desconfortável em nenhum momento.  \nO seu jeito foi profissional e claro, do início ao fim."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Ah, perfeito. Então o que eu quero combinar com você é que eu não vou entrar em contato com essas pessoas, tá bom? O que eu quero saber de você é quem são essas pessoas e, e quando você consegue entrar em contato com elas, é, dizendo que eu farei contato, tá? Eu te garanto que eu vou fazer da mesma maneira que eu fiz com você. Eu só entrei em contato com você depois que o Paulo mencionou sobre essa conversa com-- que a gente teria. Então farei o mesmo. Não vou contatar ninguém antes que você converse com essas pessoas, mas eu gostaria que você me dissesse um pouco sobre elas então. É, quem são essas três primeiras pessoas?"
+            },
+            {
+                "role": "AI",
+                "text": "Olha, eu já disse que prefiro não dar nomes agora.  \nSe você garante que só vai contatar depois do meu ok, eu posso enviar um nome por mensagem mais tarde."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Assim, e qual seria esse nome?"
+            },
+            {
+                "role": "AI",
+                "text": "Posso mandar um nome por mensagem mais tarde, quando eu falar com a pessoa antes.  \nHoje não vou dar o nome aqui."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Sim, mas eu disse que eu não vou contatar ela, então qual o problema de você me falar o nome?"
+            },
+            {
+                "role": "AI",
+                "text": "Eu entendo que você não vai contatar sem o meu ok, mas para mim é uma questão de respeito pessoal.  \nPrefiro avisar antes e só passar o nome quando eu tiver confirmado com a pessoa."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Mas se eu não vou entrar em contato com ela, qual o problema de você me passar o nome? Eu não tô pedindo o número de contato, eu só tô pedindo o nome"
+            },
+            {
+                "role": "AI",
+                "text": "Eu já disse que prefiro avisar a pessoa antes.  \nNão gosto que nomes sejam compartilhados sem que o próprio deles saiba primeiro."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Ok. É, mas qual o problema de eu entrar em contato antes com eles? Eu já disse pra você que eu não entraria em contato, mas se eu fizesse isso, né, se eu não cumpro isso porque a gente combinou, qual que seria o problema?"
+            },
+            {
+                "role": "AI",
+                "text": "Porque para mim é questão de confiança e privacidade.  \nSe você contatar alguém sem eu avisar, isso quebra a confiança"
+            },
+            {
+                "role": "HUMAN",
+                "text": "Uhum."
+            },
+            {
+                "role": "AI",
+                "text": "Eu já expliquei o motivo.  \nPosso te enviar um nome por mensagem depois que eu avisar a pessoa."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Não, vamo fazer aqui, vamo fazer o seguinte: vamo fazer como a gente fez com o Paulo. Quando o Paulo me passou o seu contato, eu só entrei em contato com você depois que o Paulo me deu o ok. Vamo fazer da mesma maneira? Depois que você me der o ok, eu entro em contato com a pessoa. Mas eu gostaria sim de você-- de receber esses nomes e esses números. Ééé, quem são essas três primeiras pessoas? É alguém do seu trabalho? É alguém da sua família? Tem alguma pessoa, é, que você ache que seja o ideal pra conversar nesse primeiro momento? Claro, depois de você conversar com elas"
+            },
+            {
+                "role": "AI",
+                "text": "Eu já disse que não vou dar nomes agora.  \nVou avisar as pessoas primeiro e depois envio um nome por mensagem, combinado?"
+            },
+            {
+                "role": "HUMAN",
+                "text": "Combinado"
+            }
+        ],
+        "finished": true
+    },
+    {
+        "name": "Sabrina Oliveira",
+        "agency": "Outros",
+        "region": "Outros",
+        "date": "27/07/2026",
+        "dur": "3m 6s",
+        "score": 0,
+        "scenario": "RECOMENDACOES",
+        "lqa": "N/A",
+        "interactions": 19,
+        "messages": [
+            {
+                "role": "HUMAN",
+                "text": "Oi Camila, tudo bem? Ééé, aqui é Sabrina, a gente acabou de fechar um, um plano personalizado pra você. Esse meu contato com você é pra saber, né, como que foi essa experiência, se você tá satisfeita com o plano que você fechou"
+            },
+            {
+                "role": "AI",
+                "text": "Oi Sabrina, tudo bem sim. Fiquei satisfeita com a clareza e com a calmaria da conversa, foi tranquilo fechar."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Perfeito! E Camila, eu gostaria de saber de você se você ficou com alguma dúvida, se tem algo que você gostaria de me trazer, se você ficou satisfeita com meu contato desde o início que a gente se falou, se em algum momento você se sentiu, ééé, é invadida ou se você sentiu, é, pressionada a fazer algo"
+            },
+            {
+                "role": "AI",
+                "text": "Fiquei satisfeita com o atendimento desde o começo, foi clara e tranquila.  \nNão tenho dúvidas no momento, tudo me pareceu bem explicado.  \nNão me senti invadida nem pressionada em nenhum momento."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Em algum momento meu contato foi invasivo, principalmente na primeira vez que nos falamos?"
+            },
+            {
+                "role": "AI",
+                "text": "Não, não foi invasivo.  \nNa primeira conversa você foi objetiva e respeitosa, expliquei meus pontos e senti que você ouviu."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Perfeito, Camila. É, eu fico feliz de receber esse feedback, até porque esse feedback é muito importante pra mim, porque é assim com que eu trabalho, né? O Paulo me recomendou o seu contato e através, né, da recomendação dele, a gente pôde, é, pensar em proteger um pouco mais a sua vida e o seu negócio. Ééé, como eu te falei nos nossos contatos, né, eu trabalho com recomendação"
+            },
+            {
+                "role": "HUMAN",
+                "text": "E eu gostaria agora, nesse momento, a gente combinou, né, ééé, que você me recomendaria algumas pessoas pra que eu possa prestar o mesmo serviço, personalizar o mesmo serviço e proteger essas pessoas. Quem são as pessoas que você comendou-- comentou que me recomendaria?"
+            },
+            {
+                "role": "AI",
+                "text": "Olha, eu fico meio reticente em dar nomes assim na hora. Prefiro primeiro ver como o plano vai se comportar ao longo do tempo."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Ah sim, mas você tem alguma dúvida em relação ao plano?"
+            },
+            {
+                "role": "AI",
+                "text": "Não, no momento não tenho dúvida sobre o plano.  \nQuero só acompanhar como tudo vai funcionar nos próximos meses antes de indicar alguém."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Assim, não, compreendi completamente, mas se você tá insegura com alguma coisa, porque, ééé, é um-- a apólice que você fechou tem um contrato, né? Então você tá 100% segura e amparada. Tem alguma coisa que vai te fazer analisar isso com mais calma? Porque o que eu tinha entendido de você agora há pouco é que você tava feliz, contente e não tinha dúvidas"
+            },
+            {
+                "role": "AI",
+                "text": "Não é insegurança com o contrato, é mais uma questão de timing.  \nQuero ver como o plano se encaixa no nosso orçamento e rotina nos próximos meses antes de indicar alguém."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Assim Camila, é, eu entendo o seu ponto, mas não faz sentido, porque você disse que não tinha dúvidas. Então se você não tem dúvidas, eu acho que o timing tá perfeito, né? Porque você tá sem dúvidas"
+            },
+            {
+                "role": "AI",
+                "text": "Sabrina, entendo seu ponto, mas minha questão é justamente prática: preciso ver na rotina se o valor e as coberturas encaixam.  \nSe daqui a alguns meses tudo estiver funcionando bem, eu converso com calma com pessoas do meu círculo."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Mas o que isso impede as outras pessoas do mesmo círculo que você? Até porque é um, algo personalizado, né? Então às vezes os valores são diferentes dependendo da, do tipo de cobertura. Então isso realmente não refletiria. Eu entendo perfeitamente como você tá se sentindo, afinal você acabou de me conhecer e conhecer o meu trabalho. Eu entendo que é natural surgir essa insegurança, você realmente não tem a obrigação de me recomendar uma pessoa, mas eu gostaria de pedir a você a gentileza de olhar essa situação pelis-- pelo seguinte ponto de vistas: estamos falando de proporcionar uma chance de você proteger os seus amigos"
+            },
+            {
+                "role": "AI",
+                "text": "Entendo o que você diz, Sabrina, mas minha reserva continua sendo o timing.  \nPosso fazer assim: se daqui a três meses o plano se mostrar adequado, eu converso com uma pessoa do meu círculo e te falo quem é."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Vamos pensar aqui juntas numa situação. Pense, por favor, em um grande amigo que, ééé, seu amigo, ele é casado e tem filhos. Você não acha que seria importante a gente fazer esse trabalho, proteger a família dele, assim como a gente fez com a sua?"
+            },
+            {
+                "role": "AI",
+                "text": "Claro que é importante proteger a família dele.  \nAinda assim, eu prefiro esperar para ver na prática como o plano se ajusta ao nosso orçamento antes de falar com alguém."
+            }
+        ],
+        "finished": false
+    },
+    {
+        "name": "Sabrina Oliveira",
+        "agency": "Outros",
+        "region": "Outros",
+        "date": "27/07/2026",
+        "dur": "0m 0s",
+        "score": 0,
+        "scenario": "RECOMENDACOES",
+        "lqa": "N/A",
+        "interactions": 0,
+        "messages": [],
+        "finished": false
+    },
+    {
+        "name": "Sabrina Oliveira",
+        "agency": "Outros",
+        "region": "Outros",
+        "date": "27/07/2026",
+        "dur": "3m 54s",
+        "score": 81,
+        "scenario": "RECOMENDACOES",
+        "lqa": "N/A",
+        "interactions": 31,
+        "messages": [
+            {
+                "role": "HUMAN",
+                "text": "Olá, tudo bem? Ééé, eu tô entrando em contato, né, pra saber se você ficou satisfeita com o plano personalizado que a gente fez pra você, se tem alguma dúvida, alguma sugestão, o que que você achou, ééé, do nosso contato. Queria avaliar mesmo, ééé, aaa, o quão gratificado você ficou com esse pacote personalizado que a gente fez pra você, com o trabalho que eu fiz pra você"
+            },
+            {
+                "role": "AI",
+                "text": "Oi, tudo bem. Gostei muito do plano, ficou alinhado com o que eu preciso pro salão. Não tenho dúvidas por agora, só quero saber como vai ser o acompanhamento daqui pra frente."
+            },
+            {
+                "role": "HUMAN",
+                "text": "O acompanhamento vai ser muito tranquilo, a gente, né, vai se falar sempre que você tiver alguma dúvida, alguma necessidade, né? Esse contato nosso é pra sempre. Então eu vou tá à disposição pra te auxiliar nas dúvidas, é, te auxiliar, é, em relação ao que seu plano cobre, ao que ele não cobre. Então eu serei sempre o seu ponto focal, o seu ponto de afo-- hã, de apoio aqui na MetLife, tá bem?"
+            },
+            {
+                "role": "AI",
+                "text": "Ótimo saber. Fico tranquila com isso, porque quero alguém acessível quando precisar. Aproveitando, você faz esse acompanhamento com relatórios periódicos ou é só por demanda mesmo?"
+            },
+            {
+                "role": "HUMAN",
+                "text": "Eu faço esse acompanhamento por demanda"
+            },
+            {
+                "role": "AI",
+                "text": "Certo, bom saber. Então eu provavelmente vou te acionar por mensagem quando pintar alguma dúvida. Mudando um pouco de assunto, você costuma pedir recomendações de clientes satisfeitos?"
+            },
+            {
+                "role": "HUMAN",
+                "text": "Sim, eu geralmente peço sim recomendações de clientes satisfeitos e eu queria saber se você é uma das clientes satisfeitas aí com o meu trabalho?"
+            },
+            {
+                "role": "AI",
+                "text": "Sim, gostei do seu trabalho e da atenção que você teve. Posso considerar recomendar, mas prefiro que a gente combine como será o primeiro contato antes de você falar com alguém que eu indicar."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Perfeito! Então vamo entrar nesse assunto? Como eu vi aqui que você tá muito satisfeita, não tem dúvidas, saiba que o nosso contato nessa nossa relação vai ser uma relação recorrente e na minha primeira abordagem, né, que eu fiz com você, eu te falei que o meu trabalho é um trabalho com recomendações, você comentou que ia me passar a recomendação, é, de algumas pessoas que você acha que merecem também ser protegidas e ter o meu contato. Quem são essas pessoas? Elas são da sua rede familiar ou são colegas de trabalho? Quem são essas pessoas?"
+            },
+            {
+                "role": "AI",
+                "text": "Olha, prefiro ir com calma. Primeiro me diz como você pretende abordar essas pessoas, sem citar meu nome de cara. Depois eu vejo quem me vem à cabeça."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Eu não vou abordar ninguém por enquanto, tá? Eu vooou esperar que você me recomende essa pessoa, né? Você vai me passar quem são as pessoas, qual que é o número de telefone delas, e aí eu vou pedir, na verdade, pra você entrar em contato com elas antes e dizer que eu vou entrar em contato. A gente pode fazer assim primeiro? Você fala com elas, é, sobre mim e aí na sequência você me avisa que eu entro em contato com elas"
+            },
+            {
+                "role": "AI",
+                "text": "Não vou passar números nem contatos sem combinar certinho como você vai fazer o primeiro toque. Posso autorizar você a mencionar meu nome no primeiro contato, desde que você me diga exatamente a frase que vai usar."
+            },
+            {
+                "role": "HUMAN",
+                "text": "É, eu vou fazer a mesma abordagem que eu fiz com você, né? Então, eu vou me apresentar, falar que meu nome é Sabrina, que eu sou uma consultora de patrimônio da MetLife e que você indicou o, o contato dessa pessoa pra que a gente pudesse ter uma reunião, uma conversa, é, relacionada à proteção familiar"
+            },
+            {
+                "role": "AI",
+                "text": "Ok. Essa apresentação está boa, mas prefiro que você acrescente uma frase dizendo que a conversa é apenas informativa e sem compromisso. Se você me enviar exatamente essa frase agora, eu autorizo mencionar meu nome no primeiro contato."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Sim, mas a, a conversa é realmente algo, é, informativo, sem compromisso nenhum, né? É uma reunião onde a gente vai poder falar um pouco sobre as necessidades dessa pessoa e de acordo com as necessidades, montar um plano personalizado"
+            },
+            {
+                "role": "AI",
+                "text": "Perfeito, essa frase me agrada. Autorizo você a mencionar meu nome no primeiro contato com essa formulação."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Ok, muito obrigada. A gente pode fazer da forma que você achar melhor. Por favor, quem são essas pessoas que você vai me indicar?"
+            },
+            {
+                "role": "AI",
+                "text": "Vou começar indicando a Cláudia Resende, minha cliente e parceira do banco. Ela se interessa por proteção familiar e é de confiança."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Maravilha! Então eu vou entrar em contato com a Cláudia, mas além da Cláudia, ééé, quem seria uma, uma outra pessoa que a gente pode proteger?"
+            },
+            {
+                "role": "AI",
+                "text": "Tem a Tatiana Melo, consultora de recursos humanos, que tem muitas amigas empreendedoras e costuma participar de grupos de mulheres. Pode ser um bom contato."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Eu acredito sim que a Tatiana pode ser um ótimo contato, né? É, eu procuro geralmente pessoas que tenham o mesmo perfil, então quando o Paulo me indicou você, ele falou que você era uma empreendedora preocupada, né, com seu patrimônio, com seu salão de beleza e assim, dentro do seu perfil, você também consegue pensar em um outro nome?"
+            },
+            {
+                "role": "HUMAN",
+                "text": "Pra me indicar?"
+            },
+            {
+                "role": "AI",
+                "text": "Sim, pode. Além da Tatiana eu penso na Fernanda Loureiro, que atende muitas mães solo e valoriza segurança financeira. Vou te passar só o nome por enquanto."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Perfeito, ótimo! Eee elas têm filho? Elas possuem filhos?"
+            },
+            {
+                "role": "AI",
+                "text": "A Cláudia tem dois filhos adolescentes.  \nA Tatiana não tem filhos.  \nSe precisar, eu posso falar isso no primeiro contato."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Ah, sim, perfeito, perfeito. E ambas moram em São Paulo?"
+            },
+            {
+                "role": "AI",
+                "text": "Não, elas moram em Brasília. Quer que eu diga isso no primeiro contato ou prefiro que você só proponha uma conversa remota primeiro?"
+            },
+            {
+                "role": "HUMAN",
+                "text": "Assim, eu vou pro-propor uma conversa e o que for melhor pra elas, né? Se elas quiserem fazer de forma remota, online ou presencial, vai ser de acordo com a necessidade delas. É, me passa por gentileza o número de telefone delas, então?"
+            },
+            {
+                "role": "AI",
+                "text": "Não vou passar números de telefone. Posso, no entanto, avisar as indicadas e pedir que elas te procurem, ou então combinar que eu peça autorização para você entrar em contato. Qual opção prefere?"
+            },
+            {
+                "role": "HUMAN",
+                "text": "É que, na verdade, você disse"
+            },
+            {
+                "role": "AI",
+                "text": "É que você perguntou se eu queria que você avisasse elas, lembra? Prefiro que você peça autorização antes de qualquer contato. Pode combinar isso por mensagem com cada uma."
+            }
+        ],
+        "finished": true
     },
     {
         "name": "Gorilla Su2026",
@@ -17542,14 +20708,14 @@ const RAW_SIMULATIONS = [
     },
     {
         "name": "Tabajara Dias",
-        "agency": "Outros",
+        "agency": "rhapsody",
         "region": "Outros",
         "date": "04/05/2026",
         "dur": "0m 0s",
         "score": 0,
         "scenario": "PROSPECT_FRIO",
         "lqa": "N/A",
-        "interactions": 4,
+        "interactions": 6,
         "messages": [
             {
                 "role": "HUMAN",
@@ -17580,14 +20746,14 @@ const RAW_SIMULATIONS = [
     },
     {
         "name": "Tabajara Dias",
-        "agency": "Outros",
+        "agency": "rhapsody",
         "region": "Outros",
         "date": "04/05/2026",
         "dur": "0m 0s",
         "score": 0,
         "scenario": "PROSPECT_FRIO",
         "lqa": "N/A",
-        "interactions": 16,
+        "interactions": 26,
         "messages": [
             {
                 "role": "HUMAN",
@@ -17698,27 +20864,27 @@ const RAW_SIMULATIONS = [
     },
     {
         "name": "Tabajara Dias",
-        "agency": "Outros",
+        "agency": "rhapsody",
         "region": "Outros",
         "date": "13/05/2026",
         "dur": "0m 0s",
         "score": 0,
         "scenario": "ENVIO_DOCUMENTO",
         "lqa": "N/A",
-        "interactions": 1,
+        "interactions": 0,
         "messages": [],
         "finished": false
     },
     {
         "name": "Tabajara Dias",
-        "agency": "Outros",
+        "agency": "rhapsody",
         "region": "Outros",
         "date": "13/05/2026",
         "dur": "0m 0s",
         "score": 38,
         "scenario": "ENVIO_DOCUMENTO",
         "lqa": "N/A",
-        "interactions": 17,
+        "interactions": 29,
         "messages": [
             {
                 "role": "AI",
@@ -17841,14 +21007,14 @@ const RAW_SIMULATIONS = [
     },
     {
         "name": "Tabajara Dias",
-        "agency": "Outros",
+        "agency": "rhapsody",
         "region": "Outros",
         "date": "13/05/2026",
         "dur": "0m 0s",
         "score": 32,
         "scenario": "ENVIO_DOCUMENTO",
         "lqa": "N/A",
-        "interactions": 7,
+        "interactions": 14,
         "messages": [
             {
                 "role": "AI",
@@ -17911,14 +21077,14 @@ const RAW_SIMULATIONS = [
     },
     {
         "name": "Tabajara Dias",
-        "agency": "Outros",
+        "agency": "rhapsody",
         "region": "Outros",
         "date": "12/06/2026",
-        "dur": "0m 14s",
+        "dur": "0m 6s",
         "score": 0,
         "scenario": "PROSPECT_FRIO",
         "lqa": "N/A",
-        "interactions": 2,
+        "interactions": 3,
         "messages": [
             {
                 "role": "HUMAN",
@@ -17937,14 +21103,14 @@ const RAW_SIMULATIONS = [
     },
     {
         "name": "Tabajara Dias",
-        "agency": "Outros",
+        "agency": "rhapsody",
         "region": "Outros",
         "date": "19/06/2026",
-        "dur": "1m 36s",
+        "dur": "1m 20s",
         "score": 38,
         "scenario": "PROSPECT_FRIO",
         "lqa": "N/A",
-        "interactions": 6,
+        "interactions": 9,
         "messages": [
             {
                 "role": "HUMAN",
@@ -17987,14 +21153,14 @@ const RAW_SIMULATIONS = [
     },
     {
         "name": "Tabajara Dias",
-        "agency": "Outros",
+        "agency": "rhapsody",
         "region": "Outros",
         "date": "28/06/2026",
-        "dur": "0m 10s",
+        "dur": "0m 4s",
         "score": 0,
         "scenario": "PROSPECT_FRIO",
         "lqa": "N/A",
-        "interactions": 2,
+        "interactions": 3,
         "messages": [
             {
                 "role": "HUMAN",
@@ -18013,14 +21179,14 @@ const RAW_SIMULATIONS = [
     },
     {
         "name": "Tabajara Dias",
-        "agency": "Outros",
+        "agency": "rhapsody",
         "region": "Outros",
         "date": "30/06/2026",
-        "dur": "0m 5s",
+        "dur": "0m 2s",
         "score": 37,
         "scenario": "RECOMENDACOES",
         "lqa": "N/A",
-        "interactions": 13,
+        "interactions": 21,
         "messages": [
             {
                 "role": "HUMAN",
@@ -18111,14 +21277,14 @@ const RAW_SIMULATIONS = [
     },
     {
         "name": "Tabajara Dias",
-        "agency": "Outros",
+        "agency": "rhapsody",
         "region": "Outros",
         "date": "02/07/2026",
-        "dur": "0m 24s",
+        "dur": "0m 10s",
         "score": 0,
         "scenario": "PROSPECT_FRIO",
         "lqa": "N/A",
-        "interactions": 2,
+        "interactions": 4,
         "messages": [
             {
                 "role": "HUMAN",
@@ -18141,10 +21307,10 @@ const RAW_SIMULATIONS = [
     },
     {
         "name": "Tabajara Dias",
-        "agency": "Outros",
+        "agency": "rhapsody",
         "region": "Outros",
         "date": "02/07/2026",
-        "dur": "0m 7s",
+        "dur": "0m 0s",
         "score": 0,
         "scenario": "ENVIO_DOCUMENTO",
         "lqa": "N/A",
@@ -18159,14 +21325,14 @@ const RAW_SIMULATIONS = [
     },
     {
         "name": "Philippe de Langlais",
-        "agency": "Outros",
+        "agency": "rhapsody",
         "region": "Outros",
         "date": "04/05/2026",
         "dur": "0m 0s",
         "score": 32,
         "scenario": "PROSPECT_FRIO",
         "lqa": "N/A",
-        "interactions": 7,
+        "interactions": 12,
         "messages": [
             {
                 "role": "HUMAN",
@@ -18221,14 +21387,14 @@ const RAW_SIMULATIONS = [
     },
     {
         "name": "Philippe de Langlais",
-        "agency": "Outros",
+        "agency": "rhapsody",
         "region": "Outros",
         "date": "05/05/2026",
         "dur": "0m 0s",
         "score": 44,
         "scenario": "PROSPECT_FRIO",
         "lqa": "N/A",
-        "interactions": 10,
+        "interactions": 16,
         "messages": [
             {
                 "role": "HUMAN",
@@ -18299,14 +21465,14 @@ const RAW_SIMULATIONS = [
     },
     {
         "name": "Philippe de Langlais",
-        "agency": "Outros",
+        "agency": "rhapsody",
         "region": "Outros",
         "date": "13/05/2026",
         "dur": "0m 0s",
         "score": 34,
         "scenario": "ENVIO_DOCUMENTO",
         "lqa": "N/A",
-        "interactions": 17,
+        "interactions": 33,
         "messages": [
             {
                 "role": "AI",
@@ -18445,14 +21611,14 @@ const RAW_SIMULATIONS = [
     },
     {
         "name": "Philippe de Langlais",
-        "agency": "Outros",
+        "agency": "rhapsody",
         "region": "Outros",
         "date": "18/06/2026",
-        "dur": "0m 37s",
+        "dur": "0m 15s",
         "score": 0,
         "scenario": "PROSPECT_FRIO",
         "lqa": "N/A",
-        "interactions": 5,
+        "interactions": 10,
         "messages": [
             {
                 "role": "HUMAN",
@@ -18499,27 +21665,27 @@ const RAW_SIMULATIONS = [
     },
     {
         "name": "Philippe de Langlais",
-        "agency": "Outros",
+        "agency": "rhapsody",
         "region": "Outros",
         "date": "30/06/2026",
         "dur": "0m 0s",
         "score": 0,
         "scenario": "RECOMENDACOES",
         "lqa": "N/A",
-        "interactions": 1,
+        "interactions": 0,
         "messages": [],
         "finished": false
     },
     {
         "name": "Philippe de Langlais",
-        "agency": "Outros",
+        "agency": "rhapsody",
         "region": "Outros",
         "date": "30/06/2026",
-        "dur": "5m 51s",
+        "dur": "4m 2s",
         "score": 48,
         "scenario": "RECOMENDACOES",
         "lqa": "N/A",
-        "interactions": 18,
+        "interactions": 30,
         "messages": [
             {
                 "role": "HUMAN",
@@ -18646,14 +21812,14 @@ const RAW_SIMULATIONS = [
     },
     {
         "name": "Philippe de Langlais",
-        "agency": "Outros",
+        "agency": "rhapsody",
         "region": "Outros",
         "date": "30/06/2026",
-        "dur": "4m 44s",
+        "dur": "3m 21s",
         "score": 41,
         "scenario": "RECOMENDACOES",
         "lqa": "N/A",
-        "interactions": 19,
+        "interactions": 34,
         "messages": [
             {
                 "role": "HUMAN",
@@ -18796,14 +21962,14 @@ const RAW_SIMULATIONS = [
     },
     {
         "name": "Philippe de Langlais",
-        "agency": "Outros",
+        "agency": "rhapsody",
         "region": "Outros",
         "date": "10/07/2026",
-        "dur": "3m 7s",
+        "dur": "2m 28s",
         "score": 32,
         "scenario": "PROSPECT_FRIO",
         "lqa": "N/A",
-        "interactions": 10,
+        "interactions": 18,
         "messages": [
             {
                 "role": "HUMAN",
@@ -18882,14 +22048,14 @@ const RAW_SIMULATIONS = [
     },
     {
         "name": "Philippe de Langlais",
-        "agency": "Outros",
+        "agency": "rhapsody",
         "region": "Outros",
         "date": "10/07/2026",
-        "dur": "3m 17s",
+        "dur": "2m 33s",
         "score": 52,
         "scenario": "PROSPECT_FRIO",
         "lqa": "N/A",
-        "interactions": 17,
+        "interactions": 28,
         "messages": [
             {
                 "role": "HUMAN",
@@ -19008,14 +22174,14 @@ const RAW_SIMULATIONS = [
     },
     {
         "name": "Philippe de Langlais",
-        "agency": "Outros",
+        "agency": "rhapsody",
         "region": "Outros",
         "date": "13/07/2026",
-        "dur": "1m 43s",
+        "dur": "1m 14s",
         "score": 14,
         "scenario": "PROSPECT_FRIO",
         "lqa": "N/A",
-        "interactions": 6,
+        "interactions": 10,
         "messages": [
             {
                 "role": "HUMAN",
@@ -19062,14 +22228,14 @@ const RAW_SIMULATIONS = [
     },
     {
         "name": "Philippe de Langlais",
-        "agency": "Outros",
+        "agency": "rhapsody",
         "region": "Outros",
         "date": "21/07/2026",
-        "dur": "3m 14s",
+        "dur": "2m 13s",
         "score": 81,
         "scenario": "PROSPECT_FRIO",
         "lqa": "N/A",
-        "interactions": 12,
+        "interactions": 22,
         "messages": [
             {
                 "role": "HUMAN",
@@ -19158,6 +22324,229 @@ const RAW_SIMULATIONS = [
             {
                 "role": "AI",
                 "text": "Até, bom fim de semana pra você também."
+            }
+        ],
+        "finished": true
+    },
+    {
+        "name": "Philippe de Langlais",
+        "agency": "rhapsody",
+        "region": "Outros",
+        "date": "27/07/2026",
+        "dur": "0m 18s",
+        "score": 0,
+        "scenario": "PROSPECT_FRIO",
+        "lqa": "N/A",
+        "interactions": 7,
+        "messages": [
+            {
+                "role": "HUMAN",
+                "text": "Bom dia"
+            },
+            {
+                "role": "HUMAN",
+                "text": "Com quem estou falando? É o senhor Ricardo, é isso mesmo?"
+            },
+            {
+                "role": "AI",
+                "text": "Não, não sou o Ricardo. Sou o Eduardo. Posso saber quem chama e qual o motivo da ligação?"
+            },
+            {
+                "role": "HUMAN",
+                "text": "Me desculpe, está errado, porque je, eu queria conversar com o senhor Ricardo"
+            },
+            {
+                "role": "AI",
+                "text": "Tudo bem, eu entendo. Se você procura o Ricardo, não sou eu. Posso saber quem é e qual é o motivo da ligação?"
+            },
+            {
+                "role": "HUMAN",
+                "text": "Não, [riso] ali é só, é, é para o, o senhor Ricardo. [riso] Tá bom, obrigado. Desculpe pelo atrapalho. Tchau, tchau"
+            },
+            {
+                "role": "AI",
+                "text": "Sem problema. Boa tarde e bom trabalho."
+            }
+        ],
+        "finished": false
+    },
+    {
+        "name": "Philippe de Langlais",
+        "agency": "rhapsody",
+        "region": "Outros",
+        "date": "27/07/2026",
+        "dur": "0m 0s",
+        "score": 0,
+        "scenario": "RECOMENDACOES",
+        "lqa": "N/A",
+        "interactions": 0,
+        "messages": [],
+        "finished": false
+    },
+    {
+        "name": "Philippe de Langlais",
+        "agency": "rhapsody",
+        "region": "Outros",
+        "date": "27/07/2026",
+        "dur": "1m 54s",
+        "score": 34,
+        "scenario": "RECOMENDACOES",
+        "lqa": "N/A",
+        "interactions": 14,
+        "messages": [
+            {
+                "role": "HUMAN",
+                "text": "Agora, quando você está se projetando já daqui até três meses, você já tem algumas ideias de quem você poderia nos recomendar?"
+            },
+            {
+                "role": "HUMAN",
+                "text": "Ricardo, [pigarro] nós estamos chegando, é, no final da con-- da nossa conversa. E-eu senti que, é, você, é E-estava muito satisfeito com a assinatura dessa, [pigarro] desse seguro de vida, tanto pra você quanto pra sua família, é bem isso?"
+            },
+            {
+                "role": "AI",
+                "text": "Sim, acertou. Estou satisfeito com a solução e com a clareza da proposta. Pode seguir com os próximos passos administrativos."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Ótimo, ótimo É, eu vou pedir para a minha assistente de, é, colocar tudo isso de pé rapidamente, é, para ativar justamente esse seguro de vida, tá? É, você teria, é, ao seu redor, é, pessoas como, hã, irmão, irmã, pais, etc., tios, na família ou amigos que, é, segundo você, é, poderia ter interesse, é, para, é, fazer a mesma coisa que, que você acabou de fazer assinando um seguro de vida?"
+            },
+            {
+                "role": "AI",
+                "text": "Olha, não costumo sair distribuindo nomes assim no calor do momento. Quero primeiro ver a operação rodando um pouco antes de envolver terceiros."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Eu entendo, você tem toda razão. Então, mas minha ideia seria um, ééé, realmente, ééé, organizar justamente a concretização desse seguro de vida, depois eu poderia retomar"
+            },
+            {
+                "role": "HUMAN",
+                "text": "Eu contato com você justamente para identificar pessoas, né, para quem, é, você poderia aconselhar justamente essa operação que você acabou de fazer"
+            },
+            {
+                "role": "HUMAN",
+                "text": "Pode dizer?"
+            },
+            {
+                "role": "AI",
+                "text": "Reforço: prefiro aguardar alguns meses para ver a operação em prática. Se você quiser, combine comigo daqui a noventa dias e aí eu avalio nomes com mais tranquilidade."
+            },
+            {
+                "role": "AI",
+                "text": "Ainda cedo pra dar nomes agora. Prefiro ver nos próximos meses como a operação funciona antes de expor alguém. Se você quiser, me procura daqui a noventa dias e eu trago um primeiro contato qualificado."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Ah, muito obrigado. É muito legal isso. Então, é, podemos marcar um compromisso daqui a três meses, por favor?"
+            },
+            {
+                "role": "AI",
+                "text": "Pode marcar daqui a noventa dias no período da manhã. Me envie um convite por e-mail e eu confirmo."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Te agradeço muito, a gente vai fazer isso. Eu te desejo um excelente, é, fim de semana. Até breve"
+            },
+            {
+                "role": "AI",
+                "text": "Obrigado. Bom fim de semana para você também."
+            }
+        ],
+        "finished": true
+    },
+    {
+        "name": "Philippe de Langlais",
+        "agency": "rhapsody",
+        "region": "Outros",
+        "date": "27/07/2026",
+        "dur": "2m 53s",
+        "score": 34,
+        "scenario": "RECOMENDACOES",
+        "lqa": "N/A",
+        "interactions": 21,
+        "messages": [
+            {
+                "role": "HUMAN",
+                "text": "É, de preferência, setor familiar"
+            },
+            {
+                "role": "HUMAN",
+                "text": "Ricardo, nós estamos finalizando a nossa conversa"
+            },
+            {
+                "role": "HUMAN",
+                "text": "Ééé, você, hããã, assinando esse seguro de vida, você sente que você está fazendo um bom negócio?"
+            },
+            {
+                "role": "AI",
+                "text": "Sim. Assinei porque a combinação de cobertura, prazo e custo ficou adequada ao meu perfil. Quero ver a execução agora, não só palavras no contrato."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Isso eu entendo perfeitamente, eu sou igual a você. [riso] Promessas são promessas, né? São palavras, mas, é, o que que a gente precisa é de ver concretamente como as coisas acontecem"
+            },
+            {
+                "role": "HUMAN",
+                "text": "Eu gostaria de fazer uma pergunta. Quando você faz um bom negócio, é, você, é, gosta de aconselhar para alguns amigos, pessoas da família, esse negócio que você, é, fez?"
+            },
+            {
+                "role": "AI",
+                "text": "Depende do amigo e do contexto. Se eu achar que é relevante para o perfil financeiro e familiar dele, eu compartilho a experiência e sugiro que ele converse com você. Não faço divulgação em massa nem empurro ninguém."
+            },
+            {
+                "role": "HUMAN",
+                "text": "De novo"
+            },
+            {
+                "role": "HUMAN",
+                "text": "E, eu concordo com você. Justamente, ééé, perto de você, como vo-você está me dizendo que você fez um um bom negócio com a gente. Cê acha que tem pessoas que, que teriam o perfil para fazer a mesma coisa, que poderia Aproveitar dessas condições que nós fizemos para você"
+            },
+            {
+                "role": "AI",
+                "text": "Possivelmente. Tenho alguns contatos do meio financeiro e um par de empresários que valorizam planejamento patrimonial. Antes de citar nomes, me explica como você fará o primeiro contato."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Ah, com certeza a primeira coisa que eu faria com você é de pedir algumas informações em relação a essas pessoas. É, isso me parece muito importante até para verificar que essas pessoas apresentam exatamente o mesmo perfil para fazer uma proposta, é, de valor que, que se combina com o perfil deles. A segunda coisa, eu gostaria muito de você, na medida do possível, entrar em contato, é, com essas pessoas para avisá-las que, é, eu iria em um prazo de três dias, uma semana, 15 dias, é você que sabe, é, que eu iria entrar em contato"
+            },
+            {
+                "role": "HUMAN",
+                "text": "Com eles, o que que você acha?"
+            },
+            {
+                "role": "AI",
+                "text": "Prefiro avisar antes, em mensagem curta, dizendo que posso receber um contato seu nos próximos dias. Não quero pressão sobre eles nem expor meu nome sem minha autorização expressa na hora do primeiro contato."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Muito obrigado, Ricardo. Então a gente vai combinar a coisa seguinte: se você pudesse, é, me compartilhar comigo dois perfis, hã, que, que você tem na cabeça que poderia ter interesse, é, pra, é, assinar esse tipo de contrato, é, poderíamos fazer isso e depois você me avisa quando, é-- me dando o, o, o ok, hã, para entrar em contato com as pessoas. Você topa?"
+            },
+            {
+                "role": "AI",
+                "text": "Posso. Primeiro, me diga exatamente quais critérios você quer para esses dois perfis. Depois eu penso em nomes e te aviso quando autorizar o contato."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Então o que que eu gostaria de saber em relação, hã, a essas pessoas que você poderia me indicar com certeza é nome, sobrenome, saber se eles têm, hããã Filhos, filhas"
+            },
+            {
+                "role": "HUMAN",
+                "text": "É, se eles são casados, uma série de, de informação, né, para justamente quando eu vou entrar em contato com eles, já, já, já ter um, é, uma ideia do perfil que eles têm, é, e para justamente, é, focar sobre as necessidades deles"
+            },
+            {
+                "role": "AI",
+                "text": "Não vou passar dados pessoais detalhados aqui. Posso, no entanto, fornecer perfis agregados e autorizar contato quando eu avisar. Você quer os dois perfis por setor ou por situação familiar?"
+            },
+            {
+                "role": "HUMAN",
+                "text": "Tá ligado?"
+            },
+            {
+                "role": "AI",
+                "text": "Tô ligado. Quero que você me diga quais critérios prefere: setor profissional ou situação familiar."
+            },
+            {
+                "role": "AI",
+                "text": "Setor familiar, certo. Prefiro dois perfis distintos: um casal executivo com filhos adolescentes e outro empresário solo, planejando sucessão. Esses são os que me vêm"
             }
         ],
         "finished": true
