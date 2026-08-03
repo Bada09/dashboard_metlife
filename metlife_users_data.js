@@ -3,45 +3,43 @@ const users = [
         "avgDurSec": 13,
         "avgScore": 32.0,
         "skills": {
-            "Escuta": 50.0,
-            "Empatia": 50.0,
-            "Crises": 65.0,
-            "Padroes": 80.0,
-            "Personalizacao": 65.0
+            "Escuta": 26.0,
+            "Personalizacao": 27.0,
+            "Empatia": 41.0,
+            "Crises": 45.0,
+            "Padroes": 32.0
         },
         "count": 4,
         "insights": {
             "pt": [
-                "Iniciou a ligação com energia, simpatia e buscou rapidamente se identificar.",
-                "Solicitou autorização para prosseguir antes de avançar no discurso, mostrando respeito pelo tempo da prospect.",
-                "Fez menção a uma referência próxima (“Paulo”) logo no início, ativando o gatilho de indicação.",
                 "**Faltou proposta clara de reunião**",
                 "**Ausência do “motivo do contato” objetivo**",
-                "**Desvio para detalhamento precoce do caso anterior**"
+                "**Desvio para detalhamento precoce do caso anterior**",
+                "**Estrutura das oito etapas**"
             ],
             "fr": [
-                "Iniciou a ligação com energia, simpatia e buscou rapidamente se identificar.",
-                "Solicitou autorização para prosseguir antes de avançar no discurso, mostrando respeito pelo tempo da prospect.",
-                "Fez menção a uma referência próxima (“Paulo”) logo no início, ativando o gatilho de indicação.",
                 "**Faltou proposta clara de reunião**",
                 "**Ausência do “motivo do contato” objetivo**",
-                "**Desvio para detalhamento precoce do caso anterior**"
+                "**Desvio para detalhamento precoce do caso anterior**",
+                "**Estrutura das oito etapas**"
             ]
         },
         "name": "Juliana Pedrão",
         "agency": "Outros",
         "region": "Outros",
-        "lqaScore": 50.0,
+        "lqaScore": 0.0,
         "languages": [
             "PT"
         ],
         "improvement": {
-            "pt": "Trabalhar estrutura básica da ligação",
-            "fr": "Travailler la structure de base"
+            "pt": "Continuar praticando e trabalhando os pontos de melhoria identificados.",
+            "fr": "Continuer a pratiquer et travailler les points d amelioration identifies."
         },
         "dates": [
-            "2026-06-19",
-            "2026-06-25"
+            "19/06/2026",
+            "19/06/2026",
+            "19/06/2026",
+            "25/06/2026"
         ],
         "avgDurMin": 0
     },
@@ -50,32 +48,32 @@ const users = [
         "avgScore": 0.0,
         "skills": {
             "Escuta": 0.0,
+            "Personalizacao": 0.0,
             "Empatia": 0.0,
             "Crises": 0.0,
-            "Padroes": 0.0,
-            "Personalizacao": 0.0
+            "Padroes": 0.0
         },
         "count": 0,
         "insights": {
             "pt": [
-                "Focar no objetivo principal (agendar reunião).",
-                "Evitar descrever produtos ou preços por telefone.",
-                "Melhorar postura ética e empatia na abertura."
+                "Usuario ainda nao possui simulacoes avaliadas.",
+                "Incentive a realizar simulacoes para gerar analise detalhada."
             ],
             "fr": [
-                "Focar no objetivo principal (agendar reunião).",
-                "Evitar descrever produtos ou preços por telefone.",
-                "Melhorar postura ética e empatia na abertura."
+                "Usuario ainda nao possui simulacoes avaliadas.",
+                "Incentive a realizar simulacoes para gerar analise detalhada."
             ]
         },
         "name": "Madeireiros fc",
         "agency": "Outros",
         "region": "Outros",
         "lqaScore": 0.0,
-        "languages": [],
+        "languages": [
+            "FR"
+        ],
         "improvement": {
-            "pt": "Iniciar as simulações",
-            "fr": "Commencer les simulations"
+            "pt": "Continuar praticando e trabalhando os pontos de melhoria identificados.",
+            "fr": "Continuer a pratiquer et travailler les points d amelioration identifies."
         },
         "dates": [],
         "avgDurMin": 0
@@ -84,48 +82,58 @@ const users = [
         "avgDurSec": 16,
         "avgScore": 52.7,
         "skills": {
-            "Escuta": 66.4,
-            "Empatia": 67.7,
-            "Crises": 77.3,
-            "Padroes": 60.9,
-            "Personalizacao": 81.4
+            "Escuta": 56.0,
+            "Personalizacao": 64.4,
+            "Empatia": 49.2,
+            "Crises": 55.9,
+            "Padroes": 59.8
         },
         "count": 19,
         "insights": {
             "pt": [
-                "Iniciou a ligação com energia e propôs o agendamento rapidamente.",
-                "Ressaltou a personalização e adaptatividade do serviço, mencionando planejamento feito sob medida.",
-                "Tentou mostrar valor agregado e diferenciação frente ao mercado.",
-                "Demonstrou alguma tentativa de assertividade ao insistir em buscar a reunião.",
-                "Faltou abertura clara (apresentação) e pedido formal de autorização para conversar.",
-                "Não houve quebra-gelo pessoal ou tentativa de ativar o gatilho da recomendação."
+                "Aqui está o debriefing da nossa troca.",
+                "🤓 PERSONA\n\nInterpretei Camila, uma jovem executiva de perfil DISC majoritariamente amarelo: comunicativa, questionadora, valorizando inovação, experiência digital e autonomia.",
+                "🎯 OBJETIVO PRINCIPAL\n\nO objetivo era responder objetivamente às objeções e agendar uma reunião.",
+                "O objetivo foi parcialmente atingido: houve proposta de reunião, mas sem concordância nem tratamento efetivo das objeções."
             ],
             "fr": [
-                "Iniciou a ligação com energia e propôs o agendamento rapidamente.",
-                "Ressaltou a personalização e adaptatividade do serviço, mencionando planejamento feito sob medida.",
-                "Tentou mostrar valor agregado e diferenciação frente ao mercado.",
-                "Demonstrou alguma tentativa de assertividade ao insistir em buscar a reunião.",
-                "Faltou abertura clara (apresentação) e pedido formal de autorização para conversar.",
-                "Não houve quebra-gelo pessoal ou tentativa de ativar o gatilho da recomendação."
+                "Aqui está o debriefing da nossa troca.",
+                "🤓 PERSONA\n\nInterpretei Camila, uma jovem executiva de perfil DISC majoritariamente amarelo: comunicativa, questionadora, valorizando inovação, experiência digital e autonomia.",
+                "🎯 OBJETIVO PRINCIPAL\n\nO objetivo era responder objetivamente às objeções e agendar uma reunião.",
+                "O objetivo foi parcialmente atingido: houve proposta de reunião, mas sem concordância nem tratamento efetivo das objeções."
             ]
         },
         "name": "Carolina Bandeliauskas",
         "agency": "Outros",
         "region": "Outros",
-        "lqaScore": 100.0,
+        "lqaScore": 0.0,
         "languages": [
             "PT"
         ],
         "improvement": {
-            "pt": "Melhorar gestão de objeções",
-            "fr": "Améliorer la gestion des objections"
+            "pt": "Continuar praticando e trabalhando os pontos de melhoria identificados.",
+            "fr": "Continuer a pratiquer et travailler les points d amelioration identifies."
         },
         "dates": [
-            "2026-06-16",
-            "2026-06-18",
-            "2026-06-22",
-            "2026-06-23",
-            "2026-06-24"
+            "16/06/2026",
+            "16/06/2026",
+            "16/06/2026",
+            "16/06/2026",
+            "16/06/2026",
+            "18/06/2026",
+            "18/06/2026",
+            "18/06/2026",
+            "18/06/2026",
+            "18/06/2026",
+            "22/06/2026",
+            "22/06/2026",
+            "22/06/2026",
+            "22/06/2026",
+            "22/06/2026",
+            "22/06/2026",
+            "23/06/2026",
+            "23/06/2026",
+            "24/06/2026"
         ],
         "avgDurMin": 1
     },
@@ -133,45 +141,47 @@ const users = [
         "avgDurSec": 55,
         "avgScore": 63.7,
         "skills": {
-            "Escuta": 70.0,
-            "Empatia": 65.0,
-            "Crises": 75.0,
-            "Padroes": 70.0,
-            "Personalizacao": 70.0
+            "Escuta": 77.7,
+            "Personalizacao": 66.0,
+            "Empatia": 64.0,
+            "Crises": 57.3,
+            "Padroes": 69.0
         },
         "count": 8,
         "insights": {
             "pt": [
-                "Uso do gatilho de recomendação ao mencionar o contato do Carlos, aumentando relevância e autoridade.",
-                "Abordagem inicial clara e simpática, com apresentação pessoal e contextualização da ligação.",
-                "Proposta da reunião feita de forma objetiva, com escolha forçada entre dois horários.",
-                "Reconfirmação do horário e local, fortalecendo o compromisso do agendamento.",
-                "Postura consultiva e tom cordial, o que favorece abertura do prospect.",
-                "Ausência de gestão de objeções, pois o prospect não contestou nem questionou propostas relevantes."
+                "Aqui está o debriefing da nossa troca.",
+                "### 🤓 PERSONA\n\nExecutivo analítico, assertivo, perfil DISC predominante vermelho, exigente e desconfiado com discursos padrões.",
+                "### 🎯 OBJETIVO PRINCIPAL\n\nO objetivo de obter a reunião foi atingido; objeções não foram apresentadas nem tratadas a fundo.",
+                "### ➕ PONTOS FORTES\n\n- Uso do gatilho de recomendação ao mencionar o contato do Carlos, aumentando relevância e autoridade."
             ],
             "fr": [
-                "Uso do gatilho de recomendação ao mencionar o contato do Carlos, aumentando relevância e autoridade.",
-                "Abordagem inicial clara e simpática, com apresentação pessoal e contextualização da ligação.",
-                "Proposta da reunião feita de forma objetiva, com escolha forçada entre dois horários.",
-                "Reconfirmação do horário e local, fortalecendo o compromisso do agendamento.",
-                "Postura consultiva e tom cordial, o que favorece abertura do prospect.",
-                "Ausência de gestão de objeções, pois o prospect não contestou nem questionou propostas relevantes."
+                "Aqui está o debriefing da nossa troca.",
+                "### 🤓 PERSONA\n\nExecutivo analítico, assertivo, perfil DISC predominante vermelho, exigente e desconfiado com discursos padrões.",
+                "### 🎯 OBJETIVO PRINCIPAL\n\nO objetivo de obter a reunião foi atingido; objeções não foram apresentadas nem tratadas a fundo.",
+                "### ➕ PONTOS FORTES\n\n- Uso do gatilho de recomendação ao mencionar o contato do Carlos, aumentando relevância e autoridade."
             ]
         },
         "name": "Parceiro Gorilla01",
-        "agency": "Gorilla",
-        "region": "Sul",
-        "lqaScore": 100.0,
+        "agency": "Outros",
+        "region": "Outros",
+        "lqaScore": 0.0,
         "languages": [
             "PT"
         ],
         "improvement": {
-            "pt": "Aperfeiçoar técnica de fechamento",
-            "fr": "Perfectionner la technique de closing"
+            "pt": "Continuar praticando e trabalhando os pontos de melhoria identificados.",
+            "fr": "Continuer a pratiquer et travailler les points d amelioration identifies."
         },
         "dates": [
-            "2026-07-05",
-            "2026-07-08"
+            "05/07/2026",
+            "08/07/2026",
+            "08/07/2026",
+            "08/07/2026",
+            "08/07/2026",
+            "08/07/2026",
+            "08/07/2026",
+            "08/07/2026"
         ],
         "avgDurMin": 2
     },
@@ -179,45 +189,53 @@ const users = [
         "avgDurSec": 56,
         "avgScore": 57.0,
         "skills": {
-            "Escuta": 57.5,
-            "Empatia": 57.5,
-            "Crises": 72.5,
-            "Padroes": 72.5,
-            "Personalizacao": 72.5
+            "Escuta": 59.0,
+            "Personalizacao": 69.5,
+            "Empatia": 52.0,
+            "Crises": 63.5,
+            "Padroes": 61.5
         },
         "count": 14,
         "insights": {
             "pt": [
-                "Focar no objetivo principal (agendar reunião).",
-                "Evitar descrever produtos ou preços por telefone.",
-                "Melhorar postura ética e empatia na abertura.",
-                "Abriu a conversa de forma educada, buscando autorização antes de seguir adiante.",
-                "Apostou no vínculo relacional via indicação de uma amiga, ativando um início de quebra-gelo.",
-                "Teve uma voz mais leve, próxima e natural, sem tom impositivo."
+                "Aqui está o debriefing de nossa conversa.",
+                "🤓 PERSONA\n\nFui Camila, executiva de tecnologia, perfil DISC majoritário amarelo, curiosa e digital-first, com postura analítica e desconfiada.",
+                "🎯 OBJETIVO PRINCIPAL\n\nVocê respondeu de modo consistente à objeção sobre o envio de documentos e reforçou a personalização, mas não obteve o agendamento da reunião.",
+                "Objetivo parcialmente atingido."
             ],
             "fr": [
-                "Focar no objetivo principal (agendar reunião).",
-                "Evitar descrever produtos ou preços por telefone.",
-                "Melhorar postura ética e empatia na abertura.",
-                "Abriu a conversa de forma educada, buscando autorização antes de seguir adiante.",
-                "Apostou no vínculo relacional via indicação de uma amiga, ativando um início de quebra-gelo.",
-                "Teve uma voz mais leve, próxima e natural, sem tom impositivo."
+                "Aqui está o debriefing de nossa conversa.",
+                "🤓 PERSONA\n\nFui Camila, executiva de tecnologia, perfil DISC majoritário amarelo, curiosa e digital-first, com postura analítica e desconfiada.",
+                "🎯 OBJETIVO PRINCIPAL\n\nVocê respondeu de modo consistente à objeção sobre o envio de documentos e reforçou a personalização, mas não obteve o agendamento da reunião.",
+                "Objetivo parcialmente atingido."
             ]
         },
         "name": "Parceiro Inside3a12",
-        "agency": "Inside",
-        "region": "Sudeste",
-        "lqaScore": 100.0,
+        "agency": "Outros",
+        "region": "Outros",
+        "lqaScore": 0.0,
         "languages": [
             "PT"
         ],
         "improvement": {
-            "pt": "Aperfeiçoar técnica de fechamento",
-            "fr": "Perfectionner la technique de closing"
+            "pt": "Continuar praticando e trabalhando os pontos de melhoria identificados.",
+            "fr": "Continuer a pratiquer et travailler les points d amelioration identifies."
         },
         "dates": [
-            "2026-07-02",
-            "2026-07-13"
+            "02/07/2026",
+            "02/07/2026",
+            "02/07/2026",
+            "02/07/2026",
+            "02/07/2026",
+            "02/07/2026",
+            "02/07/2026",
+            "13/07/2026",
+            "13/07/2026",
+            "13/07/2026",
+            "13/07/2026",
+            "13/07/2026",
+            "13/07/2026",
+            "13/07/2026"
         ],
         "avgDurMin": 1
     },
@@ -225,48 +243,55 @@ const users = [
         "avgDurSec": 26,
         "avgScore": 54.1,
         "skills": {
-            "Escuta": 65.0,
-            "Empatia": 66.9,
-            "Crises": 81.9,
-            "Padroes": 57.5,
-            "Personalizacao": 80.0
+            "Escuta": 53.1,
+            "Personalizacao": 65.5,
+            "Empatia": 59.4,
+            "Crises": 56.8,
+            "Padroes": 53.5
         },
         "count": 16,
         "insights": {
             "pt": [
-                "Aplicou assertivamente o conceito de personalização na sua abordagem, mostrando que só elabora o material após conhecer melhor a realidade do prospect.",
-                "Argumentou que o material padrão não gera valor e colocou a conversa inicial como porta de entrada para a customização.",
-                "Propôs a técnica da escolha forçada ao sugerir datas concretas para a conversa, criando senso de direcionamento e organização.",
-                "Focar no objetivo principal (agendar reunião).",
-                "Evitar descrever produtos ou preços por telefone.",
-                "Melhorar postura ética e empatia na abertura."
+                "Aqui está o debriefing de nossa conversa.",
+                "### 🤓 PERSONA\n\nLarissa, empreendedora do ramo de beleza, perfil DISC amarelo predominante, extrovertida, intuitiva e relacional.",
+                "🎯 OBJETIVO PRINCIPAL\n\nVocê conseguiu rechaçar o envio de material genérico e argumentou sobre personalização, mas não obteve o aceite para agendar a reunião.",
+                "O objetivo foi parcialmente atingido."
             ],
             "fr": [
-                "Aplicou assertivamente o conceito de personalização na sua abordagem, mostrando que só elabora o material após conhecer melhor a realidade do prospect.",
-                "Argumentou que o material padrão não gera valor e colocou a conversa inicial como porta de entrada para a customização.",
-                "Propôs a técnica da escolha forçada ao sugerir datas concretas para a conversa, criando senso de direcionamento e organização.",
-                "Focar no objetivo principal (agendar reunião).",
-                "Evitar descrever produtos ou preços por telefone.",
-                "Melhorar postura ética e empatia na abertura."
+                "Aqui está o debriefing de nossa conversa.",
+                "### 🤓 PERSONA\n\nLarissa, empreendedora do ramo de beleza, perfil DISC amarelo predominante, extrovertida, intuitiva e relacional.",
+                "🎯 OBJETIVO PRINCIPAL\n\nVocê conseguiu rechaçar o envio de material genérico e argumentou sobre personalização, mas não obteve o aceite para agendar a reunião.",
+                "O objetivo foi parcialmente atingido."
             ]
         },
         "name": "Parceiro Apice24mais",
-        "agency": "Ápice",
-        "region": "Norte",
-        "lqaScore": 100.0,
+        "agency": "Outros",
+        "region": "Outros",
+        "lqaScore": 0.0,
         "languages": [
-            "EN",
             "PT"
         ],
         "improvement": {
-            "pt": "Melhorar gestão de objeções",
-            "fr": "Améliorer la gestion des objections"
+            "pt": "Continuar praticando e trabalhando os pontos de melhoria identificados.",
+            "fr": "Continuer a pratiquer et travailler les points d amelioration identifies."
         },
         "dates": [
-            "2026-07-02",
-            "2026-07-03",
-            "2026-07-06",
-            "2026-07-10"
+            "02/07/2026",
+            "03/07/2026",
+            "03/07/2026",
+            "03/07/2026",
+            "03/07/2026",
+            "03/07/2026",
+            "03/07/2026",
+            "03/07/2026",
+            "06/07/2026",
+            "06/07/2026",
+            "06/07/2026",
+            "06/07/2026",
+            "06/07/2026",
+            "06/07/2026",
+            "10/07/2026",
+            "10/07/2026"
         ],
         "avgDurMin": 1
     },
@@ -275,32 +300,32 @@ const users = [
         "avgScore": 0.0,
         "skills": {
             "Escuta": 0.0,
+            "Personalizacao": 0.0,
             "Empatia": 0.0,
             "Crises": 0.0,
-            "Padroes": 0.0,
-            "Personalizacao": 0.0
+            "Padroes": 0.0
         },
         "count": 0,
         "insights": {
             "pt": [
-                "Focar no objetivo principal (agendar reunião).",
-                "Evitar descrever produtos ou preços por telefone.",
-                "Melhorar postura ética e empatia na abertura."
+                "Usuario ainda nao possui simulacoes avaliadas.",
+                "Incentive a realizar simulacoes para gerar analise detalhada."
             ],
             "fr": [
-                "Focar no objetivo principal (agendar reunião).",
-                "Evitar descrever produtos ou preços por telefone.",
-                "Melhorar postura ética e empatia na abertura."
+                "Usuario ainda nao possui simulacoes avaliadas.",
+                "Incentive a realizar simulacoes para gerar analise detalhada."
             ]
         },
         "name": "Parceiro Gorilla12a24",
-        "agency": "Gorilla",
-        "region": "Sul",
+        "agency": "Outros",
+        "region": "Outros",
         "lqaScore": 0.0,
-        "languages": [],
+        "languages": [
+            "PT"
+        ],
         "improvement": {
-            "pt": "Iniciar as simulações",
-            "fr": "Commencer les simulations"
+            "pt": "Continuar praticando e trabalhando os pontos de melhoria identificados.",
+            "fr": "Continuer a pratiquer et travailler les points d amelioration identifies."
         },
         "dates": [],
         "avgDurMin": 0
@@ -310,32 +335,32 @@ const users = [
         "avgScore": 0.0,
         "skills": {
             "Escuta": 0.0,
+            "Personalizacao": 0.0,
             "Empatia": 0.0,
             "Crises": 0.0,
-            "Padroes": 0.0,
-            "Personalizacao": 0.0
+            "Padroes": 0.0
         },
         "count": 0,
         "insights": {
             "pt": [
-                "Focar no objetivo principal (agendar reunião).",
-                "Evitar descrever produtos ou preços por telefone.",
-                "Melhorar postura ética e empatia na abertura."
+                "Usuario ainda nao possui simulacoes avaliadas.",
+                "Incentive a realizar simulacoes para gerar analise detalhada."
             ],
             "fr": [
-                "Focar no objetivo principal (agendar reunião).",
-                "Evitar descrever produtos ou preços por telefone.",
-                "Melhorar postura ética e empatia na abertura."
+                "Usuario ainda nao possui simulacoes avaliadas.",
+                "Incentive a realizar simulacoes para gerar analise detalhada."
             ]
         },
         "name": "Parceiro Gorilla24mais",
-        "agency": "Gorilla",
-        "region": "Sul",
+        "agency": "Outros",
+        "region": "Outros",
         "lqaScore": 0.0,
-        "languages": [],
+        "languages": [
+            "PT"
+        ],
         "improvement": {
-            "pt": "Iniciar as simulações",
-            "fr": "Commencer les simulations"
+            "pt": "Continuar praticando e trabalhando os pontos de melhoria identificados.",
+            "fr": "Continuer a pratiquer et travailler les points d amelioration identifies."
         },
         "dates": [],
         "avgDurMin": 0
@@ -344,91 +369,98 @@ const users = [
         "avgDurSec": 36,
         "avgScore": 73.5,
         "skills": {
-            "Escuta": 65.0,
-            "Empatia": 57.5,
-            "Crises": 72.5,
-            "Padroes": 65.0,
-            "Personalizacao": 72.5
+            "Escuta": 78.5,
+            "Personalizacao": 82.5,
+            "Empatia": 69.0,
+            "Crises": 77.5,
+            "Padroes": 76.5
         },
         "count": 3,
         "insights": {
             "pt": [
-                "Uso correto da recomendação logo no início, criando vínculo e legitimando o contato.",
-                "Tom cordial, simpático, transmitindo tranquilidade e profissionalismo, com preocupação em facilitar a agenda do prospect.",
-                "Proposta de reunião objetiva, apresentando alternativas de horários próximos (escolha forçada), estimulando o fechamento.",
-                "Efetivação de convite e reconfirmação com detalhes práticos, contribuindo para o compromisso.",
-                "Faltou autorização explícita para a abordagem, respeitando privacidade e o método MetLife.",
-                "Não houve tentativa de identificar perfil ou necessidade do prospect, apenas convite direto."
+                "Aqui está o debriefing da nossa troca.",
+                "🤓 PERSONA\n\nFernanda, dentista autônoma de perfil DISC verde, pragmática, organizada e cordial, valorizando clareza, vínculo e sensibilidade consultiva.",
+                "🎯 OBJETIVO PRINCIPAL\n\nO objetivo de obter uma reunião de descoberta foi plenamente atingido, mas as objeções do prospect não chegaram a existir na troca.",
+                "➕ PONTOS FORTES\n\n- Uso correto da recomendação logo no início, criando vínculo e legitimando o contato."
             ],
             "fr": [
-                "Uso correto da recomendação logo no início, criando vínculo e legitimando o contato.",
-                "Tom cordial, simpático, transmitindo tranquilidade e profissionalismo, com preocupação em facilitar a agenda do prospect.",
-                "Proposta de reunião objetiva, apresentando alternativas de horários próximos (escolha forçada), estimulando o fechamento.",
-                "Efetivação de convite e reconfirmação com detalhes práticos, contribuindo para o compromisso.",
-                "Faltou autorização explícita para a abordagem, respeitando privacidade e o método MetLife.",
-                "Não houve tentativa de identificar perfil ou necessidade do prospect, apenas convite direto."
+                "Aqui está o debriefing da nossa troca.",
+                "🤓 PERSONA\n\nFernanda, dentista autônoma de perfil DISC verde, pragmática, organizada e cordial, valorizando clareza, vínculo e sensibilidade consultiva.",
+                "🎯 OBJETIVO PRINCIPAL\n\nO objetivo de obter uma reunião de descoberta foi plenamente atingido, mas as objeções do prospect não chegaram a existir na troca.",
+                "➕ PONTOS FORTES\n\n- Uso correto da recomendação logo no início, criando vínculo e legitimando o contato."
             ]
         },
         "name": "Parceiro Insidelu",
-        "agency": "Inside",
-        "region": "Sudeste",
-        "lqaScore": 50.0,
+        "agency": "Outros",
+        "region": "Outros",
+        "lqaScore": 0.0,
         "languages": [
-            "EN",
             "PT"
         ],
         "improvement": {
-            "pt": "Consolidar excelência e constância",
-            "fr": "Consolider l'excellence et la constance"
+            "pt": "Continuar praticando e trabalhando os pontos de melhoria identificados.",
+            "fr": "Continuer a pratiquer et travailler les points d amelioration identifies."
         },
         "dates": [
-            "2026-07-11"
+            "11/07/2026",
+            "11/07/2026",
+            "11/07/2026"
         ],
         "avgDurMin": 0
     },
     {
-        "avgDurSec": 49,
-        "avgScore": 36.5,
+        "avgDurSec": 13,
+        "avgScore": 39.0,
         "skills": {
-            "Escuta": 65.0,
-            "Empatia": 80.0,
-            "Crises": 57.5,
-            "Padroes": 57.5,
-            "Personalizacao": 87.5
+            "Escuta": 42.8,
+            "Personalizacao": 44.8,
+            "Empatia": 37.6,
+            "Crises": 49.4,
+            "Padroes": 42.6
         },
-        "count": 9,
+        "count": 16,
         "insights": {
             "pt": [
-                "Comunicação clara, objetiva e respeitosa ao abordar o contato.",
-                "Valorização da indicação do Alexandre, o que já gera uma ponte de confiança.",
-                "Uso de perguntas fechadas para facilitar o agendamento e evitar dispersão.",
-                "Explorar o momento WOW: Faltou reconhecer a satisfação do cliente inicial e potencializá-la pedindo indicações.",
-                "Personalizar o convite: A abordagem se mostrou um pouco genérica e poderia ser mais personalizada para mostrar o valor percebido pelo Alexandre.",
-                "Coleta de contexto: Não houve a aplicação do método ⟪\"ASK THE MAN\"⟫ ou tentativa de qualificar os perfis recomendados."
+                "Aqui está o debriefing da nossa conversa.",
+                "##  🤓 PERSONA\n\nPersona interpretado: Fabi, corretora proativa e assertiva, perfil DISC dominante Influente e um toque de Dominante.",
+                "## 🎯 OBJETIVO PRINCIPAL\n\nO objetivo principal não foi atingido: nenhuma recomendação foi solicitada ou obtida nesta conversa.",
+                "## ➕ Pontos fortes\n\n- Comunicação clara, objetiva e respeitosa ao abordar o contato."
             ],
             "fr": [
-                "Comunicação clara, objetiva e respeitosa ao abordar o contato.",
-                "Valorização da indicação do Alexandre, o que já gera uma ponte de confiança.",
-                "Uso de perguntas fechadas para facilitar o agendamento e evitar dispersão.",
-                "Explorar o momento WOW: Faltou reconhecer a satisfação do cliente inicial e potencializá-la pedindo indicações.",
-                "Personalizar o convite: A abordagem se mostrou um pouco genérica e poderia ser mais personalizada para mostrar o valor percebido pelo Alexandre.",
-                "Coleta de contexto: Não houve a aplicação do método ⟪\"ASK THE MAN\"⟫ ou tentativa de qualificar os perfis recomendados."
+                "Aqui está o debriefing da nossa conversa.",
+                "##  🤓 PERSONA\n\nPersona interpretado: Fabi, corretora proativa e assertiva, perfil DISC dominante Influente e um toque de Dominante.",
+                "## 🎯 OBJETIVO PRINCIPAL\n\nO objetivo principal não foi atingido: nenhuma recomendação foi solicitada ou obtida nesta conversa.",
+                "## ➕ Pontos fortes\n\n- Comunicação clara, objetiva e respeitosa ao abordar o contato."
             ]
         },
         "name": "Parceiro Geracao3a12",
-        "agency": "Geração",
-        "region": "Centro-Oeste",
-        "lqaScore": 100.0,
+        "agency": "Outros",
+        "region": "Outros",
+        "lqaScore": 0.0,
         "languages": [
-            "EN",
             "PT"
         ],
         "improvement": {
-            "pt": "Trabalhar estrutura básica da ligação",
-            "fr": "Travailler la structure de base"
+            "pt": "Continuar praticando e trabalhando os pontos de melhoria identificados.",
+            "fr": "Continuer a pratiquer et travailler les points d amelioration identifies."
         },
         "dates": [
-            "2026-07-07"
+            "07/07/2026",
+            "07/07/2026",
+            "07/07/2026",
+            "07/07/2026",
+            "07/07/2026",
+            "07/07/2026",
+            "07/07/2026",
+            "07/07/2026",
+            "07/07/2026",
+            "30/07/2026",
+            "30/07/2026",
+            "30/07/2026",
+            "30/07/2026",
+            "30/07/2026",
+            "30/07/2026",
+            "30/07/2026"
         ],
         "avgDurMin": 1
     },
@@ -436,46 +468,44 @@ const users = [
         "avgDurSec": 5,
         "avgScore": 56.0,
         "skills": {
-            "Escuta": 65.0,
-            "Empatia": 72.5,
-            "Crises": 80.0,
-            "Padroes": 72.5,
-            "Personalizacao": 80.0
+            "Escuta": 69.5,
+            "Personalizacao": 59.0,
+            "Empatia": 59.5,
+            "Crises": 51.0,
+            "Padroes": 71.0
         },
         "count": 3,
         "insights": {
             "pt": [
-                "Abordagem inicial educada e direta, buscando rapidamente trazer a conversa para o tema da reunião.",
-                "Tentou se colocar como consultor ao sugerir entender o momento de vida, patrimônio e planos do cliente.",
-                "Propôs um horário concreto para a reunião, fugindo de datas vagas e facilitando a tomada de decisão.",
-                "Atitude acolhedora e mostra de disponibilidade ao garantir envio rápido de informações por WhatsApp.",
-                "Faltou pedir autorização explícita antes de seguir com a abordagem, ponto essencial do método MetLife.",
-                "Não ativou a recomendação (não citou a indicação de Paulo nem associou credibilidade ao contato)."
+                "“Posso te explicar rapidamente por que Paulo sugeriu nosso contato, para você decidir se faz sentido conversarmos?”",
+                "“Te proponho duas opções: quarta às catorze ou quinta às dez, qual encaixa melhor na sua agenda?”",
+                "“Entendo que já tem seguro, mas podemos revisar juntos se ele realmente atende suas necessidades atuais?”",
+                "“Prometo ser objetivo, nosso papo é para agregar, nada de venda por telefone.”",
+                "“Posso te contar em trinta segundos o que você ganha investindo vinte minutos comigo?”"
             ],
             "fr": [
-                "Abordagem inicial educada e direta, buscando rapidamente trazer a conversa para o tema da reunião.",
-                "Tentou se colocar como consultor ao sugerir entender o momento de vida, patrimônio e planos do cliente.",
-                "Propôs um horário concreto para a reunião, fugindo de datas vagas e facilitando a tomada de decisão.",
-                "Atitude acolhedora e mostra de disponibilidade ao garantir envio rápido de informações por WhatsApp.",
-                "Faltou pedir autorização explícita antes de seguir com a abordagem, ponto essencial do método MetLife.",
-                "Não ativou a recomendação (não citou a indicação de Paulo nem associou credibilidade ao contato)."
+                "“Posso te explicar rapidamente por que Paulo sugeriu nosso contato, para você decidir se faz sentido conversarmos?”",
+                "“Te proponho duas opções: quarta às catorze ou quinta às dez, qual encaixa melhor na sua agenda?”",
+                "“Entendo que já tem seguro, mas podemos revisar juntos se ele realmente atende suas necessidades atuais?”",
+                "“Prometo ser objetivo, nosso papo é para agregar, nada de venda por telefone.”",
+                "“Posso te contar em trinta segundos o que você ganha investindo vinte minutos comigo?”"
             ]
         },
         "name": "Marcelo Bernardes",
-        "agency": "Rivório",
-        "region": "Nordeste",
-        "lqaScore": 50.0,
+        "agency": "Outros",
+        "region": "Outros",
+        "lqaScore": 0.0,
         "languages": [
             "PT"
         ],
         "improvement": {
-            "pt": "Aperfeiçoar técnica de fechamento",
-            "fr": "Perfectionner la technique de closing"
+            "pt": "Continuar praticando e trabalhando os pontos de melhoria identificados.",
+            "fr": "Continuer a pratiquer et travailler les points d amelioration identifies."
         },
         "dates": [
-            "2026-07-02",
-            "2026-07-04",
-            "2026-07-06"
+            "02/07/2026",
+            "04/07/2026",
+            "06/07/2026"
         ],
         "avgDurMin": 1
     },
@@ -484,32 +514,32 @@ const users = [
         "avgScore": 0.0,
         "skills": {
             "Escuta": 0.0,
+            "Personalizacao": 0.0,
             "Empatia": 0.0,
             "Crises": 0.0,
-            "Padroes": 0.0,
-            "Personalizacao": 0.0
+            "Padroes": 0.0
         },
         "count": 0,
         "insights": {
             "pt": [
-                "Focar no objetivo principal (agendar reunião).",
-                "Evitar descrever produtos ou preços por telefone.",
-                "Melhorar postura ética e empatia na abertura."
+                "Usuario ainda nao possui simulacoes avaliadas.",
+                "Incentive a realizar simulacoes para gerar analise detalhada."
             ],
             "fr": [
-                "Focar no objetivo principal (agendar reunião).",
-                "Evitar descrever produtos ou preços por telefone.",
-                "Melhorar postura ética e empatia na abertura."
+                "Usuario ainda nao possui simulacoes avaliadas.",
+                "Incentive a realizar simulacoes para gerar analise detalhada."
             ]
         },
         "name": "Parceiro Apice12a24",
-        "agency": "Ápice",
-        "region": "Norte",
+        "agency": "Outros",
+        "region": "Outros",
         "lqaScore": 0.0,
-        "languages": [],
+        "languages": [
+            "PT"
+        ],
         "improvement": {
-            "pt": "Iniciar as simulações",
-            "fr": "Commencer les simulations"
+            "pt": "Continuar praticando e trabalhando os pontos de melhoria identificados.",
+            "fr": "Continuer a pratiquer et travailler les points d amelioration identifies."
         },
         "dates": [],
         "avgDurMin": 0
@@ -519,32 +549,32 @@ const users = [
         "avgScore": 0.0,
         "skills": {
             "Escuta": 0.0,
+            "Personalizacao": 0.0,
             "Empatia": 0.0,
             "Crises": 0.0,
-            "Padroes": 0.0,
-            "Personalizacao": 0.0
+            "Padroes": 0.0
         },
         "count": 0,
         "insights": {
             "pt": [
-                "Focar no objetivo principal (agendar reunião).",
-                "Evitar descrever produtos ou preços por telefone.",
-                "Melhorar postura ética e empatia na abertura."
+                "Usuario ainda nao possui simulacoes avaliadas.",
+                "Incentive a realizar simulacoes para gerar analise detalhada."
             ],
             "fr": [
-                "Focar no objetivo principal (agendar reunião).",
-                "Evitar descrever produtos ou preços por telefone.",
-                "Melhorar postura ética e empatia na abertura."
+                "Usuario ainda nao possui simulacoes avaliadas.",
+                "Incentive a realizar simulacoes para gerar analise detalhada."
             ]
         },
         "name": "Parceiro Apice3a12",
-        "agency": "Ápice",
-        "region": "Norte",
+        "agency": "Outros",
+        "region": "Outros",
         "lqaScore": 0.0,
-        "languages": [],
+        "languages": [
+            "PT"
+        ],
         "improvement": {
-            "pt": "Iniciar as simulações",
-            "fr": "Commencer les simulations"
+            "pt": "Continuar praticando e trabalhando os pontos de melhoria identificados.",
+            "fr": "Continuer a pratiquer et travailler les points d amelioration identifies."
         },
         "dates": [],
         "avgDurMin": 0
@@ -553,94 +583,117 @@ const users = [
         "avgDurSec": 14,
         "avgScore": 66.2,
         "skills": {
-            "Escuta": 68.8,
-            "Empatia": 61.2,
-            "Crises": 80.0,
-            "Padroes": 66.9,
-            "Personalizacao": 78.1
+            "Escuta": 70.2,
+            "Personalizacao": 74.0,
+            "Empatia": 64.9,
+            "Crises": 65.6,
+            "Padroes": 69.2
         },
         "count": 17,
         "insights": {
             "pt": [
-                "Utilizou o gatilho de recomendação mencionando João Vitor de maneira personalizada, trazendo credibilidade à abordagem.",
-                "Tentou criar conexão ao alinhar o perfil do público-alvo (“a maioria dos meus clientes são dentistas”), mostrando segmentação.",
-                "Propôs reunião em agenda com opção forçada entre dois horários, facilitando a tomada de decisão para o prospect.",
                 "**Sequência MetLife incompleta**",
                 "**Quebra de fluxo consultivo**",
-                "**Gestão de objeção imprecisa**"
+                "**Gestão de objeção imprecisa**",
+                "**Pouca personalização**",
+                "“Fernanda, posso compartilhar alguns pontos-chave por e-mail e depois conversamos pessoalmente para aprofundar no que fizer sentido para você?”",
+                "“João Vitor sugeriu que eu te procurasse porque viu que o meu trabalho ajudou colegas com desafios parecidos aos seus.”"
             ],
             "fr": [
-                "Utilizou o gatilho de recomendação mencionando João Vitor de maneira personalizada, trazendo credibilidade à abordagem.",
-                "Tentou criar conexão ao alinhar o perfil do público-alvo (“a maioria dos meus clientes são dentistas”), mostrando segmentação.",
-                "Propôs reunião em agenda com opção forçada entre dois horários, facilitando a tomada de decisão para o prospect.",
                 "**Sequência MetLife incompleta**",
                 "**Quebra de fluxo consultivo**",
-                "**Gestão de objeção imprecisa**"
+                "**Gestão de objeção imprecisa**",
+                "**Pouca personalização**",
+                "“Fernanda, posso compartilhar alguns pontos-chave por e-mail e depois conversamos pessoalmente para aprofundar no que fizer sentido para você?”",
+                "“João Vitor sugeriu que eu te procurasse porque viu que o meu trabalho ajudou colegas com desafios parecidos aos seus.”"
             ]
         },
         "name": "Parceiro Gorillalu",
-        "agency": "Gorilla",
-        "region": "Sul",
-        "lqaScore": 100.0,
+        "agency": "Outros",
+        "region": "Outros",
+        "lqaScore": 0.0,
         "languages": [
-            "EN",
             "PT"
         ],
         "improvement": {
-            "pt": "Aperfeiçoar técnica de fechamento",
-            "fr": "Perfectionner la technique de closing"
+            "pt": "Continuar praticando e trabalhando os pontos de melhoria identificados.",
+            "fr": "Continuer a pratiquer et travailler les points d amelioration identifies."
         },
         "dates": [
-            "2026-07-03",
-            "2026-07-22"
+            "03/07/2026",
+            "03/07/2026",
+            "03/07/2026",
+            "03/07/2026",
+            "03/07/2026",
+            "03/07/2026",
+            "03/07/2026",
+            "03/07/2026",
+            "03/07/2026",
+            "03/07/2026",
+            "03/07/2026",
+            "03/07/2026",
+            "22/07/2026",
+            "22/07/2026",
+            "22/07/2026",
+            "22/07/2026",
+            "22/07/2026"
         ],
         "avgDurMin": 2
     },
     {
-        "avgDurSec": 58,
-        "avgScore": 58.0,
+        "avgDurSec": 53,
+        "avgScore": 62.2,
         "skills": {
-            "Escuta": 60.7,
-            "Empatia": 58.6,
-            "Crises": 69.3,
-            "Padroes": 67.1,
-            "Personalizacao": 75.7
+            "Escuta": 66.5,
+            "Personalizacao": 69.6,
+            "Empatia": 64.0,
+            "Crises": 63.8,
+            "Padroes": 64.0
         },
-        "count": 12,
+        "count": 15,
         "insights": {
             "pt": [
-                "Pediu o nome da prospect, mostrando atenção básica à personalização.",
-                "Tentou criar vínculo ao mencionar recomendação, mesmo que o nome tenha sido informado incorretamente.",
                 "**Falta de estrutura na abordagem**",
                 "**Dados incorretos e constrangimento**",
                 "**Quebra do foco após objeção inicial**",
-                "**Ausência de gestão de objeção**"
+                "**Ausência de gestão de objeção**",
+                "**Tom defensivo e falta de escuta ativa**"
             ],
             "fr": [
-                "Pediu o nome da prospect, mostrando atenção básica à personalização.",
-                "Tentou criar vínculo ao mencionar recomendação, mesmo que o nome tenha sido informado incorretamente.",
                 "**Falta de estrutura na abordagem**",
                 "**Dados incorretos e constrangimento**",
                 "**Quebra do foco após objeção inicial**",
-                "**Ausência de gestão de objeção**"
+                "**Ausência de gestão de objeção**",
+                "**Tom defensivo e falta de escuta ativa**"
             ]
         },
         "name": "Parceiro Inside24mais",
-        "agency": "Inside",
-        "region": "Sudeste",
-        "lqaScore": 100.0,
+        "agency": "Outros",
+        "region": "Outros",
+        "lqaScore": 40.0,
         "languages": [
-            "EN",
             "PT"
         ],
         "improvement": {
-            "pt": "Aperfeiçoar técnica de fechamento",
-            "fr": "Perfectionner la technique de closing"
+            "pt": "Continuar praticando e trabalhando os pontos de melhoria identificados.",
+            "fr": "Continuer a pratiquer et travailler les points d amelioration identifies."
         },
         "dates": [
-            "2026-07-08",
-            "2026-07-10",
-            "2026-07-15"
+            "08/07/2026",
+            "08/07/2026",
+            "08/07/2026",
+            "08/07/2026",
+            "08/07/2026",
+            "08/07/2026",
+            "10/07/2026",
+            "10/07/2026",
+            "15/07/2026",
+            "15/07/2026",
+            "15/07/2026",
+            "15/07/2026",
+            "30/07/2026",
+            "30/07/2026",
+            "30/07/2026"
         ],
         "avgDurMin": 0
     },
@@ -649,37 +702,38 @@ const users = [
         "avgScore": 0.0,
         "skills": {
             "Escuta": 0.0,
+            "Personalizacao": 0.0,
             "Empatia": 0.0,
             "Crises": 0.0,
-            "Padroes": 0.0,
-            "Personalizacao": 0.0
+            "Padroes": 0.0
         },
         "count": 4,
         "insights": {
             "pt": [
-                "Focar no objetivo principal (agendar reunião).",
-                "Evitar descrever produtos ou preços por telefone.",
-                "Melhorar postura ética e empatia na abertura."
+                "Usuario ainda nao possui simulacoes avaliadas.",
+                "Incentive a realizar simulacoes para gerar analise detalhada."
             ],
             "fr": [
-                "Focar no objetivo principal (agendar reunião).",
-                "Evitar descrever produtos ou preços por telefone.",
-                "Melhorar postura ética e empatia na abertura."
+                "Usuario ainda nao possui simulacoes avaliadas.",
+                "Incentive a realizar simulacoes para gerar analise detalhada."
             ]
         },
         "name": "João Pedro",
-        "agency": "Ápice",
-        "region": "Norte",
-        "lqaScore": 50.0,
+        "agency": "Outros",
+        "region": "Outros",
+        "lqaScore": 0.0,
         "languages": [
             "PT"
         ],
         "improvement": {
-            "pt": "Iniciar as simulações",
-            "fr": "Commencer les simulations"
+            "pt": "Continuar praticando e trabalhando os pontos de melhoria identificados.",
+            "fr": "Continuer a pratiquer et travailler les points d amelioration identifies."
         },
         "dates": [
-            "2026-07-02"
+            "02/07/2026",
+            "02/07/2026",
+            "02/07/2026",
+            "02/07/2026"
         ],
         "avgDurMin": 1
     },
@@ -688,32 +742,32 @@ const users = [
         "avgScore": 0.0,
         "skills": {
             "Escuta": 0.0,
+            "Personalizacao": 0.0,
             "Empatia": 0.0,
             "Crises": 0.0,
-            "Padroes": 0.0,
-            "Personalizacao": 0.0
+            "Padroes": 0.0
         },
         "count": 0,
         "insights": {
             "pt": [
-                "Focar no objetivo principal (agendar reunião).",
-                "Evitar descrever produtos ou preços por telefone.",
-                "Melhorar postura ética e empatia na abertura."
+                "Usuario ainda nao possui simulacoes avaliadas.",
+                "Incentive a realizar simulacoes para gerar analise detalhada."
             ],
             "fr": [
-                "Focar no objetivo principal (agendar reunião).",
-                "Evitar descrever produtos ou preços por telefone.",
-                "Melhorar postura ética e empatia na abertura."
+                "Usuario ainda nao possui simulacoes avaliadas.",
+                "Incentive a realizar simulacoes para gerar analise detalhada."
             ]
         },
         "name": "Parceiro Geracao0a3",
-        "agency": "Geração",
-        "region": "Centro-Oeste",
+        "agency": "Outros",
+        "region": "Outros",
         "lqaScore": 0.0,
-        "languages": [],
+        "languages": [
+            "PT"
+        ],
         "improvement": {
-            "pt": "Iniciar as simulações",
-            "fr": "Commencer les simulations"
+            "pt": "Continuar praticando e trabalhando os pontos de melhoria identificados.",
+            "fr": "Continuer a pratiquer et travailler les points d amelioration identifies."
         },
         "dates": [],
         "avgDurMin": 0
@@ -722,47 +776,47 @@ const users = [
         "avgDurSec": 38,
         "avgScore": 51.0,
         "skills": {
-            "Escuta": 57.5,
-            "Empatia": 65.0,
-            "Crises": 65.0,
-            "Padroes": 65.0,
-            "Personalizacao": 72.5
+            "Escuta": 51.5,
+            "Personalizacao": 56.0,
+            "Empatia": 52.0,
+            "Crises": 47.0,
+            "Padroes": 67.0
         },
         "count": 6,
         "insights": {
             "pt": [
-                "Trouxe exemplos concretos de situações familiares e sucessão, conectando seu discurso à realidade do prospect.",
-                "Afirmou o diferencial prático do produto (pagamento rápido, sem inventário), alinhado ao interesse do perfil Vermelho.",
-                "Demonstrou disposição para adaptar soluções à situação do cliente, oferecendo comparações e opções.",
-                "Utilizou vocabulário acessível, sem jargões técnicos, conversando de igual para igual.",
-                "Ausência de pedido de autorização no início; não respeitou a barreira de privacidade do prospect.",
-                "Faltou ativar recomendação: não utilizou o nome do Paulo para criar vínculo inicial, minando confiança no contato."
+                "“Seu João, Paulo comentou que o senhor é direto: posso ser objetiva e te explicar em dez minutos ao vivo?”",
+                "“Só para agendar com você: fica melhor amanhã ou depois de amanhã, no mesmo horário?”",
+                "“Prometo que na reunião você decide sem pressão: posso te apresentar opções claras e sem compromisso.”",
+                "“Você prefere conversar presencialmente aqui em Petrolina ou por ligação de vídeo?”",
+                "“Posso confirmar então, terça-feira às dez, aqui na fazenda?”"
             ],
             "fr": [
-                "Trouxe exemplos concretos de situações familiares e sucessão, conectando seu discurso à realidade do prospect.",
-                "Afirmou o diferencial prático do produto (pagamento rápido, sem inventário), alinhado ao interesse do perfil Vermelho.",
-                "Demonstrou disposição para adaptar soluções à situação do cliente, oferecendo comparações e opções.",
-                "Utilizou vocabulário acessível, sem jargões técnicos, conversando de igual para igual.",
-                "Ausência de pedido de autorização no início; não respeitou a barreira de privacidade do prospect.",
-                "Faltou ativar recomendação: não utilizou o nome do Paulo para criar vínculo inicial, minando confiança no contato."
+                "“Seu João, Paulo comentou que o senhor é direto: posso ser objetiva e te explicar em dez minutos ao vivo?”",
+                "“Só para agendar com você: fica melhor amanhã ou depois de amanhã, no mesmo horário?”",
+                "“Prometo que na reunião você decide sem pressão: posso te apresentar opções claras e sem compromisso.”",
+                "“Você prefere conversar presencialmente aqui em Petrolina ou por ligação de vídeo?”",
+                "“Posso confirmar então, terça-feira às dez, aqui na fazenda?”"
             ]
         },
         "name": "Michele Geracao12a24",
-        "agency": "Geração",
-        "region": "Centro-Oeste",
-        "lqaScore": 100.0,
+        "agency": "Outros",
+        "region": "Outros",
+        "lqaScore": 0.0,
         "languages": [
-            "EN",
             "PT"
         ],
         "improvement": {
-            "pt": "Melhorar gestão de objeções",
-            "fr": "Améliorer la gestion des objections"
+            "pt": "Continuar praticando e trabalhando os pontos de melhoria identificados.",
+            "fr": "Continuer a pratiquer et travailler les points d amelioration identifies."
         },
         "dates": [
-            "2026-07-06",
-            "2026-07-07",
-            "2026-07-16"
+            "07/07/2026",
+            "07/07/2026",
+            "06/07/2026",
+            "16/07/2026",
+            "16/07/2026",
+            "16/07/2026"
         ],
         "avgDurMin": 0
     },
@@ -771,90 +825,96 @@ const users = [
         "avgScore": 0.0,
         "skills": {
             "Escuta": 0.0,
+            "Personalizacao": 0.0,
             "Empatia": 0.0,
             "Crises": 0.0,
-            "Padroes": 0.0,
-            "Personalizacao": 0.0
+            "Padroes": 0.0
         },
         "count": 5,
         "insights": {
             "pt": [
-                "Focar no objetivo principal (agendar reunião).",
-                "Evitar descrever produtos ou preços por telefone.",
-                "Melhorar postura ética e empatia na abertura."
+                "Usuario ainda nao possui simulacoes avaliadas.",
+                "Incentive a realizar simulacoes para gerar analise detalhada."
             ],
             "fr": [
-                "Focar no objetivo principal (agendar reunião).",
-                "Evitar descrever produtos ou preços por telefone.",
-                "Melhorar postura ética e empatia na abertura."
+                "Usuario ainda nao possui simulacoes avaliadas.",
+                "Incentive a realizar simulacoes para gerar analise detalhada."
             ]
         },
         "name": "Geracao Lu.Parceiro",
-        "agency": "Geração",
-        "region": "Centro-Oeste",
-        "lqaScore": 50.0,
+        "agency": "Outros",
+        "region": "Outros",
+        "lqaScore": 0.0,
         "languages": [
-            "EN",
             "PT"
         ],
         "improvement": {
-            "pt": "Iniciar as simulações",
-            "fr": "Commencer les simulations"
+            "pt": "Continuar praticando e trabalhando os pontos de melhoria identificados.",
+            "fr": "Continuer a pratiquer et travailler les points d amelioration identifies."
         },
         "dates": [
-            "2026-07-02",
-            "2026-07-07"
+            "02/07/2026",
+            "07/07/2026",
+            "07/07/2026",
+            "07/07/2026",
+            "07/07/2026"
         ],
         "avgDurMin": 1
     },
     {
-        "avgDurSec": 29,
-        "avgScore": 63.4,
+        "avgDurSec": 30,
+        "avgScore": 62.6,
         "skills": {
-            "Escuta": 60.7,
-            "Empatia": 62.9,
-            "Crises": 71.4,
-            "Padroes": 58.6,
-            "Personalizacao": 77.9
+            "Escuta": 61.6,
+            "Personalizacao": 75.6,
+            "Empatia": 61.6,
+            "Crises": 65.5,
+            "Padroes": 61.6
         },
-        "count": 15,
+        "count": 17,
         "insights": {
             "pt": [
-                "Sua energia inicial e uso do nome de quem indicou geraram conexão e credibilidade logo de saída.",
-                "O convite direto para reunião, com escolha forçada de datas próximas, foi exemplar para acelerar o fechamento.",
-                "Você lidou positivamente com a objeção de envio de material, explicando a necessidade do encontro personalizado.",
-                "Fez excelente reconfirmação do compromisso, detalhando dia, horário, local e combinando bloqueio de agenda.",
-                "Não houve solicitação clara de autorização antes de explicar como conseguiu o contato, o que pode gerar desconfiança.",
-                "Faltou atuar um quebra-gelo genuíno e pessoal, indo além do nome da “Roberta”, para criar vínculo familiar."
+                "Aqui está o debriefing da nossa troca\n\n🤓 PERSONA\n\nVocê conversou com uma persona relacional, perfil DISC Verde, calorosa e aberta, mas que espera clareza, empatia e ligação com recomendações de confiança.",
+                "🎯 OBJETIVO PRINCIPAL\n\nVocê respondeu às objeções de maneira rápida e precisa, conquistando o acordo para uma reunião presencial.",
+                "O objetivo foi plenamente atingido.",
+                "➕ PONTOS FORTES\n\n- Sua energia inicial e uso do nome de quem indicou geraram conexão e credibilidade logo de saída."
             ],
             "fr": [
-                "Sua energia inicial e uso do nome de quem indicou geraram conexão e credibilidade logo de saída.",
-                "O convite direto para reunião, com escolha forçada de datas próximas, foi exemplar para acelerar o fechamento.",
-                "Você lidou positivamente com a objeção de envio de material, explicando a necessidade do encontro personalizado.",
-                "Fez excelente reconfirmação do compromisso, detalhando dia, horário, local e combinando bloqueio de agenda.",
-                "Não houve solicitação clara de autorização antes de explicar como conseguiu o contato, o que pode gerar desconfiança.",
-                "Faltou atuar um quebra-gelo genuíno e pessoal, indo além do nome da “Roberta”, para criar vínculo familiar."
+                "Aqui está o debriefing da nossa troca\n\n🤓 PERSONA\n\nVocê conversou com uma persona relacional, perfil DISC Verde, calorosa e aberta, mas que espera clareza, empatia e ligação com recomendações de confiança.",
+                "🎯 OBJETIVO PRINCIPAL\n\nVocê respondeu às objeções de maneira rápida e precisa, conquistando o acordo para uma reunião presencial.",
+                "O objetivo foi plenamente atingido.",
+                "➕ PONTOS FORTES\n\n- Sua energia inicial e uso do nome de quem indicou geraram conexão e credibilidade logo de saída."
             ]
         },
         "name": "Parceira Ark",
-        "agency": "Ark",
-        "region": "Nordeste",
-        "lqaScore": 100.0,
+        "agency": "Outros",
+        "region": "Outros",
+        "lqaScore": 0.0,
         "languages": [
-            "EN",
             "PT"
         ],
         "improvement": {
-            "pt": "Aperfeiçoar técnica de fechamento",
-            "fr": "Perfectionner la technique de closing"
+            "pt": "Continuar praticando e trabalhando os pontos de melhoria identificados.",
+            "fr": "Continuer a pratiquer et travailler les points d amelioration identifies."
         },
         "dates": [
-            "2026-07-07",
-            "2026-07-08",
-            "2026-07-10",
-            "2026-07-13",
-            "2026-07-14",
-            "2026-07-28"
+            "07/07/2026",
+            "08/07/2026",
+            "08/07/2026",
+            "08/07/2026",
+            "10/07/2026",
+            "13/07/2026",
+            "13/07/2026",
+            "13/07/2026",
+            "14/07/2026",
+            "14/07/2026",
+            "28/07/2026",
+            "28/07/2026",
+            "28/07/2026",
+            "28/07/2026",
+            "28/07/2026",
+            "30/07/2026",
+            "30/07/2026"
         ],
         "avgDurMin": 1
     },
@@ -862,46 +922,41 @@ const users = [
         "avgDurSec": 19,
         "avgScore": 67.3,
         "skills": {
-            "Escuta": 65.0,
-            "Empatia": 65.0,
-            "Crises": 70.0,
-            "Padroes": 65.0,
-            "Personalizacao": 80.0
+            "Escuta": 62.3,
+            "Personalizacao": 79.7,
+            "Empatia": 66.3,
+            "Crises": 71.7,
+            "Padroes": 74.3
         },
         "count": 4,
         "insights": {
             "pt": [
-                "Realizou uma apresentação simpática, deixando clara a recomendação (Ricardo) logo no início.",
-                "Utilizou termos de inovação, personalização e tecnologia, adequando-se ao perfil digital do prospect.",
-                "Explicou os benefícios da reunião e valorizou o encontro presencial para maior personalização.",
-                "Proposta concreta de agenda com escolha forçada em datas próximas, facilitando o fechamento.",
-                "Faltou solicitar autorização explícita para seguir a conversa, podendo dar mais controle ao prospect no início.",
-                "Utilizou excesso de palavras e hesitações, com frases trêmulas e repetitivas (“me co-comentou”, “e-e”, “do-do-do”), impactando a fluidez."
+                "Aqui está o debriefing da nossa troca.",
+                "🤓 PERSONA\n\nJovem executiva de tecnologia, perfil DISC predominantemente amarelo, digital-native, investigativa, desconfiada e focada em valor prático.",
+                "🎯 OBJETIVO PRINCIPAL\n\nVocê conseguiu contornar objeções iniciais e formalizar uma reunião de descoberta com dia, hora e modalidade."
             ],
             "fr": [
-                "Realizou uma apresentação simpática, deixando clara a recomendação (Ricardo) logo no início.",
-                "Utilizou termos de inovação, personalização e tecnologia, adequando-se ao perfil digital do prospect.",
-                "Explicou os benefícios da reunião e valorizou o encontro presencial para maior personalização.",
-                "Proposta concreta de agenda com escolha forçada em datas próximas, facilitando o fechamento.",
-                "Faltou solicitar autorização explícita para seguir a conversa, podendo dar mais controle ao prospect no início.",
-                "Utilizou excesso de palavras e hesitações, com frases trêmulas e repetitivas (“me co-comentou”, “e-e”, “do-do-do”), impactando a fluidez."
+                "Aqui está o debriefing da nossa troca.",
+                "🤓 PERSONA\n\nJovem executiva de tecnologia, perfil DISC predominantemente amarelo, digital-native, investigativa, desconfiada e focada em valor prático.",
+                "🎯 OBJETIVO PRINCIPAL\n\nVocê conseguiu contornar objeções iniciais e formalizar uma reunião de descoberta com dia, hora e modalidade."
             ]
         },
         "name": "Ark Parceiro",
-        "agency": "Ark",
-        "region": "Nordeste",
-        "lqaScore": 50.0,
+        "agency": "Outros",
+        "region": "Outros",
+        "lqaScore": 100.0,
         "languages": [
-            "EN",
             "PT"
         ],
         "improvement": {
-            "pt": "Aperfeiçoar técnica de fechamento",
-            "fr": "Perfectionner la technique de closing"
+            "pt": "Continuar praticando e trabalhando os pontos de melhoria identificados.",
+            "fr": "Continuer a pratiquer et travailler les points d amelioration identifies."
         },
         "dates": [
-            "2026-07-09",
-            "2026-07-10"
+            "09/07/2026",
+            "09/07/2026",
+            "09/07/2026",
+            "10/07/2026"
         ],
         "avgDurMin": 1
     },
@@ -909,47 +964,108 @@ const users = [
         "avgDurSec": 29,
         "avgScore": 36.2,
         "skills": {
-            "Escuta": 54.6,
-            "Empatia": 52.3,
-            "Crises": 61.5,
-            "Padroes": 63.8,
-            "Personalizacao": 63.8
+            "Escuta": 40.4,
+            "Personalizacao": 42.3,
+            "Empatia": 41.5,
+            "Crises": 38.4,
+            "Padroes": 41.4
         },
         "count": 69,
         "insights": {
             "pt": [
-                "Focar no objetivo principal (agendar reunião).",
-                "Evitar descrever produtos ou preços por telefone.",
-                "Melhorar postura ética e empatia na abertura."
+                "Aqui está o debriefing de nosso intercâmbio.",
+                "### 🎯 PERSONA\n\nVocê conversou com Fernanda, dentista liberal, trinta e oito anos, perfil DISC verde predominante: pragmática, cuidadosa com compromissos, busca segurança para a família, questionadora sobre detalhes.",
+                "### 🌟 OBJECTIVO PRINCIPAL\n\nO objetivo era superar objeções iniciais e conseguir um agendamento claro para reunião MetLife.",
+                "O objetivo não foi atingido."
             ],
             "fr": [
-                "Focar no objetivo principal (agendar reunião).",
-                "Evitar descrever produtos ou preços por telefone.",
-                "Melhorar postura ética e empatia na abertura."
+                "Aqui está o debriefing de nosso intercâmbio.",
+                "### 🎯 PERSONA\n\nVocê conversou com Fernanda, dentista liberal, trinta e oito anos, perfil DISC verde predominante: pragmática, cuidadosa com compromissos, busca segurança para a família, questionadora sobre detalhes.",
+                "### 🌟 OBJECTIVO PRINCIPAL\n\nO objetivo era superar objeções iniciais e conseguir um agendamento claro para reunião MetLife.",
+                "O objetivo não foi atingido."
             ]
         },
         "name": "Sophie Géraud",
-        "agency": "rhapsody",
+        "agency": "Outros",
         "region": "Outros",
-        "lqaScore": 100.0,
+        "lqaScore": 70.0,
         "languages": [
-            "FR",
-            "PT"
+            "FR"
         ],
         "improvement": {
-            "pt": "Trabalhar estrutura básica da ligação",
-            "fr": "Travailler la structure de base"
+            "pt": "Continuar praticando e trabalhando os pontos de melhoria identificados.",
+            "fr": "Continuer a pratiquer et travailler les points d amelioration identifies."
         },
         "dates": [
-            "2026-05-06",
-            "2026-05-12",
-            "2026-05-13",
-            "2026-07-02",
-            "2026-07-10",
-            "2026-07-13",
-            "2026-07-14",
-            "2026-07-16",
-            "2026-07-28"
+            "06/05/2026",
+            "06/05/2026",
+            "06/05/2026",
+            "06/05/2026",
+            "06/05/2026",
+            "06/05/2026",
+            "12/05/2026",
+            "12/05/2026",
+            "12/05/2026",
+            "12/05/2026",
+            "12/05/2026",
+            "12/05/2026",
+            "12/05/2026",
+            "12/05/2026",
+            "12/05/2026",
+            "12/05/2026",
+            "12/05/2026",
+            "12/05/2026",
+            "12/05/2026",
+            "12/05/2026",
+            "12/05/2026",
+            "12/05/2026",
+            "13/05/2026",
+            "13/05/2026",
+            "13/05/2026",
+            "02/07/2026",
+            "02/07/2026",
+            "02/07/2026",
+            "02/07/2026",
+            "02/07/2026",
+            "02/07/2026",
+            "02/07/2026",
+            "10/07/2026",
+            "10/07/2026",
+            "10/07/2026",
+            "10/07/2026",
+            "10/07/2026",
+            "10/07/2026",
+            "10/07/2026",
+            "10/07/2026",
+            "10/07/2026",
+            "10/07/2026",
+            "10/07/2026",
+            "10/07/2026",
+            "10/07/2026",
+            "13/07/2026",
+            "13/07/2026",
+            "13/07/2026",
+            "13/07/2026",
+            "14/07/2026",
+            "16/07/2026",
+            "16/07/2026",
+            "16/07/2026",
+            "16/07/2026",
+            "16/07/2026",
+            "16/07/2026",
+            "16/07/2026",
+            "16/07/2026",
+            "16/07/2026",
+            "16/07/2026",
+            "16/07/2026",
+            "16/07/2026",
+            "16/07/2026",
+            "16/07/2026",
+            "16/07/2026",
+            "16/07/2026",
+            "16/07/2026",
+            "28/07/2026",
+            "28/07/2026"
         ],
         "avgDurMin": 0
     },
@@ -957,94 +1073,116 @@ const users = [
         "avgDurSec": 25,
         "avgScore": 46.5,
         "skills": {
-            "Escuta": 57.5,
-            "Empatia": 50.0,
-            "Crises": 87.5,
-            "Padroes": 65.0,
-            "Personalizacao": 72.5
+            "Escuta": 42.5,
+            "Personalizacao": 46.5,
+            "Empatia": 55.0,
+            "Crises": 58.0,
+            "Padroes": 42.0
         },
         "count": 5,
         "insights": {
             "pt": [
-                "Focar no objetivo principal (agendar reunião).",
-                "Evitar descrever produtos ou preços por telefone.",
-                "Melhorar postura ética e empatia na abertura.",
-                "Demonstrou cordialidade e manteve tom amigável durante todo o contato.",
-                "Fez tentativa de propor um agendamento, mostrando postura ativa, ainda que pouco estruturada.",
-                "Mostrou predisposição em detalhar posteriormente a proposta, sinalizando disponibilidade."
+                "Aqui está o debriefing de nossa conversa.",
+                "### 🤓 PERSONA\n\nJovem executiva de tecnologia, perfil DISC predominantemente amarelo: curiosa, digital, independente, busca autonomia e clareza.",
+                "🎯 OBJETIVO PRINCIPAL\n\nO objetivo era vencer a objeção, evitando o envio de documentos genéricos e agendando uma reunião.",
+                "O objetivo foi parcialmente atingido, pois faltaram argumentação e estrutura para convencer."
             ],
             "fr": [
-                "Focar no objetivo principal (agendar reunião).",
-                "Evitar descrever produtos ou preços por telefone.",
-                "Melhorar postura ética e empatia na abertura.",
-                "Demonstrou cordialidade e manteve tom amigável durante todo o contato.",
-                "Fez tentativa de propor um agendamento, mostrando postura ativa, ainda que pouco estruturada.",
-                "Mostrou predisposição em detalhar posteriormente a proposta, sinalizando disponibilidade."
+                "Aqui está o debriefing de nossa conversa.",
+                "### 🤓 PERSONA\n\nJovem executiva de tecnologia, perfil DISC predominantemente amarelo: curiosa, digital, independente, busca autonomia e clareza.",
+                "🎯 OBJETIVO PRINCIPAL\n\nO objetivo era vencer a objeção, evitando o envio de documentos genéricos e agendando uma reunião.",
+                "O objetivo foi parcialmente atingido, pois faltaram argumentação e estrutura para convencer."
             ]
         },
         "name": "GerenteSp Parceira",
         "agency": "Outros",
-        "region": "Sudeste",
-        "lqaScore": 50.0,
+        "region": "Outros",
+        "lqaScore": 0.0,
         "languages": [
             "PT"
         ],
         "improvement": {
-            "pt": "Melhorar gestão de objeções",
-            "fr": "Améliorer la gestion des objections"
+            "pt": "Continuar praticando e trabalhando os pontos de melhoria identificados.",
+            "fr": "Continuer a pratiquer et travailler les points d amelioration identifies."
         },
         "dates": [
-            "2026-07-02",
-            "2026-07-06",
-            "2026-07-17"
+            "02/07/2026",
+            "06/07/2026",
+            "17/07/2026",
+            "17/07/2026",
+            "17/07/2026"
         ],
         "avgDurMin": 0
     },
     {
-        "avgDurSec": 58,
-        "avgScore": 70.0,
+        "avgDurSec": 52,
+        "avgScore": 66.5,
         "skills": {
-            "Escuta": 62.3,
-            "Empatia": 65.0,
-            "Crises": 75.9,
-            "Padroes": 58.2,
-            "Personalizacao": 77.3
+            "Escuta": 67.7,
+            "Personalizacao": 74.1,
+            "Empatia": 68.0,
+            "Crises": 67.6,
+            "Padroes": 70.6
         },
-        "count": 26,
+        "count": 30,
         "insights": {
             "pt": [
-                "Você utilizou de forma enfática a recomendação do Pedro como gatilho de confiança e aproximação.",
-                "Propôs escolha forçada para o café, mantendo o foco no agendamento, sem fugir do roteiro.",
-                "Argumentou bem o valor da reunião, destacando o caráter consultivo e personalizado da abordagem.",
-                "Manteve postura acolhedora e respeitosa, valorizando o tempo do prospect e facilitando o acordo.",
                 "**Ausência de autorização explícita**",
-                "Algumas justificativas e repetições tornaram a abordagem menos direta, podendo cansar um prospect vermelho."
+                "“Posso te explicar rapidinho, pode ser?”",
+                "“Pedro viu muito valor em te conectar comigo, posso compartilhar o porquê em vinte segundos?”",
+                "“Respeitando seu tempo, proponho terça ou quinta, qual encaixa melhor?”",
+                "“Quero entender seu cenário para montar algo útil e específico para você.”"
             ],
             "fr": [
-                "Você utilizou de forma enfática a recomendação do Pedro como gatilho de confiança e aproximação.",
-                "Propôs escolha forçada para o café, mantendo o foco no agendamento, sem fugir do roteiro.",
-                "Argumentou bem o valor da reunião, destacando o caráter consultivo e personalizado da abordagem.",
-                "Manteve postura acolhedora e respeitosa, valorizando o tempo do prospect e facilitando o acordo.",
                 "**Ausência de autorização explícita**",
-                "Algumas justificativas e repetições tornaram a abordagem menos direta, podendo cansar um prospect vermelho."
+                "“Posso te explicar rapidinho, pode ser?”",
+                "“Pedro viu muito valor em te conectar comigo, posso compartilhar o porquê em vinte segundos?”",
+                "“Respeitando seu tempo, proponho terça ou quinta, qual encaixa melhor?”",
+                "“Quero entender seu cenário para montar algo útil e específico para você.”"
             ]
         },
         "name": "Parceiro Rivorio3a12",
-        "agency": "Rivório",
-        "region": "Nordeste",
-        "lqaScore": 100.0,
+        "agency": "Outros",
+        "region": "Outros",
+        "lqaScore": 88.0,
         "languages": [
-            "EN",
             "PT"
         ],
         "improvement": {
-            "pt": "Consolidar excelência e constância",
-            "fr": "Consolider l'excellence et la constance"
+            "pt": "Continuar praticando e trabalhando os pontos de melhoria identificados.",
+            "fr": "Continuer a pratiquer et travailler les points d amelioration identifies."
         },
         "dates": [
-            "2026-07-10",
-            "2026-07-14",
-            "2026-07-23"
+            "10/07/2026",
+            "10/07/2026",
+            "10/07/2026",
+            "10/07/2026",
+            "10/07/2026",
+            "10/07/2026",
+            "10/07/2026",
+            "14/07/2026",
+            "14/07/2026",
+            "23/07/2026",
+            "23/07/2026",
+            "23/07/2026",
+            "23/07/2026",
+            "23/07/2026",
+            "23/07/2026",
+            "23/07/2026",
+            "23/07/2026",
+            "23/07/2026",
+            "23/07/2026",
+            "23/07/2026",
+            "23/07/2026",
+            "23/07/2026",
+            "23/07/2026",
+            "23/07/2026",
+            "23/07/2026",
+            "23/07/2026",
+            "30/07/2026",
+            "30/07/2026",
+            "30/07/2026",
+            "30/07/2026"
         ],
         "avgDurMin": 1
     },
@@ -1053,32 +1191,32 @@ const users = [
         "avgScore": 0.0,
         "skills": {
             "Escuta": 0.0,
+            "Personalizacao": 0.0,
             "Empatia": 0.0,
             "Crises": 0.0,
-            "Padroes": 0.0,
-            "Personalizacao": 0.0
+            "Padroes": 0.0
         },
         "count": 0,
         "insights": {
             "pt": [
-                "Focar no objetivo principal (agendar reunião).",
-                "Evitar descrever produtos ou preços por telefone.",
-                "Melhorar postura ética e empatia na abertura."
+                "Usuario ainda nao possui simulacoes avaliadas.",
+                "Incentive a realizar simulacoes para gerar analise detalhada."
             ],
             "fr": [
-                "Focar no objetivo principal (agendar reunião).",
-                "Evitar descrever produtos ou preços por telefone.",
-                "Melhorar postura ética e empatia na abertura."
+                "Usuario ainda nao possui simulacoes avaliadas.",
+                "Incentive a realizar simulacoes para gerar analise detalhada."
             ]
         },
         "name": "parceiro inside0a3",
-        "agency": "Inside",
-        "region": "Sudeste",
+        "agency": "Outros",
+        "region": "Outros",
         "lqaScore": 0.0,
-        "languages": [],
+        "languages": [
+            "PT"
+        ],
         "improvement": {
-            "pt": "Iniciar as simulações",
-            "fr": "Commencer les simulations"
+            "pt": "Continuar praticando e trabalhando os pontos de melhoria identificados.",
+            "fr": "Continuer a pratiquer et travailler les points d amelioration identifies."
         },
         "dates": [],
         "avgDurMin": 0
@@ -1088,32 +1226,32 @@ const users = [
         "avgScore": 0.0,
         "skills": {
             "Escuta": 0.0,
+            "Personalizacao": 0.0,
             "Empatia": 0.0,
             "Crises": 0.0,
-            "Padroes": 0.0,
-            "Personalizacao": 0.0
+            "Padroes": 0.0
         },
         "count": 0,
         "insights": {
             "pt": [
-                "Focar no objetivo principal (agendar reunião).",
-                "Evitar descrever produtos ou preços por telefone.",
-                "Melhorar postura ética e empatia na abertura."
+                "Usuario ainda nao possui simulacoes avaliadas.",
+                "Incentive a realizar simulacoes para gerar analise detalhada."
             ],
             "fr": [
-                "Focar no objetivo principal (agendar reunião).",
-                "Evitar descrever produtos ou preços por telefone.",
-                "Melhorar postura ética e empatia na abertura."
+                "Usuario ainda nao possui simulacoes avaliadas.",
+                "Incentive a realizar simulacoes para gerar analise detalhada."
             ]
         },
         "name": "Parceiro Geracao24mais",
-        "agency": "Geração",
-        "region": "Centro-Oeste",
+        "agency": "Outros",
+        "region": "Outros",
         "lqaScore": 0.0,
-        "languages": [],
+        "languages": [
+            "PT"
+        ],
         "improvement": {
-            "pt": "Iniciar as simulações",
-            "fr": "Commencer les simulations"
+            "pt": "Continuar praticando e trabalhando os pontos de melhoria identificados.",
+            "fr": "Continuer a pratiquer et travailler les points d amelioration identifies."
         },
         "dates": [],
         "avgDurMin": 0
@@ -1123,32 +1261,32 @@ const users = [
         "avgScore": 0.0,
         "skills": {
             "Escuta": 0.0,
+            "Personalizacao": 0.0,
             "Empatia": 0.0,
             "Crises": 0.0,
-            "Padroes": 0.0,
-            "Personalizacao": 0.0
+            "Padroes": 0.0
         },
         "count": 0,
         "insights": {
             "pt": [
-                "Focar no objetivo principal (agendar reunião).",
-                "Evitar descrever produtos ou preços por telefone.",
-                "Melhorar postura ética e empatia na abertura."
+                "Usuario ainda nao possui simulacoes avaliadas.",
+                "Incentive a realizar simulacoes para gerar analise detalhada."
             ],
             "fr": [
-                "Focar no objetivo principal (agendar reunião).",
-                "Evitar descrever produtos ou preços por telefone.",
-                "Melhorar postura ética e empatia na abertura."
+                "Usuario ainda nao possui simulacoes avaliadas.",
+                "Incentive a realizar simulacoes para gerar analise detalhada."
             ]
         },
         "name": "Gorilla Parceiro3a12",
-        "agency": "Gorilla",
-        "region": "Sul",
+        "agency": "Outros",
+        "region": "Outros",
         "lqaScore": 0.0,
-        "languages": [],
+        "languages": [
+            "FR"
+        ],
         "improvement": {
-            "pt": "Iniciar as simulações",
-            "fr": "Commencer les simulations"
+            "pt": "Continuar praticando e trabalhando os pontos de melhoria identificados.",
+            "fr": "Continuer a pratiquer et travailler les points d amelioration identifies."
         },
         "dates": [],
         "avgDurMin": 0
@@ -1158,32 +1296,32 @@ const users = [
         "avgScore": 0.0,
         "skills": {
             "Escuta": 0.0,
+            "Personalizacao": 0.0,
             "Empatia": 0.0,
             "Crises": 0.0,
-            "Padroes": 0.0,
-            "Personalizacao": 0.0
+            "Padroes": 0.0
         },
         "count": 0,
         "insights": {
             "pt": [
-                "Focar no objetivo principal (agendar reunião).",
-                "Evitar descrever produtos ou preços por telefone.",
-                "Melhorar postura ética e empatia na abertura."
+                "Usuario ainda nao possui simulacoes avaliadas.",
+                "Incentive a realizar simulacoes para gerar analise detalhada."
             ],
             "fr": [
-                "Focar no objetivo principal (agendar reunião).",
-                "Evitar descrever produtos ou preços por telefone.",
-                "Melhorar postura ética e empatia na abertura."
+                "Usuario ainda nao possui simulacoes avaliadas.",
+                "Incentive a realizar simulacoes para gerar analise detalhada."
             ]
         },
         "name": "Apice Lu.2026",
-        "agency": "Ápice",
-        "region": "Norte",
+        "agency": "Outros",
+        "region": "Outros",
         "lqaScore": 0.0,
-        "languages": [],
+        "languages": [
+            "FR"
+        ],
         "improvement": {
-            "pt": "Iniciar as simulações",
-            "fr": "Commencer les simulations"
+            "pt": "Continuar praticando e trabalhando os pontos de melhoria identificados.",
+            "fr": "Continuer a pratiquer et travailler les points d amelioration identifies."
         },
         "dates": [],
         "avgDurMin": 0
@@ -1193,90 +1331,134 @@ const users = [
         "avgScore": 0.0,
         "skills": {
             "Escuta": 0.0,
+            "Personalizacao": 0.0,
             "Empatia": 0.0,
             "Crises": 0.0,
-            "Padroes": 0.0,
-            "Personalizacao": 0.0
+            "Padroes": 0.0
         },
         "count": 5,
         "insights": {
             "pt": [
-                "Focar no objetivo principal (agendar reunião).",
-                "Evitar descrever produtos ou preços por telefone.",
-                "Melhorar postura ética e empatia na abertura."
+                "Usuario ainda nao possui simulacoes avaliadas.",
+                "Incentive a realizar simulacoes para gerar analise detalhada."
             ],
             "fr": [
-                "Focar no objetivo principal (agendar reunião).",
-                "Evitar descrever produtos ou preços por telefone.",
-                "Melhorar postura ética e empatia na abertura."
+                "Usuario ainda nao possui simulacoes avaliadas.",
+                "Incentive a realizar simulacoes para gerar analise detalhada."
             ]
         },
         "name": "Parceiro Luark",
-        "agency": "Ark",
-        "region": "Nordeste",
-        "lqaScore": 50.0,
+        "agency": "Outros",
+        "region": "Outros",
+        "lqaScore": 0.0,
         "languages": [
             "PT"
         ],
         "improvement": {
-            "pt": "Iniciar as simulações",
-            "fr": "Commencer les simulations"
+            "pt": "Continuar praticando e trabalhando os pontos de melhoria identificados.",
+            "fr": "Continuer a pratiquer et travailler les points d amelioration identifies."
         },
         "dates": [
-            "2026-07-20"
+            "20/07/2026",
+            "20/07/2026",
+            "20/07/2026",
+            "20/07/2026",
+            "20/07/2026"
         ],
         "avgDurMin": 0
     },
     {
-        "avgDurSec": 34,
-        "avgScore": 59.4,
+        "avgDurSec": 35,
+        "avgScore": 60.4,
         "skills": {
-            "Escuta": 50.0,
-            "Empatia": 57.9,
-            "Crises": 54.4,
-            "Padroes": 54.4,
-            "Personalizacao": 62.4
+            "Escuta": 62.3,
+            "Personalizacao": 55.7,
+            "Empatia": 64.8,
+            "Crises": 59.2,
+            "Padroes": 57.7
         },
-        "count": 52,
+        "count": 55,
         "insights": {
             "pt": [
-                "Houve abertura com elogio à satisfação do cliente e questionamento sobre como ele se sentia após o processo.",
-                "Utilizou linguagem acolhedora e procurou legitimar a satisfação, reforçando o papel consultivo.",
-                "Demonstrou preocupação legítima em respeitar o tempo e o consentimento do cliente antes de abordar terceiros.",
-                "Tentou posicionar a recomendação como gesto de amizade, focando na proteção das pessoas próximas.",
-                "Falta de Estrutura",
-                "Pedido Genérico"
+                "Voici le débriefing de notre échange\n\n🤓 PERSONA \n\nCadre supérieur bancaire, analytique, rouge DISC, exigeant et rationnel, habitué à challenger les commerciaux sur la technique.",
+                "🎯 OBJECTIF PRINCIPAL\n\nGlobalement, tu as répondu de façon argumentée aux objections et préservé la relation, mais tu n’as pas véritablement clos sur un créneau précis.",
+                "L’objectif est donc partiellement atteint.",
+                "➕ Points forts \n\n- Bonne utilisation du levier de personnalisation pour justifier le refus d’envoyer des documents génériques."
             ],
             "fr": [
-                "Focar no objetivo principal (agendar reunião).",
-                "Evitar descrever produtos ou preços por telefone.",
-                "Melhorar postura ética e empatia na abertura."
+                "Voici le débriefing de notre échange\n\n🤓 PERSONA \n\nCadre supérieur bancaire, analytique, rouge DISC, exigeant et rationnel, habitué à challenger les commerciaux sur la technique.",
+                "🎯 OBJECTIF PRINCIPAL\n\nGlobalement, tu as répondu de façon argumentée aux objections et préservé la relation, mais tu n’as pas véritablement clos sur un créneau précis.",
+                "L’objectif est donc partiellement atteint.",
+                "➕ Points forts \n\n- Bonne utilisation du levier de personnalisation pour justifier le refus d’envoyer des documents génériques."
             ]
         },
         "name": "Philippe Lepeuple",
-        "agency": "rhapsody",
+        "agency": "Outros",
         "region": "Outros",
-        "lqaScore": 100.0,
+        "lqaScore": 0.0,
         "languages": [
-            "FR",
-            "PT"
+            "FR"
         ],
         "improvement": {
-            "pt": "Aperfeiçoar técnica de fechamento",
-            "fr": "Perfectionner la technique de closing"
+            "pt": "Continuar praticando e trabalhando os pontos de melhoria identificados.",
+            "fr": "Continuer a pratiquer et travailler les points d amelioration identifies."
         },
         "dates": [
-            "2026-04-29",
-            "2026-05-13",
-            "2026-06-18",
-            "2026-06-19",
-            "2026-06-29",
-            "2026-06-30",
-            "2026-07-01",
-            "2026-07-02",
-            "2026-07-10",
-            "2026-07-24",
-            "2026-07-27"
+            "29/04/2026",
+            "29/04/2026",
+            "13/05/2026",
+            "13/05/2026",
+            "13/05/2026",
+            "13/05/2026",
+            "13/05/2026",
+            "13/05/2026",
+            "18/06/2026",
+            "18/06/2026",
+            "19/06/2026",
+            "29/06/2026",
+            "29/06/2026",
+            "29/06/2026",
+            "29/06/2026",
+            "29/06/2026",
+            "29/06/2026",
+            "30/06/2026",
+            "30/06/2026",
+            "30/06/2026",
+            "30/06/2026",
+            "30/06/2026",
+            "30/06/2026",
+            "01/07/2026",
+            "01/07/2026",
+            "01/07/2026",
+            "01/07/2026",
+            "01/07/2026",
+            "02/07/2026",
+            "02/07/2026",
+            "02/07/2026",
+            "02/07/2026",
+            "02/07/2026",
+            "02/07/2026",
+            "02/07/2026",
+            "02/07/2026",
+            "02/07/2026",
+            "02/07/2026",
+            "02/07/2026",
+            "02/07/2026",
+            "10/07/2026",
+            "10/07/2026",
+            "10/07/2026",
+            "10/07/2026",
+            "10/07/2026",
+            "10/07/2026",
+            "10/07/2026",
+            "10/07/2026",
+            "10/07/2026",
+            "10/07/2026",
+            "24/07/2026",
+            "27/07/2026",
+            "29/07/2026",
+            "30/07/2026",
+            "30/07/2026"
         ],
         "avgDurMin": 1
     },
@@ -1285,32 +1467,32 @@ const users = [
         "avgScore": 0.0,
         "skills": {
             "Escuta": 0.0,
+            "Personalizacao": 0.0,
             "Empatia": 0.0,
             "Crises": 0.0,
-            "Padroes": 0.0,
-            "Personalizacao": 0.0
+            "Padroes": 0.0
         },
         "count": 0,
         "insights": {
             "pt": [
-                "Focar no objetivo principal (agendar reunião).",
-                "Evitar descrever produtos ou preços por telefone.",
-                "Melhorar postura ética e empatia na abertura."
+                "Usuario ainda nao possui simulacoes avaliadas.",
+                "Incentive a realizar simulacoes para gerar analise detalhada."
             ],
             "fr": [
-                "Focar no objetivo principal (agendar reunião).",
-                "Evitar descrever produtos ou preços por telefone.",
-                "Melhorar postura ética e empatia na abertura."
+                "Usuario ainda nao possui simulacoes avaliadas.",
+                "Incentive a realizar simulacoes para gerar analise detalhada."
             ]
         },
         "name": "Tom Landes",
-        "agency": "rhapsody",
+        "agency": "Outros",
         "region": "Outros",
         "lqaScore": 0.0,
-        "languages": [],
+        "languages": [
+            "FR"
+        ],
         "improvement": {
-            "pt": "Iniciar as simulações",
-            "fr": "Commencer les simulations"
+            "pt": "Continuar praticando e trabalhando os pontos de melhoria identificados.",
+            "fr": "Continuer a pratiquer et travailler les points d amelioration identifies."
         },
         "dates": [],
         "avgDurMin": 0
@@ -1319,62 +1501,114 @@ const users = [
         "avgDurSec": 31,
         "avgScore": 57.7,
         "skills": {
-            "Escuta": 63.3,
-            "Empatia": 65.0,
-            "Crises": 75.8,
-            "Padroes": 70.0,
-            "Personalizacao": 76.7
+            "Escuta": 61.0,
+            "Personalizacao": 66.7,
+            "Empatia": 62.8,
+            "Crises": 62.3,
+            "Padroes": 62.8
         },
         "count": 75,
         "insights": {
             "pt": [
-                "O nome do cliente em comum foi utilizado de maneira consistente, trazendo associação de confiança indireta.",
-                "O pitch inicial foi breve e buscou criar conexão ao mencionar o perfil e os planos do prospect.",
-                "O objetivo de propor a reunião foi repetido e houve menção clara do benefício desse encontro.",
                 "**Falta de pedido de autorização explícito**",
                 "**Quebra-gelo e recomendação pessoal pouco explorada**",
-                "**Tentativa precoce de venda e uso de linguagem muito comercial**"
+                "**Tentativa precoce de venda e uso de linguagem muito comercial**",
+                "**Ausência de escolha forçada na agenda**"
             ],
             "fr": [
-                "O nome do cliente em comum foi utilizado de maneira consistente, trazendo associação de confiança indireta.",
-                "O pitch inicial foi breve e buscou criar conexão ao mencionar o perfil e os planos do prospect.",
-                "O objetivo de propor a reunião foi repetido e houve menção clara do benefício desse encontro.",
                 "**Falta de pedido de autorização explícito**",
                 "**Quebra-gelo e recomendação pessoal pouco explorada**",
-                "**Tentativa precoce de venda e uso de linguagem muito comercial**"
+                "**Tentativa precoce de venda e uso de linguagem muito comercial**",
+                "**Ausência de escolha forçada na agenda**"
             ]
         },
         "name": "Sabrina Oliveira",
         "agency": "Outros",
         "region": "Outros",
-        "lqaScore": 100.0,
+        "lqaScore": 0.0,
         "languages": [
-            "EN",
             "PT"
         ],
         "improvement": {
-            "pt": "Aperfeiçoar técnica de fechamento",
-            "fr": "Perfectionner la technique de closing"
+            "pt": "Continuar praticando e trabalhando os pontos de melhoria identificados.",
+            "fr": "Continuer a pratiquer et travailler les points d amelioration identifies."
         },
         "dates": [
-            "2026-06-12",
-            "2026-06-15",
-            "2026-06-18",
-            "2026-06-19",
-            "2026-06-23",
-            "2026-06-24",
-            "2026-06-29",
-            "2026-06-30",
-            "2026-07-02",
-            "2026-07-07",
-            "2026-07-08",
-            "2026-07-09",
-            "2026-07-13",
-            "2026-07-16",
-            "2026-07-19",
-            "2026-07-20",
-            "2026-07-21",
-            "2026-07-27"
+            "12/06/2026",
+            "12/06/2026",
+            "15/06/2026",
+            "15/06/2026",
+            "18/06/2026",
+            "19/06/2026",
+            "23/06/2026",
+            "23/06/2026",
+            "23/06/2026",
+            "23/06/2026",
+            "23/06/2026",
+            "23/06/2026",
+            "23/06/2026",
+            "23/06/2026",
+            "23/06/2026",
+            "23/06/2026",
+            "23/06/2026",
+            "23/06/2026",
+            "23/06/2026",
+            "23/06/2026",
+            "23/06/2026",
+            "23/06/2026",
+            "23/06/2026",
+            "23/06/2026",
+            "24/06/2026",
+            "24/06/2026",
+            "29/06/2026",
+            "29/06/2026",
+            "29/06/2026",
+            "29/06/2026",
+            "29/06/2026",
+            "29/06/2026",
+            "29/06/2026",
+            "29/06/2026",
+            "29/06/2026",
+            "29/06/2026",
+            "29/06/2026",
+            "29/06/2026",
+            "29/06/2026",
+            "30/06/2026",
+            "30/06/2026",
+            "30/06/2026",
+            "30/06/2026",
+            "30/06/2026",
+            "02/07/2026",
+            "02/07/2026",
+            "07/07/2026",
+            "07/07/2026",
+            "08/07/2026",
+            "08/07/2026",
+            "09/07/2026",
+            "13/07/2026",
+            "13/07/2026",
+            "13/07/2026",
+            "13/07/2026",
+            "16/07/2026",
+            "16/07/2026",
+            "16/07/2026",
+            "16/07/2026",
+            "16/07/2026",
+            "19/07/2026",
+            "19/07/2026",
+            "19/07/2026",
+            "19/07/2026",
+            "20/07/2026",
+            "20/07/2026",
+            "20/07/2026",
+            "20/07/2026",
+            "20/07/2026",
+            "20/07/2026",
+            "21/07/2026",
+            "27/07/2026",
+            "27/07/2026",
+            "27/07/2026",
+            "27/07/2026"
         ],
         "avgDurMin": 1
     },
@@ -1383,37 +1617,35 @@ const users = [
         "avgScore": 0.0,
         "skills": {
             "Escuta": 0.0,
+            "Personalizacao": 0.0,
             "Empatia": 0.0,
             "Crises": 0.0,
-            "Padroes": 0.0,
-            "Personalizacao": 0.0
+            "Padroes": 0.0
         },
         "count": 1,
         "insights": {
             "pt": [
-                "Focar no objetivo principal (agendar reunião).",
-                "Evitar descrever produtos ou preços por telefone.",
-                "Melhorar postura ética e empatia na abertura."
+                "Usuario ainda nao possui simulacoes avaliadas.",
+                "Incentive a realizar simulacoes para gerar analise detalhada."
             ],
             "fr": [
-                "Focar no objetivo principal (agendar reunião).",
-                "Evitar descrever produtos ou preços por telefone.",
-                "Melhorar postura ética e empatia na abertura."
+                "Usuario ainda nao possui simulacoes avaliadas.",
+                "Incentive a realizar simulacoes para gerar analise detalhada."
             ]
         },
         "name": "Gorilla Su2026",
-        "agency": "Gorilla",
-        "region": "Sul",
+        "agency": "Outros",
+        "region": "Outros",
         "lqaScore": 0.0,
         "languages": [
-            "EN"
+            "PT"
         ],
         "improvement": {
-            "pt": "Iniciar as simulações",
-            "fr": "Commencer les simulations"
+            "pt": "Continuar praticando e trabalhando os pontos de melhoria identificados.",
+            "fr": "Continuer a pratiquer et travailler les points d amelioration identifies."
         },
         "dates": [
-            "2026-07-10"
+            "10/07/2026"
         ],
         "avgDurMin": 0
     },
@@ -1422,32 +1654,32 @@ const users = [
         "avgScore": 0.0,
         "skills": {
             "Escuta": 0.0,
+            "Personalizacao": 0.0,
             "Empatia": 0.0,
             "Crises": 0.0,
-            "Padroes": 0.0,
-            "Personalizacao": 0.0
+            "Padroes": 0.0
         },
         "count": 0,
         "insights": {
             "pt": [
-                "Focar no objetivo principal (agendar reunião).",
-                "Evitar descrever produtos ou preços por telefone.",
-                "Melhorar postura ética e empatia na abertura."
+                "Usuario ainda nao possui simulacoes avaliadas.",
+                "Incentive a realizar simulacoes para gerar analise detalhada."
             ],
             "fr": [
-                "Focar no objetivo principal (agendar reunião).",
-                "Evitar descrever produtos ou preços por telefone.",
-                "Melhorar postura ética e empatia na abertura."
+                "Usuario ainda nao possui simulacoes avaliadas.",
+                "Incentive a realizar simulacoes para gerar analise detalhada."
             ]
         },
         "name": "Sophie GTest",
-        "agency": "rhapsody",
+        "agency": "Outros",
         "region": "Outros",
         "lqaScore": 0.0,
-        "languages": [],
+        "languages": [
+            "FR"
+        ],
         "improvement": {
-            "pt": "Iniciar as simulações",
-            "fr": "Commencer les simulations"
+            "pt": "Continuar praticando e trabalhando os pontos de melhoria identificados.",
+            "fr": "Continuer a pratiquer et travailler les points d amelioration identifies."
         },
         "dates": [],
         "avgDurMin": 0
@@ -1456,50 +1688,50 @@ const users = [
         "avgDurSec": 21,
         "avgScore": 36.2,
         "skills": {
-            "Escuta": 57.5,
-            "Empatia": 57.5,
-            "Crises": 68.8,
-            "Padroes": 61.2,
-            "Personalizacao": 76.2
+            "Escuta": 32.5,
+            "Personalizacao": 41.8,
+            "Empatia": 41.0,
+            "Crises": 43.5,
+            "Padroes": 40.8
         },
         "count": 11,
         "insights": {
             "pt": [
-                "Focar no objetivo principal (agendar reunião).",
-                "Evitar descrever produtos ou preços por telefone.",
-                "Melhorar postura ética e empatia na abertura.",
-                "Demonstrou preocupação com a personalização da proposta, explicando que o envio de materiais genéricos não seria produtivo.",
-                "Mencionou a importância da reunião para alinhar a oferta às demandas do cliente.",
-                "Utilizou argumentos baseados na segurança e adequação do produto."
+                "Aqui está o debriefing de nossa conversa.",
+                "🤓 PERSONA\n\nCliente relutante, sociável, emotivo e expressivo, busca conexão interpessoal, perfil DISC predominantemente amarelo.",
+                "🎯 OBJETIVO PRINCIPAL\n\nVocê apresentou argumentos para superar a objeção, tentou marcar reunião, mas acabou cedendo e enviando a documentação.",
+                "Objetivo parcialmente atingido."
             ],
             "fr": [
-                "Focar no objetivo principal (agendar reunião).",
-                "Evitar descrever produtos ou preços por telefone.",
-                "Melhorar postura ética e empatia na abertura.",
-                "Demonstrou preocupação com a personalização da proposta, explicando que o envio de materiais genéricos não seria produtivo.",
-                "Mencionou a importância da reunião para alinhar a oferta às demandas do cliente.",
-                "Utilizou argumentos baseados na segurança e adequação do produto."
+                "Aqui está o debriefing de nossa conversa.",
+                "🤓 PERSONA\n\nCliente relutante, sociável, emotivo e expressivo, busca conexão interpessoal, perfil DISC predominantemente amarelo.",
+                "🎯 OBJETIVO PRINCIPAL\n\nVocê apresentou argumentos para superar a objeção, tentou marcar reunião, mas acabou cedendo e enviando a documentação.",
+                "Objetivo parcialmente atingido."
             ]
         },
         "name": "Tabajara Dias",
-        "agency": "rhapsody",
+        "agency": "Outros",
         "region": "Outros",
-        "lqaScore": 100.0,
+        "lqaScore": 0.0,
         "languages": [
             "PT"
         ],
         "improvement": {
-            "pt": "Trabalhar estrutura básica da ligação",
-            "fr": "Travailler la structure de base"
+            "pt": "Continuar praticando e trabalhando os pontos de melhoria identificados.",
+            "fr": "Continuer a pratiquer et travailler les points d amelioration identifies."
         },
         "dates": [
-            "2026-05-04",
-            "2026-05-13",
-            "2026-06-12",
-            "2026-06-19",
-            "2026-06-28",
-            "2026-06-30",
-            "2026-07-02"
+            "04/05/2026",
+            "04/05/2026",
+            "13/05/2026",
+            "13/05/2026",
+            "13/05/2026",
+            "12/06/2026",
+            "19/06/2026",
+            "28/06/2026",
+            "30/06/2026",
+            "02/07/2026",
+            "02/07/2026"
         ],
         "avgDurMin": 0
     },
@@ -1508,87 +1740,91 @@ const users = [
         "avgScore": 0.0,
         "skills": {
             "Escuta": 0.0,
+            "Personalizacao": 0.0,
             "Empatia": 0.0,
             "Crises": 0.0,
-            "Padroes": 0.0,
-            "Personalizacao": 0.0
+            "Padroes": 0.0
         },
         "count": 0,
         "insights": {
             "pt": [
-                "Focar no objetivo principal (agendar reunião).",
-                "Evitar descrever produtos ou preços por telefone.",
-                "Melhorar postura ética e empatia na abertura."
+                "Usuario ainda nao possui simulacoes avaliadas.",
+                "Incentive a realizar simulacoes para gerar analise detalhada."
             ],
             "fr": [
-                "Focar no objetivo principal (agendar reunião).",
-                "Evitar descrever produtos ou preços por telefone.",
-                "Melhorar postura ética e empatia na abertura."
+                "Usuario ainda nao possui simulacoes avaliadas.",
+                "Incentive a realizar simulacoes para gerar analise detalhada."
             ]
         },
         "name": "Fernando Godoy",
-        "agency": "rhapsody",
+        "agency": "Outros",
         "region": "Outros",
         "lqaScore": 0.0,
-        "languages": [],
+        "languages": [
+            "PT"
+        ],
         "improvement": {
-            "pt": "Iniciar as simulações",
-            "fr": "Commencer les simulations"
+            "pt": "Continuar praticando e trabalhando os pontos de melhoria identificados.",
+            "fr": "Continuer a pratiquer et travailler les points d amelioration identifies."
         },
         "dates": [],
         "avgDurMin": 0
     },
     {
-        "avgDurSec": 7,
-        "avgScore": 40.5,
+        "avgDurSec": 59,
+        "avgScore": 41.9,
         "skills": {
-            "Escuta": 60.9,
-            "Empatia": 58.2,
-            "Crises": 69.1,
-            "Padroes": 73.6,
-            "Personalizacao": 77.3
+            "Escuta": 43.2,
+            "Personalizacao": 53.3,
+            "Empatia": 48.8,
+            "Crises": 43.8,
+            "Padroes": 51.3
         },
-        "count": 15,
+        "count": 17,
         "insights": {
             "pt": [
-                "Focar no objetivo principal (agendar reunião).",
-                "Evitar descrever produtos ou preços por telefone.",
-                "Melhorar postura ética e empatia na abertura.",
-                "Você começou reconhecendo a escolha do seguro com parabéns e tom positivo, aproveitando o momento de satisfação.",
-                "Fez perguntas abertas sobre a satisfação e diferenciais do produto em relação à concorrência, buscando valor percebido.",
-                "Demonstrou preocupação com abordagem humanizada, mencionando contato \"carinhoso, profissional e com as necessidades da pessoa\"."
+                "Voici le débriefing de notre échange\n\n🎯 PERSONA\n\nPatrícia, controladora de gestão, perfil Azul (DISC) dominante: lógica, objetiva, exige clareza, avessa à improvisação e a vendas pouco consultivas.",
+                "🌟 OBJETIVO PRINCIPAL\n\nO objetivo de obter um aceite qualificado para uma reunião de descoberta Metlife, respondendo às objeções com precisão, não foi atingido.",
+                "🦾 Pontos fortes \n\nVocê demonstrou cordialidade na abordagem inicial, mantendo um tom educado e respeitoso.",
+                "Tentou trazer o cliente para a proposta ao criar um chamado direto à ação (\"gostaria de te propor um bom negócio\") e finalizar propondo, de forma aberta, o envio de opções de agenda."
             ],
             "fr": [
-                "Focar no objetivo principal (agendar reunião).",
-                "Evitar descrever produtos ou preços por telefone.",
-                "Melhorar postura ética e empatia na abertura.",
-                "Você começou reconhecendo a escolha do seguro com parabéns e tom positivo, aproveitando o momento de satisfação.",
-                "Fez perguntas abertas sobre a satisfação e diferenciais do produto em relação à concorrência, buscando valor percebido.",
-                "Demonstrou preocupação com abordagem humanizada, mencionando contato \"carinhoso, profissional e com as necessidades da pessoa\"."
+                "Voici le débriefing de notre échange\n\n🎯 PERSONA\n\nPatrícia, controladora de gestão, perfil Azul (DISC) dominante: lógica, objetiva, exige clareza, avessa à improvisação e a vendas pouco consultivas.",
+                "🌟 OBJETIVO PRINCIPAL\n\nO objetivo de obter um aceite qualificado para uma reunião de descoberta Metlife, respondendo às objeções com precisão, não foi atingido.",
+                "🦾 Pontos fortes \n\nVocê demonstrou cordialidade na abordagem inicial, mantendo um tom educado e respeitoso.",
+                "Tentou trazer o cliente para a proposta ao criar um chamado direto à ação (\"gostaria de te propor um bom negócio\") e finalizar propondo, de forma aberta, o envio de opções de agenda."
             ]
         },
         "name": "Philippe de Langlais",
-        "agency": "rhapsody",
+        "agency": "Outros",
         "region": "Outros",
-        "lqaScore": 100.0,
+        "lqaScore": 0.0,
         "languages": [
             "PT"
         ],
         "improvement": {
-            "pt": "Melhorar gestão de objeções",
-            "fr": "Améliorer la gestion des objections"
+            "pt": "Continuar praticando e trabalhando os pontos de melhoria identificados.",
+            "fr": "Continuer a pratiquer et travailler les points d amelioration identifies."
         },
         "dates": [
-            "2026-05-04",
-            "2026-05-05",
-            "2026-05-13",
-            "2026-06-18",
-            "2026-06-30",
-            "2026-07-10",
-            "2026-07-13",
-            "2026-07-21",
-            "2026-07-27"
+            "04/05/2026",
+            "05/05/2026",
+            "13/05/2026",
+            "18/06/2026",
+            "30/06/2026",
+            "30/06/2026",
+            "30/06/2026",
+            "10/07/2026",
+            "10/07/2026",
+            "13/07/2026",
+            "21/07/2026",
+            "27/07/2026",
+            "27/07/2026",
+            "27/07/2026",
+            "27/07/2026",
+            "30/07/2026",
+            "30/07/2026"
         ],
-        "avgDurMin": 2
+        "avgDurMin": 1
     }
 ];
