@@ -75,7 +75,7 @@
             transition: var(--transition);
         }
 
-        /* â”€â”€ Typography System â”€â”€ */
+        /* ── Typography System ── */
         h2 {
             font-family: 'Outfit';
             font-size: 1.7rem;
@@ -639,7 +639,7 @@
         }
 
         .bullet-list li::before {
-            content: '”¢';
+            content: '•';
             position: absolute;
             left: 0;
             color: #00bcf2;
@@ -697,7 +697,7 @@
             color: #dc2626;
         }
 
-        /* â”€â”€ Responsive Design â”€â”€ */
+        /* ── Responsive Design ── */
         @media (max-width: 1280px) {
             .main-grid {
                 grid-template-columns: 240px 1fr;
@@ -874,7 +874,7 @@
             }
         }
 
-        /* â”€â”€ Mobile Sidebar Drawer â”€â”€ */
+        /* ── Mobile Sidebar Drawer ── */
         .mob-sidebar-btn {
             display: none;
             position: fixed;
@@ -1298,7 +1298,7 @@
             }
         }
 
-                        /* â”€â”€ LOGIN OVERLAY â”€â”€ */
+                        /* ── LOGIN OVERLAY ── */
         #loginOverlay {
             position: fixed;
             inset: 0;
@@ -1497,7 +1497,7 @@
         }
         .login-footer span { color: #1d1d1f; font-weight: 600; }
     
-        /* â”€â”€ TRANSCRIPT STYLE â”€â”€ */
+        /* ── TRANSCRIPT STYLE ── */
         .transcript-container {
             display: flex;
             flex-direction: column;
@@ -1573,7 +1573,7 @@
             white-space: pre-wrap;
         }
 
-        /* â”€â”€ PRINT (PDF) STYLES â”€â”€ */
+        /* ── PRINT (PDF) STYLES ── */
         @media print {
             body { background: #ffffff !important; color: #000000 !important; }
             .sidebar { display: none !important; }
@@ -1669,7 +1669,7 @@
     </div>
 
     <script>
-        // â”€â”€ Mobile Sidebar Drawer â”€â”€
+        // ── Mobile Sidebar Drawer ──
         function toggleSidebar() {
             const sidebar = document.getElementById('mainSidebar');
             const overlay = document.getElementById('sidebarOverlay');
@@ -1697,26 +1697,25 @@
 
         // Global Data Cleaning
         function fixEnc(s) {
-            if (!s) return "";
-            return s.replace(/ç/g, 'ç').replace(/ã/g, 'ã').replace(/é/g, 'é').replace(/ê/g, 'ê').replace(/ó/g, 'ó').replace(/á/g, 'á').replace(/í/g, 'í').replace(/à/g, 'à');
+            return s || "";
         }
 
         function translateScenario(sc) {
             if (!sc) return "";
             if (sc === "PROSPECT_FRIO") {
                 return currentLang === 'pt' 
-                    ? "ðŸ“ž PROSPECÇÃO “ Transformar um prospect frio em uma reunião qualificada" 
-                    : "ðŸ“ž PROSPECTION “ Transformer un prospect froid en rendez-vous qualifié";
+                    ? "📞 PROSPECÇÃO – Transformar um prospect frio em uma reunião qualificada" 
+                    : "📞 PROSPECTION – Transformer un prospect froid en rendez-vous qualifié";
             }
             if (sc === "ENVIE_DOCUMENT") {
                 return currentLang === 'pt' 
-                    ? "ðŸ“„ PROSPECÇÃO “ Transformar o pedido 'Envie-me um documento' em agendamento de reunião" 
-                    : "ðŸ“„ PROSPECTION “ Transformer la demande 'Envoyez-moi un document' en prise de rendez-vous";
+                    ? "📄 PROSPECÇÃO – Transformar o pedido 'Envie-me um documento' em agendamento de reunião" 
+                    : "📄 PROSPECTION – Transformer la demande 'Envoyez-moi un document' en prise de rendez-vous";
             }
             if (sc === "COBERTURA_DECES") {
                 return currentLang === 'pt' 
-                    ? "ðŸ›¡️ ARGUMENTAÇÃO “ Convencer um prospect da pertinência de uma cobertura de vida/sucessão" 
-                    : "ðŸ›¡️ ARGUMENTAIRE “ Convaincre un prospect de la pertinence d'une couverture décès MetLife";
+                    ? "🛡️ ARGUMENTAÇÃO – Convencer um prospect da pertinência de uma cobertura de vida/sucessão" 
+                    : "🛡️ ARGUMENTAIRE – Convaincre un prospect de la pertinence d'une couverture décès MetLife";
             }
             if (sc === "RECOMENDACOES") {
                 return currentLang === 'pt' 
@@ -1967,31 +1966,28 @@
             else showGlobalStats();
         }
 
-        // â”€â”€ Helper: Correção de Acentos e Encoding â”€â”€
+        // ── Helper: Correção de Acentos e Encoding ──
         function fixEnc(s) {
-            if (!s) return "";
-            return s.replace(/é/g, 'é').replace(/á/g, 'á').replace(/ó/g, 'ó').replace(/ê/g, 'ê')
-                .replace(/ç/g, 'ç').replace(/ã/g, 'ã').replace(/Ã /g, 'à').replace(/í/g, 'í')
-                .replace(/“/g, '“').replace(/É/g, 'É').replace(/Ã /g, 'Á');
+            return s || "";
         }
 
-        // â”€â”€ Helper: Tradução de Cenários â”€â”€
+        // ── Helper: Tradução de Cenários ──
         function translateScenario(sc) {
             if (!sc) return "";
             if (sc === "PROSPECT_FRIO") {
                 return currentLang === 'pt' 
-                    ? "ðŸ“ž PROSPECÇÃO “ Transformar um prospect frio em uma reunião qualificada" 
-                    : "ðŸ“ž PROSPECTION “ Transformer un prospect froid en rendez-vous qualifié";
+                    ? "📞 PROSPECÇÃO – Transformar um prospect frio em uma reunião qualificada" 
+                    : "📞 PROSPECTION – Transformer un prospect froid en rendez-vous qualifié";
             }
             if (sc === "ENVIE_DOCUMENT") {
                 return currentLang === 'pt' 
-                    ? "ðŸ“„ PROSPECÇÃO “ Transformar o pedido 'Envie-me um documento' em agendamento de reunião" 
-                    : "ðŸ“„ PROSPECTION “ Transformer la demande 'Envoyez-moi un document' en prise de rendez-vous";
+                    ? "📄 PROSPECÇÃO – Transformar o pedido 'Envie-me um documento' em agendamento de reunião" 
+                    : "📄 PROSPECTION – Transformer la demande 'Envoyez-moi un document' en prise de rendez-vous";
             }
             if (sc === "COBERTURA_DECES") {
                 return currentLang === 'pt' 
-                    ? "ðŸ›¡️ ARGUMENTAÇÃO “ Convencer um prospect da pertinência de uma cobertura de vida/sucessão" 
-                    : "ðŸ›¡️ ARGUMENTAIRE “ Convaincre un prospect de la pertinence d'une couverture décès MetLife";
+                    ? "🛡️ ARGUMENTAÇÃO – Convencer um prospect da pertinência de uma cobertura de vida/sucessão" 
+                    : "🛡️ ARGUMENTAIRE – Convaincre un prospect de la pertinence d'une couverture décès MetLife";
             }
             if (sc === "RECOMENDACOES") {
                 return currentLang === 'pt' 
@@ -2042,7 +2038,7 @@
             });
         }
 
-        // â”€â”€ Inteligência de Dados (Pós-Carregamento) â”€â”€
+        // ── Inteligência de Dados (Pós-Carregamento) ──
 
         // Primeiro, filtramos as simulações válidas globalmente
         const VALID_SIMS = RAW_SIMULATIONS.filter(s => {
@@ -2265,7 +2261,7 @@
                             <h1 style="font-size: 2.5rem;">${ui[currentLang].simDetails} <span>#${localIndex + 1}</span></h1>
                         </div>
                         <div class="header-content-right">
-                            <p class="header-desc" style="font-size: 1rem;">${sim.name} ”¢ ${sim.date} ”¢ <strong>${translateScenario(sim.scenario)}</strong></p>
+                            <p class="header-desc" style="font-size: 1rem;">${sim.name} • ${sim.date} • <strong>${translateScenario(sim.scenario)}</strong></p>
                         </div>
                     </header>
 
@@ -3016,7 +3012,7 @@
             // Flags
             const langBox = document.getElementById('u-langs');
             if (langBox) {
-                const flags = { PT: 'ðŸ‡§ðŸ‡· PT-BR', FR: 'ðŸ‡«ðŸ‡· FR', EN: 'ðŸ‡ºðŸ‡¸ EN' };
+                const flags = { PT: '🇧🇷 PT-BR', FR: '🇫🇷 FR', EN: '🇺🇸 EN' };
                 (user.languages || []).forEach(l => {
                     langBox.innerHTML += `<span class="lang-badge">${flags[l] || l}</span>`;
                 });
