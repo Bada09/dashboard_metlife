@@ -1573,6 +1573,30 @@
             white-space: pre-wrap;
         }
 
+
+        /* Date Filter Period Buttons */
+        .btn-period {
+            padding: 8px 16px;
+            font-size: 0.8rem;
+            border-radius: 6px;
+            border: 1px solid var(--border);
+            background: transparent;
+            color: var(--text);
+            cursor: pointer;
+            font-weight: 600;
+            transition: all 0.2s ease;
+        }
+        .btn-period:hover {
+            border-color: var(--primary);
+            background: rgba(0, 188, 242, 0.05);
+        }
+        .btn-period.active {
+            background: var(--primary) !important;
+            color: #ffffff !important;
+            border-color: var(--primary) !important;
+            box-shadow: 0 2px 8px rgba(0, 188, 242, 0.3);
+        }
+    
         /* ── PRINT (PDF) STYLES ── */
         @media print {
             body { background: #ffffff !important; color: #000000 !important; }
@@ -1604,10 +1628,11 @@
 
     <div class="container">
         <header>
-            <div class="logo-area" style="display: flex; align-items: center; gap: 15px;">
+            <div class="logo-area" style="display: flex; align-items: center; gap: 15px; flex-wrap: wrap;">
                 <img src="https://images.clerk.dev/uploaded/img_3CwTANKf2EFgVAWMKpGKACjyFj6" alt="MetLife Logo" style="height: 44px;">
                 <span style="color: rgba(255,255,255,0.25); font-size: 1.4rem; font-weight: 300;">|</span>
                 <img src="rhapsody_logo.png" alt="rhapsody Intelligence" style="height: 34px; opacity: 0.85;">
+                <span id="t-lastUpdate" style="color: rgba(255,255,255,0.65); font-size: 0.75rem; font-weight: 600; margin-left: 10px; background: rgba(255,255,255,0.08); padding: 4px 12px; border-radius: 12px; border: 1px solid rgba(255,255,255,0.12); backdrop-filter: blur(4px); letter-spacing: 0.02em;"></span>
             </div>
             <nav class="nav-menu">
                 <a href="#" class="nav-link active"><span id="t-menuDashboard">Dashboard</span></a>
@@ -1771,10 +1796,14 @@
         var currentFilterStatus = 'finished';
         var currentFilterAgency = null;
         var currentFilterRegion = null;
+        var currentFilterStartDate = null;
+        var currentFilterEndDate = null;
+        var currentFilterPeriodPreset = 'all';
 
         const ui = {
             pt: {
                 menuDashboard: "Dashboard",
+                lastUpdate: "Última atualização: 06/08/2026 - 12:50",
                 menuReport: "Resumo",
                 export: "Exportar Excel",
                 sessions: "Simulações",
@@ -1861,6 +1890,7 @@
             },
             fr: {
                 menuDashboard: "Dashboard",
+                lastUpdate: "Última atualização: 06/08/2026 - 12:50",
                 menuReport: "Résumé",
                 export: "Exporter Excel",
                 sessions: "Simulations",
@@ -2423,32 +2453,8 @@
             window.activeUser = null;
             renderUserList();
 
-            // Filtragem Dinâmica por Contexto (Área, Use Case e Status)
-            let filteredSims = VALID_SIMS;
-
-            if (currentFilterArea) {
-                filteredSims = filteredSims.filter(s => {
-                    return getArea(s.scenario) === currentFilterArea;
-                });
-            }
-            if (currentFilterAgency) {
-                filteredSims = filteredSims.filter(s => s.agency === currentFilterAgency);
-            }
-            if (currentFilterRegion) {
-                filteredSims = filteredSims.filter(s => s.region === currentFilterRegion);
-            }
-
-            if (currentFilterUseCase) {
-                filteredSims = filteredSims.filter(s => s.scenario === currentFilterUseCase);
-            }
-
-            if (currentFilterStatus) {
-                if (currentFilterStatus === 'finished') {
-                    filteredSims = filteredSims.filter(s => s.finished);
-                } else if (currentFilterStatus === 'unfinished') {
-                    filteredSims = filteredSims.filter(s => !s.finished);
-                }
-            }
+            // Filtragem Dinâmica por Contexto (Área, Use Case, Status e Período)
+            let filteredSims = getFilteredSims(VALID_SIMS);
 
             const totalSessions = filteredSims.length;
 
@@ -2507,6 +2513,46 @@
                             <p class="header-desc">${ui[currentLang].execVision}</p>
                         </div>
                     </header>
+                    <!-- Date Filter Card -->
+                    <div class="card" style="margin-bottom: 2.5rem; background: var(--card-bg); border-radius: var(--radius); border: 1px solid var(--border); padding: 1.4rem 1.6rem; box-shadow: 0 4px 15px rgba(0,0,0,0.02);">
+                        <div style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 15px;">
+                            <div style="display: flex; align-items: center; gap: 10px;">
+                                <i class="fas fa-calendar-alt" style="font-size: 1.1rem; color: var(--primary);"></i>
+                                <h3 style="font-size: 0.85rem; font-weight: 700; margin: 0; text-transform: uppercase; letter-spacing: 0.05em; color: var(--accent);">
+                                    ${currentLang === 'pt' ? 'Período de Análise' : 'Période d\'Analyse'}
+                                </h3>
+                            </div>
+                            <div style="display: flex; gap: 8px; flex-wrap: wrap;">
+                                <button class="btn-period ${currentFilterPeriodPreset === 'all' ? 'active' : ''}" onclick="setPeriodFilter('all')">
+                                    ${currentLang === 'pt' ? 'Todo o histórico' : 'Tout l\'historique'}
+                                </button>
+                                <button class="btn-period ${currentFilterPeriodPreset === 'last7' ? 'active' : ''}" onclick="setPeriodFilter('last7')">
+                                    ${currentLang === 'pt' ? 'Últimos 7 dias' : '7 derniers jours'}
+                                </button>
+                                <button class="btn-period ${currentFilterPeriodPreset === 'last30' ? 'active' : ''}" onclick="setPeriodFilter('last30')">
+                                    ${currentLang === 'pt' ? 'Últimos 30 dias' : '30 derniers jours'}
+                                </button>
+                                <button class="btn-period ${currentFilterPeriodPreset === 'custom' ? 'active' : ''}" onclick="setPeriodFilter('custom')">
+                                    ${currentLang === 'pt' ? 'Personalizado' : 'Personnalisé'}
+                                </button>
+                            </div>
+                        </div>
+                        
+                        <div id="custom-date-inputs" style="display: ${currentFilterPeriodPreset === 'custom' ? 'flex' : 'none'}; gap: 20px; margin-top: 1.2rem; align-items: center; flex-wrap: wrap; padding-top: 1rem; border-top: 1px dashed var(--border);">
+                            <div style="display: flex; align-items: center; gap: 8px;">
+                                <span style="font-size: 0.8rem; color: var(--text-muted); font-weight: 600; text-transform: uppercase; letter-spacing: 0.02em;">
+                                    ${currentLang === 'pt' ? 'De:' : 'Du :'}
+                                </span>
+                                <input type="date" id="input-start-date" value="${currentFilterStartDate || ''}" onchange="handleCustomDateChange()" style="padding: 8px 12px; font-size: 0.85rem; border-radius: 6px; border: 1px solid var(--border); background: var(--card-bg); color: var(--text); outline: none; transition: border-color 0.2s;" onfocus="this.style.borderColor='var(--primary)'" onblur="this.style.borderColor='var(--border)'">
+                            </div>
+                            <div style="display: flex; align-items: center; gap: 8px;">
+                                <span style="font-size: 0.8rem; color: var(--text-muted); font-weight: 600; text-transform: uppercase; letter-spacing: 0.02em;">
+                                    ${currentLang === 'pt' ? 'Até:' : 'Au :'}
+                                </span>
+                                <input type="date" id="input-end-date" value="${currentFilterEndDate || ''}" onchange="handleCustomDateChange()" style="padding: 8px 12px; font-size: 0.85rem; border-radius: 6px; border: 1px solid var(--border); background: var(--card-bg); color: var(--text); outline: none; transition: border-color 0.2s;" onfocus="this.style.borderColor='var(--primary)'" onblur="this.style.borderColor='var(--border)'">
+                            </div>
+                        </div>
+                    </div>
 
                     <div class="filter-bar-container" style="margin-bottom: 2.5rem; display: flex; align-items: center; gap: 20px; flex-wrap: wrap;">
 
@@ -2800,7 +2846,7 @@
         function selectUser(user) {
             hideSimNav();
             window.activeUser = user;
-            const userSims = VALID_SIMS.filter(s => cleanName(s.name) === cleanName(user.name));
+            const userSims = getFilteredSims(VALID_SIMS.filter(s => cleanName(s.name) === cleanName(user.name)));
             const userTotalSeconds = userSims.reduce((acc, s) => acc + getSec(s.dur), 0);
             const userTotalMinutes = Math.round(userTotalSeconds / 60);
             const userAvgSeconds = userSims.length > 0 ? Math.round(userTotalSeconds / userSims.length) : 0;
@@ -2812,15 +2858,7 @@
             ;
 
             // Calculate context-aware comparison
-            const filteredSims = VALID_SIMS.filter(s => {
-                if (currentFilterArea && getArea(s.scenario) !== currentFilterArea) return false;
-                if (currentFilterUseCase && s.scenario !== currentFilterUseCase) return false;
-                if (currentFilterStatus) {
-                    if (currentFilterStatus === 'finished' && !s.finished) return false;
-                    if (currentFilterStatus === 'unfinished' && s.finished) return false;
-                }
-                return true;
-            });
+            const filteredSims = getFilteredSims(VALID_SIMS);
 
             const userFilteredSims = filteredSims.filter(s => cleanName(s.name) === cleanName(user.name));
 
@@ -3126,6 +3164,78 @@
             if (!dd) return;
             dd.classList.toggle('active');
             if (arrow) arrow.style.transform = dd.classList.contains('active') ? 'rotate(180deg)' : 'rotate(0deg)';
+        }
+
+        function parseDateBR(dateStr) {
+            if (!dateStr) return new Date(0);
+            const parts = dateStr.split('/');
+            if (parts.length !== 3) return new Date(0);
+            const d = parseInt(parts[0], 10);
+            const m = parseInt(parts[1], 10) - 1;
+            const y = parseInt(parts[2], 10);
+            return new Date(y, m, d);
+        }
+
+        function getFilteredSims(sims) {
+            let result = sims;
+            if (currentFilterArea) {
+                result = result.filter(s => getArea(s.scenario) === currentFilterArea);
+            }
+            if (currentFilterAgency) {
+                result = result.filter(s => s.agency === currentFilterAgency);
+            }
+            if (currentFilterRegion) {
+                result = result.filter(s => s.region === currentFilterRegion);
+            }
+            if (currentFilterUseCase) {
+                result = result.filter(s => s.scenario === currentFilterUseCase);
+            }
+            if (currentFilterStatus) {
+                if (currentFilterStatus === 'finished') {
+                    result = result.filter(s => s.finished);
+                } else if (currentFilterStatus === 'unfinished') {
+                    result = result.filter(s => !s.finished);
+                }
+            }
+            if (currentFilterPeriodPreset !== 'all') {
+                const today = new Date();
+                if (currentFilterPeriodPreset === 'last7') {
+                    const limit = new Date();
+                    limit.setDate(today.getDate() - 7);
+                    result = result.filter(s => parseDateBR(s.date) >= limit);
+                } else if (currentFilterPeriodPreset === 'last30') {
+                    const limit = new Date();
+                    limit.setDate(today.getDate() - 30);
+                    result = result.filter(s => parseDateBR(s.date) >= limit);
+                } else if (currentFilterPeriodPreset === 'custom') {
+                    if (currentFilterStartDate) {
+                        const start = new Date(currentFilterStartDate + 'T00:00:00');
+                        result = result.filter(s => parseDateBR(s.date) >= start);
+                    }
+                    if (currentFilterEndDate) {
+                        const end = new Date(currentFilterEndDate + 'T23:59:59');
+                        result = result.filter(s => parseDateBR(s.date) <= end);
+                    }
+                }
+            }
+            return result;
+        }
+
+        function setPeriodFilter(val) {
+            currentFilterPeriodPreset = val;
+            if (val !== 'custom') {
+                currentFilterStartDate = null;
+                currentFilterEndDate = null;
+            }
+            if (window.activeUser) selectUser(window.activeUser);
+            else showGlobalStats();
+        }
+
+        function handleCustomDateChange() {
+            currentFilterStartDate = document.getElementById('input-start-date').value;
+            currentFilterEndDate = document.getElementById('input-end-date').value;
+            if (window.activeUser) selectUser(window.activeUser);
+            else showGlobalStats();
         }
 
         function setAgencyFilter(val) {
