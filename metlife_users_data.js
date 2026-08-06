@@ -1,15 +1,15 @@
 const users = [
     {
-        "avgDurSec": 13,
-        "avgScore": 32.0,
+        "avgDurSec": 48,
+        "avgScore": 70.5,
         "skills": {
-            "Escuta": 26.0,
-            "Personalizacao": 27.0,
-            "Empatia": 41.0,
-            "Crises": 45.0,
-            "Padroes": 32.0
+            "Escuta": 73.8,
+            "Personalizacao": 78.0,
+            "Empatia": 74.0,
+            "Crises": 75.0,
+            "Padroes": 73.0
         },
-        "count": 4,
+        "count": 13,
         "insights": {
             "pt": [
                 "**Faltou proposta clara de reunião**",
@@ -39,9 +39,18 @@ const users = [
             "19/06/2026",
             "19/06/2026",
             "19/06/2026",
-            "25/06/2026"
+            "25/06/2026",
+            "04/08/2026",
+            "04/08/2026",
+            "04/08/2026",
+            "04/08/2026",
+            "04/08/2026",
+            "04/08/2026",
+            "04/08/2026",
+            "05/08/2026",
+            "05/08/2026"
         ],
-        "avgDurMin": 0
+        "avgDurMin": 2
     },
     {
         "avgDurSec": 0,
@@ -79,16 +88,16 @@ const users = [
         "avgDurMin": 0
     },
     {
-        "avgDurSec": 16,
-        "avgScore": 52.7,
+        "avgDurSec": 17,
+        "avgScore": 52.3,
         "skills": {
-            "Escuta": 56.0,
-            "Personalizacao": 64.4,
-            "Empatia": 49.2,
-            "Crises": 55.9,
-            "Padroes": 59.8
+            "Escuta": 57.4,
+            "Personalizacao": 59.8,
+            "Empatia": 62.2,
+            "Crises": 54.3,
+            "Padroes": 56.6
         },
-        "count": 19,
+        "count": 21,
         "insights": {
             "pt": [
                 "Aqui está o debriefing da nossa troca.",
@@ -133,7 +142,9 @@ const users = [
             "22/06/2026",
             "23/06/2026",
             "23/06/2026",
-            "24/06/2026"
+            "24/06/2026",
+            "31/07/2026",
+            "04/08/2026"
         ],
         "avgDurMin": 1
     },
@@ -141,11 +152,11 @@ const users = [
         "avgDurSec": 55,
         "avgScore": 63.7,
         "skills": {
-            "Escuta": 77.7,
-            "Personalizacao": 66.0,
-            "Empatia": 64.0,
-            "Crises": 57.3,
-            "Padroes": 69.0
+            "Escuta": 67.0,
+            "Personalizacao": 69.7,
+            "Empatia": 75.3,
+            "Crises": 71.3,
+            "Padroes": 65.0
         },
         "count": 8,
         "insights": {
@@ -189,11 +200,11 @@ const users = [
         "avgDurSec": 56,
         "avgScore": 57.0,
         "skills": {
-            "Escuta": 59.0,
-            "Personalizacao": 69.5,
-            "Empatia": 52.0,
-            "Crises": 63.5,
-            "Padroes": 61.5
+            "Escuta": 67.0,
+            "Personalizacao": 54.5,
+            "Empatia": 70.0,
+            "Crises": 70.0,
+            "Padroes": 59.5
         },
         "count": 14,
         "insights": {
@@ -243,11 +254,11 @@ const users = [
         "avgDurSec": 26,
         "avgScore": 54.1,
         "skills": {
-            "Escuta": 53.1,
-            "Personalizacao": 65.5,
-            "Empatia": 59.4,
-            "Crises": 56.8,
-            "Padroes": 53.5
+            "Escuta": 63.8,
+            "Personalizacao": 57.1,
+            "Empatia": 67.9,
+            "Crises": 59.9,
+            "Padroes": 60.2
         },
         "count": 16,
         "insights": {
@@ -366,16 +377,16 @@ const users = [
         "avgDurMin": 0
     },
     {
-        "avgDurSec": 36,
-        "avgScore": 73.5,
+        "avgDurSec": 7,
+        "avgScore": 74.5,
         "skills": {
-            "Escuta": 78.5,
-            "Personalizacao": 82.5,
-            "Empatia": 69.0,
-            "Crises": 77.5,
-            "Padroes": 76.5
+            "Escuta": 74.8,
+            "Personalizacao": 82.2,
+            "Empatia": 81.8,
+            "Crises": 73.8,
+            "Padroes": 85.2
         },
-        "count": 3,
+        "count": 5,
         "insights": {
             "pt": [
                 "Aqui está o debriefing da nossa troca.",
@@ -404,21 +415,23 @@ const users = [
         "dates": [
             "11/07/2026",
             "11/07/2026",
-            "11/07/2026"
+            "11/07/2026",
+            "05/08/2026",
+            "05/08/2026"
         ],
-        "avgDurMin": 0
+        "avgDurMin": 1
     },
     {
-        "avgDurSec": 13,
-        "avgScore": 39.0,
+        "avgDurSec": 6,
+        "avgScore": 38.1,
         "skills": {
-            "Escuta": 42.8,
-            "Personalizacao": 44.8,
-            "Empatia": 37.6,
-            "Crises": 49.4,
-            "Padroes": 42.6
+            "Escuta": 48.4,
+            "Personalizacao": 49.6,
+            "Empatia": 40.0,
+            "Crises": 40.9,
+            "Padroes": 44.7
         },
-        "count": 16,
+        "count": 18,
         "insights": {
             "pt": [
                 "Aqui está o debriefing da nossa conversa.",
@@ -460,7 +473,9 @@ const users = [
             "30/07/2026",
             "30/07/2026",
             "30/07/2026",
-            "30/07/2026"
+            "30/07/2026",
+            "03/08/2026",
+            "03/08/2026"
         ],
         "avgDurMin": 1
     },
@@ -468,11 +483,11 @@ const users = [
         "avgDurSec": 5,
         "avgScore": 56.0,
         "skills": {
-            "Escuta": 69.5,
-            "Personalizacao": 59.0,
-            "Empatia": 59.5,
-            "Crises": 51.0,
-            "Padroes": 71.0
+            "Escuta": 53.0,
+            "Personalizacao": 81.5,
+            "Empatia": 60.5,
+            "Crises": 61.5,
+            "Padroes": 55.0
         },
         "count": 3,
         "insights": {
@@ -583,11 +598,11 @@ const users = [
         "avgDurSec": 14,
         "avgScore": 66.2,
         "skills": {
-            "Escuta": 70.2,
-            "Personalizacao": 74.0,
-            "Empatia": 64.9,
-            "Crises": 65.6,
-            "Padroes": 69.2
+            "Escuta": 73.2,
+            "Personalizacao": 72.1,
+            "Empatia": 74.6,
+            "Crises": 70.2,
+            "Padroes": 68.6
         },
         "count": 17,
         "insights": {
@@ -641,16 +656,16 @@ const users = [
         "avgDurMin": 2
     },
     {
-        "avgDurSec": 53,
-        "avgScore": 62.2,
+        "avgDurSec": 10,
+        "avgScore": 67.1,
         "skills": {
-            "Escuta": 66.5,
-            "Personalizacao": 69.6,
-            "Empatia": 64.0,
-            "Crises": 63.8,
-            "Padroes": 64.0
+            "Escuta": 67.5,
+            "Personalizacao": 75.1,
+            "Empatia": 70.4,
+            "Crises": 68.5,
+            "Padroes": 69.5
         },
-        "count": 15,
+        "count": 18,
         "insights": {
             "pt": [
                 "**Falta de estrutura na abordagem**",
@@ -693,9 +708,12 @@ const users = [
             "15/07/2026",
             "30/07/2026",
             "30/07/2026",
-            "30/07/2026"
+            "30/07/2026",
+            "03/08/2026",
+            "03/08/2026",
+            "04/08/2026"
         ],
-        "avgDurMin": 0
+        "avgDurMin": 1
     },
     {
         "avgDurSec": 56,
@@ -773,16 +791,16 @@ const users = [
         "avgDurMin": 0
     },
     {
-        "avgDurSec": 38,
-        "avgScore": 51.0,
+        "avgDurSec": 3,
+        "avgScore": 58.0,
         "skills": {
-            "Escuta": 51.5,
-            "Personalizacao": 56.0,
-            "Empatia": 52.0,
-            "Crises": 47.0,
-            "Padroes": 67.0
+            "Escuta": 55.9,
+            "Personalizacao": 68.9,
+            "Empatia": 67.0,
+            "Crises": 62.6,
+            "Padroes": 61.0
         },
-        "count": 6,
+        "count": 19,
         "insights": {
             "pt": [
                 "“Seu João, Paulo comentou que o senhor é direto: posso ser objetiva e te explicar em dez minutos ao vivo?”",
@@ -816,29 +834,44 @@ const users = [
             "06/07/2026",
             "16/07/2026",
             "16/07/2026",
-            "16/07/2026"
+            "16/07/2026",
+            "31/07/2026",
+            "31/07/2026",
+            "31/07/2026",
+            "31/07/2026",
+            "31/07/2026",
+            "03/08/2026",
+            "03/08/2026",
+            "03/08/2026",
+            "03/08/2026",
+            "03/08/2026",
+            "03/08/2026",
+            "03/08/2026",
+            "03/08/2026"
         ],
-        "avgDurMin": 0
+        "avgDurMin": 1
     },
     {
-        "avgDurSec": 13,
-        "avgScore": 0.0,
+        "avgDurSec": 12,
+        "avgScore": 54.7,
         "skills": {
-            "Escuta": 0.0,
-            "Personalizacao": 0.0,
-            "Empatia": 0.0,
-            "Crises": 0.0,
-            "Padroes": 0.0
+            "Escuta": 58.0,
+            "Personalizacao": 64.7,
+            "Empatia": 51.0,
+            "Crises": 60.0,
+            "Padroes": 58.3
         },
-        "count": 5,
+        "count": 8,
         "insights": {
             "pt": [
-                "Usuario ainda nao possui simulacoes avaliadas.",
-                "Incentive a realizar simulacoes para gerar analise detalhada."
+                "**Reconhecimento inicial ficou ausente**",
+                "**Exploração dos pontos de satisfação**",
+                "**Pedido aberto e pouco estruturado**"
             ],
             "fr": [
-                "Usuario ainda nao possui simulacoes avaliadas.",
-                "Incentive a realizar simulacoes para gerar analise detalhada."
+                "**Reconhecimento inicial ficou ausente**",
+                "**Exploração dos pontos de satisfação**",
+                "**Pedido aberto e pouco estruturado**"
             ]
         },
         "name": "Geracao Lu.Parceiro",
@@ -857,7 +890,10 @@ const users = [
             "07/07/2026",
             "07/07/2026",
             "07/07/2026",
-            "07/07/2026"
+            "07/07/2026",
+            "02/08/2026",
+            "02/08/2026",
+            "02/08/2026"
         ],
         "avgDurMin": 1
     },
@@ -865,10 +901,10 @@ const users = [
         "avgDurSec": 30,
         "avgScore": 62.6,
         "skills": {
-            "Escuta": 61.6,
-            "Personalizacao": 75.6,
-            "Empatia": 61.6,
-            "Crises": 65.5,
+            "Escuta": 67.2,
+            "Personalizacao": 64.1,
+            "Empatia": 71.1,
+            "Crises": 65.8,
             "Padroes": 61.6
         },
         "count": 17,
@@ -919,16 +955,16 @@ const users = [
         "avgDurMin": 1
     },
     {
-        "avgDurSec": 19,
-        "avgScore": 67.3,
+        "avgDurSec": 27,
+        "avgScore": 65.8,
         "skills": {
-            "Escuta": 62.3,
-            "Personalizacao": 79.7,
-            "Empatia": 66.3,
-            "Crises": 71.7,
-            "Padroes": 74.3
+            "Escuta": 68.5,
+            "Personalizacao": 67.2,
+            "Empatia": 75.2,
+            "Crises": 69.0,
+            "Padroes": 75.7
         },
-        "count": 4,
+        "count": 7,
         "insights": {
             "pt": [
                 "Aqui está o debriefing da nossa troca.",
@@ -956,21 +992,24 @@ const users = [
             "09/07/2026",
             "09/07/2026",
             "09/07/2026",
-            "10/07/2026"
+            "10/07/2026",
+            "31/07/2026",
+            "31/07/2026",
+            "31/07/2026"
         ],
         "avgDurMin": 1
     },
     {
-        "avgDurSec": 29,
-        "avgScore": 36.2,
+        "avgDurSec": 27,
+        "avgScore": 34.5,
         "skills": {
-            "Escuta": 40.4,
-            "Personalizacao": 42.3,
-            "Empatia": 41.5,
-            "Crises": 38.4,
-            "Padroes": 41.4
+            "Escuta": 37.8,
+            "Personalizacao": 43.1,
+            "Empatia": 40.7,
+            "Crises": 35.4,
+            "Padroes": 35.5
         },
-        "count": 69,
+        "count": 73,
         "insights": {
             "pt": [
                 "Aqui está o debriefing de nosso intercâmbio.",
@@ -1065,7 +1104,11 @@ const users = [
             "16/07/2026",
             "16/07/2026",
             "28/07/2026",
-            "28/07/2026"
+            "28/07/2026",
+            "31/07/2026",
+            "31/07/2026",
+            "31/07/2026",
+            "05/08/2026"
         ],
         "avgDurMin": 0
     },
@@ -1073,11 +1116,11 @@ const users = [
         "avgDurSec": 25,
         "avgScore": 46.5,
         "skills": {
-            "Escuta": 42.5,
-            "Personalizacao": 46.5,
-            "Empatia": 55.0,
-            "Crises": 58.0,
-            "Padroes": 42.0
+            "Escuta": 47.0,
+            "Personalizacao": 51.5,
+            "Empatia": 54.5,
+            "Crises": 64.0,
+            "Padroes": 55.5
         },
         "count": 5,
         "insights": {
@@ -1115,16 +1158,16 @@ const users = [
         "avgDurMin": 0
     },
     {
-        "avgDurSec": 52,
-        "avgScore": 66.5,
+        "avgDurSec": 39,
+        "avgScore": 64.3,
         "skills": {
-            "Escuta": 67.7,
-            "Personalizacao": 74.1,
-            "Empatia": 68.0,
-            "Crises": 67.6,
-            "Padroes": 70.6
+            "Escuta": 69.9,
+            "Personalizacao": 67.7,
+            "Empatia": 73.6,
+            "Crises": 67.1,
+            "Padroes": 67.5
         },
-        "count": 30,
+        "count": 45,
         "insights": {
             "pt": [
                 "**Ausência de autorização explícita**",
@@ -1144,7 +1187,7 @@ const users = [
         "name": "Parceiro Rivorio3a12",
         "agency": "Outros",
         "region": "Outros",
-        "lqaScore": 88.0,
+        "lqaScore": 85.7,
         "languages": [
             "PT"
         ],
@@ -1182,7 +1225,22 @@ const users = [
             "30/07/2026",
             "30/07/2026",
             "30/07/2026",
-            "30/07/2026"
+            "30/07/2026",
+            "31/07/2026",
+            "31/07/2026",
+            "31/07/2026",
+            "31/07/2026",
+            "01/08/2026",
+            "01/08/2026",
+            "01/08/2026",
+            "01/08/2026",
+            "01/08/2026",
+            "01/08/2026",
+            "01/08/2026",
+            "02/08/2026",
+            "02/08/2026",
+            "02/08/2026",
+            "02/08/2026"
         ],
         "avgDurMin": 1
     },
@@ -1327,24 +1385,26 @@ const users = [
         "avgDurMin": 0
     },
     {
-        "avgDurSec": 7,
-        "avgScore": 0.0,
+        "avgDurSec": 30,
+        "avgScore": 61.0,
         "skills": {
-            "Escuta": 0.0,
-            "Personalizacao": 0.0,
-            "Empatia": 0.0,
-            "Crises": 0.0,
-            "Padroes": 0.0
+            "Escuta": 56.0,
+            "Personalizacao": 80.0,
+            "Empatia": 62.0,
+            "Crises": 68.0,
+            "Padroes": 66.0
         },
-        "count": 5,
+        "count": 7,
         "insights": {
             "pt": [
-                "Usuario ainda nao possui simulacoes avaliadas.",
-                "Incentive a realizar simulacoes para gerar analise detalhada."
+                "**Segmentação limitada**",
+                "**Excesso de perguntas em sequência**",
+                "**Pouca escuta ativa**"
             ],
             "fr": [
-                "Usuario ainda nao possui simulacoes avaliadas.",
-                "Incentive a realizar simulacoes para gerar analise detalhada."
+                "**Segmentação limitada**",
+                "**Excesso de perguntas em sequência**",
+                "**Pouca escuta ativa**"
             ]
         },
         "name": "Parceiro Luark",
@@ -1363,21 +1423,23 @@ const users = [
             "20/07/2026",
             "20/07/2026",
             "20/07/2026",
-            "20/07/2026"
+            "20/07/2026",
+            "05/08/2026",
+            "05/08/2026"
         ],
         "avgDurMin": 0
     },
     {
-        "avgDurSec": 35,
-        "avgScore": 60.4,
+        "avgDurSec": 34,
+        "avgScore": 60.5,
         "skills": {
-            "Escuta": 62.3,
-            "Personalizacao": 55.7,
-            "Empatia": 64.8,
-            "Crises": 59.2,
-            "Padroes": 57.7
+            "Escuta": 65.0,
+            "Personalizacao": 60.7,
+            "Empatia": 60.4,
+            "Crises": 65.4,
+            "Padroes": 56.1
         },
-        "count": 55,
+        "count": 56,
         "insights": {
             "pt": [
                 "Voici le débriefing de notre échange\n\n🤓 PERSONA \n\nCadre supérieur bancaire, analytique, rouge DISC, exigeant et rationnel, habitué à challenger les commerciaux sur la technique.",
@@ -1458,7 +1520,8 @@ const users = [
             "27/07/2026",
             "29/07/2026",
             "30/07/2026",
-            "30/07/2026"
+            "30/07/2026",
+            "31/07/2026"
         ],
         "avgDurMin": 1
     },
@@ -1501,11 +1564,11 @@ const users = [
         "avgDurSec": 31,
         "avgScore": 57.7,
         "skills": {
-            "Escuta": 61.0,
-            "Personalizacao": 66.7,
-            "Empatia": 62.8,
-            "Crises": 62.3,
-            "Padroes": 62.8
+            "Escuta": 64.3,
+            "Personalizacao": 64.1,
+            "Empatia": 64.4,
+            "Crises": 62.0,
+            "Padroes": 64.3
         },
         "count": 75,
         "insights": {
@@ -1688,11 +1751,11 @@ const users = [
         "avgDurSec": 21,
         "avgScore": 36.2,
         "skills": {
-            "Escuta": 32.5,
-            "Personalizacao": 41.8,
-            "Empatia": 41.0,
-            "Crises": 43.5,
-            "Padroes": 40.8
+            "Escuta": 37.8,
+            "Personalizacao": 55.2,
+            "Empatia": 40.5,
+            "Crises": 36.5,
+            "Padroes": 36.2
         },
         "count": 11,
         "insights": {
@@ -1771,16 +1834,16 @@ const users = [
         "avgDurMin": 0
     },
     {
-        "avgDurSec": 59,
-        "avgScore": 41.9,
+        "avgDurSec": 54,
+        "avgScore": 41.5,
         "skills": {
-            "Escuta": 43.2,
-            "Personalizacao": 53.3,
-            "Empatia": 48.8,
-            "Crises": 43.8,
-            "Padroes": 51.3
+            "Escuta": 45.6,
+            "Personalizacao": 51.7,
+            "Empatia": 50.6,
+            "Crises": 46.9,
+            "Padroes": 47.7
         },
-        "count": 17,
+        "count": 18,
         "insights": {
             "pt": [
                 "Voici le débriefing de notre échange\n\n🎯 PERSONA\n\nPatrícia, controladora de gestão, perfil Azul (DISC) dominante: lógica, objetiva, exige clareza, avessa à improvisação e a vendas pouco consultivas.",
@@ -1823,7 +1886,8 @@ const users = [
             "27/07/2026",
             "27/07/2026",
             "30/07/2026",
-            "30/07/2026"
+            "30/07/2026",
+            "04/08/2026"
         ],
         "avgDurMin": 1
     }
