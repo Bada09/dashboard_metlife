@@ -1629,6 +1629,126 @@ const RAW_SIMULATIONS = [
         "finished": true
     },
     {
+        "name": "Carolina Bandeliauskas",
+        "agency": "Outros",
+        "region": "Outros",
+        "date": "06/08/2026",
+        "dur": "0m 35s",
+        "score": 41,
+        "scenario": "PROSPECT_FRIO",
+        "lqa": "N/A",
+        "interactions": 6,
+        "messages": [
+            {
+                "role": "HUMAN",
+                "text": "Boa tarde Fernanda, tudo bem?"
+            },
+            {
+                "role": "AI",
+                "text": "Boa tarde. Estou no meio de atendimento, posso falar por poucos minutos. Quem é você e qual o motivo da ligação?"
+            },
+            {
+                "role": "HUMAN",
+                "text": "O meu nome é Pedro Souza, eu só preciso de um minuto, tudo bem?"
+            },
+            {
+                "role": "AI",
+                "text": "Pedro, desculpe, eu pedi para falar com uma corretora mulher. Você pode me dizer o nome da corretora e por que ela me ligou?"
+            },
+            {
+                "role": "HUMAN",
+                "text": "É, eu tô entrando em contato com você a pedido do Paulo, o seu amigo do trabalho. Ééé, ele gostou tanto do meu trabalho e recomendou você na última semana pra falar sobre planejamento financeiro, gestão de risco, unidade de patrimônio e sucessão empresarial. E o Paulo gostou tanto que fez questão te indicar e disse que você me receberia muito bem. O intuito de eu me ligar só é marcar uma reunião cerca de 15 a 20 minutos na próxima semana, ééé, pra poder apresentar meu trabalho e deixar o material da empresa. E fica tranquilo, não vou te vender nada, somente fazer uma apresentação. Você prefere no período da manhã ou da tarde?"
+            },
+            {
+                "role": "AI",
+                "text": "Pedro, eu pedi uma corretora mulher. Como você conseguiu meu número e por que o Paulo não me avisou dessa indicação?"
+            }
+        ],
+        "finished": true
+    },
+    {
+        "name": "Carolina Bandeliauskas",
+        "agency": "Outros",
+        "region": "Outros",
+        "date": "06/08/2026",
+        "dur": "1m 58s",
+        "score": 27,
+        "scenario": "RECOMENDACOES",
+        "lqa": "N/A",
+        "interactions": 17,
+        "messages": [
+            {
+                "role": "HUMAN",
+                "text": "Eduardo, você conseguiu entender a atuação da empresa?"
+            },
+            {
+                "role": "AI",
+                "text": "Sim, entendi. A proposta ficou clara quanto ao escopo e à forma de atendimento. Podemos seguir com os próximos passos."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Perfeito. E você conseguiu entender também a necessidade de ter um bom planejamento protegendo você e sua família?"
+            },
+            {
+                "role": "AI",
+                "text": "Sim. Fiquei convencido da necessidade de proteção e do papel do planejamento para segurança financeira da família. Podemos avançar para ajustar prazos e coberturas."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Perfeito, perfeito. E você entendeu também o meu trabalho estar sempre acompanhando vocês, sua família, sempre que precisar estar ao lado de vocês?"
+            },
+            {
+                "role": "AI",
+                "text": "Sim. Fica claro que você acompanha quando for preciso e mantém a disponibilidade para revisões. Podemos seguir com os ajustes combinados."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Perfeito, ok. E você me recomendaria aos seus colegas, amigos e familiares?"
+            },
+            {
+                "role": "AI",
+                "text": "Prefiro pensar um pouco antes de recomendar alguém. Acho cedo para indicar sem ver como a solução se comporta na prática. Posso falar com você sobre isso mais adiante, quando tiver observado os resultados."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Claro, claro, Eduardo, fica tranquilo, isso não tem problema, isso acontece muitas vezes, assim como aconteceu também com o Eduar-- com o Paulo que te recomendou. Mas o intuito aqui hoje é conseguir, né, falar com as pessoas são muito próximas de você, aquele melhor amigo que eu tenho certeza que não deixaria de convidar pro seu aniversário e nem você deixaria de ir no aniversário dele, que eu tenho certeza que é uma pessoa que você quer muito bem e se acontecesse alguma coisa, você não deixaria de ajudá-lo, certo?"
+            },
+            {
+                "role": "AI",
+                "text": "Prefiro não dar nomes agora. É cedo para expor meus próximos sem ter observado o serviço no tempo. Podemos combinar mais adiante, quando eu tiver visto como tudo funciona na prática."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Eduardo, te entendo, mas hoje eu já te apresentei sobre como funciona a ferramenta, qual é a empresa e o intuito aqui não s-- não é ser inconveniente. Quando eu entrei em contato com você, euuu teee atrapalhei de alguma forma, fui inconveniente ou desrespeitoso com você?"
+            },
+            {
+                "role": "AI",
+                "text": "Não, você não me atrapalhou nem foi desrespeitosa.  \nMinha reserva é apenas em expor pessoas próximas agora; prefiro observar a solução antes de indicar alguém."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Mas eu não vou entrar em contato com nenhuma pessoa, Eduardo, sem você avisar. Assim como o Paulo fez com você. Antes de eu entrar em contato, ele avisou que eu ia entrar em co-- eu ia ligar pra você e da mesma forma farei com as pessoas que você vai me recomendar. Por exemplo, qual é o, qual é o nome do seu melhor amigo?"
+            },
+            {
+                "role": "AI",
+                "text": "Prefiro não dar o nome agora. Quero primeiro ver como a solução funciona na prática antes de envolver meu círculo."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Entendo, entendo, Eduardo. Mas pensa comigo: hoje você tá tendo a respo-- a possibilidade de recomendar essa pessoa, né? E vamo dizer que infelizmente você não queira recomendar agora e a gente passa aqui, infelizmente, um a dois meses sem poder sentar e falar sobre esse planejamento. Mas neste período, infelizmente, seu melhor amigo, ele sofre um acidente e fica numa cadeira de rodas. Como vai ficar sua consciência? Você vai ficar tranquilo sabendo que teria a possibilidade de recomendar essa pessoa hoje?"
+            },
+            {
+                "role": "AI",
+                "text": "Não gosto desse tipo de argumento emocional na hora do pedido.  \nRepito: é cedo para expor meu círculo antes de ver o serviço em uso. Podemos combinar de revisitar isso daqui a um mês, se eu estiver satisfeito."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Então tá bom, Eduardo. Quem tá perdendo é você, tá? E seu, e seus amigos todos aí que vão ficar sem proteção. Beleza? Obrigada"
+            }
+        ],
+        "finished": true
+    },
+    {
         "name": "Parceiro Gorilla01",
         "agency": "Outros",
         "region": "Outros",
