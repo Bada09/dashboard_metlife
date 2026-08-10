@@ -10,8 +10,8 @@
         rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-    <script src="metlife_users_data.js?v=12"></script>
-    <script src="metlife_simulations_data.js?v=12"></script>
+    <script src="metlife_users_data.js?v=13"></script>
+    <script src="metlife_simulations_data.js?v=13"></script>
 
     <style>
         :root {
@@ -2328,7 +2328,8 @@
                                 </div>
                                 <ul class="bullet-list">
                                 ${(() => {
-                    const allInsights = user.insights[currentLang] || [];
+                    const simSpecificInsights = (sim.insights && sim.insights.length) ? sim.insights : null;
+                    const allInsights = simSpecificInsights || (user.insights && user.insights[currentLang]) || [];
                     const scenarioContext = {
                         "PROSPECT_FRIO": {
                             pt: "Foco em contorno de objeções iniciais, postura consultiva e escolha forçada de horários.",
@@ -2346,15 +2347,18 @@
                             pt: "Foco em aproveitar a satisfação pós-venda para obter indicações de forma natural.",
                             fr: "Focus sur l'obtention de recommandations qualifiées de manière naturelle."
                         }
-                    };;
+                    };
 
                     const contextText = scenarioContext[sim.scenario] ? (scenarioContext[sim.scenario][currentLang] || scenarioContext[sim.scenario].pt) : "";
-                    const contextNote = `<li><strong>${ui[currentLang].contextLabel}</strong> ${contextText}</li>`;
+                    const contextNote = contextText ? `<li><strong>${ui[currentLang].contextLabel}</strong> ${contextText}</li>` : "";
 
                     if (!allInsights.length) return contextNote + `<li>${ui[currentLang].noFeedback}</li>`;
 
+                    if (simSpecificInsights) {
+                        return contextNote + simSpecificInsights.map(txt => `<li>${fixEnc(txt)}</li>`).join('');
+                    }
+
                     const count = allInsights.length;
-                    // Jumping selection for more variety
                     const p1 = (localIndex * 2) % count;
                     const p2 = (localIndex * 2 + 1) % count;
                     const selected = [...new Set([allInsights[p1], allInsights[p2]])];

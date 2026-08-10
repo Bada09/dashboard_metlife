@@ -10,7 +10,9 @@ const RAW_SIMULATIONS = [
         "lqa": "N/A",
         "interactions": 0,
         "messages": [],
-        "finished": false
+        "finished": false,
+        "feedback": "",
+        "insights": []
     },
     {
         "name": "Juliana Pedrão",
@@ -32,7 +34,9 @@ const RAW_SIMULATIONS = [
                 "text": "Gostaria de saber se você pode falar agora ou se a gente-- se você prefere, agendar um contato amanhã às onze horas da noi--da manhã."
             }
         ],
-        "finished": false
+        "finished": false,
+        "feedback": "",
+        "insights": []
     },
     {
         "name": "Juliana Pedrão",
@@ -66,7 +70,9 @@ const RAW_SIMULATIONS = [
                 "text": "(risos) Tá bom. Continua, então. O que exatamente"
             }
         ],
-        "finished": false
+        "finished": false,
+        "feedback": "",
+        "insights": []
     },
     {
         "name": "Juliana Pedrão",
@@ -108,7 +114,18 @@ const RAW_SIMULATIONS = [
                 "text": "Certo, Juliana. Pode falar rápido o que você quer apresentar."
             }
         ],
-        "finished": true
+        "finished": true,
+        "feedback": "Aqui está o debriefing da nossa troca.\n\n  \n🤓 PERSONA\n\nVocê interpretou Mariana, perfil majoritariamente verde DISC: cordial, paciente, cautelosa, sensível à abordagem humana e avessa à pressão.\n\n  \n🎯 OBJETIVO PRINCIPAL\n\nO objetivo de responder objeções de forma convincente e obter acordo para reunião não foi atingido — faltaram objeções e proposta efetiva.\n\n  \n➕ PONTOS FORTES\n\n- Iniciou a ligação com energia, simpatia e buscou rapidamente se identificar.\n\n  \n- Solicitou autorização para prosseguir antes de avançar no discurso, mostrando respeito pelo tempo da prospect.\n\n  \n- Fez menção a uma referência próxima (“Paulo”) logo no início, ativando o gatilho de indicação.\n\n  \n⚠️ PONTOS DE MELHORIA\n\n- **Faltou proposta clara de reunião**\n  Não houve apresentação de datas ou convite direto para um encontro, essencial para o objetivo.\n\n  \n- **Ausência do “motivo do contato” objetivo**\n  Não ficou explícito o benefício ou razão específica para a prospect aceitar uma reunião.\n\n  \n- **Desvio para detalhamento precoce do caso anterior**\n  O foco rapidamente se voltou ao “plano” do outro cliente antes de alinhar o interesse da prospect.\n\n  \n- **Estrutura das oito etapas**\n  Algumas etapas (planejamento, gestão de objeções, reconfirmação) não foram sequer iniciadas.\n\n  \n🩵 ANÁLISE EMOCIONAL\n\nO tom foi agradável e acessível, com ritmo leve e vocabulário informal. A corretora demonstrou cordialidade, mas certa hesitação e falta de direção assertiva.\n\n  \n🛅 MOMENTOS-CHAVE\n\nSituação: Solicitação de dois minutos para conversar → A corretora pediu permissão para continuar, conectando-se ao perfil cauteloso da prospect → Isso ajuda na abertura, mas precisa ser seguido por proposta concreta.\n\n  \n🔊 REFORMULAÇÕES RECOMENDADAS\n\n“Mariana, posso agendar um bate-papo rápido presencial ou online? Tenho terça ou quarta, o que te encaixa melhor?”\n\n  \n“Entendo que seu tempo é precioso, por isso a conversa será objetiva e focada no que pode te ajudar.”\n\n  \n“O que me motivou a ligar foi justamente uma indicação positiva e acredito que podemos estruturar algo tão bom quanto para você.”\n\n  \n➡️ RECOMENDAÇÕES\n\nFoque em propor datas próximas assim que obtiver autorização, explique claramente o ganho da reunião e trate possíveis objeções antes que surjam, sempre ancorando nos benefícios do cliente. Lembre-se: quem conduz define o destino!\n\nMantenha esse sorriso na voz e avance com mais clareza — o próximo passo é sempre seu!",
+        "insights": [
+            "Você interpretou Mariana, perfil majoritariamente verde DISC: cordial, paciente, cautelosa, sensível à abordagem humana e avessa à pressão.",
+            "O objetivo de responder objeções de forma convincente e obter acordo para reunião não foi atingido — faltaram objeções e proposta efetiva.",
+            "Iniciou a ligação com energia, simpatia e buscou rapidamente se identificar.",
+            "Solicitou autorização para prosseguir antes de avançar no discurso, mostrando respeito pelo tempo da prospect.",
+            "Fez menção a uma referência próxima (“Paulo”) logo no início, ativando o gatilho de indicação.",
+            "Faltou proposta clara de reunião",
+            "Ausência do “motivo do contato” objetivo",
+            "Desvio para detalhamento precoce do caso anterior"
+        ]
     },
     {
         "name": "Juliana Pedrão",
@@ -126,7 +143,9 @@ const RAW_SIMULATIONS = [
                 "text": "You explained everything clearly, and it makes sense, but I need some time to think it over. I will"
             }
         ],
-        "finished": false
+        "finished": false,
+        "feedback": "",
+        "insights": []
     },
     {
         "name": "Juliana Pedrão",
@@ -152,7 +171,9 @@ const RAW_SIMULATIONS = [
                 "text": "Porque decisões financeiras importantes a gente costuma tomar em conjunto. Minha esposa acompanha investimentos e quer entender o impacto no planejamento familiar antes de dizer sim. Podemos agendar uma conversa breve com ela na próxima semana?"
             }
         ],
-        "finished": false
+        "finished": false,
+        "feedback": "",
+        "insights": []
     },
     {
         "name": "Juliana Pedrão",
@@ -250,7 +271,18 @@ const RAW_SIMULATIONS = [
                 "text": "Perfeito, então nos vemos daqui a sete dias no meu consultório.  \nObrigada pela atenção e até lá."
             }
         ],
-        "finished": true
+        "finished": true,
+        "feedback": "Aqui está o debriefing da nossa troca\n\n## 🤓 PERSONA\n\n- Interpretei Fernanda, dentista autônoma, perfil DISC majoritariamente verde (afetuosa, racional), com objeção principal centrada em “preciso pensar e envolver minha filha e esposa”.\n\n## 🎯 OBJETIVO PRINCIPAL\n\n- Seu desafio era descobrir a razão real do adiamento, contornar objeções com técnica Gorilla e fechar já na reunião, sem pressão. Objetivo plenamente atingido: conduziu com leveza ao fechamento imediato e prospecta um novo contato.\n\n## ➕ PONTOS FORTES\n\n- Realizou ótima escuta ativa, validando objeções sem rebater de imediato, identificando a necessidade da decisão familiar.\n\n- Aplicou a História de Conexão (analogia da filha passando frio), conectando de modo emocional aos valores de proteção e urgência.\n\n- Utilizou a Recapitulação de Coberturas e metodologia V.I.D.A., trazendo o foco de volta à dor real do cliente.\n\n- Fez uso elegante de Concordância Tácita (“Vai ser no crédito ou débito?”), caminhando ao fechamento sem pressão e com perguntas claras.\n\nMandou bem! Seu domínio das técnicas Gorilla ficou evidente – momentos dignos de comercial de TV.\n\n## ⚠️ PONTOS DE MELHORIA\n\n- Diagnóstico da objeção: Poderia ter investigado com mais precisão a diferença entre “vou pensar” e “preciso de aprovação” com a pergunta-chave Gorilla (“Você quer pensar se vai fazer ou sobre quando vai fazer?”).\n\n- Power Phrase Gorilla: Faltou aquela frase de impacto com silêncio proposital – poderia potencializar ainda mais o senso de urgência gentil.\n\n- Um pouco de redundância nas explicações finais. Foque em frases mais enxutas, especialmente ao recapitular coberturas e diferenciais, mantendo energia e objetividade.\n\nPequenos ajustes trarão escuta ainda mais refinada e condução ainda mais consultiva!\n\n## 🩵 ANÁLISE EMOCIONAL\n\nO tom foi acolhedor, empático e seguro, mas a velocidade das falas e excesso de “ééé” podem transmitir pressa ou certo improviso. Estado emocional dominante: confiante e cuidadoso, com leve oscilação para nervosismo em momentos de fechamento.\n\n## 🛅 MOMENTOS-CHAVE\n\nNa objeção sobre decisão conjunta, você usou a História de Conexão (analogia da filha) – extremamente poderosa para prospectos verdes pois valoriza afetos e proteção. No fechamento, a Concordância Tácita (“crédito ou débito?”) foi realizada no momento exato: avançou de modo natural e relaxado.\n\n## 🔊 REFORMULAÇÕES RECOMENDADAS\n\n- “Fernanda, o seguro de vida não é uma questão de quando se quer fazer, é de enquanto se pode fazer.” [Power Phrase Gorilla]\n\n- “Você quer pensar se realmente precisa ou mais sobre o momento de fazer?” [Busca da verdadeira objeção]\n\n- “Posso colocar a sua filha como primeira beneficiária?” [Concordância Tácita, suave e avançando]\n\n- “Imprevistos a gente nunca escolhe, mas pode escolher estar preparada.”\n\n- “Se esse plano resolver sua dúvida, você decide hoje?”\n\n## ➡️ RECOMENDAÇÕES\n\nSempre investigue antes de avançar – busque a objeção real com perguntas abertas. Potencialize o impacto emocional com Power Phrases e dê espaço para o silêncio. Reduza preenchimento ao essencial para manter ritmo consultivo e assertivo. Pronto para fechar ainda mais negócios com leveza e maestria!",
+        "insights": [
+            "Interpretei Fernanda, dentista autônoma, perfil DISC majoritariamente verde (afetuosa, racional), com objeção principal centrada em “preciso pensar e envolver minha filha e esposa”.",
+            "Seu desafio era descobrir a razão real do adiamento, contornar objeções com técnica Gorilla e fechar já na reunião, sem pressão. Objetivo plenamente atingido: conduziu com leveza ao fechamento imediato e prospecta um novo contato.",
+            "Realizou ótima escuta ativa, validando objeções sem rebater de imediato, identificando a necessidade da decisão familiar.",
+            "Aplicou a História de Conexão (analogia da filha passando frio), conectando de modo emocional aos valores de proteção e urgência.",
+            "Utilizou a Recapitulação de Coberturas e metodologia V.I.D.A., trazendo o foco de volta à dor real do cliente.",
+            "Fez uso elegante de Concordância Tácita (“Vai ser no crédito ou débito?”), caminhando ao fechamento sem pressão e com perguntas claras.",
+            "Diagnóstico da objeção: Poderia ter investigado com mais precisão a diferença entre “vou pensar” e “preciso de aprovação” com a pergunta-chave Gorilla (“Você quer pensar se vai fazer ou sobre quando vai fazer?”).",
+            "Power Phrase Gorilla: Faltou aquela frase de impacto com silêncio proposital – poderia potencializar ainda mais o senso de urgência gentil."
+        ]
     },
     {
         "name": "Juliana Pedrão",
@@ -352,7 +384,18 @@ const RAW_SIMULATIONS = [
                 "text": "Assinatura agora aqui pelo tablet, a gente já finaliza, tá?"
             }
         ],
-        "finished": true
+        "finished": true,
+        "feedback": "Aqui está o debriefing da nossa troca. ⟪Observe um silêncio de 1 segundo.⟫\n\n[linha vazia]\n\n🤓 PERSONA\n⟪Observe um silêncio de 2 segundos.⟫\n- Eduardo, perfil DISC Blue: analítico, racional, precisa de provas claras, objetividade e odeia pressão.\n\n- Expressou objeção financeira fundamentada na dificuldade de encaixar o prêmio no orçamento atual.\n\n[linha vazia]\n\n🎯 OBJETIVO PRINCIPAL\n⟪Observe um silêncio de 2 segundos.⟫\n- Descobrir a real razão do bloqueio financeiro e aplicar a prática de ajuste de prêmio para garantir a contratação já.\n\n- Objetivo atingido: fechamento realizado com ambiente sereno e postura consultiva.\n\n[linha vazia]\n\n➕ PONTOS FORTES\n⟪Observe um silêncio de 1 segundo.⟫\n- Demonstrou empatia genuína no início, reforçando que entendeu o cenário do cliente.\n\n- Propôs ajuste concreto de prêmio e capital, adaptando a proposta ao orçamento do Eduardo.\n\n- Reforçou a proteção \"em vida\" e a importância da cobertura de imprevistos, sem criar pânico.\n\n- Utilizou fechamento consultivo, conduzindo Eduardo sem pressão direta, com foco no processo a quatro mãos.\n\nParabéns, essa postura acolhedora cria confiança!\n\n[linha vazia]\n\n📈 PONTOS DE MELHORIA\n⟪Observe um silêncio de 2 segundos.⟫\n- Faltou investigar mais sobre a raiz da objeção: poderia perguntar com mais precisão “O que pesa mais no seu orçamento hoje?”.\n\n- Poderia ter usado uma Power Phrase, como: “Nunca vi alguém quebrar por proteger a família, só por não ter feito isso”.\n\n- A cruz VOSSA/NOSSA ficou implícita, mas podia ter sido verbalizada para deixar tangível a vantagem da troca.\n\n- Pequeno excesso de “eeehs” e explicações longas; com perfil Blue, mais objetividade otimiza o ritmo da negociação.\n\nÓtimas bases; lapidando perguntas de escuta e frases de impacto, você potencializa ainda mais seus resultados.\n\n[linha vazia]\n\n🩵 ANÁLISE EMOCIONAL\n⟪Observe um silêncio de 2 segundos.⟫\n- Tom controlado e paciente, vocabulário informal e acolhedor, ritmo levemente prolixo, postura predominantemente empática e segura.\n\n[linha vazia]\n\n🛅 MOMENTOS-CHAVE\n⟪Observe um silêncio de 2 segundos.⟫\n- Ao reconhecer as limitações do cliente (“realmente se você fechar essa proposta, não vai conseguir pagá-la”), demonstrou respeito e ganhou credibilidade.\n\n- Quando propôs ajustar as coberturas junto com o cliente, criou engajamento e sensação de parceria — ponto essencial para fechamento tranquilo.\n\n[linha vazia]\n\n🔊 REFORMULAÇÕES RECOMENDADAS\n⟪Observe um silêncio de 2 segundos.⟫\n- “Eduardo, o que torna difícil encaixar esta proteção no seu planejamento atual: o valor, o compromisso ou outro ponto?”\n\n- “Nunca vi ninguém perder estabilidade por proteger sua família, mas já vi muitas famílias passarem dificuldades por não ter proteção.”\n\n- “Se começarmos com este valor agora, você revisa comigo quando o cenário mudar — tudo bem ajustarmos assim?”\n\n- “Podemos colocar sua esposa como beneficiária principal, certo?”\n\n- “Se reduzirmos as coberturas de forma que caibam no seu orçamento, fechamos juntos hoje?”\n\n[linha vazia]\n\n➡️ RECOMENDAÇÕES\n⟪Observe um silêncio de 2 segundos.⟫\nAprofunde sempre a descoberta da objeção com perguntas claras e objetivas, use a cruz VOSSA/NOSSA para tornar tangível a troca e arremate com frases de força seguidas de silêncio. Tua escuta já está num belo caminho — só falta afiar alguns detalhes para elevar os fechamentos ao próximo nível!",
+        "insights": [
+            "Eduardo, perfil DISC Blue: analítico, racional, precisa de provas claras, objetividade e odeia pressão.",
+            "Expressou objeção financeira fundamentada na dificuldade de encaixar o prêmio no orçamento atual.",
+            "Descobrir a real razão do bloqueio financeiro e aplicar a prática de ajuste de prêmio para garantir a contratação já.",
+            "Objetivo atingido: fechamento realizado com ambiente sereno e postura consultiva.",
+            "Demonstrou empatia genuína no início, reforçando que entendeu o cenário do cliente.",
+            "Propôs ajuste concreto de prêmio e capital, adaptando a proposta ao orçamento do Eduardo.",
+            "Reforçou a proteção \"em vida\" e a importância da cobertura de imprevistos, sem criar pânico.",
+            "Utilizou fechamento consultivo, conduzindo Eduardo sem pressão direta, com foco no processo a quatro mãos."
+        ]
     },
     {
         "name": "Juliana Pedrão",
@@ -370,7 +413,9 @@ const RAW_SIMULATIONS = [
                 "text": "Oi Roberto, tudo bem? É, devido ao atende-- peraí, Ju"
             }
         ],
-        "finished": false
+        "finished": false,
+        "feedback": "",
+        "insights": []
     },
     {
         "name": "Juliana Pedrão",
@@ -448,7 +493,9 @@ const RAW_SIMULATIONS = [
                 "text": "Olha, eu tô dizendo que quem tem que me recomendar são você, não eu. Eu não vou ficar entregando nome sem antes combinar com a pessoa. Você quer que eu avise ou prefere que eu nem fale nada ainda?"
             }
         ],
-        "finished": false
+        "finished": false,
+        "feedback": "",
+        "insights": []
     },
     {
         "name": "Juliana Pedrão",
@@ -574,7 +621,18 @@ const RAW_SIMULATIONS = [
                 "text": "Consultoria financeira pra você, cons-consultoria na parte de proteção financeira. Ééé, e vou cuidar de você, cara, e da sua família como se fosse a minha, pode ter certeza, tá?"
             }
         ],
-        "finished": true
+        "finished": true,
+        "feedback": "Aqui está o debriefing da nossa troca.\n\n  \n## 🤓 PERSONA\n\n- Interpretei André, médico clínico geral, perfil DISC vermelho (direto, exigente), com objeção principal de adiamento para pensar melhor.\n\n  \n## 🎯 OBJETIVO PRINCIPAL\n\n- O objetivo era descobrir a razão real do adiamento e contornar a objeção com técnica Gorilla, levando ao fechamento imediato e seguro.\n- Objetivo foi atingido, com leve excesso de condução, mas cliente fechou satisfeito.\n\n  \n## ➕ PONTOS FORTES\n\n- Demonstrou acolhimento inicial, mostrando empatia e validando a importância da decisão.\n  \n- Trouxe argumentos de especialista e usou a técnica da transferência de risco (Obligation/SWAP/Técnica Russa) ao comparar o valor pago com o capital protegido.\n  \n- Recapitulou as necessidades da jornada, alinhando benefícios à realidade do cliente (V.I.D.A.).\n  \n- Usou exemplos financeiros concretos, como o impacto do ITCMD, para criar urgência e senso de valor.\n  \n- Conduziu ao fechamento com perguntas de concordância tácita, finalizando sem pressão aberta.\n  \nContinue assim, sua consultoria teve tom humano e especialista!\n\n  \n## ⚠️ PONTOS DE MELHORIA\n\n- Faltou aplicar explicitamente as cinco perguntas Gorilla para identificar objeção real, antes de contornar.\n  \n- Não utilizou a pergunta-chave \"você quer pensar se vai fazer ou quando vai fazer?\", que diferencia dúvida de fuga.\n  \n- Poderia ter usado uma Power Phrase Gorilla seguida de silêncio (\"Seguro de vida não é questão de quando se quer fazer...\")\n  \n- Iniciou a negociação logo após objeção, sem aprofundar a razão verdadeira — oportunidade de explorar “o que te preocupa exatamente?”\n  \n- Em certos momentos, a argumentação ficou longa e poderia ser mais direta, ajustando ao perfil vermelho do cliente.\n\nPratique as perguntas abertas e o uso estratégico do silêncio para aumentar seu poder de fechamento.\n\n  \n## 🩵 ANÁLISE EMOCIONAL\n\n- O tom foi acolhedor e confiante, mas por vezes acelerado ou didático demais; faltou usar pausas para ouvir mais.\n\n  \n## 🛅 MOMENTOS-CHAVE\n\n- Ao recapitular o V.I.D.A. e apresentar a transferência de risco, elevou a percepção de valor — excelente aplicação de Recapitulação.\n  \n- Ao concluir com perguntas objetivas sobre beneficiário e modo de pagamento, executou Concordância Tácita e facilitou a decisão.\n\n  \n## 🔊 REFORMULAÇÕES RECOMENDADAS\n\n- “André, você quer pensar se vai fazer esse seguro, ou só quando vai fazer?”\n- “Seguro de vida não é sobre quando queremos fazer, e sim de enquanto podemos fazer.” (Power Phrase + silêncio)\n- “Se te ajudar, podemos ajustar a cobertura para o momento, e evoluir depois. Faz sentido pra você?”\n- “Posso colocar sua filha como beneficiária?”\n- “Prefere débito em conta ou cartão de crédito?”\n\n  \n## ➡️ RECOMENDAÇÕES\n\nUse sempre a sequência das cinco perguntas para decifrar a objeção real antes de apresentar soluções. Pratique inserir Power Phrases e silencie após elas. Adapte ritmo ao DISC do prospect. Evolua seu fechamento consultivo, você está no caminho certo para se tornar um “Gorilla closer”!",
+        "insights": [
+            "Interpretei André, médico clínico geral, perfil DISC vermelho (direto, exigente), com objeção principal de adiamento para pensar melhor.",
+            "O objetivo era descobrir a razão real do adiamento e contornar a objeção com técnica Gorilla, levando ao fechamento imediato e seguro.",
+            "Objetivo foi atingido, com leve excesso de condução, mas cliente fechou satisfeito.",
+            "Demonstrou acolhimento inicial, mostrando empatia e validando a importância da decisão.",
+            "Trouxe argumentos de especialista e usou a técnica da transferência de risco (Obligation/SWAP/Técnica Russa) ao comparar o valor pago com o capital protegido.",
+            "Recapitulou as necessidades da jornada, alinhando benefícios à realidade do cliente (V.I.D.A.).",
+            "Usou exemplos financeiros concretos, como o impacto do ITCMD, para criar urgência e senso de valor.",
+            "Conduziu ao fechamento com perguntas de concordância tácita, finalizando sem pressão aberta."
+        ]
     },
     {
         "name": "Juliana Pedrão",
@@ -587,7 +645,9 @@ const RAW_SIMULATIONS = [
         "lqa": "N/A",
         "interactions": 0,
         "messages": [],
-        "finished": false
+        "finished": false,
+        "feedback": "",
+        "insights": []
     },
     {
         "name": "Juliana Pedrão",
@@ -613,7 +673,9 @@ const RAW_SIMULATIONS = [
                 "text": "Olha, vou ser sincero: é meio cedo pra eu sair dando nome assim, prefiro primeiro ver como isso vai ficar na prática com a minha família. Podemos combinar que eu te passo um contato depois, quando eu avisar a pessoa antes?"
             }
         ],
-        "finished": false
+        "finished": false,
+        "feedback": "",
+        "insights": []
     },
     {
         "name": "Carolina Bandeliauskas",
@@ -675,7 +737,18 @@ const RAW_SIMULATIONS = [
                 "text": "É... Quero agendar uma reunião, você pode ou não?"
             }
         ],
-        "finished": true
+        "finished": true,
+        "feedback": "Aqui está o debriefing da nossa troca.\n\n🤓 PERSONA\n\nInterpretei Camila, uma jovem executiva de perfil DISC majoritariamente amarelo: comunicativa, questionadora, valorizando inovação, experiência digital e autonomia.\n\n🎯 OBJETIVO PRINCIPAL\n\nO objetivo era responder objetivamente às objeções e agendar uma reunião. O objetivo foi parcialmente atingido: houve proposta de reunião, mas sem concordância nem tratamento efetivo das objeções.\n\n### ➕ PONTOS FORTES\n\n- Iniciou a ligação com energia e propôs o agendamento rapidamente.\n- Ressaltou a personalização e adaptatividade do serviço, mencionando planejamento feito sob medida.\n- Tentou mostrar valor agregado e diferenciação frente ao mercado.\n- Demonstrou alguma tentativa de assertividade ao insistir em buscar a reunião.\n\n### ⚠️ PONTOS DE MELHORIA\n\n- Faltou abertura clara (apresentação) e pedido formal de autorização para conversar.\n- Não houve quebra-gelo pessoal ou tentativa de ativar o gatilho da recomendação.\n- O roteiro foi atropelado: perguntas fechadas diretas (“qual é a sua faixa de renda?”), sem escuta ativa ou construção consultiva.\n- Não tratou as objeções usando o método “sim, mas…”; respostas foram defensivas ou vagas.\n- Ignorou pontos do método MetLife: escolha forçada de horários, reconfirmação de reunião, e ausência de pedido de recomendação.\n- A postura ficou mais de vendedor insistente do que de consultor.\n\n### 🩵 ANÁLISE EMOCIONAL\n\nO tom ficou apressado e pouco acolhedor, com ansiedade perceptível. O vocabulário oscilou entre técnico e genérico. O estado emocional dominante foi tenso e reativo.\n\n### 🛅 MOMENTOS-CHAVE\n\nNa insistência para marcar reunião (“Quero agendar uma reunião, você pode ou não?”) a assertividade se transformou em pressão, levando ao risco de rejeição. Na pergunta direta sobre renda, houve perda de confiança e conexão.\n\n### 🔊 REFORMULAÇÕES RECOMENDADAS\n\n“Posso explicar brevemente como posso te ajudar antes de avançarmos?”\n“Entendo que seu tempo é valioso – seria melhor amanhã às dez ou na quarta às quinze para uma conversa rápida?”\n“Paulo comentou que eu deveria te procurar pois seu perfil se encaixa muito no que eu faço.”\n“Se não for relevante para você, posso te indicar alguém ou deixar um material resumido?”\n\n### ➡️ RECOMENDAÇÕES\n\nTrabalhe mais a construção da confiança e curiosidade antes de pedir qualquer dado pessoal. Siga as oito etapas do método, aprofunde a escuta ativa, trate as objeções com mais empatia e sempre proponha escolha de horários próximos.\n\nCada conversa é uma ponte: tente construir a sua com menos pressa e mais propósito!",
+        "insights": [
+            "Interpretei Camila, uma jovem executiva de perfil DISC majoritariamente amarelo: comunicativa, questionadora, valorizando inovação, experiência digital e autonomia.",
+            "O objetivo era responder objetivamente às objeções e agendar uma reunião. O objetivo foi parcialmente atingido: houve proposta de reunião, mas sem concordância nem tratamento efetivo das objeções.",
+            "Iniciou a ligação com energia e propôs o agendamento rapidamente.",
+            "Ressaltou a personalização e adaptatividade do serviço, mencionando planejamento feito sob medida.",
+            "Tentou mostrar valor agregado e diferenciação frente ao mercado.",
+            "Demonstrou alguma tentativa de assertividade ao insistir em buscar a reunião.",
+            "Faltou abertura clara (apresentação) e pedido formal de autorização para conversar.",
+            "Não houve quebra-gelo pessoal ou tentativa de ativar o gatilho da recomendação."
+        ]
     },
     {
         "name": "Carolina Bandeliauskas",
@@ -693,7 +766,9 @@ const RAW_SIMULATIONS = [
                 "text": "O mais prático é me enviar o documento por e-mail, eu o percorro no meu ritmo e retorno com minhas impressões."
             }
         ],
-        "finished": false
+        "finished": false,
+        "feedback": "",
+        "insights": []
     },
     {
         "name": "Carolina Bandeliauskas",
@@ -711,7 +786,9 @@ const RAW_SIMULATIONS = [
                 "text": "O mais prático é me enviar o documento por e-mail, eu o percorro no meu ritmo e retorno com minhas impressões."
             }
         ],
-        "finished": false
+        "finished": false,
+        "feedback": "",
+        "insights": []
     },
     {
         "name": "Carolina Bandeliauskas",
@@ -733,7 +810,9 @@ const RAW_SIMULATIONS = [
                 "text": "De nada. Estou à espera da sua proposta de reunião ou de alguma informação específica que ache relevante."
             }
         ],
-        "finished": false
+        "finished": false,
+        "feedback": "",
+        "insights": []
     },
     {
         "name": "Carolina Bandeliauskas",
@@ -787,7 +866,18 @@ const RAW_SIMULATIONS = [
                 "text": "Beleza, então te espero quinta-feira, fim do expediente, presencial. Pode mandar o endereço."
             }
         ],
-        "finished": true
+        "finished": true,
+        "feedback": "Aqui está o debriefing da nossa troca.\n\n🤓 PERSONA\n\nVocê interpretou um corretor de perfil flexível, assertivo e objetivo, com inclinações disc para dominante e estável.\n\n🎯 OBJETIVO PRINCIPAL\n\nVocê conseguiu agendar uma reunião presencial com confirmação de horário e local, mas respondeu superficialmente às objeções. Objetivo parcialmente atingido.\n\n### ➕ PONTOS FORTES\n\n- Demonstrou praticidade ao propor datas e horários concretos, facilitando o fechamento rápido.\n- Aceitou de modo profissional a preferência por reunião presencial.\n- Manteve uma comunicação objetiva, sem rodeios ou excesso de formalidade.\n- Mostrou flexibilidade diante da contraproposta sobre dia, horário e formato do encontro.\n\n### ⚠️ PONTOS DE MELHORIA\n\n- Faltou apresentar-se formalmente e pedir autorização antes de iniciar o contato.\n- Não houve quebra-gelo nem personalização para ativar o gatilho da recomendação.\n- A escolha forçada foi pouco explorada; ao sugerir “amanhã às dez”, não apresentou duas opções próximas.\n- Objeções não foram trabalhadas usando a técnica do “sim, mas...”— só houve aceitação imediata.\n- Não houve validação do perfil NAPA nem investigação de necessidade.\n- Faltou reconfirmação clara (repetir dia, hora, local).\n- Ausência de pedido de recomendação ao final.\n\n### 🩵 ANÁLISE EMOCIONAL\n\nO tom foi assertivo, direto e seguro, porém com ritmo acelerado e vocabulário pouco empático, denotando foco na objetividade.\n\n### 🛅 MOMENTOS-CHAVE\n\nQuando sugeriu logo o horário (“amanhã às dez horas”), deu objetividade e direcionamento à conversa, impulsionando o fechamento do agendamento. Porém, ao aceitar de imediato o horário e formato sugerido pelo prospect, perdeu chance de trabalhar engajamento.\n\n### 🔊 REFORMULAÇÕES RECOMENDADAS\n\n“Patrícia, posso te contar rapidamente por que a conversa pode ser relevante pra você?”\n“Prefere que eu te apresente dois horários nesta semana para facilitar pra você?”\n“Se surgir qualquer dúvida antes da nossa conversa, posso te ajudar por aqui?”\n“Você conhece alguém que possa se beneficiar desse tipo de orientação financeira?”\n\n### ➡️ RECOMENDAÇÕES\n\nInicie sempre pedindo autorização e engaje com um quebra-gelo personalizado. Explore ao menos duas alternativas de horário e valide objeções com mais profundidade usando o “sim, mas...”. Ao concluir, reconfirme e peça uma recomendação, mesmo com aceitação. Você já faz bem, mas pode ir além!",
+        "insights": [
+            "Demonstrou praticidade ao propor datas e horários concretos, facilitando o fechamento rápido.",
+            "Aceitou de modo profissional a preferência por reunião presencial.",
+            "Manteve uma comunicação objetiva, sem rodeios ou excesso de formalidade.",
+            "Mostrou flexibilidade diante da contraproposta sobre dia, horário e formato do encontro.",
+            "Faltou apresentar-se formalmente e pedir autorização antes de iniciar o contato.",
+            "Não houve quebra-gelo nem personalização para ativar o gatilho da recomendação.",
+            "A escolha forçada foi pouco explorada; ao sugerir “amanhã às dez”, não apresentou duas opções próximas.",
+            "Objeções não foram trabalhadas usando a técnica do “sim, mas...”— só houve aceitação imediata."
+        ]
     },
     {
         "name": "Carolina Bandeliauskas",
@@ -829,7 +919,13 @@ const RAW_SIMULATIONS = [
                 "text": "Se você não antecipa nada por telefone, eu preciso de ao menos um resumo objetivo do que será apresentado. Diga em duas frases claras qual é o benefício concreto para mim nessa reunião."
             }
         ],
-        "finished": true
+        "finished": true,
+        "feedback": "Aqui está o debriefing da nossa troca.\n\n🤓 PERSONA\n\nVocê conversou com Patrícia, perfil majoritariamente azul no DISC, exigente, racional, pouco aberta a contatos improvisados e com forte aversão a enrolação comercial.\n\n🎯 OBJETIVO PRINCIPAL\n\nO objetivo era responder de forma convincente às objeções e obter o acordo para uma reunião de descoberta. O objetivo não foi atingido: não houve acolhimento das objeções e a conversa ficou artificial e agressiva, sem convite claro à reunião.\n\n### ➕ PONTOS FORTES\n\nVocê demonstrou insistência, o que, em contextos certos, pode transmitir determinação. Tentou explicar a importância do contato personalizado e que só uma reunião revelaria a proposta completa.\n\n### ⚠️ PONTOS DE MELHORIA\n\nFaltou pedir autorização para seguir na conversa, o que limita a aceitação de uma pessoa com perfil analítico e desconfiado. Em nenhum momento houve uma tentativa de conexão real (quebra-gelo, recomendação, interesse genuíno pelo interlocutor). O pitch inicial foi abrupto, sem valorização do benefício para a cliente. A condução ignorou o uso de perguntas abertas e ignorou por completo o método escolha forçada (“prefere terça ou quarta?”). Não houve tratamento das objeções usando “sim, mas…”, nem validação emocional (“entendo sua preocupação, mas posso garantir que…”). O discurso ficou excessivamente centrado em você e não no prospect.\n\n### 🩵 ANÁLISE EMOCIONAL\n\nO tom transmitiu ansiedade, atropelo e insegurança, com frases cortadas e pouca empatia; parecia mais um monólogo do que um convite.\n\n### 🛅 MOMENTOS-CHAVE\n\nNa recusa imediata do prospect, você apenas repetiu o objetivo sem adaptar a linguagem nem explorar a objeção. Ao tentar justificar o valor do encontro, esqueceu de perguntar algo sobre o interlocutor, o que é chave para avanço.\n\n### 🔊 REFORMULAÇÕES RECOMENDADAS\n\n“Antes de tudo, posso explicar rapidamente o motivo do meu contato?”\n“Recebi sua indicação através do Paulo, tudo bem compartilhar o motivo?”\n“Entendo sua resistência, prometo ser breve – pode ser uma agenda de quinze minutos, terça às dez ou quarta às onze?”\n“Posso contar com uma indicação sua, caso isso faça sentido para alguém do seu círculo?”\n\n### ➡️ RECOMENDAÇÕES\n\nPense como consultor, não vendedor. Sempre peça autorização e utilize perguntas que envolvam o prospect. Ajuste seu ritmo: fale menos de você e explore o interesse e o contexto do outro. Faça perguntas assertivas e dê escolhas objetivas.\n\nCada ligação é uma nova chance de mostrar valor real. Aperfeiçoe sua escuta ativa e avance!",
+        "insights": [
+            "O objetivo era responder de forma convincente às objeções e obter o acordo para uma reunião de descoberta. O objetivo não foi atingido: não houve acolhimento das objeções e a conversa ficou artificial e agressiva, sem convite claro à reunião.",
+            "Faltou pedir autorização para seguir na conversa, o que limita a aceitação de uma pessoa com perfil analítico e desconfiado. Em nenhum momento houve uma tentativa de conexão real (quebra-gelo, recomendação, interesse genuíno pelo interlocutor). O pitch inicial foi abrupto, sem valorização do benefício para a cliente. A condução ignorou o uso de perguntas abertas e ignorou por completo o método escolha forçada (“prefere terça ou quarta?”). Não houve tratamento das objeções usando “sim, mas…”, nem validação emocional (“entendo sua preocupação, mas posso garantir que…”). O discurso ficou excessivamente centrado em você e não no prospect.",
+            "Pense como consultor, não vendedor. Sempre peça autorização e utilize perguntas que envolvam o prospect. Ajuste seu ritmo: fale menos de você e explore o interesse e o contexto do outro. Faça perguntas assertivas e dê escolhas objetivas."
+        ]
     },
     {
         "name": "Carolina Bandeliauskas",
@@ -899,7 +995,18 @@ const RAW_SIMULATIONS = [
                 "text": "Não conheço a Carol pessoalmente assim a ponto de aceitar reunião por indicação. Segunda pela manhã não funciona para mim esta semana. Envie, por favor, um resumo objetivo com garantias, exclusões e custos; se for claro eu avalio marcar."
             }
         ],
-        "finished": true
+        "finished": true,
+        "feedback": "Aqui está o debriefing da nossa troca\n\n🤓 PERSONA\n\nVocê interagiu com Patrícia, perfil DISC azul dominante: analítica, objetiva, criteriosa, voltada para fatos concretos e desconfiada de discurso vago.\n\n🎯 OBJETIVO PRINCIPAL\n\nVocê respondeu de modo cordial e persistente às objeções, propôs a reunião, mas não obteve a confirmação final. Objetivo parcialmente atingido.\n\n### ➕ PONTOS FORTES\n\n- Utilizou escolha forçada para os horários, demonstrando domínio da técnica de agendamento.\n- Manteve tom acolhedor, persistente e educado ao longo da conversa.\n- Tentou gerar vínculo ao citar a recomendação da Carol e suas necessidades familiares.\n- Adotou postura consultiva, apresentando-se como consultor de planejamento financeiro e evitando discurso de vendedor.\n\n### ⚠️ PONTOS DE MELHORIA\n\n- Não pediu autorização formal para conversar nem validou interesse inicial antes de avançar.\n- Falhou em aprofundar perguntas exploratórias para o perfil NAPA; a validação foi apressada e superficial.\n- Faltou utilizar a técnica do “sim, mas…” para legitimar objeções antes de contornar (“Eu entendo que seu tempo é curto, mas…”).\n- Ênfase excessiva em depoimento da Carol pode soar forçada ou invasiva, especialmente para um perfil analítico.\n- Não houve encerramento claro da ligação nem recolhimento de recomendação ao final.\n\n### 🩵 ANÁLISE EMOCIONAL\n\nSeu tom foi respeitoso e disponível, mas o ritmo apressou etapas e a argumentação buscou mais insistência do que escuta ativa. Predominou ansiedade construtiva.\n\n### 🛅 MOMENTOS-CHAVE\n\nAo propor dois horários específicos, você facilitou o avanço do prospect, ajustando-se à metodologia. Contudo, insistir repetidamente no depoimento da Carol pareceu reativo e reduziu a naturalidade.\n\n### 🔊 REFORMULAÇÕES RECOMENDADAS\n\n“Entendo seu tempo reduzido, por isso minha proposta é uma conversa objetiva de vinte minutos, que pode agregar na sua organização financeira.”\n“Se preferir, podemos agendar para a próxima semana em um horário que encaixe melhor na sua rotina.”\n“Quais seriam dúvidas principais que gostaria de abordar nesse encontro?”\n“Se nesse momento não fizer sentido, posso te reencontrar em outra oportunidade ou você conhece alguém que se beneficiaria deste conteúdo?”\n\n### ➡️ RECOMENDAÇÕES\n\nConfirme sempre a autorização do prospect antes de avançar e utilize mais escuta ativa. Explore rapidamente – mas com sutileza – necessidades e perfil. Personalize o convite, legitime objeções e não esqueça de pedir recomendações. Persistência não é sinônimo de pressão!\n\nContinue praticando e logo a taxa de reuniões confirmadas vai subir – disciplina, empatia e ajuste fino fazem milagres!",
+        "insights": [
+            "Você interagiu com Patrícia, perfil DISC azul dominante: analítica, objetiva, criteriosa, voltada para fatos concretos e desconfiada de discurso vago.",
+            "Utilizou escolha forçada para os horários, demonstrando domínio da técnica de agendamento.",
+            "Manteve tom acolhedor, persistente e educado ao longo da conversa.",
+            "Tentou gerar vínculo ao citar a recomendação da Carol e suas necessidades familiares.",
+            "Adotou postura consultiva, apresentando-se como consultor de planejamento financeiro e evitando discurso de vendedor.",
+            "Não pediu autorização formal para conversar nem validou interesse inicial antes de avançar.",
+            "Falhou em aprofundar perguntas exploratórias para o perfil NAPA; a validação foi apressada e superficial.",
+            "Faltou utilizar a técnica do “sim, mas…” para legitimar objeções antes de contornar (“Eu entendo que seu tempo é curto, mas…”)."
+        ]
     },
     {
         "name": "Carolina Bandeliauskas",
@@ -953,7 +1060,13 @@ const RAW_SIMULATIONS = [
                 "text": "Senhora, mantenho minha decisão. Não marco reunião sem o material por e-mail. Boa tarde."
             }
         ],
-        "finished": true
+        "finished": true,
+        "feedback": "Aqui está o debriefing de nossa conversa.\n\n \n\n🤓 PERSONA\n\nAtuei como Thiago, empreendedor frenético, perfil DISC dominante vermelho: direto, pragmático, avesso a perder tempo.\n\n🎯 OBJETIVO PRINCIPAL\n\nSeu objetivo era responder assertivamente à objeção e conseguir uma reunião sem o envio prévio de material. O objetivo não foi atingido, pois a conversa terminou em recusa e tensão.\n\n \n\n➕ Pontos fortes\n\nVocê argumentou bem sobre a superficialidade do material genérico, destacando o valor da personalização.\nTrouxe o vínculo da recomendação para gerar autoridade e mostrar respeito pelo contato.\nUtilizou a técnica da escolha forçada ao agendar duas opções de data.\nTentou, ao longo da conversa, manter o foco na reunião presencial sem “ceder” ao envio do material genérico.\n\n \n\n⚠️ EIXOS DE MELHORIA\n\nFaltou validar o sentimento do prospect logo na objeção, como um “Sim, entendo seu ponto, mas…”.\nNão houve real escuta ativa ou investigação das razões do pedido; faltaram perguntas abertas (“O que motivou seu interesse?”, “O que procura saber com o material?”).\nA argumentação ficou presa em justificativas institucionais em vez de explorar as necessidades pessoais e preocupações do prospect.\nO encerramento brusco (“vou falar pra ela que não faremos essa reunião”, “o problema é seu…”) soou coercitivo e antirrelacional, fechando portas para o futuro.\n\n \n\n🩵 ANÁLISE EMOCIONAL\n\nO tom começou cordial, mas rapidamente evoluiu para impaciente e defensivo, com acelerações e cortes que demonstram impaciência e certa frustração.\n\n \n\n🛅 MOMENTOS-CHAVE\n\nQuando você explicou sobre a superficialidade do material, tentou diferenciar seu valor.\nO final, ao transferir a responsabilidade e encerrar com tom acusatório, marcou negativamente a interação, inviabilizando reengajamento.\n\n \n\n🔊 REFORMULAÇÕES RECOMENDADAS\n\n“Entendo perfeitamente sua preferência por analisar antes, posso te adiantar um resumo na reunião e personalizá-lo para sua realidade.”\n\n“Me conta, o que seria mais importante pra você saber antes de marcarmos?”\n\n“Podemos conversar quinze minutos online, assim levo só o que for relevante pra você.”\n\n“Se ficar com alguma dúvida após nosso bate-papo, envio o material detalhado, combinado?”\n\n \n\n➡️ RECOMENDAÇÕES\n\nAo receber objeção, valorize o sentimento do prospect, investigue com perguntas abertas e construa relação antes de pressionar agenda. Preserve o relacionamento mesmo diante de respostas negativas e mantenha a porta aberta para futuros contatos. Calma e empatia conquistam mais do que pressa.\n\nErrou o tom no final, mas nada que prática e autopercepção não melhorem. Bora para a próxima!",
+        "insights": [
+            "Atuei como Thiago, empreendedor frenético, perfil DISC dominante vermelho: direto, pragmático, avesso a perder tempo.",
+            "“Entendo perfeitamente sua preferência por analisar antes, posso te adiantar um resumo na reunião e personalizá-lo para sua realidade.”",
+            "“Se ficar com alguma dúvida após nosso bate-papo, envio o material detalhado, combinado?”"
+        ]
     },
     {
         "name": "Carolina Bandeliauskas",
@@ -1067,7 +1180,18 @@ const RAW_SIMULATIONS = [
                 "text": "Beleza. Me manda o local ou o link por mensagem e"
             }
         ],
-        "finished": true
+        "finished": true,
+        "feedback": "Aqui está o debriefing da nossa troca.\n\n🤓 PERSONA\n\nLarissa, empresária de perfil amarelo dominante (expressiva, relacional, orientada a vínculos e resultados rápidos).\n\n🎯 OBJETIVO PRINCIPAL\n\nVocê respondeu às dúvidas e obteve o acordo para uma reunião, mas faltou tratamento técnico das objeções. Objetivo atingido, com pontos de atenção.\n\n### ➕ PONTOS FORTES\n\n- Abordou o prospect com energia e naturalidade, mostrando empatia ao mencionar amigos em comum.\n- Propôs horários concretos e próximos, respeitando a orientação do método.\n- Reforçou o benefício da reunião e tentou falar de solução personalizada para a realidade de Larissa.\n- Demonstrou postura consultiva ao se apresentar como especialista em proteção financeira.\n\n### ⚠️ PONTOS DE MELHORIA\n\n- Faltou pedir autorização formal para seguir com a ligação no início (etapa ignorada).\n- Iniciou apresentação sem um pitch claro de valor nos primeiros segundos, perdendo o “sorriso na voz” de impacto.\n- Discorreu sobre “proteção financeira” de forma genérica, utilizando frases vagas, e chegou perto de vender pelo telefone, detalhando em excesso benefícios e até prometendo proteção para o negócio.\n- Não tratou nenhuma objeção verdadeira, tampouco explorou o “sim, mas…”, apenas repetiu argumentos (“eu garanto; material rico; não vai perder tempo”).\n- Não ativou a recomendação nem fez quebra-gelo pessoal genuíno.\n- Ausência completa da validação do perfil NAPA e da coleta de informações essenciais.\n\n###  🩵 ANÁLISE EMOCIONAL\n\nO tom foi engajado e amistoso, com leve pressa e ansiedade para converter. O vocabulário mostrou tentativa de acolhimento, mas escorregou em excesso de autoafirmação.\n\n### 🛅 MOMENTOS-CHAVE\n\nAo mencionar a Carol como cliente e justificativa do contato, buscou gerar confiança, porém faltou checagem real da percepção da prospect. O fechamento da reunião foi feito via insistência, não por convencimento estruturado.\n\n### 🔊 REFORMULAÇÕES RECOMENDADAS\n\n“Posso tomar só um minuto para explicar porque a Carol achou tão importante esse contato?”\n“Se fizesse sentido pra você, qual o melhor horário para uma conversa curta: sexta às duas ou segunda às dez?”\n“Quero apenas entender o que faz diferença para o seu momento, assim adapto tudo ao seu perfil.”\n“Antes de tudo, posso seguir? Fique à vontade para me dizer não.”\n\n### ➡️ RECOMENDAÇÕES\n\nConcentre-se nas oito etapas, trate objeções com validação e ofereça escolha forçada. Evite vender pelo telefone. Pergunte por recomendações no encerramento.\n\nContinue evoluindo: pequenas melhorias tornam grandes encontros ainda mais valiosos!",
+        "insights": [
+            "Abordou o prospect com energia e naturalidade, mostrando empatia ao mencionar amigos em comum.",
+            "Propôs horários concretos e próximos, respeitando a orientação do método.",
+            "Reforçou o benefício da reunião e tentou falar de solução personalizada para a realidade de Larissa.",
+            "Demonstrou postura consultiva ao se apresentar como especialista em proteção financeira.",
+            "Faltou pedir autorização formal para seguir com a ligação no início (etapa ignorada).",
+            "Iniciou apresentação sem um pitch claro de valor nos primeiros segundos, perdendo o “sorriso na voz” de impacto.",
+            "Discorreu sobre “proteção financeira” de forma genérica, utilizando frases vagas, e chegou perto de vender pelo telefone, detalhando em excesso benefícios e até prometendo proteção para o negócio.",
+            "Não tratou nenhuma objeção verdadeira, tampouco explorou o “sim, mas…”, apenas repetiu argumentos (“eu garanto; material rico; não vai perder tempo”)."
+        ]
     },
     {
         "name": "Carolina Bandeliauskas",
@@ -1129,7 +1253,18 @@ const RAW_SIMULATIONS = [
                 "text": "Olha, sem grosseria, por favor. Tô no meu tempo e não vou aceitar falta de respeito. Se você não consegue ser profissional, encerra a ligação."
             }
         ],
-        "finished": true
+        "finished": true,
+        "feedback": "Aqui está o debriefing da nossa troca.\n\n🤓 PERSONA\n\nVocê conversou com um prospect de perfil claramente dominante e direto, típico do vermelho no DISC: líder ocupado, objetivo, impaciente, avesso a rodeios e valorizando decisões rápidas.\n\n🎯 OBJETIVO PRINCIPAL\n\nO objetivo de vencer as objeções e conquistar um compromisso para reunião não foi atingido. Apesar de alguma tentativa de criar valor, faltou uma resposta convincente às objeções e ao contexto do prospect.\n\n### ➕ PONTOS FORTES\n\n- Abriu a conversa com uma referência de indicação (Luciano), acionando parcialmente um gatilho de confiança.\n- Tentou rapidamente propor um horário objetivo para a reunião, sem perder tempo em rodeios.\n- Citou benefício genérico (“ganho muito positivo”) e demonstrou alguma preocupação com o benefício para família, conectando ao universo do prospect.\n\n### ⚠️ PONTOS DE MELHORIA\n\n- Não pediu autorização formal para seguir com a conversa, o que aumentou a resistência logo no início.\n- Faltou escuta ativa: tentou atropelar o ritmo, empilhando argumentos antes de ouvir o prospect.\n- Argumentação excessivamente genérica—faltou tangibilizar o valor da conversa e personalizar ainda mais a abordagem.\n- Não utilizou técnicas adequadas de gestão das objeções (“sim, mas...”) nem buscou entender o motivo real do “não”.\n- Não coletou nenhuma recomendação no encerramento, mesmo diante da recusa.\n- Fez tentativa precoce de agendamento sem testar interesse explícito do prospect.\n\n### 🩵 ANÁLISE EMOCIONAL\n\nO tom soou ansioso, com ritmo acelerado e pouca pausa. Faltou adaptabilidade e a comunicação ficou robotizada em alguns trechos, impactando negativamente a receptividade.\n\n### 🛅 MOMENTOS-CHAVE\n\nAo mencionar o trabalho personalizado e a importância da família, tentou criar conexão, mas a argumentação genérica e a falta de escuta transformaram o prospect em resistente, encerrando abruptamente o contato.\n\n### 🔊 REFORMULAÇÕES RECOMENDADAS\n\n“Luciano me autorizou a ligar para você para entender se faz sentido conversarmos, posso tomar só dois minutos?”\n“Entendo seu tempo curto, por isso proponho uma conversa rápida só para escutar seu cenário.”\n“Se preferir, posso ajustar o horário para amanhã, às dez ou quinze horas, o que for melhor.”\n“Caso conheça alguém que precise desse tipo de conversa, me indica? Agradeço muito!”\n\n### ➡️ RECOMENDAÇÕES\n\nPriorize o pedido de autorização, adapte o discurso ao estilo direto do prospect e administre objeções demonstrando escuta ativa antes de propor valor. Use perguntas fechadas e personalize os motivos de contato.\n\nCada ligação difícil traz aprendizados: treine flexibilidade, vá além do roteiro e busque sempre entender o real motivo do ‘não’.",
+        "insights": [
+            "Você conversou com um prospect de perfil claramente dominante e direto, típico do vermelho no DISC: líder ocupado, objetivo, impaciente, avesso a rodeios e valorizando decisões rápidas.",
+            "Abriu a conversa com uma referência de indicação (Luciano), acionando parcialmente um gatilho de confiança.",
+            "Tentou rapidamente propor um horário objetivo para a reunião, sem perder tempo em rodeios.",
+            "Citou benefício genérico (“ganho muito positivo”) e demonstrou alguma preocupação com o benefício para família, conectando ao universo do prospect.",
+            "Não pediu autorização formal para seguir com a conversa, o que aumentou a resistência logo no início.",
+            "Faltou escuta ativa: tentou atropelar o ritmo, empilhando argumentos antes de ouvir o prospect.",
+            "Argumentação excessivamente genérica—faltou tangibilizar o valor da conversa e personalizar ainda mais a abordagem.",
+            "Não utilizou técnicas adequadas de gestão das objeções (“sim, mas...”) nem buscou entender o motivo real do “não”."
+        ]
     },
     {
         "name": "Carolina Bandeliauskas",
@@ -1147,7 +1282,9 @@ const RAW_SIMULATIONS = [
                 "text": "Como eu disse, que isso não aconteceu."
             }
         ],
-        "finished": false
+        "finished": false,
+        "feedback": "",
+        "insights": []
     },
     {
         "name": "Carolina Bandeliauskas",
@@ -1169,7 +1306,9 @@ const RAW_SIMULATIONS = [
                 "text": "Não, você tá falando com a pessoa errada. Quem falou que era o Thiago?"
             }
         ],
-        "finished": false
+        "finished": false,
+        "feedback": "",
+        "insights": []
     },
     {
         "name": "Carolina Bandeliauskas",
@@ -1199,7 +1338,9 @@ const RAW_SIMULATIONS = [
                 "text": "Se for proposta prática e direta, posso ouvir. O que você tem em mente?"
             }
         ],
-        "finished": false
+        "finished": false,
+        "feedback": "",
+        "insights": []
     },
     {
         "name": "Carolina Bandeliauskas",
@@ -1297,7 +1438,18 @@ const RAW_SIMULATIONS = [
                 "text": "Certo. Então me diz direto: qual foi o benefício concreto que você apresentou pro Paulo e por que isso fez sentido pra ele. Quero uma resposta"
             }
         ],
-        "finished": true
+        "finished": true,
+        "feedback": "Aqui está o debriefing da nossa troca.\n\n  \n\n🤓 PERSONA\n\n- Persona interpretada: Thiago, empresário competitivo, objetivo, impaciente, perfil DISC majoritariamente vermelho.\n\n  \n\n🎯 OBJETIVO PRINCIPAL\n\n- Houve boa resposta às objeções, com argumentação consultiva.\n  \n- O agendamento de reunião foi tentado várias vezes, mas não houve aceite formal.\n  \n- O objetivo foi parcialmente atingido, já que o prospect permaneceu reticente e não confirmou a reunião.\n\n  \n\n➕ PONTOS FORTES\n\n- A construção da referência à indicação do Paulo foi constante, usando o gatilho de confiança.\n\n  \n- O posicionamento como consultor de planejamento financeiro e não como vendedor ficou bem explícito ao longo da conversa.\n\n  \n- Houve tentativa legítima de adaptação ao tom direto e objetivo do prospect, reduzindo rodeios.\n\n  \n- A escolha forçada foi sugerida sutilmente (“duas opções de data”), buscando compromisso imediato.\n\n  \n\n⚠️ PONTOS DE MELHORIA\n\n- Faltou sempre pedir autorização logo após a apresentação, perdendo a chance de iniciar com mais respeito.\n\n  \n- O discurso repetiu muito o argumento da personalização e da indicação, tornando-se circular e pouco objetivo em alguns momentos.\n\n  \n- Houve excesso de explicação sobre a metodologia antes de identificar claramente uma dor do prospect, o que pode dispersar o perfil vermelho.\n\n  \n- Em nenhum momento foi feita uma reconfirmação clara de data, horário e local da eventual reunião.\n\n  \n- As objeções foram tratadas, mas sem usar abertamente técnicas de “sim, mas…” ou bumerangue, ficando um pouco defensivo.\n\n  \n\n🩵 ANÁLISE EMOCIONAL\n\n- O tom se manteve cordial e consultivo, mas às vezes vacilou no excesso de justificativas. Estado emocional: seguro, mas levemente ansioso.\n\n  \n\n🛅 MOMENTOS-CHAVE\n\n- Insistência para marcar reunião com base na indicação de Paulo → buscou confiança externa → impactou positivamente, mas não foi suficiente para o fechamento.\n\n  \n- Explicação sobre não antecipar valores ou detalhes por telefone → buscou controlar a ansiedade do prospect → manteve a postura consultiva.\n\n  \n\n🔊 REFORMULAÇÕES RECOMENDADAS\n\n- “Thiago, Paulo me pediu para ser breve e objetivo, posso ir direto ao ponto?”\n\n  \n- “Prefere receber essa explicação de forma presencial quarta ou quinta-feira à tarde?”\n\n  \n- “Entendo sua pressa, por isso proponho uma conversa rápida de vinte minutos, pode ser?”\n\n  \n- “Posso pedir para o Paulo te ligar e confirmar que conversamos?”\n\n  \n\n➡️ RECOMENDAÇÕES\n\nBusque pedir autorização logo após seu nome, foque em resumir o motivo em pouquíssimas palavras e use mais perguntas fechadas. Trate cada objeção com validação, proponha datas imediatas e sempre reconfirme. Sua evolução está clara, ajuste detalhes e vai colher muito mais agendamentos!",
+        "insights": [
+            "Persona interpretada: Thiago, empresário competitivo, objetivo, impaciente, perfil DISC majoritariamente vermelho.",
+            "Houve boa resposta às objeções, com argumentação consultiva.",
+            "O agendamento de reunião foi tentado várias vezes, mas não houve aceite formal.",
+            "O objetivo foi parcialmente atingido, já que o prospect permaneceu reticente e não confirmou a reunião.",
+            "A construção da referência à indicação do Paulo foi constante, usando o gatilho de confiança.",
+            "O posicionamento como consultor de planejamento financeiro e não como vendedor ficou bem explícito ao longo da conversa.",
+            "Houve tentativa legítima de adaptação ao tom direto e objetivo do prospect, reduzindo rodeios.",
+            "A escolha forçada foi sugerida sutilmente (“duas opções de data”), buscando compromisso imediato."
+        ]
     },
     {
         "name": "Carolina Bandeliauskas",
@@ -1363,7 +1515,18 @@ const RAW_SIMULATIONS = [
                 "text": "Vamos pegar uns-pegar umas duas salinhas daí..."
             }
         ],
-        "finished": true
+        "finished": true,
+        "feedback": "Aqui está o debriefing da nossa troca.\n\n\n🤓 PERSONA\n\nMulher, perfil DISC verde, pragmática, organizada, cautelosa com decisões financeiras, pouco tempo para conversas, valoriza argumentação consultiva.\n\n\n🎯 OBJETIVO PRINCIPAL\n\nVocê não respondeu a objeções nem conseguiu o acordo para uma reunião qualificada. Objetivo não atingido.\n\n\n➕ PONTOS FORTES\n\n- Realizou uma abordagem acolhedora e apresentou de imediato a origem do contato.\n\n- Mencionou uma recomendação concreta (Paulo), tentando ativar o gatilho da confiança.\n\n- Procurou contextualizar brevemente o benefício do trabalho (“proteger patrimônio, momentos de vida e sonhos de famílias”).\n\n- Linguagem clara, tom cordial e não agressivo.\n\n\n⚠️ PONTOS DE MELHORIA\n\n- **Falta de autorização**\n  Não pediu permissão para prosseguir, iniciando de pronto o pitch.\n\n- **Ausência de escuta ativa**\n  Não estimulou Fernanda a falar nem ouviu possíveis objeções.\n\n- **Quebra-gelo pouco pessoal**\n  Relatou o contexto, mas faltou interesse genuíno pela situação de Fernanda.\n\n- **Erro de funil na proposta de reunião**\n  Não propôs data ou escolha forçada; deixou a agenda em aberto.\n\n- **Postura excessivamente centrada na recomendação**\n  Insistiu no nome do Paulo sem demonstrar real personalização para Fernanda.\n\n- **Não houve gestão de objeções**\n  Fernanda nada disse além de um “tá certo”, sem tratamento preventivo.\n\n- **Falta de reconfirmação**\n  Não encerrou com clareza nem com o próximo passo definido.\n\n\n🩵 ANÁLISE EMOCIONAL\n\nVocê foi educado, com tom calmo, mas soou pouco participativo e quase ensaiado. Faltou empatia genuína e leveza no ritmo.\n\n\n🛅 MOMENTOS-CHAVE\n\nSituação: Usou Paulo como referência-chave sem criar um vínculo pessoal.\nImpacto: Tornou a conversa genérica e impessoal, reduzindo engajamento e abertura da Fernanda.\n\n\n🔊 REFORMULAÇÕES RECOMENDADAS\n\n“Fernanda, posso te tomar dois minutinhos? Posso explicar o motivo do meu contato?”\n \n“Entendendo que sua rotina é corrida, te proponho duas alternativas rápidas para alinharmos: hoje às dezesseis ou amanhã às nove, o que prefere?”\n \n“Paulo me comentou sobre sua dedicação como mãe e profissional, acho que você vai se identificar.”\n\n“Meu papel aqui não é vender, mas ajudar você a planejar seu futuro com mais segurança.”\n\n\n➡️ RECOMENDAÇÕES\n\nPeça autorização antes de avançar, personalize genuinamente a introdução e proponha escolha forçada de reunião. Escute ativamente e trate objeções—mesmo que implícitas. Não tema dar um toque de humor, mostre que entende o lado do cliente.\n\nSiga experimentando, aprimorando e lembre-se: mais diálogo, menos monólogo!",
+        "insights": [
+            "Realizou uma abordagem acolhedora e apresentou de imediato a origem do contato.",
+            "Mencionou uma recomendação concreta (Paulo), tentando ativar o gatilho da confiança.",
+            "Procurou contextualizar brevemente o benefício do trabalho (“proteger patrimônio, momentos de vida e sonhos de famílias”).",
+            "Linguagem clara, tom cordial e não agressivo.",
+            "Falta de autorização",
+            "Ausência de escuta ativa",
+            "Quebra-gelo pouco pessoal",
+            "Erro de funil na proposta de reunião"
+        ]
     },
     {
         "name": "Carolina Bandeliauskas",
@@ -1413,7 +1576,13 @@ const RAW_SIMULATIONS = [
                 "text": "Senhora, eu gosto de opção clara. Quinta-feira às dez funciona melhor pra mim. Vou separar trinta minutos, desde que não seja reunião por vídeo, prefiro presencial."
             }
         ],
-        "finished": true
+        "finished": true,
+        "feedback": "Aqui está o debriefing de nossa conversa.\n\n\n🤓 PERSONA\n\nRoberto, comerciante de perfil “verde” no DISC: comunicativo, caloroso, avesso a pressão e valorizando relacionamento e confiança.\n\n\n🎯 OBJETIVO PRINCIPAL\n\nVocê respondeu às objeções com argumentos plausíveis e tentou contornar o pedido do material. O objetivo foi parcialmente atingido, porque não houve exploração clara das reais motivações do Roberto antes de insistir no agendamento.\n\n\n➕ Pontos fortes\n\nHouve validação inicial do pedido do prospect, o que demonstra empatia.\nO argumento da personalização e inadequação do material genérico foi bem colocado.\nVocê apresentou opções de horário, aplicando a técnica de escolha forçada.\nO tom permaneceu cordial e respeitoso ao longo das abordagens.\n\n\n⚠️ EIXOS DE MELHORIA\n\nFaltou investigar, com perguntas abertas e escuta ativa, as verdadeiras razões do pedido do material antes de propor horários.\nA argumentação ficou centrada só na defesa do processo, sem demonstrar interesse genuíno pelo contexto do prospect.\nAo antecipar o envio de uma “prévia”, criou uma zona cinzenta, soando um pouco contraditório e diluindo sua posição.\nA alternativa dos horários veio cedo, sem assegurar se o prospect já estava menos resistente.\n\n\n🩵 ANÁLISE EMOCIONAL\n\nSeu tom foi calmo, educado e seguro. O ritmo foi constante, porém levemente impaciente e pouco investigativo quanto aos sentimentos do prospect.\n\n\n🛅 MOMENTOS-CHAVE\n\nAo negar o envio genérico e propor horários concretos, você assumiu o controle, mas perdeu oportunidade de obter informações valiosas sobre as barreiras emocionais.\nA oferta de uma “prévia” foi ambígua; demonstrou vontade de ajudar, mas sacrificou clareza na postura.\n\n\n🔊 REFORMULAÇÕES RECOMENDADAS\n\nRoberto, queria entender, se me permite: o que te faria se sentir confortável para avançar nessa conversa?\nSe preferir, podemos conversar rapidinho sobre o que mudou na sua vida recentemente e ver se faz sentido?\nMinha proposta é simples: podemos adequar tudo para sua realidade, mas antes, posso ouvir um pouco mais sobre suas prioridades?\nEntendo o interesse no material, mas acredite, o valor real surge quando falamos diretamente sobre sua rotina e necessidades.\n\n\n➡️ RECOMENDAÇÕES\n\nInsista mais na exploração das motivações do prospect usando perguntas abertas e valide sentimentos antes de propor horários. Não antecipe concessões contraditórias, mantenha argumentação firme e mostre curiosidade genuína. Conquiste primeiro a confiança, depois um compromisso concreto.\n\nVocê está a um passo de transformar objeção em oportunidade; ajuste o foco na escuta ativa e avance seguro!",
+        "insights": [
+            "Roberto, comerciante de perfil “verde” no DISC: comunicativo, caloroso, avesso a pressão e valorizando relacionamento e confiança.",
+            "Roberto, queria entender, se me permite: o que te faria se sentir confortável para avançar nessa conversa?",
+            "Minha proposta é simples: podemos adequar tudo para sua realidade, mas antes, posso ouvir um pouco mais sobre suas prioridades?"
+        ]
     },
     {
         "name": "Carolina Bandeliauskas",
@@ -1447,7 +1616,9 @@ const RAW_SIMULATIONS = [
                 "text": "Se for pra continuar a ligação, fala direto o que você quer e seja objetiva. Tenho poucos minutos."
             }
         ],
-        "finished": false
+        "finished": false,
+        "feedback": "",
+        "insights": []
     },
     {
         "name": "Carolina Bandeliauskas",
@@ -1473,7 +1644,9 @@ const RAW_SIMULATIONS = [
                 "text": "Oi, Carol. Posso agora, mas tô no meio de um procedimento. Fala rápido por favor."
             }
         ],
-        "finished": false
+        "finished": false,
+        "feedback": "",
+        "insights": []
     },
     {
         "name": "Carolina Bandeliauskas",
@@ -1567,7 +1740,18 @@ const RAW_SIMULATIONS = [
                 "text": "Tudo bem, quinta às cinco no Café do Zé está confirmado. Até lá."
             }
         ],
-        "finished": true
+        "finished": true,
+        "feedback": "Aqui está o debriefing da nossa troca.\n\n### 🤓 PERSONA\n\nVocê abordou um prospect do tipo cooperador, perfil DISC verde, avesso a pressão, que valoriza segurança e relacionamento próximo.\n\n### 🎯 OBJETIVO PRINCIPAL\n\nConseguiu superar objeções de modo consultivo e obter o aceite para uma reunião qualificada. Objetivo plenamente atingido.\n\n### ➕ PONTOS FORTES\n\n- Apresentou-se com cordialidade, explicou claramente a recomendação de Paulo e fez menção personalizada ao relacionamento deles.\n\n- Abordou o benefício da reunião de forma emocional (“tranquilidade e paz espiritual”), gerando valor percebido.\n\n- Manteve postura consultiva, reforçando a personalização (“proteção sob medida para tua real necessidade”).\n\n- Utilizou escolha forçada inteligente, propondo duas datas próximas para o agendamento.\n\n- Concluiu com reconfirmação clara de local, data, horário e instruções para possíveis imprevistos.\n\n### ⚠️ PONTOS DE MELHORIA\n\n- Solicitação de autorização. Faltou pedir permissão explícita para seguir com a apresentação, antes de expor a recomendação.\n\n- Pitch inicial. Abertura longa, com excesso de justificativas e hesitação; poderia ser mais enxuta e segura para engajar logo nos primeiros segundos.\n\n- Produto e preço. Chegou a mencionar produtos e variação de preço antes da reunião, o que pode ser percebido como venda precoce.\n\n- Objeções. Em alguns trechos faltou validar emocionalmente a objeção, aplicando com mais clareza o “sim, mas...”.\n\n### 🩵 ANÁLISE EMOCIONAL\n\nO tom foi acolhedor, consultivo e próximo, porém pontuado por certos rodeios e insegurança nos inícios de fala. Demonstrou empatia genuína.\n\n### 🛅 MOMENTOS-CHAVE\n\nSituação: Quando foi questionado sobre preço e produto. Você explicou a personalização da solução, valorizando a consultoria e não entrou no detalhe comercial — isso elevou a relação de confiança.\n\nSituação: Reconfirmação detalhada do encontro, com menção exclusiva ao local e aparência, garantindo segurança e antecipando imprevistos.\n\n### 🔊 REFORMULAÇÕES RECOMENDADAS\n\n- “Posso te apresentar de forma rápida como funciona? Assim vemos juntos se faz sentido.”\n- “Paulo me autorizou a ligar só porque acreditou que faria muita diferença pra você.”\n- “Prometo respeitar seu tempo: trinta minutos, prático e direto.”\n- “Prefere presencial no bairro ou virtual? Quero te deixar à vontade.”\n- “Caso surja algo, me avise com antecedência. Assim a gente se reorganiza sem problemas.”\n\n### ➡️ RECOMENDAÇÕES\n\nFaça uma solicitação clara de autorização no início. Foque em um pitch mais direto e sorridente. Nunca mencione produto ou preço por telefone. Foque sempre em benefícios e na escuta ativa antes de avançar.\n\nVocê está evoluindo bem. Com pequenas afinações de ritmo e foco, sua performance será referência. Siga em frente!",
+        "insights": [
+            "Apresentou-se com cordialidade, explicou claramente a recomendação de Paulo e fez menção personalizada ao relacionamento deles.",
+            "Abordou o benefício da reunião de forma emocional (“tranquilidade e paz espiritual”), gerando valor percebido.",
+            "Manteve postura consultiva, reforçando a personalização (“proteção sob medida para tua real necessidade”).",
+            "Utilizou escolha forçada inteligente, propondo duas datas próximas para o agendamento.",
+            "Concluiu com reconfirmação clara de local, data, horário e instruções para possíveis imprevistos.",
+            "Solicitação de autorização. Faltou pedir permissão explícita para seguir com a apresentação, antes de expor a recomendação.",
+            "Pitch inicial. Abertura longa, com excesso de justificativas e hesitação; poderia ser mais enxuta e segura para engajar logo nos primeiros segundos.",
+            "Produto e preço. Chegou a mencionar produtos e variação de preço antes da reunião, o que pode ser percebido como venda precoce."
+        ]
     },
     {
         "name": "Carolina Bandeliauskas",
@@ -1580,7 +1764,9 @@ const RAW_SIMULATIONS = [
         "lqa": "N/A",
         "interactions": 0,
         "messages": [],
-        "finished": false
+        "finished": false,
+        "feedback": "",
+        "insights": []
     },
     {
         "name": "Carolina Bandeliauskas",
@@ -1626,7 +1812,18 @@ const RAW_SIMULATIONS = [
                 "text": "Quero entender três coisas rápido: quanto isso custa por mês, se tem coberturas para incapacidade temporária e como funciona o cancelamento. Responde objetivamente, por favor."
             }
         ],
-        "finished": true
+        "finished": true,
+        "feedback": "Aqui está o debriefing da nossa troca.\n\n  \n🤓 PERSONA\n\n- Interpretei Camila, executiva de tecnologia jovem, digital-native, questionadora, perfil DISC amarelo, exigente em experiências digitais modernas.\n\n  \n🎯 OBJETIVO PRINCIPAL\n\n- Corretor () tentou contornar objeções e solicitar reunião de descoberta MetLife.\n- Não conseguiu responder de forma estruturada nem garantir aceitação formal.\n- Objetivo não atingido.\n\n  \n➕ PONTOS FORTES\n\n- Realizou o nome do prospect, gerando proximidade e início formal adequado.\n\n  \n- Ativou desde o início o gatilho de recomendação, citando Paulo como referência confiável.\n\n  \n- Tentou propor escolha binária de horários próximos para reunião, seguindo boas práticas de agendamento.\n\n  \n⚠️ PONTOS DE MELHORIA\n\n- Ausência do passo de autorização: não pediu permissão para prosseguir nem checou se o momento era adequado.\n\n  \n- A estrutura das oito etapas ficou incompleta – faltou contextualizar objetivamente o motivo do contato ou benefício claro para Camila.\n\n  \n- Perguntas abertas (por exemplo, \"você tem algum ponto específico?\") reduzem a força da escolha forçada e abrem margem para enrolação.\n\n  \n- Tentativa de explicar produtos sem questionamento prévio soou genérica; faltou escuta ativa para adaptar discurso à linguagem digital da persona.\n\n  \n🩵 ANÁLISE EMOCIONAL\n\n- O tom foi amistoso, mas pouco assertivo e linear, sem variações de entusiasmo ou ritmo. Prevaleceu uma postura ansiosa, buscando aceitação.\n\n  \n🛅 MOMENTOS-CHAVE\n\n- Uso da recomendação do Paulo no início → importante por gerar credibilidade inicial → impacto moderado, não sustentado depois.\n\n  \n- Proposta de reunião com datas específicas → estratégia correta de escolha forçada → impacto neutralizado por excesso de justificativas antes da escuta ativa.\n\n  \n🔊 REFORMULAÇÕES RECOMENDADAS\n\n- “Camila, posso te ocupar só dois minutinhos para explicar rapidamente por que Paulo achou importante eu te ligar?”\n\n- “Trabalho de forma bem personalizada, sempre adequando soluções ao perfil digital dos meus clientes – posso te mostrar exemplos na nossa reunião?”\n\n- “Se você preferir uma conversa rápida por vídeo, consigo na quarta de manhã ou sexta à tarde – qual encaixa melhor?”\n\n- “Posso te adiantar que não é proposta de produto agora e sim um papo para conhecer sua experiência como Paulo sugeriu.”\n\n  \n➡️ RECOMENDAÇÕES\n\n- Sempre peça autorização explícita no início e mostre empatia com a rotina digital do prospect.\n\n- Traga benefício direto e contextualizado já nas primeiras frases, sem justificar demais o contato.\n\n- Foque em perguntas direcionadas, evite abrir para temas genéricos, e mantenha energia fluida.\n\nContinue praticando: o segredo está em combinar estrutura com espontaneidade.",
+        "insights": [
+            "Interpretei Camila, executiva de tecnologia jovem, digital-native, questionadora, perfil DISC amarelo, exigente em experiências digitais modernas.",
+            "Corretor () tentou contornar objeções e solicitar reunião de descoberta MetLife.",
+            "Não conseguiu responder de forma estruturada nem garantir aceitação formal.",
+            "Objetivo não atingido.",
+            "Realizou o nome do prospect, gerando proximidade e início formal adequado.",
+            "Ativou desde o início o gatilho de recomendação, citando Paulo como referência confiável.",
+            "Tentou propor escolha binária de horários próximos para reunião, seguindo boas práticas de agendamento.",
+            "Ausência do passo de autorização: não pediu permissão para prosseguir nem checou se o momento era adequado."
+        ]
     },
     {
         "name": "Carolina Bandeliauskas",
@@ -1664,7 +1861,18 @@ const RAW_SIMULATIONS = [
                 "text": "Pedro, eu pedi uma corretora mulher. Como você conseguiu meu número e por que o Paulo não me avisou dessa indicação?"
             }
         ],
-        "finished": true
+        "finished": true,
+        "feedback": "Aqui está o debriefing da nossa troca.\n\n \n\n🤓 PERSONA\n\nInterpretei Fernanda, uma dentista autônoma, perfil DISC dominante verde, cautelosa, pragmática, desconfiada, orientada à segurança.\n\n \n\n🎯 OBJETIVO PRINCIPAL\n\nVocê buscou marcar uma reunião de apresentação MetLife e tentou responder às objeções iniciais. O objetivo foi parcialmente atingido, pois o convite foi feito, mas sem objeções tratadas.\n\n \n\n➕ PONTOS FORTES\n\n- Você abriu a conversa com cumprimentos e uso amigável do nome, criando um clima cortês.\n\n \n\n- Solicitou autorização para continuar (“só preciso de um minuto, tudo bem?”), demonstrando respeito pelo tempo da prospect.\n\n \n\n- Citou o nome do recomendante (Paulo) e utilizou o gatilho de recomendação de forma relevante, o que é essencial para quebrar resistências iniciais.\n\n \n\n- Explicou claramente a intenção de marcar uma reunião curta, evitando tentativas de venda direta por telefone.\n\n \n\n⚠️ PONTOS DE MELHORIA\n\n- **Gestão de objeções ausente:**  \n  Você não tratou nenhuma objeção ou resistência da prospect, mesmo ela não tendo aberto possibilidade de recusa ainda.\n\n \n\n- **Escolha forçada inconsistente:**  \n  A pergunta “prefere manhã ou tarde?” foi positiva, mas faltou indicar datas e horários concretos para criar senso de urgência e facilitar o aceite.\n\n \n\n- **Postura consultiva superficial:**  \n  Embora usasse termos como “planejamento financeiro”, não personalizou ou fez perguntas básicas para conectar o tema à realidade da prospect.\n\n \n\n- **Excesso de hesitações e justificativas (“ééé...”, “fica tranquilo...”)**  \n  Isso transmite insegurança e pode minar a autoridade consultiva esperada pelo prospect.\n\n \n\n🩵 ANÁLISE EMOCIONAL\n\nO tom foi educado e gentil, mas vacilante e um pouco ansioso, com hesitações que prejudicaram a impressão de confiança plena. Faltou firmeza no discurso.\n\n \n\n🛅 MOMENTOS-CHAVE\n\nSituação: Ao citar o nome do Paulo e reforçar a recomendação, você conseguiu abrir espaço para partir para a proposta de agenda.  \nImpacto: Gerou leve aproximação inicial, mas o excesso de justificativas diluiu o efeito consultivo.\n\n \n\n🔊 REFORMULAÇÕES RECOMENDADAS\n\nFernanda, Paulo me falou que você é super rigorosa com planejamento — prometo ser breve e relevante para seu perfil.\n\n \n\nVou te apresentar soluções personalizadas para proteger aquilo que é essencial para você e sua família, sem compromisso de adesão.\n\n \n\nConsigo te encontrar esta semana: prefere quarta às dez ou quinta às quinze horas?\n\n \n\nPosso enviar um material antes, mas o mais produtivo é alinharmos juntos os pontos importantes nesta conversa rápida, o que acha?\n\n \n\n➡️ RECOMENDAÇÕES\n\nTrabalhe frases de escolha forçada com horários próximos, elimine hesitações e fortaleça sua postura consultiva com mini-diagnósticos personalizados logo no início. Seja objetivo, leve e seguro!\n\nSua evolução depende de ajustes simples. Avance e lembre-se: consultor de impacto usa o tempo como aliado!",
+        "insights": [
+            "Você abriu a conversa com cumprimentos e uso amigável do nome, criando um clima cortês.",
+            "Solicitou autorização para continuar (“só preciso de um minuto, tudo bem?”), demonstrando respeito pelo tempo da prospect.",
+            "Citou o nome do recomendante (Paulo) e utilizou o gatilho de recomendação de forma relevante, o que é essencial para quebrar resistências iniciais.",
+            "Explicou claramente a intenção de marcar uma reunião curta, evitando tentativas de venda direta por telefone.",
+            "Gestão de objeções ausente:",
+            "Escolha forçada inconsistente:",
+            "Postura consultiva superficial:",
+            "Excesso de hesitações e justificativas (“ééé...”, “fica tranquilo...”)"
+        ]
     },
     {
         "name": "Carolina Bandeliauskas",
@@ -1746,7 +1954,18 @@ const RAW_SIMULATIONS = [
                 "text": "Então tá bom, Eduardo. Quem tá perdendo é você, tá? E seu, e seus amigos todos aí que vão ficar sem proteção. Beleza? Obrigada"
             }
         ],
-        "finished": true
+        "finished": true,
+        "feedback": "Aqui está o debriefing da nossa conversa\n\n  \n\n🤓 PERSONA\n\nVocê interagiu com Eduardo, engenheiro metódico, perfil azul DISC: racional, analítico, valoriza clareza e respeito no relacionamento.\n\n  \n\n🎯 OBJETIVO PRINCIPAL\n\nO objetivo era obter pelo menos dois nomes de recomendações e autorização de mencionar Eduardo ao abordar seus contatos.\n\nO objetivo não foi atingido.\n\n  \n\n  \n\n➕ Pontos fortes\n\n- Você demonstrou preocupação em não ser inconveniente, buscando validar se o cliente se sentiu desconfortável.\n\n- Explicou que não faria contato sem o devido aviso prévio, tentando passar segurança ao cliente.\n\n- Reforçou o papel consultivo, mencionando acompanhamento contínuo e interesse pelo bem-estar do cliente e seus próximos.\n\nContinue explorando sua empatia e o cuidado em validar o sentimento do cliente.\n\n  \n\n⚠️ EIXOS DE MELHORIA\n\n- Faltou uma verdadeira valorização do cliente no início e um agradecimento claro pela confiança antes do pedido de recomendações.\n\n- Não houve uma investigação do que o cliente realmente valorizou na experiência com você.\n\n- O pedido foi feito de maneira genérica e rapidamente virou insistente, sem segmentar perfis ou orientar a memória do cliente.\n\n- O uso de argumentos apelativos, pressionando pela culpa (“como vai ficar sua consciência?”), pode gerar desconforto e fechar portas no futuro.\n\nBuscar um tom mais consultivo, perguntas abertas e respeito pelo tempo do cliente são caminhos essenciais para sua evolução.\n\n  \n\n🩵 ANÁLISE EMOCIONAL\n\nO ritmo foi acelerado e o tom tendeu ao insistente, com vocabulário pouco acolhedor no final. Estado emocional: ansioso e ligeiramente pressionado.\n\n  \n\n🛅 MOMENTOS-CHAVE\n\nSituação: Você explicou que só faz o contato após o cliente avisar o indicado.\n\nIsso é importante para passar confiança e deveria ser explorado sem pressa.\n\nSituação: Ao final, você encerrou com reprovação (“quem tá perdendo é você”).\n\nIsso prejudicou o relacionamento e a percepção de profissionalismo.\n\n  \n\n🔊 REFORMULAÇÕES RECOMENDADAS\n\n“Eduardo, agradeço por confiar em mim e permitir esse planejamento para sua família.”\n\n“Você poderia compartilhar comigo quem, no seu círculo, também valoriza uma boa proteção?”\n\n“Se preferir, conversamos agora sobre o perfil dessas pessoas, só com seu sinal verde avançamos.”\n\n“Fique à vontade para me dizer quando for conveniente avisar seus amigos, respeito totalmente seu tempo.”\n\n  \n\n➡️ RECOMENDAÇÕES\n\nInicie sempre reconhecendo a decisão do cliente. Pergunte o que ele mais gostou do processo. Faça o pedido de recomendações segmentando perfis e evitando pressão emocional. Peça autorização para mencionar seu nome e finalize com um agradecimento sincero. \n\nVocê pode evoluir muito com pequenas mudanças e uma escuta mais ativa—confio no seu potencial!",
+        "insights": [
+            "Você interagiu com Eduardo, engenheiro metódico, perfil azul DISC: racional, analítico, valoriza clareza e respeito no relacionamento.",
+            "Você demonstrou preocupação em não ser inconveniente, buscando validar se o cliente se sentiu desconfortável.",
+            "Explicou que não faria contato sem o devido aviso prévio, tentando passar segurança ao cliente.",
+            "Reforçou o papel consultivo, mencionando acompanhamento contínuo e interesse pelo bem-estar do cliente e seus próximos.",
+            "Faltou uma verdadeira valorização do cliente no início e um agradecimento claro pela confiança antes do pedido de recomendações.",
+            "Não houve uma investigação do que o cliente realmente valorizou na experiência com você.",
+            "O pedido foi feito de maneira genérica e rapidamente virou insistente, sem segmentar perfis ou orientar a memória do cliente.",
+            "O uso de argumentos apelativos, pressionando pela culpa (“como vai ficar sua consciência?”), pode gerar desconforto e fechar portas no futuro."
+        ]
     },
     {
         "name": "Parceiro Gorilla01",
@@ -1768,7 +1987,9 @@ const RAW_SIMULATIONS = [
                 "text": "Quem é você, por favor? Estou ocupado agora, fala rápido."
             }
         ],
-        "finished": false
+        "finished": false,
+        "feedback": "",
+        "insights": []
     },
     {
         "name": "Parceiro Gorilla01",
@@ -1906,7 +2127,18 @@ const RAW_SIMULATIONS = [
                 "text": "Ok, até quinta-feira então."
             }
         ],
-        "finished": true
+        "finished": true,
+        "feedback": "Aqui está o debriefing da nossa troca.\n\n  \n\n### 🤓 PERSONA\n\nExecutivo analítico, assertivo, perfil DISC predominante vermelho, exigente e desconfiado com discursos padrões.\n\n  \n\n### 🎯 OBJETIVO PRINCIPAL\n\nO objetivo de obter a reunião foi atingido; objeções não foram apresentadas nem tratadas a fundo.\n\n  \n\n### ➕ PONTOS FORTES\n\n- Uso do gatilho de recomendação ao mencionar o contato do Carlos, aumentando relevância e autoridade.\n\n  \n- Abordagem inicial clara e simpática, com apresentação pessoal e contextualização da ligação.\n\n  \n- Proposta da reunião feita de forma objetiva, com escolha forçada entre dois horários.\n\n  \n- Reconfirmação do horário e local, fortalecendo o compromisso do agendamento.\n\n  \n- Postura consultiva e tom cordial, o que favorece abertura do prospect.\n\n  \n\n### ⚠️ PONTOS DE MELHORIA\n\n- Ausência de gestão de objeções, pois o prospect não contestou nem questionou propostas relevantes.\n\n  \n- Falta de autorização explícita para seguir com a apresentação, etapa fundamental no método MetLife.\n\n  \n- Postura excessivamente expositiva em alguns momentos, quase monólogo, sem pausa para explorações do prospect.\n\n  \n- Pequenos deslizes com nomes (“Carlos” trocado por “João”) podem minar a confiança em situações reais.\n\n  \n- Ausência de quebra-gelo pessoal mais impactante e de perguntas de qualificação rápida para adaptar o discurso.\n\n  \n\n### 🩵 ANÁLISE EMOCIONAL\n\nO tom foi agradável, ritmo moderado, vocabulário simples; estado emocional dominante: confiante com leve nervosismo perceptível nos desvios e hesitações.\n\n  \n\n### 🛅 MOMENTOS-CHAVE\n\nNa proposta de reunião com horários específicos, você facilitou a decisão e conduziu o prospect de maneira assertiva, encurtando as resistências. \nAnda, ao usar a recomendação, abriu portas e aumentou credibilidade.\n\n  \n\n### 🔊 REFORMULAÇÕES RECOMENDADAS\n\n“Carlos me falou muito bem de você e que seu perfil combina com meu trabalho consultivo. Posso te apresentar?”\n\n  \n“Para respeitar seu tempo: você prefere na quinta-feira às nove ou às catorze?”\n\n  \n“Se em qualquer momento identificar que não faz sentido para você, combinamos de não avançar, tudo bem?”\n\n  \n“Posso te explicar em menos de trinta minutos o que alguns clientes notaram de valor, sem compromisso?”\n\n  \n\n### ➡️ RECOMENDAÇÕES\n\nDirecione a conversa para ouvir o prospect e provocar mais objeções. Peça autorização antes de seguir e pratique perguntas abertas para qualificação rápida. Lembrando: erro nos nomes é um mini-trauma evitável!\n\nLembre-se: quem conduz a conversa sempre afina o instrumento antes do show. Siga firme!",
+        "insights": [
+            "Uso do gatilho de recomendação ao mencionar o contato do Carlos, aumentando relevância e autoridade.",
+            "Abordagem inicial clara e simpática, com apresentação pessoal e contextualização da ligação.",
+            "Proposta da reunião feita de forma objetiva, com escolha forçada entre dois horários.",
+            "Reconfirmação do horário e local, fortalecendo o compromisso do agendamento.",
+            "Postura consultiva e tom cordial, o que favorece abertura do prospect.",
+            "Ausência de gestão de objeções, pois o prospect não contestou nem questionou propostas relevantes.",
+            "Falta de autorização explícita para seguir com a apresentação, etapa fundamental no método MetLife.",
+            "Postura excessivamente expositiva em alguns momentos, quase monólogo, sem pausa para explorações do prospect."
+        ]
     },
     {
         "name": "Parceiro Gorilla01",
@@ -1952,7 +2184,16 @@ const RAW_SIMULATIONS = [
                 "text": "Tudo bem. Os benefícios concretos, João, é que muitas vezes nós, com a correria do nosso dia a dia e com o nosso trabalho, muitas vezes a gente não pensa em fazer uma estratégia, é, inteligente no quesito de planejamento, de proteção, de organização. Muitas vezes a gente pensa em construir, mas a gente não pensa em prot-- em proteger e blindar o nosso patrimônio ou até mesmo nós, né? Porque sem nós, é, a nossa vida não gira."
             }
         ],
-        "finished": true
+        "finished": true,
+        "feedback": "Aqui está o debriefing da nossa troca\n\n🤓 PERSONA\n\nO prospect interpretado foi João, perfil DISC majoritariamente verde: mais aberto ao diálogo, educado, objetivo e pouco receptivo à pressão comercial.\n\n🎯 OBJETIVO PRINCIPAL\n\nVocê apresentou a proposta de agenda e explicou os benefícios, mas não tratou de objeções nem obteve confirmação da reunião. O objetivo não foi atingido.\n\n➕ PONTOS FORTES\n\nVocê buscou criar empatia ao mencionar o amigo Carlos como recomendação direta.\n\nHouve uma tentativa de abordagem consultiva, fugindo do discurso de vendedor, ao falar de proteção e planejamento.\n\nExplicou o propósito da reunião de modo humano e procurando conexão com situações do cotidiano.\n\n⚠️ PONTOS DE MELHORIA\n\nFaltou pedir autorização para falar (ex: “Você tem um minutinho agora?”), etapa fundamental para baixar defesas e ganhar tempo.\n\nNão houve quebra-gelo pessoal, apenas uso da referência do Carlos, o que limitou o vínculo inicial.\n\nObjeções do prospect sequer foram encorajadas, nem tratadas ou citadas. Houve um monólogo com ausência total de escuta ativa.\n\nNão propôs uma escolha forçada entre dois horários e nem detalhou quando e como seria a reunião pretendida.\n\nAusência de reconfirmação e detalhes práticos sobre data, local ou canal da reunião sugerida.\n\n🩵 ANÁLISE EMOCIONAL\n\nSeu tom foi cordial e seguro, mas o ritmo acelerado e o excesso de informação sem pausas soaram um pouco ansiosos. Faltou pausa para resposta.\n\n🛅 MOMENTOS-CHAVE\n\nAo mencionar que seu trabalho pode fazer sentido para João “assim como fez para o Carlos”, você ativou o gatilho da recomendação, mas deixou de aprofundar o vínculo pessoal.\n\nDurante todo o discurso, você elencou benefícios de maneira genérica, sem ouvir expectativas do prospect, o que enfraqueceu a aproximação.\n\n🔊 REFORMULAÇÕES RECOMENDADAS\n\n“João, posso tomar só dois minutos do seu tempo para explicar rapidinho o motivo do meu contato?”\n\n“Carlos, que te indicou, fala muito bem de sua organização. Posso te perguntar: costuma revisar seu planejamento com frequência?”\n\n“Prefere conversar amanhã às dez ou às quatorze, presencialmente ou por telefone?”\n\n“Minha ideia não é vender nada agora, apenas entender sua realidade e propor algo sob medida, tudo bem?”\n\n➡️ RECOMENDAÇÕES\n\nOuve mais, pausa para perguntas e validações, sempre proponha dia/horário e faça reconfirmação. Nunca pule etapas: autorização, objeções e vínculo pessoal importam demais.\n\nLembre-se: o segredo está menos no que você explica e mais no que você descobre! Siga firme.",
+        "insights": [
+            "O prospect interpretado foi João, perfil DISC majoritariamente verde: mais aberto ao diálogo, educado, objetivo e pouco receptivo à pressão comercial.",
+            "Faltou pedir autorização para falar (ex: “Você tem um minutinho agora?”), etapa fundamental para baixar defesas e ganhar tempo.",
+            "Não houve quebra-gelo pessoal, apenas uso da referência do Carlos, o que limitou o vínculo inicial.",
+            "“Carlos, que te indicou, fala muito bem de sua organização. Posso te perguntar: costuma revisar seu planejamento com frequência?”",
+            "Ouve mais, pausa para perguntas e validações, sempre proponha dia/horário e faça reconfirmação. Nunca pule etapas: autorização, objeções e vínculo pessoal importam demais.",
+            "Lembre-se: o segredo está menos no que você explica e mais no que você descobre! Siga firme."
+        ]
     },
     {
         "name": "Parceiro Gorilla01",
@@ -1965,7 +2206,9 @@ const RAW_SIMULATIONS = [
         "lqa": "N/A",
         "interactions": 0,
         "messages": [],
-        "finished": false
+        "finished": false,
+        "feedback": "",
+        "insights": []
     },
     {
         "name": "Parceiro Gorilla01",
@@ -2247,7 +2490,18 @@ const RAW_SIMULATIONS = [
                 "text": "De nada. Boa tarde."
             }
         ],
-        "finished": true
+        "finished": true,
+        "feedback": "Aqui está o debriefing da nossa troca.\n\n  \n### 🤓 PERSONA\n\n  \nRicardo, executivo bancário sênior, perfil DISC vermelho, analítico, direto e pouco tolerante a “argumentário padrão”.\n\n  \n### 🎯 OBJETIVO PRINCIPAL\n\n  \nVocê respondeu a objeções com persistência e esclarecimentos, conseguindo marcar um bate-papo. Objetivo atingido, apesar de certo desgaste relacional.\n\n  \n### ➕ PONTOS FORTES\n\n  \n- Usou a força do gatilho da recomendação, citando repetidamente o amigo Carlos e construindo associação positiva.\n\n  \n- Reforçou insistentemente o caráter personalizado e consultivo do trabalho, evitando vender produto ou preço.\n\n  \n- Manteve postura profissional, com tom acolhedor e educado, mesmo diante de respostas frias.\n\n  \n- Praticou escolha forçada de horário (“terça-feira às nove ou quinze horas?”), aumentando a taxa de conversão.\n\n  \n- Explicou que não seria uma venda e sim um bate-papo de entendimento de necessidades.\n\n  \n### ⚠️ PONTOS DE MELHORIA\n\n  \n- Repetição excessiva do nome do indicador (Carlos) e justificativas podem transmitir insegurança ou “over-selling” (“Não sei por que ele lembrou de você…” apareceu várias vezes).\n\n  \n- Faltou pedir autorização logo no início para seguir com a ligação. A autorização ficou implícita, mas não explícita, enfraquecendo o controle relacional.\n\n  \n- Ausência de um real quebra-gelo pessoal; faltou criar conexão além da indicação (“vi que são amigos há muito tempo” pode ser superficial para perfil analítico).\n\n  \n- Explicações longas e repetitivas deixaram a argumentação circular, diminuindo objetividade e impacto.\n\n  \n- A reconfirmação do compromisso de agenda foi atropelada, sem o fechamento elegante nem validação emocional (“tudo bem cancelar depois” transmite insegurança e pressão).\n\n  \n### 🩵 ANÁLISE EMOCIONAL\n\n  \nO tom foi respeitoso, gentil e levemente ansioso, buscando aproximação, mas demonstrando nervosismo na insistência e repetição. Predominou tentativa de empatia, mas com insegurança.\n\n  \n### 🛅 MOMENTOS-CHAVE\n\n  \n- Ao insistir no agendamento mesmo diante de negações, demonstrou resiliência, mas flertou com excesso de pressão, o que poderia trazer recusa futura.\n\n  \n- Quando explicou a utilidade do papo (“identificar riscos e vulnerabilidades”), ajustou a mensagem para o benefício do prospect, aumentando o valor percebido.\n\n  \n### 🔊 REFORMULAÇÕES RECOMENDADAS\n\n  \n- “João, posso contar rapidamente o que motivou o Carlos a me indicar você?”\n\n  \n- “Me permita dois minutos para que eu explique o objetivo desse bate-papo – sem compromisso.”\n\n  \n- “Posso enviar um convite para terça-feira, às nove ou quinze, e deixamos flexível conforme sua agenda?”\n\n  \n- “Entendo sua rotina corrida, por isso minha proposta é um bate-papo para você avaliar, sem pressão para decidir nada agora.”\n\n  \n- “Minha intenção é agregar valor com um olhar externo ao seu planejamento atual, se fizer sentido para você.”\n\n  \n### ➡️ RECOMENDAÇÕES\n\n  \nPriorize autorização clara ao início e invista em perguntas leves que humanizem o contato antes da indicação. Evite circulações e repetições: foque em clareza, objetividade e valor para o cliente. Não tema o silêncio.\n\nContinue aprimorando. Persistência educada e escuta ativa são sua assinatura para melhores resultados!",
+        "insights": [
+            "Você respondeu a objeções com persistência e esclarecimentos, conseguindo marcar um bate-papo. Objetivo atingido, apesar de certo desgaste relacional.",
+            "Usou a força do gatilho da recomendação, citando repetidamente o amigo Carlos e construindo associação positiva.",
+            "Reforçou insistentemente o caráter personalizado e consultivo do trabalho, evitando vender produto ou preço.",
+            "Manteve postura profissional, com tom acolhedor e educado, mesmo diante de respostas frias.",
+            "Praticou escolha forçada de horário (“terça-feira às nove ou quinze horas?”), aumentando a taxa de conversão.",
+            "Explicou que não seria uma venda e sim um bate-papo de entendimento de necessidades.",
+            "Repetição excessiva do nome do indicador (Carlos) e justificativas podem transmitir insegurança ou “over-selling” (“Não sei por que ele lembrou de você…” apareceu várias vezes).",
+            "Faltou pedir autorização logo no início para seguir com a ligação. A autorização ficou implícita, mas não explícita, enfraquecendo o controle relacional."
+        ]
     },
     {
         "name": "Parceiro Gorilla01",
@@ -2260,7 +2514,9 @@ const RAW_SIMULATIONS = [
         "lqa": "N/A",
         "interactions": 0,
         "messages": [],
-        "finished": false
+        "finished": false,
+        "feedback": "",
+        "insights": []
     },
     {
         "name": "Parceiro Gorilla01",
@@ -2374,7 +2630,18 @@ const RAW_SIMULATIONS = [
                 "text": "Tudo bem, obrigada. Até terça às quinze. Adeus."
             }
         ],
-        "finished": true
+        "finished": true,
+        "feedback": "Aqui está o debriefing de nossa conversa.\n\n🤓 PERSONA\n\nInterpretei Camila, jovem executiva de tecnologia em Florianópolis, perfil DISC majoritariamente amarelo, digital-native, questionadora e analítica.\n\n🎯 OBJETIVO PRINCIPAL\n\nO objetivo era obter o agendamento de uma reunião sem envio prévio de material genérico. O objetivo não foi atingido, pois houve o envio do material antes do encontro.\n\n➕ Pontos fortes\n\n- O discurso valorizou a abordagem consultiva e personalizada, reforçando a diferenciação no processo de planejamento.\n- Houve tentativa de criar conexão ao citar a indicação da amiga e alguns aspectos pessoais.\n- Utilizou a técnica da escolha forçada (manhã/tarde) para sugerir datas, mesmo com desvios.\n\n⚠️ EIXOS DE MELHORIA\n\n- Faltou validar e acolher francamente o sentimento por trás da objeção, antes de argumentar (“sim, mas…” ficou apressado).\n- Houve hesitação e frases pouco fluidas, especialmente na gestão da objeção inicial.\n- A argumentação contra o envio do material foi repetitiva e pouco fundamentada, sem explorar as vantagens da avaliação mútua ou as inadequações do suporte.\n- Faltaram perguntas abertas genuínas para descobrir os reais motivos da resistência (“Por que gostaria do material antes?”).\n- Ao final, cedeu ao envio do material, neutralizando a estratégia comercial e deixando a iniciativa do controle esvair-se.\n\n🩵 ANÁLISE EMOCIONAL\n\nO tom foi esforçado e amistoso, mas revelou nervosismo em trechos com pausas e interrupções. O ritmo variou; o vocabulário tentou ser acolhedor, mas soou inseguro em alguns momentos.\n\n🛅 MOMENTOS-CHAVE\n\nAo reforçar a personalização e recusar o material inicialmente, foi importante para posicionar a abordagem. Porém, a hesitação e posterior concordância com o envio minaram a autoridade e o impacto da argumentação.\n\n🔊 REFORMULAÇÕES RECOMENDADAS\n\nEntendo sua solicitação, senhora Camila, e faz todo sentido analisar informações antes de decidir.\n\nMeu trabalho só faz sentido quando construído a partir das suas necessidades, por isso prefiro te apresentar pessoalmente as alternativas.\n\nPosso te propor uma conversa de quinze minutos, na terça, com as duas opções de horário?\n\nCaso não veja sentido após nossa conversa, não avançamos – sem compromisso.\n\n➡️ RECOMENDAÇÕES\n\nPratique mais a escuta ativa antes de contra-argumentar. Fortaleça as razões da personalização e aprofunde perguntas abertas para entender a objeção. Evite ceder ao envio de documentação genérica, mantendo o controle gentil.\n\nSiga ajustando – cada conversa é um treino para sua próxima vitória!",
+        "insights": [
+            "Interpretei Camila, jovem executiva de tecnologia em Florianópolis, perfil DISC majoritariamente amarelo, digital-native, questionadora e analítica.",
+            "O discurso valorizou a abordagem consultiva e personalizada, reforçando a diferenciação no processo de planejamento.",
+            "Houve tentativa de criar conexão ao citar a indicação da amiga e alguns aspectos pessoais.",
+            "Utilizou a técnica da escolha forçada (manhã/tarde) para sugerir datas, mesmo com desvios.",
+            "Faltou validar e acolher francamente o sentimento por trás da objeção, antes de argumentar (“sim, mas…” ficou apressado).",
+            "Houve hesitação e frases pouco fluidas, especialmente na gestão da objeção inicial.",
+            "A argumentação contra o envio do material foi repetitiva e pouco fundamentada, sem explorar as vantagens da avaliação mútua ou as inadequações do suporte.",
+            "Faltaram perguntas abertas genuínas para descobrir os reais motivos da resistência (“Por que gostaria do material antes?”)."
+        ]
     },
     {
         "name": "Parceiro Gorilla01",
@@ -2387,7 +2654,9 @@ const RAW_SIMULATIONS = [
         "lqa": "N/A",
         "interactions": 0,
         "messages": [],
-        "finished": false
+        "finished": false,
+        "feedback": "",
+        "insights": []
     },
     {
         "name": "Parceiro Inside3a12",
@@ -2405,7 +2674,9 @@ const RAW_SIMULATIONS = [
                 "text": "O mais simples: encaminhe-me o documento por e-mail, eu o analiso com tranquilidade e lhe dou um retorno."
             }
         ],
-        "finished": false
+        "finished": false,
+        "feedback": "",
+        "insights": []
     },
     {
         "name": "Parceiro Inside3a12",
@@ -2418,7 +2689,9 @@ const RAW_SIMULATIONS = [
         "lqa": "N/A",
         "interactions": 0,
         "messages": [],
-        "finished": false
+        "finished": false,
+        "feedback": "",
+        "insights": []
     },
     {
         "name": "Parceiro Inside3a12",
@@ -2500,7 +2773,14 @@ const RAW_SIMULATIONS = [
                 "text": "Obrigada, senhor. Se lá na frente tiver um resumo por escrito, eu reavaliarei. Boa tarde."
             }
         ],
-        "finished": true
+        "finished": true,
+        "feedback": "Aqui está o debriefing de nossa conversa.\n\n\n🤓 PERSONA\n\nFui Camila, executiva de tecnologia, perfil DISC majoritário amarelo, curiosa e digital-first, com postura analítica e desconfiada.\n\n🎯 OBJETIVO PRINCIPAL\n\nVocê respondeu de modo consistente à objeção sobre o envio de documentos e reforçou a personalização, mas não obteve o agendamento da reunião. Objetivo parcialmente atingido.\n\n\n➕ Pontos fortes\n\nVocê evitou a armadilha de enviar material genérico, reforçando o caráter consultivo do trabalho.\nApresentou com clareza a importância do entendimento prévio das necessidades, usando exemplos do próprio universo da prospect.\nUtilizou a técnica da escolha forçada em mais de uma tentativa, dando datas concretas e próximas para o encontro.\nDemonstrou respeito, mantendo sempre um tom educado e deixando a porta aberta para contatos futuros.\n\n⚠️ EIXOS DE MELHORIA\n\nFaltaram perguntas abertas e genuínas de descoberta, especialmente para captar a real razão da objeção de Camila; a única tentativa (\"Me fala um pouquinho por que que cê prefere que eu te envie o documento antes?\") foi pouco explorada e rapidamente abandonada.\nPoderia ter trabalhado melhor a validação do sentimento da prospect, mostrando mais empatia antes de argumentar.\nO argumento de comparação com projetos de tecnologia, embora pertinente, soou um pouco repetitivo, sem fortes articulações com as dores potenciais da persona.\nEncerrar cedo demais a conversa (\"sinto muito, mas não vou conseguir...\") pode ter bloqueado uma oportunidade de reverter o cenário.\n\n🩵 ANÁLISE EMOCIONAL\n\nSeu tom foi cordial, paciente e profissional, demonstrando controle emocional, mas faltou energia proativa e sondagem mais empática. Estado predominante: calmo, porém pouco envolvente.\n\n🛅 MOMENTOS-CHAVE\n\nAo recusar firmemente o envio do material e propor duas datas, você assumiu controle com cortesia, mostrando domínio de processo.\nO encerramento precoce, sem explorar mais o contexto da objeção, reduziu o engajamento e impediu avanços.\n\n🔊 REFORMULAÇÕES RECOMENDADAS\n\n\"Camila, só pra eu entender melhor sua expectativa, no que o material adiantaria sua decisão neste momento?\"\n\n\"Sinto que talvez você queira comparar diferentes ofertas. Se puder compartilhar o que é prioridade pra você, consigo direcionar melhor nossa conversa.\"\n\n\"Entendo o tempo apertado. Nossa reunião pode ser objetiva, quinze minutos, só pra ver se faz sentido inclusive pra você.\"\n\n➡️ RECOMENDAÇÕES\n\nAprofunde a escuta: insista com perguntas abertas e demonstre mais empatia antes de argumentar. Valide sentimentos e use analogias ancoradas na realidade do prospect, sem repetir justificativas. Encaminhe o fechamento apenas após entender verdadeiramente as motivações do prospect.\n\nContinue aprimorando: cada objeção é uma oportunidade velada de conexão!",
+        "insights": [
+            "Fui Camila, executiva de tecnologia, perfil DISC majoritário amarelo, curiosa e digital-first, com postura analítica e desconfiada.",
+            "Seu tom foi cordial, paciente e profissional, demonstrando controle emocional, mas faltou energia proativa e sondagem mais empática. Estado predominante: calmo, porém pouco envolvente.",
+            "Aprofunde a escuta: insista com perguntas abertas e demonstre mais empatia antes de argumentar. Valide sentimentos e use analogias ancoradas na realidade do prospect, sem repetir justificativas. Encaminhe o fechamento apenas após entender verdadeiramente as motivações do prospect.",
+            "Continue aprimorando: cada objeção é uma oportunidade velada de conexão!"
+        ]
     },
     {
         "name": "Parceiro Inside3a12",
@@ -2518,7 +2798,9 @@ const RAW_SIMULATIONS = [
                 "text": "O mais prático é me enviar o documento por e-mail, eu o percorro no meu ritmo e retorno com minhas impressões."
             }
         ],
-        "finished": false
+        "finished": false,
+        "feedback": "",
+        "insights": []
     },
     {
         "name": "Parceiro Inside3a12",
@@ -2536,7 +2818,9 @@ const RAW_SIMULATIONS = [
                 "text": "O mais simples: encaminhe-me o documento por e-mail, eu o analiso com tranquilidade e lhe dou um retorno."
             }
         ],
-        "finished": false
+        "finished": false,
+        "feedback": "",
+        "insights": []
     },
     {
         "name": "Parceiro Inside3a12",
@@ -2549,7 +2833,9 @@ const RAW_SIMULATIONS = [
         "lqa": "N/A",
         "interactions": 0,
         "messages": [],
-        "finished": false
+        "finished": false,
+        "feedback": "",
+        "insights": []
     },
     {
         "name": "Parceiro Inside3a12",
@@ -2562,7 +2848,9 @@ const RAW_SIMULATIONS = [
         "lqa": "N/A",
         "interactions": 0,
         "messages": [],
-        "finished": false
+        "finished": false,
+        "feedback": "",
+        "insights": []
     },
     {
         "name": "Parceiro Inside3a12",
@@ -2575,7 +2863,9 @@ const RAW_SIMULATIONS = [
         "lqa": "N/A",
         "interactions": 0,
         "messages": [],
-        "finished": false
+        "finished": false,
+        "feedback": "",
+        "insights": []
     },
     {
         "name": "Parceiro Inside3a12",
@@ -2657,7 +2947,9 @@ const RAW_SIMULATIONS = [
                 "text": "Senhora Eliana, eu não gosto de reuniões sem material porque tenho medo de ser pressionada a decidir na hora.  \nPrefiro analisar por escrito no meu tempo e só marcar se o conteúdo valer meu tempo."
             }
         ],
-        "finished": false
+        "finished": false,
+        "feedback": "",
+        "insights": []
     },
     {
         "name": "Parceiro Inside3a12",
@@ -2670,7 +2962,9 @@ const RAW_SIMULATIONS = [
         "lqa": "N/A",
         "interactions": 0,
         "messages": [],
-        "finished": false
+        "finished": false,
+        "feedback": "",
+        "insights": []
     },
     {
         "name": "Parceiro Inside3a12",
@@ -2688,7 +2982,9 @@ const RAW_SIMULATIONS = [
                 "text": "O mais simples: encaminhe-me o documento por e-mail, eu o analiso com tranquilidade e lhe dou um retorno."
             }
         ],
-        "finished": false
+        "finished": false,
+        "feedback": "",
+        "insights": []
     },
     {
         "name": "Parceiro Inside3a12",
@@ -2706,7 +3002,9 @@ const RAW_SIMULATIONS = [
                 "text": "O mais simples: encaminhe-me o documento por e-mail, eu o analiso com tranquilidade e lhe dou um retorno."
             }
         ],
-        "finished": false
+        "finished": false,
+        "feedback": "",
+        "insights": []
     },
     {
         "name": "Parceiro Inside3a12",
@@ -2744,7 +3042,18 @@ const RAW_SIMULATIONS = [
                 "text": "Match Life? Não conheço essa empresa. Estou sem tempo agora e achei estranho você dizer que a Paula me indicou se eu não a conheço. Como exatamente você conseguiu meu número?"
             }
         ],
-        "finished": true
+        "finished": true,
+        "feedback": "Aqui está o debriefing da nossa troca.\n\n🤓 PERSONA\n\nPersona interpretada: Camila, executiva de tecnologia, curiosa e digital, perfil DISC amarelo dominante, prefere abordagens informais e orientadas à experiência.\n\n🎯 OBJETIVO PRINCIPAL\n\nVocê respondeu de forma cordial e tentou inserir gatilhos de recomendação, mas não houve incisividade nem gestão estruturada de objeções. O objetivo de obter uma reunião não foi atingido.\n\n➕ PONTOS FORTES\n\n- Abriu a conversa de forma educada, buscando autorização antes de seguir adiante.\n  \n- Apostou no vínculo relacional via indicação de uma amiga, ativando um início de quebra-gelo.\n\n- Teve uma voz mais leve, próxima e natural, sem tom impositivo.\n\n⚠️ PONTOS DE MELHORIA\n\n- Ausência de estrutura MetLife: não houve confirmação explícita da autorização, nem sequência clara de etapas.\n\n- Indicação confusa: referências à Paula ficaram pouco claras e repetitivas, diminuindo impacto do gatilho de confiança.\n\n- Falta escolha forçada de reunião. Nenhuma proposta de data/horário foi feita.\n\n- Nome da empresa citado erroneamente (“Match Life” e não “MetLife”), reduzindo credibilidade.\n\n- Gestão de objeções ausente: não foram exploradas eventuais resistências ou perguntas de Camila.\n\n🩵 ANÁLISE EMOCIONAL\n\nO tom foi amistoso e descontraído, com vocabulário acessível e ritmo fluido, mas faltou segurança e objetividade em alguns momentos. Estado emocional dominante: simpática, mas pouco assertiva.\n\n🛅 MOMENTOS-CHAVE\n\nSituação: Apresentação inicial amigável via nome de amiga. Você buscou criar familiaridade, o que poderia abrir portas, mas faltou aprofundar conexão real e direcionamento.\n\nSituação: Citação da empresa errada. Isso compromete confiança e impacta percepção de profissionalismo.\n\n🔊 REFORMULAÇÕES RECOMENDADAS\n\nCamila, posso te explicar rapidamente qual o valor deste encontro? Prometo ser objetiva para respeitar seu tempo.\n\nPrefere conversar via vídeo ou presencialmente em Jurerê? Tenho agenda amanhã ou depois, qual funciona melhor pra você?\n\nEntendo que já deve receber muitas abordagens, mas Paula comentou que você gosta de informações práticas – posso compartilhar algumas rápidas?\n\n➡️ RECOMENDAÇÕES\n\nSiga rigorosamente as oito etapas MetLife, principalmente escolha forçada, gestão ativa das objeções e apresentação clara do benefício da reunião. Corrija eventuais dúvidas sobre a empresa e foque no valor concreto para a persona. Persistência com leveza é a chave – seu próximo contato pode ser o divisor de águas!",
+        "insights": [
+            "Persona interpretada: Camila, executiva de tecnologia, curiosa e digital, perfil DISC amarelo dominante, prefere abordagens informais e orientadas à experiência.",
+            "Abriu a conversa de forma educada, buscando autorização antes de seguir adiante.",
+            "Apostou no vínculo relacional via indicação de uma amiga, ativando um início de quebra-gelo.",
+            "Teve uma voz mais leve, próxima e natural, sem tom impositivo.",
+            "Ausência de estrutura MetLife: não houve confirmação explícita da autorização, nem sequência clara de etapas.",
+            "Indicação confusa: referências à Paula ficaram pouco claras e repetitivas, diminuindo impacto do gatilho de confiança.",
+            "Falta escolha forçada de reunião. Nenhuma proposta de data/horário foi feita.",
+            "Nome da empresa citado erroneamente (“Match Life” e não “MetLife”), reduzindo credibilidade."
+        ]
     },
     {
         "name": "Parceiro Inside3a12",
@@ -2810,7 +3119,18 @@ const RAW_SIMULATIONS = [
                 "text": "Boa tarde e muito obrigada. Até logo!"
             }
         ],
-        "finished": true
+        "finished": true,
+        "feedback": "Aqui está o debriefing de nossa conversa.\n\n\n🤓 PERSONA\n\nMarcos, professor de história, quarenta e dois anos, perfil DISC majoritariamente verde: calmo, relacional, evita conflitos e pressão comercial.\n\n\n🎯 OBJETIVO PRINCIPAL\n\nVocê respondeu às objeções do prospect e agendou uma reunião sem enviar documentação antes. Objetivo plenamente atingido.\n\n\n➕ Pontos fortes\n\n- Você manteve o controle da conversa do começo ao fim, sem hesitar ou abrir espaço para recuo.\n- Aplicou a técnica da escolha forçada ao propor horários específicos, acelerando o fechamento do compromisso.\n- Respeitou o tempo e ritmo do prospect, ajustando a abordagem para obter o sim com naturalidade.\n- Conseguiu construir um clima amistoso e fechar a conversa de forma profissional, mantendo as portas abertas.\n\n\n⚠️ EIXOS DE MELHORIA\n\n- Faltou validar explicitamente os sentimentos do prospect logo ao recusar o envio do material (exemplo: “Entendo que o senhor quer se sentir seguro antes de decidir…”).\n- Sua argumentação sobre a não possibilidade de envio ficou centrada em regras, e não em benefícios para o cliente (\"não consigo te mandar\", \"preciso fazer uma anamnese\"), faltando explicar por que a personalização é importante.\n- Em nenhum momento você investigou, com pergunta aberta, a razão oculta do pedido do prospect, perdendo oportunidade de aprofundar o vínculo e entender o verdadeiro receio.\n\n\n🩵 ANÁLISE EMOCIONAL\n\nSeu tom foi sereno, seguro e cordial, transmitindo confiança sem soar apressado. Faltou só um pouco mais de empatia verbal.\n\n\n🛅 MOMENTOS-CHAVE\n\nQuando o prospect insistiu no envio do material, você imediatamente sugeriu dois horários para reunião, evitando perda de ritmo. Isso manteve a negociação nas suas mãos e evitou dispersão.\n\n\n🔊 REFORMULAÇÕES RECOMENDADAS\n\n“Marcos, percebo que o senhor prefere analisar tudo com calma. Por que isso é importante pra você?”\n\n“Esse material é realmente valioso, mas só faz sentido se ajustado ao seu perfil – por isso preciso ouvi-lo antes!”\n\n“Após conversarmos, garanto que o senhor receberá exatamente o que é útil para sua realidade.”\n\n“Quinta à tarde ou sexta às dez horas? O que encaixa melhor pra sua rotina?”\n\n\n➡️ RECOMENDAÇÕES\n\nPratique validar sentimentos antes de contra-argumentar e use perguntas abertas para revelar objeções ocultas. Explicitar que a personalização é para benefício do prospect agrega valor. Continue assertivo, mas amplie seu repertório empático.\n\nSeu ritmo está ótimo. Siga confiando — quem conduz bem, não precisa empurrar!",
+        "insights": [
+            "Marcos, professor de história, quarenta e dois anos, perfil DISC majoritariamente verde: calmo, relacional, evita conflitos e pressão comercial.",
+            "Você manteve o controle da conversa do começo ao fim, sem hesitar ou abrir espaço para recuo.",
+            "Aplicou a técnica da escolha forçada ao propor horários específicos, acelerando o fechamento do compromisso.",
+            "Respeitou o tempo e ritmo do prospect, ajustando a abordagem para obter o sim com naturalidade.",
+            "Conseguiu construir um clima amistoso e fechar a conversa de forma profissional, mantendo as portas abertas.",
+            "Faltou validar explicitamente os sentimentos do prospect logo ao recusar o envio do material (exemplo: “Entendo que o senhor quer se sentir seguro antes de decidir…”).",
+            "Sua argumentação sobre a não possibilidade de envio ficou centrada em regras, e não em benefícios para o cliente (\"não consigo te mandar\", \"preciso fazer uma anamnese\"), faltando explicar por que a personalização é importante.",
+            "Em nenhum momento você investigou, com pergunta aberta, a razão oculta do pedido do prospect, perdendo oportunidade de aprofundar o vínculo e entender o verdadeiro receio."
+        ]
     },
     {
         "name": "Parceiro Apice24mais",
@@ -2823,7 +3143,9 @@ const RAW_SIMULATIONS = [
         "lqa": "N/A",
         "interactions": 0,
         "messages": [],
-        "finished": false
+        "finished": false,
+        "feedback": "",
+        "insights": []
     },
     {
         "name": "Parceiro Apice24mais",
@@ -2836,7 +3158,9 @@ const RAW_SIMULATIONS = [
         "lqa": "N/A",
         "interactions": 0,
         "messages": [],
-        "finished": false
+        "finished": false,
+        "feedback": "",
+        "insights": []
     },
     {
         "name": "Parceiro Apice24mais",
@@ -2866,7 +3190,9 @@ const RAW_SIMULATIONS = [
                 "text": "If you-- if you're having trouble sleeping at night because of your anxiety about COVID-19, there's help out there."
             }
         ],
-        "finished": false
+        "finished": false,
+        "feedback": "",
+        "insights": []
     },
     {
         "name": "Parceiro Apice24mais",
@@ -2879,7 +3205,9 @@ const RAW_SIMULATIONS = [
         "lqa": "N/A",
         "interactions": 0,
         "messages": [],
-        "finished": false
+        "finished": false,
+        "feedback": "",
+        "insights": []
     },
     {
         "name": "Parceiro Apice24mais",
@@ -2905,7 +3233,9 @@ const RAW_SIMULATIONS = [
                 "text": "Oxe, é outro esforção? É, você conectou..."
             }
         ],
-        "finished": false
+        "finished": false,
+        "feedback": "",
+        "insights": []
     },
     {
         "name": "Parceiro Apice24mais",
@@ -2959,7 +3289,18 @@ const RAW_SIMULATIONS = [
                 "text": "Perfeito! Então vou te mandar o link da videochamada. JP, agora..."
             }
         ],
-        "finished": true
+        "finished": true,
+        "feedback": "Aqui está o debriefing de nossa conversa.\n\n  \n\n### 🤓 PERSONA\n\nLarissa, empreendedora do ramo de beleza, perfil DISC amarelo predominante, extrovertida, intuitiva e relacional.\n\n  \n\n🎯 OBJETIVO PRINCIPAL\n\nVocê conseguiu rechaçar o envio de material genérico e argumentou sobre personalização, mas não obteve o aceite para agendar a reunião. O objetivo foi parcialmente atingido.\n\n  \n\n### ➕ Pontos fortes\n\n- Aplicou assertivamente o conceito de personalização na sua abordagem, mostrando que só elabora o material após conhecer melhor a realidade do prospect.\n- Argumentou que o material padrão não gera valor e colocou a conversa inicial como porta de entrada para a customização.\n- Propôs a técnica da escolha forçada ao sugerir datas concretas para a conversa, criando senso de direcionamento e organização.\n\n  \n\n### ⚠️ EIXOS DE MELHORIA\n\n- Faltou validação do sentimento de Larissa antes do contra-argumento (“Sim, mas…”): poderia ter demonstrado empatia e reconhecido a expectativa dela de receber material.\n- A pergunta sobre segunda ou terça foi positiva, mas veio rápido demais, sem explorar de verdade as razões subjacentes à resistência.\n- Não houve perguntas abertas para entender as objeções reais, o que impediu de descobrir os verdadeiros motivos do adiamento.\n- Em alguns momentos, o discurso soou repetitivo (“para personalizar eu preciso conversar”), sendo possível diversificar os argumentos e dialogar mais.\n\n  \n\n### 🩵 ANÁLISE EMOCIONAL\n\nSua comunicação foi assertiva e clara, mas com ritmo um pouco acelerado e pouca escuta ativa. O tom dominante foi confiante, porém um pouco impaciente frente à recusa.\n\n  \n\n### 🛅 MOMENTOS-CHAVE\n\nQuando justificou não enviar o material antes foi decisivo para manter o controle da conversa, mesmo sem fechamento. A tentativa de agendamento direto logo após também impactou: faltou sensibilidade para entender a objeção.\n\n  \n\n🔊 REFORMULAÇÕES RECOMENDADAS\n\n“Entendo que queira avaliar antes, Larissa, posso perguntar o que mais te deixaria confortável nessa etapa?”\n\n“Antes de falarmos em reunião, gostaria de ouvir o que mais te preocupa ao falar de seguros hoje.”\n\n“Nossa conversa é só para adaptar algo à sua realidade – prometo ser breve e pragmático!”\n\n  \n\n➡️ RECOMENDAÇÕES\n\nAprofunde na escuta ativa, utilize mais perguntas abertas e valide as emoções do prospect antes de direcionar o agendamento. Só assim as reais objeções emergem e você constrói confiança rapidamente.\n\nParabéns pelo controle da situação – ajuste o ritmo, e você irá longe nesse jogo!",
+        "insights": [
+            "Aplicou assertivamente o conceito de personalização na sua abordagem, mostrando que só elabora o material após conhecer melhor a realidade do prospect.",
+            "Argumentou que o material padrão não gera valor e colocou a conversa inicial como porta de entrada para a customização.",
+            "Propôs a técnica da escolha forçada ao sugerir datas concretas para a conversa, criando senso de direcionamento e organização.",
+            "Faltou validação do sentimento de Larissa antes do contra-argumento (“Sim, mas…”): poderia ter demonstrado empatia e reconhecido a expectativa dela de receber material.",
+            "A pergunta sobre segunda ou terça foi positiva, mas veio rápido demais, sem explorar de verdade as razões subjacentes à resistência.",
+            "Não houve perguntas abertas para entender as objeções reais, o que impediu de descobrir os verdadeiros motivos do adiamento.",
+            "Em alguns momentos, o discurso soou repetitivo (“para personalizar eu preciso conversar”), sendo possível diversificar os argumentos e dialogar mais.",
+            "Quando justificou não enviar o material antes foi decisivo para manter o controle da conversa, mesmo sem fechamento. A tentativa de agendamento direto logo após também impactou: faltou sensibilidade para entender a objeção."
+        ]
     },
     {
         "name": "Parceiro Apice24mais",
@@ -3049,7 +3390,15 @@ const RAW_SIMULATIONS = [
                 "text": "De nada, senhor."
             }
         ],
-        "finished": true
+        "finished": true,
+        "feedback": "Aqui está o debriefing de nossa conversa.  \n\n\n🤓 PERSONA\n\nLarissa, empresária do segmento de beleza, perfil DISC amarelo, carismática, entusiasta, sociável, orientada ao contato humano e à projeção emocional. \n\n🎯 OBJETIVO PRINCIPAL\n\nVocê buscou recusar o envio de material genérico, argumentar de forma personalizada e obter a reunião sem envio prévio. Objetivo parcialmente atingido, pois cedeu ao envio do material em alguns momentos.  \n\n\n➕ Pontos fortes\n\nVocê mostrou clareza ao explicar a personalização do serviço, reforçando que o trabalho não é genérico.  \nUsou várias vezes a técnica da escolha forçada (\"segunda ou terça-feira\"), conduzindo bem para decisão de agenda.  \nValidou o sentimento do prospect, buscando entender sua posição antes de argumentar.  \nDemonstrou consistência ao retomar o valor de uma conversa personalizada.  \n\n⚠️ EIXOS DE MELHORIA\n\nVocê acabou cedendo ao enviar material institucional, perdendo a força da objeção inicial.  \nFaltou investigar com perguntas abertas para revelar as verdadeiras razões da recusa (\"Posso fazer uma pergunta?\" ficou superficial).  \nEm alguns momentos, persistiu em argumentos circulares, sem avançar para escuta ativa: \"Como que eu vou personalizar sem conversar?\", mas não ouviu o motivo real do pedido do prospect.  \nNão explorou os benefícios diretos do encontro para Larissa, conectando ao jeito relacional do perfil dela.  \n\n🩵 ANÁLISE EMOCIONAL\n\nO ritmo foi ágil, o tom se manteve cordial, mas houve flutuações entre segurança e leve impaciência. O estado emocional predominante foi assertivo, mas por vezes ansioso perante a objeção.  \n\n🛅 MOMENTOS-CHAVE\n\nAo diferenciar o material genérico do personalizado, você posicionou o valor do seu serviço — isso reforça seu diferencial e ajuda a engajar o prospect.  \nA decisão de enviar materiais acabou enfraquecendo sua postura no meio da conversa, facilitando uma possível evasão futura do prospect.  \n\n🔊 REFORMULAÇÕES RECOMENDADAS\n\nLarissa, minha intenção é realmente construir algo alinhado ao seu perfil, não enviar um material genérico.  \n\nPosso te fazer uma pergunta rápida? O que mais te preocupa ao marcar essa conversa agora?  \n\nSe preferir, podemos marcar esse bate-papo de quinze minutinhos, e assim eu consigo desenhar algo só para você.  \n\nDepois do nosso encontro, você terá um material personalizado, feito sob medida, e poderá avaliar com calma.  \n\n\n➡️ RECOMENDAÇÕES\n\nMantenha a recusa ao envio do material de maneira respeitosa e treine perguntas abertas para descobrir as motivações ocultas. Explore sempre o benefício do encontro para o prospect. Personalização só engaja se for percebida!  \n\nContinue aprimorando: com repertório e empatia, sua taxa de reuniões vai decolar.",
+        "insights": [
+            "Usou várias vezes a técnica da escolha forçada (\"segunda ou terça-feira\"), conduzindo bem para decisão de agenda.",
+            "Em alguns momentos, persistiu em argumentos circulares, sem avançar para escuta ativa: \"Como que eu vou personalizar sem conversar?\", mas não ouviu o motivo real do pedido do prospect.",
+            "Ao diferenciar o material genérico do personalizado, você posicionou o valor do seu serviço — isso reforça seu diferencial e ajuda a engajar o prospect.",
+            "Se preferir, podemos marcar esse bate-papo de quinze minutinhos, e assim eu consigo desenhar algo só para você.",
+            "Continue aprimorando: com repertório e empatia, sua taxa de reuniões vai decolar."
+        ]
     },
     {
         "name": "Parceiro Apice24mais",
@@ -3071,7 +3420,9 @@ const RAW_SIMULATIONS = [
                 "text": "Depende do assunto. Posso falar agora, mas tenho poucos minutos. Sobre o que é?"
             }
         ],
-        "finished": false
+        "finished": false,
+        "feedback": "",
+        "insights": []
     },
     {
         "name": "Parceiro Apice24mais",
@@ -3093,7 +3444,9 @@ const RAW_SIMULATIONS = [
                 "text": "Você deve ter enganado o contato, não sou a Renata. Quem é Débora?"
             }
         ],
-        "finished": false
+        "finished": false,
+        "feedback": "",
+        "insights": []
     },
     {
         "name": "Parceiro Apice24mais",
@@ -3287,7 +3640,18 @@ const RAW_SIMULATIONS = [
                 "text": "Não vou dar meu e-mail por telefone.  \nSe quiser continuar, envie o e-mail a partir do seu endereço e me diga qual é o remetente para eu checar.  \nObrigada, até mais."
             }
         ],
-        "finished": true
+        "finished": true,
+        "feedback": "Aqui está o debriefing da nossa troca.\n\n  \n🤓 PERSONA\n\n- Atuei como Fernanda, dentista autônoma, perfil dominante Verde no DISC: ponderada, cortês, racional e com forte preocupação com planejamento e proteção.\n\n  \n🎯 OBJETIVO PRINCIPAL\n\n- Você buscou responder às objeções, mas a reunião não foi confirmada.\n- O objetivo foi parcialmente atingido, pois houve argumentação, mas não houve conversão nem aceitação clara do encontro.\n\n  \n➕ PONTOS FORTES\n\n- Apresentou-se de forma simpática e buscou criar conexão pessoal ao citar recomendação de conhecida do prospect.\n\n  \n- Manteve o foco na personalização do serviço e na importância do bate-papo, destacando benefícios de um diagnóstico individual.\n\n  \n- Procurou usar escolha forçada para sugerir datas, demonstrando técnica de agendamento ativa.\n\n  \n- Lidou razoavelmente com insistência sobre envio de material, tentando transformar em oportunidade de conversa.\n\n  \n⚠️ PONTOS DE MELHORIA\n\n- **Confusão no gatilho de recomendação**\n  \n  O nome da recomendação foi trocado várias vezes (“Renata”, depois “Karla/Carla”) gerando insegurança e desconexão.\n  \n\n- **Roteiro truncado e excesso de justificativas**\n  \n  O pitch ficou longo, com explicações repetitivas que diluíram o impacto e perderam o prospect na sequência.\n  \n\n- Faltou pedir autorização explícita para explicar o motivo da ligação, o que aumentou a resistência.\n\n  \n- Houve argumentação circular (“preciso do seu e-mail para enviar material”) sem escuta ativa das necessidades de Fernanda.\n\n  \n- Prevaleceu tom de justificativa ansiosa, perdendo assertividade e postura consultiva, especialmente no encerramento: “Você realmente tem interesse em marcar essa conversa…?”\n\n  \n🩵 ANÁLISE EMOCIONAL\n\nO tom começou acolhedor, mas virou defensivo e apressado; o ritmo ficou acelerado conforme surgiram objeções, mostrando ansiedade e perda de empatia no final. Estado dominante: levemente ansioso e desconfortável.\n\n  \n🛅 MOMENTOS-CHAVE\n\nSituação: Troca de nomes ao referenciar a recomendação.  \nO que fez: Mudou de Renata para Carla/Karla.  \nPor que isso importa: Gatilho de confiança quebrou, gerando dúvida.  \nImpacto: Prospect se afastou e desacreditou da abordagem.\n\nSituação: Pressão pelo envio de e-mail e inversão do pedido de compromisso.  \nO que fez: Insistiu na necessidade do e-mail antes do agendamento.  \nPor que isso importa: Soou invasivo e desnecessariamente confrontador, minando o rapport.\n\n  \n🔊 REFORMULAÇÕES RECOMENDADAS\n\n- “Fernanda, posso te explicar em trinta segundos o que motivou a Carla a indicar você? Prometo não tomar muito do seu tempo.”\n- “Entendo que queira material prévio, mas para garantir que a informação faça sentido, um bate-papo curto pode ser mais útil. Te traria mais segurança, tudo bem?”\n- “Para facilitar, posso compartilhar um exemplo genérico e depois, se fizer sentido, aprofundamos para sua realidade. Que tal segunda ou terça?”\n- “Não se preocupe, te envio sim o exemplo, mas minha proposta é só garantir que nosso papo seja objetivo e útil para você.”\n- “Se preferir, marcamos um horário só para esclarecimentos, sem compromisso de contratação.”\n\n  \n➡️ RECOMENDAÇÕES\n\nAperfeiçoe a abertura com autorização prévia e narrativa consistente quanto ao referenciador. Simplifique os argumentos, troque justificativas por perguntas abertas (“O que te ajudaria a decidir?”) e mantenha postura consultiva, não inquisitiva. Insista menos e escute mais: criar um vínculo vale mais que forçar.\n\nSiga ajustando, pois cada troca é uma chance de evoluir e se conectar de verdade!",
+        "insights": [
+            "Atuei como Fernanda, dentista autônoma, perfil dominante Verde no DISC: ponderada, cortês, racional e com forte preocupação com planejamento e proteção.",
+            "Você buscou responder às objeções, mas a reunião não foi confirmada.",
+            "O objetivo foi parcialmente atingido, pois houve argumentação, mas não houve conversão nem aceitação clara do encontro.",
+            "Apresentou-se de forma simpática e buscou criar conexão pessoal ao citar recomendação de conhecida do prospect.",
+            "Manteve o foco na personalização do serviço e na importância do bate-papo, destacando benefícios de um diagnóstico individual.",
+            "Procurou usar escolha forçada para sugerir datas, demonstrando técnica de agendamento ativa.",
+            "Lidou razoavelmente com insistência sobre envio de material, tentando transformar em oportunidade de conversa.",
+            "Confusão no gatilho de recomendação"
+        ]
     },
     {
         "name": "Parceiro Apice24mais",
@@ -3393,7 +3757,18 @@ const RAW_SIMULATIONS = [
                 "text": "Fernanda, eu vou te agradecer o contato, mas eu não tenho como te trazer uma fraseee pra definir aquilo que você quer, tá? Eu te entro-- entro em contato com você no outro momento. (Silêncio)"
             }
         ],
-        "finished": true
+        "finished": true,
+        "feedback": "Aqui está o debriefing da nossa troca.\n\n🤓 PERSONA\n\nVocê conversou com Fernanda, dentista autônoma, perfil DISC dominante verde: analítica, ponderada, prudente e buscando segurança para si e sua filha.\n\n🎯 OBJETIVO PRINCIPAL\n\nVocê respondeu às primeiras objeções de forma personalizada, mas não obteve uma reunião agendada ou acordo formal. Objetivo parcialmente atingido.\n\n➕ PONTOS FORTES\n\n- Você utilizou um gatilho de recomendação (“a Carla pediu para falar com você”) e construiu proximidade rapidamente.\n\n- Houve tentativa de contextualizar a oferta de proteção de renda com foco específico para a realidade de dentistas.\n\n- Adotou um tom informal, amistoso, com tentativas de engajamento através de humor e acolhimento, o que ajudou a desarmar resistências.\n\n- Propôs uma agenda objetiva para falar sobre as necessidades da prospect.\n\n⚠️ PONTOS DE MELHORIA\n\n- Ausência de autorização clara no início para seguir com a conversa antes de expor o motivo do contato.\n\n- Houve respostas em tom de bate-papo interno (“imagina se fosse pra marcar uma Befone...”, “as objeções não tão condizendo…”), deslocando o foco da experiência do prospect.\n\n- Faltou uma escolha forçada entre dois horários próximos e você não pediu reconfirmação de data, horário e local.\n\n- A gestão de objeções oscilou entre desabafo e argumentação; faltou validar emocionalmente e praticar o “sim, mas…”.\n\n🩵 ANÁLISE EMOCIONAL\n\nO tom foi acolhedor, descontraído, porém por vezes distraído e sem foco. Mostrou empatia, mas faltou assertividade e condução consultiva constante.\n\n🛅 MOMENTOS-CHAVE\n\nQuando você utilizou o exemplo da Carla e personalizou a proposta, aproximou bem e gerou curiosidade, mas ao interromper com comentários internos, quebrou o engajamento.\n\n🔊 REFORMULAÇÕES RECOMENDADAS\n\n“Fernanda, entendo que o tempo é curto, posso te apresentar em quinze minutos como outras dentistas resolveram essa preocupação?”\n\n“Posso te explicar de acordo com suas necessidades atuais e, se fizer sentido, seguimos juntas?”\n\n“Sugiro segunda ou terça, às dez ou às quinze horas, qual fica melhor para você?”\n\n➡️ RECOMENDAÇÕES\n\nMantenha sempre a postura consultiva, sem se perder em comentários internos. Valide cada objeção, use o “sim, mas…” e proponha horários próximos com reconfirmação. Sempre peça permissão para avançar.\n\nSiga praticando: seu tom acolhedor é seu diferencial — só falta mais direção e foco no fechamento!",
+        "insights": [
+            "Você conversou com Fernanda, dentista autônoma, perfil DISC dominante verde: analítica, ponderada, prudente e buscando segurança para si e sua filha.",
+            "Você utilizou um gatilho de recomendação (“a Carla pediu para falar com você”) e construiu proximidade rapidamente.",
+            "Houve tentativa de contextualizar a oferta de proteção de renda com foco específico para a realidade de dentistas.",
+            "Adotou um tom informal, amistoso, com tentativas de engajamento através de humor e acolhimento, o que ajudou a desarmar resistências.",
+            "Propôs uma agenda objetiva para falar sobre as necessidades da prospect.",
+            "Ausência de autorização clara no início para seguir com a conversa antes de expor o motivo do contato.",
+            "Houve respostas em tom de bate-papo interno (“imagina se fosse pra marcar uma Befone...”, “as objeções não tão condizendo…”), deslocando o foco da experiência do prospect.",
+            "Faltou uma escolha forçada entre dois horários próximos e você não pediu reconfirmação de data, horário e local."
+        ]
     },
     {
         "name": "Parceiro Apice24mais",
@@ -3479,7 +3854,18 @@ const RAW_SIMULATIONS = [
                 "text": "Tudo"
             }
         ],
-        "finished": true
+        "finished": true,
+        "feedback": "Aqui está o debriefing da nossa troca.\n\n🤓 PERSONA\n\nInterpretou Fernanda, dentista autônoma, perfil DISC verde, pragmática, cautelosa e orientada a relações de confiança.\n\n🎯 OBJETIVO PRINCIPAL\n\nVocê respondeu de forma objetiva às objeções e conseguiu o aceite da reunião qualificada para apresentar a oferta MetLife. Objetivo atingido.\n\n➕ PONTOS FORTES\n\n- Fez boa ancoragem na recomendação da amiga Carla para criar vínculo e confiança inicial.\n\n- Explicou claramente o objetivo do contato, focando no agendamento da conversa, sem tentar vender por telefone.\n\n- Utilizou abordagem consultiva, ressaltando o valor do bate-papo para avaliar se há real aderência entre as partes.\n\n- Fez proposta de escolha forçada entre dois dias, acelerando o fechamento.\n\n⚠️ PONTOS DE MELHORIA\n\n- Ausência de pedido formal de autorização para seguir a conversa (“Posso te explicar rapidamente...?”), elemento-chave da etapa dois.\n\n- Falta de um verdadeiro quebra-gelo pessoal ou toque humano no início, tornando o início protocolar demais.\n\n- Respondeu de forma genérica a perguntas sobre cobertura, caindo em repetição (“essa conversa é pra explicar a parte conceitual”), arriscando parecer evasivo.\n\n- A reconfirmação do horário não foi dupla, apenas anunciou (“até segunda-feira às dez horas”), faltou pedir confirmação verbal do prospect.\n\n🩵 ANÁLISE EMOCIONAL\n\nMantendo tom educado, ritmo estável, linguagem formal e direta. Estado emocional centrado e profissional, mas à beira do robotizado por falta de calor relacional verdadeiro.\n\n🛅 MOMENTOS-CHAVE\n\nNo momento da objeção sobre saber como conseguiu o contato, você rapidamente ancorou na recomendação da Carla, aumentando sua credibilidade e reduzindo resistência.\n\nNo convite para escolha de datas, adotou postura assertiva, fazendo com que Fernanda se sentisse no controle, mas agilizando o processo.\n\n🔊 REFORMULAÇÕES RECOMENDADAS\n\n“Fernanda, posso te explicar rapidinho o motivo da ligação, só para ver se faz sentido pra você?”\n\n“Antes de detalhar coberturas, quero entender se seu perfil se encaixa nas soluções que já ajudaram colegas seus, como a Carla.”\n\n“Prefere nossa conversa online na segunda ou terça, às dez horas?”\n\n“Posso marcar e te envio o convite para garantir que não tenha conflito?”\n\n➡️ RECOMENDAÇÕES\n\nInsira sempre o pedido de autorização no início. Humanize mais com quebra-gelo personalizado. Busque reconfirmação verbal da reunião e ajuste o discurso para parecer menos repetitivo. Parabéns pela objetividade! Com pequenos ajustes, você será uma máquina, só que mais simpática.",
+        "insights": [
+            "Fez boa ancoragem na recomendação da amiga Carla para criar vínculo e confiança inicial.",
+            "Explicou claramente o objetivo do contato, focando no agendamento da conversa, sem tentar vender por telefone.",
+            "Utilizou abordagem consultiva, ressaltando o valor do bate-papo para avaliar se há real aderência entre as partes.",
+            "Fez proposta de escolha forçada entre dois dias, acelerando o fechamento.",
+            "Ausência de pedido formal de autorização para seguir a conversa (“Posso te explicar rapidamente...?”), elemento-chave da etapa dois.",
+            "Falta de um verdadeiro quebra-gelo pessoal ou toque humano no início, tornando o início protocolar demais.",
+            "Respondeu de forma genérica a perguntas sobre cobertura, caindo em repetição (“essa conversa é pra explicar a parte conceitual”), arriscando parecer evasivo.",
+            "A reconfirmação do horário não foi dupla, apenas anunciou (“até segunda-feira às dez horas”), faltou pedir confirmação verbal do prospect."
+        ]
     },
     {
         "name": "Parceiro Apice24mais",
@@ -3513,7 +3899,9 @@ const RAW_SIMULATIONS = [
                 "text": "Ah, perfeito, fica tranquilo, a maioria dos clientes que estão dent-- meus den-- clientes são dentistas assim como você, e tem um tempo super corrido mesmo, é normal, tá? Mas ó, esse trabalho que eu faço, ele é específico para proteger as suas rendas, a sua renda principalmente porque os dentistas eles trabalham..."
             }
         ],
-        "finished": false
+        "finished": false,
+        "feedback": "",
+        "insights": []
     },
     {
         "name": "Parceiro Apice24mais",
@@ -3587,7 +3975,18 @@ const RAW_SIMULATIONS = [
                 "text": "Tudo bem, Débora. Agradeço a"
             }
         ],
-        "finished": true
+        "finished": true,
+        "feedback": "Aqui está o debriefing da nossa troca.\n\n \n\n### 🤓 PERSONA\n\nFernanda, dentista autônoma, perfil majoritário verde no DISC: pragmática, organizada, questionadora, polida, busca segurança.\n\n \n\n### 🎯 OBJETIVO PRINCIPAL\n\nVocê respondeu a duas objeções, mas não conseguiu converter em reunião. O objetivo foi parcialmente atingido — ficou na pré-venda.\n\n \n\n### ➕ PONTOS FORTES\n\n- Explicou bem a importância do contato vindo por recomendação, reforçando o vínculo com Carla e validando a autoridade da indicação.\n\n \n- Manteve uma proposta de reunião curta, clara e com escolha forçada de horários próximos (segunda ou terça-feira).\n\n \n- Postura consultiva presente ao repetir que o serviço seria personalizado, gerando exclusividade e valor.\n\n \n- Manteve tom respeitoso e paciente diante da recusa.\n\n \n\n### ⚠️ PONTOS DE MELHORIA\n\n- Faltou pedir autorização explícita para continuar a ligação, ponto crítico da etapa inicial MetLife.\n\n \n- O “quebra-gelo” ficou centrado na Carla, não em algo pessoal ou leve sobre Fernanda.\n\n \n- O foco em mencionar produto/proteção já no início aproxima da venda, em vez de planejar o encontro consultivo.\n\n \n- Você repetiu variações do mesmo argumento (“é personalizado”) sem avançar para entender o motivo real da objeção.\n\n \n- Não houve tentativa efetiva de reconfirmar proposta ou adaptar nova alternativa conforme objeções novas.\n\n \n\n###  🩵 ANÁLISE EMOCIONAL\n\nSeu ritmo foi gentil, sem pressa, transmitindo calma e profissionalismo, mas ficou um pouco protocolar. Dominou o controle, mas pecou em escuta ativa verdadeira.\n\n \n\n### 🛅 MOMENTOS-CHAVE\n\nQuando Fernanda pede material prévio por e-mail, você responde frisando a personalização, mas deixa transparecer defesa e não uma proposta alternativa.\n\n \nAo insistir na relação com a Carla, faltou explorar uma conexão mais direta e leve, perdendo engajamento.\n\n \n\n### 🔊 REFORMULAÇÕES RECOMENDADAS\n\nFernanda, posso utilizar dois minutinhos para explicar rapidamente o motivo do contato? Se não fizer sentido, você me diz.\n\n \nImagino que sua rotina de consultório seja puxada: prometo ser objetiva — podemos alinhar juntos se vale a pena avançar.\n\n \nEntendo que prefira analisar com calma. Posso enviar um convite objetivo para conversarmos e você decide depois?\n\n \n\n### ➡️ RECOMENDAÇÕES\n\nPeça sempre autorização clara, explore um quebra-gelo pessoal (rotina, curiosidade leve). Escute além das palavras, avance para a objeção real. Quando ouvir “não”, ofereça alternativas. Foque primeiro no porquê da conversa, não no produto. Sua resiliência vai transformar cada objeção em aprendizado. Siga firme!",
+        "insights": [
+            "Fernanda, dentista autônoma, perfil majoritário verde no DISC: pragmática, organizada, questionadora, polida, busca segurança.",
+            "Você respondeu a duas objeções, mas não conseguiu converter em reunião. O objetivo foi parcialmente atingido — ficou na pré-venda.",
+            "Explicou bem a importância do contato vindo por recomendação, reforçando o vínculo com Carla e validando a autoridade da indicação.",
+            "Manteve uma proposta de reunião curta, clara e com escolha forçada de horários próximos (segunda ou terça-feira).",
+            "Postura consultiva presente ao repetir que o serviço seria personalizado, gerando exclusividade e valor.",
+            "Manteve tom respeitoso e paciente diante da recusa.",
+            "Faltou pedir autorização explícita para continuar a ligação, ponto crítico da etapa inicial MetLife.",
+            "O “quebra-gelo” ficou centrado na Carla, não em algo pessoal ou leve sobre Fernanda."
+        ]
     },
     {
         "name": "Parceiro Apice24mais",
@@ -3657,7 +4056,18 @@ const RAW_SIMULATIONS = [
                 "text": "Perfeito, Larissa, muito obrigada!"
             }
         ],
-        "finished": true
+        "finished": true,
+        "feedback": "Aqui está o debriefing da nossa troca.\n\n  \n  \n\n### 🤓 PERSONA\n\nPersona expressiva, comunicativa, energeticamente positiva, perfil DISC predominante amarelo, buscando conexão pessoal e leveza na conversa.\n\n  \n  \n\n### 🎯 OBJETIVO PRINCIPAL\n\nVocê respondeu de modo convincente às objeções e conseguiu agendar uma reunião de descoberta para oferta MetLife. Objetivo plenamente atingido.\n\n  \n  \n\n### ➕ PONTOS FORTES\n\n- Utilizou bem o gatilho da recomendação logo no início, aumentando a confiança da prospect.\n  \n- Propôs a reunião com escolha forçada entre dois horários, evitando perguntas abertas.\n  \n- Manteve o foco no agendamento, sem tentar vender ou detalhar produtos no telefone.\n  \n- Demonstrou empatia ao reforçar que seria uma conversa breve e personalizada.\n  \n  \n\n### ⚠️ PONTOS DE MELHORIA\n\n- **Ausência de pedido claro de autorização**  \n  Faltou perguntar explicitamente se poderia seguir com a apresentação e utilizar o nome da prospect após confirmação.\n\n  \n- **Excesso de repetição na justificativa do contato**  \n  Houve repetições na explicação da proteção de renda e na proposta da conversa, o que pode cansar o prospect.\n  \n- **Quebra-gelo pouco pessoal**  \n  Poderia explorar mais um aspecto da vida ou do negócio da prospect para criar um vínculo imediato.\n  \n- **Faltou reconfirmação detalhada**  \n  Poderia deixar mais claro o canal (online, WhatsApp, etc.) e pedir um “ok” explícito ao final.\n  \n  \n\n###  🩵 ANÁLISE EMOCIONAL\n\nO tom foi acolhedor, simpático e direto, sem parecer forçado ou pressionador. Você manteve confiança e leveza, transmitindo segurança no agendamento.\n\n  \n  \n\n### 🛅 MOMENTOS-CHAVE\n\nSituação: Apresentação com menção ao João Pedro.  \nVocê usou bem a referência próxima, criando conexão instantânea, crítico para quebrar a defensiva.\n\nSituação: Escolha forçada de horário.  \nDirecionou a conversa para o próximo passo de forma natural, mantendo o controle do diálogo e aumentando a taxa de conversão.\n\n  \n  \n\n### 🔊 REFORMULAÇÕES RECOMENDADAS\n\n- “Posso seguir te explicando rapidamente o motivo do meu contato?”\n  \n- “João Pedro mencionou o quanto você valoriza seu tempo à frente do salão, posso te propor algo prático?”\n  \n- “Na segunda ou na terça, qual dia encaixa melhor na sua agenda para esse bate-papo rápido?”\n  \n- “Fique tranquila, mando o link no WhatsApp um dia antes e te aviso, tudo certo assim?”\n  \n- “Só pra confirmar, terça às dez online, perfeito?”\n  \n  \n\n### ➡️ RECOMENDAÇÕES\n\nReforce o pedido explícito de autorização, varie o quebra-gelo de acordo com a persona e detalhe sempre o canal e o formato da reunião. Mantenha a energia, personalize mais ainda e você será imbatível!",
+        "insights": [
+            "Utilizou bem o gatilho da recomendação logo no início, aumentando a confiança da prospect.",
+            "Propôs a reunião com escolha forçada entre dois horários, evitando perguntas abertas.",
+            "Manteve o foco no agendamento, sem tentar vender ou detalhar produtos no telefone.",
+            "Demonstrou empatia ao reforçar que seria uma conversa breve e personalizada.",
+            "Ausência de pedido claro de autorização",
+            "Excesso de repetição na justificativa do contato",
+            "Quebra-gelo pouco pessoal",
+            "Faltou reconfirmação detalhada"
+        ]
     },
     {
         "name": "Parceiro Apice24mais",
@@ -3739,7 +4149,18 @@ const RAW_SIMULATIONS = [
                 "text": "Pode. Manda o link no meu WhatsApp na quarta-feira perto do horário combinado. Até lá."
             }
         ],
-        "finished": true
+        "finished": true,
+        "feedback": "Aqui está o debriefing da nossa troca.\n\n🤓 PERSONA\n\nInterpretei Larissa, empresária carismática e emotiva, perfil DISC majoritariamente amarelo, ágil, desconfiada, mas calorosa quando sente conexão pessoal.\n\n🎯 OBJETIVO PRINCIPAL\n\nApesar de conseguir propor uma reunião e lidar com algum obstáculo de agenda, faltou tratar objeções e detalhar benefícios. Objetivo foi parcialmente atingido.\n\n➕ PONTOS FORTES\n\n- Utilizou o nome recomendado no início (“Débora, que tem um salão de beleza…”), ativando o gatilho da recomendação.\n \n- Demonstrou iniciativa para propor reunião em curto prazo, seguindo a lógica do agendamento ágil.\n\n- Adotou linguagem simples e direta, mantendo ritmo prático.\n\n⚠️ PONTOS DE MELHORIA\n\n- Gestão de objeções ficou ausente, sem tratamento no formato “sim, mas…” ou busca de objeção latente.\n\n- Faltou pedir autorização genuína do contato logo de início, o que minou a abertura da prospect.\n\n- Não houve construção clara de valor nem contexto dos reais benefícios para Larissa.\n\n- Faltou postura consultiva: abordagem soou apressada, pouco personalizada e voltada ao agendamento, não à descoberta.\n\n- A reconfirmação do agendamento ficou superficial, sem detalhar local ou fins da reunião.\n\n🩵 ANÁLISE EMOCIONAL\n\nO tom foi funcional, mas sem calor ou empatia evidentes. O ritmo foi um pouco acelerado e a escuta ativa quase inexistiu. Estado emocional dominante: ansioso e impaciente.\n\n🛅 MOMENTOS-CHAVE\n\nNa proposta de reunião (“Vamos deixar confirmado na quarta-feira? À parte das quatro da tarde?”), houve avanço na agenda, mas não se construiu relação nem valor. Impacto: agendamento sem sustentação.\n\n🔊 REFORMULAÇÕES RECOMENDADAS\n\n“Larissa, tudo bem para conversarmos rapidamente ou prefere agendar?”\n“Débora me recomendou porque acredita que posso ajudar seu negócio a se proteger.”\n“Posso te explicar em dois minutos como isso faz diferença para perfis como o seu?”\n“Quarta às quatro ou quinta às dez: o que é mais conveniente?”\n“Depois da nossa conversa, você só decide se faz sentido avançar.”\n\n➡️ RECOMENDAÇÕES\n\nPriorize uma abertura consultiva, peça autorização para falar, construa valor personalizado e trate objeções com calma. Lembre-se que a Larissa compra relação e confiança, não compromissos mecânicos.\n\nSiga praticando: quem cria conexão, agenda reuniões que realmente acontecem!",
+        "insights": [
+            "Utilizou o nome recomendado no início (“Débora, que tem um salão de beleza…”), ativando o gatilho da recomendação.",
+            "Demonstrou iniciativa para propor reunião em curto prazo, seguindo a lógica do agendamento ágil.",
+            "Adotou linguagem simples e direta, mantendo ritmo prático.",
+            "Gestão de objeções ficou ausente, sem tratamento no formato “sim, mas…” ou busca de objeção latente.",
+            "Faltou pedir autorização genuína do contato logo de início, o que minou a abertura da prospect.",
+            "Não houve construção clara de valor nem contexto dos reais benefícios para Larissa.",
+            "Faltou postura consultiva: abordagem soou apressada, pouco personalizada e voltada ao agendamento, não à descoberta.",
+            "A reconfirmação do agendamento ficou superficial, sem detalhar local ou fins da reunião."
+        ]
     },
     {
         "name": "Parceiro Insidelu",
@@ -3817,7 +4238,18 @@ const RAW_SIMULATIONS = [
                 "text": "Muito obrigado."
             }
         ],
-        "finished": true
+        "finished": true,
+        "feedback": "Aqui está o debriefing da nossa troca.\n\n🤓 PERSONA\n\nFernanda, dentista autônoma de perfil DISC verde, pragmática, organizada e cordial, valorizando clareza, vínculo e sensibilidade consultiva.\n\n🎯 OBJETIVO PRINCIPAL\n\nO objetivo de obter uma reunião de descoberta foi plenamente atingido, mas as objeções do prospect não chegaram a existir na troca.\n\n➕ PONTOS FORTES\n\n- Uso correto da recomendação logo no início, criando vínculo e legitimando o contato.\n\n- Tom cordial, simpático, transmitindo tranquilidade e profissionalismo, com preocupação em facilitar a agenda do prospect.\n\n- Proposta de reunião objetiva, apresentando alternativas de horários próximos (escolha forçada), estimulando o fechamento.\n\n- Efetivação de convite e reconfirmação com detalhes práticos, contribuindo para o compromisso.\n\n⚠️ PONTOS DE MELHORIA\n\n- Faltou autorização explícita para a abordagem, respeitando privacidade e o método MetLife.\n\n- Não houve tentativa de identificar perfil ou necessidade do prospect, apenas convite direto.\n\n- Ausência de tratamento de objeções, o que limita a validação da capacidade de contornar resistência — a conversa foi “fácil demais”, sem desafiar o roteiro.\n\n- Não ficou claro o verdadeiro motivo ou valor da reunião para o prospect, já que não houve pitch de valor nos primeiros segundos.\n\n🩵 ANÁLISE EMOCIONAL\n\nA postura foi serena, segura e gentil, transmitindo confiança e leveza. O vocabulário foi relacional. O estado dominante foi tranquilo, mas poderia demonstrar mais escuta ativa consultiva.\n\n🛅 MOMENTOS-CHAVE\n\nContato inicial pela recomendação → estabeleceu confiança rápido, facilitando adesão à reunião → impacto direto na taxa de conversão.\n\nConfirmação e envio de invite logo após concordância → garantiu registro concreto do compromisso → reduziu risco de desistência.\n\n🔊 REFORMULAÇÕES RECOMENDADAS\n\nOi João Pedro, posso te explicar rapidamente por que o Leonardo sugeriu esse nosso papo?\n\nGostaria de alinhar só um ponto: você tem dois minutos para eu contextualizar o motivo da ligação?\n\nMinha ideia é entender seu momento e ver se faz sentido conversar, sem compromisso.\n\nSe for melhor, posso adaptar o horário de acordo com sua disponibilidade nestes próximos dias.\n\nCaso tenha alguma dúvida até lá, fique à vontade para me escrever.\n\n➡️ RECOMENDAÇÕES\n\nAcrescente sempre a etapa de autorização e contextualize rápido o valor da conversa. Traga pelo menos uma pergunta de qualificação e esteja preparado para contornar objeções, mesmo que elas não surjam espontaneamente.\n\nParabéns pela naturalidade: só não esqueça de se desafiar quando tudo parece fácil demais!",
+        "insights": [
+            "Uso correto da recomendação logo no início, criando vínculo e legitimando o contato.",
+            "Tom cordial, simpático, transmitindo tranquilidade e profissionalismo, com preocupação em facilitar a agenda do prospect.",
+            "Proposta de reunião objetiva, apresentando alternativas de horários próximos (escolha forçada), estimulando o fechamento.",
+            "Efetivação de convite e reconfirmação com detalhes práticos, contribuindo para o compromisso.",
+            "Faltou autorização explícita para a abordagem, respeitando privacidade e o método MetLife.",
+            "Não houve tentativa de identificar perfil ou necessidade do prospect, apenas convite direto.",
+            "Ausência de tratamento de objeções, o que limita a validação da capacidade de contornar resistência — a conversa foi “fácil demais”, sem desafiar o roteiro.",
+            "Não ficou claro o verdadeiro motivo ou valor da reunião para o prospect, já que não houve pitch de valor nos primeiros segundos."
+        ]
     },
     {
         "name": "Parceiro Insidelu",
@@ -3839,7 +4271,9 @@ const RAW_SIMULATIONS = [
                 "text": "Hi. I’m a bit busy right now. Who is this and what do you need briefly?"
             }
         ],
-        "finished": false
+        "finished": false,
+        "feedback": "",
+        "insights": []
     },
     {
         "name": "Parceiro Insidelu",
@@ -3909,7 +4343,18 @@ const RAW_SIMULATIONS = [
                 "text": "Obrigada, senhor. Até terça, então."
             }
         ],
-        "finished": true
+        "finished": true,
+        "feedback": "Aqui está o debriefing de nossa conversa.\n\n \n\n🤓 PERSONA\n\nProfessor de história, quarenta e dois anos, perfil DISC verde, busca previsibilidade, avesso à pressão, comunicativo e cordial.\n\n🎯 OBJETIVO PRINCIPAL\n\nVocê lidou com a objeção ao envio de material padronizado, explicou a necessidade de personalização e obteve o agendamento da reunião sem capitular ao pedido inicial. Objetivo plenamente atingido.\n\n \n\n➕ Pontos fortes\n\n- Você validou o pedido do prospect logo de início, demonstrando empatia e respeito pela solicitação.\n- Usou argumentação clara ao justificar a ausência de material genérico, enfatizando a personalização e a importância de conhecer previamente as necessidades.\n- Conduziu o agendamento aplicando a técnica da escolha forçada, oferecendo alternativas objetivas com horário definido.\n- Manteve tom calmo, respeitoso e profissional em todas as interações, sem soar insistente nem invasivo.\n\n \n\n⚠️ EIXOS DE MELHORIA\n\n- Faltou aprofundar um pouco mais na escuta ativa para entender possíveis motivações ocultas por trás do pedido de material. Perguntas abertas como “O que mais gostaria de compreender?” ou “Há algo específico que lhe preocupa?” poderiam enriquecer o diagnóstico.\n- A argumentação poderia incluir de forma mais explícita a inadequação do envio de material para evitar que o prospect imagine um PDF frio no e-mail. Falar, por exemplo, que o material sem contexto pode confundir em vez de esclarecer.\n- O fechamento foi competente, mas uma reconfirmação mais calorosa sobre o interesse e sobre o objetivo do encontro reforçaria o engajamento.\n\n \n\n🩵 ANÁLISE EMOCIONAL\n\nSeu tom foi constante e seguro, com ritmo adequado e linguagem acessível. Prevaleceu a atitude confiante e cordial, reforçando credibilidade e proximidade.\n\n \n\n🛅 MOMENTOS-CHAVE\n\nVocê explicou que não trabalha com “produto de prateleira” e aproveitou para sinalizar personalização, ponto decisivo para neutralizar a objeção. E, ao marcar logo as opções de horário e formatar o convite, assumiu a liderança da ligação mantendo fluidez e segurança.\n\n \n\n🔊 REFORMULAÇÕES RECOMENDADAS\n\n“Compreendo seu interesse pelo material, mas posso garantir que o ideal é construirmos juntos uma proposta sob medida.”\n\n“Prefere conversar terça ou quarta-feira às dezenove horas? Prometo ser objetivo e respeitar seu tempo.”\n\n“Após nossa conversa, envio por e-mail apenas o que realmente fizer sentido para você.”\n\n \n\n➡️ RECOMENDAÇÕES\n\nAprofunde ainda mais na escuta investigativa e utilize perguntas abertas para captar nuances e eventuais reticências. Lembre-se de sempre explicar por que o material deve ser entregue somente após a reunião. Personalização e contexto são os aliados do corretor consultivo.\n\nContinue evoluindo—cada ligação é oportunidade de aprimorar sua maestria comercial. Parabéns!",
+        "insights": [
+            "Você validou o pedido do prospect logo de início, demonstrando empatia e respeito pela solicitação.",
+            "Usou argumentação clara ao justificar a ausência de material genérico, enfatizando a personalização e a importância de conhecer previamente as necessidades.",
+            "Conduziu o agendamento aplicando a técnica da escolha forçada, oferecendo alternativas objetivas com horário definido.",
+            "Manteve tom calmo, respeitoso e profissional em todas as interações, sem soar insistente nem invasivo.",
+            "Faltou aprofundar um pouco mais na escuta ativa para entender possíveis motivações ocultas por trás do pedido de material. Perguntas abertas como “O que mais gostaria de compreender?” ou “Há algo específico que lhe preocupa?” poderiam enriquecer o diagnóstico.",
+            "A argumentação poderia incluir de forma mais explícita a inadequação do envio de material para evitar que o prospect imagine um PDF frio no e-mail. Falar, por exemplo, que o material sem contexto pode confundir em vez de esclarecer.",
+            "O fechamento foi competente, mas uma reconfirmação mais calorosa sobre o interesse e sobre o objetivo do encontro reforçaria o engajamento.",
+            "“Prefere conversar terça ou quarta-feira às dezenove horas? Prometo ser objetivo e respeitar seu tempo.”"
+        ]
     },
     {
         "name": "Parceiro Insidelu",
@@ -3991,7 +4436,18 @@ const RAW_SIMULATIONS = [
                 "text": "Perfeito, que bom que você entendeu.  \nPode me avisar por WhatsApp quem demonstrar interesse que eu ajusto a agenda."
             }
         ],
-        "finished": true
+        "finished": true,
+        "feedback": "Aqui está o debriefing da nossa conversa\n\n[ligne vide]\n\n🤓 PERSONA\n\nPessoa pragmática, organizada, perfil DISC majoritariamente verde, cautelosa financeiramente, preocupada com previsibilidade e proteção para si e suas pessoas próximas.\n\n[ligne vide]\n\n🎯 OBJETIVO PRINCIPAL\n\nBuscar recomendações qualificadas e autorização explícita para citar o nome do cliente no contato inicial. O objetivo foi parcialmente atingido.\n\n[ligne vide]\n\n[ligne vide]\n\n➕ Pontos fortes\n\n- Reconhecimento inicial da decisão do cliente e elogio pelo posicionamento, criando abertura para o pedido.\n\n- Segmentação sugerindo empresários bem-sucedidos e pessoas de confiança, evitando abordagem genérica.\n\n- Apresentação do serviço como consultoria, transmitindo valor agregado além de uma venda.\n\n- Flexibilidade ao aceitar encaminhamento da mensagem pelo próprio cliente via WhatsApp.\n\nÓtimas estratégias para trazer o cliente para o centro do processo!\n\n[ligne vide]\n\n⚠️ EIXOS DE MELHORIA\n\n- Faltou identificar pontos de satisfação fazendo o cliente expressar, com suas palavras, o que apreciou no serviço.\n\n- Ausência de pedido claro de autorização para citar o nome do cliente ao contatar os indicados.\n\n- O pedido pediu referências de forma relativamente aberta antes de usar exemplos ou perguntas dirigidas para ativar a memória do cliente.\n\n- Não houve extração de anedotas ou características pessoais dos indicados; faltou “humanizar” as futuras abordagens.\n\nProcure deixar o pedido mais tangível e alinhado à experiência emocional do cliente. Com mais detalhes, seu processo pode render ainda mais indicações!\n\n[ligne vide]\n\n🩵 ANÁLISE EMOCIONAL\n\nA conversa foi conduzida em tom cordial, respeitoso e profissional. O corretor transmitiu segurança, embora com algumas hesitações (“ééé”), demonstrando busca por empatia.\n\n[ligne vide]\n\n🛅 MOMENTOS-CHAVE\n\nNa abertura, você reconheceu a decisão do cliente, o que gerou receptividade e confiança. Quando aceitou o método do WhatsApp proposto pela cliente, demonstrou flexibilidade, minimizando possíveis resistências.\n\n[ligne vide]\n\n🔊 REFORMULAÇÕES RECOMENDADAS\n\n“Poderia compartilhar o que você mais apreciou neste processo?”\n\n“Se você se sentir confortável, posso mencionar seu nome no primeiro contato com essas pessoas?”\n\n“Entre seus colegas empreendedores ou pais como você, alguém que poderia se beneficiar dessa consultoria?”\n\n“Seria interessante saber algo marcante sobre cada indicado, para eu tornar a abordagem mais pessoal.”\n\n[ligne vide]\n\n➡️ RECOMENDAÇÕES\n\nBusque sempre ancorar o pedido associando à satisfação real da cliente, guiando pela segmentação, coletando contexto e pedindo autorização explícita para citar nomes. Isso fortalecerá seu funil de recomendações e o vínculo de confiança.\n\nContinue assim, com ajustes finos, sua rede tende a crescer de modo sustentável!",
+        "insights": [
+            "Reconhecimento inicial da decisão do cliente e elogio pelo posicionamento, criando abertura para o pedido.",
+            "Segmentação sugerindo empresários bem-sucedidos e pessoas de confiança, evitando abordagem genérica.",
+            "Apresentação do serviço como consultoria, transmitindo valor agregado além de uma venda.",
+            "Flexibilidade ao aceitar encaminhamento da mensagem pelo próprio cliente via WhatsApp.",
+            "Faltou identificar pontos de satisfação fazendo o cliente expressar, com suas palavras, o que apreciou no serviço.",
+            "Ausência de pedido claro de autorização para citar o nome do cliente ao contatar os indicados.",
+            "O pedido pediu referências de forma relativamente aberta antes de usar exemplos ou perguntas dirigidas para ativar a memória do cliente.",
+            "Não houve extração de anedotas ou características pessoais dos indicados; faltou “humanizar” as futuras abordagens."
+        ]
     },
     {
         "name": "Parceiro Insidelu",
@@ -4057,7 +4513,18 @@ const RAW_SIMULATIONS = [
                 "text": "Até, obrigado"
             }
         ],
-        "finished": true
+        "finished": true,
+        "feedback": "Aqui está o debriefing de nossa conversa.\n\n  \n\n🤓 PERSONA\n\nHomem, perfil DISC Azul, engenheiro de qualidade, extremamente racional e detalhista, valoriza provas e argumentos técnicos.\n\n🎯 OBJETIVO PRINCIPAL\n\nO objetivo era contornar a objeção do material e garantir uma reunião sem envio prévio. O objetivo foi plenamente atingido.\n\n  \n\n➕ Pontos fortes\n\n- Você validou logo de início o pedido do prospect e explicou com clareza que materiais genéricos não agregariam valor, reforçando a necessidade de personalização.\n- Aplicou a técnica “Sim, mas…” de forma natural, mostrando compreensão e direcionando à importância de compreender o perfil antes de sugerir qualquer solução ou material.\n- Usou a técnica da escolha forçada com maestria, ofertando duas opções objetivas de datas, o que facilitou a aceitação do prospect.\n- Manteve o controle, não cedeu ao envio de documentos genéricos e seguiu com firmeza e gentileza até o agendamento.\n\n  \n\n⚠️ EIXOS DE MELHORIA\n\n- Faltou explorar um pouco mais as possíveis razões do pedido de material. Poderia ter feito perguntas abertas para mapear alguma insegurança, rotina ou experiências anteriores do prospect.\n- Embora a argumentação tivesse boa estrutura, poderia aprofundar mais sobre como a conversa será produtiva para o prospect, valorizando o tempo dele, por exemplo: “Prometo que em quinze minutos já será possível enxergar caminhos práticos para seu caso”.\n- Recomenda-se um fechamento mais empático: ao confirmar o horário, reforçar que está à disposição para qualquer dúvida antes do encontro.\n\n  \n\n🩵 ANÁLISE EMOCIONAL\n\nVocê demonstrou segurança, ritmo constante e vocabulário cordial. O tom dominante foi gentil e assertivo, sem traço de insistência ou ansiedade.\n\n  \n\n🛅 MOMENTOS-CHAVE\n\nQuando o prospect pediu material, você reverteu com o argumento da personalização e já propôs datas. Isso manteve a conversa fluida e construtiva.  \nNo fechamento, ao confirmar detalhes do agendamento, garantiu clareza e compromisso.\n\n  \n\n🔊 REFORMULAÇÕES RECOMENDADAS\n\nEntendo sua vontade de avaliar antes, mas garanto que nossa conversa será breve e voltada ao seu perfil.\n\nA proposta é preservar seu tempo com informações realmente úteis, alinhadas ao que busca.\n\nAntes de sugerir qualquer caminho, quero te ouvir. Assim, tudo faz mais sentido para você.\n\nSe preferir, me envie uma dúvida específica e já levo a resposta para nosso encontro.\n\n  \n\n➡️ RECOMENDAÇÕES\n\nAprofunde a investigação das objeções reais com perguntas abertas, para garantir ainda mais alinhamento e engajamento. Valorize continuamente o benefício da conversa, mostrando cuidado com o tempo e interesse do prospect. \n\nContinue assim: diplomático, respeitoso e direcionado—está no caminho certo para se tornar referência!",
+        "insights": [
+            "Você validou logo de início o pedido do prospect e explicou com clareza que materiais genéricos não agregariam valor, reforçando a necessidade de personalização.",
+            "Aplicou a técnica “Sim, mas…” de forma natural, mostrando compreensão e direcionando à importância de compreender o perfil antes de sugerir qualquer solução ou material.",
+            "Usou a técnica da escolha forçada com maestria, ofertando duas opções objetivas de datas, o que facilitou a aceitação do prospect.",
+            "Manteve o controle, não cedeu ao envio de documentos genéricos e seguiu com firmeza e gentileza até o agendamento.",
+            "Faltou explorar um pouco mais as possíveis razões do pedido de material. Poderia ter feito perguntas abertas para mapear alguma insegurança, rotina ou experiências anteriores do prospect.",
+            "Embora a argumentação tivesse boa estrutura, poderia aprofundar mais sobre como a conversa será produtiva para o prospect, valorizando o tempo dele, por exemplo: “Prometo que em quinze minutos já será possível enxergar caminhos práticos para seu caso”.",
+            "Recomenda-se um fechamento mais empático: ao confirmar o horário, reforçar que está à disposição para qualquer dúvida antes do encontro.",
+            "Continue assim: diplomático, respeitoso e direcionado—está no caminho certo para se tornar referência!"
+        ]
     },
     {
         "name": "Parceiro Geracao3a12",
@@ -4075,7 +4542,9 @@ const RAW_SIMULATIONS = [
                 "text": "Hello, Doutora? É... Gostaria de te ligar para falar sobre o convite do outro dia."
             }
         ],
-        "finished": false
+        "finished": false,
+        "feedback": "",
+        "insights": []
     },
     {
         "name": "Parceiro Geracao3a12",
@@ -4097,7 +4566,9 @@ const RAW_SIMULATIONS = [
                 "text": "I am busy at the moment and can only spare a few minutes. Why did Elizângela share my contact with you?"
             }
         ],
-        "finished": false
+        "finished": false,
+        "feedback": "",
+        "insights": []
     },
     {
         "name": "Parceiro Geracao3a12",
@@ -4243,7 +4714,9 @@ const RAW_SIMULATIONS = [
                 "text": "Se você não consegue me dar um parâmetro mínimo sem meus dados, então encerre a ligação. Não tenho tempo para conversa genérica. Adeus."
             }
         ],
-        "finished": false
+        "finished": false,
+        "feedback": "",
+        "insights": []
     },
     {
         "name": "Parceiro Geracao3a12",
@@ -4297,7 +4770,18 @@ const RAW_SIMULATIONS = [
                 "text": "Perfeito. Até quinta às quatro."
             }
         ],
-        "finished": true
+        "finished": true,
+        "feedback": "Aqui está o debriefing da nossa conversa.\n\n  \n\n##  🤓 PERSONA\n\nPersona interpretado: Fabi, corretora proativa e assertiva, perfil DISC dominante Influente e um toque de Dominante.\n\n  \n\n## 🎯 OBJETIVO PRINCIPAL\n\nO objetivo principal não foi atingido: nenhuma recomendação foi solicitada ou obtida nesta conversa.\n\n  \n\n## ➕ Pontos fortes\n\n- Comunicação clara, objetiva e respeitosa ao abordar o contato.\n  \n- Valorização da indicação do Alexandre, o que já gera uma ponte de confiança.\n\n- Uso de perguntas fechadas para facilitar o agendamento e evitar dispersão.\n\n  \n\n## ⚠️ EIXOS DE MELHORIA\n\n- Solicitar recomendações: Em nenhum momento você aproveitou para pedir ao próprio Alexandre nomes de outras pessoas para abordar após o caso positivo dele.\n\n  \n- Explorar o momento WOW: Faltou reconhecer a satisfação do cliente inicial e potencializá-la pedindo indicações.\n\n  \n- Personalizar o convite: A abordagem se mostrou um pouco genérica e poderia ser mais personalizada para mostrar o valor percebido pelo Alexandre.\n\n  \n- Coleta de contexto: Não houve a aplicação do método ⟪\"ASK THE MAN\"⟫ ou tentativa de qualificar os perfis recomendados.\n\n  \n\n## 🩵 ANÁLISE EMOCIONAL\n\nA abordagem foi confiante, assertiva e educada, mas um pouco rápida e mecânica. O tom transmitiu segurança, mas faltou maior empatia e escuta ativa.\n\n  \n\n## 🛅 MOMENTOS-CHAVE\n\nSituação: Uso do nome do Alexandre para gerar confiança logo na abordagem.\n\nO que fez: Mencionou a satisfação do Alexandre, mas sem colher depoimento ou recomendação extra.\n\nImpacto: Abriu portas para conversa, mas desperdiçou oportunidade de multiplicação de contatos.\n\n  \n\n##  🔊 REFORMULAÇÕES RECOMENDADAS\n\n“Alexandre ficou muito satisfeito, inclusive recomendou que eu levasse essa solução a mais pessoas do seu perfil. Você conhece alguém que poderia se beneficiar disso?”\n\n“Posso citar seu nome, caso entre em contato com quem você indicar?”\n\n“Qual o maior benefício que você percebeu na nossa solução? Isso me ajuda a apresentar melhor para outros.”\n\n  \n\n## ➡️ RECOMENDAÇÕES\n\nAproveite sempre o pós-venda como alavanca: agradeça, explore os pontos positivos e peça indicações qualificadas, usando uma escuta ativa genuína. Estruture seu pedido com exemplos concretos e aplique ⟪\"ASK THE MAN\"⟫ para extrair informações valiosas sem soar mecânica.\n\nVocê já tem base sólida, só falta dar aquele passinho a mais. Vá firme!",
+        "insights": [
+            "Persona interpretado: Fabi, corretora proativa e assertiva, perfil DISC dominante Influente e um toque de Dominante.",
+            "O objetivo principal não foi atingido: nenhuma recomendação foi solicitada ou obtida nesta conversa.",
+            "Comunicação clara, objetiva e respeitosa ao abordar o contato.",
+            "Valorização da indicação do Alexandre, o que já gera uma ponte de confiança.",
+            "Uso de perguntas fechadas para facilitar o agendamento e evitar dispersão.",
+            "Solicitar recomendações: Em nenhum momento você aproveitou para pedir ao próprio Alexandre nomes de outras pessoas para abordar após o caso positivo dele.",
+            "Explorar o momento WOW: Faltou reconhecer a satisfação do cliente inicial e potencializá-la pedindo indicações.",
+            "Personalizar o convite: A abordagem se mostrou um pouco genérica e poderia ser mais personalizada para mostrar o valor percebido pelo Alexandre."
+        ]
     },
     {
         "name": "Parceiro Geracao3a12",
@@ -4310,7 +4794,9 @@ const RAW_SIMULATIONS = [
         "lqa": "N/A",
         "interactions": 0,
         "messages": [],
-        "finished": false
+        "finished": false,
+        "feedback": "",
+        "insights": []
     },
     {
         "name": "Parceiro Geracao3a12",
@@ -4328,7 +4814,9 @@ const RAW_SIMULATIONS = [
                 "text": "O mais simples: encaminhe-me o documento por e-mail, eu o analiso com tranquilidade e lhe dou um retorno."
             }
         ],
-        "finished": false
+        "finished": false,
+        "feedback": "",
+        "insights": []
     },
     {
         "name": "Parceiro Geracao3a12",
@@ -4346,7 +4834,9 @@ const RAW_SIMULATIONS = [
                 "text": "O mais simples: encaminhe-me o documento por e-mail, eu o analiso com tranquilidade e lhe"
             }
         ],
-        "finished": false
+        "finished": false,
+        "feedback": "",
+        "insights": []
     },
     {
         "name": "Parceiro Geracao3a12",
@@ -4364,7 +4854,9 @@ const RAW_SIMULATIONS = [
                 "text": "O mais simples: encaminhe-me o documento por e-mail, eu o analiso com tranquilidade e lhe dou um retorno."
             }
         ],
-        "finished": false
+        "finished": false,
+        "feedback": "",
+        "insights": []
     },
     {
         "name": "Parceiro Geracao3a12",
@@ -4478,7 +4970,12 @@ const RAW_SIMULATIONS = [
                 "text": "Senhor, recuso o tom.  \nEncerramos a conversa aqui."
             }
         ],
-        "finished": true
+        "finished": true,
+        "feedback": "Aqui está o debriefing de nossa conversa.\n\n\n🤓 PERSONA\n\nPersona com perfil analítico predominante (DISC azul), controladora de gestão, objetiva, avessa à abordagem vaga e valorizadora de informações claras.\n\n🎯 OBJETIVO PRINCIPAL\n\nO objetivo era superar a objeção sobre envio prévio de material, argumentar de forma personalizada e conquistar o aceite para uma reunião. Não atingido.\n\n➕ Pontos fortes\n\nVocê reforçou várias vezes o caráter personalizado do serviço, explicando que não existe proposta genérica.\nArguiu corretamente sobre confidencialidade dos dados e respeito à individualidade do cliente.\nExpôs de forma clara, ainda que breve, o benefício central da proteção oferecida e mencionou os tipos de coberturas.\nDemonstrou conhecimento do processo, detalhando que o contrato só é formalizado após validação do cliente.\n\n⚠️ EIXOS DE MELHORIA\n\nFaltou validação do sentimento e compreensão do real motivo do pedido; a objeção foi logo contra-argumentada, sem escuta ativa.\nO tom ficou defensivo e, em certos momentos, agressivo (“eu também não quero um cliente do seu perfil”), rompendo o clima do relacionamento.\nNão houve perguntas abertas para trazer à tona as verdadeiras razões do pedido de material.\nA técnica de escolha forçada para marcar a reunião não foi utilizada; faltaram propostas de horários concretos.\nPersistiu na própria visão (“já estávamos dez minutos falando a mesma coisa”), sem adaptar o discurso nem contextualizar os ganhos de um encontro.\n\n🩵 ANÁLISE EMOCIONAL\n\nO tom evoluiu de cordial para tenso e evasivo, com traços de impaciência e pouca empatia, o que reduziu as chances de engajamento do prospect.\n\n🛅 MOMENTOS-CHAVE\n\nAo ser chamado de “bravo”, respondeu de forma pouco acolhedora e não resgatou o clima da conversa, o que gerou distanciamento.\nNo momento em que descartou o prospect como cliente, encerrou definitivamente a oportunidade, contrariando o princípio de preservar relações.\n\n🔊 REFORMULAÇÕES RECOMENDADAS\n\nEntendo sua cautela. Antes de qualquer decisão, gostaria de conhecer um pouco das suas expectativas.\nPosso garantir que nada será fechado antes de uma avaliação conjunta e transparente na nossa reunião.\nMinha proposta só faz sentido se estiver adaptada ao seu perfil, por isso a conversa breve é indispensável.\nPrefere reservar quinze minutos na terça ou na quarta, pela manhã? Assim respeitamos seu tempo e análise.\n\n➡️ RECOMENDAÇÕES\n\nDa próxima vez, pratique escuta ativa genuína, investigando os motivos do prospect e validando suas percepções. Evite posturas defensivas e sempre preserve a possibilidade de contato futuro, mesmo diante de objeção.\n\nPersista no refinamento do diálogo: o segredo está no equilíbrio entre firmeza, empatia e adaptação. Você evolui mais a cada ligação!",
+        "insights": [
+            "Faltou validação do sentimento e compreensão do real motivo do pedido; a objeção foi logo contra-argumentada, sem escuta ativa.",
+            "Persista no refinamento do diálogo: o segredo está no equilíbrio entre firmeza, empatia e adaptação. Você evolui mais a cada ligação!"
+        ]
     },
     {
         "name": "Parceiro Geracao3a12",
@@ -4508,7 +5005,9 @@ const RAW_SIMULATIONS = [
                 "text": "Ok, take your time to write in Portuguese. I’ll wait."
             }
         ],
-        "finished": false
+        "finished": false,
+        "feedback": "",
+        "insights": []
     },
     {
         "name": "Parceiro Geracao3a12",
@@ -4521,7 +5020,9 @@ const RAW_SIMULATIONS = [
         "lqa": "N/A",
         "interactions": 0,
         "messages": [],
-        "finished": false
+        "finished": false,
+        "feedback": "",
+        "insights": []
     },
     {
         "name": "Parceiro Geracao3a12",
@@ -4543,7 +5044,9 @@ const RAW_SIMULATIONS = [
                 "text": "Afternoon, I am good, thanks. The papers are signed and I feel relieved."
             }
         ],
-        "finished": false
+        "finished": false,
+        "feedback": "",
+        "insights": []
     },
     {
         "name": "Parceiro Geracao3a12",
@@ -4657,7 +5160,9 @@ const RAW_SIMULATIONS = [
                 "text": "Vi sim. Achei o roteiro objetivo e discreto. Vou conversar com um ou dois contatos que acho adequados e te digo quem autorizei."
             }
         ],
-        "finished": false
+        "finished": false,
+        "feedback": "",
+        "insights": []
     },
     {
         "name": "Parceiro Geracao3a12",
@@ -4703,7 +5208,18 @@ const RAW_SIMULATIONS = [
                 "text": "Você exagerou no tom, Sonildo. Eu falei de custo de carregamento de forma geral, não inventei taxa nova. Se quiser, explica já como esse custo entra na simulação e onde aparece no extrato."
             }
         ],
-        "finished": true
+        "finished": true,
+        "feedback": "Aqui está o debriefing da nossa conversa\n\n[ligne vide]\n\n##  🤓 PERSONA\n\nHomem, executivo sênior de banco; perfil analítico, dominante, objetivo e crítico, com grande foco em resultados (DISC: dominante/vermelho).\n\n[ligne vide]\n\n## 🎯 OBJETIVO PRINCIPAL\n\nO objetivo era obter pelo menos dois nomes de recomendações qualificadas com autorização de contato. O objetivo não foi atingido.\n\n[ligne vide]\n[ligne vide]\n\n## ➕ Pontos fortes\n\n- Você buscou validar o nível de satisfação do cliente logo após o fechamento, mostrando preocupação genuína com a experiência.\n\n[ligne vide]\n\n- Utilizou uma pergunta direta sobre recomendação, trazendo o tema à tona de forma transparente.\n\n[ligne vide]\n\n- Demonstrou abertura para feedback ao pedir uma avaliação do cliente sobre seu serviço.\n\n[ligne vide]\n\nContinue nessa pegada de escuta ativa e questionamento franco!\n\n[ligne vide]\n\n## ⚠️ EIXOS DE MELHORIA\n\n- **Aproveitar o momento WOW**\n  \n  Faltou começar parabenizando e reconhecendo o cliente pela decisão, antes de pedir algo. O reconhecimento inicial valoriza o momento.\n\n[ligne vide]\n\n- Não houve identificação explícita dos pontos que agradaram ao cliente nem exploração detalhada dos benefícios percebidos.\n\n[ligne vide]\n\n- O pedido de recomendação foi muito amplo (“pra um irmão seu ou pra um amigo”), o que dificulta ao cliente lembrar de nomes específicos.\n\n[ligne vide]\n\n- Faltou apresentar o pedido como um gesto de amizade e benefício para os próximos, e não como favor comercial.\n\n[ligne vide]\n\nInvista tempo em personalizar o pedido e conduza o cliente a lembrar de pessoas concretas!\n\n[ligne vide]\n\n## 🩵 ANÁLISE EMOCIONAL\n\nO tom foi cordial, levemente hesitante em alguns momentos, com tentativas de aproximação. Percebe-se preocupação genuína do corretor, mas falta confiança para conduzir a recomendação de forma estruturada.\n\n[ligne vide]\n\n## 🛅 MOMENTOS-CHAVE\n\nNo momento em que você questiona a satisfação do cliente e pede uma nota de recomendação, demonstrou foco em ouvir o feedback, mas não estruturou bem o pedido, o que tornou a conversa menos direcionada e eficiente para obter recomendações.\n\n[ligne vide]\n\n##  🔊 REFORMULAÇÕES RECOMENDADAS\n\n“Ricardo, queria parabenizá-lo pela excelente decisão de proteger sua família. Obrigado por confiar em mim!”\n\n[ligne vide]\n\n“Você poderia compartilhar o que mais gostou no nosso processo? Isso me ajuda a sempre melhorar.”\n\n[ligne vide]\n\n“Ricardo, tenho ajudado muitos outros empreendedores como você. Entre seus colegas, há alguém passando por mudanças importantes ou que valorize esse tipo de solução?”\n\n[ligne vide]\n\n“Posso mencionar que foi você quem sugeriu nosso contato?”\n\n[ligne vide]\n\n## ➡️ RECOMENDAÇÕES\n\nSempre inicie agradecendo e reconhecendo. Segmente seus pedidos por perfis específicos. Conduza o cliente passo a passo, e solicite autorização explícita para citar seu nome. Estruture sua abordagem com confiança. Você tem potencial: é só ajustar a rota e acelerar!",
+        "insights": [
+            "Homem, executivo sênior de banco; perfil analítico, dominante, objetivo e crítico, com grande foco em resultados (DISC: dominante/vermelho).",
+            "Você buscou validar o nível de satisfação do cliente logo após o fechamento, mostrando preocupação genuína com a experiência.",
+            "Utilizou uma pergunta direta sobre recomendação, trazendo o tema à tona de forma transparente.",
+            "Demonstrou abertura para feedback ao pedir uma avaliação do cliente sobre seu serviço.",
+            "Aproveitar o momento WOW",
+            "Não houve identificação explícita dos pontos que agradaram ao cliente nem exploração detalhada dos benefícios percebidos.",
+            "O pedido de recomendação foi muito amplo (“pra um irmão seu ou pra um amigo”), o que dificulta ao cliente lembrar de nomes específicos.",
+            "Faltou apresentar o pedido como um gesto de amizade e benefício para os próximos, e não como favor comercial."
+        ]
     },
     {
         "name": "Parceiro Geracao3a12",
@@ -4757,7 +5273,18 @@ const RAW_SIMULATIONS = [
                 "text": "Perfeito. Eu aviso duas pessoas esta semana e te informo quem autorizei. Obrigada."
             }
         ],
-        "finished": true
+        "finished": true,
+        "feedback": "Aqui está o debriefing da nossa conversa.\n\n  \n##  🤓 PERSONA\n\n- Empreendedora do segmento de saúde, perfil dominante verde no DISC, pragmática, cuidadosa, aberta ao diálogo, mas valoriza discrição e respeito.\n\n  \n## 🎯 OBJETIVO PRINCIPAL\n\n- O objetivo era obter ao menos dois nomes de recomendações, com autorização para contato mencionando o cliente.\n\n- O objetivo foi parcialmente atingido, já que houve concordância futura, mas não o fornecimento direto de nomes e contexto.\n\n  \n  \n## ➕ Pontos fortes\n\n- Você reconheceu que o cliente estava satisfeito e mencionou seu bom trabalho, usando o “momento uau”.\n\n  \n- Fez o pedido de recomendações de modo simples e direto, demonstrando iniciativa e assertividade.\n\n  \n- Mostrou flexibilidade ao aceitar combinar com o cliente o melhor momento para contatar os indicados, respeitando seus limites.\n\n  \n\nParabéns pela abordagem cordial e pela escuta cuidadosa, isso constrói confiança!\n\n  \n## ⚠️ EIXOS DE MELHORIA\n\n- Faltou aprofundar o pedido: você não pediu exemplos específicos de perfis, o que facilitaria a lembrança de nomes concretos.\n\n  \n- Não identificou o que o cliente mais valorizou na experiência: estimular esse tipo de fala gera envolvimento e argumentos autênticos.\n\n  \n- Não formalizou a autorização para citar o nome do cliente ao contatar os indicados, o que pode causar insegurança futura.\n\n  \n- O pedido foi um pouco genérico e não guiou o cliente por círculos sociais específicos, dificultando a memorização e resposta imediata.\n\n  \n\nBusque conduzir a conversa com perguntas mais segmentadas e aproveite para obter elementos pessoais que se conectem com cada indicação!\n\n  \n## 🩵 ANÁLISE EMOCIONAL\n\nO tom foi sereno, profissional e respeitoso, transmitindo simpatia. Seu ritmo foi calmo e a comunicação, educada e aberta.\n\n  \n## 🛅 MOMENTOS-CHAVE\n\nSituação: Reconhecimento da satisfação do cliente → você valorizou a decisão, iniciando o contato de forma positiva.\n\nIsso cria abertura para pedidos futuros, mas faltou aprofundar para extrair nomes na hora.\n\n  \n##  🔊 REFORMULAÇÕES RECOMENDADAS\n\n“Qual pessoa do seu círculo mais se beneficiaria de uma solução como a sua?”\n\n“Se preferir, podemos pensar juntos em colegas empreendedores ou profissionais liberais – alguém recente no seu WhatsApp?”\n\n“Posso contar com sua autorização para mencionar seu nome de forma discreta na abordagem inicial?”\n\n“Me diga o que mais te agradou nesse processo; isso me ajuda até na abordagem com seus contatos.”\n\n  \n## ➡️ RECOMENDAÇÕES\n\nConduza o cliente por perfis e situações de vida. Peça exemplos concretos, extraia uma autorização explícita para citar o nome dele e valorize sempre o feedback sobre o trabalho. Assim, a chance de sucesso aumenta muito. Siga praticando: profissionalismo somado à empatia é sua melhor ferramenta!",
+        "insights": [
+            "Empreendedora do segmento de saúde, perfil dominante verde no DISC, pragmática, cuidadosa, aberta ao diálogo, mas valoriza discrição e respeito.",
+            "O objetivo era obter ao menos dois nomes de recomendações, com autorização para contato mencionando o cliente.",
+            "O objetivo foi parcialmente atingido, já que houve concordância futura, mas não o fornecimento direto de nomes e contexto.",
+            "Você reconheceu que o cliente estava satisfeito e mencionou seu bom trabalho, usando o “momento uau”.",
+            "Fez o pedido de recomendações de modo simples e direto, demonstrando iniciativa e assertividade.",
+            "Mostrou flexibilidade ao aceitar combinar com o cliente o melhor momento para contatar os indicados, respeitando seus limites.",
+            "Faltou aprofundar o pedido: você não pediu exemplos específicos de perfis, o que facilitaria a lembrança de nomes concretos.",
+            "Não identificou o que o cliente mais valorizou na experiência: estimular esse tipo de fala gera envolvimento e argumentos autênticos."
+        ]
     },
     {
         "name": "Parceiro Geracao3a12",
@@ -4867,7 +5394,18 @@ const RAW_SIMULATIONS = [
                 "text": "Tamo junto. Até mais."
             }
         ],
-        "finished": true
+        "finished": true,
+        "feedback": "Aqui está o debriefing da nossa conversa\n\n[ligne vide]\n\n🤓 PERSONA\n\nFranqueado de fast food, quarenta anos, direto, objetivo, perfil DISC vermelho, decisões rápidas e foco prático no essencial.\n\n[ligne vide]\n\n🎯 OBJETIVO PRINCIPAL\n\nSolicitar e obter recomendações qualificadas de pelo menos duas pessoas, com consentimento para contato.\n\nO objetivo não foi atingido: não houve entrega efetiva de nomes nem autorização expressa para contato.\n\n[ligne vide]\n\n\n➕ Pontos fortes\n\n- Você comunicou de forma aberta que seu trabalho depende de recomendações, construiu transparência e direcionamento.\n\n- Usou argumentos voltados à proteção das pessoas próximas, ligando emoção à recomendação.\n\n- Demonstrou disposição em adaptar sua abordagem conforme o que o cliente sinalizou sobre mencionar ou não seu nome.\n\n- Tentou mostrar empatia ao explicar como faria o contato com os indicados, reforçando respeito e ausência de pressão.\n\nParabéns por buscar conexão emocional com o cliente! Continue valorizando sua escuta ativa.\n\n[ligne vide]\n\n\n⚠️ EIXOS DE MELHORIA\n\n- Faltou reconhecer explicitamente a satisfação do cliente pelo contrato fechado antes de pedir recomendações, perdendo o impacto do “momento WOW”.\n\n- Não pediu para o cliente expressar o que valorizou em seu atendimento, perdendo uma chance de reforçar a confiança.\n\n- Os pedidos soaram apressados e um pouco repetitivos, sem uma segmentação mais concreta de perfis (exemplo: “gostaria que me indicasse duas pessoas...” ao invés de direcionar por contexto, como amigos empreendedores, pais recentes, etc).\n\n- Não houve coleta ou aprofundamento em informações sobre os indicados (contexto, vínculo, característica).\n\nDesenvolver uma transição mais suave e personalizada pode abrir mais portas – mantenha o ritmo, mas com mais sutileza.\n\n[ligne vide]\n\n🩵 ANÁLISE EMOCIONAL\n\nO tom foi um tanto ansioso e insistente, com vocabulário direto e informal. Demonstrou algum desconforto diante da hesitação do cliente. Predominou uma atitude determinada, porém carente de pausa estratégica.\n\n[ligne vide]\n\n🛅 MOMENTOS-CHAVE\n\nSituação: Você explicou abertamente que depende de recomendações para trabalhar. Isso criou transparência mas deixou transparecer pressão.\n\nSituação: Aceitou adaptar a abordagem (com/sem mencionar o nome do cliente), o que demonstrou flexibilidade e respeito à vontade do cliente—ponto positivo para a confiança, embora tenha faltado extração concreta de indicações.\n\n[ligne vide]\n\n🔊 REFORMULAÇÕES RECOMENDADAS\n\n“Thiago, antes de tudo, quero agradecer pela confiança no nosso trabalho. Fiquei feliz com sua escolha!”\n\n“Posso te pedir um feedback? O que mais te agradou na nossa conversa até aqui?”\n\n“Pensando no seu círculo de empreendedores, tem alguém que recentemente abriu um negócio ou teve uma mudança importante?”\n\n“Caso você concorde, posso mencionar seu nome ou prefere que não cite que veio de você?”\n\n[ligne vide]\n\n➡️ RECOMENDAÇÕES\n\nAntes de qualquer pedido, valorize a conquista da assinatura com um reconhecimento genuíno. Segmente os perfis das pessoas pedidas, peça uma autorização clara e extraia breves detalhes que humanizem o contato. Suavize a transição, conectando o pedido à satisfação do cliente recém-convertido.\n\nAcredite: a arte de pedir gera mais resultados quando a gente cuida do timing tanto quanto do argumento—siga aprimorando!",
+        "insights": [
+            "O objetivo não foi atingido: não houve entrega efetiva de nomes nem autorização expressa para contato.",
+            "Você comunicou de forma aberta que seu trabalho depende de recomendações, construiu transparência e direcionamento.",
+            "Usou argumentos voltados à proteção das pessoas próximas, ligando emoção à recomendação.",
+            "Demonstrou disposição em adaptar sua abordagem conforme o que o cliente sinalizou sobre mencionar ou não seu nome.",
+            "Tentou mostrar empatia ao explicar como faria o contato com os indicados, reforçando respeito e ausência de pressão.",
+            "Faltou reconhecer explicitamente a satisfação do cliente pelo contrato fechado antes de pedir recomendações, perdendo o impacto do “momento WOW”.",
+            "Não pediu para o cliente expressar o que valorizou em seu atendimento, perdendo uma chance de reforçar a confiança.",
+            "Os pedidos soaram apressados e um pouco repetitivos, sem uma segmentação mais concreta de perfis (exemplo: “gostaria que me indicasse duas pessoas...” ao invés de direcionar por contexto, como amigos empreendedores, pais recentes, etc)."
+        ]
     },
     {
         "name": "Parceiro Geracao3a12",
@@ -4973,7 +5511,13 @@ const RAW_SIMULATIONS = [
                 "text": "Até."
             }
         ],
-        "finished": true
+        "finished": true,
+        "feedback": "Aqui está o debriefing da nossa conversa.  \n\n## 🤓 PERSONA\n\nMarcos, professor de história, quarenta e dois anos, perfil DISC majoritariamente verde, calmo e relacional.  \n\n## 🎯 OBJETIVO PRINCIPAL\n\nObter pelo menos dois nomes e autorização explícita para contato.  \nO objetivo não foi atingido.  \n\n## ➕ Pontos fortes\n\n– Você demonstrou disposição para facilitar o processo para o cliente, pactuando que ele pudesse avisar antes os seus indicados.  \n\n– Explicou, de forma simples, a abordagem que faria com os recomendados, transmitindo clareza sobre o tom do contato.  \n\n– Finalizou a conversa mantendo cordialidade e agradecimento, o que tende a preservar o relacionamento com o cliente.  \n\nContinue explorando sua escuta e adaptação com naturalidade, isso costuma gerar boa empatia!  \n\n## ⚠️ EIXOS DE MELHORIA\n\n– Faltou reconhecer explicitamente a decisão do cliente e celebrar sua satisfação antes de pedir recomendações.  \n  Celebrar o momento UAU pós-venda aumenta a abertura do cliente.  \n\n– A solicitação por “cinco nomes” ficou excessiva, soando mecânica e levemente pressionante.  \n  O ideal seria pedir dois e guiar o cliente perfil a perfil, evitando perguntas em rajada.  \n\n– Não houve direcionamento ou segmentação do pedido para facilitar a memória do cliente (“entre os amigos do futebol”, “alguém promovido recentemente”, etc.).  \n  Isso ajudaria bastante o cliente a lembrar de perfis concretos.  \n\n– Faltou pedir autorização explícita para mencionar o nome do cliente no primeiro contato.  \n  Isso é fundamental para um contato mais humano e ético.  \n\nTrabalhe essas oportunidades para potencializar sua taxa de recomendações!  \n\n## 🩵 ANÁLISE EMOCIONAL\n\nO tom foi objetivo e educado, mas por vezes apressado. Mostrou leve ansiedade, buscando agilidade na resposta, mas manteve-se respeitoso.  \n\n## 🛅 MOMENTOS-CHAVE\n\nNo momento em que propôs que o cliente avisasse antes os indicados, demonstrou respeito pela privacidade, o que diminui resistência e estimula colaboração.  \nO pedido direto de vários nomes sem pausa, no entanto, aumentou a pressão e esfriou o processo.  \n\n## 🔊 REFORMULAÇÕES RECOMENDADAS\n\n“Quero agradecer novamente por confiar no meu trabalho e fico muito feliz com sua escolha.”  \n\n“Entre seu grupo de amigos ou colegas do sindicato, há alguém que se beneficiaria desse tipo de orientação?”  \n\n“Posso mencionar que foi você que sugeriu esse contato? Assim, a pessoa se sente mais confortável.”  \n\n## ➡️ RECOMENDAÇÕES\n\nAproveite o momento pós-venda para ouvir sobre a satisfação do cliente antes de pedir indicações. Peça por perfis específicos, conduzindo a memória do cliente. Limite o número de nomes inicialmente e obtenha sempre autorização explícita para mencionar seu nome.\n\nContinue evoluindo com leveza e profissionalismo, você está no caminho certo!",
+        "insights": [
+            "Celebrar o momento UAU pós-venda aumenta a abertura do cliente.",
+            "O tom foi objetivo e educado, mas por vezes apressado. Mostrou leve ansiedade, buscando agilidade na resposta, mas manteve-se respeitoso.",
+            "Aproveite o momento pós-venda para ouvir sobre a satisfação do cliente antes de pedir indicações. Peça por perfis específicos, conduzindo a memória do cliente. Limite o número de nomes inicialmente e obtenha sempre autorização explícita para mencionar seu nome."
+        ]
     },
     {
         "name": "Parceiro Geracao3a12",
@@ -5055,7 +5599,18 @@ const RAW_SIMULATIONS = [
                 "text": "Pode"
             }
         ],
-        "finished": true
+        "finished": true,
+        "feedback": "Aqui está o debriefing da nossa conversa.\n\n  \n  \n\n## 🤓 PERSONA\n\n  \n- Banqueiro sênior analítico e exigente, direto, perfil DISC dominante vermelho.\n\n  \n  \n\n## 🎯 OBJETIVO PRINCIPAL\n\n  \n- Obter recomendações qualificadas com autorização para contatar.\n\n  \nO objetivo não foi atingido, pois nenhum nome ou contato qualificado foi obtido do cliente.\n\n  \n  \n\n## ➕ Pontos fortes\n\n  \n- Gosto da sua objetividade: foi direto ao ponto ao pedir os contatos.\n\n  \n- Manteve a conversa curta, tentando facilitar o andamento e não prolongar a objeção.\n\n  \nContinue buscando clareza e praticidade, mas a relação precisa ser tão robusta quanto sua assertividade!\n\n  \n  \n\n## ⚠️ EIXOS DE MELHORIA\n\n  \n- Ausência total de reconhecimento prévio: não houve agradecimento pela assinatura e nem menção aos benefícios da escolha do cliente.\n\n  \n- Pedido mecânico e pouco empático: já começou solicitando nomes, sem preparar o terreno nem explorar o momento “uau”.\n\n  \n**Faltou escuta ativa**  \n  Não investigou o que o cliente valorizou na experiência, perdendo chance de criar envolvimento antes do pedido.\n\n  \n- Pedido amplo e genérico: ficou restrito a “contatos”, sem segmentar perfis ou ajudar a memória do cliente a trabalhar.\n\n  \nAposte mais na construção de rapport e preparo do pedido para colher frutos mais maduros!\n\n  \n  \n\n## 🩵 ANÁLISE EMOCIONAL\n\n  \nA condução foi rápida, pragmática, sem dar espaço para desenvoltura ou conexão. Predominou um tom seco e objetivo, até um pouco urgente.\n\n  \n  \n\n## 🛅 MOMENTOS-CHAVE\n\n  \n- Situação: Primeiro contato sobre recomendações logo após o fechamento  \n  O que fez: Pediu “uns dois contatos agora, pode ser?” de cara  \n  Por que importa: Faltou aproveitar o momento de satisfação para criar clima.\n\n  \n  \n\n## 🔊 REFORMULAÇÕES RECOMENDADAS\n\n  \n- “Antes de mais nada, obrigado pela confiança. O que mais chamou sua atenção na nossa solução?”\n\n  \n- “Posso te pedir um favor como consultor? Conhece alguém do seu círculo que possa se beneficiar desse tipo de proteção?”\n\n  \n- “Se preferir, pensamos juntos em alguém do seu clube, família ou colegas que passou por mudanças recentes.”\n\n  \n- “Posso mencionar que foi você quem me indicou, para criar uma abordagem respeitosa?”\n\n  \n  \n\n## ➡️ RECOMENDAÇÕES\n\n  \nComece sempre reconhecendo e agradecendo, explore o que o cliente apreciou, e só então peça indicações, guiando por perfil ou contexto. Seja menos direto e mais consultivo. Assegure-se de pedir autorização para citar seu nome. Você tem potencial, basta afinar o approach!",
+        "insights": [
+            "Banqueiro sênior analítico e exigente, direto, perfil DISC dominante vermelho.",
+            "Obter recomendações qualificadas com autorização para contatar.",
+            "Gosto da sua objetividade: foi direto ao ponto ao pedir os contatos.",
+            "Manteve a conversa curta, tentando facilitar o andamento e não prolongar a objeção.",
+            "Ausência total de reconhecimento prévio: não houve agradecimento pela assinatura e nem menção aos benefícios da escolha do cliente.",
+            "Pedido mecânico e pouco empático: já começou solicitando nomes, sem preparar o terreno nem explorar o momento “uau”.",
+            "*Faltou escuta ativa**",
+            "Pedido amplo e genérico: ficou restrito a “contatos”, sem segmentar perfis ou ajudar a memória do cliente a trabalhar."
+        ]
     },
     {
         "name": "Marcelo Bernardes",
@@ -5073,7 +5628,9 @@ const RAW_SIMULATIONS = [
                 "text": "E aí, todo mês que você..."
             }
         ],
-        "finished": false
+        "finished": false,
+        "feedback": "",
+        "insights": []
     },
     {
         "name": "Marcelo Bernardes",
@@ -5159,7 +5716,18 @@ const RAW_SIMULATIONS = [
                 "text": "Obrigado, até lá."
             }
         ],
-        "finished": true
+        "finished": true,
+        "feedback": "Aqui está o debriefing da nossa troca.\n\n\n🤓 PERSONA\n\nJovem executiva de tecnologia, perfil DISC amarelo predominante, desconfiada, digital, ágil, pragmática e voltada à experiência do usuário.\n\n\n🎯 OBJETIVO PRINCIPAL\n\nVocê respondeu às objeções de forma cordial, propôs reunião e conquistou o aceite, mas de modo parcialmente convincente. Objetivo parcialmente atingido.\n\n\n➕ PONTOS FORTES\n\n- Abordagem inicial educada e direta, buscando rapidamente trazer a conversa para o tema da reunião.\n\n- Tentou se colocar como consultor ao sugerir entender o momento de vida, patrimônio e planos do cliente.\n\n- Propôs um horário concreto para a reunião, fugindo de datas vagas e facilitando a tomada de decisão.\n\n- Atitude acolhedora e mostra de disponibilidade ao garantir envio rápido de informações por WhatsApp.\n\n\n⚠️ PONTOS DE MELHORIA\n\n- Faltou pedir autorização explícita antes de seguir com a abordagem, ponto essencial do método MetLife.\n\n- Não ativou a recomendação (não citou a indicação de Paulo nem associou credibilidade ao contato).\n\n- Quebra-gelo pessoal ausente, o que poderia criar conexão e baixar defesas do prospect.\n\n- Não utilizou escolha forçada entre dois horários; propôs apenas um, limitando engajamento.\n\n- Argumentação um pouco repetitiva, com foco excessivo em “entender seu momento de vida”, sem detalhar benefícios tangíveis do encontro.\n\n- Tratou objeções de modo superficial, sem empregar plenamente o “sim, mas…”.\n\n- Ausência de reconfirmação estruturada do local, formato (presencial/online) e expectativa da reunião.\n\n\n🩵 ANÁLISE EMOCIONAL\n\nTom cordial e respeitoso, ritmo adequado, mas vocabulário pouco personalizado. Estado emocional: calmo, porém um pouco burocrático, sem grandes variações que estimulem engajamento.\n\n\n🛅 MOMENTOS-CHAVE\n\nQuando reconheceu o seguro já existente do prospect, tentou posicionar o encontro como um bate-papo consultivo. Isso foi bom, porém faltou reforçar a razão exclusiva para a conversa, comprometendo o impacto.\n\n\n🔊 REFORMULAÇÕES RECOMENDADAS\n\n- “Posso te explicar rapidamente por que Paulo sugeriu nosso contato, para você decidir se faz sentido conversarmos?”\n\n- “Te proponho duas opções: quarta às catorze ou quinta às dez, qual encaixa melhor na sua agenda?”\n\n- “Entendo que já tem seguro, mas podemos revisar juntos se ele realmente atende suas necessidades atuais?”\n\n- “Prometo ser objetivo, nosso papo é para agregar, nada de venda por telefone.”\n\n- “Posso te contar em trinta segundos o que você ganha investindo vinte minutos comigo?”\n\n\n➡️ RECOMENDAÇÕES\n\nSempre peça autorização no começo, cite de quem veio a recomendação, explore o gatilho de curiosidade e proponha escolha forçada. Personalize, traga um exemplo vivo e reconfirme todos os detalhes no final.\n\nNo próximo contato, vá além do protocolo — surpreenda e crie vínculo. Você está no caminho certo!",
+        "insights": [
+            "Abordagem inicial educada e direta, buscando rapidamente trazer a conversa para o tema da reunião.",
+            "Tentou se colocar como consultor ao sugerir entender o momento de vida, patrimônio e planos do cliente.",
+            "Propôs um horário concreto para a reunião, fugindo de datas vagas e facilitando a tomada de decisão.",
+            "Atitude acolhedora e mostra de disponibilidade ao garantir envio rápido de informações por WhatsApp.",
+            "Faltou pedir autorização explícita antes de seguir com a abordagem, ponto essencial do método MetLife.",
+            "Não ativou a recomendação (não citou a indicação de Paulo nem associou credibilidade ao contato).",
+            "Quebra-gelo pessoal ausente, o que poderia criar conexão e baixar defesas do prospect.",
+            "Não utilizou escolha forçada entre dois horários; propôs apenas um, limitando engajamento."
+        ]
     },
     {
         "name": "Marcelo Bernardes",
@@ -5313,7 +5881,13 @@ const RAW_SIMULATIONS = [
                 "text": "Obrigado. Até quinta às quinze horas."
             }
         ],
-        "finished": true
+        "finished": true,
+        "feedback": "Aqui está o debriefing da nossa troca\n\n🤓 PERSONA\n\nAtuei como prospect do tipo reservado, metódico, racional e extremamente criterioso, perfil dominante DISC azul.\n\n🎯 OBJETIVO PRINCIPAL\n\nVocê conseguiu responder algumas objeções e garantir o agendamento de uma reunião qualificada com data e horário definidos. Objetivo atingido.\n\n➕ PONTOS FORTES\n\nVocê foi insistente na proposta de valor, conectando a proteção financeira com a situação pessoal do prospect.\n\nVocê utilizou a escolha forçada de horários, facilitando a aceitação do convite para a reunião.\n\nVocê reforçou a confirmação do agendamento por WhatsApp e e-mail, mostrando organização e zelo.\n\nVocê finalizou a ligação de maneira cordial, valorizando a relação e deixando uma impressão humana.\n\n⚠️ PONTOS DE MELHORIA\n\nFaltou pedir autorização formal para seguir com a conversa e explicar como conseguiu o contato, essencial para gerar confiança.\n\nVocê entrou rapidamente em perguntas diretas e delicadas sobre renda e intimidade familiar, sem preparo ou construção de vínculo.\n\nHouve excesso de perguntas fechadas e tom um tanto interrogativo em sequência, sem pausas para ouvir o prospecto ou validar cada resposta.\n\nFaltou ativar o gatilho da recomendação citando o Paulo, que poderia suavizar a resistência inicial do prospect.\n\nA abordagem por vezes soou pressiva ao explorar vulnerabilidades (“como homem responsável, ficaria legal?”), o que pode gerar desconforto ou reação defensiva.\n\n🩵 ANÁLISE EMOCIONAL\n\nSeu tom foi objetivo, mas, por vezes, impaciente e excessivamente focado em extrair respostas rápidas. Pareceu ansioso e pouco empático.\n\n🛅 MOMENTOS-CHAVE\n\nAo perguntar diretamente sobre renda e reserva financeira, você imprimiu ritmo, mas perdeu espaço na empatia; isso pode afastar quem defende privacidade.\n\nQuando sugeriu dois horários próximos de reunião, facilitou uma resposta rápida e objetiva, agilizando o fechamento do agendamento.\n\n🔊 REFORMULAÇÕES RECOMENDADAS\n\nPaulo, que trabalha comigo, recomendou seu contato e sugeriu que seria interessante conversarmos. Posso te explicar rapidamente como posso agregar valor?\n\nAntes de continuarmos, tudo bem conversarmos por alguns minutos? Valorizo muito a sua disponibilidade e quero ser breve.\n\nPrefere conversar comigo na quarta às catorze ou às quinze horas? Assim deixo sua agenda planejada.\n\nQuero entender seu momento para pensarmos juntos em alternativas seguras e personalizadas.\n\n➡️ RECOMENDAÇÕES\n\nInvista mais tempo no início criando vínculo e contexto, peça autorização explícita para seguir com perguntas e cite sempre a recomendação recebida. Troque o tom de interrogatório por escuta ativa e curiosidade genuína. Mantenha-se humano, mesmo com metas na mesa!\n\nVocê está no caminho certo. Lapide sua escuta e empatia: resultados virão!",
+        "insights": [
+            "Você reforçou a confirmação do agendamento por WhatsApp e e-mail, mostrando organização e zelo.",
+            "Invista mais tempo no início criando vínculo e contexto, peça autorização explícita para seguir com perguntas e cite sempre a recomendação recebida. Troque o tom de interrogatório por escuta ativa e curiosidade genuína. Mantenha-se humano, mesmo com metas na mesa!",
+            "Você está no caminho certo. Lapide sua escuta e empatia: resultados virão!"
+        ]
     },
     {
         "name": "Parceiro Gorillalu",
@@ -5383,7 +5957,18 @@ const RAW_SIMULATIONS = [
                 "text": "Pode ser quarta às dezesseis e trinta. Prefiro videoconferência; o senhor manda o link?"
             }
         ],
-        "finished": true
+        "finished": true,
+        "feedback": "Aqui está o debriefing de nossa conversa.\n\n\n🤓 PERSONA\n\nProprietária de salão premium, perfil DISC amarelo: carismática, entusiasta, fala bastante, busca sentir confiança na relação.\n\n\n🎯 OBJETIVO PRINCIPAL\n\nCorretor conseguiu remarcar a escolha de data, mas não explorou objeções nem mostrou o valor do encontro. Objetivo parcialmente atingido.\n\n\n➕ Pontos fortes\n\n- Demonstrou flexibilidade com relação ao agendamento, oferecendo alternativas concretas de horários já na abordagem.\n\n- Manteve uma comunicação educada e respeitosa durante toda a conversa.\n\n- Evitou pressionar excessivamente o prospect e seguiu com um tom colaborativo.\n\n\n⚠️ EIXOS DE MELHORIA\n\n- Faltou explorar as reais razões por trás do pedido inicial de material, não utilizando perguntas abertas como “O que te faria se sentir mais à vontade nessa reunião?” ou “Como posso adaptar para sua realidade?”.\n\n- Não houve resposta fundamentada sobre a inadequação do envio genérico de documentos, deixando de explicar a importância da personalização e avaliação mútua.\n\n- Proposta de reunião ficou vaga sobre o valor do encontro (“só para agendar”), o que pode reduzir o engajamento da prospect.\n\n- Perdeu uma oportunidade de gerar projeção positiva, não conectando o valor do seguro ao mundo e perfil da Persona.\n\n\n🩵 ANÁLISE EMOCIONAL\n\nTom cordial, ritmo constante, foco no operacional. Mostrou-se seguro, mas com pouca empatia exploratória e quase nenhuma conexão emocional.\n\n\n🛅 MOMENTOS-CHAVE\n\nQuando o prospect pediu material, Corretor apenas direcionou à agenda sem investigar além. Isso foi decisivo porque faltou tratar objeção e personalizar a abordagem, o que impactou o convencimento.\n\n\n🔊 REFORMULAÇÕES RECOMENDADAS\n\n“Entendo seu interesse pelo material, mas meu objetivo é trazer algo feito para o seu momento, não só um folheto.”\n\n“Me conta, o que te deixaria mais confortável numa conversa rápida de quinze minutos?”\n\n“O que te faria sentir que esse tempo vale a pena para você?”\n\n“Trabalho de forma consultiva, explicando caso a caso — você topa experimentar?”\n\n\n➡️ RECOMENDAÇÕES\n\nAprofunde sempre, escutando e personalizando. Use perguntas abertas para desbloquear objeções, explique por que o atendimento é individual e projete o valor do encontro. Construa confiança antes de buscar datas.\n\n\nCada conversa é uma chance de criar conexão de verdade, então insista na humanização — sem perder o bom humor!",
+        "insights": [
+            "Proprietária de salão premium, perfil DISC amarelo: carismática, entusiasta, fala bastante, busca sentir confiança na relação.",
+            "Demonstrou flexibilidade com relação ao agendamento, oferecendo alternativas concretas de horários já na abordagem.",
+            "Manteve uma comunicação educada e respeitosa durante toda a conversa.",
+            "Evitou pressionar excessivamente o prospect e seguiu com um tom colaborativo.",
+            "Faltou explorar as reais razões por trás do pedido inicial de material, não utilizando perguntas abertas como “O que te faria se sentir mais à vontade nessa reunião?” ou “Como posso adaptar para sua realidade?”.",
+            "Não houve resposta fundamentada sobre a inadequação do envio genérico de documentos, deixando de explicar a importância da personalização e avaliação mútua.",
+            "Proposta de reunião ficou vaga sobre o valor do encontro (“só para agendar”), o que pode reduzir o engajamento da prospect.",
+            "Perdeu uma oportunidade de gerar projeção positiva, não conectando o valor do seguro ao mundo e perfil da Persona."
+        ]
     },
     {
         "name": "Parceiro Gorillalu",
@@ -5401,7 +5986,9 @@ const RAW_SIMULATIONS = [
                 "text": "The most practical is for you to send the document by email; I will review"
             }
         ],
-        "finished": false
+        "finished": false,
+        "feedback": "",
+        "insights": []
     },
     {
         "name": "Parceiro Gorillalu",
@@ -5515,7 +6102,18 @@ const RAW_SIMULATIONS = [
                 "text": "Perfeito. Aguardo o e-mail hoje; vou avaliar e te retorno sobre dia e horário da reunião. Adeus."
             }
         ],
-        "finished": true
+        "finished": true,
+        "feedback": "Aqui está o debriefing da nossa troca.\n\n  \n\n### 🤓 PERSONA\n\nPessoa pragmática, cautelosa, perfil verde dominante DISC, busca clareza, eficiência e segurança antes de aceitar novos compromissos.\n\n  \n\n### 🎯 OBJETIVO PRINCIPAL\n\nO corretor buscou contornar objeções e propôs datas; respondeu razoavelmente, mas reunião efetiva e reconfirmação não ficaram claríssimas. Objetivo parcialmente atingido.\n\n  \n\n### ➕ PONTOS FORTES\n\n- Utilizou o gatilho de recomendação mencionando João Vitor de maneira personalizada, trazendo credibilidade à abordagem.\n\n  \n- Tentou criar conexão ao alinhar o perfil do público-alvo (“a maioria dos meus clientes são dentistas”), mostrando segmentação.\n\n  \n- Propôs reunião em agenda com opção forçada entre dois horários, facilitando a tomada de decisão para o prospect.\n\n  \n\n### ⚠️ PONTOS DE MELHORIA\n\n- **Sequência MetLife incompleta**\n  Faltou etapa clara de autorização para prosseguir e ausência de escuta ativa inicial ao não checar disponibilidade.\n\n  \n- **Quebra de fluxo consultivo**\n  Ao insistir no agendamento sem validar o valor percebido pelo prospect, soou um pouco insistente.\n\n  \n- **Gestão de objeção imprecisa**\n  Não aprofundou o benefício individual da reunião, nem tratou o principal questionamento sobre envio de material com o método “sim, mas...”.\n\n  \n- **Pouca personalização**\n  A argumentação ficou genérica (“a maioria dos meus clientes…”), sem ilustrar benefícios para a realidade da Fernanda.\n\n  \n\n###  🩵 ANÁLISE EMOCIONAL\n\nO tom foi cordial e focado, porém com leve ansiedade em forçar o agendamento. Discurso oscilou entre confiante e apressado, faltando pausa para escutar mais.\n\n  \n\n### 🛅 MOMENTOS-CHAVE\n\nSituação: Quando prospect pediu o envio por e-mail. O corretor insistiu na reunião presencial sem validar, mostrando foco no processo, mas não no desejo do prospect. Isso impactou a receptividade.\n\nSituação: Oferta das opções de agenda. Utilize melhor esse momento conectando ao interesse do prospect, para não soar apressado.\n\n  \n\n### 🔊 REFORMULAÇÕES RECOMENDADAS\n\n- “Fernanda, posso compartilhar alguns pontos-chave por e-mail e depois conversamos pessoalmente para aprofundar no que fizer sentido para você?”\n  \n- “João Vitor sugeriu que eu te procurasse porque viu que o meu trabalho ajudou colegas com desafios parecidos aos seus.”\n  \n- “A ideia aqui é desenharmos juntos um planejamento exclusivo para tua rotina. Prefere terça à tarde ou quarta de manhã?”\n  \n- “Qual seria o maior benefício de reservarmos esses trinta minutos juntos essa semana para você, Fernanda?”\n\n  \n\n### ➡️ RECOMENDAÇÕES\n\nLembre de validar o motivo da pressa do prospect, pedir autorização antes de continuar e ajustar o discurso ao perfil verde, usando mais perguntas abertas que demonstrem interesse genuíno. Roteirize menos, escute mais. Você está perto — só falta escutar para conquistar.",
+        "insights": [
+            "Utilizou o gatilho de recomendação mencionando João Vitor de maneira personalizada, trazendo credibilidade à abordagem.",
+            "Tentou criar conexão ao alinhar o perfil do público-alvo (“a maioria dos meus clientes são dentistas”), mostrando segmentação.",
+            "Propôs reunião em agenda com opção forçada entre dois horários, facilitando a tomada de decisão para o prospect.",
+            "Sequência MetLife incompleta",
+            "Quebra de fluxo consultivo",
+            "Gestão de objeção imprecisa",
+            "Pouca personalização",
+            "Situação: Quando prospect pediu o envio por e-mail. O corretor insistiu na reunião presencial sem validar, mostrando foco no processo, mas não no desejo do prospect. Isso impactou a receptividade."
+        ]
     },
     {
         "name": "Parceiro Gorillalu",
@@ -5637,7 +6235,13 @@ const RAW_SIMULATIONS = [
                 "text": "Obrigada, senhor. Até terça-feira então."
             }
         ],
-        "finished": true
+        "finished": true,
+        "feedback": "Aqui está o debriefing de nossa conversa.\n\n\n🤓 PERSONA\n\nLarissa, empreendedora premium, personalidade DISC amarelo, carismática, relacional, valoriza experiência personalizada e espaço para se sentir à vontade.\n\n\n🎯 OBJETIVO PRINCIPAL\n\nCorretor respondeu a parte das objeções, mas aceitou enviar documentação antes da reunião. Objetivo parcialmente atingido, faltando firmeza na recusa ao envio do material.\n\n\n➕ Pontos fortes\n\nDemonstrou escuta ativa ao mencionar a personalização de sua proposta com base nas necessidades do cliente.\n\nTrouxe argumentos relevantes mostrando que o envio de material genérico não representa seu trabalho, buscando valorizar o encontro presencial.\n\nFez uma abordagem relacional, convidando para um café e deixando o ambiente mais leve e próximo, o que gera conexão.\n\nUtilizou escolha alternativa ao sugerir dois horários concretos para o agendamento, facilitando o avanço na agenda.\n\n\n⚠️ EIXOS DE MELHORIA\n\nCedeu ao envio do material solicitado pelo prospect, o que fragiliza a condução e valor da reunião: “Eu te envio por e-mail...”.\n\nPressionou além do necessário em alguns pontos, reduzindo espaço para objeções autênticas (“Mas por que você quer algo por escrito...”).\n\nFaltou investigar a fundo as razões reais da objeção, com perguntas mais abertas e empáticas, explorando o “por quê” do pedido de material.\n\nA argumentação se repetiu em alguns momentos, girando sobre o valor do encontro, em vez de aprofundar no perfil e nas motivações da Larissa.\n\n\n🩵 ANÁLISE EMOCIONAL\n\nO tom foi geralmente confiante, relacional e assertivo, com ritmo rápido e vocabulário acessível, mas a pressão e o fechamento precoce em alguns trechos geraram leves sinais de impaciência.\n\n\n🛅 MOMENTOS-CHAVE\n\nAo propor dois horários para a reunião, facilitou o aceite do encontro e demonstrou domínio da técnica de escolha forçada.\n\nAo aceitar o envio do material, acabou cedendo parte do controle da conversa, o que enfraqueceu sua posição de especialista.\n\n\n🔊 REFORMULAÇÕES RECOMENDADAS\n\n“Entendo seu interesse em conhecer detalhes, mas o melhor é construirmos juntos algo realmente alinhado ao seu momento.”\n\n“Posso adiantar alguns pontos-chave na reunião e, se fizer sentido, envio um material personalizado logo após conversarmos.”\n\n“Se preferir, sua contadora pode participar. Isso tornará nossa conversa ainda mais útil para você.”\n\n“Que tal agendar um café rápido para alinharmos expectativas? Assim posso entender melhor seu cenário!”\n\n\n➡️ RECOMENDAÇÕES\n\nMantenha firmeza na recusa ao material padrão e dedique mais tempo para descobrir a motivação real por trás do pedido. Use mais perguntas abertas e valide sentimentos do prospect antes de argumentar. Personalização e curiosidade autêntica vencem o “envia por e-mail”.\n\nContinue aprimorando! O controle gentil da conversa faz toda a diferença no sucesso comercial.",
+        "insights": [
+            "Cedeu ao envio do material solicitado pelo prospect, o que fragiliza a condução e valor da reunião: “Eu te envio por e-mail...”.",
+            "“Posso adiantar alguns pontos-chave na reunião e, se fizer sentido, envio um material personalizado logo após conversarmos.”",
+            "Mantenha firmeza na recusa ao material padrão e dedique mais tempo para descobrir a motivação real por trás do pedido. Use mais perguntas abertas e valide sentimentos do prospect antes de argumentar. Personalização e curiosidade autêntica vencem o “envia por e-mail”."
+        ]
     },
     {
         "name": "Parceiro Gorillalu",
@@ -5735,7 +6339,11 @@ const RAW_SIMULATIONS = [
                 "text": "Então, esse é o cenário. Eu não posso te enviar, eu não vou te enviar, é, nada, nenhum documento. A gente já tá marcando na terça-feira."
             }
         ],
-        "finished": true
+        "finished": true,
+        "feedback": "Aqui está o debriefing de nossa conversa.\n\n  \n🤓 PERSONA\n\nMulher, empreendedora carismática, espontânea e sociável, perfil DISC amarelo predominante, muito expressiva e relacional.\n\n  \n🎯 OBJETIVO PRINCIPAL\n\nCorretor respondeu à objeção e conquistou o agendamento sem envio prévio de documentação. Objetivo plenamente atingido.\n\n  \n➕ Pontos fortes\n\nVocê validou o sentimento inicial da prospect, mostrando empatia ao reconhecer o excesso de propostas enviadas.  \nConseguiu recusar o envio do material genérico com tato, destacando a necessidade de personalização e uma abordagem centrada na vida da cliente.  \nUtilizou a técnica da escolha forçada ao propor datas concretas já no início (“terça ou quarta-feira”), facilitando o avanço no agendamento.  \nManteve o controle da conversa com tom positivo, cordialidade e respeito, criando um ambiente confortável.  \nPreservou o relacionamento, reforçando a confiança por meio da indicação do cliente em comum.\n\n  \n⚠️ EIXOS DE MELHORIA\n\nFaltou aprofundar com perguntas abertas sobre o motivo do desconforto em não receber o material antes (“por que ler antes é importante para você?”, “quais pontos quer entender melhor?”).  \nA insistência em marcar “na hora” e exigir confirmação repetida rapidamente tornou o final da conversa um pouco pressionador (“como a gente vai se encontrar na terça, se você não me confirmar o horário?”).  \nA argumentação sobre os benefícios do encontro girou apenas em torno da personalização, sem explorar mais os ganhos para o prospect, como confidencialidade ou praticidade.  \nNo fechamento, repetiu excessivamente a recusa do material e o pedido de confirmação, o que enfraqueceu o tom consultivo.\n\n  \n🩵 ANÁLISE EMOCIONAL\n\nO tom foi seguro e cuidadoso, com leve ansiedade por resultados rápidos. Ritmo acelerado, vocabulário simples e objetivo. O estado emocional dominante foi confiante, porém levemente apressado no fechamento.\n\n  \n🛅 MOMENTOS-CHAVE\n\nQuando validou o excesso de propostas e apresentou o encontro sem compromisso de venda, quebrou a principal barreira relacional, criando abertura para o sim.  \nA utilização da agenda com dois dias disponíveis impulsionou o fechamento, sem dispersão em perguntas vagas.\n\n  \n🔊 REFORMULAÇÕES RECOMENDADAS\n\nEntendo sua preferência por um material antes, mas posso explicar por que uma conversa personalizada faz mais sentido neste caso?\n\nQue pontos te deixariam mais tranquila para essa nossa conversa inicial?\n\nEsse encontro é sobre entender o que faz sentido pra você, sem compromisso de fechar nada.\n\nSe quinze minutos for o ideal, ajusto totalmente minha agenda para te atender.\n\n  \n➡️ RECOMENDAÇÕES\n\nPara evoluir, aprofunde as razões reais do pedido de material com mais perguntas abertas e menos repetição. No fechamento, demonstre flexibilidade e mantenha o clima consultivo, reforçando sempre o benefício prático para o prospect.\n\nVocê demonstrou consistência e domínio do processo. Pequenos ajustes nos detalhes vão turbinar ainda mais seus resultados!",
+        "insights": [
+            "Utilizou a técnica da escolha forçada ao propor datas concretas já no início (“terça ou quarta-feira”), facilitando o avanço no agendamento."
+        ]
     },
     {
         "name": "Parceiro Gorillalu",
@@ -5893,7 +6501,18 @@ const RAW_SIMULATIONS = [
                 "text": "Vai com horário marcado. Se tiver um grande imprevisto, peço que você me avise com a maior antecedência possível."
             }
         ],
-        "finished": true
+        "finished": true,
+        "feedback": "Aqui está o debriefing de nossa conversa.\n\n  \n\n###  🤓 PERSONA\n\nMulher, trinta e seis anos, dona de salão premium em Brasília, perfil DISC amarelo: expressiva, aberta, valoriza relacionamento e experiência.\n\n  \n\n🎯 OBJETIVO PRINCIPAL\n\nVocê respondeu de modo convincente à objeção da documentação e agendou a reunião sem ceder ao envio prévio. Objetivo atingido.\n\n  \n\n### ➕ Pontos fortes\n\n- Argumentou bem sobre a personalização do serviço, destacando que não trabalha com material genérico.\n- Utilizou perguntas abertas para buscar a real preocupação da prospect, promovendo engajamento.\n- Demonstrou tato e respeito em todo o contato, sem perder o tom profissional.\n- Ao propor datas concretas, aplicou a técnica de escolha forçada, facilitando o fechamento do agendamento.\n- Explicou de forma simples e clara os benefícios de um encontro presencial.\n\n  \n\n### ⚠️ EIXOS DE MELHORIA\n\n- Faltou validar abertamente o sentimento da prospect logo no início: um “entendo que queira ver antes, é super comum” teria criado mais empatia antes de contra-argumentar.\n- Argumentação um pouco repetitiva sobre personalização; poderia ter explorado mais as vantagens do bate-papo breve e colaborativo.\n- Algumas pausas excessivas e hesitações (“é...”, “então pra eu poder”) tiraram fluidez – vale treinar transições.\n- Quando propôs datas, em um momento ofereceu um prazo longo demais (“daqui a duas semanas”), o que pode aumentar a taxa de esquecimento ou desengajamento.\n\n  \n\n### 🩵 ANÁLISE EMOCIONAL\n\nO tom geral foi envolvente, paciente e respeitoso, transmitindo confiança e acessibilidade, com leve toque de informalidade, sem pressão aparente.\n\n  \n\n### 🛅 MOMENTOS-CHAVE\n\nQuando você destacou que o material enviado não faria jus ao seu trabalho personalizado, colocou em prática o argumento certo para defender a reunião, mudando a percepção da prospect.\n\nAo aplicar a escolha forçada com datas específicas, mostrou domínio da técnica de fechamento, colaborando para o aceite.\n\n  \n\n🔊 REFORMULAÇÕES RECOMENDADAS\n\n“Entendo perfeitamente seu desejo de receber material antes, é algo bem comum.”\n\n“Posso garantir que, conversando rapidamente, consigo entender o que realmente faz sentido para você.”\n\n“Nada do que envio genérico reflete sua realidade – juntos, personalizamos do seu jeito.”\n\n“Podemos tomar um café terça ou quarta, fica melhor para você em qual horário?”\n\n  \n\n➡️ RECOMENDAÇÕES\n\nRefine a escuta ativa, validando os sentimentos do prospect antes de redirecionar. Evite pausas longas e foque em manter a objetividade sem perder proximidade. Mencione benefícios do bate-papo enxuto para aumentar o senso de valor já no convite.\n\n  \n\nParabéns pelo resultado! Com pequenos ajustes, sua abordagem ficará ainda mais natural e poderosa.",
+        "insights": [
+            "Mulher, trinta e seis anos, dona de salão premium em Brasília, perfil DISC amarelo: expressiva, aberta, valoriza relacionamento e experiência.",
+            "Argumentou bem sobre a personalização do serviço, destacando que não trabalha com material genérico.",
+            "Utilizou perguntas abertas para buscar a real preocupação da prospect, promovendo engajamento.",
+            "Demonstrou tato e respeito em todo o contato, sem perder o tom profissional.",
+            "Ao propor datas concretas, aplicou a técnica de escolha forçada, facilitando o fechamento do agendamento.",
+            "Explicou de forma simples e clara os benefícios de um encontro presencial.",
+            "Faltou validar abertamente o sentimento da prospect logo no início: um “entendo que queira ver antes, é super comum” teria criado mais empatia antes de contra-argumentar.",
+            "Argumentação um pouco repetitiva sobre personalização; poderia ter explorado mais as vantagens do bate-papo breve e colaborativo."
+        ]
     },
     {
         "name": "Parceiro Gorillalu",
@@ -5906,7 +6525,9 @@ const RAW_SIMULATIONS = [
         "lqa": "N/A",
         "interactions": 0,
         "messages": [],
-        "finished": false
+        "finished": false,
+        "feedback": "",
+        "insights": []
     },
     {
         "name": "Parceiro Gorillalu",
@@ -6160,7 +6781,18 @@ const RAW_SIMULATIONS = [
                 "text": "Boa tarde, senhor.  \nObrigado pelo contato e até quarta-feira às quinze horas."
             }
         ],
-        "finished": true
+        "finished": true,
+        "feedback": "Aqui está o debriefing de nossa conversa.\n\n\n🤓 PERSONA\n\nInterpretei Roberto, comerciante carioca, perfil DISC majoritariamente verde: relacional, afetuoso e um pouco procrastinador, com resistência moderada e valorizando confiança pessoal.\n\n\n🎯 OBJETIVO PRINCIPAL\n\nVocê respondeu de modo detalhado às objeções e, após insistência, obteve concordância para uma reunião, mas cedeu enviando a documentação. Objetivo alcançado parcialmente.\n\n\n➕ Pontos fortes\n\n- Utilizou sistematicamente validação emocional e citações do cliente indicante, fortalecendo a confiança.\n- Aplicou linguagem empática e se esforçou para descobrir as reais motivações da recusa, utilizando perguntas abertas.\n- Procurou argumentar sobre a importância da personalização e do encontro presencial para uma proposta relevante.\n- Propôs alternativas de datas claras, utilizando a técnica da escolha forçada com elegância.\n\n\n⚠️ EIXOS DE MELHORIA\n\n- Ao final, acabou cedendo várias vezes ao pedido de envio de material (“eu já te encaminhei o e-mail que você me pediu”), o que reduz sua autoridade e desvaloriza a estratégia de encontro personalizado.\n- O excesso de menções ao João Felipe e à flexibilidade pode ter soado pouco autêntico ou levemente pressionador.\n- Em diversos trechos repetiu as justificativas, tornando o argumento circular e limitando a escuta ativa (“o que que eu poderia fazer...”). Faltou questionamentos mais profundos sobre as ansiedades ou hábitos do prospect.\n- Não controlou o fechamento: ficou dependente do aceite após ceder o envio, facilitando a negociação do prospect.\n\n\n🩵 ANÁLISE EMOCIONAL\n\nSeu tom mostrou-se acolhedor e voltado ao diálogo, porém, se percebeu um leve cansaço e hesitação quando o impasse persistiu, com leve oscilação entre flexibilidade e insegurança.\n\n\n🛅 MOMENTOS-CHAVE\n\nQuando explorou a participação da esposa no encontro, demonstrou sensibilidade ao processo decisório familiar – diálogo relevante, mas faltou aprofundar o real motivo da resistência.\nAo ceder o envio, provocou um giro brusco na dinâmica: ganhou o sim, mas abriu precedentes para novos pedidos.\n\n\n🔊 REFORMULAÇÕES RECOMENDADAS\n\n“Entendo seu desejo de ter informações, mas garanto que faz sentido primeiro ajustarmos a conversa ao seu perfil.”\n\n“Nenhuma decisão precisa ser tomada nesse encontro, o objetivo é só entender sua realidade.”\n\n“Se te deixar mais confortável, podemos convidar sua esposa para participar e sanar juntos todas as dúvidas.”\n\n“Vamos reservar um horário de quinze minutos e, se não fizer sentido, você não precisa se comprometer com nada.”\n\n\n➡️ RECOMENDAÇÕES\n\nResista ao impulso de ceder ao envio de material genérico. Ouça ainda mais: pergunte o porquê desse receio por escrito, evitando argumentação repetitiva. Valorize o momento do encontro como diferencial e delimite claramente as trocas.\n\n\nContinue evoluindo! Escuta ativa e firmeza na proposta caminham de mãos dadas para encontros produtivos.",
+        "insights": [
+            "Interpretei Roberto, comerciante carioca, perfil DISC majoritariamente verde: relacional, afetuoso e um pouco procrastinador, com resistência moderada e valorizando confiança pessoal.",
+            "Utilizou sistematicamente validação emocional e citações do cliente indicante, fortalecendo a confiança.",
+            "Aplicou linguagem empática e se esforçou para descobrir as reais motivações da recusa, utilizando perguntas abertas.",
+            "Procurou argumentar sobre a importância da personalização e do encontro presencial para uma proposta relevante.",
+            "Propôs alternativas de datas claras, utilizando a técnica da escolha forçada com elegância.",
+            "Ao final, acabou cedendo várias vezes ao pedido de envio de material (“eu já te encaminhei o e-mail que você me pediu”), o que reduz sua autoridade e desvaloriza a estratégia de encontro personalizado.",
+            "O excesso de menções ao João Felipe e à flexibilidade pode ter soado pouco autêntico ou levemente pressionador.",
+            "Em diversos trechos repetiu as justificativas, tornando o argumento circular e limitando a escuta ativa (“o que que eu poderia fazer...”). Faltou questionamentos mais profundos sobre as ansiedades ou hábitos do prospect."
+        ]
     },
     {
         "name": "Parceiro Gorillalu",
@@ -6302,7 +6934,18 @@ const RAW_SIMULATIONS = [
                 "text": "Certo, te espero"
             }
         ],
-        "finished": true
+        "finished": true,
+        "feedback": "Aqui está o debriefing da nossa troca\n\n🤓 PERSONA\n\nLarissa, empreendedora carismática e sociável, perfil DISC amarelo dominante, busca sintonia e confiança antes de se engajar.\n\n🎯 OBJETIVO PRINCIPAL\n\nVocê respondeu a múltiplas objeções de forma direta e obteve o aceite para uma reunião presencial de apresentação. Objetivo atingido.\n\n➕ PONTOS FORTES\n\n- Utilizou a recomendação do Paulo como gatilho de confiança para criar vínculo imediato.\n  \n- Ofereceu escolha forçada de horários próximos, facilitando o fechamento da reunião.\n\n- Esclareceu mais de uma vez que não seria feita proposta comercial na primeira reunião, alinhando expectativas.\n\n- Mostrou flexibilidade quanto ao local, sugerindo um ambiente confortável e próximo à rotina da prospect.\n\n⚠️ PONTOS DE MELHORIA\n\n- Não houve pedido claro de autorização para seguir a conversa (“posso ocupar dois minutos?”), elemento essencial na abordagem consultiva MetLife.\n  \n- Forte insistência no modelo de personalização poderia ter sido balanceada com uma escuta ativa maior; soou repetitivo em alguns trechos.\n  \n- O discurso ficou centrado demais no depoimento do Paulo e pouco adaptado ao possível cenário da prospect (excesso de foco no “mãezona”, pouco na realidade de Larissa).\n  \n- A ausência de perguntas rápidas para qualificação deixou de captar insights importantes do perfil e do momento da prospect.\n\n🩵 ANÁLISE EMOCIONAL\n\nO tom foi acolhedor, porém ansioso, com ritmo acelerado. Vocabulário próximo, mas por vezes redundante. Estado emocional: confiante e determinado, com leve ansiedade de fechamento.\n\n🛅 MOMENTOS-CHAVE\n\nAo propor dois horários específicos, você tangibiliza o encontro, reduz a zona de conforto da prospect e aumenta a taxa de conversão.\n\nQuando reitera que “não haverá discussão comercial agora”, você desarma defesas e abre espaço para o diálogo consultivo.\n\n🔊 REFORMULAÇÕES RECOMENDADAS\n\n- “Posso ocupar dois minutinhos do seu tempo para explicar rapidinho e ver se faz sentido pra você?”\n  \n- “Por indicação do Paulo, gostaria só de te apresentar o conceito, sem compromisso, pode ser?”\n\n- “Prefere terça às dez no café X ou no seu próprio salão, o que facilitar?”\n\n- “Se ficar algo fora do seu perfil, seguimos amigos, combinado?”\n\n- “Quarenta minutos são suficientes para eu ouvir você e alinhar expectativas, tudo bem?”\n\n➡️ RECOMENDAÇÕES\n\nAdote sempre a autorização inicial, valorize as particularidades reais da prospect e explore perguntas breves para ativar escuta ativa. Equilibre argumentação e escuta — o melhor fechamento nasce de sintonia, não só de técnica. Excelente base, ajuste o ritmo e a personalização para voar mais alto!",
+        "insights": [
+            "Utilizou a recomendação do Paulo como gatilho de confiança para criar vínculo imediato.",
+            "Ofereceu escolha forçada de horários próximos, facilitando o fechamento da reunião.",
+            "Esclareceu mais de uma vez que não seria feita proposta comercial na primeira reunião, alinhando expectativas.",
+            "Mostrou flexibilidade quanto ao local, sugerindo um ambiente confortável e próximo à rotina da prospect.",
+            "Não houve pedido claro de autorização para seguir a conversa (“posso ocupar dois minutos?”), elemento essencial na abordagem consultiva MetLife.",
+            "Forte insistência no modelo de personalização poderia ter sido balanceada com uma escuta ativa maior; soou repetitivo em alguns trechos.",
+            "O discurso ficou centrado demais no depoimento do Paulo e pouco adaptado ao possível cenário da prospect (excesso de foco no “mãezona”, pouco na realidade de Larissa).",
+            "A ausência de perguntas rápidas para qualificação deixou de captar insights importantes do perfil e do momento da prospect."
+        ]
     },
     {
         "name": "Parceiro Gorillalu",
@@ -6368,7 +7011,9 @@ const RAW_SIMULATIONS = [
                 "text": "Tá, eu liguei errado. Desculpa. Valeu, boa noite (efeito sonoro)."
             }
         ],
-        "finished": false
+        "finished": false,
+        "feedback": "",
+        "insights": []
     },
     {
         "name": "Parceiro Gorillalu",
@@ -6450,7 +7095,9 @@ const RAW_SIMULATIONS = [
                 "text": "Não, não tenho empresa. Por que você pergunta?"
             }
         ],
-        "finished": false
+        "finished": false,
+        "feedback": "",
+        "insights": []
     },
     {
         "name": "Parceiro Gorillalu",
@@ -6528,7 +7175,9 @@ const RAW_SIMULATIONS = [
                 "text": "Pra sua família, pra sua-- Enfim, eu entendo que você não queira, é, não goste de marcar uma reunião, né? Não se sinta confortável de fazer isso..."
             }
         ],
-        "finished": false
+        "finished": false,
+        "feedback": "",
+        "insights": []
     },
     {
         "name": "Parceiro Gorillalu",
@@ -6638,7 +7287,18 @@ const RAW_SIMULATIONS = [
                 "text": "Certo, até amanhã às nove horas. Boa tarde."
             }
         ],
-        "finished": true
+        "finished": true,
+        "feedback": "Aqui está o debriefing da nossa troca.\n\n\n🤓 PERSONA\n\nVocê conversou com Fernanda, dentista autônoma, perfil majoritariamente Verde (relacional, organizado, cauteloso, busca segurança e clareza).\n\n\n🎯 OBJETIVO PRINCIPAL\n\nVocê respondeu de forma razoável às objeções e conseguiu agendar uma reunião presencial de descoberta. Considero o objetivo atingido.\n\n\n➕ PONTOS FORTES\n\n- Usou o gatilho de recomendação de Paulo, mostrando conexão e aproveitando a ponte de confiança.\n\n- Apresentou seu trabalho para profissionais da saúde, personalizando o discurso para a dor do prospect.\n\n- Propôs escolha forçada de horários (“terça ou quinta”, “de manhã ou de tarde”), induzindo decisão.\n\n- Manteve ritmo direto, sem rodeios excessivos, valorizando o tempo do prospect e evitando perda de foco.\n\n\n⚠️ PONTOS DE MELHORIA\n\n- Faltou pedir autorização antes de apresentar o motivo da ligação. Esse passo é essencial para acesso relacional.\n\n- A estrutura das oito etapas da MetLife ficou truncada, especialmente na gestão de objeções, que foi pouco aberta e reativa.\n\n- O pitch misturou justificativa (Paulo indicou) com oferta, sem deixar claro o benefício imediato da reunião para Fernanda.\n\n- Houve antecipação desnecessária de detalhes de produto (“Green Protege”), o que foge do objetivo de marcar reunião e arrisca parecer tentativa precoce de venda.\n\n- A reconfirmação foi realizada, mas sem uma checagem da motivação da Fernanda ou reforço do benefício dela estar na reunião.\n\n\n🩵 ANÁLISE EMOCIONAL\n\nO tom foi simpático e objetivo, mas em alguns trechos soou ansioso. Faltou pausar e escutar para aprimorar a conexão emocional. O estado predominante: confiante, porém levemente apressado.\n\n\n🛅 MOMENTOS-CHAVE\n\nNa apresentação do motivo da ligação com menção à recomendação de Paulo, você ativou confiança inicial. Ao propor escolha entre dias/horários próximos, avançou para fechamento objetivo, mas poderia ter validado mais o interesse do prospect antes desse passo.\n\n\n🔊 REFORMULAÇÕES RECOMENDADAS\n\n- “Fernanda, tudo bem se eu te explicar rapidamente o motivo do contato antes de seguirmos?”\n\n- “Paulo falou muito bem de você e descreveu desafios que vemos em profissionais da saúde – faz sentido falarmos disso?”\n\n- “Minha intenção é entender rapidamente seu contexto e, se fizer sentido, marcar uma conversa presencial. Pode ser?”\n\n- “Prefere terça ou quinta dessa semana? Assim já deixamos tudo organizado pra você.”\n\n- “Posso enviar um convite de calendário só pra garantir nosso horário?”\n\n\n➡️ RECOMENDAÇÕES\n\nPriorize a autorização logo na abertura e deixe muito nítido, em uma frase, o benefício pessoal da reunião para o prospect. Use perguntas abertas para mapear as dores antes de sugerir produto ou solução. Reduza ansiedade: mais escuta ativa, menos sobreposição de argumentos.\n\nSiga ajustando sua escuta — lembre-se: conexão primeiro, reunião depois!",
+        "insights": [
+            "Usou o gatilho de recomendação de Paulo, mostrando conexão e aproveitando a ponte de confiança.",
+            "Apresentou seu trabalho para profissionais da saúde, personalizando o discurso para a dor do prospect.",
+            "Propôs escolha forçada de horários (“terça ou quinta”, “de manhã ou de tarde”), induzindo decisão.",
+            "Manteve ritmo direto, sem rodeios excessivos, valorizando o tempo do prospect e evitando perda de foco.",
+            "Faltou pedir autorização antes de apresentar o motivo da ligação. Esse passo é essencial para acesso relacional.",
+            "A estrutura das oito etapas da MetLife ficou truncada, especialmente na gestão de objeções, que foi pouco aberta e reativa.",
+            "O pitch misturou justificativa (Paulo indicou) com oferta, sem deixar claro o benefício imediato da reunião para Fernanda.",
+            "Houve antecipação desnecessária de detalhes de produto (“Green Protege”), o que foge do objetivo de marcar reunião e arrisca parecer tentativa precoce de venda."
+        ]
     },
     {
         "name": "Parceiro Gorillalu",
@@ -6828,7 +7488,18 @@ const RAW_SIMULATIONS = [
                 "text": "Adeus"
             }
         ],
-        "finished": true
+        "finished": true,
+        "feedback": "Aqui está o debriefing da nossa troca.\n\n🤓 PERSONA\n\nInterpretei Larissa, empreendedora do ramo de beleza, perfil DISC majoritariamente amarelo: expressiva, relacional, movida por sensações e conexão pessoal.\n\n🎯 OBJETIVO PRINCIPAL\n\nVocê respondeu a diversas objeções, porém não conseguiu obter concordância para a reunião. O objetivo foi parcialmente atingido, pois a negociação evoluiu, mas sem fechar agenda.\n\n➕ PONTOS FORTES\n\n- Você buscou validar o gatilho de recomendação citando João Pedro com regularidade para gerar segurança.\n  \n- Empregou a técnica da escolha forçada sugerindo sempre opções de dias e horários próximos.\n\n- Tentou explicar, com analogias e exemplos, o motivo de não poder apresentar preço antes da reunião.\n\n- Evitou vender produto ou falar de condições e valores específicos, focando no objetivo de planejamento customizado.\n\n⚠️ PONTOS DE MELHORIA\n\n- Faltou pedir autorização inicial para conduzir a conversa, comprometendo o clima de transparência.\n\n- Repetiu argumentos e frases, perdendo leveza e mostrando pouca escuta ativa, especialmente ao insistir em marcar datas.\n\n- O excesso de foco na recomendação de João Pedro e Paulo soou forçado e pouco natural, o que reduziu a personalização.\n\n- No final, sua postura tornou-se reativa e pouco profissional, ao afirmar “o meu tempo não vale ser gasto com você” e criticar a indicação.\n\n🩵 ANÁLISE EMOCIONAL\n\nO tom iniciou empático, mas ficou pressionado e impaciente diante das recusas. O vocabulário foi simples e direto, mas faltou ritmo consultivo. O estado emocional dominante foi tenso.\n\n🛅 MOMENTOS-CHAVE\n\nNo momento em que você explicou por analogia com os serviços do salão por que não dava orçamento por telefone, demonstrou personalização e domínio do método consultivo, aumentando momentaneamente o engajamento.\n\nNo encerramento, ao verbalizar frustração e criticar a indicação, quebrou a ética relacional e ancorou a experiência numa nota negativa.\n\n🔊 REFORMULAÇÕES RECOMENDADAS\n\n“Posso te explicar rapidamente como Paulo chegou ao meu nome e por que pensei que faria sentido para você?”\n\n“Entendo que queira saber o valor, mas antes preciso conhecer sua realidade, assim como você faz com suas clientes.”\n\n“Caso não veja valor na minha abordagem, tudo bem, agradeço seu tempo e fico à disposição para outra oportunidade.”\n\n“Se você topar a conversa, prometo respeitar seu tempo e trazer algo relevante para seu negócio.”\n\n➡️ RECOMENDAÇÕES\n\nPeça autorização logo ao abordar, mostre escuta diante de cada objeção sem repetir propostas, e termine cordialmente mesmo sem acordo. Valorize a experiência, não a frustração.\n\nContinue praticando: vendas consultivas são maratonas, não corridas de cem metros!",
+        "insights": [
+            "Interpretei Larissa, empreendedora do ramo de beleza, perfil DISC majoritariamente amarelo: expressiva, relacional, movida por sensações e conexão pessoal.",
+            "Você buscou validar o gatilho de recomendação citando João Pedro com regularidade para gerar segurança.",
+            "Empregou a técnica da escolha forçada sugerindo sempre opções de dias e horários próximos.",
+            "Tentou explicar, com analogias e exemplos, o motivo de não poder apresentar preço antes da reunião.",
+            "Evitou vender produto ou falar de condições e valores específicos, focando no objetivo de planejamento customizado.",
+            "Faltou pedir autorização inicial para conduzir a conversa, comprometendo o clima de transparência.",
+            "Repetiu argumentos e frases, perdendo leveza e mostrando pouca escuta ativa, especialmente ao insistir em marcar datas.",
+            "O excesso de foco na recomendação de João Pedro e Paulo soou forçado e pouco natural, o que reduziu a personalização."
+        ]
     },
     {
         "name": "Parceiro Gorillalu",
@@ -6942,7 +7613,18 @@ const RAW_SIMULATIONS = [
                 "text": "Tá bom. Até terça na varanda."
             }
         ],
-        "finished": true
+        "finished": true,
+        "feedback": "Aqui está o debriefing da nossa troca.\n\n  \n🤓 PERSONA\n\n- Interpretei Seu João, pequeno produtor do Sertão, perfil DISC predominantemente vermelho, direto, objetivo, desconfiado por princípio, pouco aberto a formalidades. \n\n  \n🎯 OBJETIVO PRINCIPAL\n\n- Você respondeu de forma direta às perguntas e superou barreiras de confiança do prospect.  \n- Conseguiu o acordo para uma reunião presencial de apresentação, estipulando data e horário com reconfirmação.  \n- Objetivo plenamente atingido. \n\n  \n➕ PONTOS FORTES\n\n- Iniciou bem a abordagem, apresentando-se de forma clara e referenciando a recomendação recebida.  \n\n- Solicitou autorização para prosseguir, respeitando o tempo do prospect e mostrando postura consultiva já no início.  \n\n- Usou o gatilho da recomendação de modo natural, citando um vizinho confiável.   \n\n- Optou por uma proposta de reunião com escolha forçada entre datas próximas, acelerando a decisão.  \n\n- Reforçou seu papel de consultor familiar e focou nos interesses do prospect (proteção e blindagem), evitando venda direta. \n\n  \n⚠️ PONTOS DE MELHORIA\n\n- **Fase de planejamento ausente**\n  Não ficou clara a transição da apresentação do serviço para o real benefício da reunião. Poderia reforçar o que Seu João ganha com esse encontro.\n\n- **Gestão das objeções pouco visível**\n  Nem todas as objeções clássicas foram estimuladas ou aprofundadas. O prospect tinha perfil desconfiado e merecia triggers adicionais para segurança emocional.\n\n- **Menos foco no quebra-gelo pessoal**\n  O vínculo pessoal e interesse genuíno poderia ser ampliado para gerar mais abertura.\n\n- **Pitch inicial um pouco longo**\n  As falas de abertura repetiram informação; uma abordagem ainda mais sucinta e impactante traria ganho de atenção.\n\n  \n🩵 ANÁLISE EMOCIONAL\n\n- O tom foi cordial, assertivo e objetivo, mas poderia trazer um pouco mais de empatia e humor leve para suavizar a desconfiança. Sua postura foi firme e segura.\n\n  \n🛅 MOMENTOS-CHAVE\n\n- Ao mencionar explicitamente o vizinho como fonte do contato, ancorou segurança e abriu espaço para escuta. Isso eleva a taxa de conversão.  \n\n- A escolha forçada entre dois horários próximos acelerou a decisão e manteve o controle do fluxo. Isso reduz dispersão e cria compromisso. \n\n  \n🔊 REFORMULAÇÕES RECOMENDADAS\n\n- “A ideia desse nosso papo inicial não é vender nada, mas entender sua realidade para pensar juntos a melhor proteção.”  \n\n- “O senhor prefere conversar com calma na segunda às 14h ou na terça às 17h, aí na varanda da fazenda?”  \n\n- “João Vitor me comentou seu orgulho pela fazenda—espero ouvir um pouco mais dessa história na nossa visita.”  \n\n- “Pode ficar tranquilo, nada será feito sem que o senhor se sinta confortável e seguro.”  \n\n- “Meu trabalho é ajudar famílias como a sua a evitar surpresas desagradáveis, sempre com total transparência.” \n\n  \n➡️ RECOMENDAÇÕES\n\nAprimore a escuta ativa: incentive objeções de forma estratégica e aprofunde um pouco mais o vínculo pessoal antes do convite. Refine seu pitch inicial para ser ainda mais enxuto, sem repetições. Equilibre objetividade com empatia, trazendo exemplos locais para gerar confiança.\n\nÓtimo passo, agora ajuste detalhes e melhore ainda mais o vínculo emocional para voar mais alto!",
+        "insights": [
+            "Interpretei Seu João, pequeno produtor do Sertão, perfil DISC predominantemente vermelho, direto, objetivo, desconfiado por princípio, pouco aberto a formalidades.",
+            "Você respondeu de forma direta às perguntas e superou barreiras de confiança do prospect.",
+            "Conseguiu o acordo para uma reunião presencial de apresentação, estipulando data e horário com reconfirmação.",
+            "Objetivo plenamente atingido.",
+            "Iniciou bem a abordagem, apresentando-se de forma clara e referenciando a recomendação recebida.",
+            "Solicitou autorização para prosseguir, respeitando o tempo do prospect e mostrando postura consultiva já no início.",
+            "Usou o gatilho da recomendação de modo natural, citando um vizinho confiável.",
+            "Optou por uma proposta de reunião com escolha forçada entre datas próximas, acelerando a decisão."
+        ]
     },
     {
         "name": "Parceiro Gorillalu",
@@ -7012,7 +7694,18 @@ const RAW_SIMULATIONS = [
                 "text": "Beleza. Até terça então."
             }
         ],
-        "finished": true
+        "finished": true,
+        "feedback": "Aqui está o debriefing da nossa troca.\n\n \n\n🤓 PERSONA\n\nThiago, franqueado de fast food, perfil DISC dominante vermelho, direto, prático, impaciente, rotina atribulada, inclinado ao essencial.\n\n \n\n🎯 OBJETIVO PRINCIPAL\n\nVocê agendou uma reunião e superou as barreiras iniciais, mas não tratou explicitamente as objeções do prospect. Objetivo parcialmente atingido.\n\n \n\n➕ PONTOS FORTES\n\n- Abordagem inicial calorosa, com vocabulário informal e personalizado para o contexto baiano, o que gera conexão imediata.\n\n  \n- Fez referência ao cliente em comum (Paulo André), ativando rapidamente um elo de confiança.\n\n  \n- Sugeriu horários próximos e com escolha forçada, acelerando a tomada de decisão do prospect.\n\n  \n- Voltou o discurso para os benefícios consultivos, não caindo em tentativa de venda precoce.\n\n \n\n⚠️ PONTOS DE MELHORIA\n\n- Gestão de objeções\n  As objeções do prospect não apareceram porque não foi incentivado diálogo: faltou espaço para objeções naturais surgirem e serem tratadas com “sim, mas...”.\n\n  \n- Autorização e transparência\n  Não pediu autorização formal para seguir com a conversa, pulando uma etapa fundamental da metodologia.\n\n  \n- Profundidade consultiva\n  O discurso consultivo soou genérico em certos momentos (“proteção mesmo financeira”), pouco ancorado no universo particular do prospect.\n\n  \n- Pós-reunião\n  Comunicação pós-agendamento estendeu-se além do necessário, gerando ruído no fechamento.\n\n \n\n🩵 ANÁLISE EMOCIONAL\n\nO tom foi acolhedor, voz sorridente e motivada. O ritmo acelerado simboliza energia, mas poderia sugerir ansiedade em fechar rapidamente. Estado emocional dominante: confiante e entusiasmado.\n\n \n\n🛅 MOMENTOS-CHAVE\n\nSituação: Apresentação inicial descontraída e local. A quebra-gelo ajudou a diminuir resistências.  \nSituação: Proposta clara de agenda, sem hesitação. Isso facilitou a resposta rápida e positiva do prospect.\n\n \n\n🔊 REFORMULAÇÕES RECOMENDADAS\n\n- Thiago, posso ocupar um minuto do seu tempo antes de seguir?\n\n  \n- Paulo André recomendou você porque acredita que uma conversa pode ser positiva pra seu negócio.\n\n  \n- Antes de agendar, me diz: faz sentido pra você conversar sobre proteção financeira específica para franqueados?\n\n  \n- Prefere que eu vá até sua loja ou receber você no meu escritório?\n\n  \n- Prometo ser breve e objetivo, como seu tempo exige.\n\n \n\n➡️ RECOMENDAÇÕES\n\nIncentive objeções com perguntas abertas, legitime dúvidas e use a técnica do “sim, mas...”. Sinalize sempre que está atento às necessidades rápidas do cliente. Cumpra todas as etapas do método: isso evita ruídos e aumenta a taxa de reuniões realmente qualificadas.\n\nÓtimo ritmo — com pequenos ajustes, seu índice de conversão vai subir junto!",
+        "insights": [
+            "Abordagem inicial calorosa, com vocabulário informal e personalizado para o contexto baiano, o que gera conexão imediata.",
+            "Fez referência ao cliente em comum (Paulo André), ativando rapidamente um elo de confiança.",
+            "Sugeriu horários próximos e com escolha forçada, acelerando a tomada de decisão do prospect.",
+            "Voltou o discurso para os benefícios consultivos, não caindo em tentativa de venda precoce.",
+            "As objeções do prospect não apareceram porque não foi incentivado diálogo: faltou espaço para objeções naturais surgirem e serem tratadas com “sim, mas...”.",
+            "Autorização e transparência",
+            "Profundidade consultiva",
+            "Comunicação pós-agendamento estendeu-se além do necessário, gerando ruído no fechamento."
+        ]
     },
     {
         "name": "Parceiro Gorillalu",
@@ -7150,7 +7843,18 @@ const RAW_SIMULATIONS = [
                 "text": "Esse é o zoom? É, tchau"
             }
         ],
-        "finished": true
+        "finished": true,
+        "feedback": "Aqui está o debriefing da nossa troca.\n\n🤓 PERSONA\n\nVocê falou com alguém analítico, metódico, perfil DISC azul, detalhista e relutante, com alto foco em clareza.\n\n🎯 OBJETIVO PRINCIPAL\n\nVocê respondeu à principal objeção (desejo de material prévio) e obteve o acordo para a reunião de apresentação. Objetivo atingido.\n\n➕ PONTOS FORTES\n\n- Trouxe a recomendação já nos primeiros segundos e citou nome conhecido, criando gatilho social relevante.\n  \n- Propôs imediatamente datas próximas e formatos com escolha forçada, acelerando o processo de decisão.\n\n- Manteve postura afirmativa, consultiva e nunca tentou vender o produto por telefone.\n\n- Reafirmou que a reunião não seria para falar de valores ou produtos específicos, focando na análise da realidade do prospect.\n\n- Conduziu a conclusão com reconfirmação de local, data e horário.\n\n⚠️ PONTOS DE MELHORIA\n\n- **Autorização formal**\n  Faltou aguardar e registrar claramente a autorização para continuar, além de validar o momento do prospect.\n\n- **Escuta ativa**\n  Em alguns trechos, suas respostas foram rápidas e pouco investigativas (“Por que você quer esse material?”), soando um pouco apressado.\n\n- **Quebra-gelo personalizado**\n  Poderia ter se conectado melhor com algum aspecto pessoal, além do elo com o contato, para engajamento emocional.\n\n- **Gestão de objeção**\n  Faltou explorar ou acolher emocionalmente a solicitação de material (“Sim, entendo que queira se preparar melhor, mas…”).\n\n🩵 ANÁLISE EMOCIONAL\n\nO tom foi assertivo e direto, ritmo firme, mas houve leve impaciência em perguntas repetidas. Estado emocional dominante: confiante, mas com pressa.\n\n🛅 MOMENTOS-CHAVE\n\nSituação: Pedido de material por e-mail → você redirecionou para a experiência do indicante e reforçou o valor da reunião → isso quebrou resistência e manteve o foco no agendamento.\n\nSituação: Proposta de horário forçada e rápida confirmação de local → facilitou decisão, mostrando domínio do processo e transmitindo segurança.\n\n🔊 REFORMULAÇÕES RECOMENDADAS\n\n“Entendo super você querer informações antes. Isso mostra seu cuidado.\"\n\n“Combinando: a terça às dez, no Vogue Café, é isso? Vai ser ótimo te conhecer pessoalmente.”\n\n“Assim como Pedro, muitos também pedem material antes. O que te traria mais segurança pra esse nosso papo ser útil pra você?”\n\n“Posso garantir: não é apresentação de produto, mas um diagnóstico do seu momento e necessidades.”\n\n➡️ RECOMENDAÇÕES\n\nBusque validar primeiro o tempo e a disposição real do prospect; acolha sinceramente as objeções para ganhar empatia e acrescente um toque de curiosidade sobre o universo dele.\n\nParabéns por levar o prospect do ceticismo ao sim! Com mais detalhes pessoais, terá um desempenho ainda mais redondo.",
+        "insights": [
+            "Trouxe a recomendação já nos primeiros segundos e citou nome conhecido, criando gatilho social relevante.",
+            "Propôs imediatamente datas próximas e formatos com escolha forçada, acelerando o processo de decisão.",
+            "Manteve postura afirmativa, consultiva e nunca tentou vender o produto por telefone.",
+            "Reafirmou que a reunião não seria para falar de valores ou produtos específicos, focando na análise da realidade do prospect.",
+            "Conduziu a conclusão com reconfirmação de local, data e horário.",
+            "Quebra-gelo personalizado",
+            "O tom foi assertivo e direto, ritmo firme, mas houve leve impaciência em perguntas repetidas. Estado emocional dominante: confiante, mas com pressa.",
+            "Situação: Pedido de material por e-mail → você redirecionou para a experiência do indicante e reforçou o valor da reunião → isso quebrou resistência e manteve o foco no agendamento."
+        ]
     },
     {
         "name": "Parceiro Inside24mais",
@@ -7172,7 +7876,9 @@ const RAW_SIMULATIONS = [
                 "text": "Hello. I'm a bit busy right now. Who is this and what do you want?"
             }
         ],
-        "finished": false
+        "finished": false,
+        "feedback": "",
+        "insights": []
     },
     {
         "name": "Parceiro Inside24mais",
@@ -7202,7 +7908,9 @@ const RAW_SIMULATIONS = [
                 "text": "Desculpa, acho que você se enganou. Eu não sou o Paulo. Quem é você e como conseguiu meu número?"
             }
         ],
-        "finished": false
+        "finished": false,
+        "feedback": "",
+        "insights": []
     },
     {
         "name": "Parceiro Inside24mais",
@@ -7260,7 +7968,18 @@ const RAW_SIMULATIONS = [
                 "text": "Perfeito, muito obrigado."
             }
         ],
-        "finished": true
+        "finished": true,
+        "feedback": "Aqui está o debriefing da nossa troca.\n\n  \n🤓 PERSONA\n\n- Você conversou com Patrícia, perfil DISC Azul, controladora de gestão: lógica, exigente, objetiva, avessa à improvisação.\n\n  \n🎯 OBJETIVO PRINCIPAL\n\n- Você não abordou adequadamente objeções, nem obteve resposta clara sobre reunião MetLife.\n\n- O objetivo não foi atingido, pois o contato foi interrompido antes de avançar.\n\n  \n➕ PONTOS FORTES\n\n- Pediu o nome da prospect, mostrando atenção básica à personalização.\n\n  \n- Tentou criar vínculo ao mencionar recomendação, mesmo que o nome tenha sido informado incorretamente.\n\n  \n⚠️ PONTOS DE MELHORIA\n\n- **Falta de estrutura na abordagem**\n  \n  O ciclo das oito etapas MetLife não foi seguido; faltaram autorização, motivação clara, escolha forçada e fechamento consultivo.\n\n  \n- **Dados incorretos e constrangimento**\n  \n  Você trocou nomes, mencionei filha que não existe; gerou ruído e falta de confiança.\n\n  \n- **Quebra do foco após objeção inicial**\n  \n  Ao se perder nos erros, você desistiu do avanço em vez de redirecionar de modo consultivo.\n\n  \n- **Ausência de gestão de objeção**\n  \n  Não utilizou “sim, mas...” e não contextualizou os benefícios da conversa, encerrando prematuramente.\n\n  \n- **Tom defensivo e falta de escuta ativa**\n  \n  Não trabalhou rapport nem validou o interesse real da prospect.\n\n  \n  🩵 ANÁLISE EMOCIONAL\n\nO tom foi hesitante, defensivo e pouco receptivo, com vocabulário pouco acolhedor e ritmo apressado. A sua insegurança foi percebida, diminuindo a chance de engajamento.\n\n  \n🛅 MOMENTOS-CHAVE\n\nSituação: Erro no nome e na situação familiar. Você insistiu em dados falsos, impactando credibilidade e empatia; isso minou a confiança e a abertura imediata.\n\nSituação: Diante da objeção, optou por desistir do contato. Perdeu oportunidade de reposicionar a conversa sob um ângulo consultivo e flexível.\n\n  \n🔊 REFORMULAÇÕES RECOMENDADAS\n\n\"Posso te pedir licença para explicar rapidamente o motivo do meu contato?\"\n\n\"Recebi seu nome por indicação de um cliente satisfeito e gostaria de entender se faz sentido conversar.\"\n\n\"Só quero propor uma conversa breve para identificar oportunidades; você prefere terça ou quarta-feira à tarde?\"\n\n\"Se não for relevante para você, eu agradeço seu tempo e ficamos em contato para o futuro.\"\n\n\"Desculpe pelo equívoco, pode me contar um pouco sobre sua realidade, para que eu adapte a conversa?\"\n\n  \n➡️ RECOMENDAÇÕES\n\nPrepare-se melhor antes do contato, valide informações básicas, siga as oito etapas MetLife e recupere o foco consultivo diante do erro. Valorize rapport e resiliência: errar faz parte, mas a reação é o que define o sucesso.\n\n  \nSiga ajustando, pois a excelência comercial se constrói em cada tentativa real!",
+        "insights": [
+            "Você conversou com Patrícia, perfil DISC Azul, controladora de gestão: lógica, exigente, objetiva, avessa à improvisação.",
+            "Você não abordou adequadamente objeções, nem obteve resposta clara sobre reunião MetLife.",
+            "O objetivo não foi atingido, pois o contato foi interrompido antes de avançar.",
+            "Pediu o nome da prospect, mostrando atenção básica à personalização.",
+            "Tentou criar vínculo ao mencionar recomendação, mesmo que o nome tenha sido informado incorretamente.",
+            "Falta de estrutura na abordagem",
+            "Dados incorretos e constrangimento",
+            "Quebra do foco após objeção inicial"
+        ]
     },
     {
         "name": "Parceiro Inside24mais",
@@ -7282,7 +8001,9 @@ const RAW_SIMULATIONS = [
                 "text": "Não sou a Roberta. Quem fala? Estou ocupada agora, diga rápido o motivo da ligação."
             }
         ],
-        "finished": false
+        "finished": false,
+        "feedback": "",
+        "insights": []
     },
     {
         "name": "Parceiro Inside24mais",
@@ -7295,7 +8016,9 @@ const RAW_SIMULATIONS = [
         "lqa": "N/A",
         "interactions": 0,
         "messages": [],
-        "finished": false
+        "finished": false,
+        "feedback": "",
+        "insights": []
     },
     {
         "name": "Parceiro Inside24mais",
@@ -7349,7 +8072,17 @@ const RAW_SIMULATIONS = [
                 "text": "Hã... Eu acredito que esse tipo de objeção, hã, não faz parte do nosso trabalho, porque se a gente desconhece, a gente nem continua a ligação."
             }
         ],
-        "finished": true
+        "finished": true,
+        "feedback": "Aqui está o debriefing da nossa troca.\n\n \n\n### 🤓 PERSONA\n\nVocê interpretou um prospect receptivo, mas desconfiado e ocupado, perfil DISC predominantemente amarelo, curioso e digital.\n\n \n\n### 🎯 OBJETIVO PRINCIPAL\n\nVocê não conseguiu superar objeções nem obteve o aceite para reunião de descoberta MetLife. Objetivo não atingido.\n\n \n\n### ➕ PONTOS FORTES\n\n- Sua tentativa inicial de personalização, mencionando um amigo em comum, mostrou preocupação legítima com o vínculo.\n\n \n\n- O tom da abordagem foi cordial e respeitoso, o que amenizou a resistência inicial.\n\n \n\n### ⚠️ PONTOS DE MELHORIA\n\n- Ausência de apresentação clara sobre você e o motivo do contato, faltando o pitch de dez segundos orientado a valor percebido.\n\n \n\n- Não houve solicitação de autorização para seguir com o diálogo, elemento crucial em contato não esperado.\n\n \n\n- Não ficou claro o objetivo prático da ligação; o convite à reunião não foi feito.\n\n \n\n- Faltou gestão de objeções: prospect desconfiado e sem engajamento; você não validou emoções nem reformulou com “sim, mas...”.\n\n \n\n- Não ativou de fato o gatilho da recomendação—faltou quebrar o gelo com referência pessoal convincente.\n\n \n\n### 🩵 ANÁLISE EMOCIONAL\n\nTom cordial e seguro, mas ritmo hesitante, repetitivo e pouco assertivo; prevaleceu hesitação na condução.\n\n \n\n### 🛅 MOMENTOS-CHAVE\n\nVocê tentou construir conexão através do nome de um contato, mas confundiu nomes e contexto, enfraquecendo a credibilidade logo no início.\n\n \n\n### 🔊 REFORMULAÇÕES RECOMENDADAS\n\n“Oi, fui indicado por [nome] para falar rapidamente contigo sobre planejamento financeiro personalizado. Podemos conversar dois minutos?”\n \n“Tudo bem se eu explicar rapidamente como posso agregar valor na sua rotina, sem compromisso?”\n \n“Prefere receber um material digital ou agendamos uma conversa presencial para entender seu momento?”\n\n \n\n### ➡️ RECOMENDAÇÕES\n\nAplique a estrutura das oito etapas, peça autorização explícita e valorize o benefício da reunião. Prepare frases certeiras para ganhar tempo e confiança do prospect.\n\nVocê está a poucos ajustes de conquistar muito mais encontros. Siga evoluindo!",
+        "insights": [
+            "Sua tentativa inicial de personalização, mencionando um amigo em comum, mostrou preocupação legítima com o vínculo.",
+            "O tom da abordagem foi cordial e respeitoso, o que amenizou a resistência inicial.",
+            "Ausência de apresentação clara sobre você e o motivo do contato, faltando o pitch de dez segundos orientado a valor percebido.",
+            "Não houve solicitação de autorização para seguir com o diálogo, elemento crucial em contato não esperado.",
+            "Não ficou claro o objetivo prático da ligação; o convite à reunião não foi feito.",
+            "Faltou gestão de objeções: prospect desconfiado e sem engajamento; você não validou emoções nem reformulou com “sim, mas...”.",
+            "Não ativou de fato o gatilho da recomendação—faltou quebrar o gelo com referência pessoal convincente."
+        ]
     },
     {
         "name": "Parceiro Inside24mais",
@@ -7487,7 +8220,18 @@ const RAW_SIMULATIONS = [
                 "text": "Certo, estarei lá às quinze horas no Starbucks do centro.  \nAté lá e bom dia."
             }
         ],
-        "finished": true
+        "finished": true,
+        "feedback": "Aqui está o debriefing da nossa troca\n\n🤓 PERSONA\n\nVocê interpretou uma empresária com perfil dominante verde do DISC: focada em estabilidade, família e resultados sustentáveis.\n\n🎯 OBJETIVO PRINCIPAL\n\nVocê conseguiu contornar objeções, demonstrar valor e fechar uma reunião de descoberta. Objetivo plenamente atingido.\n\n➕ PONTOS FORTES\n\n- Boa apresentação e rápida identificação da referência da Isabela, ativando o gatilho de recomendação com naturalidade.\n\n- Postura consultiva e preocupada com a realidade da cliente, personalizando a abordagem ao detalhar questões relacionadas à rotina dela.\n\n- Proposta assertiva de reunião, utilizando escolha forçada entre dois horários próximos, respeitando a agenda restrita do prospect.\n\n- Reconfirmação clara do local, horário e formato da reunião, além de combinar um “plano B” em caso de imprevisto.\n\n⚠️ PONTOS DE MELHORIA\n\n- **Falta de pedido de autorização**\n  Apesar do tom consultivo, faltou pedir permissão para avançar ou para fazer algumas perguntas pessoais, ponto essencial da jornada MetLife.\n\n- **Risco de venda prematura**\n  Algumas colocações soaram levemente explicativas demais, quase justificando a solução antes do momento, como “conversei sobre sustentabilidade financeira…”.\n\n- **Escuta ativa mais explícita**\n  Poderia ter explorado mais as dores ou dúvidas específicas da prospect, em vez de preencher com argumentos logo de início.\n\n- **Quebra-gelo superficial**\n  O quebra-gelo foi correto, mas poderia ser mais leve – algo pessoal e descontraído além das referências profissionais.\n\n🩵 ANÁLISE EMOCIONAL\n\nTom afável e seguro, ritmo constante, vocabulário claro. Sua postura demonstrou confiança combinada com empatia.\n\n🛅 MOMENTOS-CHAVE\n\nNo início, ao ativar a referência da Isabela, construiu rapidamente uma ponte de confiança.\n\nAo propor escolha entre dias e horários, direcionou a conversa com profissionalismo e aumentou a conversão para reunião.\n\n🔊 REFORMULAÇÕES RECOMENDADAS\n\n“Posso te fazer algumas perguntas rápidas para entender melhor sua realidade, tudo bem para você?”\n\n“Quero te ouvir, sem compromisso, para mapear onde posso contribuir de verdade.”\n\n“Entendo que o tempo é corrido: por isso marcamos um café rápido, sem pressão.”\n\n“Qual o melhor canal para te avisar sobre qualquer ajuste na agenda?”\n\n➡️ RECOMENDAÇÕES\n\nPriorize o pedido de autorização após a apresentação, explore mais as necessidades reais do prospect e traga um toque genuinamente pessoal ao quebra-gelo. Siga ajustando o foco na escuta ativa antes de apresentar soluções.\n\nÓtima energia! Com pequenas afinações no início, seu índice de conversão vai decolar.",
+        "insights": [
+            "Você interpretou uma empresária com perfil dominante verde do DISC: focada em estabilidade, família e resultados sustentáveis.",
+            "Boa apresentação e rápida identificação da referência da Isabela, ativando o gatilho de recomendação com naturalidade.",
+            "Postura consultiva e preocupada com a realidade da cliente, personalizando a abordagem ao detalhar questões relacionadas à rotina dela.",
+            "Proposta assertiva de reunião, utilizando escolha forçada entre dois horários próximos, respeitando a agenda restrita do prospect.",
+            "Reconfirmação clara do local, horário e formato da reunião, além de combinar um “plano B” em caso de imprevisto.",
+            "Falta de pedido de autorização",
+            "Risco de venda prematura",
+            "Escuta ativa mais explícita"
+        ]
     },
     {
         "name": "Parceiro Inside24mais",
@@ -7677,7 +8421,18 @@ const RAW_SIMULATIONS = [
                 "text": "Beleza, até quinta às quinze horas no WhatsApp então. Bom dia."
             }
         ],
-        "finished": true
+        "finished": true,
+        "feedback": "Aqui está o debriefing da nossa troca.\n\n🤓 PERSONA\n\nPersona: Diego, empresário do ramo automotivo, perfil DISC predominante dominante. \n\n🎯 OBJETIVO PRINCIPAL\n\nVocê respondeu à maioria das objeções, manteve foco no acordo sobre a reunião de descoberta e conquistou o aceite do prospect. Objetivo plenamente atingido.\n\n➕ PONTOS FORTES\n\n- Utilizou muito bem o gatilho da recomendação pessoal logo no início, trazendo o Bruno e gerando confiança rapidamente.\n\n- Postura consultiva clara ao deixar explícito que a conversa seria focada em necessidades e não em vendas.\n\n- Reunião foi proposta com escolha forçada de data, otimizando o processo e acelerando a decisão.\n\n- Demonstrou energia, acolhimento, e conseguiu divertir o prospect no quebra-gelo, tornando a abordagem leve.\n\n- Reconfirmação robusta: solicitou notificação prévia em caso de imprevisto e cuidou do follow-up.\n\n⚠️ PONTOS DE MELHORIA\n\n- **Falta de pedido formal de autorização**\n  Não houve pedido claro para continuar com o contato após a apresentação; isso pode reduzir o engajamento inicial em perfis mais desconfiados.\n\n- **Excesso de perguntas fechadas e conduzidas**\n  As perguntas sobre “como manter a família” poderiam ser menos invasivas e mais abertas (“Você já chegou a refletir sobre...?”).\n\n- **Ausência de explicitação de benefício concreto**\n  Poderia ter articulado melhor qual valor direto a reunião traria para Diego, além do discurso de proteção.\n\n- **Reunião marcada acima de setenta e duas horas**\n  A primeira oferta contemplava datas que poderiam extrapolar esse tempo e, com um prospect ocupado, a chance de no-show aumenta.\n\n🩵 ANÁLISE EMOCIONAL\n\nO tom foi descontraído e dinâmico, com vocabulário simples e sem rodeios, transmitindo confiança, leveza e simpatia. Sua energia manteve o prospect engajado.\n\n🛅 MOMENTOS-CHAVE\n\nQuebra-gelo mencionando o futebol e a recomendação do Bruno → Criou conexão imediata → Prospect riu e relaxou, abrindo espaço para avanço consultivo.\n\nProposta direta de reunião com escolha forçada → Reduziu tempo de indecisão → Prospect aceitou rapidamente, agilizando o acordo.\n\n🔊 REFORMULAÇÕES RECOMENDADAS\n\nDiego, posso avançar e compartilhar rapidamente como posso agregar valor na sua rotina?\n\nAntes de marcarmos, faz sentido esse tipo de conversa para o momento que você vive?\n\nSe você topar o bate-papo, prometo que o foco é resolver possíveis dores e não vender.\n\nAssim que receber seu OK na agenda, mando um lembrete e pauta antecipada pra facilitar seu planejamento.\n\n➡️ RECOMENDAÇÕES\n\nInclua sempre o pedido de autorização inicial e qualifique melhor os benefícios concretos da reunião. Mantenha o sorriso na voz, mas busque perguntas menos invasivas. Ajuste datas para no máximo setenta e duas horas. Seu ritmo é contagiante — aproveite!\n\nContinue aprimorando: quem cria conexão mostra ao prospect por que proteger é mais do que vender!",
+        "insights": [
+            "Persona: Diego, empresário do ramo automotivo, perfil DISC predominante dominante.",
+            "Utilizou muito bem o gatilho da recomendação pessoal logo no início, trazendo o Bruno e gerando confiança rapidamente.",
+            "Postura consultiva clara ao deixar explícito que a conversa seria focada em necessidades e não em vendas.",
+            "Reunião foi proposta com escolha forçada de data, otimizando o processo e acelerando a decisão.",
+            "Demonstrou energia, acolhimento, e conseguiu divertir o prospect no quebra-gelo, tornando a abordagem leve.",
+            "Reconfirmação robusta: solicitou notificação prévia em caso de imprevisto e cuidou do follow-up.",
+            "Falta de pedido formal de autorização",
+            "Excesso de perguntas fechadas e conduzidas"
+        ]
     },
     {
         "name": "Parceiro Inside24mais",
@@ -7751,7 +8506,18 @@ const RAW_SIMULATIONS = [
                 "text": "Boa tarde. Até quarta então, estarei online no horário combinado."
             }
         ],
-        "finished": true
+        "finished": true,
+        "feedback": "Aqui está o debriefing da nossa troca\n\n\n\n🤓 PERSONA\n\nVocê conversou com uma prospecta de perfil DISC majoritariamente verde, focada em estabilidade, família e avessa à pressão comercial.\n\n\n\n🎯 OBJETIVO PRINCIPAL\n\nVocê conseguiu agendar uma reunião de descoberta e apresentação, porém enfrentou pouquíssimas objeções e não testou sua argumentação. Objetivo atingido, mas com baixa exigência.\n\n\n\n➕ PONTOS FORTES\n\n- Abertura educada e acolhedora, com tom amistoso desde o início.\n\n- Utilização da recomendação (Elaine) como gatilho para criar conexão.\n\n- Tentou abordar aspectos pessoais (filhas) e profissionais dentro do contexto de necessidades.\n\n- Proposta assertiva de reunião, utilizando escolha forçada entre dois horários próximos.\n\n- Condução clara para os próximos passos, confirmando meio de contato e agenda.\n\n\n\n⚠️ PONTOS DE MELHORIA\n\n- Faltou pedir autorização explícita para prosseguir a conversa antes de abordar assuntos pessoais.\n\n- Não houve gestão real de objeções: a prospecta só disse “sim” e você não deu espaço para que ela manifestasse dúvidas.\n\n- O quebra-gelo sobre a recomendação ficou pouco pessoal e não gerou uma verdadeira aproximação.\n\n- Poderia ter esclarecido mais o valor da reunião para a prospecta, focando benefícios práticos para ela.\n\n- A reconfirmação foi burocrática, sem reforçar o benefício ou checar real interesse.\n\n\n\n🩵 ANÁLISE EMOCIONAL\n\nO tom foi simpático, hesitou ocasionalmente, com linguagem informal e acolhedora. Predominou leveza, mas faltou segurança nos ganchos consultivos.\n\n\n\n🛅 MOMENTOS-CHAVE\n\nNa proposta de agenda, você ofereceu datas próximas e facilitou o aceite. Também vinculou a reunião ao contexto familiar, o que é positivo no perfil verde.\n\n\n\n🔊 REFORMULAÇÕES RECOMENDADAS\n\n“Antes de avançar, posso te explicar rapidamente o motivo do meu contato?”\n\n“Entendi que sua rotina é corrida. Por isso proponho algo objetivo para agregar valor ao seu dia.”\n\n“A Elaine falou com carinho de você e mencionou que segurança financeira é uma prioridade na sua família.”\n\n“Se em algum momento não fizer sentido para você, fique à vontade para me sinalizar, ok?”\n\n\n\n➡️ RECOMENDAÇÕES\n\nBusque pedir autorização clara, estimule objeção para qualificar interesse real e sempre reforce o benefício da conversa. Não se contente com o “sim” fácil: investigue mais.\n\n\n\nÓtimo início! Trabalhe seu repertório consultivo e desafie sua abordagem: o próximo nível depende disso.",
+        "insights": [
+            "Abertura educada e acolhedora, com tom amistoso desde o início.",
+            "Utilização da recomendação (Elaine) como gatilho para criar conexão.",
+            "Tentou abordar aspectos pessoais (filhas) e profissionais dentro do contexto de necessidades.",
+            "Proposta assertiva de reunião, utilizando escolha forçada entre dois horários próximos.",
+            "Condução clara para os próximos passos, confirmando meio de contato e agenda.",
+            "Faltou pedir autorização explícita para prosseguir a conversa antes de abordar assuntos pessoais.",
+            "Não houve gestão real de objeções: a prospecta só disse “sim” e você não deu espaço para que ela manifestasse dúvidas.",
+            "O quebra-gelo sobre a recomendação ficou pouco pessoal e não gerou uma verdadeira aproximação."
+        ]
     },
     {
         "name": "Parceiro Inside24mais",
@@ -7829,7 +8595,9 @@ const RAW_SIMULATIONS = [
                 "text": "Claro, eu envio sim por e-mail."
             }
         ],
-        "finished": false
+        "finished": false,
+        "feedback": "",
+        "insights": []
     },
     {
         "name": "Parceiro Inside24mais",
@@ -7903,7 +8671,18 @@ const RAW_SIMULATIONS = [
                 "text": "Tá, ótimo. Você falou muito sobre..."
             }
         ],
-        "finished": true
+        "finished": true,
+        "feedback": "Aqui está o debriefing de nossa conversa.\n\n🤓 PERSONA\n\nController de gestão, perfil DISC dominante azul, organizada, racional, criteriosa e avessa a improvisos ou argumentação confusa.\n\n🎯 OBJETIVO PRINCIPAL\n\nO objetivo era obter o agendamento de uma reunião sem enviar material genérico. O objetivo foi parcialmente atingido, pois houve concessão de envio do institucional antes da reunião.\n\n➕ Pontos fortes\n\n- Demonstrou preocupação em adaptar o atendimento tanto ao lado profissional quanto pessoal, tentando criar conexão.\n- Fez referência ao contexto de indicação e usou elementos de relacionamento (“Elaine falou”, “paizão”).\n- Adotou a escolha forçada ao sugerir duas datas concretas para a reunião, mostrando domínio de agenda.\n- Procurou manter a conversa leve e respeitosa, sem ser excessivamente insistente.\n\n⚠️ EIXOS DE MELHORIA\n\n- Cedeu rapidamente ao envio do e-mail com material institucional, não usando de forma robusta a técnica “Sim, mas…”.\n- Faltou argumentação sobre a necessidade de personalização, avaliando as reais demandas antes de enviar qualquer proposta/documentação genérica.\n- Não abriu espaço suficiente para descobrir as razões subjacentes do pedido de material (poucas perguntas abertas, pouca escuta ativa).\n- Pergunta “quantos dias você precisa para ler?” reforça a centralidade do material, enfraquecendo o convite para a reunião como objetivo principal.\n\n🩵 ANÁLISE EMOCIONAL\n\nA abordagem foi amistosa e descontraída, demonstrando confiança e boa vontade, mas pecou pela ansiedade e falta de pausa para escutar.\n\n🛅 MOMENTOS-CHAVE\n\nQuando aceitou enviar o material institucional, centralizou o foco na documentação e não mais no benefício do encontro, perdendo iniciativa. Ao aplicar a escolha forçada de datas para a reunião, mostrou domínio, mas perdeu força argumentativa por já haver cedido ao envio do material.\n\n🔊 REFORMULAÇÕES RECOMENDADAS\n\nEntendo que queira se informar antes, mas o material faz mais sentido depois de conversarmos brevemente.\n\nTenho certeza que em quinze minutos juntos consigo mostrar o que realmente agrega para o seu perfil.\n\nPosso adaptar a apresentação conforme o que faz sentido para sua rotina e família — poderia me contar um pouco sobre as suas prioridades atuais?\n\nPrefere falar terça às nove ou quarta às dezesseis horas?\n\n➡️ RECOMENDAÇÕES\n\nEvite a concessão automática ao pedido de documentos. Valorize a personalização, descubra os motivos do pedido e mostre que a reunião é ganha-ganha. Perguntas abertas e validação dos sentimentos reforçam vínculo e controle da conversa.\n\nAvançou, mas dá para refinar: conversa boa tem mais perguntas do que respostas prontas!",
+        "insights": [
+            "Demonstrou preocupação em adaptar o atendimento tanto ao lado profissional quanto pessoal, tentando criar conexão.",
+            "Fez referência ao contexto de indicação e usou elementos de relacionamento (“Elaine falou”, “paizão”).",
+            "Adotou a escolha forçada ao sugerir duas datas concretas para a reunião, mostrando domínio de agenda.",
+            "Procurou manter a conversa leve e respeitosa, sem ser excessivamente insistente.",
+            "Cedeu rapidamente ao envio do e-mail com material institucional, não usando de forma robusta a técnica “Sim, mas…”.",
+            "Faltou argumentação sobre a necessidade de personalização, avaliando as reais demandas antes de enviar qualquer proposta/documentação genérica.",
+            "Não abriu espaço suficiente para descobrir as razões subjacentes do pedido de material (poucas perguntas abertas, pouca escuta ativa).",
+            "Pergunta “quantos dias você precisa para ler?” reforça a centralidade do material, enfraquecendo o convite para a reunião como objetivo principal."
+        ]
     },
     {
         "name": "Parceiro Inside24mais",
@@ -8009,7 +8788,18 @@ const RAW_SIMULATIONS = [
                 "text": "Boa noite. Até terça às quinze horas no Starbucks."
             }
         ],
-        "finished": true
+        "finished": true,
+        "feedback": "Aqui está o debriefing da nossa troca.  \n\n🤓 PERSONA  \n\nInterpretei uma prospect pessoa física perfil dominante no DISC vermelho, direta, ocupada e objetiva, buscando clareza e ganho de tempo.  \n\n🎯 OBJETIVO PRINCIPAL  \n\nVocê conseguiu obter o acordo da prospect para uma reunião de descoberta, respondendo às suas objeções e conduzindo com foco em agendamento. Objetivo atingido.  \n\n➕ PONTOS FORTES  \n\n- Manteve clareza e objetividade ao explicar o motivo do contato e propor a reunião diretamente.  \n\n- Utilizou de forma adequada o gatilho de recomendação, mencionando a Elaine como conexão e fonte de referência.  \n\n- Fez escolha forçada entre dois horários próximos, acelerando a decisão e respeitando o perfil do prospect.  \n\n- Justificou a finalidade da reunião, deixando claro que seria um bate-papo inicial, sem pressão para venda.  \n\n- Checou, ao final, um compromisso de aviso em caso de imprevisto, demonstrando organização.  \n\n⚠️ PONTOS DE MELHORIA  \n\n- Não houve gestão real de objeções, pois a prospect não dificultou nem questionou o suficiente; pratique perguntas para aprofundar necessidades latentes.  \n\n- A autorização para seguir com a ligação foi implícita, mas poderia ter sido mais formal ao pedir permissão para continuar.  \n\n- O quebra-gelo sobre ser mãe foi um pouco genérico; agregar uma curiosidade ou comentário mais personalizado faria diferença.  \n\n- Faltou reconfirmação explícita de dia, local e horário ao final – garantiu-se apenas de forma subentendida.  \n\n🩵 ANÁLISE EMOCIONAL  \n\nO tom foi cordial e calmo, com leve toque descontraído. O ritmo foi constante e direto. Demonstrou segurança, mas faltou entusiasmo contagiante.  \n\n🛅 MOMENTOS-CHAVE  \n\nNo momento da proposta de horários, conduziu de forma assertiva, algo fundamental para o perfil rápido do prospect, garantindo rapidez na tomada de decisão.  \n\nQuando esclareceu que não se tratava de venda, apenas de uma conversa inicial, reduziu defesas do prospect e pavimentou o aceite.  \n\n🔊 REFORMULAÇÕES RECOMENDADAS  \n\n“Carla, tudo bem se eu avançar com a explicação rapidinho?”  \n\n“Posso reservar então terça às quinze horas no Starbucks, como preferiu? Combinado?”  \n\n“A ideia é só te mostrar cenários na sua área, sem compromisso.”  \n\n“Se surgir qualquer imprevisto, só me avisa para reagendarmos, tá joia?”  \n\n➡️ RECOMENDAÇÕES  \n\nFormule pedidos de autorização mais explícitos e sempre faça reconfirmação clara de reunião. Busque explorar breves perguntas sobre desafios ou objetivos do prospect e sempre finalize transmitindo leve entusiasmo.  \n\nÓtima condução, Wilson! Continue praticando o foco consultivo e lapide detalhes da estrutura.",
+        "insights": [
+            "Manteve clareza e objetividade ao explicar o motivo do contato e propor a reunião diretamente.",
+            "Utilizou de forma adequada o gatilho de recomendação, mencionando a Elaine como conexão e fonte de referência.",
+            "Fez escolha forçada entre dois horários próximos, acelerando a decisão e respeitando o perfil do prospect.",
+            "Justificou a finalidade da reunião, deixando claro que seria um bate-papo inicial, sem pressão para venda.",
+            "Checou, ao final, um compromisso de aviso em caso de imprevisto, demonstrando organização.",
+            "Não houve gestão real de objeções, pois a prospect não dificultou nem questionou o suficiente; pratique perguntas para aprofundar necessidades latentes.",
+            "A autorização para seguir com a ligação foi implícita, mas poderia ter sido mais formal ao pedir permissão para continuar.",
+            "O quebra-gelo sobre ser mãe foi um pouco genérico; agregar uma curiosidade ou comentário mais personalizado faria diferença."
+        ]
     },
     {
         "name": "Parceiro Inside24mais",
@@ -8031,7 +8821,9 @@ const RAW_SIMULATIONS = [
                 "text": "Hi. I spoke with you a little while ago and just signed the"
             }
         ],
-        "finished": false
+        "finished": false,
+        "feedback": "",
+        "insights": []
     },
     {
         "name": "Parceiro Inside24mais",
@@ -8085,7 +8877,9 @@ const RAW_SIMULATIONS = [
                 "text": "I can’t help in Portuguese, sorry. I do not speak Portuguese here. Would you like me to try a simple phrase"
             }
         ],
-        "finished": false
+        "finished": false,
+        "feedback": "",
+        "insights": []
     },
     {
         "name": "Parceiro Inside24mais",
@@ -8247,7 +9041,18 @@ const RAW_SIMULATIONS = [
                 "text": "Boa tarde. Tá certo, agradeço você também. Até mais."
             }
         ],
-        "finished": true
+        "finished": true,
+        "feedback": "Aqui está o debriefing da nossa conversa.\n\n  \n\n## 🤓 PERSONA\n\nSeu João: produtor rural, perfil DISC principal vermelho, direto e prático, valoriza confiança e recomendações próximas.\n\n  \n\n## 🎯 OBJETIVO PRINCIPAL\n\nObter pelo menos dois nomes indicados, com permissão para citar o cliente no contato. Objetivo atingido.\n\n  \n\n## ➕ Pontos fortes\n\n- Você parabenizou e agradeceu com naturalidade pela confiança e pela decisão, criando um clima positivo.\n\n  \n- Explicou o valor das recomendações como gesto de cuidado, evitando parecer apenas oportunista.\n\n  \n- Segmentou o pedido com exemplos do círculo próximo, facilitando a lembrança dos nomes.\n\n  \n- Teve tato ao pedir autorização explícita antes de contatar, reforçando respeito com as relações do cliente.\n\n  \n- Fez perguntas leves para qualificar os indicados, mostrando interesse genuíno e empatia. Parabéns! Você demonstrou escuta ativa e adaptou sua abordagem.\n\n  \n\n## ⚠️ EIXOS DE MELHORIA\n\n- **Excesso de perguntas em sequência**  \n Precisa tomar cuidado para não parecer um interrogatório: “Mas pode ficar tranquilo... Eu vou fazer da mesma forma... Você pode me passar... quem você pensou?...”.\n\n  \n- **Ritmo do pedido**  \n Dê mais espaço para o cliente pensar e responder a cada nome, evitando pressão com perguntas em cascata.\n\n  \n- **Aprofundar valor percebido**  \n Faltou explorar com o cliente o que ele mais apreciou do seu processo, aproveitando melhor o momento WOW.\n\n  \n- **Fechamento ainda mais caloroso**  \n O agradecimento final pode ser mais personalizado, reconhecendo o valor da indicação. Siga nesse caminho, ajustando o timing dos pedidos!\n\n  \n\n## 🩵 ANÁLISE EMOCIONAL\n\nSua postura foi confiante e cordial, com energia positiva e vocabulário simples. Manteve ritmo constante e escuta ativa, transmitindo segurança.\n\n  \n\n## 🛅 MOMENTOS-CHAVE\n\nNo início, ao agradecer e valorizar a confiança: estabeleceu clima favorável.  \nAo exemplificar como foi indicado pela Elaine, conectou o valor da rede, gerando empatia.\n\n  \n\n## 🔊 REFORMULAÇÕES RECOMENDADAS\n\n“Fico feliz por você confiar no meu trabalho, e quero te perguntar: o que mais gostou do nosso processo?”  \n“Se você se sentir confortável, posso citar seu nome de forma discreta quando conversar com seus amigos?”  \n“A Maria, por exemplo, tem perfil parecido com o seu. Posso ajudá-la como ajudei você.”\n\n  \n\n## ➡️ RECOMENDAÇÕES\n\nInvista mais tempo em investigar o que encantou o cliente e utilize essas palavras na sequência. Intercale perguntas com escuta e pausas confortáveis. Personalize o fechamento das conversas de forma marcante. Você está no caminho certo; pequenos ajustes farão diferença enorme!",
+        "insights": [
+            "Seu João: produtor rural, perfil DISC principal vermelho, direto e prático, valoriza confiança e recomendações próximas.",
+            "Você parabenizou e agradeceu com naturalidade pela confiança e pela decisão, criando um clima positivo.",
+            "Explicou o valor das recomendações como gesto de cuidado, evitando parecer apenas oportunista.",
+            "Segmentou o pedido com exemplos do círculo próximo, facilitando a lembrança dos nomes.",
+            "Teve tato ao pedir autorização explícita antes de contatar, reforçando respeito com as relações do cliente.",
+            "Fez perguntas leves para qualificar os indicados, mostrando interesse genuíno e empatia. Parabéns! Você demonstrou escuta ativa e adaptou sua abordagem.",
+            "Excesso de perguntas em sequência",
+            "Precisa tomar cuidado para não parecer um interrogatório: “Mas pode ficar tranquilo... Eu vou fazer da mesma forma... Você pode me passar... quem você pensou?...”."
+        ]
     },
     {
         "name": "Parceiro Inside24mais",
@@ -8353,7 +9158,18 @@ const RAW_SIMULATIONS = [
                 "text": "Obrigado, Atala"
             }
         ],
-        "finished": true
+        "finished": true,
+        "feedback": "Aqui está o debriefing da nossa conversa.\n\n  \n\n##  🤓 PERSONA\n\nJovem executiva de tecnologia, perfil DISC predominante amarelo, digital-native, analítica, fluida e curiosa, com experiência em decisões orientadas à experiência do usuário.\n\n  \n\n##  🎯 OBJETIVO PRINCIPAL\n\nObter pelo menos dois nomes de recomendação qualificada e autorização explícita para contato mencionando Cliente. Objetivo atingido, pois o compromisso e contatos foram confirmados.\n\n  \n\n## ➕ Pontos fortes\n\n- Você aproveitou o momento de satisfação do cliente e iniciou rapidamente o pedido de recomendações.\n\n  \n- Explicou de forma clara que sua atuação depende de indicações, conectando o pedido ao desejo de proteger pessoas próximas.\n\n  \n- Demonstrou flexibilidade ao propor se adaptar ao melhor formato para o cliente encaminhar os nomes.\n\n  \n- Afirmou comprometimento em não abordar os indicados sem o aval do cliente, transmitindo segurança e respeito.\n\n  \n- Manteve tom cordial e direto, alinhado ao perfil objetivo do cliente e facilitando a aceitação do pedido.\n\n  \n\nÓtimas iniciativas! Sua habilidade em conectar o pedido ao propósito agregou valor à abordagem.\n\n  \n\n## ⚠️ EIXOS DE MELHORIA\n\n- Faltou um reconhecimento mais rico do sucesso na assinatura antes de pedir recomendações, valorizando ainda mais o “momento UAU”.\n\n  \n- Não houve convite para o cliente expressar com suas palavras o que gostou do processo, o que teria reforçado o vínculo.\n\n  \n- O número sugerido de cinco indicações foi impositivo e pode soar excessivo ou mecânico, reduzindo a naturalidade do pedido.\n\n  \n- Não ficou claro se você pediu autorização explícita para mencionar o nome do cliente aos indicados ou buscou detalhes que humanizassem o contato inicial.\n\n  \n\nPequenos ajustes nessas etapas farão seu desempenho decolar ainda mais!\n\n  \n\n## 🩵 ANÁLISE EMOCIONAL\n\nO tom foi seguro, confiante e respeitoso, com ritmo acelerado e vocabulário direto. O estado emocional dominante foi assertividade cordial.\n\n  \n\n## 🛅 MOMENTOS-CHAVE\n\nSituação: Ao garantir ao cliente controle total sobre o contato “só ligo se você autorizar”. Corretor transmitiu respeito pela privacidade.\n\n  \nSituação: Ofereceu adaptar a abordagem ao formato preferido do cliente. Isso aumentou a percepção de parceria e flexibilidade.\n\n  \n\n##  🔊 REFORMULAÇÕES RECOMENDADAS\n\n“Gostaria muito de saber o que mais te agradou nesse processo conosco antes de pedir sua ajuda.”\n\n  \n“Se preferir, podemos pensar juntos em perfis que você conhece e que se beneficiariam dessa proteção.”\n\n  \n“Com seu aval, posso mencionar que chegarei aos seus amigos por indicação sua — caso queira.”\n\n  \n“Sua experiência positiva pode motivar outros a se protegerem também. Posso contar com você nisso?”\n\n  \n\n## ➡️ RECOMENDAÇÕES\n\nCelebre sempre o sucesso do cliente antes de qualquer pedido. Deixe o cliente falar sobre seus motivos de satisfação. Para indicações, peça um ou dois nomes de cada vez, nunca uma quantidade fixa. Finalize sempre agradecendo e reforçando a confiança.\n\nContinue evoluindo assim e verá seu funil de recomendações multiplicar!",
+        "insights": [
+            "Jovem executiva de tecnologia, perfil DISC predominante amarelo, digital-native, analítica, fluida e curiosa, com experiência em decisões orientadas à experiência do usuário.",
+            "Você aproveitou o momento de satisfação do cliente e iniciou rapidamente o pedido de recomendações.",
+            "Explicou de forma clara que sua atuação depende de indicações, conectando o pedido ao desejo de proteger pessoas próximas.",
+            "Demonstrou flexibilidade ao propor se adaptar ao melhor formato para o cliente encaminhar os nomes.",
+            "Afirmou comprometimento em não abordar os indicados sem o aval do cliente, transmitindo segurança e respeito.",
+            "Manteve tom cordial e direto, alinhado ao perfil objetivo do cliente e facilitando a aceitação do pedido.",
+            "Faltou um reconhecimento mais rico do sucesso na assinatura antes de pedir recomendações, valorizando ainda mais o “momento UAU”.",
+            "Não houve convite para o cliente expressar com suas palavras o que gostou do processo, o que teria reforçado o vínculo."
+        ]
     },
     {
         "name": "Parceiro Inside24mais",
@@ -8575,7 +9391,18 @@ const RAW_SIMULATIONS = [
                 "text": "Boa semana"
             }
         ],
-        "finished": true
+        "finished": true,
+        "feedback": "Aqui está o debriefing da nossa conversa\n\n \n\n🤓 PERSONA\n\n \n\nInterpretei um cliente perfil azul DISC: engenheiro, racional, metódico, valorizando segurança, com resistência natural a abordagens comerciais apressadas.\n\n \n\n🎯 OBJETIVO PRINCIPAL\n\n \n\nO objetivo foi parcialmente atingido. Você obteve o compromisso de indicações, mas faltou detalhamento qualificado e autorização explícita para citar o nome.\n\n \n\n \n\n➕ Pontos fortes\n\n \n\n- Você iniciou com reconhecimento e parabenização, valorizando a escolha do cliente e criando um ambiente receptivo.\n\n \n\n- Buscou identificar pontos de satisfação, alinhando suas perguntas à experiência perceptível da cliente.\n\n \n\n- Segmentou de forma razoável os perfis a serem indicados, citando profissões e situações familiares, estimulando a memória da cliente.\n\n \n\n- Manteve uma conversa informal, evitando pressão direta nos primeiros minutos. Boa postura consultiva!\n\n \n\n⚠️ EIXOS DE MELHORIA\n\n \n\n- Faltou pedir autorização explícita para mencionar o nome da cliente no contato com os indicados, elemento-chave do método.\n\n \n\n- Nas perguntas sobre indicações, você partiu rápido para “quem mais?”, o que soou levemente insistente e “interrogatório”, perdendo calor humano.\n\n \n\n- Mostrou impaciência na sequência de perguntas (“Ah, quem mais? Perfeito, quem mais?”), arriscando entrar em modo checklist, o que pode travar a colaboração.\n\n \n\n- Não extraiu anedotas ou qualidades pessoais dos indicados, deixando o futuro contato mais frio e genérico.\n\n \n\nContinue atento ao ritmo do cliente e à profundidade das interações, personalizando o diálogo.\n\n \n\n🩵 ANÁLISE EMOCIONAL\n\nO tom foi cordial e seguro, porém, progressivamente mais acelerado e impessoal. Estado emocional: confiante mas ansioso por resultados rápidos.\n\n \n\n🛅 MOMENTOS-CHAVE\n\nSituação: Reconhecimento após assinatura do contrato → Você parabenizou e valorizou a decisão → Reforçou empatia e abriu espaço para recomendações.\nSituação: Sequência apressada de “quem mais?” → Você insistiu repetidamente → Impacto de ligeira pressão, diminuindo a espontaneidade da cliente.\n\n \n\n🔊 REFORMULAÇÕES RECOMENDADAS\n\n“Se sentir confortável, posso mencionar seu nome quando conversar com seus amigos?”\n“Além desse amigo, alguém da sua família ou profissão vive situação semelhante?”\n“Você gostaria de compartilhar algo sobre o indicado que ajude no meu primeiro contato?”\n“Obrigada pela confiança e pelas indicações, fico à disposição!”\n\n \n\n➡️ RECOMENDAÇÕES\n\nMantenha o foco na qualidade, não quantidade: explore mais cada indicação, peça autorização clara para citar o nome e personalize seu contato inicial. Lembre-se: ritmo e empatia constroem portas abertas. Continue assim, ajustando sua abordagem — sua evolução é visível!",
+        "insights": [
+            "Interpretei um cliente perfil azul DISC: engenheiro, racional, metódico, valorizando segurança, com resistência natural a abordagens comerciais apressadas.",
+            "Você iniciou com reconhecimento e parabenização, valorizando a escolha do cliente e criando um ambiente receptivo.",
+            "Buscou identificar pontos de satisfação, alinhando suas perguntas à experiência perceptível da cliente.",
+            "Segmentou de forma razoável os perfis a serem indicados, citando profissões e situações familiares, estimulando a memória da cliente.",
+            "Manteve uma conversa informal, evitando pressão direta nos primeiros minutos. Boa postura consultiva!",
+            "Faltou pedir autorização explícita para mencionar o nome da cliente no contato com os indicados, elemento-chave do método.",
+            "Nas perguntas sobre indicações, você partiu rápido para “quem mais?”, o que soou levemente insistente e “interrogatório”, perdendo calor humano.",
+            "Mostrou impaciência na sequência de perguntas (“Ah, quem mais? Perfeito, quem mais?”), arriscando entrar em modo checklist, o que pode travar a colaboração."
+        ]
     },
     {
         "name": "Parceiro Inside24mais",
@@ -8737,7 +9564,16 @@ const RAW_SIMULATIONS = [
                 "text": "Muito obrigado, viu Juliana?"
             }
         ],
-        "finished": true
+        "finished": true,
+        "feedback": "Aqui está o debriefing da nossa conversa.\n\n  \n##  🤓 PERSONA\n\nCamila, executiva de tecnologia, perfil DISC dominante amarelo, comunicativa, digital, criteriosa e focada em experiência.\n\n\n## 🎯 OBJETIVO PRINCIPAL\n\nSolicitar e obter pelo menos dois nomes de recomendações e autorização de contato.  \nO objetivo foi parcialmente atingido, com progresso evidente, mas ainda com pontos de ajuste.\n\n  \n## ➕ Pontos fortes\n\n- Você iniciou agradecendo e reconhecendo a escolha do cliente, valorizando o momento pós-venda.\n\n  \n- Demonstrou preocupação em receber feedback sincero para entender a percepção sobre o processo.\n\n  \n- Explicou a importância das recomendações na consultoria, enfatizando o propósito de proteção.\n\n  \n- Segmentou bem os perfis sugeridos, dando exemplos concretos para facilitar a memória da cliente.\n\n  \nSua postura aberta e parceira favoreceu a colaboração do cliente. Continue assim, pois empatia é ouro!\n\n\n## ⚠️ EIXOS DE MELHORIA\n\n- Clareza nos papéis  \n  Houve confusão sobre quem entra em contato com os indicados (\"você envia?\", \"eu envio?\"). Esclarecer esse fluxo evita ruídos.\n\n  \n- Autorização formal  \n  Peça explicitamente se pode mencionar o nome da cliente, sem pressupor esse acordo só pela conversa fluida.\n\n  \n- Humanização das indicações  \n  Faltou pedir uma referência ou característica sobre o recomendado para tornar o contato inicial mais caloroso.\n\n  \n- Agradecimento final  \n  Um fechamento mais caloroso reforçaria sua presença e abriria portas para futuras indicações.\n\n  \nEsses detalhes vão multiplicar sua taxa de sucesso. A cada conversa, ajuste um ponto desses!\n\n\n## 🩵 ANÁLISE EMOCIONAL\n\nO tom foi amistoso, inclusivo e de ritmo descontraído, com vocabulário acessível, alternando momentos de confiança e leve hesitação. Predominou uma atitude empática.\n\n\n## 🛅 MOMENTOS-CHAVE\n\nQuando você agradeceu e parabenizou pelo fechamento, criou empatia e quebrou resistências iniciais.  \nDurante a segmentação (familiares/amigos/contatos do WhatsApp), ajudou a cliente a lembrar de pessoas concretas, gerando resultado.\n\n\n##  🔊 REFORMULAÇÕES RECOMENDADAS\n\n\"Posso mencionar seu nome quando entrar em contato, ou você prefere que eu não faça referência à nossa conversa?\"\n\n  \n\"Se preferir, podemos avisar seus amigos juntos antes para que se sintam à vontade.\"\n\n  \n\"Tem alguma característica ou situação dos seus indicados que possa me ajudar a fazer uma abordagem mais personalizada?\"\n\n\n## ➡️ RECOMENDAÇÕES\n\nSeja didático sobre o fluxo de contato, peça autorização explícita para uso do nome, personalize cada indicação com um detalhe do recomendado e sempre feche agradecendo calorosamente.  \nContinue praticando: pequenas melhorias trarão grandes saltos!",
+        "insights": [
+            "Você iniciou agradecendo e reconhecendo a escolha do cliente, valorizando o momento pós-venda.",
+            "Demonstrou preocupação em receber feedback sincero para entender a percepção sobre o processo.",
+            "Explicou a importância das recomendações na consultoria, enfatizando o propósito de proteção.",
+            "Segmentou bem os perfis sugeridos, dando exemplos concretos para facilitar a memória da cliente.",
+            "Humanização das indicações",
+            "Continue praticando: pequenas melhorias trarão grandes saltos!"
+        ]
     },
     {
         "name": "João Pedro",
@@ -8827,7 +9663,18 @@ const RAW_SIMULATIONS = [
                 "text": "Senhor, mantenho minha condição: só marco após receber o resumo por e-mail.  \nSe enviar, eu avalio e retorno com a melhor opção de horário."
             }
         ],
-        "finished": true
+        "finished": true,
+        "feedback": "Aqui está o debriefing de nossa conversa.\n\n \n\n🤓 PERSONA\n\nJovem executiva de tecnologia, perfil DISC dominante, comunicativa e digital, busca autonomia nas decisões e comparações em canais digitais.\n\n \n\n🎯 OBJETIVO PRINCIPAL\n\nVocê buscou convencer sobre a reunião sem envio prévio de material, argumentando a personalização. O objetivo foi parcialmente atingido, pois houve insistência, mas ainda abertura para prosseguimento.\n\n \n\n➕ Pontos fortes\n\n- Utilização consistente da personalização, mostrando que a proposta depende do perfil individual (“a minha apresentação é uma folha em branco”).\n- Tentativa de empatia, validando o sentimento do prospect e conectando a indicação por terceiros (“Paulo recomendou pensando no seu perfil”).\n- Aplicação da técnica da escolha forçada ao sugerir opções concretas de datas e horários para a reunião.\n- Tom respeitoso e educado em todas as interações, transmitindo preocupação genuína.\n\n \n\n⚠️ EIXOS DE MELHORIA\n\n- Em alguns momentos, faltou explorar mais a fundo as razões por trás do pedido de material por parte do prospect. As perguntas foram mais fechadas e pouco investigativas.\n- A escuta ativa poderia ser potencializada ao utilizar mais perguntas abertas e pauses para entender as motivações não verbalizadas (“qual seu receio maior sobre a reunião?”).\n- Argumentação um pouco repetitiva sobre personalização, sem alternar as outras alavancas (como a inadequação do material escrito).\n- Houve momentos de autocorreção e titubeio (“como é o nome da empresa?”), prejudicando a autoridade percebida.\n- Poderia evitar insistir rapidamente em novas datas logo após uma negativa indireta, arriscando parecer pressionador.\n\n \n\n🩵 ANÁLISE EMOCIONAL\n\nVocê demonstrou tom amigável, próximo e seguro, porém em alguns momentos aparentou ansiedade sutil e ligeira insegurança verbal.\n\n \n\n🛅 MOMENTOS-CHAVE\n\nAo explicar a diferença entre dois perfis para justificar a personalização você reforçou bem a necessidade de conversa, impactando na abertura do prospect. Ao persistir em sugerir novos horários sem investigar a fundo, correu o risco de minar a confiança.\n\n \n\n🔊 REFORMULAÇÕES RECOMENDADAS\n\n“Camila, posso te perguntar o que te deixaria mais confortável para esse bate-papo ser útil pra você?”\n\n“Se preferir, podemos abordar apenas os pontos que mais te interessam; o que te faria valer esses vinte minutos juntos?”\n\n“Entendo seu interesse pelo material, mas ele sozinho não mostra o que realmente se aplica ao seu momento, posso explicar rapidinho?”\n\n \n\n➡️ RECOMENDAÇÕES\n\nAprofunde as perguntas abertas para compreender melhor a raiz da objeção, diversifique as alavancas argumentativas e mantenha um tempo maior de escuta ativa, usando o silêncio como aliado.\n\n \n\nContinue evoluindo! Sua base é sólida; um pouco mais de investigação e dinamismo elevarão ainda mais seu jogo.",
+        "insights": [
+            "Utilização consistente da personalização, mostrando que a proposta depende do perfil individual (“a minha apresentação é uma folha em branco”).",
+            "Tentativa de empatia, validando o sentimento do prospect e conectando a indicação por terceiros (“Paulo recomendou pensando no seu perfil”).",
+            "Aplicação da técnica da escolha forçada ao sugerir opções concretas de datas e horários para a reunião.",
+            "Tom respeitoso e educado em todas as interações, transmitindo preocupação genuína.",
+            "Em alguns momentos, faltou explorar mais a fundo as razões por trás do pedido de material por parte do prospect. As perguntas foram mais fechadas e pouco investigativas.",
+            "A escuta ativa poderia ser potencializada ao utilizar mais perguntas abertas e pauses para entender as motivações não verbalizadas (“qual seu receio maior sobre a reunião?”).",
+            "Argumentação um pouco repetitiva sobre personalização, sem alternar as outras alavancas (como a inadequação do material escrito).",
+            "Houve momentos de autocorreção e titubeio (“como é o nome da empresa?”), prejudicando a autoridade percebida."
+        ]
     },
     {
         "name": "João Pedro",
@@ -8869,7 +9716,18 @@ const RAW_SIMULATIONS = [
                 "text": "Pode falar, senhor. O que o senhor precisa esclarecer agora?"
             }
         ],
-        "finished": true
+        "finished": true,
+        "feedback": "Aqui está o debriefing de nossa conversa.\n\n\n🤓 PERSONA\n\nLarissa, empreendedora carismática de salão de beleza, com perfil DISC majoritariamente amarelo: expressiva, relacional, veloz e motivada por conexões pessoais.\n\n\n🎯 OBJETIVO PRINCIPAL\n\nVocê respondeu de forma convincente às objeções da Larissa, recusando o envio de material genérico e propondo reunião. Objetivo parcialmente atingido: faltou investigar mais as razões ocultas.\n\n\n➕ Pontos fortes\n\n- Demonstrou empatia inicial ao validar o pedido de Larissa, evitando um “não” seco.\n- Argumentou de forma firme sobre personalização, destacando que a proposta depende do perfil do prospect.\n- Explicou claramente o motivo da reunião ser indispensável para desenhar a solução.\n- Usou a técnica da escolha forçada, ofertando dois horários concretos para o agendamento.\n\n\n⚠️ EIXOS DE MELHORIA\n\n- Faltou aprofundar nas reais motivações da objeção; poderia investigar com perguntas abertas sobre inseguranças ou expectativas não verbalizadas.\n- Não praticou escuta ativa suficiente: respondeu sobre seu processo sem explorar as emoções ou possíveis experiências negativas de Larissa.\n- O ritmo ficou um pouco acelerado; um espaço maior para a fala do prospect estimularia mais envolvimento.\n- A frase “isso até facilitaria demais a minha vida…” soou um pouco autocentrada, arrisque-se mais na dimensão do valor para Larissa.\n\n\n🩵 ANÁLISE EMOCIONAL\n\nO tom foi profissional, direto e assertivo, porém ligeiramente acelerado e pouco explorador. Predominou confiança, mas faltou dose de curiosidade genuína.\n\n\n🛅 MOMENTOS-CHAVE\n\nQuando reforçou a personalização da proposta e explicou por que não envia material genérico, criou confiança e demonstrou domínio do tema, aumentando sua autoridade e a percepção de exclusividade.\n\n\n🔊 REFORMULAÇÕES RECOMENDADAS\n\n“Posso te perguntar o que facilitaria para você numa consultoria assim?”\n\n“Entendi seu ponto, Larissa. Tem algo específico que te preocupa nesse tipo de conversa?”\n\n“Meu objetivo é só te ajudar a entender se faz sentido para você — assim a gente constrói junto.”\n\n“Preferiria conversar por vídeo ou presencialmente, rápida e objetivamente?”\n\n\n➡️ RECOMENDAÇÕES\n\nValorize mais a escuta: faça perguntas abertas, acolha inquietações e dedique pausas estratégicas para Larissa expor suas motivações. Use seu argumento de personalização, mas conectando sempre ao universo e às emoções do prospect.\n\nConquistar espaço na agenda começa conquistando espaço no coração e na mente do seu prospect!",
+        "insights": [
+            "Larissa, empreendedora carismática de salão de beleza, com perfil DISC majoritariamente amarelo: expressiva, relacional, veloz e motivada por conexões pessoais.",
+            "Você respondeu de forma convincente às objeções da Larissa, recusando o envio de material genérico e propondo reunião. Objetivo parcialmente atingido: faltou investigar mais as razões ocultas.",
+            "Demonstrou empatia inicial ao validar o pedido de Larissa, evitando um “não” seco.",
+            "Argumentou de forma firme sobre personalização, destacando que a proposta depende do perfil do prospect.",
+            "Explicou claramente o motivo da reunião ser indispensável para desenhar a solução.",
+            "Usou a técnica da escolha forçada, ofertando dois horários concretos para o agendamento.",
+            "Faltou aprofundar nas reais motivações da objeção; poderia investigar com perguntas abertas sobre inseguranças ou expectativas não verbalizadas.",
+            "Não praticou escuta ativa suficiente: respondeu sobre seu processo sem explorar as emoções ou possíveis experiências negativas de Larissa."
+        ]
     },
     {
         "name": "João Pedro",
@@ -8882,7 +9740,9 @@ const RAW_SIMULATIONS = [
         "lqa": "N/A",
         "interactions": 0,
         "messages": [],
-        "finished": false
+        "finished": false,
+        "feedback": "",
+        "insights": []
     },
     {
         "name": "João Pedro",
@@ -8908,7 +9768,9 @@ const RAW_SIMULATIONS = [
                 "text": "Desculpe, não posso agendar sem antes receber o material por e-mail.  \nSe preferir, envie um resumo técnico objetivo com coberturas e custo estimado."
             }
         ],
-        "finished": false
+        "finished": false,
+        "feedback": "",
+        "insights": []
     },
     {
         "name": "Michele Geracao12a24",
@@ -8930,7 +9792,9 @@ const RAW_SIMULATIONS = [
                 "text": "I am busy. What is this about?"
             }
         ],
-        "finished": false
+        "finished": false,
+        "feedback": "",
+        "insights": []
     },
     {
         "name": "Michele Geracao12a24",
@@ -8988,7 +9852,9 @@ const RAW_SIMULATIONS = [
                 "text": "Sou executivo de banco privado, trabalho com gestão de patrimônio e tenho pouco tempo. Responda"
             }
         ],
-        "finished": false
+        "finished": false,
+        "feedback": "",
+        "insights": []
     },
     {
         "name": "Michele Geracao12a24",
@@ -9006,7 +9872,9 @@ const RAW_SIMULATIONS = [
                 "text": "(silence)"
             }
         ],
-        "finished": false
+        "finished": false,
+        "feedback": "",
+        "insights": []
     },
     {
         "name": "Michele Geracao12a24",
@@ -9112,7 +9980,18 @@ const RAW_SIMULATIONS = [
                 "text": "Não assino nada no primeiro encontro. Quero saber quanto vai custar por mês"
             }
         ],
-        "finished": true
+        "finished": true,
+        "feedback": "Aqui está o debriefing da nossa troca.\n\n🤓 PERSONA\n\nSeu João, produtor rural no Sertão, perfil DISC Vermelho dominante, direto, desconfiado, prático, com decisões rápidas e foco em família e sucessão.\n\n🎯 OBJETIVO PRINCIPAL\n\nVocê respondeu de forma clara a objeções, mas tentou detalhar o produto e conduziu à venda na ligação. O objetivo foi parcialmente atingido.\n\n➕ PONTOS FORTES\n\n- Trouxe exemplos concretos de situações familiares e sucessão, conectando seu discurso à realidade do prospect.\n\n- Afirmou o diferencial prático do produto (pagamento rápido, sem inventário), alinhado ao interesse do perfil Vermelho.\n\n- Demonstrou disposição para adaptar soluções à situação do cliente, oferecendo comparações e opções.\n\n- Utilizou vocabulário acessível, sem jargões técnicos, conversando de igual para igual.\n\n⚠️ PONTOS DE MELHORIA\n\n- Ausência de pedido de autorização no início; não respeitou a barreira de privacidade do prospect.\n\n- Faltou ativar recomendação: não utilizou o nome do Paulo para criar vínculo inicial, minando confiança no contato.\n\n- Direcionou rapidamente para detalhes do produto e condições, desviando do objetivo de agendamento e tangenciando venda.\n\n- Não utilizou escolha forçada para propor reunião (dois horários próximos), apresentando apenas sugestão aberta.\n\n- Faltou reconfirmação clara da reunião (data, horário, local/modalidade) e finalização estruturada.\n\n🩵 ANÁLISE EMOCIONAL\n\nO tom foi didático, buscando ser acolhedor, mas um pouco apressado, sobretudo nas explicações técnicas. O estado emocional dominante: determinado e levemente ansioso.\n\n🛅 MOMENTOS-CHAVE\n\nSituação: Quando explicou como a esposa receberia o benefício rapidamente. Isso trouxe clareza para um ponto-chave ao prospect e poderia ser usado para reforçar o valor da reunião.\n\nSituação: Ao falar várias vezes sobre “explicar pessoalmente”, demonstrou foco consultivo, mas faltou estrutura para converter em compromisso firme.\n\n🔊 REFORMULAÇÕES RECOMENDADAS\n\n- “Seu João, Paulo comentou que o senhor é direto: posso ser objetiva e te explicar em dez minutos ao vivo?”\n\n- “Só para agendar com você: fica melhor amanhã ou depois de amanhã, no mesmo horário?”\n\n- “Prometo que na reunião você decide sem pressão: posso te apresentar opções claras e sem compromisso.”\n\n- “Você prefere conversar presencialmente aqui em Petrolina ou por ligação de vídeo?”\n\n- “Posso confirmar então, terça-feira às dez, aqui na fazenda?”\n\n➡️ RECOMENDAÇÕES\n\nComece sempre pedindo licença para a conversa, cite o recomendante logo de início, foque na dor do cliente, proponha escolha forçada na agenda e finalize confirmando cada detalhe. Pequenos ajustes e sua taxa de conversão vai colher frutos como manga madura!",
+        "insights": [
+            "Trouxe exemplos concretos de situações familiares e sucessão, conectando seu discurso à realidade do prospect.",
+            "Afirmou o diferencial prático do produto (pagamento rápido, sem inventário), alinhado ao interesse do perfil Vermelho.",
+            "Demonstrou disposição para adaptar soluções à situação do cliente, oferecendo comparações e opções.",
+            "Utilizou vocabulário acessível, sem jargões técnicos, conversando de igual para igual.",
+            "Ausência de pedido de autorização no início; não respeitou a barreira de privacidade do prospect.",
+            "Faltou ativar recomendação: não utilizou o nome do Paulo para criar vínculo inicial, minando confiança no contato.",
+            "Direcionou rapidamente para detalhes do produto e condições, desviando do objetivo de agendamento e tangenciando venda.",
+            "Não utilizou escolha forçada para propor reunião (dois horários próximos), apresentando apenas sugestão aberta."
+        ]
     },
     {
         "name": "Michele Geracao12a24",
@@ -9125,7 +10004,9 @@ const RAW_SIMULATIONS = [
         "lqa": "N/A",
         "interactions": 0,
         "messages": [],
-        "finished": false
+        "finished": false,
+        "feedback": "",
+        "insights": []
     },
     {
         "name": "Michele Geracao12a24",
@@ -9179,7 +10060,18 @@ const RAW_SIMULATIONS = [
                 "text": "Beleza, pode mandar pelo WhatsApp então. Te passo o endereço lá. Até terça, obrigada."
             }
         ],
-        "finished": true
+        "finished": true,
+        "feedback": "Aqui está o debriefing da nossa troca.\n\n  \n### 🤓 PERSONA\n\nInterpretei Larissa, empreendedora no ramo de beleza, perfil DISC amarelo dominante, expressiva, sociável e avaliadora por afinidade.\n\n  \n### 🎯 OBJETIVO PRINCIPAL\n\nVocê conquistou o agendamento de uma reunião sem objeções explícitas, mas sem gerenciamento de objeções reais; objetivo parcialmente atingido.\n\n  \n### ➕ PONTOS FORTES\n\n- Você utilizou uma abordagem cordial e positiva, transmitindo energia com um sorriso na voz.\n\n  \n- Referenciou a Luana como conexão de confiança, acionando o gatilho da recomendação.\n\n  \n- Manteve ritmo amigável e postura acolhedora, adaptando a linguagem ao perfil da prospect.\n\n  \n- Propôs horário específico, demonstrando proatividade e facilitando a tomada de decisão.\n\n  \n### ⚠️ PONTOS DE MELHORIA\n\n- Faltou solicitar autorização explícita para seguir com o contato, etapa dois do método.\n\n  \n- Quebra-gelo foi pouco personalizado, limitando a conexão emocional rápida com Larissa.\n\n  \n- Não houve espaço para levantamento ou tratamento real de objeções — a ligação ficou superficial.\n\n  \n- Faltou esclarecer o objetivo da reunião e os benefícios concretos para a prospect, que pode gerar hesitação futura.\n\n  \n- A escolha de horários apresentou opção aberta (“qual dia é melhor para você?”), ao invés de forçar a escolha entre dois horários próximos.\n\n  \n### 🩵 ANÁLISE EMOCIONAL\n\nO tom foi simpático, mas ansioso e um pouco acelerado, faltou pausa para escuta ativa mais completa. Estado emocional: confiante, porém apressado.\n\n  \n### 🛅 MOMENTOS-CHAVE\n\nMomento de indicação da Luana gerou confiança imediata em Larissa, facilitando o aceite inicial. Porém, não explorou possíveis objeções, o que pode levar ao esquecimento ou desmarcação posterior.\n\n  \n### 🔊 REFORMULAÇÕES RECOMENDADAS\n\n\"Posso te apresentar rapidamente o porquê desse convite antes de marcarmos?\"\n\n  \n\"Entendo que sua agenda é corrida. Prefere terça às dez ou quarta às onze?\"\n\n  \n\"A Luana comentou que você valoriza soluções práticas, faz sentido para você explorar novidades que ajudem sua rotina?\"\n\n  \n\"Tem algo em que posso focar especialmente nessa conversa para ser mais útil?\"\n\n  \n### ➡️ RECOMENDAÇÕES\n\nSempre peça autorização antes de avançar, valorize a dor ou sonho do cliente antes de propor reunião e conduza com perguntas fechadas (escolha forçada). Antecipe e trate objeções reais para evitar reuniões só no papel. Confie — com pequenos ajustes, seu resultado vai de bom para ótimo!",
+        "insights": [
+            "Você utilizou uma abordagem cordial e positiva, transmitindo energia com um sorriso na voz.",
+            "Referenciou a Luana como conexão de confiança, acionando o gatilho da recomendação.",
+            "Manteve ritmo amigável e postura acolhedora, adaptando a linguagem ao perfil da prospect.",
+            "Propôs horário específico, demonstrando proatividade e facilitando a tomada de decisão.",
+            "Faltou solicitar autorização explícita para seguir com o contato, etapa dois do método.",
+            "Quebra-gelo foi pouco personalizado, limitando a conexão emocional rápida com Larissa.",
+            "Não houve espaço para levantamento ou tratamento real de objeções — a ligação ficou superficial.",
+            "Faltou esclarecer o objetivo da reunião e os benefícios concretos para a prospect, que pode gerar hesitação futura."
+        ]
     },
     {
         "name": "Michele Geracao12a24",
@@ -9201,7 +10093,9 @@ const RAW_SIMULATIONS = [
                 "text": "Sorry, could you please speak more clearly?"
             }
         ],
-        "finished": false
+        "finished": false,
+        "feedback": "",
+        "insights": []
     },
     {
         "name": "Michele Geracao12a24",
@@ -9214,7 +10108,9 @@ const RAW_SIMULATIONS = [
         "lqa": "N/A",
         "interactions": 0,
         "messages": [],
-        "finished": false
+        "finished": false,
+        "feedback": "",
+        "insights": []
     },
     {
         "name": "Michele Geracao12a24",
@@ -9264,7 +10160,18 @@ const RAW_SIMULATIONS = [
                 "text": "Até amanhã. Obrigada, ótimo dia"
             }
         ],
-        "finished": true
+        "finished": true,
+        "feedback": "Aqui está o debriefing de nossa conversa.\n\n \n\n### 🤓 PERSONA\n\nAtuei como Camila, jovem executiva de tecnologia, perfil DISC majoritariamente amarelo: comunicativa, digital, analítica e desconfiada de abordagens tradicionais.\n\n🎯 OBJETIVO PRINCIPAL\n\nVocê respondeu de forma convincente à objeção e conseguiu o agendamento sem envio prévio de documentação. Objetivo plenamente atingido.\n\n \n\n### ➕ Pontos fortes\n\n- Você evitou ceder à primeira solicitação por material genérico, argumentando sobre personalização e a importância de conversar.\n- Aplicou bem a técnica da escolha forçada para agendamento, oferecendo duas opções concretas de horário.\n- Manteve o controle do rumo da ligação, mas com um tom cordial e respeitoso.\n- Destacou a necessidade de entender as particularidades para apresentar a melhor solução, fugindo da “venda pronta”.\n\n### ⚠️ EIXOS DE MELHORIA\n\n- Faltou validação explícita do sentimento do prospect antes de propor a reunião (“Entendo seu interesse em conhecer mais antes…” teria suavizado).\n- Apesar de afirmar que o produto é personalizado, sua argumentação poderia ir além do óbvio, explorando pelo menos uma vantagem da conversa ao vivo (exemplo: comparação, esclarecimento de dúvidas em tempo real).\n- Não houve perguntas abertas para investigar se havia algum receio oculto por trás da demanda de material, deixando possíveis objeções não verbalizadas na mesa.\n\n### 🩵 ANÁLISE EMOCIONAL\n\nSeu tom foi seguro, gentil e direto, sugerindo confiança e objetividade, mas sem perder a formalidade e empatia básicas.\n\n### 🛅 MOMENTOS-CHAVE\n\nQuando você explicou que o produto é desenhado conforme a conversa, evitou o envio genérico, mostrando valor ao processo consultivo e garantindo engajamento para o próximo passo.\n\n🔊 REFORMULAÇÕES RECOMENDADAS\n\n“Posso te enviar informações, mas acredito que uma conversa rápida nos ajuda a personalizar de verdade.”\n\n“Queria entender seus objetivos para levar só o que realmente faz sentido para você.”\n\n“Se preferir, marcamos amanhã às dez ou às dezesseis horas. Com qual consegue contar?”\n\n➡️ RECOMENDAÇÕES\n\nPratique perguntas abertas e valide emoções antes de contra-argumentar. Mostre que a reunião poupa tempo e personaliza a experiência—não apenas “explica o produto”.\n\nMantenha essa pegada consultiva: um ajuste aqui ou ali vai levar sua abordagem para o próximo nível!",
+        "insights": [
+            "Atuei como Camila, jovem executiva de tecnologia, perfil DISC majoritariamente amarelo: comunicativa, digital, analítica e desconfiada de abordagens tradicionais.",
+            "Você evitou ceder à primeira solicitação por material genérico, argumentando sobre personalização e a importância de conversar.",
+            "Aplicou bem a técnica da escolha forçada para agendamento, oferecendo duas opções concretas de horário.",
+            "Manteve o controle do rumo da ligação, mas com um tom cordial e respeitoso.",
+            "Destacou a necessidade de entender as particularidades para apresentar a melhor solução, fugindo da “venda pronta”.",
+            "Faltou validação explícita do sentimento do prospect antes de propor a reunião (“Entendo seu interesse em conhecer mais antes…” teria suavizado).",
+            "Apesar de afirmar que o produto é personalizado, sua argumentação poderia ir além do óbvio, explorando pelo menos uma vantagem da conversa ao vivo (exemplo: comparação, esclarecimento de dúvidas em tempo real).",
+            "Não houve perguntas abertas para investigar se havia algum receio oculto por trás da demanda de material, deixando possíveis objeções não verbalizadas na mesa."
+        ]
     },
     {
         "name": "Michele Geracao12a24",
@@ -9342,7 +10249,18 @@ const RAW_SIMULATIONS = [
                 "text": "Valeu, Michele. Boa semana pra você também."
             }
         ],
-        "finished": true
+        "finished": true,
+        "feedback": "Aqui está o debriefing da nossa troca\n\n🤓 PERSONA\n\nInterpretei Roberto, comerciante carioca, expansivo, relacional e perfil DISC predominantemente verde, valorizando vínculo pessoal e confiança nas interações.\n\n🎯 OBJETIVO PRINCIPAL\n\nVocê respondeu a parte das objeções, mas não obteve compromisso firme de reunião, apenas um reagendamento vago. Objetivo parcialmente atingido.\n\n➕ PONTOS FORTES\n\n- Apresentou vinculação ao Paulo como recomendação, criando rápida associação de confiança.\n\n  \n- Usou linguagem simples e explicou o diferencial do atendimento personalizado.\n\n  \n- Propôs reunião em curto prazo e ofereceu escolha de horários específicos.\n\n  \n- Manteve postura consultiva, evitando venda direta e destacando o atendimento sob medida.\n\n⚠️ PONTOS DE MELHORIA\n\n- Ausência de pedido explícito de autorização logo no início.\n\n  \n- O tratamento das objeções foi realizado, mas com hesitação e respostas vagas. Faltou usar claramente o “sim, mas…” ou bumerangue. Exemplo: hesitou ao lidar com o pedido de envio prévio de material.\n\n  \n- Não houve reconfirmação sólida quanto à data, hora e local. O compromisso ficou para “semana que vem”, o que é muito aberto.\n\n  \n- Uso excessivo de vícios de linguagem (“ééé”, “eu tá te explicando”, “vamo deixar previamente agendado”) prejudicou a assertividade.\n\n🩵 ANÁLISE EMOCIONAL\n\nO tom foi acolhedor, mas a frequência de hesitações demonstrou insegurança. O ritmo oscilou entre simpático e atropelado. Predominou certa ansiedade, mas com empatia.\n\n🛅 MOMENTOS-CHAVE\n\nSituação: Ao mencionar o Paulo como ponte de confiança. Isso engajou o prospect, mas seria ainda mais forte com aprovação explícita (“Paulo mencionou que você valoriza...”).\n\nSituação: Na proposta de reunião personalizada. Destacou o benefício individual, mas deixou a reunião sem detalhamento prático.\n\n🔊 REFORMULAÇÕES RECOMENDADAS\n\n“Se fizer sentido pra você, posso te explicar em quinze minutos, sem compromisso, como ajudo outros lojistas como o Paulo.”\n\n  \n\n“Entendo que receba várias ofertas, mas nesta conversa meu objetivo é alinhar expectativas e só então sugerir alguma proteção.”\n\n  \n\n“Prefere que eu explique pessoalmente na terça de manhã ou na quarta à tarde? Assim otimizamos seu tempo.”\n\n  \n\n“Se não for conveniente, sem problema algum: o importante é ser útil para você.”\n\n➡️ RECOMENDAÇÕES\n\nComece sempre pedindo permissão para seguir. Reforce a escolha forçada e reconfirme agenda ao final. Capriche em escuta ativa e trate objeções de forma mais estruturada.\n\nContinue evoluindo: consultivo, assertivo e com o jeitinho pessoal — só tirando as muletas da fala.",
+        "insights": [
+            "Apresentou vinculação ao Paulo como recomendação, criando rápida associação de confiança.",
+            "Usou linguagem simples e explicou o diferencial do atendimento personalizado.",
+            "Propôs reunião em curto prazo e ofereceu escolha de horários específicos.",
+            "Manteve postura consultiva, evitando venda direta e destacando o atendimento sob medida.",
+            "Ausência de pedido explícito de autorização logo no início.",
+            "O tratamento das objeções foi realizado, mas com hesitação e respostas vagas. Faltou usar claramente o “sim, mas…” ou bumerangue. Exemplo: hesitou ao lidar com o pedido de envio prévio de material.",
+            "Não houve reconfirmação sólida quanto à data, hora e local. O compromisso ficou para “semana que vem”, o que é muito aberto.",
+            "Uso excessivo de vícios de linguagem (“ééé”, “eu tá te explicando”, “vamo deixar previamente agendado”) prejudicou a assertividade."
+        ]
     },
     {
         "name": "Michele Geracao12a24",
@@ -9496,7 +10414,18 @@ const RAW_SIMULATIONS = [
                 "text": "Até mais."
             }
         ],
-        "finished": true
+        "finished": true,
+        "feedback": "Aqui está o debriefing da nossa troca.\n\n  \n🤓 PERSONA\n\nInterpretei uma profissional da área da saúde, perfil majoritariamente estável (DISC verde), organizada e desconfiada, prezando por previsibilidade e relações pessoais confiáveis.\n\n  \n🎯 OBJETIVO PRINCIPAL\n\nSeu objetivo era contornar objeções, qualificar, despertar interesse e obter confirmação de reunião de descoberta; objetivo atingido mas com ressalvas na condução.\n\n  \n➕ PONTOS FORTES\n\n- Usou recomendação da Rafaela logo no início, ativando gatilho de confiança.\n\n  \n- Rapidamente propôs reunião com escolha entre dois horários próximos, acelerando a tomada de decisão.\n\n  \n- Manteve tom cordial, respeitoso e profissional, demonstrando empatia e adaptação ao perfil da prospect.\n\n  \n- Fez reconfirmação clara do compromisso, mostrando organização e zelo.\n\n  \n⚠️ PONTOS DE MELHORIA\n\n- Ausência de pedido explícito de autorização para a ligação, pulando uma etapa essencial do método MetLife.\n\n  \n- Apresentou argumentos já com foco em produto e orçamento (“normalmente não passa de cinco por cento da renda...”), o que foge do objetivo agendamento e soa venda precoce.\n\n  \n- A gestão de objeções ficou superficial, sem aprofundar perguntas ou usar técnicas do “sim, mas...”, deixando potenciais dúvidas latentes.\n\n  \n- O discurso foi excessivamente centrado em “apresentar meu trabalho” e pouco na descoberta dos interesses da prospect.\n\n  \n🩵 ANÁLISE EMOCIONAL\n\nO tom foi acolhedor, calmo, demonstrando proximidade e disposição. A linguagem foi simples, mas houve desvio pontual para a ansiedade de vender. O estado emocional dominante foi confiante, quase próxima de ser prolixa.\n\n  \n🛅 MOMENTOS-CHAVE\n\nApresentação por meio de recomendação direta\n  Gera impacto inicial positivo e reduz resistência.\n\n  \nAntecipação da adequação ao orçamento\n  Pode passar confiança, mas quase precipita venda e gera objeção.\n\n  \n🔊 REFORMULAÇÕES RECOMENDADAS\n\n“Fernanda, posso te explicar rapidinho por que pedi esse tempo antes de seguir?”\n\n  \n“É só para entender se faz sentido pra você, sem compromisso.”\n\n  \n“Prefere um bate-papo na segunda de manhã ou terça à tarde? Faço caber na sua agenda.”\n\n  \n“Na reunião, trago sugestões baseadas no que você valoriza – você sempre decide, ok?”\n\n  \n➡️ RECOMENDAÇÕES\n\nInicie sempre pedindo autorização para continuar a ligação. Evite detalhes de produto ou preço por telefone e foque na escuta ativa. Use técnicas “sim, mas...” para objeções e demonstre postura total de consultora, não vendedora.\n\n  \nParabéns pelo resultado, mas lembre: os detalhes constroem a excelência – siga ajustando!",
+        "insights": [
+            "Usou recomendação da Rafaela logo no início, ativando gatilho de confiança.",
+            "Rapidamente propôs reunião com escolha entre dois horários próximos, acelerando a tomada de decisão.",
+            "Manteve tom cordial, respeitoso e profissional, demonstrando empatia e adaptação ao perfil da prospect.",
+            "Fez reconfirmação clara do compromisso, mostrando organização e zelo.",
+            "Ausência de pedido explícito de autorização para a ligação, pulando uma etapa essencial do método MetLife.",
+            "Apresentou argumentos já com foco em produto e orçamento (“normalmente não passa de cinco por cento da renda...”), o que foge do objetivo agendamento e soa venda precoce.",
+            "A gestão de objeções ficou superficial, sem aprofundar perguntas ou usar técnicas do “sim, mas...”, deixando potenciais dúvidas latentes.",
+            "O discurso foi excessivamente centrado em “apresentar meu trabalho” e pouco na descoberta dos interesses da prospect."
+        ]
     },
     {
         "name": "Michele Geracao12a24",
@@ -9538,7 +10467,9 @@ const RAW_SIMULATIONS = [
                 "text": "Good. The hire looks solid and fits what we discussed. What do you need from me next?"
             }
         ],
-        "finished": false
+        "finished": false,
+        "feedback": "",
+        "insights": []
     },
     {
         "name": "Michele Geracao12a24",
@@ -9568,7 +10499,9 @@ const RAW_SIMULATIONS = [
                 "text": "Look, before anything, I want you to ask first. I don’t give names out of the blue.  \nIf you explain"
             }
         ],
-        "finished": false
+        "finished": false,
+        "feedback": "",
+        "insights": []
     },
     {
         "name": "Michele Geracao12a24",
@@ -9674,7 +10607,18 @@ const RAW_SIMULATIONS = [
                 "text": "De nada. Até lá."
             }
         ],
-        "finished": true
+        "finished": true,
+        "feedback": "Aqui está o debriefing da nossa conversa.\n\n  \n\n## 🤓 PERSONA\n\nInterpretei Ricardo, executivo sênior, analítico, perfil DISC predominante vermelho, direto e exigente em interações comerciais.\n\n  \n\n## 🎯 OBJETIVO PRINCIPAL\n\nObter no mínimo dois nomes de recomendações qualificadas com autorização para contato. O objetivo não foi atingido.\n\n  \n\n## ➕ Pontos fortes\n\n- Demonstra interesse genuíno em proteger não só o cliente, mas também seus familiares e amigos, valorizando o impacto do seguro.\n\n  \n\n- Utiliza elementos de empatia e reforça a tranquilidade do cliente, mostrando confiança na solução oferecida.\n\n  \n\n- Reforça a credibilidade da MetLife durante a abordagem, transmitindo segurança.\n\n  \n\nContinue praticando sua postura humanizada, pois aproxima e gera confiança!\n\n  \n\n## ⚠️ EIXOS DE MELHORIA\n\n- Abordagem Genérica \n  Faltou segmentar perfis específicos para facilitar o raciocínio do cliente, o que poderia ter destravado nomes qualificados.\n\n  \n\n- Pedido pouco estruturado \n  O pedido por recomendações foi amplo (“quem do seu círculo...?”), o que dificulta o surgimento de nomes. Prefira uma segmentação clara, como “no seu grupo de tênis, alguém comentou sobre preocupação financeira recentemente?”.\n\n  \n\n- Ausência de autorização de menção  \n  Não foi pedido, de forma explícita, o direito de citar o nome do cliente no primeiro contato.\n\n  \n\nSeu progresso será visível ao estruturar seu pedido e personalizar os perfis. Siga adiante com energia!\n\n  \n\n## 🩵 ANÁLISE EMOCIONAL\n\nO tom foi respeitoso, mas inseguro; ritmo hesitante, com repetições. O vocabulário foi simples. Estado emocional dominante: insegurança, com busca de aprovação.\n\n  \n\n## 🛅 MOMENTOS-CHAVE\n\nNo início, você enfatizou o valor do seguro para o cliente, mostrando empatia — importante para criar boa vontade.\n\n  \n\nNa tentativa de pedir recomendações, faltou conduzir o cliente a nomes concretos, o que freou o andamento.\n\n  \n\n## 🔊 REFORMULAÇÕES RECOMENDADAS\n\n“Entre seus amigos empreendedores, alguém comentou recentemente sobre preocupação com proteção financeira?”\n\n  \n\n“Você se sentiria confortável se eu mencionasse que foi você quem me apresentou, para deixá-los mais tranquilos?”\n\n  \n\n“Caso nenhum nome venha agora, posso te ajudar citando exemplos de perfis, pode ser?”\n\n  \n\n## ➡️ RECOMENDAÇÕES\n\nSegmente perfis, peça autorização explícita de menção e apresente o pedido como benefício ao círculo do cliente, não como favor. Pratique perguntas abertas e específicas. Busque naturalidade, valorize a conquista do contrato! Se continuar testando e ajustando, vai longe.",
+        "insights": [
+            "Demonstra interesse genuíno em proteger não só o cliente, mas também seus familiares e amigos, valorizando o impacto do seguro.",
+            "Utiliza elementos de empatia e reforça a tranquilidade do cliente, mostrando confiança na solução oferecida.",
+            "Reforça a credibilidade da MetLife durante a abordagem, transmitindo segurança.",
+            "Pedido pouco estruturado",
+            "Ausência de autorização de menção",
+            "O tom foi respeitoso, mas inseguro; ritmo hesitante, com repetições. O vocabulário foi simples. Estado emocional dominante: insegurança, com busca de aprovação.",
+            "No início, você enfatizou o valor do seguro para o cliente, mostrando empatia — importante para criar boa vontade.",
+            "“Você se sentiria confortável se eu mencionasse que foi você quem me apresentou, para deixá-los mais tranquilos?”"
+        ]
     },
     {
         "name": "Michele Geracao12a24",
@@ -9687,7 +10631,9 @@ const RAW_SIMULATIONS = [
         "lqa": "N/A",
         "interactions": 0,
         "messages": [],
-        "finished": false
+        "finished": false,
+        "feedback": "",
+        "insights": []
     },
     {
         "name": "Michele Geracao12a24",
@@ -9700,7 +10646,9 @@ const RAW_SIMULATIONS = [
         "lqa": "N/A",
         "interactions": 0,
         "messages": [],
-        "finished": false
+        "finished": false,
+        "feedback": "",
+        "insights": []
     },
     {
         "name": "Michele Geracao12a24",
@@ -9834,7 +10782,18 @@ const RAW_SIMULATIONS = [
                 "text": "Certo, eu falo com a Patrícia e com a Isabela e te aviso assim que elas autorizarem. Pode seguir organizando as propostas para quando eu te der o ok. Goodbye."
             }
         ],
-        "finished": true
+        "finished": true,
+        "feedback": "Aqui está o debriefing da nossa conversa\n\n  \n\n🤓 PERSONA\n\n  \n\nFernanda, dentista autônoma, perfil DISC verde, pragmática, cuidadosa nas escolhas e sensível à segurança da filha.\n\n  \n\n🎯 OBJETIVO PRINCIPAL\n\n  \n\nObter ao menos duas recomendações qualificadas e autorização para contato mencionando o nome de Fernanda. Objetivo atingido.\n\n  \n\n  \n\n➕ Pontos fortes\n\n  \n\n- Explicou a personalização do serviço de forma clara, valorizando o diferencial da abordagem.\n\n  \n\n- Pediu explicitamente a autorização para mencionar o nome da cliente, demonstrando respeito.\n\n  \n\n- Demonstrou empatia e buscou tranquilizar Fernanda sobre a abordagem aos seus indicados.\n\n  \n\n- Rapidamente acolheu as respostas e buscou avançar nos pedidos sem pressionar em excesso.\n\n  \n\nParabéns pela proximidade e pela condução que mantém o clima leve e respeitoso!\n\n  \n\n⚠️ EIXOS DE MELHORIA\n\n  \n\n- Falta de celebração inicial\n  Poderia ter iniciado parabenizando Fernanda pela contratação, aproveitando melhor o momento UAU antes do pedido de indicações.\n\n  \n\n- Identificação dos pontos de satisfação\n  Não estimulou Fernanda a verbalizar o que mais gostou, elemento-chave para ativar o desejo de recomendar.\n\n  \n\n- Segmentação de perfis\n  O pedido de nomes foi amplo e um pouco genérico. Perfis específicos poderiam facilitar lembrança de mais nomes qualificados.\n\n  \n\n- Menos repetição na solicitação dos contatos\n  Cuidado com pedidos em sequência (“qual o telefone da Patrícia? Quem mais?”), que podem soar mecânicos.\n\n  \n\nFoque em aprofundar o vínculo antes do pedido e em tornar a experiência de indicar ainda mais natural.\n\n  \n\n🩵 ANÁLISE EMOCIONAL\n\n  \n\nO tom foi cordial e descontraído, com ritmo calmo, vocabulário acessível, transmitindo confiança e boa disposição ao cliente. Predominou empatia.\n\n  \n\n🛅 MOMENTOS-CHAVE\n\n  \n\nAo explicar o caráter personalizado do serviço, você diferenciou sua abordagem e reforçou confiabilidade — isso aumentou a receptividade da cliente.\n\n  \n\nNo momento em que pediu autorização para citar o nome da Fernanda, demonstrou respeito pelos contatos da cliente, fortalecendo o vínculo de confiança.\n\n  \n\n🔊 REFORMULAÇÕES RECOMENDADAS\n\n  \n\n“Fernanda, posso perguntar: o que você mais gostou desse processo até aqui?”\n\n  \n\n“Entre suas colegas que também são profissionais autônomas, alguém te vem à cabeça que se beneficiaria desse tipo de planejamento?”\n\n  \n\n“Se você preferir, posso só apresentar a proposta sem compromisso, sempre mencionando que foi indicação sua e só com seu sinal verde.”\n\n  \n\n➡️ RECOMENDAÇÕES\n\n  \n\nCelebre a conquista do cliente antes do pedido. Faça perguntas sobre satisfação para despertar o orgulho do cliente. Traga exemplos de perfis e situações. Nunca pule etapas. Fortaleça o ritual do agradecimento. Capriche no acolhimento: as melhores indicações vêm da experiência emocional positiva!\n\nMantenha esse carisma próximo, ajuste os detalhes e verá sua rede crescer ainda mais!",
+        "insights": [
+            "Explicou a personalização do serviço de forma clara, valorizando o diferencial da abordagem.",
+            "Pediu explicitamente a autorização para mencionar o nome da cliente, demonstrando respeito.",
+            "Demonstrou empatia e buscou tranquilizar Fernanda sobre a abordagem aos seus indicados.",
+            "Rapidamente acolheu as respostas e buscou avançar nos pedidos sem pressionar em excesso.",
+            "Falta de celebração inicial",
+            "Identificação dos pontos de satisfação",
+            "Não estimulou Fernanda a verbalizar o que mais gostou, elemento-chave para ativar o desejo de recomendar.",
+            "Segmentação de perfis"
+        ]
     },
     {
         "name": "Michele Geracao12a24",
@@ -9847,7 +10806,9 @@ const RAW_SIMULATIONS = [
         "lqa": "N/A",
         "interactions": 0,
         "messages": [],
-        "finished": false
+        "finished": false,
+        "feedback": "",
+        "insights": []
     },
     {
         "name": "Michele Geracao12a24",
@@ -9941,7 +10902,18 @@ const RAW_SIMULATIONS = [
                 "text": "Até amanhã."
             }
         ],
-        "finished": true
+        "finished": true,
+        "feedback": "Aqui está o debriefing da nossa troca\n\n🤓 PERSONA\n\nInterpretei Larissa, autônoma, influenciadora no ramo de beleza, perfil DISC verde (relacional, aberta, busca harmonia).\n\n🎯 OBJETIVO PRINCIPAL\n\nVocê respondeu bem às objeções e converteu a abordagem em um agendamento efetivo de reunião. Objetivo totalmente atingido.\n\n➕ PONTOS FORTES\n\n- Construiu uma ponte de confiança ao mencionar a Camila como referência logo no início.\n\n- Explicou com clareza a importância do planejamento financeiro, conectando à realidade do público-alvo.\n\n- Realizou proposta de reunião com escolha forçada entre dois horários próximos, facilitando aceitação.\n\n- Demonstrou postura consultiva ao explorar necessidades sem forçar produtos nem mencionar preços.\n\n- Terminou a chamada com reconfirmação do compromisso e comunicação transparente sobre remarcação, caso necessário.\n\n⚠️ PONTOS DE MELHORIA\n\n- Faltou pedir autorização explícita para prosseguir com o contato antes de apresentar proposta.\n\n- O pitch inicial poderia ser mais objetivo, reduzindo repetições e excesso de “ééé”, para mostrar segurança.\n\n- Descreveu coberturas e produtos com certo detalhamento; evite apresentar soluções antes da reunião.\n\n- A escuta ativa poderia ser melhor explorada, estimulando a prospecta a falar um pouco mais sobre si.\n\n🩵 ANÁLISE EMOCIONAL\n\nO tom foi acolhedor e simpático. O ritmo seguiu ótimo, apesar de hesitações verbais. Estado emocional seguro, levemente ansioso pelo excesso de justificações.\n\n🛅 MOMENTOS-CHAVE\n\nAo mencionar Camila como referência logo após cumprimentar, quebrou defesas e ativou o gatilho de recomendação, sendo decisivo na conexão e aceitação.\n\nAo forçar escolha de horários para reunião no prazo adequado, acelerou fechamento e demonstrou profissionalismo.\n\n🔊 REFORMULAÇÕES RECOMENDADAS\n\n- “Posso me apresentar rapidamente antes de explicar o motivo do meu contato?”\n\n- “Camila sugeriu que eu te procurasse justamente pelo seu perfil diferenciado.”\n\n- “Prefere que eu detalhe tudo presencialmente ou tem algo específico que já te preocupa?”\n\n- “Se algum imprevisto acontecer, me avise – flexibilidade faz parte do processo!”\n\n➡️ RECOMENDAÇÕES\n\nAprimore o pedido de autorização e reduza detalhes sobre os produtos por telefone. Foque em perguntas abertas e ouça mais o cliente para identificar rapidamente objeções ocultas.\n\nSeu ritmo está ótimo – só falta afinar pequenos detalhes, siga com energia e consistência!",
+        "insights": [
+            "Construiu uma ponte de confiança ao mencionar a Camila como referência logo no início.",
+            "Explicou com clareza a importância do planejamento financeiro, conectando à realidade do público-alvo.",
+            "Realizou proposta de reunião com escolha forçada entre dois horários próximos, facilitando aceitação.",
+            "Demonstrou postura consultiva ao explorar necessidades sem forçar produtos nem mencionar preços.",
+            "Terminou a chamada com reconfirmação do compromisso e comunicação transparente sobre remarcação, caso necessário.",
+            "Faltou pedir autorização explícita para prosseguir com o contato antes de apresentar proposta.",
+            "O pitch inicial poderia ser mais objetivo, reduzindo repetições e excesso de “ééé”, para mostrar segurança.",
+            "Descreveu coberturas e produtos com certo detalhamento; evite apresentar soluções antes da reunião."
+        ]
     },
     {
         "name": "Geracao Lu.Parceiro",
@@ -9963,7 +10935,9 @@ const RAW_SIMULATIONS = [
                 "text": "Sorry, your"
             }
         ],
-        "finished": false
+        "finished": false,
+        "feedback": "",
+        "insights": []
     },
     {
         "name": "Geracao Lu.Parceiro",
@@ -10001,7 +10975,9 @@ const RAW_SIMULATIONS = [
                 "text": "First, thank you for the clear work today. \n\nSuggest asking the client for one or two people who match his profile, framing it as offering a no-obligation financial review for them.  \nMake explicit that you will not call anyone until he gives permission, and that the first contact will be friendly, informational, and free of sales pressure."
             }
         ],
-        "finished": false
+        "finished": false,
+        "feedback": "",
+        "insights": []
     },
     {
         "name": "Geracao Lu.Parceiro",
@@ -10067,7 +11043,9 @@ const RAW_SIMULATIONS = [
                 "text": "Tá, então faz assim: você vem com esse papo de consultoria, explica direitinho a proteção e mostra opções sem empurrar.    \nSe você prometer não ligar antes de eu avisar quem é, eu penso em um nome e te falo."
             }
         ],
-        "finished": false
+        "finished": false,
+        "feedback": "",
+        "insights": []
     },
     {
         "name": "Geracao Lu.Parceiro",
@@ -10080,7 +11058,9 @@ const RAW_SIMULATIONS = [
         "lqa": "N/A",
         "interactions": 0,
         "messages": [],
-        "finished": false
+        "finished": false,
+        "feedback": "",
+        "insights": []
     },
     {
         "name": "Geracao Lu.Parceiro",
@@ -10166,7 +11146,9 @@ const RAW_SIMULATIONS = [
                 "text": "Entendo que você precise de dados, mas não é aceitável recusar um exemplo hipotético simples. Dê-me um caso ilustrativo para um homem da minha idade, casado, com dois filhos, com números de capital segurado e aporte mensal."
             }
         ],
-        "finished": false
+        "finished": false,
+        "feedback": "",
+        "insights": []
     },
     {
         "name": "Geracao Lu.Parceiro",
@@ -10204,7 +11186,18 @@ const RAW_SIMULATIONS = [
                 "text": "Wait a moment — I need to be clear on one thing before giving names.  \nWill you contact anyone today, or only after I give explicit go‑ahead for each person?"
             }
         ],
-        "finished": true
+        "finished": true,
+        "feedback": "Aqui está o debriefing da nossa conversa.\n\n  \n##  🤓 PERSONA\n\n  \n- Cliente perfil azul DISC, engenheiro de qualidade, metódico, racional, pouco demonstrativo e avesso à pressão.  \n\n\n## 🎯 OBJETIVO PRINCIPAL\n\n  \n- Obter nomes de recomendações qualificadas e autorização para contato mencionando o nome do cliente. \n\n  \n- O objetivo não foi atingido, pois não houve devolutiva de nomes ou compromisso do cliente.\n\n\n## ➕ Pontos fortes\n\n  \n- Abordagem respeitosa ao conectar o pedido ao perfil e valores do cliente.\n\n  \n- Esforço evidente para valorizar a solução e o momento da venda.\n\n  \n- Tentativa de segmentar por perfil semelhante ao do cliente (responsável, preocupado com a família).\n\n  \nContinue buscando a ligação genuína do pedido com os benefícios oferecidos!\n\n\n## ⚠️ EIXOS DE MELHORIA\n\n  \n- **Reconhecimento inicial ficou ausente**\n  \n  Faltou parabenizar e reconhecer o cliente de forma clara antes de qualquer pedido, reduzindo impacto positivo do momento wow.\n\n  \n- **Exploração dos pontos de satisfação**\n  \n  Não foi solicitado ao cliente que verbalizasse o que valorizou no processo, o que poderia fortalecer a disposição em recomendar.\n\n  \n- **Pedido aberto e pouco estruturado**\n  \n  A frase “quem que vem à sua mente?” ficou vaga e pode travar a memória do cliente. Falta segmentação mais concreta (ex: “algum colega engenheiro?”).\n\n  \nInvista em mais estrutura na sequência da abordagem e não perca o timing de criar clima positivo!\n\n\n## 🩵 ANÁLISE EMOCIONAL\n\nO tom foi respeitoso, amistoso, mas um pouco hesitante e pouco assertivo, com frases longas e dubitativas. Faltou convicção confiante.\n\n\n## 🛅 MOMENTOS-CHAVE\n\nSituação: Solicitação direta de nomes → O corretor pediu de modo aberto e sem reconhecimento prévio → Impacto: perda do poder do momento de satisfação recente, tornando a entrega de nomes menos natural.\n\n\n##  🔊 REFORMULAÇÕES RECOMENDADAS\n\n“Quero te parabenizar pela decisão e pela preocupação com quem você ama.”\n\n“Sei que esta escolha é importante pra você. O que mais gostou nesse processo que fizemos juntos?”\n\n“Tive muita satisfação em te atender e, por recomendação, ajudo pessoas parecidas a proteger seus projetos. Pensando em colegas preocupados com família e futuro, alguém te vem à cabeça?”\n\n“Posso mencionar seu nome ao entrar em contato?”\n\n\n## ➡️ RECOMENDAÇÕES\n\nAproveite o momento pós-venda com um agradecimento genuíno e faça a pessoa dizer o que gostou. Estruture mais o pedido, dando exemplos concretos de perfis. Peça autorização de menção clara e encerre com gratidão aberta a futuras indicações. Consistência trará cada vez mais recomendações!",
+        "insights": [
+            "Cliente perfil azul DISC, engenheiro de qualidade, metódico, racional, pouco demonstrativo e avesso à pressão.",
+            "Obter nomes de recomendações qualificadas e autorização para contato mencionando o nome do cliente.",
+            "O objetivo não foi atingido, pois não houve devolutiva de nomes ou compromisso do cliente.",
+            "Abordagem respeitosa ao conectar o pedido ao perfil e valores do cliente.",
+            "Esforço evidente para valorizar a solução e o momento da venda.",
+            "Tentativa de segmentar por perfil semelhante ao do cliente (responsável, preocupado com a família).",
+            "Reconhecimento inicial ficou ausente",
+            "Exploração dos pontos de satisfação"
+        ]
     },
     {
         "name": "Geracao Lu.Parceiro",
@@ -10270,7 +11263,18 @@ const RAW_SIMULATIONS = [
                 "text": "Pode cravar então o contato do Rafael e da Marina pra quando eu der o sinal verde. Pode mencionar meu nome no primeiro contato só depois que eu autorizar, combinado?"
             }
         ],
-        "finished": true
+        "finished": true,
+        "feedback": "Aqui está o debriefing da nossa conversa.\n\n  \n## 🤓 PERSONA\n\nCamila, jovem executiva de tecnologia, perfil DISC dominante amarelo, informal, analítica, conectada, curiosa e moderna.\n\n  \n## 🎯 OBJETIVO PRINCIPAL\n\nObter ao menos dois nomes e autorização para contato. O objetivo foi parcialmente atingido, pois houve menção de nomes, mas sem clareza na autorização de abordagem.\n\n  \n## ➕ Pontos fortes\n\n- Você abordou o pedido de recomendação de forma natural, logo após o fechamento, aproveitando o momento de satisfação do cliente.\n\n  \n- Demonstrou proatividade ao segmentar sugestões, mencionando o irmão, a Marina e o primo advogado — ponto positivo para estimular lembrança.\n\n  \n- Procurou alinhar o tom sobre abordagem cuidadosa, sugerindo que o cliente avisasse os indicados previamente, o que mostra empatia.\n\n  \nContinue utilizando aproximação humana e adequando o tom ao perfil de cada cliente!\n\n  \n## ⚠️ EIXOS DE MELHORIA\n\n- Faltou parabenizar e reconhecer a decisão do cliente logo de início, tornando o pedido mais caloroso e menos abrupto.\n\n  \n- Não ficou explícito o valor percebido pelo cliente, pois não foi pedido que ele expressasse com suas próprias palavras o que gostou do atendimento.\n\n  \n- Poderia ter pedido de maneira mais amistosa autorização de citar o nome do cliente no contato inicial, estruturando ainda mais confiança.\n\n  \n- A coleta de recomendações foi eficiente, mas algumas falas ficaram um pouco mecânicas. Experimente trazer perguntas mais abertas e sensíveis: “Além do seu irmão, quem mais você se sentiria confortável em avisar?”\n\n  \nAjustes simples nesses pontos podem multiplicar o número e a qualidade das indicações!\n\n  \n## 🩵 ANÁLISE EMOCIONAL\n\nO tom foi cordial, direto e seguro. Você manteve ritmo estável, mas poderia explorar mais empatia para aumentar conexão.\n\n  \n## 🛅 MOMENTOS-CHAVE\n\nQuando citou o primo advogado e explicou os produtos exclusivos, demonstrou escuta ativa e personalização. Isso é importante para gerar motivação real para indicação.\n\n  \nQuando sugeriu que o cliente avisasse os indicados antes, agregou respeito à abordagem consultiva e fortaleceu a confiança.\n\n  \n## 🔊 REFORMULAÇÕES RECOMENDADAS\n\n“Parabéns pela escolha! Fico feliz em ajudar você a se proteger e a cuidar do seu patrimônio.”\n\n  \n“Sei que confiança é essencial — posso mencionar que foi você quem sugeriu o contato quando falar com essas pessoas?”\n\n  \n“Tem alguém em seu círculo profissional que se beneficiaria dessa proteção, como recém-casados ou colegas empreendedores?”\n\n  \n## ➡️ RECOMENDAÇÕES\n\nReconheça conquistas do cliente no início, peça que ele próprio expresse sua satisfação, e sempre peça autorização explícita para usar seu nome. Segmente por perfis para ampliar a qualidade das indicações. Teste essa abordagem próxima vez: seu funil (e sua rede!) agradecerão. \n\nVocê está no caminho certo — alinhe o detalhe ao seu carisma e colha ótimos resultados!",
+        "insights": [
+            "Você abordou o pedido de recomendação de forma natural, logo após o fechamento, aproveitando o momento de satisfação do cliente.",
+            "Demonstrou proatividade ao segmentar sugestões, mencionando o irmão, a Marina e o primo advogado — ponto positivo para estimular lembrança.",
+            "Procurou alinhar o tom sobre abordagem cuidadosa, sugerindo que o cliente avisasse os indicados previamente, o que mostra empatia.",
+            "Faltou parabenizar e reconhecer a decisão do cliente logo de início, tornando o pedido mais caloroso e menos abrupto.",
+            "Não ficou explícito o valor percebido pelo cliente, pois não foi pedido que ele expressasse com suas próprias palavras o que gostou do atendimento.",
+            "Poderia ter pedido de maneira mais amistosa autorização de citar o nome do cliente no contato inicial, estruturando ainda mais confiança.",
+            "A coleta de recomendações foi eficiente, mas algumas falas ficaram um pouco mecânicas. Experimente trazer perguntas mais abertas e sensíveis: “Além do seu irmão, quem mais você se sentiria confortável em avisar?”",
+            "“Sei que confiança é essencial — posso mencionar que foi você quem sugeriu o contato quando falar com essas pessoas?”"
+        ]
     },
     {
         "name": "Geracao Lu.Parceiro",
@@ -10344,7 +11348,18 @@ const RAW_SIMULATIONS = [
                 "text": "As pessoas mais importantes são minha mulher, meu filho de vinte e quatro anos que depende ainda em parte de mim, e o meu filho de oito anos.  \nPode mandar o contato do Henrique que eu aviso ele agora."
             }
         ],
-        "finished": true
+        "finished": true,
+        "feedback": "Aqui está o debriefing da nossa conversa.\n\n  \n\n## 🤓 PERSONA\n\nInterpretei Roberto, comerciante carioca, perfil majoritariamente verde DISC: cordial, expansivo e orientado a relações, mas com tendência a dispersar e certa ansiedade com decisões administrativas.\n\n  \n\n## 🎯 OBJETIVO PRINCIPAL\n\nO objetivo de obter ao menos dois nomes qualificados e a autorização de menção foi alcançado.\n\n  \n\n## ➕ Pontos fortes\n\n- Você conduziu a conversa com proximidade e gentileza, reforçando seu papel de consultor confiável.\n\n  \n- Utilizou perguntas segmentadas para estimular a memória e facilitar recomendações mais precisas.\n\n  \n- Demonstrou empatia ao pedir para que o cliente avisasse previamente os indicados, respeitando o círculo de confiança.\n\n  \n- Trouxe a ideia de proteção aos “mais importantes”, valorizando o benefício altruísta.\n\n  \n- Parabéns pela assertividade e naturalidade: isso cria ambiente seguro para recomendações sinceras.\n\n  \n\n## ⚠️ EIXOS DE MELHORIA\n\n- Mensagem de valor inicial.\n  Faltou uma saudação clara e um reconhecimento explícito pela decisão do cliente antes do pedido de recomendações — um “momento uau” faria diferença.\n\n  \n- Validação de satisfação.\n  Poderia ter explorado o que o cliente mais gostou do atendimento ou do produto, valorizando suas próprias palavras.\n\n  \n- Sequência de perguntas.\n  Às vezes, engatou perguntas em sequência (“mas já pode me enviar um contato... quem são as pessoas mais importantes...?”), o que pode soar mecânico. Dê espaço entre uma abordagem e outra.\n\n  \nAprimorando esses pontos, seu índice de aceitação vai subir!\n\n  \n\n## 🩵 ANÁLISE EMOCIONAL\n\nO tom foi assertivo, amistoso e seguro, com vocabulário acessível; ritmo um pouco acelerado em alguns momentos, estado emocional dominante: confiante e motivador.\n\n  \n\n## 🛅 MOMENTOS-CHAVE\n\nSituação: Ao pedir para que o cliente avisasse previamente os indicados.\nO que você fez: Deixou o controle na mão do cliente.\nPor que importa: Demonstrou respeito e empatia, destravando possíveis objeções.\n\nSituação: Ao segmentar perfis (colegas que admira, fornecedores).\nImpacto: Facilita “acordar” nomes reais e qualificados.\n\n  \n\n## 🔊 REFORMULAÇÕES RECOMENDADAS\n\n“Antes de tudo, Paulo, obrigado pela confiança — fico feliz que tenha gostado da solução escolhida!”\n\n“Qual ponto deste processo ou da proteção que criamos juntos você destacaria hoje?”\n\n“Se preferir, eu aguardo o seu ok para abordar cada pessoa — só faço contato após seu aviso.”\n\n“Entre seus amigos do trabalho, tem alguém passando por mudanças na família ou nas finanças que poderia se beneficiar de uma orientação sem compromisso?”\n\n  \n\n## ➡️ RECOMENDAÇÕES\n\nInicie sempre validando a satisfação e reconhecendo a escolha do cliente, use pausas para dar tempo de resposta e explore mais a voz do cliente sobre seu próprio valor percebido. Pequenos ajustes vão turbinar ainda mais suas conversões!\n\nContinue firme e lembre-se: abordagem humana é o melhor cartão de visitas.",
+        "insights": [
+            "Interpretei Roberto, comerciante carioca, perfil majoritariamente verde DISC: cordial, expansivo e orientado a relações, mas com tendência a dispersar e certa ansiedade com decisões administrativas.",
+            "Você conduziu a conversa com proximidade e gentileza, reforçando seu papel de consultor confiável.",
+            "Utilizou perguntas segmentadas para estimular a memória e facilitar recomendações mais precisas.",
+            "Demonstrou empatia ao pedir para que o cliente avisasse previamente os indicados, respeitando o círculo de confiança.",
+            "Trouxe a ideia de proteção aos “mais importantes”, valorizando o benefício altruísta.",
+            "Parabéns pela assertividade e naturalidade: isso cria ambiente seguro para recomendações sinceras.",
+            "Mensagem de valor inicial.",
+            "Faltou uma saudação clara e um reconhecimento explícito pela decisão do cliente antes do pedido de recomendações — um “momento uau” faria diferença."
+        ]
     },
     {
         "name": "Parceira Ark",
@@ -10378,7 +11393,9 @@ const RAW_SIMULATIONS = [
                 "text": "Desculpe, senhora, eu prefiro receber o material antes. Se não puder enviar, então não consigo agendar. Adeus."
             }
         ],
-        "finished": false
+        "finished": false,
+        "feedback": "",
+        "insights": []
     },
     {
         "name": "Parceira Ark",
@@ -10391,7 +11408,9 @@ const RAW_SIMULATIONS = [
         "lqa": "N/A",
         "interactions": 0,
         "messages": [],
-        "finished": false
+        "finished": false,
+        "feedback": "",
+        "insights": []
     },
     {
         "name": "Parceira Ark",
@@ -10413,7 +11432,9 @@ const RAW_SIMULATIONS = [
                 "text": "Afternoon, Aline. I’m a bit busy right now. Who are you with and what do you want?"
             }
         ],
-        "finished": false
+        "finished": false,
+        "feedback": "",
+        "insights": []
     },
     {
         "name": "Parceira Ark",
@@ -10483,7 +11504,18 @@ const RAW_SIMULATIONS = [
                 "text": "Perfeito, Aline. Até terça às quinze na entrada da loja."
             }
         ],
-        "finished": true
+        "finished": true,
+        "feedback": "Aqui está o debriefing da nossa troca\n\n🤓 PERSONA\n\nVocê conversou com uma persona relacional, perfil DISC Verde, calorosa e aberta, mas que espera clareza, empatia e ligação com recomendações de confiança.\n\n🎯 OBJETIVO PRINCIPAL\n\nVocê respondeu às objeções de maneira rápida e precisa, conquistando o acordo para uma reunião presencial. O objetivo foi plenamente atingido.\n\n➕ PONTOS FORTES\n\n- Sua energia inicial e uso do nome de quem indicou geraram conexão e credibilidade logo de saída.\n\n- O convite direto para reunião, com escolha forçada de datas próximas, foi exemplar para acelerar o fechamento.\n\n- Você lidou positivamente com a objeção de envio de material, explicando a necessidade do encontro personalizado.\n\n- Fez excelente reconfirmação do compromisso, detalhando dia, horário, local e combinando bloqueio de agenda.\n\n⚠️ PONTOS DE MELHORIA\n\n- Não houve solicitação clara de autorização antes de explicar como conseguiu o contato, o que pode gerar desconfiança.\n\n- Faltou atuar um quebra-gelo genuíno e pessoal, indo além do nome da “Roberta”, para criar vínculo familiar.\n\n- Sua gestão de objeções poderia ser mais consultiva, validando a preocupação (“Entendo que queira material, mas…”), antes de seguir para solução.\n\n- Evite começo prolixo ao pedir reunião: “a meu– minha intenção é marcar um convite, tá?” pode ser mais seguro, curto e consultivo.\n\n🩵 ANÁLISE EMOCIONAL\n\nO tom foi amistoso, animado e seguro, mas seria ainda melhor com mais escuta ativa e pausas. Sua postura transmitiu confiança e energia positiva.\n\n🛅 MOMENTOS-CHAVE\n\nQuando você trouxe imediatamente a indicação de Roberta e associou com valor percebido, baixou as defesas do prospect e acelerou o rapport, o que impactou decisivamente na aceitação da proposta de reunião.\n\n🔊 REFORMULAÇÕES RECOMENDADAS\n\n“Antes de seguirmos, posso contar como cheguei até você?”\n\n“Legal, posso te explicar rapidinho o que faço, assim você avalia se vale a pena o nosso papo.”\n\n“Vi que você prefere material, mas nossa proposta é personalizada. Posso contextualizar ao vivo?”\n\n“Em qual endereço fica mais confortável pra você?”\n\n➡️ RECOMENDAÇÕES\n\nPeça sempre autorização antes de usar recomendações, crie mais conexão humana com um quebra-gelo e trate cada objeção com validação explícita. Insira perguntas mais personalizadas e escuta ativa. Pequenas melhorias darão ainda mais retorno.\n\nContinue brilhando e lembre-se: empatia consultiva é sempre a cereja do bolo!",
+        "insights": [
+            "Sua energia inicial e uso do nome de quem indicou geraram conexão e credibilidade logo de saída.",
+            "O convite direto para reunião, com escolha forçada de datas próximas, foi exemplar para acelerar o fechamento.",
+            "Você lidou positivamente com a objeção de envio de material, explicando a necessidade do encontro personalizado.",
+            "Fez excelente reconfirmação do compromisso, detalhando dia, horário, local e combinando bloqueio de agenda.",
+            "Não houve solicitação clara de autorização antes de explicar como conseguiu o contato, o que pode gerar desconfiança.",
+            "Faltou atuar um quebra-gelo genuíno e pessoal, indo além do nome da “Roberta”, para criar vínculo familiar.",
+            "Sua gestão de objeções poderia ser mais consultiva, validando a preocupação (“Entendo que queira material, mas…”), antes de seguir para solução.",
+            "Evite começo prolixo ao pedir reunião: “a meu– minha intenção é marcar um convite, tá?” pode ser mais seguro, curto e consultivo."
+        ]
     },
     {
         "name": "Parceira Ark",
@@ -10553,7 +11585,18 @@ const RAW_SIMULATIONS = [
                 "text": "Não aceito pré-agendamento. Quero primeiro receber por email as condições gerais com destaque para exclusões, prazos de carência e exemplos práticos sem valores. Depois eu avalio e te respondo sobre reunião. Despeço."
             }
         ],
-        "finished": true
+        "finished": true,
+        "feedback": "Aqui está o debriefing da nossa troca\n\n \n\n🤓 PERSONA\n\nDentista autônoma, madura, perfil DISC majoritariamente Verde; busca segurança, valoriza cuidado, aprecia explicação e cautela.\n\n \n\n🎯 OBJETIVO PRINCIPAL\n\nVocê respondeu de forma empenhada e respeitosa às objeções, mas não obteve o aceite de reunião com confirmação. Objetivo parcialmente atingido.\n\n \n\n➕ PONTOS FORTES\n\n- Uso consistente do nome da referência (Cristiana) para gerar proximidade e recomendação.\n\n \n\n- Direcionou o tom à consultoria e planejamento financeiro, fugindo do rótulo puro de vendedora.\n\n \n\n- Apresentou benefício da personalização, reforçando que a solução é feita sob medida.\n\n \n\n- Fez perguntas de escolha forçada sobre horários, focada em transformar em reunião.\n\n \n\n⚠️ PONTOS DE MELHORIA\n\n- Ausência de pedido explícito de autorização antes do pitch inicial, pulando etapa básica do método.\n\n \n\n- Faltou abordar com mais clareza o interesse direto do prospect em aceitar a reunião; ficou no genérico do “faz sentido”, sem benefício concreto imediato.\n\n \n\n- Deu sinais de querer “explicar coberturas, benefícios e até valores” por telefone, o que beira antecipação do produto, desviando do foco só no agendamento.\n\n \n\n- A reconfirmação de detalhes do encontro (local, data, formato) não ocorreu, tampouco a validação clara do aceite da reunião.\n\n \n\n🩵 ANÁLISE EMOCIONAL\n\nPostura cordial e paciente, por vezes repetitiva e justificativa, com vocabulário acessível e ritmo respeitoso. Predominou boa vontade, mas faltou firmeza consultiva.\n\n \n\n🛅 MOMENTOS-CHAVE\n\nNo uso imediato da recomendação da Cristiana, gerou aproximação e curiosidade inicial, ponto-chave da abertura.\n\n \n\nAo focar repetidamente na construção personalizada apenas após a reunião, defendeu o método, mas perdeu oportunidade de engajar oferecendo uma mini-amostra concreta do ganho.\n\n \n\n🔊 REFORMULAÇÕES RECOMENDADAS\n\n- “Cristiana pensou em você pois viu que seu momento pede soluções alinhadas à sua realidade atual.”\n\n \n\n- “Posso garantir: em poucos minutos na reunião, trago clareza de como proteger seu patrimônio de forma eficiente.”\n\n \n\n- “Para facilitar, fico à disposição na quarta-feira às quinze ou quinta-feira às dezessete, o que é mais conveniente pra você?”\n\n \n\n- “A primeira conversa é só para mapear pontos importantes do seu cenário—sem compromisso nenhum de contratação, ok?”\n\n \n\n➡️ RECOMENDAÇÕES\n\nNão antecipe explicações nem detalhes técnicos na ligação. Foque sempre no benefício imediato do encontro, use perguntas de escolha forçada, e sempre peça autorização antes do pitch. Reconfirme reunião explicitamente. Continue aprimorando—cada tentativa te deixa mais próximo do seu potencial máximo!",
+        "insights": [
+            "Uso consistente do nome da referência (Cristiana) para gerar proximidade e recomendação.",
+            "Direcionou o tom à consultoria e planejamento financeiro, fugindo do rótulo puro de vendedora.",
+            "Apresentou benefício da personalização, reforçando que a solução é feita sob medida.",
+            "Fez perguntas de escolha forçada sobre horários, focada em transformar em reunião.",
+            "Ausência de pedido explícito de autorização antes do pitch inicial, pulando etapa básica do método.",
+            "Faltou abordar com mais clareza o interesse direto do prospect em aceitar a reunião; ficou no genérico do “faz sentido”, sem benefício concreto imediato.",
+            "Deu sinais de querer “explicar coberturas, benefícios e até valores” por telefone, o que beira antecipação do produto, desviando do foco só no agendamento.",
+            "A reconfirmação de detalhes do encontro (local, data, formato) não ocorreu, tampouco a validação clara do aceite da reunião."
+        ]
     },
     {
         "name": "Parceira Ark",
@@ -10599,7 +11642,9 @@ const RAW_SIMULATIONS = [
                 "text": "Se é tão transformador, antes me diga um exemplo concreto de benefício que eu teria depois dessa reunião."
             }
         ],
-        "finished": false
+        "finished": false,
+        "feedback": "",
+        "insights": []
     },
     {
         "name": "Parceira Ark",
@@ -10661,7 +11706,18 @@ const RAW_SIMULATIONS = [
                 "text": "Boa tarde. Vou aguardar o"
             }
         ],
-        "finished": true
+        "finished": true,
+        "feedback": "Aqui está o debriefing da nossa troca.\n\n🤓 PERSONA\n\nRoberta, perfil focado, cordial e criterioso, predominância verde no DISC, cautelosa ao receber contatos comerciais.\n\n🎯 OBJETIVO PRINCIPAL\n\nVocê conseguiu contornar as objeções sobre envio prévio de material e agendou a reunião, mas sem confirmação detalhada. Objetivo parcialmente atingido.\n\n➕ PONTOS FORTES\n\n- Fez menção a uma recomendação (“Camila, da faculdade”), ativando o vínculo e trazendo proximidade.\n\n- Manteve a proposta de escolha forçada entre dois dias, facilitando a decisão do prospect.\n\n- Insistiu de forma respeitosa na importância do contato personalizado, mostrando preocupação real com o contexto do cliente.\n\n- Tom consistente de consultoria, com foco em planejamento e personalização, não vendendo produto na ligação.\n\n⚠️ PONTOS DE MELHORIA\n\n- Faltou solicitar autorização explícita logo de início para seguir a conversa, etapa essencial.\n\n- Ausência de um verdadeiro quebra-gelo personalizado além da menção à Camila, o que poderia gerar mais conexão.\n\n- Não houve reconfirmação clara do local/modalidade e menos ainda um resumo final do compromisso assumido.\n\n- O discurso soou um pouco repetitivo quanto à importância da conversa, podendo ter mais clareza sobre o benefício para a Roberta aceitar a reunião.\n\n🩵 ANÁLISE EMOCIONAL\n\nO tom foi estável e respeitoso, passando segurança, mas em alguns momentos titubeou, demonstrando leve ansiedade para garantir o agendamento.\n\n🛅 MOMENTOS-CHAVE\n\nSituação: Objeção sobre envio de material. \nVocê insistiu na personalização pós-conversa, o que ajudou a reposicionar o valor do encontro.\nIsto reforça o objetivo da ligação e demonstra cuidado consultivo.\n\n🔊 REFORMULAÇÕES RECOMENDADAS\n\n“Roberta, posso avançar e explicar rapidamente o motivo desse contato que a Camila me autorizou?”\n\n“Entendo a sua preferência pelo material, mas prometo que na conversa será realmente feito sob medida para sua realidade.”\n\n“Se ficar mais fácil, podemos fazer online ou presencial, o que você preferir. Terça às duas seria ideal?”\n\n“Quero te ajudar a antecipar situações, protegendo seu patrimônio e sonhos – como fiz com a Camila.”\n\n➡️ RECOMENDAÇÕES\n\nInicie sempre pedindo permissão, reforce vínculo com a recomendação e deixe clara a vantagem da reunião para a vida da prospect. Finalize confirmando local e compromisso. Não esqueça, o segredo está no detalhe consultivo!\n\nParabéns pela postura! Continue evoluindo: cada conversa é um passinho rumo à excelência.",
+        "insights": [
+            "Fez menção a uma recomendação (“Camila, da faculdade”), ativando o vínculo e trazendo proximidade.",
+            "Manteve a proposta de escolha forçada entre dois dias, facilitando a decisão do prospect.",
+            "Insistiu de forma respeitosa na importância do contato personalizado, mostrando preocupação real com o contexto do cliente.",
+            "Tom consistente de consultoria, com foco em planejamento e personalização, não vendendo produto na ligação.",
+            "Faltou solicitar autorização explícita logo de início para seguir a conversa, etapa essencial.",
+            "Ausência de um verdadeiro quebra-gelo personalizado além da menção à Camila, o que poderia gerar mais conexão.",
+            "Não houve reconfirmação clara do local/modalidade e menos ainda um resumo final do compromisso assumido.",
+            "O discurso soou um pouco repetitivo quanto à importância da conversa, podendo ter mais clareza sobre o benefício para a Roberta aceitar a reunião."
+        ]
     },
     {
         "name": "Parceira Ark",
@@ -10711,7 +11767,14 @@ const RAW_SIMULATIONS = [
                 "text": "Até terça, então, por vídeo, Elvis."
             }
         ],
-        "finished": true
+        "finished": true,
+        "feedback": "Aqui está o debriefing da nossa troca.\n\n🤓 PERSONA\n\nInterpretei um prospect do tipo analítico-comunicador, perfil DISC amarelo, aberto a conversa, mas objetivo e prático.\n\n🎯 OBJETIVO PRINCIPAL\n\nVocê respondeu rapidamente e foi assertivo nas propostas, conseguindo o agendamento para uma reunião de descoberta. Objetivo plenamente atingido.\n\n➕ PONTOS FORTES\n\nSua apresentação foi clara e breve, focando no benefício do vínculo com o Rodrigo, o que cria confiança rapidamente.\n\nVocê aplicou corretamente a escolha forçada entre dois horários próximos, facilitando a aceitação do convite.\n\nO tom da abordagem foi acolhedor e prático, demonstrando segurança e leveza.\n\nA conclusão reforçou organização e proatividade ao realizar o envio imediato do convite e confirmar recebimento.\n\n⚠️ PONTOS DE MELHORIA\n\nFaltou o pedido explícito de autorização para seguir com o contato logo após se identificar, o que pode evitar resistências iniciais.\n\nA abordagem não incluiu uma breve quebra-gelo pessoal ou ativação mais natural da recomendação do Rodrigo, elementos que poderiam engajar ainda mais.\n\nNão houve espaço para escutar possíveis objeções do prospect, o que pode ser uma armadilha: sempre esteja preparado para explorar e tratar objeções.\n\nA reconfirmação poderia ter sido reforçada mais uma vez, garantindo total compromisso do prospect.\n\n🩵 ANÁLISE EMOCIONAL\n\nTodo o contato foi conduzido com voz positiva, ágil e confiante. Sua energia transmite profissionalismo, mas pode evoluir em empatia exploratória.\n\n🛅 MOMENTOS-CHAVE\n\nNo momento em que você usou a referência do Rodrigo, consolidou confiança, tornando a aceitação do convite bem mais provável.\n\nAo direcionar rapidamente a agenda e ancorar em horários próximos, você eliminou margin for procrastinação do prospect.\n\n🔊 REFORMULAÇÕES RECOMENDADAS\n\nPosso te explicar rapidamente como esse encontro pode ajudar diretamente na sua rotina, pode ser?\n\nAntes de continuar, posso seguir com nossa conversa, tudo bem pra você?\n\nO Rodrigo comentou de uma situação sua que eu achei super interessante, posso compartilhar?\n\nCaso prefira outra data próxima, só me avisar, o importante é ser prático pra você.\n\n➡️ RECOMENDAÇÕES\n\nInclua sempre o pedido de autorização logo no início, exercite escuta ativa para captar objeções e amplie a personalização do quebra-gelo. Humanize com um toque de humor ou curiosidade sobre o contato indicado. Assim, a jornada até a reunião será ainda mais fluida e relevante. Segue firme, você já está na trilha certa!",
+        "insights": [
+            "Interpretei um prospect do tipo analítico-comunicador, perfil DISC amarelo, aberto a conversa, mas objetivo e prático.",
+            "A abordagem não incluiu uma breve quebra-gelo pessoal ou ativação mais natural da recomendação do Rodrigo, elementos que poderiam engajar ainda mais.",
+            "Não houve espaço para escutar possíveis objeções do prospect, o que pode ser uma armadilha: sempre esteja preparado para explorar e tratar objeções.",
+            "Inclua sempre o pedido de autorização logo no início, exercite escuta ativa para captar objeções e amplie a personalização do quebra-gelo. Humanize com um toque de humor ou curiosidade sobre o contato indicado. Assim, a jornada até a reunião será ainda mais fluida e relevante. Segue firme, você já está na trilha certa!"
+        ]
     },
     {
         "name": "Parceira Ark",
@@ -10789,7 +11852,18 @@ const RAW_SIMULATIONS = [
                 "text": "Beleza, fico no aguardo do material por e-mail. Até mais."
             }
         ],
-        "finished": true
+        "finished": true,
+        "feedback": "Aqui está o debriefing da nossa troca.\n\n🤓 PERSONA\n\nAtuei como Daniel, perfil dominante verde no DISC, reservado, criterioso e racional, com viés analítico e postura cordial.\n\n🎯 OBJETIVO PRINCIPAL\n\nVocê respondeu às objeções, mas não obteve confirmação de reunião de descoberta, apenas acordo para envio de material. Objetivo parcialmente atingido.\n\n➕ PONTOS FORTES\n\n- O gatilho de recomendação foi ativado mencionando de forma natural a Débora como contato comum.\n\n- Você se manteve cordial e demonstrou disponibilidade ao adaptar os dias propostos e acolher a agenda do prospect.\n\n- Argumentou de forma consultiva sobre a personalização do serviço, evitando discursos de venda direta e respeitando o tempo do cliente.\n\n⚠️ PONTOS DE MELHORIA\n\n- **Autorizações e roteiro**  \n  Faltou pedir autorização explícita para seguir a conversa, o que ajuda a baixar defesas e dá mais controle ao prospect.\n\n- **Estrutura e reconfirmação**  \n  A estrutura MetLife não foi seguida na íntegra: faltou quebra-gelo pessoal, escolha forçada entre dois horários próximos e reconfirmação final do encontro.\n\n- **Gestão de objeções**  \n  O tratamento das objeções foi repetitivo (falta de material prévio), mas não aplicado com a técnica do “sim, mas...”, tampouco com perguntas exploratórias.\n\n- **Avanço do processo**  \n  Aceitou facilmente o envio de material por e-mail e jogou para o prospect o compromisso de retorno, enfraquecendo a taxa de transformação.\n\n🩵 ANÁLISE EMOCIONAL\n\nO tom foi estável, educado e gentil, ritmo calmo, vocabulário simples. Estado emocional: sereno e cooperativo, mas faltou assertividade para avançar.\n\n🛅 MOMENTOS-CHAVE\n\nSituação: Quando você propôs várias datas rapidamente. Isso tornou a abordagem flexível, mas não forçou decisão imediata, perdendo o “agora ou nunca” suave.\n\nSituação: Quando cedeu ao envio de material. Isso diluiu a oportunidade, mostrando insegurança em conduzir o agendamento.\n\n🔊 REFORMULAÇÕES RECOMENDADAS\n\n- “Fulano, se você preferir, posso te apresentar pessoalmente em vinte minutos, assim ganho seu feedback direto.”\n\n- “Por respeito ao seu tempo, te proponho terça ou quarta-feira, qual se encaixa melhor na sua agenda?”\n\n- “Entendo seu pedido de material, mas só customizo após entender sua realidade, combinado?”\n\n- “Se ficar mais fácil, já agendamos agora – depois qualquer ajuste fazemos juntos, pode ser?”\n\n➡️ RECOMENDAÇÕES\n\nPriorize sempre a escolha forçada e reconfirme data/hora ao final. Trate objeção realçando valor da conversa ao vivo. Use mais técnicas “sim, mas...”. Lembre: quem decide é você, não o WhatsApp.\n\nVocê já tem atitude acolhedora – só falta transformar simpatia em compromisso concreto!",
+        "insights": [
+            "O gatilho de recomendação foi ativado mencionando de forma natural a Débora como contato comum.",
+            "Você se manteve cordial e demonstrou disponibilidade ao adaptar os dias propostos e acolher a agenda do prospect.",
+            "Argumentou de forma consultiva sobre a personalização do serviço, evitando discursos de venda direta e respeitando o tempo do cliente.",
+            "Autorizações e roteiro",
+            "Estrutura e reconfirmação",
+            "A estrutura MetLife não foi seguida na íntegra: faltou quebra-gelo pessoal, escolha forçada entre dois horários próximos e reconfirmação final do encontro.",
+            "Aceitou facilmente o envio de material por e-mail e jogou para o prospect o compromisso de retorno, enfraquecendo a taxa de transformação.",
+            "O tom foi estável, educado e gentil, ritmo calmo, vocabulário simples. Estado emocional: sereno e cooperativo, mas faltou assertividade para avançar."
+        ]
     },
     {
         "name": "Parceira Ark",
@@ -10802,7 +11876,9 @@ const RAW_SIMULATIONS = [
         "lqa": "N/A",
         "interactions": 0,
         "messages": [],
-        "finished": false
+        "finished": false,
+        "feedback": "",
+        "insights": []
     },
     {
         "name": "Parceira Ark",
@@ -10815,7 +11891,9 @@ const RAW_SIMULATIONS = [
         "lqa": "N/A",
         "interactions": 0,
         "messages": [],
-        "finished": false
+        "finished": false,
+        "feedback": "",
+        "insights": []
     },
     {
         "name": "Parceira Ark",
@@ -10841,7 +11919,9 @@ const RAW_SIMULATIONS = [
                 "text": "You did well. The presentation was clear and focused on what"
             }
         ],
-        "finished": false
+        "finished": false,
+        "feedback": "",
+        "insights": []
     },
     {
         "name": "Parceira Ark",
@@ -10979,7 +12059,18 @@ const RAW_SIMULATIONS = [
                 "text": "Tá bem então, obrigada"
             }
         ],
-        "finished": true
+        "finished": true,
+        "feedback": "Aqui está o debriefing da nossa conversa\n\n \n\n🤓 PERSONA\n\nThiago — empreendedor, direto, objetivo, com perfil DISC predominantemente vermelho (dominante), pouco paciente para rodeios e orientado para resultados.\n\n \n\n🎯 OBJETIVO PRINCIPAL\n\nObter pelo menos dois nomes de recomendações e autorização para contato mencionando o nome do cliente. Objetivo atingido.\n\n \n\n➕ Pontos fortes\n\n- Você foi cordial, fez perguntas claras e diretas e demonstrou preocupação em deixar o cliente à vontade antes de avançar com o pedido.\n\n \n\n- Seguiu uma cadência de abordagem leve e procurou legitimar sua iniciativa (“apresentação sem compromisso”, “pode confiar em mim”).\n\n \n\n- Ao citar exemplos como amigos, personal ou advogado, você facilitou a lembrança de pessoas próximas, tornando concreto o pedido de recomendações.\n\n \n\n- Houve escuta ativa e busca de validação sobre o que agradou (“Me dá uma nota de zero a dez”), incentivando o cliente a se manifestar.\n\nÓtima iniciativa, continue valorizando a relação humana mesmo em demandas comerciais!\n\n \n\n⚠️ EIXOS DE MELHORIA\n\n- A etapa de reconhecimento do “momento uau” foi rápida demais; faltou parabenizar explicitamente pelo contrato fechado e reforçar o valor da escolha antes do pedido.\n\n \n\n- O pedido de recomendações foi excessivamente aberto em alguns pontos (“me fala quem você acha...”), o que pode dificultar para o cliente lembrar nomes sem um critério mais específico.\n\n \n\n- A cada novo nome perguntado, o tom ficou repetitivo e insistente; tente evitar o estilo “checklist” e invista na personalização de cada pedido, valorizando os nomes já recebidos.\n\n \n\n- Faltaram perguntas mais profundas sobre cada indicado para contextualizar melhor o futuro contato (anecdota, relação com o cliente, interesse potencial).\n\nPraticando uma abordagem mais personalizada e celebrando mais o cliente, você pode avançar ainda mais!\n\n \n\n🩵 ANÁLISE EMOCIONAL\n\nO tom foi informal e simpático, com ritmo constante. A linguagem foi acolhedora, mas por vezes repetitiva. A postura predominante foi confiante e cordial.\n\n \n\n🛅 MOMENTOS-CHAVE\n\nSituação: Você tranquilizou o cliente sobre não contatar ninguém sem sinal verde.\n\nO que fez: Explicou seu método de abordagem transparente e respeitosa.\n\nImportância: Gerou confiança e reduziu o receio da cliente.\n\nImpacto: Facilitou a entrega das recomendações.\n\n \n\n🔊 REFORMULAÇÕES RECOMENDADAS\n\n“Parabéns pela decisão e obrigado por confiar no meu trabalho! Fico feliz em te atender.”\n\n \n\n“Lembrei de algumas situações em que meus clientes valorizam essa proteção, como amigos empreendedores ou que tenham família. Vem alguém à mente para você?”\n\n \n\n“Se preferir, posso aguardar seu sinal antes de falar com cada indicado, para que seja tranquilo para todos.”\n\n \n\n➡️ RECOMENDAÇÕES\n\nCelebre formalmente a conquista do cliente antes do pedido. Foque mais em perfis específicos ao guiar a memória do cliente. Valorize cada indicação recebida e aprofunde um pouco mais sobre o contexto de cada recomendado. Isso fortalecerá a confiança e tornará seu funil de indicações mais robusto.\n\nContinue evoluindo — sua escuta genuína já te coloca à frente!",
+        "insights": [
+            "Thiago — empreendedor, direto, objetivo, com perfil DISC predominantemente vermelho (dominante), pouco paciente para rodeios e orientado para resultados.",
+            "Você foi cordial, fez perguntas claras e diretas e demonstrou preocupação em deixar o cliente à vontade antes de avançar com o pedido.",
+            "Seguiu uma cadência de abordagem leve e procurou legitimar sua iniciativa (“apresentação sem compromisso”, “pode confiar em mim”).",
+            "Ao citar exemplos como amigos, personal ou advogado, você facilitou a lembrança de pessoas próximas, tornando concreto o pedido de recomendações.",
+            "Houve escuta ativa e busca de validação sobre o que agradou (“Me dá uma nota de zero a dez”), incentivando o cliente a se manifestar.",
+            "A etapa de reconhecimento do “momento uau” foi rápida demais; faltou parabenizar explicitamente pelo contrato fechado e reforçar o valor da escolha antes do pedido.",
+            "O pedido de recomendações foi excessivamente aberto em alguns pontos (“me fala quem você acha...”), o que pode dificultar para o cliente lembrar nomes sem um critério mais específico.",
+            "A cada novo nome perguntado, o tom ficou repetitivo e insistente; tente evitar o estilo “checklist” e invista na personalização de cada pedido, valorizando os nomes já recebidos."
+        ]
     },
     {
         "name": "Parceira Ark",
@@ -10992,7 +12083,9 @@ const RAW_SIMULATIONS = [
         "lqa": "N/A",
         "interactions": 0,
         "messages": [],
-        "finished": false
+        "finished": false,
+        "feedback": "",
+        "insights": []
     },
     {
         "name": "Parceira Ark",
@@ -11146,7 +12239,18 @@ const RAW_SIMULATIONS = [
                 "text": "Até logo."
             }
         ],
-        "finished": true
+        "finished": true,
+        "feedback": "Aqui está o debriefing da nossa conversa.\n\n  \n## 🤓 PERSONA\n\nRicardo, executivo sênior de banco privado, perfil DISC predominante vermelho, analítico e objetivo nas interações.\n\n  \n## 🎯 OBJETIVO PRINCIPAL\n\nObter ao menos dois nomes de recomendações com autorização de contato mencionando o cliente — objetivo totalmente atingido.\n\n  \n## ➕ Pontos fortes\n\n- Você parabenizou a cliente calorosamente pela decisão de contratar o seguro, valorizando o momento positivo.\n\n  \n- Demonstrou escuta ativa ao agradecer o feedback da cliente e indicar que usará a crítica para evoluir.\n\n  \n- Fez o pedido de recomendações de modo direto, mas humanizando o argumento (“proteger quem você ama”).\n\n  \n- Pediu autorização clara para mencionar o nome da cliente, respeitando os limites expressos (\"Exceto Alexandre...\").\n\n  \nMandou bem ao mostrar preocupação com o tempo da cliente e tentativas de agilizar a coleta dos contatos.\n\n  \n## ⚠️ EIXOS DE MELHORIA\n\n- Sequência de abordagem\n\n  Faltou explicar, logo no início, que sua atividade depende de recomendações; isso teria naturalizado mais o pedido.\n\n  \n- Segmentação dos perfis\n\n  As sugestões de perfis chegaram um pouco depois do primeiro pedido. Segmentar logo de cara ajuda a memória do cliente.\n\n  \n- Extração de contexto\n\n  Poderia ter pedido um diferencial ou anedota sobre cada indicado (“Conta um pouco sobre a Cláudia para eu adaptar meu contato”).\n\n  \n- Tom assertivo x pressão\n\n  Em alguns momentos, quase soou insistente para entregar os contatos imediatamente; atenção para não atropelar o ritmo do cliente.\n\n  \nPróximos passos: atacar logo o racional do pedido e lapidar a transição para a solicitação dos nomes!\n\n  \n## 🩵 ANÁLISE EMOCIONAL\n\nA condução foi empática e calorosa, por vezes nervosa (gaguejada relatada pelo próprio corretor). Estado geral: confiante, apesar de levemente ansioso no fechamento.\n\n  \n## 🛅 MOMENTOS-CHAVE\n\nNo início, ao parabenizar genuinamente a cliente pela escolha do seguro, você estabeleceu empatia, facilitando o clima para a recomendação.\n\n  \nDurante a solicitação das referências, seu cuidado em pedir autorização de menção do nome transmitiu respeito e profissionalismo, desbloqueando a cooperação da cliente.\n\n  \n## 🔊 REFORMULAÇÕES RECOMENDADAS\n\n“Quero agradecer novamente por confiar em mim e nesta escolha — fiquei feliz com sua decisão!”\n\n  \n“Minha atividade depende muito de indicações de clientes satisfeitos como você. Posso contar com sua ajuda para apresentar esse benefício a outros?”\n\n  \n“Poderia compartilhar uma característica ou situação sobre a Cláudia para que eu a aborde da melhor forma possível?”\n\n  \n“Fique tranquila, só entrarei em contato após seu sinal verde.”\n\n  \n## ➡️ RECOMENDAÇÕES\n\nDê contexto ao pedido logo de início, antecipando objeções. Traga exemplos de perfis antes de perguntar “quem vem à cabeça”. Peça sempre uma dica pessoal sobre cada indicado. Cuide para manter ritmo suave, mostrando que a pressa é por agilidade e não por pressão.\n\n  \nVocê já está fazendo um excelente trabalho. Com pequenos ajustes, seu desempenho irá decolar!",
+        "insights": [
+            "Obter ao menos dois nomes de recomendações com autorização de contato mencionando o cliente — objetivo totalmente atingido.",
+            "Você parabenizou a cliente calorosamente pela decisão de contratar o seguro, valorizando o momento positivo.",
+            "Demonstrou escuta ativa ao agradecer o feedback da cliente e indicar que usará a crítica para evoluir.",
+            "Fez o pedido de recomendações de modo direto, mas humanizando o argumento (“proteger quem você ama”).",
+            "Pediu autorização clara para mencionar o nome da cliente, respeitando os limites expressos (\"Exceto Alexandre...\").",
+            "Sequência de abordagem",
+            "Segmentação dos perfis",
+            "Extração de contexto"
+        ]
     },
     {
         "name": "Parceira Ark",
@@ -11164,7 +12268,9 @@ const RAW_SIMULATIONS = [
                 "text": "O mais simples: encaminhe-me o documento por e-mail, eu o analiso com"
             }
         ],
-        "finished": false
+        "finished": false,
+        "feedback": "",
+        "insights": []
     },
     {
         "name": "Parceira Ark",
@@ -11242,7 +12348,18 @@ const RAW_SIMULATIONS = [
                 "text": "Pode deixar, pode contar comigo sim. Quando você mandar a mensagem eu já encaminho pro Carlos e pro Jorge."
             }
         ],
-        "finished": true
+        "finished": true,
+        "feedback": "Aqui está o debriefing da nossa conversa.\n\n  \n## 🤓 PERSONA\n\nRoberto, comerciante carioca, perfil majoritariamente Verde no DISC: cordial, aberto, mas com toques de ansiedade e resistência inicial.\n\n  \n## 🎯 OBJETIVO PRINCIPAL\n\nObter ao menos dois nomes de recomendados e autorização para contato mencionando o nome do cliente.\n\nO objetivo foi atingido.\n\n  \n## ➕ Pontos fortes\n\n- Você manteve um tom acolhedor e explicou bem o processo, sempre tranquilizando o cliente.\n\n  \n- Demonstrou respeito pelo vínculo de confiança, reforçando que só falaria com recomendados após aviso prévio do próprio cliente.\n\n  \n- Segmentou os perfis de recomendação, citando empresários, familiares e profissionais de saúde, o que facilitou o raciocínio do cliente.\n\n  \n- Fez elogios ao cliente pela decisão, valorizando o momento e mostrando empatia.\n\n  \nParabéns! Sua abordagem foi natural, receptiva e transmitiu segurança.\n\n  \n## ⚠️ EIXOS DE MELHORIA\n\n- Faltou explorar de maneira mais direta os pontos que o cliente apreciou no seu atendimento, estimulando-o a verbalizar sua satisfação antes do pedido.\n\n  \n- A introdução do pedido poderia ter sido menos acelerada: em certas falas, você misturou etapas, talvez por ansiedade em fechar as recomendações sem espaçar perguntas.\n\n  \n- É recomendável pedir autorização explícita para citar o nome do cliente, de forma mais formal: apesar de ter mencionado, ficou um pouco implícito.\n\n  \n- Trazer uma anedota ou característica do recomendado teria humanizado ainda mais o futuro contato, tornando-o menos impessoal.\n\n  \nÓtimas oportunidades para lapidar sua abordagem, tornando-a ainda mais memorável!\n\n  \n## 🩵 ANÁLISE EMOCIONAL\n\nSeu tom foi cordial, seguro e simpático, com leve ritmo acelerado em alguns momentos. O estado emocional dominante foi confiante e empático, com foco na manutenção do vínculo.\n\n  \n## 🛅 MOMENTOS-CHAVE\n\nSituação: Ao afirmar que só entraria em contato após o cliente avisar os recomendados, você quebrou barreiras e gerou confiança. Isso é essencial para reduzir objeções e mostrar respeito.\n\nSituação: Segmentou perfis de maneira clara (“personal, médico, irmão, amigo com loja...”), destravando os nomes mais rapidamente e ajudando a memória do cliente.\n\n  \n## 🔊 REFORMULAÇÕES RECOMENDADAS\n\n“Roberto, parabéns pela escolha, fiquei muito feliz em te ajudar com esse planejamento.”\n\n“Me conta, pensando no nosso papo, o que você mais gostou do nosso trabalho juntos?”\n\n“Se você sentir que faz sentido, posso mencionar seu nome no primeiro contato com seus amigos?”\n\n“Tem alguém do seu círculo que está passando por uma situação parecida e poderia se beneficiar dessa proteção?”\n\n  \n## ➡️ RECOMENDAÇÕES\n\nLembre sempre de reconhecer a decisão do cliente antes do pedido. Peça que ele expresse os pontos de satisfação. Segmente mais e peça autorização explícita para citar o nome. Personalize. Isso garante recomendações melhores e fortalece o relacionamento. Siga praticando: você está muito no caminho certo!",
+        "insights": [
+            "Roberto, comerciante carioca, perfil majoritariamente Verde no DISC: cordial, aberto, mas com toques de ansiedade e resistência inicial.",
+            "Você manteve um tom acolhedor e explicou bem o processo, sempre tranquilizando o cliente.",
+            "Demonstrou respeito pelo vínculo de confiança, reforçando que só falaria com recomendados após aviso prévio do próprio cliente.",
+            "Segmentou os perfis de recomendação, citando empresários, familiares e profissionais de saúde, o que facilitou o raciocínio do cliente.",
+            "Fez elogios ao cliente pela decisão, valorizando o momento e mostrando empatia.",
+            "Faltou explorar de maneira mais direta os pontos que o cliente apreciou no seu atendimento, estimulando-o a verbalizar sua satisfação antes do pedido.",
+            "A introdução do pedido poderia ter sido menos acelerada: em certas falas, você misturou etapas, talvez por ansiedade em fechar as recomendações sem espaçar perguntas.",
+            "É recomendável pedir autorização explícita para citar o nome do cliente, de forma mais formal: apesar de ter mencionado, ficou um pouco implícito."
+        ]
     },
     {
         "name": "Ark Parceiro",
@@ -11364,7 +12481,18 @@ const RAW_SIMULATIONS = [
                 "text": "Valeu, até quarta."
             }
         ],
-        "finished": true
+        "finished": true,
+        "feedback": "Aqui está o debriefing da nossa troca.\n\n🤓 PERSONA\n\nJovem executiva de tecnologia, perfil DISC predominantemente amarelo, digital-native, investigativa, desconfiada e focada em valor prático.\n\n🎯 OBJETIVO PRINCIPAL\n\nVocê conseguiu contornar objeções iniciais e formalizar uma reunião de descoberta com dia, hora e modalidade. Objetivo atingido.\n\n➕ PONTOS FORTES\n\n- Realizou uma apresentação simpática, deixando clara a recomendação (Ricardo) logo no início.\n\n- Utilizou termos de inovação, personalização e tecnologia, adequando-se ao perfil digital do prospect.\n\n- Explicou os benefícios da reunião e valorizou o encontro presencial para maior personalização.\n\n- Proposta concreta de agenda com escolha forçada em datas próximas, facilitando o fechamento.\n\n⚠️ PONTOS DE MELHORIA\n\n- Faltou solicitar autorização explícita para seguir a conversa, podendo dar mais controle ao prospect no início.\n\n- Utilizou excesso de palavras e hesitações, com frases trêmulas e repetitivas (“me co-comentou”, “e-e”, “do-do-do”), impactando a fluidez.\n\n- Tentou descrever produtos e benefícios de forma genérica antes de ouvir o prospect, risco de parecer vendedor clássico.\n\n- O motivo da reunião ficou um pouco abstrato em meio a muitos argumentos; seria melhor resumir rapidamente e com foco no interesse do prospect.\n\n  Esclarecimento do objetivo\n  Poderia dizer: “O meu foco é entender se faz sentido pra você, não vender nada por telefone”.\n\n🩵 ANÁLISE EMOCIONAL\n\nO tom foi gentil e aberto, com um ritmo por vezes ansioso. Faltou um pouco de autoconfiança na fala. O vocabulário foi profissional, mas pouco personalizado.\n\n🛅 MOMENTOS-CHAVE\n\nQuando apresentou o “trabalho de alfaiataria” e customização, mostrou valor, aproximando o prospect do interesse.\n\nNa proposta objetiva de datas, gerou senso de prioridade e facilitou a aceitação do convite.\n\n🔊 REFORMULAÇÕES RECOMENDADAS\n\n“Posso te explicar em quinze minutos como a MetLife pode se encaixar de forma personalizada na sua realidade, sem compromisso.”\n\n“Prefere terça ou quarta-feira, às dez, para conversarmos por vídeo, assim você consegue avaliar com calma?”\n\n“Meu objetivo é entender sua situação e, juntos, simularmos cenários—sem proposta na primeira conversa, ok?”\n\n“Se você sentir que não faz sentido, pode me falar na hora—topa experimentar?”\n\n➡️ RECOMENDAÇÕES\n\nPriorize a autorização inicial e reduza as explicações longas. Use mais perguntas rápidas que engajem o prospect. Confie no método: menos defesa, mais curiosidade ativa. Conte com seu carisma, mas discipline a cadência. Avance sempre com propósito, não com ansiedade.\n\nNão hesite: quem agenda com confiança lidera o jogo.",
+        "insights": [
+            "Jovem executiva de tecnologia, perfil DISC predominantemente amarelo, digital-native, investigativa, desconfiada e focada em valor prático.",
+            "Realizou uma apresentação simpática, deixando clara a recomendação (Ricardo) logo no início.",
+            "Utilizou termos de inovação, personalização e tecnologia, adequando-se ao perfil digital do prospect.",
+            "Explicou os benefícios da reunião e valorizou o encontro presencial para maior personalização.",
+            "Proposta concreta de agenda com escolha forçada em datas próximas, facilitando o fechamento.",
+            "Faltou solicitar autorização explícita para seguir a conversa, podendo dar mais controle ao prospect no início.",
+            "Utilizou excesso de palavras e hesitações, com frases trêmulas e repetitivas (“me co-comentou”, “e-e”, “do-do-do”), impactando a fluidez.",
+            "Tentou descrever produtos e benefícios de forma genérica antes de ouvir o prospect, risco de parecer vendedor clássico."
+        ]
     },
     {
         "name": "Ark Parceiro",
@@ -11426,7 +12554,18 @@ const RAW_SIMULATIONS = [
                 "text": "Obrigada, bom final de semana pra você também."
             }
         ],
-        "finished": true
+        "finished": true,
+        "feedback": "Aqui está o debriefing da nossa troca.\n\n  \n🤓 PERSONA\n\nVocê conversou com uma prospect jovem executiva do mercado tech, perfil DISC amarelo, digital-native, crítica e direta.\n\n  \n🎯 OBJETIVO PRINCIPAL\n\nVocê buscava obter o aceite para uma reunião introdutória. Como não houve objeções nem resistência significativas no diálogo, o objetivo foi atingido.\n\n  \n➕ PONTOS FORTES\n\n- Sua abordagem foi breve, objetiva e respeitosa, sem parecer invasiva.\n\n  \n- Apresentou de forma clara o objetivo da ligação, propondo uma reunião sem tentar vender nada por telefone.\n\n  \n- Propôs datas muito próximas e com escolha forçada, seguindo boas práticas de agendamento.\n\n  \n- Mostrou cordialidade, agilidade e profissionalismo ao alinhar o próximo passo (compromisso por invite e WhatsApp).\n\n  \n⚠️ PONTOS DE MELHORIA\n\n- Faltou o pedido explícito de autorização após a apresentação (“Posso avançar e explicar rapidamente o motivo do contato?”).\n\n  \n- A referência do Paulo foi usada logo na largada, mas faltou humanizar isso com um quebra-gelo ou recomendação pessoal (“O Paulo comentou XYZ sobre seu perfil/rotina”).\n\n  \n- Não houve espaço para tratar objeções, seja por ausência delas, seja por falta de convite aberto à escuta antes de já sugerir o agendamento.\n\n  \n- Não foi ancorado nenhum benefício claro e relevante da reunião para a prospect, apenas a abertura para “apresentar o trabalho”.\n\n  \n🩵 ANÁLISE EMOCIONAL\n\nO tom foi amigável, ágil e sem enrolação, mas um pouco protocolar. Demonstrou confiança, mas poderia ter sido ainda mais acolhedor e empático.\n\n  \n🛅 MOMENTOS-CHAVE\n\nSituação: Apresentação inicial e sugestão direta de datas. Você otimizou tempo e transmitiu profissionalismo, o que gerou aceitação imediata.\n\nSituação: Alinhamento ágil do convite e canal alternativo (WhatsApp). Isso reforçou sua credibilidade e organização.\n\n  \n🔊 REFORMULAÇÕES RECOMENDADAS\n\n“Posso te explicar rapidinho o motivo desse contato, tudo bem?”\n\n  \n“O Paulo comentou que você valoriza soluções digitais ágeis, por isso achei que faria sentido esse papo.”\n\n  \n“Quero te ouvir para entender seus objetivos hoje e ver se faz sentido avançar.\"\n\n  \n\"Prefere conversar por vídeo ou telefone? Posso adaptar à sua rotina.\"\n\n  \n➡️ RECOMENDAÇÕES\n\nInclua sempre a autorização explícita antes de avançar. Personalize o quebra-gelo com menção ao estilo ou interesse do prospect. Convide à participação ativa antes da escolha forçada. Lembre: escuta é poder.\n\nÓtima base! Pequenos ajustes podem potencializar seu índice de reuniões marcadas. Siga adaptando.",
+        "insights": [
+            "Você conversou com uma prospect jovem executiva do mercado tech, perfil DISC amarelo, digital-native, crítica e direta.",
+            "Sua abordagem foi breve, objetiva e respeitosa, sem parecer invasiva.",
+            "Apresentou de forma clara o objetivo da ligação, propondo uma reunião sem tentar vender nada por telefone.",
+            "Propôs datas muito próximas e com escolha forçada, seguindo boas práticas de agendamento.",
+            "Mostrou cordialidade, agilidade e profissionalismo ao alinhar o próximo passo (compromisso por invite e WhatsApp).",
+            "Faltou o pedido explícito de autorização após a apresentação (“Posso avançar e explicar rapidamente o motivo do contato?”).",
+            "A referência do Paulo foi usada logo na largada, mas faltou humanizar isso com um quebra-gelo ou recomendação pessoal (“O Paulo comentou XYZ sobre seu perfil/rotina”).",
+            "Não houve espaço para tratar objeções, seja por ausência delas, seja por falta de convite aberto à escuta antes de já sugerir o agendamento."
+        ]
     },
     {
         "name": "Ark Parceiro",
@@ -11448,7 +12587,9 @@ const RAW_SIMULATIONS = [
                 "text": "Morning. I am busy on the farm right now. What do you want?"
             }
         ],
-        "finished": false
+        "finished": false,
+        "feedback": "",
+        "insights": []
     },
     {
         "name": "Ark Parceiro",
@@ -11542,7 +12683,14 @@ const RAW_SIMULATIONS = [
                 "text": "Vamos sim. Confirmo online quarta às quatorze e aguardo o link no WhatsApp."
             }
         ],
-        "finished": true
+        "finished": true,
+        "feedback": "Aqui está o debriefing da nossa troca.\n\n🤓 PERSONA\n\nInterpretei uma pessoa metódica, perfil racional, desconfiada no contato inicial, perfil DISC predominante azul, com foco em segurança e confiabilidade.\n\n\n🎯 OBJETIVO PRINCIPAL\n\nVocê conseguiu responder de modo convincente às objeções e obteve o aceite para a reunião, atingindo o objetivo principal.\n\n\n➕ PONTOS FORTES\n\nVocê fez menção à recomendação do Paulo logo de início, ativando o gatilho de confiança.\n\nApresentou seu trabalho como algo personalizado e exclusivo, reforçando o diferencial consultivo.\n\nUtilizou escolha forçada de agenda (“terça ou quarta?”), acelerando o fechamento.\n\nReafirmou o compromisso de ser breve e respeitar o tempo do prospect, ponto-chave com clientes racionais e ocupados.\n\n\n⚠️ PONTOS DE MELHORIA\n\nFaltou perguntar o nome do prospect antes da primeira menção, já iniciando a conversa como “Maria”. \n\nNão houve um pedido explícito de autorização para seguir com a conversa, etapa fundamental do método.\n\nA gestão de objeções foi limitada, pois quase não surgiram dúvidas — faltou estimular objeções naturais para enriquecer a qualificação. \n\nA reconfirmação ficou um pouco superficial: valide local e plataforma de forma ainda mais assertiva.\n\n\n🩵 ANÁLISE EMOCIONAL\n\nO tom foi cordial e objetivo, transmitindo segurança, mas faltou um toque mais empático no ritmo. Sua postura indicou confiança e foco em resultado.\n\n\n🛅 MOMENTOS-CHAVE\n\nAo usar a referência ao “Paulo” e o termo “trabalho de ateliê”, aproximou a relação. Isso criou conexão e diferenciação no discurso, gerando impacto positivo no engajamento.\n\n\n🔊 REFORMULAÇÕES RECOMENDADAS\n\n“Posso te explicar rapidamente o motivo do contato para ver se faz sentido seguir a conversa?”\n\n“Paulo me disse que você valoriza soluções sob medida, então pensei em apresentar algo personalizado.”\n\n“Prefere conversar presencialmente ou online? Assim eu já adequo tudo à sua rotina.”\n\n“Para agilizar, posso te mandar um convite por WhatsApp ou você prefere e-mail?”\n\n\n➡️ RECOMENDAÇÕES\n\nNunca esqueça o pedido de autorização e ative três a quatro objeções, mesmo que de forma sutil, validando e respondendo cada uma. Pratique um início mais consultivo e empático. Vá em frente que o caminho está promissor!",
+        "insights": [
+            "Reafirmou o compromisso de ser breve e respeitar o tempo do prospect, ponto-chave com clientes racionais e ocupados.",
+            "A gestão de objeções foi limitada, pois quase não surgiram dúvidas — faltou estimular objeções naturais para enriquecer a qualificação.",
+            "A reconfirmação ficou um pouco superficial: valide local e plataforma de forma ainda mais assertiva.",
+            "“Para agilizar, posso te mandar um convite por WhatsApp ou você prefere e-mail?”"
+        ]
     },
     {
         "name": "Ark Parceiro",
@@ -11640,7 +12788,18 @@ const RAW_SIMULATIONS = [
                 "text": "Até. Um abraço, bom final de semana"
             }
         ],
-        "finished": true
+        "finished": true,
+        "feedback": "Aqui está o debriefing da nossa troca.\n\n  \n### 🤓 PERSONA\n\nInterpretei Fernanda, dentista autônoma, perfil DISC verde, pragmática, relacional, racional e cautelosa, focada em soluções seguras.\n\n  \n### 🎯 OBJETIVO PRINCIPAL\n\nVocê respondeu de forma razoável às objeções e conseguiu a concordância para uma reunião por vídeo. Objetivo atingido.\n\n  \n### ➕ PONTOS FORTES\n\n- Abriu a conversa de maneira educada, citando a recomendação de um terceiro (Rafael).\n\n  \n- Direcionou desde o início para o objetivo da reunião, com proposta de data concreta.\n\n  \n- Destacou a proposta consultiva e customizada ao recusar o envio de material padrão.\n\n  \n- Fez follow-up com alternativas de horários, facilitando a marcação em curto prazo.\n\n  \n- Conduziu a conclusão e reconfirmou o próximo contato, mantendo energia positiva.\n\n  \n### ⚠️ PONTOS DE MELHORIA\n\n- Faltou pedir autorização formal para seguir com a conversa logo após a apresentação.\n\n  \n- **Gatilho de recomendação pouco explorado**  \n  Você citou Rafael, mas não personalizou o benefício ou a conexão entre prospect e o recomendante.\n\n  \n- **Gestão das objeções superficial**  \n  O método “sim, mas...” e a validação emocional ficaram ausentes em alguns momentos.\n\n  \n- Houve menção direta ao “produto”, contrariando o tom de consultoria financeira (“Temos os melhores produtos”), podendo soar como venda precoce.\n\n  \n- Evite repetições e quebras bruscas (“eu, euuu”, “me-- os melhores produtos”) para transmitir mais segurança.\n\n  \n###  🩵 ANÁLISE EMOCIONAL\n\nTom cordial e objetivo, ritmo ágil, vocabulário informal. Seu estado emocional predominante foi confiante, porém, em certos momentos, faltou escuta mais ativa.\n\n  \n### 🛅 MOMENTOS-CHAVE\n\nAo recusar o envio prévio de material, posicionou a reunião como troca personalizada — isso aumentou as chances de aceitação.\n\n  \nQuando aceitou negociar rapidamente o horário sugerido pelo prospect, demonstrou flexibilidade e foco na solução.\n\n  \n### 🔊 REFORMULAÇÕES RECOMENDADAS\n\n“Posso te explicar os detalhes ao vivo, já que trabalho de forma personalizada. Pode ser terça ou quarta pela manhã?”\n\n  \n“Entendo sua preocupação, Fernanda! Que tal um bate-papo de vinte minutos para avaliarmos juntos o que faz sentido para você?”\n\n  \n“Como o Rafael comentou que você valoriza planejamento, minha abordagem vai nessa linha. Posso explicar ao vivo?”\n\n  \n“Qual dessas duas opções se encaixa melhor na sua rotina, assim otimizamos seu tempo?”\n\n  \n### ➡️ RECOMENDAÇÕES\n\nPeça autorização formal sempre e aprofunde a validação emocional das objeções. Evite jargões de venda. Use ainda mais perguntas abertas para demonstrar escuta ativa e sempre reconfirme local/data. Refine o gatilho da recomendação para maximizar autoridade.\n\n  \nContinue aprimorando: sua energia é seu cartão de visitas, mas uma escuta mais refinada transforma reuniões em oportunidades reais!",
+        "insights": [
+            "Abriu a conversa de maneira educada, citando a recomendação de um terceiro (Rafael).",
+            "Direcionou desde o início para o objetivo da reunião, com proposta de data concreta.",
+            "Destacou a proposta consultiva e customizada ao recusar o envio de material padrão.",
+            "Fez follow-up com alternativas de horários, facilitando a marcação em curto prazo.",
+            "Conduziu a conclusão e reconfirmou o próximo contato, mantendo energia positiva.",
+            "Faltou pedir autorização formal para seguir com a conversa logo após a apresentação.",
+            "Gatilho de recomendação pouco explorado",
+            "Gestão das objeções superficial"
+        ]
     },
     {
         "name": "Ark Parceiro",
@@ -11754,7 +12913,18 @@ const RAW_SIMULATIONS = [
                 "text": "Até"
             }
         ],
-        "finished": true
+        "finished": true,
+        "feedback": "Aqui está o debriefing da nossa troca\n\n\n🤓 PERSONA\n\nThiago, franqueado de fast food, perfil vermelho dominante (D) no DISC, direto, impaciente, competitivo e orientado a resultados.\n\n\n🎯 OBJETIVO PRINCIPAL\n\nRespondeu razoavelmente às objeções e conseguiu marcar a reunião de descoberta. Objetivo atingido, ainda que de forma básica.\n\n\n➕ PONTOS FORTES\n\n- Realizou apresentação clara e repetiu o nome do cliente para criar proximidade.\n\n- Afirmou o objetivo do contato focando em apresentar o trabalho e não vender nada.\n\n- Mencionou recomendação e vínculo com o cliente anterior, atuando sobre o gatilho da confiança.\n\n- Fez proposta concreta de data e mostrou flexibilidade com horários próximos.\n\n\n⚠️ PONTOS DE MELHORIA\n\n- Faltou solicitar autorização antes de iniciar a abordagem (“Cê tá podendo falar?” veio tardiamente e só depois de três falas).\n\n- Não seguiu a ordem das oito etapas, bagunçando quebra-gelo e motivo antes da autorização.\n\n- Gestão de objeções foi superficial, sem validar emoções nem usar a técnica do “sim, mas…”. Exemplos: ignorou perguntas sobre o valor da reunião ou sobre Paulo; houve falta de empatia ou aprofundamento.\n\n- A escolha forçada entre dois horários ficou confusa, gerando trocas desnecessárias (“terça de manhã”, depois “quarta à tarde”, depois “quinta às 10:30”, e terminou em “quinta às nove”).\n\n- Faltou reconfirmação clara e empática: apenas repetições sem esclarecer local e formato da reunião.\n\n\n🩵 ANÁLISE EMOCIONAL\n\nTom simpático e gentil, mas ritmo pouco consultivo. Estado emocional: confiante, porém ansioso, com leve pressa. Linguagem próxima, porém ainda um pouco operacional.\n\n\n🛅 MOMENTOS-CHAVE\n\nA tentativa de aproximação mencionando um cliente comum (“Vinícius pediu para falar com você”) foi o melhor ativador.\n\nA escolha forçada de horário, responsável por garantir o sim, ainda que com ruído, foi relevante para o fechamento.\n\n\n🔊 REFORMULAÇÕES RECOMENDADAS\n\n- “Posso te tomar só dois minutos, tudo bem para você agora?”\n\n- “Entendo que sua agenda é corrida, por isso quero facilitar ao máximo.”\n\n- “Tenho experiências parecidas com outros empresários, inclusive o Vinícius—isso ajudou muito no planejamento dele.”\n\n- “Vamos escolher juntos: terça de manhã ou quarta à tardinha, o que encaixa melhor?”\n\n\n➡️ RECOMENDAÇÕES\n\nPeça a autorização formal e logo no início. Siga disciplinadamente as oito etapas. Use “sim, mas…” para cada objeção. Reconfirme data, horário e local com clareza e empatia. Exercite escuta ativa antes de propor soluções.\n\nSeguindo essa sequência, você vai alinhar eficiência com acolhimento e tornar seu processo ainda mais afiado.",
+        "insights": [
+            "Realizou apresentação clara e repetiu o nome do cliente para criar proximidade.",
+            "Afirmou o objetivo do contato focando em apresentar o trabalho e não vender nada.",
+            "Mencionou recomendação e vínculo com o cliente anterior, atuando sobre o gatilho da confiança.",
+            "Fez proposta concreta de data e mostrou flexibilidade com horários próximos.",
+            "Faltou solicitar autorização antes de iniciar a abordagem (“Cê tá podendo falar?” veio tardiamente e só depois de três falas).",
+            "Não seguiu a ordem das oito etapas, bagunçando quebra-gelo e motivo antes da autorização.",
+            "Gestão de objeções foi superficial, sem validar emoções nem usar a técnica do “sim, mas…”. Exemplos: ignorou perguntas sobre o valor da reunião ou sobre Paulo; houve falta de empatia ou aprofundamento.",
+            "A escolha forçada entre dois horários ficou confusa, gerando trocas desnecessárias (“terça de manhã”, depois “quarta à tarde”, depois “quinta às 10:30”, e terminou em “quinta às nove”)."
+        ]
     },
     {
         "name": "Ark Parceiro",
@@ -11840,7 +13010,18 @@ const RAW_SIMULATIONS = [
                 "text": "Ok, então qual seria a proposta concreta pra eu aceitar essa reunião?"
             }
         ],
-        "finished": true
+        "finished": true,
+        "feedback": "Aqui está o debriefing da nossa troca.\n\n  \n### 🤓 PERSONA\n\nPersona interpretada: prospect pessoa física, perfil dominante DISC amarelo, jovem fisioterapeuta, ocupado e desconfiado de propostas comerciais.\n\n  \n### 🎯 OBJETIVO PRINCIPAL\n\nVocê respondeu de maneira convincente a algumas objeções iniciais e buscou agendar a reunião, mas faltou assertividade e alinhamento com o método. Objetivo parcialmente atingido.\n\n  \n### ➕ PONTOS FORTES\n\n- Você pediu autorização para conversar (“Tá podendo falar um minutinho?”), respeitando o tempo do prospect.\n\n  \n- Trouxe elemento de recomendação (“Vinícius, meu amigo, meu cliente”), o que cria conexão imediata.\n\n  \n- Propôs a marcação de reunião logo nos primeiros minutos, mostrando objetividade.\n\n  \n- Utilizou frases para tranquilizar sobre não ser uma venda imediata (“a ideia não é vender nada não, tá?”).\n\n  \n### ⚠️ PONTOS DE MELHORIA\n\n- Ausência de um pitch de valor diferenciado nos primeiros dez segundos, deixando a abertura morna e sem impacto.\n\n  \n- Faltou quebra-gelo com toque pessoal antes de avançar para agendamento; ficou protocolar demais.\n\n  \n- Poderia ter ativado o gatilho da recomendação real (história ou benefício concreto do Vinícius) para aumentar confiança.\n\n  \n- As explicações sobre o serviço foram vagas e repetitivas, beirando o monólogo (“meu produto encaixa para qualquer tipo de profissão...” sem foco no interesse do prospect).\n\n  \n- Sinalizou “meu produto” e “como funciona o meu trabalho”, desviando do papel consultivo para um tom vendedor.\n\n  \n- Não aplicou escolha forçada de horários (“terça pela manhã?” sem dar opção objetiva) nem reconfirmou o agendamento no fechamento.\n\n  \n### 🩵 ANÁLISE EMOCIONAL\n\nO tom mostrou cordialidade e tentativa de ser leve, mas faltou energia e clareza. Estado emocional entre hesitante e protocolar.\n\n  \n### 🛅 MOMENTOS-CHAVE\n\nSituação: Ao mencionar Vinícius como cliente, buscou criar proximidade. Isso é chave para quebrar a resistência, mas faltou história concreta.\n\n  \nSituação: Ao afirmar que queria “customizar” a apresentação, tentou ser consultivo, mas a ausência de perguntas abertas e falta de escuta travou o vínculo.\n\n  \n### 🔊 REFORMULAÇÕES RECOMENDADAS\n\n“Vinícius comentou que você valoriza soluções personalizadas — posso contar como ajudei ele de forma prática?”\n\n  \n“Prefere conversar terça às dez ou quarta às nove? Assim personalizo ao seu tempo.”\n\n  \n“Meu objetivo não é vender, mas entender se faz sentido para o seu momento — pode me contar rapidamente como se protege hoje?”\n\n  \n“Prometo ser objetivo e, se não fizer sentido para você, respeitarei totalmente.”\n\n  \n“Confirma esse horário ou tem outro momento melhor?”\n\n  \n### ➡️ RECOMENDAÇÕES\n\nInvista em uma abertura mais marcante e personalizada, ative o gatilho da recomendação com exemplos reais e ajuste a abordagem, fugindo do tom vendedor. Use sempre escolha forçada e feche a conversa reconfirmando local, data e objetivo. Ritmo e foco elevam sua performance.\n\nContinue evoluindo — lapide sua escuta e surpreenda o prospect. Você chega lá!",
+        "insights": [
+            "Persona interpretada: prospect pessoa física, perfil dominante DISC amarelo, jovem fisioterapeuta, ocupado e desconfiado de propostas comerciais.",
+            "Você pediu autorização para conversar (“Tá podendo falar um minutinho?”), respeitando o tempo do prospect.",
+            "Trouxe elemento de recomendação (“Vinícius, meu amigo, meu cliente”), o que cria conexão imediata.",
+            "Propôs a marcação de reunião logo nos primeiros minutos, mostrando objetividade.",
+            "Utilizou frases para tranquilizar sobre não ser uma venda imediata (“a ideia não é vender nada não, tá?”).",
+            "Ausência de um pitch de valor diferenciado nos primeiros dez segundos, deixando a abertura morna e sem impacto.",
+            "Faltou quebra-gelo com toque pessoal antes de avançar para agendamento; ficou protocolar demais.",
+            "Poderia ter ativado o gatilho da recomendação real (história ou benefício concreto do Vinícius) para aumentar confiança."
+        ]
     },
     {
         "name": "Sophie Géraud",
@@ -11853,7 +13034,9 @@ const RAW_SIMULATIONS = [
         "lqa": "N/A",
         "interactions": 0,
         "messages": [],
-        "finished": false
+        "finished": false,
+        "feedback": "",
+        "insights": []
     },
     {
         "name": "Sophie Géraud",
@@ -11891,7 +13074,14 @@ const RAW_SIMULATIONS = [
                 "text": "Conheço a Silvia, sim. Ela já me falou que você trabalha com seguros. O que exatamente você quer propor, seja breve."
             }
         ],
-        "finished": true
+        "finished": true,
+        "feedback": "Aqui está o debriefing de nosso intercâmbio.\n\n \n\n### 🎯 PERSONA\n\nVocê conversou com Fernanda, dentista liberal, trinta e oito anos, perfil DISC verde predominante: pragmática, cuidadosa com compromissos, busca segurança para a família, questionadora sobre detalhes.\n\n \n\n### 🌟 OBJECTIVO PRINCIPAL\n\nO objetivo era superar objeções iniciais e conseguir um agendamento claro para reunião MetLife. O objetivo não foi atingido.\n\n \n\n### 🦾 Pontos fortes\n\nVocê tentou mencionar uma recomendação ao citar Silvia, ativando o princípio social de referência. Abriu dizendo seu nome e explicitou de início que a pauta é seguro de vida, transmitindo franqueza. Procurou personalizar ao citar fonte do contato.\n\n \n\n### ⚠️ Pontos de melhoria\n\nFaltou pedir autorização para prosseguir a ligação após se apresentar – etapa fundamental da metodologia MetLife para quebrar resistência inicial. Sua apresentação foi confusa, hesitante e sem um pitch claro de valor: não houve contextualização do benefício para Fernanda, o que impediu engajamento. O brise-glace ficou inseguro e não gerou abertura; faltou também qualquer conexão pessoal mais leve ao início. A razão de contato ficou truncada (“São de... Seguro de vida.”), o que pode passar imagem de despreparo. Não houve proposta de agenda concreta via escolha forçada (“posso te encontrar terça ou quarta, qual melhor?”). Não surgiram perguntas qualificatórias para validar perfil NAPA. Nenhuma tratativa estruturada para possíveis objeções, muito menos uso do “sim, mas...”. Não houve reconfirmação ou fechamento prático, nem menção a recomendações complementares.\n\n \n\n### 🛅 Momentos-chave\n\nAo citar Silvia, você tangenciou o brise-glace por referência mútua, mas sem explorar isso para gerar confiança e empatia. A hesitação inicial e a ausência de proposta clara de valor travaram a performance do contato.\n\n### 🔊 Reformulações recomendadas\n\n“Fernanda, tudo bem? Posso tomar dois minutos para te explicar rapidamente porque te liguei?”  \n“Seu nome chegou até mim pela Silvia, que me disse ser alguém cuidadoso com planejamento. Achei que faria sentido falar brevemente.”  \n“Tenho dois horários esta semana, terça às dez ou quarta às duas. Qual facilita para você?”  \n“Antes de agendar, faz sentido para você conhecer esse tipo de solução mesmo que já tenha algum seguro?”\n\n### ➡️ Recomendações\n\nInvista numa abertura clara, concisa e simpática, pedindo antes a autorização para prosseguir. Tenha um texto de valor objetivo que evidencie benefício direto para o perfil do prospect. Prepare sempre uma rápida apresentação pessoal focada na ponte de confiança: por quem foi recomendação, qual o propósito do contato, qual o diferencial da conversa. Estruture as perguntas para extrair rapidamente as necessidades e obstáculos (NAPA), reservando tempo para escuta ativa e objeções. Jamais tente vender nada no telefone: foque estritamente na marcação do encontro, sempre via escolha forçada de horário, dentro de até setenta e duas horas. Por fim, ao final, valide o compromisso e sempre peça indicação de novos contatos – inclusive diante do não. Se errar, não se desespere – todo corretor já tropeçou ao vivo mais vezes do que admite!",
+        "insights": [
+            "Você conversou com Fernanda, dentista liberal, trinta e oito anos, perfil DISC verde predominante: pragmática, cuidadosa com compromissos, busca segurança para a família, questionadora sobre detalhes.",
+            "Faltou pedir autorização para prosseguir a ligação após se apresentar – etapa fundamental da metodologia MetLife para quebrar resistência inicial. Sua apresentação foi confusa, hesitante e sem um pitch claro de valor: não houve contextualização do benefício para Fernanda, o que impediu engajamento. O brise-glace ficou inseguro e não gerou abertura; faltou também qualquer conexão pessoal mais leve ao início. A razão de contato ficou truncada (“São de... Seguro de vida.”), o que pode passar imagem de despreparo. Não houve proposta de agenda concreta via escolha forçada (“posso te encontrar terça ou quarta, qual melhor?”). Não surgiram perguntas qualificatórias para validar perfil NAPA. Nenhuma tratativa estruturada para possíveis objeções, muito menos uso do “sim, mas...”. Não houve reconfirmação ou fechamento prático, nem menção a recomendações complementares.",
+            "Ao citar Silvia, você tangenciou o brise-glace por referência mútua, mas sem explorar isso para gerar confiança e empatia. A hesitação inicial e a ausência de proposta clara de valor travaram a performance do contato.",
+            "Invista numa abertura clara, concisa e simpática, pedindo antes a autorização para prosseguir. Tenha um texto de valor objetivo que evidencie benefício direto para o perfil do prospect. Prepare sempre uma rápida apresentação pessoal focada na ponte de confiança: por quem foi recomendação, qual o propósito do contato, qual o diferencial da conversa. Estruture as perguntas para extrair rapidamente as necessidades e obstáculos (NAPA), reservando tempo para escuta ativa e objeções. Jamais tente vender nada no telefone: foque estritamente na marcação do encontro, sempre via escolha forçada de horário, dentro de até setenta e duas horas. Por fim, ao final, valide o compromisso e sempre peça indicação de novos contatos – inclusive diante do não. Se errar, não se desespere – todo corretor já tropeçou ao vivo mais vezes do que admite!"
+        ]
     },
     {
         "name": "Sophie Géraud",
@@ -11904,7 +13094,9 @@ const RAW_SIMULATIONS = [
         "lqa": "N/A",
         "interactions": 0,
         "messages": [],
-        "finished": false
+        "finished": false,
+        "feedback": "",
+        "insights": []
     },
     {
         "name": "Sophie Géraud",
@@ -11950,7 +13142,18 @@ const RAW_SIMULATIONS = [
                 "text": "Conheço não, não lembro de nenhuma Roberta que me tenha recomendado. Quem é a Roberta?"
             }
         ],
-        "finished": true
+        "finished": true,
+        "feedback": "Voici le débriefing de notre échange\n\n \n\n \n\n### 🎯 PERSONA\n\nMarcos, professeur d’histoire, quarante-deux ans, marié, réservé, profil DISC vert, recherche la sécurité et la confiance.\n\n \n\n \n\n### 🌟 OBJECTIF PRINCIPAL\n\nL’objectif de prise de rendez-vous et de gestion structurée des objections n’a pas été atteint durant cet échange.\n\n \n\n \n\n### 🦾 Points forts\n\nLa posture a été décontractée et la tentative de brise-glace via la mention de Roberta va dans le bon sens pour instaurer un climat informel. L’approche s’est voulue directe, avec une proposition rapide pour discuter quelques minutes, ce qui cadre avec l’idée d’efficacité et de respect du temps du prospect.\n\n \n\n### ⚠️ Axes d'amélioration\n\nL’étape de présentation a été oubliée : impossible de capter la confiance sans expliquer d’emblée qui vous êtes, pour qui vous appelez et pourquoi. L’autorisation explicite pour engager la discussion n’a pas été demandée. La méthode MetLife n’a pas été suivie : pas d’explication du lien avec Paulo ni de réelle valeur perçue ou bénéfice pour Marcos. Le levier de la recommandation, essentiel avec un profil méfiant, a été maladroitement substitué par “conhece a Roberta?”, qui n’a pas d’impact probant. Aucune gestion d’objection structurée n’a été tentée, tout comme la proposition d’un rendez-vous en choix forcé est absente. Enfin, la collecte des besoins (NAPA) n’a pas commencé.\n\n \n\n### 🛅 Moments clés\n\nDès l’ouverture, l’absence d’introduction claire a rendu la suite confuse : vous avez été identifié comme “démarcheur” anonyme, freinant la relation. Le passage sur Roberta était une tentative de brise-glace, mais comme le lien n’a pas été expliqué, la confiance n’a pas décollé.\n\n \n\n### 🔊 Reformulations recommandées\n\n“Bonjour, je m’appelle [Nom], je vous appelle de la part de Paulo. Est-ce un bon moment pour échanger deux minutes ?”  \n“Si vous me permettez, Paulo m’a recommandé car il a apprécié notre travail ensemble, et je pense pouvoir vous apporter des solutions adaptées à votre situation.”  \n“Est-ce que mardi à dix-sept heures ou mercredi à dix-neuf heures vous conviendrait pour un échange personnalisé, en toute confidentialité ?”\n\n \n\n### ➡️ Recommandations\n\nTravaillez absolument votre introduction : nom, recommandation, objectif de l’appel et autorisation d’échanger, idéalement en moins de vingt secondes. Utilisez la recommandation de Paulo comme sésame pour installer la confiance et valoriser l’appel. Passez par un choix forcé pour la prise de rendez-vous. Engagez un vrai dialogue en qualifiant rapidement la situation de la personne et en traitant chaque objection de façon empathique et structurée, selon la méthode “oui, mais”. Enfin, gardez toujours le cap sur l’unique objectif : fixer un rendez-vous, pas vendre par téléphone… même si la technique vous démange !",
+        "insights": [
+            "Marcos, professeur d’histoire, quarante-deux ans, marié, réservé, profil DISC vert, recherche la sécurité et la confiance.",
+            "L’objectif de prise de rendez-vous et de gestion structurée des objections n’a pas été atteint durant cet échange.",
+            "La posture a été décontractée et la tentative de brise-glace via la mention de Roberta va dans le bon sens pour instaurer un climat informel. L’approche s’est voulue directe, avec une proposition rapide pour discuter quelques minutes, ce qui cadre avec l’idée d’efficacité et de respect du temps du prospect.",
+            "L’étape de présentation a été oubliée : impossible de capter la confiance sans expliquer d’emblée qui vous êtes, pour qui vous appelez et pourquoi. L’autorisation explicite pour engager la discussion n’a pas été demandée. La méthode MetLife n’a pas été suivie : pas d’explication du lien avec Paulo ni de réelle valeur perçue ou bénéfice pour Marcos. Le levier de la recommandation, essentiel avec un profil méfiant, a été maladroitement substitué par “conhece a Roberta?”, qui n’a pas d’impact probant. Aucune gestion d’objection structurée n’a été tentée, tout comme la proposition d’un rendez-vous en choix forcé est absente. Enfin, la collecte des besoins (NAPA) n’a pas commencé.",
+            "Dès l’ouverture, l’absence d’introduction claire a rendu la suite confuse : vous avez été identifié comme “démarcheur” anonyme, freinant la relation. Le passage sur Roberta était une tentative de brise-glace, mais comme le lien n’a pas été expliqué, la confiance n’a pas décollé.",
+            "“Bonjour, je m’appelle [Nom], je vous appelle de la part de Paulo. Est-ce un bon moment pour échanger deux minutes ?”",
+            "“Est-ce que mardi à dix-sept heures ou mercredi à dix-neuf heures vous conviendrait pour un échange personnalisé, en toute confidentialité ?”",
+            "Travaillez absolument votre introduction : nom, recommandation, objectif de l’appel et autorisation d’échanger, idéalement en moins de vingt secondes. Utilisez la recommandation de Paulo comme sésame pour installer la confiance et valoriser l’appel. Passez par un choix forcé pour la prise de rendez-vous. Engagez un vrai dialogue en qualifiant rapidement la situation de la personne et en traitant chaque objection de façon empathique et structurée, selon la méthode “oui, mais”. Enfin, gardez toujours le cap sur l’unique objectif : fixer un rendez-vous, pas vendre par téléphone… même si la technique vous démange !"
+        ]
     },
     {
         "name": "Sophie Géraud",
@@ -11996,7 +13199,16 @@ const RAW_SIMULATIONS = [
                 "text": "Non, je suis au comptoir, j'ai pas le temps de plaisanter. Expliquez vite ce que vous voulez."
             }
         ],
-        "finished": true
+        "finished": true,
+        "feedback": "Voici le débriefing de notre échange\n\n🎯 OBJECTIF PRINCIPAL\n\nTu as tenté d’initier la démarche, mais sans avoir répondu à des objections ni formalisé la proposition de rendez-vous. L’objectif est non atteint.\n\n➕ Points forts \n\nTon ouverture est professionnelle et chaleureuse, avec une approche personnalisée (« vous allez bien ? »). L’introduction d’une recommandation (Patrick de la compta) est bien vue, tentant de créer la confiance. Ta tentative d’humour (« vous dormez au taf ? ») pourrait rendre l’échange plus détendu et humain, si bien maîtrisée.\n\n⚠️ Axes d'amélioration \n\nL’autorisation préalable pour échanger n’a pas été demandée, ce qui nuit à l’accueil et au respect du cadre MetLife. Le brise-glace est maladroit : il manque un vrai lien personnel ou une anecdote commune sur le recommandant. La raison du contact est évoquée en demi-teinte, sans bénéfice clair pour le prospect. Il n’y a aucune proposition concrète de rendez-vous (ni choix forcé entre deux créneaux). Zéro objection traitée, car on reste sur une tentative de prise de contact, pas sur un vrai échange. Et attention à l’humour tôt dans l’appel : mal calibré, il peut paraître déplacé ou intrusif.\n\n🛅 Moments clés  \n\nDès l’introduction, tu annonces le nom du recommandant : cela pose un cadre de confiance potentiel, mais l’absence d’autorisation plombe un peu l’impact. L’utilisation de l’humour (« vous dormez au taf ? ») aurait pu créer un lien sincère, mais trop tôt, elle déstabilise l’entretien.\n\n🔊 Reformulations proposées \n\n« Je me permets de vous appeler sur la recommandation de Patrick, afin d’échanger quelques minutes – est-ce un bon moment pour vous ? »  \n« Patrick m’a parlé de vos besoins, et je pense pouvoir vous apporter un éclairage utile. Préférez-vous qu’on en discute mardi matin ou mercredi après-midi ? »\n\n➡️ Recommandations\n\nStructure toujours ton appel selon les huit étapes. Commence par demander l’autorisation, introduis la recommandation avec une anecdote, explique la valeur du rendez-vous, propose une date précise et traite systématiquement les objections. Reste dans une posture de conseiller, et l’humour, c’est la cerise, pas la base !",
+        "insights": [
+            "Tu as tenté d’initier la démarche, mais sans avoir répondu à des objections ni formalisé la proposition de rendez-vous. L’objectif est non atteint.",
+            "L’autorisation préalable pour échanger n’a pas été demandée, ce qui nuit à l’accueil et au respect du cadre MetLife. Le brise-glace est maladroit : il manque un vrai lien personnel ou une anecdote commune sur le recommandant. La raison du contact est évoquée en demi-teinte, sans bénéfice clair pour le prospect. Il n’y a aucune proposition concrète de rendez-vous (ni choix forcé entre deux créneaux). Zéro objection traitée, car on reste sur une tentative de prise de contact, pas sur un vrai échange. Et attention à l’humour tôt dans l’appel : mal calibré, il peut paraître déplacé ou intrusif.",
+            "Dès l’introduction, tu annonces le nom du recommandant : cela pose un cadre de confiance potentiel, mais l’absence d’autorisation plombe un peu l’impact. L’utilisation de l’humour (« vous dormez au taf ? ») aurait pu créer un lien sincère, mais trop tôt, elle déstabilise l’entretien.",
+            "« Je me permets de vous appeler sur la recommandation de Patrick, afin d’échanger quelques minutes – est-ce un bon moment pour vous ? »",
+            "« Patrick m’a parlé de vos besoins, et je pense pouvoir vous apporter un éclairage utile. Préférez-vous qu’on en discute mardi matin ou mercredi après-midi ? »",
+            "Structure toujours ton appel selon les huit étapes. Commence par demander l’autorisation, introduis la recommandation avec une anecdote, explique la valeur du rendez-vous, propose une date précise et traite systématiquement les objections. Reste dans une posture de conseiller, et l’humour, c’est la cerise, pas la base !"
+        ]
     },
     {
         "name": "Sophie Géraud",
@@ -12034,7 +13246,14 @@ const RAW_SIMULATIONS = [
                 "text": "Não, não conheço nenhuma Roberta. Como conseguiu meu número? Tenho pouco tempo, seja direto."
             }
         ],
-        "finished": true
+        "finished": true,
+        "feedback": "Aqui está o debriefing de nosso intercâmbio.\n\n \n### 🎯 Persona\n\nJoguei Camila, jovem gestora de produto, digital-native, perfil DISC: amarelo dominante, curiosa, descontraída e questionadora.\n\n \n### 🎯 Objetivo Principal\n\nVocê buscou responder objeções e obter um acordo para um primeiro encontro de apresentação da MetLife. O objetivo ficou não atingido.\n\n \n### ➕ Pontos fortes\n\nSua iniciativa em quebrar o gelo foi criativa, trazendo leveza e personalidade ao início da conversa. Conseguiu gerar um contexto descontraído com piadas e riso, o que pode ser bem-vindo com pessoas de perfil aberto. Houve uma tentativa clara de buscar autorização para conversar, uma excelente prática inicial. Demonstrou disposição para ajuste de tom e mood conforme percebeu reações do prospect.\n\n \n### ⚠️ Axes de melhoria\n\nFaltou uma apresentação clara: nem seu nome nem seu papel foram ditos objetivamente, o que gerou confusão (“Roberta, sua prima?”). Não apareceu menção sobre MetLife, nem a razão do contato baseada em benefício real ao prospect. Não houve proposta de agenda nem aplicação do “escolha forçada”. O roteiro ficou improvisado, sem conexão direta com os oito passos MetLife. Não foi feita qualquer qualificação NAPA, tampouco surgiu qualquer tentativa de trabalhar objeções de verdade. A ausência de reconfirmação e pedido por recomendação também deixou lacunas visíveis.\n\n \n### 🛅 Momentos chave\n\nLogo no início, ao propor um tom leve com a imitação de sotaque francês e referência familiar (Roberta), você tentou criar vínculos informais, o que ajuda em personas espontâneas. Mas sem um pitch claro e objetivo, o impacto foi apenas confusão e não conexão.\n\n \n### 🔊 Reformulações propostas\n\n“Camila, tudo bem? Aqui é [seu nome], fui indicada pela Roberta para uma conversa rápida sobre planejamento financeiro, não vai tomar nem cinco minutos, pode ser agora ou prefere em outro momento?”\n\n“Posso ser breve, prometo! Se não for conveniente, marcamos para amanhã às dez ou às dezessete, o que combina melhor com você?”\n\n \n### ➡️ Recomendações\n\nAplique sempre o roteiro MetLife: se apresente, busque autorização, quebre o gelo com algo relevante, mostre a razão clara do contato e proponha logo agenda com escolha forçada. Mantenha o foco no convite ao encontro e trate objeções por meio de escuta ativa e validação. Da próxima vez, lembre-se: roteiro bom é roteiro vivo – mas presente.",
+        "insights": [
+            "Joguei Camila, jovem gestora de produto, digital-native, perfil DISC: amarelo dominante, curiosa, descontraída e questionadora.",
+            "Sua iniciativa em quebrar o gelo foi criativa, trazendo leveza e personalidade ao início da conversa. Conseguiu gerar um contexto descontraído com piadas e riso, o que pode ser bem-vindo com pessoas de perfil aberto. Houve uma tentativa clara de buscar autorização para conversar, uma excelente prática inicial. Demonstrou disposição para ajuste de tom e mood conforme percebeu reações do prospect.",
+            "Faltou uma apresentação clara: nem seu nome nem seu papel foram ditos objetivamente, o que gerou confusão (“Roberta, sua prima?”). Não apareceu menção sobre MetLife, nem a razão do contato baseada em benefício real ao prospect. Não houve proposta de agenda nem aplicação do “escolha forçada”. O roteiro ficou improvisado, sem conexão direta com os oito passos MetLife. Não foi feita qualquer qualificação NAPA, tampouco surgiu qualquer tentativa de trabalhar objeções de verdade. A ausência de reconfirmação e pedido por recomendação também deixou lacunas visíveis.",
+            "Aplique sempre o roteiro MetLife: se apresente, busque autorização, quebre o gelo com algo relevante, mostre a razão clara do contato e proponha logo agenda com escolha forçada. Mantenha o foco no convite ao encontro e trate objeções por meio de escuta ativa e validação. Da próxima vez, lembre-se: roteiro bom é roteiro vivo – mas presente."
+        ]
     },
     {
         "name": "Sophie Géraud",
@@ -12052,7 +13271,9 @@ const RAW_SIMULATIONS = [
                 "text": "Très bien. Quel e-mail dois-je indiquer pour l'envoi du document, et quel format préférez-vous recevoir ?"
             }
         ],
-        "finished": false
+        "finished": false,
+        "feedback": "",
+        "insights": []
     },
     {
         "name": "Sophie Géraud",
@@ -12070,7 +13291,9 @@ const RAW_SIMULATIONS = [
                 "text": "Envoyez-moi le document par e-mail, je l’examinerai tranquillement et je vous ferai un retour."
             }
         ],
-        "finished": false
+        "finished": false,
+        "feedback": "",
+        "insights": []
     },
     {
         "name": "Sophie Géraud",
@@ -12088,7 +13311,9 @@ const RAW_SIMULATIONS = [
                 "text": "Envoyez le document par e-mail, je l'examinerai tranquillement et je vous ferai un retour."
             }
         ],
-        "finished": false
+        "finished": false,
+        "feedback": "",
+        "insights": []
     },
     {
         "name": "Sophie Géraud",
@@ -12106,7 +13331,9 @@ const RAW_SIMULATIONS = [
                 "text": "Envoyez-moi le document par e-mail, je l’étudierai calmement et je vous ferai un retour."
             }
         ],
-        "finished": false
+        "finished": false,
+        "feedback": "",
+        "insights": []
     },
     {
         "name": "Sophie Géraud",
@@ -12124,7 +13351,9 @@ const RAW_SIMULATIONS = [
                 "text": "Le mieux serait de me transmettre le document par mail, je l'étudie au calme et je reviens vers vous rapidement."
             }
         ],
-        "finished": false
+        "finished": false,
+        "feedback": "",
+        "insights": []
     },
     {
         "name": "Sophie Géraud",
@@ -12142,7 +13371,9 @@ const RAW_SIMULATIONS = [
                 "text": "Le mieux serait de me transmettre le document par mail, je l'étudie au calme et je reviens vers vous rapidement."
             }
         ],
-        "finished": false
+        "finished": false,
+        "feedback": "",
+        "insights": []
     },
     {
         "name": "Sophie Géraud",
@@ -12155,7 +13386,9 @@ const RAW_SIMULATIONS = [
         "lqa": "N/A",
         "interactions": 0,
         "messages": [],
-        "finished": false
+        "finished": false,
+        "feedback": "",
+        "insights": []
     },
     {
         "name": "Sophie Géraud",
@@ -12168,7 +13401,9 @@ const RAW_SIMULATIONS = [
         "lqa": "N/A",
         "interactions": 0,
         "messages": [],
-        "finished": false
+        "finished": false,
+        "feedback": "",
+        "insights": []
     },
     {
         "name": "Sophie Géraud",
@@ -12186,7 +13421,9 @@ const RAW_SIMULATIONS = [
                 "text": "Le plus simple : faites-moi suivre le document par e-mail, je l'analyse posément et je vous fais un retour."
             }
         ],
-        "finished": false
+        "finished": false,
+        "feedback": "",
+        "insights": []
     },
     {
         "name": "Sophie Géraud",
@@ -12204,7 +13441,9 @@ const RAW_SIMULATIONS = [
                 "text": "Le plus simple : faites-moi suivre le document par e-mail, je l'analyse posément et je vous fais un retour."
             }
         ],
-        "finished": false
+        "finished": false,
+        "feedback": "",
+        "insights": []
     },
     {
         "name": "Sophie Géraud",
@@ -12222,7 +13461,9 @@ const RAW_SIMULATIONS = [
                 "text": "Le plus simple : faites-moi suivre le"
             }
         ],
-        "finished": false
+        "finished": false,
+        "feedback": "",
+        "insights": []
     },
     {
         "name": "Sophie Géraud",
@@ -12240,7 +13481,9 @@ const RAW_SIMULATIONS = [
                 "text": "Le plus simple : faites-moi suivre le document par"
             }
         ],
-        "finished": false
+        "finished": false,
+        "feedback": "",
+        "insights": []
     },
     {
         "name": "Sophie Géraud",
@@ -12258,7 +13501,9 @@ const RAW_SIMULATIONS = [
                 "text": "Le plus pratique, c'est de m'envoyer le document par mail, je le parcours à mon rythme et je reviens vers vous avec mes impressions."
             }
         ],
-        "finished": false
+        "finished": false,
+        "feedback": "",
+        "insights": []
     },
     {
         "name": "Sophie Géraud",
@@ -12276,7 +13521,9 @@ const RAW_SIMULATIONS = [
                 "text": "Le plus simple : faites-moi suivre le document par e-mail, je l'analyse posément et je vous reviens dessus."
             }
         ],
-        "finished": false
+        "finished": false,
+        "feedback": "",
+        "insights": []
     },
     {
         "name": "Sophie Géraud",
@@ -12294,7 +13541,9 @@ const RAW_SIMULATIONS = [
                 "text": "Le plus simple : faites‑moi suivre le"
             }
         ],
-        "finished": false
+        "finished": false,
+        "feedback": "",
+        "insights": []
     },
     {
         "name": "Sophie Géraud",
@@ -12312,7 +13561,9 @@ const RAW_SIMULATIONS = [
                 "text": "Le plus simple : faites-moi suivre le document par e-mail, je l'analyse posément et je vous reviens dessus."
             }
         ],
-        "finished": false
+        "finished": false,
+        "feedback": "",
+        "insights": []
     },
     {
         "name": "Sophie Géraud",
@@ -12334,7 +13585,9 @@ const RAW_SIMULATIONS = [
                 "text": "Je suis occupé, dites vite ce que vous voulez."
             }
         ],
-        "finished": false
+        "finished": false,
+        "feedback": "",
+        "insights": []
     },
     {
         "name": "Sophie Géraud",
@@ -12512,7 +13765,18 @@ const RAW_SIMULATIONS = [
                 "text": "Marco aime le football et traîner au bar avec les autres patrons après le service.  \nSonia adore la cuisine maison et passe son dimanche à tester des recettes pour la boutique."
             }
         ],
-        "finished": true
+        "finished": true,
+        "feedback": "Voici le débriefing de notre échange.\n\n  \n🤓 PERSONA  \n\nJ’ai joué Thiago, entrepreneur franchisé à Salvador, 39 ans, marié, trois enfants. Profil DISC rouge : direct, orienté résultats, impatient et exigeant.\n\n  \n🎯 OBJECTIF PRINCIPAL  \n\nTu as obtenu deux recommandations qualifiées, avec accord pour te recommander, mais sans tous les éléments de contact directs. Objectif partiellement atteint.\n\n  \n➕ Points forts  \n\n- Tu valorises l’après-vente en exprimant ta satisfaction du travail accompli ensemble, créant un climat propice à la demande.\n- Tu sais rebondir pour explorer les besoins similaires dans l’entourage du client.\n- La segmentation des profils fait son apparition (« besoins de protection, d’épargne… ») pour faciliter la recherche de noms.\n- Tu demandes l’accord pour la recommandation et restes vigilant à la notion de « privauté », cherchant à respecter le cadre posé par Thiago.\n\n  \n⚠️ AXES D'AMÉLIORATION  \n\n- L’étape de félicitation initiale manque de chaleur personnalisée et de reconnaissance sincère du choix du client.\n- La phase d’identification des points de satisfaction est survolée, sans vraiment faire exprimer le client dans ses propres mots.\n- Tes questions sur les contacts restent parfois trop ouvertes ou hésitantes (« Est-ce qu’il y a des gens autour de vous… »), ce qui affaiblit la démarche.\n- La qualification A.S.K.T.H.E.M.A.N paraît saccadée et parfois maladroite (enchaînement de questions, parfois abruptement coupées).\n- Manque d’anecdotes ou de détails humains pour rendre la prise de contact plus chaleureuse.\n\n  \n🩵 ANALYSE EMOTIONNELLE  \n\nLe ton est plutôt neutre, à tendance hésitante, alternant empressement et formulation peu assurée. Cela peut fragiliser la perception de maîtrise.\n\n  \n🛅 MOMENTS CLÉS  \n\nAu lancement, l’insistance sur la mise en œuvre commune (« Moi, je suis très content du travail accompli ensemble ») a permis un démarrage ouvert.  \nLe passage sur la « privauté » a renforcé la confiance, en montrant de l’écoute sur une réserve-clé.\n\n  \n🔊 REFORMULATIONS RECOMMANDÉES  \n\n« Je vous remercie sincèrement pour la confiance que vous m’avez accordée, cela me motive vraiment. »  \n« Parmi vos proches entrepreneurs, qui pourrait aussi bénéficier d’un accompagnement aussi réactif que le vôtre ? »  \n« Auriez-vous un détail ou une qualité à leur sujet que je pourrais mentionner pour personnaliser notre premier contact ? »  \n« Voulez-vous que je vous tienne informé de leurs retours après notre échange ? »\n\n  \n➡️ RECOMMANDATIONS  \n\nAppuie davantage sur la reconnaissance du client en début d’entretien et fais exprimer ses points de satisfaction avec des questions ouvertes et sincères. Structure la qualification des recommandations de façon fluide et humaine. Utilise une segmentation concrète et personnalise la demande.  \n\nAvec rigueur (et sourire), tu peux devenir un vrai champion du rebond commercial !",
+        "insights": [
+            "J’ai joué Thiago, entrepreneur franchisé à Salvador, 39 ans, marié, trois enfants. Profil DISC rouge : direct, orienté résultats, impatient et exigeant.",
+            "Tu valorises l’après-vente en exprimant ta satisfaction du travail accompli ensemble, créant un climat propice à la demande.",
+            "Tu sais rebondir pour explorer les besoins similaires dans l’entourage du client.",
+            "La segmentation des profils fait son apparition (« besoins de protection, d’épargne… ») pour faciliter la recherche de noms.",
+            "Tu demandes l’accord pour la recommandation et restes vigilant à la notion de « privauté », cherchant à respecter le cadre posé par Thiago.",
+            "L’étape de félicitation initiale manque de chaleur personnalisée et de reconnaissance sincère du choix du client.",
+            "La phase d’identification des points de satisfaction est survolée, sans vraiment faire exprimer le client dans ses propres mots.",
+            "Tes questions sur les contacts restent parfois trop ouvertes ou hésitantes (« Est-ce qu’il y a des gens autour de vous… »), ce qui affaiblit la démarche."
+        ]
     },
     {
         "name": "Sophie Géraud",
@@ -12614,7 +13878,9 @@ const RAW_SIMULATIONS = [
                 "text": "Par message privé, court et direct, en précisant que vous les avez en tête et que je les ai invités à échanger. Si vous préférez, je peux d'abord les prévenir de votre message et demander l'autorisation de transmettre leur email."
             }
         ],
-        "finished": false
+        "finished": false,
+        "feedback": "",
+        "insights": []
     },
     {
         "name": "Sophie Géraud",
@@ -12660,7 +13926,18 @@ const RAW_SIMULATIONS = [
                 "text": "Je comprends l'idée, mais donnez-moi d'abord un peu de contexte sur la façon dont vous contacterez ces personnes. Je ne donne pas de noms sans être sûr que vous resterez discret."
             }
         ],
-        "finished": true
+        "finished": true,
+        "feedback": "Voici le débriefing de notre échange.\n\n  \n\n## 🤓 PERSONA\n\n  \nJ’ai incarné Rafael, un pédiatre charismatique de quarante-deux ans à Salvador, au profil DISC très orienté jaune, chaleureux et expressif.\n\n  \n\n## 🎯 OBJECTIF PRINCIPAL\n\n  \nL’objectif d’obtenir au moins deux recommandations qualifiées et l’autorisation de les contacter avec mention du nom n’a pas été atteint.\n\n  \n\n## ➕ Points forts \n\n  \n- Tu as rebondi rapidement après la signature du contrat pour exploiter le « moment de grâce ».\n\n  \n- Tu as essayé de valoriser la satisfaction du client avant de formuler ta demande.\n\n  \n\n## ⚠️ AXES D'AMÉLIORATION  \n\n  \n- Structure absente : la demande de recommandations arrive de façon précipitée, sans remerciement formalisé ni reconnaissance du choix du client. \n\n  \n- Présentation de la démarche floue : tu demandes beaucoup (« deux mille personnes » !), ce qui n’aide pas à engager la réflexion du client.\n\n  \n- Oubli total de la segmentation : tu n’as pas proposé de profils précis pour aider le client à cibler une ou deux personnes.\n\n  \n- Collecte d’informations non structurée : aucun recours à la méthode ⟪A.S.K.T.H.E.M.A.N|ask the man⟫ ni à l’identification d’éléments personnels pour humaniser le contact.\n\n  \n- Absence totale d’explications sur l’importance ou l’utilité de la recommandation, ni de la demande d’autorisation formelle.\n\n  \n\n## 🩵 ANALYSE EMOTIONNELLE\n\n  \nTon approche est sympathique et spontanée, mais elle manque de structure. L’état émotionnel dominant est le flottement, mêlé à une pointe de fébrilité.\n\n  \n\n## 🛅 MOMENTS CLÉS  \n\n  \nLors de la première tentative de demande de recommandations, tu enchaînes sans reconnaître le client : tu rates l’accroche émotionnelle, ce qui rend la suite mécanique. Ceci a freiné d’emblée la capacité du client à s’ouvrir.\n\n  \n\n## 🔊 REFORMULATIONS RECOMMANDÉES  \n\n  \n« D'abord, je veux vous remercier pour votre confiance, cela me touche sincèrement. »\n\n  \n« Qu’est-ce que vous avez le plus apprécié dans notre travail ensemble ? »\n\n  \n« Parmi vos collègues ou amis jeunes parents par exemple, à qui pensez-vous qui pourrait bénéficier de ce type de conseil ? »\n\n  \n« Puis-je leur dire que vous m’autorisez à les contacter de votre part ? »\n\n  \n\n## ➡️ RECOMMANDATIONS\n\n  \nTravaille ta structure : démarre par la reconnaissance, pose des questions ouvertes sur la satisfaction, segmente ton questionnement, utilise ⟪A.S.K.T.H.E.M.A.N|ask the man⟫ naturellement, explique toujours la démarche et demande l’autorisation explicitement. Relaxe : la recommandation, c’est avant tout une histoire de relation !\n\nTu as du potentiel, il suffit de l’ordonner et de t’appuyer sur la méthode pour cartonner !",
+        "insights": [
+            "J’ai incarné Rafael, un pédiatre charismatique de quarante-deux ans à Salvador, au profil DISC très orienté jaune, chaleureux et expressif.",
+            "Tu as rebondi rapidement après la signature du contrat pour exploiter le « moment de grâce ».",
+            "Tu as essayé de valoriser la satisfaction du client avant de formuler ta demande.",
+            "Structure absente : la demande de recommandations arrive de façon précipitée, sans remerciement formalisé ni reconnaissance du choix du client.",
+            "Présentation de la démarche floue : tu demandes beaucoup (« deux mille personnes » !), ce qui n’aide pas à engager la réflexion du client.",
+            "Oubli total de la segmentation : tu n’as pas proposé de profils précis pour aider le client à cibler une ou deux personnes.",
+            "Collecte d’informations non structurée : aucun recours à la méthode ⟪A.S.K.T.H.E.M.A.N|ask the man⟫ ni à l’identification d’éléments personnels pour humaniser le contact.",
+            "Absence totale d’explications sur l’importance ou l’utilité de la recommandation, ni de la demande d’autorisation formelle."
+        ]
     },
     {
         "name": "Sophie Géraud",
@@ -12698,7 +13975,18 @@ const RAW_SIMULATIONS = [
                 "text": "Je préfère d'abord savoir comment vous comptez l'approcher. Quelle méthode utiliserez-vous au premier contact, et combien de temps ça prendra en moyenne ?"
             }
         ],
-        "finished": true
+        "finished": true,
+        "feedback": "Voici le débriefing de notre échange.\n\n  \n##  🤓 PERSONA  \n\nJe jouais Camila, jeune product manager en tech à Florianópolis, profil DISC jaune, curieuse et digital-native.  \n\n  \n## 🎯 OBJECTIF PRINCIPAL  \n\nL'objectif — obtenir deux recommandations qualifiées et l'autorisation de mention du nom — n'a pas été atteint.  \n\n  \n## ➕ Points forts  \n\n- Vous avez commencé par remercier et féliciter le client, en valorisant sa décision.  \n\n- Vous avez interrogé sur la satisfaction et instauré une atmosphère de confiance.  \n\n- Vous avez rebondi sur le contact de Pedro, montrant une écoute active et de la réactivité.  \n\n- Votre ton est resté cordial et professionnel, sans pression excessive.  \n\n  \n## ⚠️ AXES D'AMÉLIORATION  \n\n- Manque de méthode  \n  La prise de recommandation n'a pas suivi la structure en sept étapes MetLife, ce qui a limité la qualité des informations récoltées.  \n\n- Demande de recommandation floue  \n  Vous n'avez pas explicitement présenté la recommandation comme un geste pour les proches, ni segmenté les profils pour aider la mémoire du client.  \n\n- Saut d'étapes  \n  L'étape ⟪A.S.K.T.H.E.M.A.N|ask the man⟫ a été omise. L'obtention d’informations sur Pedro n’a pas été structurée.  \n\n- Absence d'autorisation claire  \n  La formulation « je vous préviendrai avant de le contacter » reste ambiguë et reporte l’engagement au futur, sans obtenir de feu vert explicite.  \n\n  \n## 🩵 ANALYSE EMOTIONNELLE  \n\nVotre discours était posé, rassurant mais parfois hésitant, donnant l’impression d’improviser. Le client a perçu une posture bienveillante, mais une certaine absence de pilotage.  \n\n  \n## 🛅 MOMENTS CLÉS  \n\nRemerciement initial : Vous ouvrez positivement, ce qui met la cliente en confiance.  \nDemande floue sur Pedro : Beaucoup d'ouverture sans cadrage, d’où manque de suite concrète et perte de dynamique commerciale.  \n\n  \n##  🔊 REFORMULATIONS RECOMMANDÉES  \n\n« J’aimerais comprendre ce que vous avez apprécié dans notre démarche, cela m’aide à toujours progresser. »  \n\n« Parmi vos connaissances dans le monde de la tech à Floripa, pensez-vous à quelqu’un qui pourrait bénéficier d’un tel accompagnement ? »  \n\n« Seriez-vous d’accord pour que je mentionne que vous m’avez recommandé Pedro lors de notre prise de contact ? »  \n\n« Pour mieux comprendre ses besoins, pouvez-vous me donner quelques informations sur Pedro, comme son poste ou ses centres d’intérêt ? »  \n\n  \n## ➡️ RECOMMANDATIONS  \n\nAppuyez-vous sur les sept étapes MetLife lors de la prise de recommandations. Structurez votre demande, segmentez, appliquez ⟪A.S.K.T.H.E.M.A.N|ask the man⟫ avec naturel, et sécurisez systématiquement l’autorisation du client pour chaque contact.  \n\nUne méthode solide change la donne. Continuez, la prochaine étape est à portée de main !",
+        "insights": [
+            "Je jouais Camila, jeune product manager en tech à Florianópolis, profil DISC jaune, curieuse et digital-native.",
+            "L'objectif — obtenir deux recommandations qualifiées et l'autorisation de mention du nom — n'a pas été atteint.",
+            "Vous avez commencé par remercier et féliciter le client, en valorisant sa décision.",
+            "Vous avez interrogé sur la satisfaction et instauré une atmosphère de confiance.",
+            "Vous avez rebondi sur le contact de Pedro, montrant une écoute active et de la réactivité.",
+            "Votre ton est resté cordial et professionnel, sans pression excessive.",
+            "Demande de recommandation floue",
+            "Absence d'autorisation claire"
+        ]
     },
     {
         "name": "Sophie Géraud",
@@ -12736,7 +14024,18 @@ const RAW_SIMULATIONS = [
                 "text": "Pedro est un ancien collègue. Pourquoi voulez-vous le contacter exactement ?"
             }
         ],
-        "finished": true
+        "finished": true,
+        "feedback": "Voici le débriefing de notre échange.\n\n  \n##  🤓 PERSONA \n\nHomme méticuleux, ingénieur qualité, cinquante ans, marié, deux enfants, orienté logique et sécurité. Profil DISC : bleu dominant.\n\n  \n## 🎯 OBJECTIF PRINCIPAL\n\nLe Corretor n’a obtenu ni recommandations précises ni autorisation de mention du nom. Objectif non atteint.\n\n  \n## ➕ Points forts \n\n- Démarrage courtois, avec remerciement et sollicitation du ressenti sur l’entretien.\n\n  \n- Tentative de valoriser l’intermédiation par Pedro pour créer un climat de confiance.\n\n  \n- Mention de la satisfaction du client, ce qui pose un cadre positif.\n\n  \n## ⚠️ AXES D'AMÉLIORATION  \n\n- **Manque de structure dans la démarche de recommandation.**\n  L’introduction de la demande de recommandations est confuse et mal amenée, sans réelle segmentation ou contextualisation.\n\n  \n- L’étape d’identification des points de satisfaction est survolée, sans laisser au client le temps d’exprimer ce qu’il a apprécié.\n\n  \n- Absence d’explication claire du principe et de l’intérêt de la recommandation : l’approche paraît opportuniste.\n\n  \n- La méthode ⟪A.S.K.T.H.E.M.A.N|ask the man⟫ n’est pas du tout utilisée, aucune question structurée n’apparaît.\n\n  \n- Pas de question humanisante ni de demande d’autorisation explicite pour mentionner le nom du client.\n\n  \n## 🩵 ANALYSE EMOTIONNELLE\n\nLe ton est neutre, parfois mécanique, laissant transparaître un léger malaise dans la conduite de l’échange. Le Corretor semble pressé voire hésitant.\n\n  \n## 🛅 MOMENTS CLÉS  \n\nLa sollicitation de l'avis de satisfaction en début d’échange : bonne intention mais pas exploitée pour aller plus loin vers une recommandation.\n\n  \nLa mention de Pedro, utilisée comme transition sans exploiter vraiment la dimension relationnelle ou la logique de recommandation.\n\n  \n##  🔊 REFORMULATIONS RECOMMANDÉES  \n\n« J'apprécie votre confiance aujourd'hui, c'est une fierté d’avoir pu répondre à vos attentes. »\n\n  \n« Parmi vos collègues ou amis ingénieurs, à qui pensez-vous que cette solution pourrait aussi être utile ? »\n\n  \n« Auriez-vous l’amabilité de me présenter l'une de ces personnes, afin que je puisse les aider comme je l'ai fait pour vous ? »\n\n  \n« Puis-je indiquer que c’est grâce à vous que je les contacte ? »\n\n  \n## ➡️ RECOMMANDATIONS\n\nReprends la méthode MetLife, structure la prise de recommandation étape par étape et travaille tes transitions. Laisse le client formuler sa satisfaction. Utilise ⟪A.S.K.T.H.E.M.A.N|ask the man⟫ de façon souple et n’oublie jamais l’autorisation de mention.\n\n  \nC’est en t’appuyant sur la confiance client que tu ouvriras un vrai flux de recommandations !",
+        "insights": [
+            "Homme méticuleux, ingénieur qualité, cinquante ans, marié, deux enfants, orienté logique et sécurité. Profil DISC : bleu dominant.",
+            "Démarrage courtois, avec remerciement et sollicitation du ressenti sur l’entretien.",
+            "Tentative de valoriser l’intermédiation par Pedro pour créer un climat de confiance.",
+            "Mention de la satisfaction du client, ce qui pose un cadre positif.",
+            "Manque de structure dans la démarche de recommandation.",
+            "L’étape d’identification des points de satisfaction est survolée, sans laisser au client le temps d’exprimer ce qu’il a apprécié.",
+            "Absence d’explication claire du principe et de l’intérêt de la recommandation : l’approche paraît opportuniste.",
+            "La méthode ⟪A.S.K.T.H.E.M.A.N|ask the man⟫ n’est pas du tout utilisée, aucune question structurée n’apparaît."
+        ]
     },
     {
         "name": "Sophie Géraud",
@@ -12749,7 +14048,9 @@ const RAW_SIMULATIONS = [
         "lqa": "N/A",
         "interactions": 0,
         "messages": [],
-        "finished": false
+        "finished": false,
+        "feedback": "",
+        "insights": []
     },
     {
         "name": "Sophie Géraud",
@@ -12823,7 +14124,9 @@ const RAW_SIMULATIONS = [
                 "text": "Et votre compagne ? Pourquoi donc euh... ? Non, j'ai regardé. C'est le petit jeune de cinquante ans. Parce qu'ils occupent mes enfants, pardon. C'est ça qui m'arrive. Persona, persona, persona, ici. Euh... Euh... Il est vert, je crois. Oui. Non. Il est où, le nœud ? Rhôôô ! Oh ! On va pas dire 5e année pré-fil. Très bouche à oreille. En couple. Mon panier d'avocate. C'est un... Le... C'est le Badorien. J'ai envie de faire référence à sa compagne et avocate. C'est le mot expressif, sensibele. On va à l'Orne, c'est pas de la musique ? Si, il est bien hein. Festival de musique, carnaval, Saint-Jean. En beaucoup entre amis. Il a quarante-deux ans ? J'ai rien à voir avec ça, le contre. Pardon. Euh... Ah."
             }
         ],
-        "finished": false
+        "finished": false,
+        "feedback": "",
+        "insights": []
     },
     {
         "name": "Sophie Géraud",
@@ -12845,7 +14148,9 @@ const RAW_SIMULATIONS = [
                 "text": "Allô ? Tu parles. (musique en fond) Ah, oui ! (rire) C'est un sushot. Oui, c'est ça, les chins en l'air. Ah oui, j'ai trouvé ça... j'ai... Il faut que j'enlève les alertes Google parce que ça m'agace. Il y a un jaune, je ne sais pas ce que c'est jaune. À la gare. Tu vas donc quand même pas y aller, héhé. (rire)"
             }
         ],
-        "finished": false
+        "finished": false,
+        "feedback": "",
+        "insights": []
     },
     {
         "name": "Sophie Géraud",
@@ -12907,7 +14212,9 @@ const RAW_SIMULATIONS = [
                 "text": "Pour ma famille ce serait plutôt une protection décès ou une rente éducative pour les enfants.  \nDans mon cercle pro, des solutions d'épargne retraite défiscalisante seraient pertinentes."
             }
         ],
-        "finished": false
+        "finished": false,
+        "feedback": "",
+        "insights": []
     },
     {
         "name": "Sophie Géraud",
@@ -12929,7 +14236,9 @@ const RAW_SIMULATIONS = [
                 "text": "Bonjour, je suis un peu occupée maintenant."
             }
         ],
-        "finished": false
+        "finished": false,
+        "feedback": "",
+        "insights": []
     },
     {
         "name": "Sophie Géraud",
@@ -12951,7 +14260,9 @@ const RAW_SIMULATIONS = [
                 "text": "Oi. Estou ocupado agora. Quem está"
             }
         ],
-        "finished": false
+        "finished": false,
+        "feedback": "",
+        "insights": []
     },
     {
         "name": "Sophie Géraud",
@@ -12977,7 +14288,9 @@ const RAW_SIMULATIONS = [
                 "text": "Certo. Estou ocupado agora, mas posso"
             }
         ],
-        "finished": false
+        "finished": false,
+        "feedback": "",
+        "insights": []
     },
     {
         "name": "Sophie Géraud",
@@ -12999,7 +14312,9 @@ const RAW_SIMULATIONS = [
                 "text": "Bonjour. Je suis pressée en ce moment, peux-tu dire brièvement pourquoi"
             }
         ],
-        "finished": false
+        "finished": false,
+        "feedback": "",
+        "insights": []
     },
     {
         "name": "Sophie Géraud",
@@ -13021,7 +14336,9 @@ const RAW_SIMULATIONS = [
                 "text": "Bonjour. Je suis occupée"
             }
         ],
-        "finished": false
+        "finished": false,
+        "feedback": "",
+        "insights": []
     },
     {
         "name": "Sophie Géraud",
@@ -13034,7 +14351,9 @@ const RAW_SIMULATIONS = [
         "lqa": "N/A",
         "interactions": 0,
         "messages": [],
-        "finished": false
+        "finished": false,
+        "feedback": "",
+        "insights": []
     },
     {
         "name": "Sophie Géraud",
@@ -13047,7 +14366,9 @@ const RAW_SIMULATIONS = [
         "lqa": "N/A",
         "interactions": 0,
         "messages": [],
-        "finished": false
+        "finished": false,
+        "feedback": "",
+        "insights": []
     },
     {
         "name": "Sophie Géraud",
@@ -13060,7 +14381,9 @@ const RAW_SIMULATIONS = [
         "lqa": "N/A",
         "interactions": 0,
         "messages": [],
-        "finished": false
+        "finished": false,
+        "feedback": "",
+        "insights": []
     },
     {
         "name": "Sophie Géraud",
@@ -13073,7 +14396,9 @@ const RAW_SIMULATIONS = [
         "lqa": "N/A",
         "interactions": 0,
         "messages": [],
-        "finished": false
+        "finished": false,
+        "feedback": "",
+        "insights": []
     },
     {
         "name": "Sophie Géraud",
@@ -13086,7 +14411,9 @@ const RAW_SIMULATIONS = [
         "lqa": "N/A",
         "interactions": 0,
         "messages": [],
-        "finished": false
+        "finished": false,
+        "feedback": "",
+        "insights": []
     },
     {
         "name": "Sophie Géraud",
@@ -13099,7 +14426,9 @@ const RAW_SIMULATIONS = [
         "lqa": "N/A",
         "interactions": 0,
         "messages": [],
-        "finished": false
+        "finished": false,
+        "feedback": "",
+        "insights": []
     },
     {
         "name": "Sophie Géraud",
@@ -13121,7 +14450,9 @@ const RAW_SIMULATIONS = [
                 "text": "Estou bem, obrigado. Estou no meio de uma tarefa agora, sou direto: qual é o motivo da ligação?"
             }
         ],
-        "finished": false
+        "finished": false,
+        "feedback": "",
+        "insights": []
     },
     {
         "name": "Sophie Géraud",
@@ -13147,7 +14478,9 @@ const RAW_SIMULATIONS = [
                 "text": "Certo. Estou no meio de uma tarefa, fala rápido. Quem está falando"
             }
         ],
-        "finished": false
+        "finished": false,
+        "feedback": "",
+        "insights": []
     },
     {
         "name": "Sophie Géraud",
@@ -13193,7 +14526,11 @@ const RAW_SIMULATIONS = [
                 "text": "Je suis prête à recommander, mais pas comme ça, à chaud. Je préfère d'abord savoir comment vous souhaitez que je formule l'introduction. Vous demandez à"
             }
         ],
-        "finished": true
+        "finished": true,
+        "feedback": "Voici le débriefing de notre échange.\n\n  \n## 🤓 PERSONA\n\nMulher, trinta e oito anos, dentista autônoma, perfil DISC majoritariamente verde, pragmática, relacional, resistente, mas racional.\n\n  \n## 🎯 OBJETIVO PRINCIPAL\n\nO objetivo de obter recomendações qualificadas do cliente não foi atingido nesta conversa.\n\n  \n## ➕ Pontos fortes \n\nO corretor iniciou de maneira cordial, gerando empatia e se mostrando satisfeito com o resultado do atendimento.\n\nHouve menção ao contato que possibilitou a relação inicial, gerando reconhecimento à rede e sutileza ao citar referências.\n\nA abordagem foi direta, evitando rodeios excessivos, o que pode ser percebido como assertivo em certos contextos.\n\n  \n## ⚠️ AXES D'AMÉLIORATION  \n\nFaltou reconhecimento explícito do momento WOW, sem valorização emocional ou parabenização pelo contrato fechado.\n\nNão houve solicitação do que o cliente mais apreciou na jornada, perdendo a oportunidade de fazê-lo verbalizar a satisfação.\n\nA solicitação de recomendação foi feita de modo muito aberto e genérico (“vous aviez une possibilité de me recommander ?”), sem segmentação ou condução por perfis, dificultando a resposta.\n\nNão foi utilizada a metodologia \"ASK THE MAN\" para coleta detalhada e natural das informações dos recomendados.\n\nEm nenhum momento houve pedido de autorização explícita para citar o nome do cliente, o que fere protocolo MetLife e pode gerar desconforto futuro.\n\n  \n## 🩵 ANALYSE EMOTIONNELLE\n\nO tom foi educado, mas excessivamente sucinto e mecânico, sem demonstrar calor, entusiasmo ou escuta ativa aprofundada.\n\n  \n## 🛅 MOMENTOS CLÉS  \n\nApós mencionar Paolo, buscou reconhecer a importância de terceiros, mas não amparou esse gesto com valorização do próprio cliente, reduzindo impacto emocional.\n\nNo pedido de recomendação, a falta de segmentação e reflexão guiada tornou a resposta do cliente menos provável e pouco engajadora.\n\n  \n## 🔊 REFORMULATIONS RECOMMANDÉES  \n\n“Gostaria muito de saber o que mais te chamou atenção nesse processo, pode compartilhar comigo?”\n\n“Se pensar em alguém do seu círculo profissional ou pessoal que se beneficiaria dessa mesma tranquilidade, me avise? Posso te ajudar a pensar juntos!”\n\n“Se eu tiver sua autorização, cito seu nome com muito respeito e descrição ao abordar a pessoa recomendada.”\n\n“Caso você prefira, só converso com seus contatos se me der o sinal verde, tudo bem?”\n\n  \n## ➡️ RECOMMANDATIONS\n\nValorize mais o cliente e peça que expresse seus motivos de satisfação. Estruture a abordagem de forma consultiva, segmente perfis e utilize sempre a ⟪méthode ASK THE MAN,⟫ para tornar a conversa mais fluida e ética. Peça consentimento claro para citar o nome dele. Bora potencializar suas indicações?",
+        "insights": [
+            "Não houve solicitação do que o cliente mais apreciou na jornada, perdendo a oportunidade de fazê-lo verbalizar a satisfação."
+        ]
     },
     {
         "name": "Sophie Géraud",
@@ -13206,7 +14543,9 @@ const RAW_SIMULATIONS = [
         "lqa": "N/A",
         "interactions": 0,
         "messages": [],
-        "finished": false
+        "finished": false,
+        "feedback": "",
+        "insights": []
     },
     {
         "name": "Sophie Géraud",
@@ -13260,7 +14599,18 @@ const RAW_SIMULATIONS = [
                 "text": "Ok. D'abord, je n'ai pas le temps pour une heure. Peux-tu proposer un créneau de quinze minutes par vidéo ?"
             }
         ],
-        "finished": true
+        "finished": true,
+        "feedback": "Aqui está le debriefing de notre échange.\n\n🤓 PERSONA\n\nJ’ai incarné Eduardo, ingénieur qualité aéronautique, profil DISC Bleu : méthodique, rationnel, plutôt réservé et en quête de preuves.\n\n🎯 OBJECTIF PRINCIPAL\n\nL’objectif d’obtenir une réunion découverte METLIFE n’est pas atteint, la gestion des objections n’a pas eu lieu, et la structure des étapes s’est perdue.\n\n➕ POINTS FORTS\n\n- Tu as rapidement nommé un contact référent pour tenter de créer une connexion initiale.\n\n- Ta proposition de rendez-vous est venue tôt, dans une optique de gain de temps pour le prospect.\n\n- Le ton est resté poli et professionnel sans précipitation ou agressivité.\n\n⚠️ POINTS DE AMELIORATION\n\n- Absence d’introduction claire, tu n’as pas demandé l’autorisation de poursuivre ni validé le bon moment pour parler.\n\n  \n- Gestion des objections manquante : aucune question sur les soucis du prospect, pas de traitement « sim, mais… » face à d’éventuels freins.\n\n  \n- Aucune explication du bénéfice concret d’un entretien court, ni de différenciation de l’approche (analyse personnalisée, pas d’engagement…).\n\n  \n- Le pitch était confus, beaucoup d’hésitation, répétitions et références potentiellement intrusives à la vie privée (« héritage »).\n\n  \n- Pas de choix forcé de créneau, ni reconfirmation ou validation réelle de l’accord du prospect.\n\n🩵 ANALYSE EMOTIONNELLE\n\nLe ton était hésitant, haché, parfois intrusif. On sent une recherche de lien mais peu d’assurance et de structure argumentaire.\n\n🛅 MOMENTS-CLÉS\n\nPremière mention du contact référent : cela aurait pu briser la glace, mais sans demander l’aval du prospect, ça accentue la méfiance.\n\nProposition immédiate de rendez-vous : sans gestion des objections ni bénéfices, cela tombe à plat et ne suscite pas d’engagement.\n\n🔊 REFORMULATIONS RECOMMANDÉES\n\n\"Est-ce le bon moment pour vous parler deux minutes, sur recommandation d’Antonio ?\"\n\n\"Je vous propose quinze minutes d’analyse gratuite, sans engagement, pour sécuriser votre futur patrimonial.\"\n\n\"Préférez-vous mercredi à neuf heures ou jeudi à dix heures pour un appel rapide ?\"\n\n\"L’objectif n’est pas de vendre quoi que ce soit, mais d’apporter des réponses personnalisées à votre situation.\"\n\n➡️ RECOMMANDATIONS\n\nStructure systématiquement tes appels : autorisation, brise-glace, bénéfice du rendez-vous, choix de créneau serré, reconfirmer. Ne saute jamais la gestion des objections ni la différenciation de ton approche. Oxygène ton pitch – concis, rassurant, consultatif.\n\nLe décollage commercial passe toujours par une bonne check-list… même sur la piste du téléphone !",
+        "insights": [
+            "J’ai incarné Eduardo, ingénieur qualité aéronautique, profil DISC Bleu : méthodique, rationnel, plutôt réservé et en quête de preuves.",
+            "Tu as rapidement nommé un contact référent pour tenter de créer une connexion initiale.",
+            "Ta proposition de rendez-vous est venue tôt, dans une optique de gain de temps pour le prospect.",
+            "Le ton est resté poli et professionnel sans précipitation ou agressivité.",
+            "Absence d’introduction claire, tu n’as pas demandé l’autorisation de poursuivre ni validé le bon moment pour parler.",
+            "Gestion des objections manquante : aucune question sur les soucis du prospect, pas de traitement « sim, mais… » face à d’éventuels freins.",
+            "Aucune explication du bénéfice concret d’un entretien court, ni de différenciation de l’approche (analyse personnalisée, pas d’engagement…).",
+            "Le pitch était confus, beaucoup d’hésitation, répétitions et références potentiellement intrusives à la vie privée (« héritage »)."
+        ]
     },
     {
         "name": "Sophie Géraud",
@@ -13338,7 +14688,18 @@ const RAW_SIMULATIONS = [
                 "text": "Ok. Certo. E outra questão : vous dites « alias » parce que vous mélangez le portugais et le français, ça m'embrouille. Je préfère les choses claires, envoyez plutôt le lien par WhatsApp comme convenu."
             }
         ],
-        "finished": true
+        "finished": true,
+        "feedback": "Voici le débriefing de notre échange\n\n🤓 PERSONA \n\nCamila, product manager tech à Florianópolis, profil DISC jaune, digitale-native, curieuse, sceptique et rapide, peu adepte des rendez-vous longs ou vagues.\n\n🎯 OBJECTIF PRINCIPAL\n\nTu as tenté de répondre aux objections mais sans structure claire et l’accord de rendez-vous semble incertain. Objectif partiellement atteint.\n\n➕ Points forts \n\n- Tu as évoqué la recommandation de Pedro, ce qui crédibilise l’entrée en matière.\n\n- Le ton est resté poli et professionnel, sans agressivité ni insistance déplacée.\n\n- Proposition adaptée sur la durée et le format visio du rendez-vous, ce qui matche avec la cible.\n\n⚠️ AXES D'AMÉLIORATION  \n\n- Manque d’autorisation claire (« Est-ce que je peux me permettre… ? »), ce qui peut braquer un profil méfiant et pressé.\n\n- Structuration. \n  Le fil de l’appel n’est pas fluide, la progression saute d’un sujet à l’autre, et on ne sent pas les huit étapes MétLife distinctement.\n\n- Gestion des objections. \n  Les réponses sont hésitantes, et l’argumentation manque d’impact (\"je... euh... vous manquez de temps... bah...\").\n\n- Choix forcé absent ou trop tardif. \n  Tu proposes mardi dix heures sans alternative, alors qu’il faudrait toujours deux options rapprochées.\n\n- Bénéfice concret.\n  Camila n’a pas entendu « ce que VOUS gagnez en quinze minutes », la finalité est restée floue.\n\n🩵 ANALYSE EMOTIONNELLE\n\nLe ton est professionnel mais parfois hésitant, le vocabulaire manque de punch. On sent une volonté de bien faire mais l’assurance n’est pas toujours perceptible côté conseiller.\n\n🛅 MOMENTS CLÉS  \n\nEntrée recommandation Pedro. \nTu l’as placée dès le début, c’est bien, mais sans brise-glace personnel ni rebond empathique sur son profil tech.\n\nProposition de créneau.\nTu arrives finalement à formuler une proposition, mais trop tard et sans choix. L’engagement du prospect en pâtit.\n\n🔊 REFORMULATIONS RECOMMANDÉES  \n\n« Camila, je comprends que votre temps est précieux, voilà pourquoi je propose juste quinze minutes, en visio. »\n\n« Pour être efficace, je vous propose mardi à dix heures ou mercredi à quinze heures, ça vous irait ? »\n\n« Ce rendez-vous, c’est vraiment pour vous donner une vision claire et personnalisée, sans engagement ni démarchage commercial. »\n\n« Pedro m’a parlé de votre parcours tech, je pense que je peux vous apporter une méthode adaptée à votre profil. »\n\n« Je vous confirme l’invitation par email, c’est bien sur votre adresse ABCD@gmail.com ? »\n\n➡️ RECOMMANDATIONS\n\nTravaille la préparation des huit étapes MétLife, notamment la gestion des objections avec la technique du « oui, mais... ». Structure bien l’explication du bénéfice personnalisé, adopte systématiquement le choix forcé, et muscle ton introduction pour matcher le dynamisme du profil jaune.\n\nContinue comme ça, il te suffit d’un peu plus de méthode et de punch pour performer !",
+        "insights": [
+            "Camila, product manager tech à Florianópolis, profil DISC jaune, digitale-native, curieuse, sceptique et rapide, peu adepte des rendez-vous longs ou vagues.",
+            "Tu as tenté de répondre aux objections mais sans structure claire et l’accord de rendez-vous semble incertain. Objectif partiellement atteint.",
+            "Tu as évoqué la recommandation de Pedro, ce qui crédibilise l’entrée en matière.",
+            "Le ton est resté poli et professionnel, sans agressivité ni insistance déplacée.",
+            "Proposition adaptée sur la durée et le format visio du rendez-vous, ce qui matche avec la cible.",
+            "Manque d’autorisation claire (« Est-ce que je peux me permettre… ? »), ce qui peut braquer un profil méfiant et pressé.",
+            "Gestion des objections.",
+            "Choix forcé absent ou trop tardif."
+        ]
     },
     {
         "name": "Sophie Géraud",
@@ -13408,7 +14769,9 @@ const RAW_SIMULATIONS = [
                 "text": "Bon, d'accord. Mais ça me gêne que Roberto ne m'ait pas prévenue avant de partager mon numéro. Je préfère qu'on fixe un rendez-vous court par visio plutôt qu'une rencontre en personne."
             }
         ],
-        "finished": false
+        "finished": false,
+        "feedback": "",
+        "insights": []
     },
     {
         "name": "Sophie Géraud",
@@ -13478,7 +14841,18 @@ const RAW_SIMULATIONS = [
                 "text": "N'importe."
             }
         ],
-        "finished": true
+        "finished": true,
+        "feedback": "Voici le débriefing de notre échange.\n\n \n🤓 PERSONA  \n\nIngénieur qualité aéronautique, méthodique, sceptique, profil DISC bleu, préoccupé par sécurité et preuves tangibles.\n\n \n🎯 OBJECTIF PRINCIPAL  \n\nTu n’as pas entièrement traité les objections ni instauré confiance ; le rendez-vous ferme n’est pas obtenu. L’objectif est non atteint.\n\n \n➕ Points forts  \n\n- Tu as présenté une recommandation client dès l’ouverture, point positif pour la connexion relationnelle.\n  \n- La démarche d’écoute et la volonté de rendre service apparaissent dans tes propositions et tes formulations.\n\n- Tu as fait preuve de disponibilité rapide et montré de la flexibilité sur le lieu (déplacement proposé).\n\n \n⚠️ AXES D'AMÉLIORATION  \n\n- Gestion des objections\n  Aucune objection explicite du prospect n’a été entendue ni traitée, alors que la méthode impose au minimum quatre objections.\n\n- Pitch peu différenciant\n  Le discours manque de clarté sur le bénéfice concret du rendez-vous, trop vite focalisé sur des arguments d’investissement.\n\n- Absence de choix forcé  \n  La question « disponible bientôt ? » reste trop vague, il manque la proposition d’au moins deux créneaux précis, et le choix d’un lieu concret.\n\n- Présence de mots à connotation vente\n  Parler d’« investissements » ou de « rendements » déplace l’échange vers la vente directe, contraire à l’esprit MetLife.\n\n \n🩵 ANALYSE EMOTIONNELLE  \n\nLe ton est calme mais manque de chaleur et de personnalisation. Un peu trop direct et peu empathique, ce qui crée de la distance perçue.\n\n \n🛅 MOMENTS CLÉS  \n\nL’annonce de la recommandation client dès le départ aurait pu ouvrir la porte si elle avait été liée à une expérience personnelle ou un brise-glace humain.\n\nLa tentative de rendez-vous s’est faite trop tôt, sans préparation, ce qui a coupé court à l’engagement du prospect.\n\n \n🔊 REFORMULATIONS RECOMMANDÉES  \n\n« Paulo m’a beaucoup parlé de votre esprit rigoureux, c’est ce qui m’a décidé à vous appeler. »\n\n« Pour que ce soit concret, je propose mardi ou jeudi à dix-huit heures, chez vous ou à mon bureau : qu’est-ce qui vous conviendrait ? »\n\n« Le rendez-vous ne vous engage à rien mais vous permet d’avoir une analyse personnalisée, en toute confidentialité. »\n\n« Vous gagnerez un point de vue neutre, orienté solutions, complémentaire à ce que vous avez déjà. »\n\n \n➡️ RECOMMANDATIONS  \n\nPose systématiquement ta question d’autorisation, structure ton appel avec brise-glace personnalisé, traite activement quatre objections et propose des créneaux concrets. Prends le temps de montrer l’intérêt unique pour le prospect avant toute allusion aux produits.\n\nTu progresses à chaque essai : structure, rigueur, et énergie seront tes meilleurs alliés !",
+        "insights": [
+            "Tu n’as pas entièrement traité les objections ni instauré confiance ; le rendez-vous ferme n’est pas obtenu. L’objectif est non atteint.",
+            "Tu as présenté une recommandation client dès l’ouverture, point positif pour la connexion relationnelle.",
+            "La démarche d’écoute et la volonté de rendre service apparaissent dans tes propositions et tes formulations.",
+            "Tu as fait preuve de disponibilité rapide et montré de la flexibilité sur le lieu (déplacement proposé).",
+            "Gestion des objections",
+            "Pitch peu différenciant",
+            "Le discours manque de clarté sur le bénéfice concret du rendez-vous, trop vite focalisé sur des arguments d’investissement.",
+            "Absence de choix forcé"
+        ]
     },
     {
         "name": "Sophie Géraud",
@@ -13491,7 +14865,9 @@ const RAW_SIMULATIONS = [
         "lqa": "N/A",
         "interactions": 0,
         "messages": [],
-        "finished": false
+        "finished": false,
+        "feedback": "",
+        "insights": []
     },
     {
         "name": "Sophie Géraud",
@@ -13585,7 +14961,18 @@ const RAW_SIMULATIONS = [
                 "text": "D'accord pour mardi matin. Mardi à dix heures me convient, je vous attends dans mon bureau."
             }
         ],
-        "finished": true
+        "finished": true,
+        "feedback": "Voici le débriefing de notre échange.\n\n🤓 PERSONA\n\nJ’ai joué un dirigeant de franchise fast-food, quarante ans, profil DISC rouge, direct, impatient, axé efficacité et pragmatisme.\n\n🎯 OBJECTIF PRINCIPAL\n\nTu as partiellement traité les objections mais l’invitation au rendez-vous n’était pas aussi structurée ni personnalisée que le veut la méthode MetLife. L’objectif de rendez-vous confirmé n’est donc que partiellement atteint.\n\n➕ Points forts\n\n- Tu as mentionné la recommandation de Paolo, élément capital pour instaurer la confiance dès l’introduction.\n\n- Tu t’es adaptée rapidement à la tonalité de l’échange en allant à l’essentiel après tes premiers mots.\n\n- Tu as cherché à proposer un choix de modalités pour le rendez-vous, faisant preuve d’ouverture sur l’organisation.\n\n- La volonté de personnalisation se ressent dans tes efforts pour t’adapter aux besoins présumés du prospect. \n\n⚠️ AXES D’AMÉLIORATION\n\n- Autorisation absente. \n  Tu n’as pas demandé si le prospect était disponible pour écouter la raison de ton appel, risquant de le braquer.\n\n- Focalisation produit. \n  Tu présentes très vite « nos produits » et l’assurance vie dès le début, basculant sur la vente plutôt que la découverte du besoin.\n\n- Absence de brise-glace personnalisé.\n  La connexion reste factuelle, peu de chaleur ou d’anecdote sur Paolo pour créer un lien.\n\n- Choix forcé tardif.\n  Le créneau en choix forcé arrive seulement après plusieurs propositions vagues, risquant la confusion.\n\n🩵 ANALYSE ÉMOTIONNELLE\n\nLe ton est courtois mais la structure emporte un léger flottement et un empressement excessif. Ta posture manque d’aplomb consultatif et de sourire \"dans la voix\".\n\n🛅 MOMENTS CLÉS\n\nAu moment d’évoquer les « problèmes de contrat », tu manifestes de l’écoute, mais tu passes trop rapidement à l’offre produit sans approfondir le contexte du prospect. C’est crucial car cela t’empêche d’ancrer un vrai conseil.\n\nL’annonce du choix entre deux créneaux impose enfin la structure, mais aurait gagné à intervenir plus tôt et plus fermement.\n\n🔊 REFORMULATIONS RECOMMANDÉES\n\n« Avant tout, puis-je prendre une minute pour vous expliquer la raison de mon appel sur la recommandation de Paolo ? »\n\n« Ce premier rendez-vous, c’est simplement un échange personnalisé — aucun engagement, juste faire le point ensemble. »\n\n« Je peux venir à votre bureau mardi matin ou jeudi après-midi, ce qui vous fait le moins perdre de temps ? »\n\n« Paolo m’a parlé de votre façon très directe de décider vite : c’est aussi ma méthode, pas de blabla. »\n\n➡️ RECOMMANDATIONS\n\nOuvre vite avec autorisation et sourire, évite les mots « produit », présente-toi comme planificateur, pas vendeur. Place le choix forcé plus tôt et centre la promesse sur le bénéfice pour lui, pas sur MetLife. Laisse venir la curiosité, ancre au concret plutôt qu’au flou du générique. Tu tiens la corde… un cran d’écoute, de structure, de confiance en plus, et c’est la win !",
+        "insights": [
+            "J’ai joué un dirigeant de franchise fast-food, quarante ans, profil DISC rouge, direct, impatient, axé efficacité et pragmatisme.",
+            "Tu as partiellement traité les objections mais l’invitation au rendez-vous n’était pas aussi structurée ni personnalisée que le veut la méthode MetLife. L’objectif de rendez-vous confirmé n’est donc que partiellement atteint.",
+            "Tu as mentionné la recommandation de Paolo, élément capital pour instaurer la confiance dès l’introduction.",
+            "Tu t’es adaptée rapidement à la tonalité de l’échange en allant à l’essentiel après tes premiers mots.",
+            "Tu as cherché à proposer un choix de modalités pour le rendez-vous, faisant preuve d’ouverture sur l’organisation.",
+            "La volonté de personnalisation se ressent dans tes efforts pour t’adapter aux besoins présumés du prospect.",
+            "Autorisation absente.",
+            "Focalisation produit."
+        ]
     },
     {
         "name": "Sophie Géraud",
@@ -13623,7 +15010,9 @@ const RAW_SIMULATIONS = [
                 "text": "Bon. Je suis pressée et je n'aime pas être appelée à"
             }
         ],
-        "finished": false
+        "finished": false,
+        "feedback": "",
+        "insights": []
     },
     {
         "name": "Sophie Géraud",
@@ -13645,7 +15034,9 @@ const RAW_SIMULATIONS = [
                 "text": "[silence]"
             }
         ],
-        "finished": false
+        "finished": false,
+        "feedback": "",
+        "insights": []
     },
     {
         "name": "Sophie Géraud",
@@ -13667,7 +15058,9 @@ const RAW_SIMULATIONS = [
                 "text": "Allô ? Qui est à l'appareil ?"
             }
         ],
-        "finished": false
+        "finished": false,
+        "feedback": "",
+        "insights": []
     },
     {
         "name": "Sophie Géraud",
@@ -13745,7 +15138,9 @@ const RAW_SIMULATIONS = [
                 "text": "Bon, mais j'ai déjà un conseiller financier qui s'occupe de tout."
             }
         ],
-        "finished": false
+        "finished": false,
+        "feedback": "",
+        "insights": []
     },
     {
         "name": "Sophie Géraud",
@@ -13771,7 +15166,9 @@ const RAW_SIMULATIONS = [
                 "text": "Allô? Qui parle? Je suis occupée, allez droit au but."
             }
         ],
-        "finished": false
+        "finished": false,
+        "feedback": "",
+        "insights": []
     },
     {
         "name": "Sophie Géraud",
@@ -13813,7 +15210,18 @@ const RAW_SIMULATIONS = [
                 "text": "Écoutez, Roberta ne m'a rien dit de tout ça. Qui vous a donné mon numéro exactement ?"
             }
         ],
-        "finished": true
+        "finished": true,
+        "feedback": "Voici le débriefing de notre échange\n\n🤓 PERSONA  \n\nJ'ai joué Eduardo, ingénieur qualité, profil DISC Bleu : rationnel, factuel, sceptique et peu démonstratif.\n\n🎯 OBJECTIF PRINCIPAL  \n\nTu n’as pas proposé une gestion structurée des objections ni obtenu un rendez-vous qualifié par choix forcé. L’objectif est non atteint.\n\n➕ Points forts  \n\nTu as bien mentionné la recommandation de l’amie Roberta dès le début de l’appel.\n\n  \nTu as tout de suite précisé que tu représentais MetLife, jouant la carte transparence.\n\n  \nLe ton était poli et respectueux, sans agressivité.\n\n⚠️ AXES D’AMÉLIORATION  \n\nAbsence d’autorisation  \nTu n’as pas demandé l’autorisation de poursuivre l’appel ou confirmé la disponibilité, ce qui installe un mauvais climat chez un prospect méfiant.\n\n  \nAbsence de brise-glace personnel  \nIl manque un brise-glace ou une connexion humaine liée à la recommandation, qui aurait pu adoucir la distance du prospect.\n\n  \nTentative de vente trop rapide  \nTu présentes les « solutions » MetLife à la deuxième prise de parole, ce qui s’apparente trop à une démarche commerciale immédiate.\n\n  \nPas de gestion des objections  \nTu n’as pas laissé le prospect en placer une seule ni utilisé la méthode « oui, mais… », aucune objection n’a pu être traitée.\n\n  \nPas d’offre de rendez-vous structuré  \nAucun choix forcé de date, ni lieu, ni modalité n’a été proposé. Rien n’incite à concrétiser un rendez-vous.\n\n  \nMauvaise utilisation de la recommandation  \nL’insinuation que le prospect rencontre des problèmes d’assurance ou souhaite placer son argent est maladroite et peut être perçue comme intrusive voire fausse.\n\n🩵 ANALYSE EMOTIONNELLE  \n\nTon neutre et respectueux mais manque d’écoute active. Un enthousiasme absent, posture hésitante, début prématuré de l’argumentaire produit.\n\n🛅 MOMENTS CLÉS  \n\nDès l’annonce « Roberta m’a dit que vous avez… », tu passes à l’attaque sans phase de découverte.  \nCe raccourci ferme la porte, au lieu d’ouvrir la confiance.\n\n  \nLa deuxième question « seriez-vous intéressé par un rendez-vous » arrive trop tôt, sans configuration ni bénéfice clair.\n\n🔊 REFORMULATIONS RECOMMANDÉES  \n\n« Roberta m’a transmis vos coordonnées car elle a pensé que mon approche pouvait vous intéresser personnellement. »\n\n  \n« Pour vous situer le cadre, il ne s’agit pas d’une démarche commerciale classique, mais d’une analyse personnalisée, sans engagement. »\n\n  \n« Avant d’aller plus loin, est-ce que ce serait possible de convenir d’un moment précis, plutôt mardi ou jeudi après-midi ? »\n\n  \n« L’idée, ce n’est pas de vous proposer une assurance de plus, mais d’identifier des solutions sur-mesure, adaptées à votre situation. »\n\n  \n« Je comprends que vous soyez sollicité, et c’est justement pour cela que je propose un entretien bref et sans engagement. »\n\n➡️ RECOMMANDATIONS  \n\nAdopte un vrai brise-glace, pose toujours la question d’autorisation, propose deux créneaux précis, valorise le rendez-vous avant de parler de solutions. Garde une posture de conseil, pas de vendeur. Prends ton temps, rassure, souris dans la voix.\n\nChaque prospect bleu adore les preuves et l’écoute. Place-les au centre et tu passeras un cap !",
+        "insights": [
+            "J'ai joué Eduardo, ingénieur qualité, profil DISC Bleu : rationnel, factuel, sceptique et peu démonstratif.",
+            "Tu n’as pas proposé une gestion structurée des objections ni obtenu un rendez-vous qualifié par choix forcé. L’objectif est non atteint.",
+            "Absence de brise-glace personnel",
+            "Il manque un brise-glace ou une connexion humaine liée à la recommandation, qui aurait pu adoucir la distance du prospect.",
+            "Pas d’offre de rendez-vous structuré",
+            "Aucun choix forcé de date, ni lieu, ni modalité n’a été proposé. Rien n’incite à concrétiser un rendez-vous.",
+            "La deuxième question « seriez-vous intéressé par un rendez-vous » arrive trop tôt, sans configuration ni bénéfice clair.",
+            "« Avant d’aller plus loin, est-ce que ce serait possible de convenir d’un moment précis, plutôt mardi ou jeudi après-midi ? »"
+        ]
     },
     {
         "name": "Sophie Géraud",
@@ -13843,7 +15251,9 @@ const RAW_SIMULATIONS = [
                 "text": "Bon, je suis pressée. Je ne peux pas recevoir quelqu'un en physique ces jours-ci. Expliquez-moi rapidement pourquoi je perdrais quinze minutes en visio."
             }
         ],
-        "finished": false
+        "finished": false,
+        "feedback": "",
+        "insights": []
     },
     {
         "name": "Sophie Géraud",
@@ -13869,7 +15279,9 @@ const RAW_SIMULATIONS = [
                 "text": "Allô? Qui est-ce? Je suis prise, allez droit au but."
             }
         ],
-        "finished": false
+        "finished": false,
+        "feedback": "",
+        "insights": []
     },
     {
         "name": "Sophie Géraud",
@@ -13887,7 +15299,9 @@ const RAW_SIMULATIONS = [
                 "text": "(musique)"
             }
         ],
-        "finished": false
+        "finished": false,
+        "feedback": "",
+        "insights": []
     },
     {
         "name": "Sophie Géraud",
@@ -13933,7 +15347,9 @@ const RAW_SIMULATIONS = [
                 "text": "Ensuite ? Je n'ai pas compris ce que vous voulez dire par « et le livre ». Expliquez clairement."
             }
         ],
-        "finished": false
+        "finished": false,
+        "feedback": "",
+        "insights": []
     },
     {
         "name": "Sophie Géraud",
@@ -13946,7 +15362,9 @@ const RAW_SIMULATIONS = [
         "lqa": "N/A",
         "interactions": 0,
         "messages": [],
-        "finished": false
+        "finished": false,
+        "feedback": "",
+        "insights": []
     },
     {
         "name": "Sophie Géraud",
@@ -14044,7 +15462,18 @@ const RAW_SIMULATIONS = [
                 "text": "Connecteur: Non, je préfère gérer moi-même mes investissements quand ça baisse."
             }
         ],
-        "finished": true
+        "finished": true,
+        "feedback": "Voici le débriefing de notre échange.\n\n  \n🤓 PERSONA \n\nJ’ai incarné Camila, jeune product manager tech, indépendante, digitale et sceptique, de profil DISC majoritairement jaune.\n\n  \n🎯 OBJECTIF PRINCIPAL \n\nLa gestion des objections reste très perfectible et la proposition de rendez-vous n'est ni concrète ni engageante. L’objectif est non atteint.\n\n  \n➕ Points forts \n\n- Présentation rapide, mention claire de la recommandation de Juliana.\n\n  \n- Effort d’identification de la situation actuelle (exemple : question sur le conseiller et la satisfaction).\n\n  \n- Tente d’amorcer une relation, en évoquant la rencontre récente avec Juliana.\n\n  \n⚠️ AXES D'AMÉLIORATION  \n\n- Absence de trame structurée : l’appel passe vite à la description produit sans demander d’autorisation ni poser de brise-glace personnalisé.\n\n  \n- Proposition de rendez-vous floue : pas de choix forcé ni de créneaux précis, le lieu reste vague (pas de date, pas d’heure, options trop larges).\n\n  \n- Qualité d’écoute à renforcer : nombreuses questions fermées à la suite, ton quelque peu insistant, rupture dans le rythme naturel.\n\n  \n- Gestion des objections incomplète : tu n’as pas traité explicitement chaque objection avec validation émotionnelle (« oui, mais ») ni utilisé d’arguments boomerang.\n\n  \n- Posture conseil peu affirmée : à force de questions, tu bascules vers l’interrogatoire plutôt que l’accompagnement personnalisé.\n\n  \n🩵 ANALYSE EMOTIONNELLE\n\nLe ton reste appliqué mais mécanique, plusieurs hésitations (« euh »), rythme précipité : l’émotion dominante est la tension, avec une volonté de convaincre mais peu de détente.\n\n  \n🛅 MOMENTS CLÉS  \n\nPremière mention de la recommandation de Juliana\nA permis d’installer un point d’ancrage, mais n’a pas suffi à lever la méfiance initiale.\n\n  \nEnchaînement de questions sur le conseiller et la satisfaction\nMontre une volonté de qualification mais oriente le dialogue sur un mode défensif.\n\n  \n🔊 REFORMULATIONS RECOMMANDÉES\n\n« Camila, c’est bien Juliana Lopez qui m’a recommandé de vous appeler, je comprends que ce soit soudain ! »\n\n  \n« J’ai simplement envie de vous présenter les grandes lignes de ce que nous faisons, sans engagement. »\n\n  \n« Je vous propose un court rendez-vous : plutôt mercredi à seize heures à votre bureau, ou jeudi à dix-sept heures chez vous ? »\n\n  \n« Mon but n’est pas de vous vendre quoi que ce soit, mais d’apporter un regard neuf sur la protection de vos proches. »\n\n  \n➡️ RECOMMANDATIONS\n\nRespecte la structure des huit étapes, adopte un ton plus souple, oriente-toi dès le début sur le bénéfice concret d’un échange court, et propose un vrai choix forcé. Prends le temps de respirer, amuse-toi et engage Camila dès les premières secondes : c’est une rencontre, pas un quiz !",
+        "insights": [
+            "La gestion des objections reste très perfectible et la proposition de rendez-vous n'est ni concrète ni engageante. L’objectif est non atteint.",
+            "Présentation rapide, mention claire de la recommandation de Juliana.",
+            "Effort d’identification de la situation actuelle (exemple : question sur le conseiller et la satisfaction).",
+            "Tente d’amorcer une relation, en évoquant la rencontre récente avec Juliana.",
+            "Absence de trame structurée : l’appel passe vite à la description produit sans demander d’autorisation ni poser de brise-glace personnalisé.",
+            "Proposition de rendez-vous floue : pas de choix forcé ni de créneaux précis, le lieu reste vague (pas de date, pas d’heure, options trop larges).",
+            "Qualité d’écoute à renforcer : nombreuses questions fermées à la suite, ton quelque peu insistant, rupture dans le rythme naturel.",
+            "Gestion des objections incomplète : tu n’as pas traité explicitement chaque objection avec validation émotionnelle (« oui, mais ») ni utilisé d’arguments boomerang."
+        ]
     },
     {
         "name": "Sophie Géraud",
@@ -14082,7 +15511,18 @@ const RAW_SIMULATIONS = [
                 "text": "Je ne connais pas Juliana et je n'ai rien dit au mariage. Je suis occupée, dites vite ce que vous voulez ou raccrochez."
             }
         ],
-        "finished": true
+        "finished": true,
+        "feedback": "Voici le débriefing de notre échange\n\n🤓 PERSONA\n\nJ’ai incarné Seu João, petit producteur du sertão, profil DISC Rouge dominant, méfiant et direct, peu enclin à la nouveauté.\n\n🎯 OBJECTIF PRINCIPAL\n\nL’objectif d’obtenir un rendez-vous de découverte en répondant précisément aux objections n’a pas été atteint ; trop d’ambiguïté sur la valeur perçue.\n\n➕ Points forts \n\n- Tu as initié la conversation en citant la recommandation, ce qui est fondamental dans ce type de démarche.\n\n- Le ton général reste poli et cordial, malgré la brièveté du temps imparti.\n\n- Tu as tenté un brise-glace personnalisé avec une allusion à un événement partagé, cherchant à établir un lien.\n\n⚠️ AXES D'AMÉLIORATION  \n\n- Absence d’autorisation claire de poursuivre la conversation (\"Est-ce que je peux ?\") lors de la première prise de contact.\n\n- La structure MetLife en huit étapes n’apparaît pas : tu as sauté l’étape des objections et la proposition de rendez-vous à choix forcé.\n\n- **Aucune gestion d'objection**\n  Les potentielles objections et la méfiance n’ont pas été anticipées ni traitées selon la méthode « oui, mais… ».\n\n- **Présentation confuse**\n  Le passage d’un sujet à l’autre (assureur, mariage) manque de clarté, risquant de brouiller le message.\n\n- Aucun créneau proposé pour un rendez-vous qualifié, ni choix entre plusieurs options concrètes.\n\n🩵 ANALYSE EMOTIONNELLE\n\nLe ton était assez hésitant, parfois emprunté, manquant d’assurance et de rythme. On sent un manque de confiance et d’écoute active dans le phrasé.\n\n🛅 MOMENTS CLÉS  \n\nLors de la mention du mariage et des difficultés d’assurance de Juliana, tu as tenté d’ancrer la démarche dans le vécu du prospect, mais sans rebondir sur ses besoins réels — un point d’ancrage gaspillé.\n\nLe début était correct avec la recommandation, mais l'absence d’étapes structurées t’a empêché de transformer l’essai.\n\n🔊 REFORMULATIONS RECOMMANDÉES  \n\n\"Juliana m’a vivement recommandé de vous appeler, car elle pense que notre approche pourrait réellement vous aider.\"\n \n\"Je comprends que vous soyez sollicité, mais si vous me permettez, ce rendez-vous ne vous engage à rien et durera moins de trente minutes.\"\n\n\"Pour faciliter les choses : préférez-vous mardi à quinze heures à votre bureau ou jeudi matin à domicile ?\"\n\n\"Ce rendez-vous, c’est simplement pour faire le point sur votre situation et voir si je peux vous apporter des solutions complémentaires, sans obligation derrière.\"\n\n\"Est-ce que ce créneau vous conviendrait ? Je peux même reconfirmer la veille selon votre préférence.\"\n\n➡️ RECOMMANDATIONS\n\nDémarre toujours par une autorisation formelle. Structure ton appel en huit étapes, traite systématiquement chaque objection avec une relance « oui, mais… » et conclue en imposant un choix de rendez-vous serré. Ta posture doit être plus consultative et rassurante. \n\nAvec du rythme, de la clarté et une vraie méthode, tu pourras transformer bien plus d’appels !",
+        "insights": [
+            "L’objectif d’obtenir un rendez-vous de découverte en répondant précisément aux objections n’a pas été atteint ; trop d’ambiguïté sur la valeur perçue.",
+            "Tu as initié la conversation en citant la recommandation, ce qui est fondamental dans ce type de démarche.",
+            "Le ton général reste poli et cordial, malgré la brièveté du temps imparti.",
+            "Tu as tenté un brise-glace personnalisé avec une allusion à un événement partagé, cherchant à établir un lien.",
+            "Absence d’autorisation claire de poursuivre la conversation (\"Est-ce que je peux ?\") lors de la première prise de contact.",
+            "La structure MetLife en huit étapes n’apparaît pas : tu as sauté l’étape des objections et la proposition de rendez-vous à choix forcé.",
+            "Aucune gestion d'objection",
+            "Présentation confuse"
+        ]
     },
     {
         "name": "Sophie Géraud",
@@ -14128,7 +15568,9 @@ const RAW_SIMULATIONS = [
                 "text": "En fait je place surtout en CDB, Tesouro Direto et un peu de crypto. Je préfère gérer en ligne et garder la flexibilité."
             }
         ],
-        "finished": false
+        "finished": false,
+        "feedback": "",
+        "insights": []
     },
     {
         "name": "Sophie Géraud",
@@ -14150,7 +15592,9 @@ const RAW_SIMULATIONS = [
                 "text": "Ah bah attends, ceci dit, hop là, attends attends, faut"
             }
         ],
-        "finished": false
+        "finished": false,
+        "feedback": "",
+        "insights": []
     },
     {
         "name": "Sophie Géraud",
@@ -14172,7 +15616,9 @@ const RAW_SIMULATIONS = [
                 "text": "D'accord, je refuse poliment. Merci de votre appel, bonne journée."
             }
         ],
-        "finished": false
+        "finished": false,
+        "feedback": "",
+        "insights": []
     },
     {
         "name": "Sophie Géraud",
@@ -14210,7 +15656,18 @@ const RAW_SIMULATIONS = [
                 "text": "Parce que tu as commencé la conversation en français. Je peux continuer quelques minutes si tu veux, je suis un peu pressée."
             }
         ],
-        "finished": true
+        "finished": true,
+        "feedback": "Aqui está o debriefing da nossa troca\n\n🤓 PERSONA\n\nJ’ai incarné Roberto, commerçant carioca, profil DISC principalement vert, chaleureux, digressif et naturellement méfiant face aux démarches commerciales.\n\n🎯 OBJECTIF PRINCIPAL\n\nL’objectif de prise de rendez-vous n’a pas été abordé ni atteint. Aucune objection traitée, aucune réelle intention de fixer une réunion n’a émergé. Objectif non atteint.\n\n➕ POINTS FORTS\n\n- Démarrage convivial avec un « Oi, tudo bem ? », cherchant à instaurer un brise-glace naturel.\n\n- Ton informel et direct, sans froideur, ce qui peut être apprécié par des prospects au profil vert.\n\n⚠️ POINTS DE MELHORIA\n\n- Absence complète de présentation, d’autorisation explicite pour la conversation ou d’indication du motif d’appel, ce qui brouille la compréhension du prospect.\n\n- Structure MetLife totalement absente : pas de pitch, pas de gestion d’objection, aucune évocation d’une recommandation, ni de proposition de rendez-vous.\n\n- Interaction déroutante entre portugais, anglais et français, qui distrait et peut mettre mal à l’aise le prospect.\n\n- Aucun bénéfice client formulé, aucun lien créé avec les préoccupations potentielles du prospect.\n\n🩵 ANALYSE ÉMOTIONNELLE\n\nLe ton était amical mais flottant, le rythme décousu, le vocabulaire incertain et changeant, provoquant une impression générale de confusion légère.\n\n🛅 MOMENTS-CHAVE\n\nPremier contact : ouverture en portugais, puis bascule immédiate hors contexte assurance, ce qui casse l’objectif d’appel et la logique de qualification — cela a totalement impacté l’engagement du prospect qui est sorti du jeu.\n\n🔊 REFORMULAÇÕES RECOMENDADAS\n\n« Roberto, c’est Paulo qui m’a recommandé de vous appeler. Je peux vous expliquer rapidement le but de mon appel ? »\n\n« Je vous propose un rendez-vous de quinze minutes pour voir si je peux vous apporter des solutions adaptées. Plutôt mercredi ou jeudi matin ? »\n\n« Je comprends que vous soyez méfiant, Paulo a pensé que notre échange pourrait être utile car beaucoup de commerçants comme vous rencontrent… »\n\n➡️ RECOMENDAÇÕES\n\nRespectez toujours le script de huit étapes, ancrez-vous dans le contexte client, traitez chaque objection avec méthode et surtout, proposez un rendez-vous clair dès les premiers échanges.\n\nAvec structure et écoute, chaque conversation est une opportunité réelle d’engagement. Bon courage pour la prochaine !",
+        "insights": [
+            "L’objectif de prise de rendez-vous n’a pas été abordé ni atteint. Aucune objection traitée, aucune réelle intention de fixer une réunion n’a émergé. Objectif non atteint.",
+            "Démarrage convivial avec un « Oi, tudo bem ? », cherchant à instaurer un brise-glace naturel.",
+            "Ton informel et direct, sans froideur, ce qui peut être apprécié par des prospects au profil vert.",
+            "Absence complète de présentation, d’autorisation explicite pour la conversation ou d’indication du motif d’appel, ce qui brouille la compréhension du prospect.",
+            "Structure MetLife totalement absente : pas de pitch, pas de gestion d’objection, aucune évocation d’une recommandation, ni de proposition de rendez-vous.",
+            "Interaction déroutante entre portugais, anglais et français, qui distrait et peut mettre mal à l’aise le prospect.",
+            "Aucun bénéfice client formulé, aucun lien créé avec les préoccupations potentielles du prospect.",
+            "Premier contact : ouverture en portugais, puis bascule immédiate hors contexte assurance, ce qui casse l’objectif d’appel et la logique de qualification — cela a totalement impacté l’engagement du prospect qui est sorti du jeu."
+        ]
     },
     {
         "name": "Sophie Géraud",
@@ -14223,7 +15680,9 @@ const RAW_SIMULATIONS = [
         "lqa": "N/A",
         "interactions": 0,
         "messages": [],
-        "finished": false
+        "finished": false,
+        "feedback": "",
+        "insights": []
     },
     {
         "name": "Sophie Géraud",
@@ -14253,7 +15712,9 @@ const RAW_SIMULATIONS = [
                 "text": "Paolo ne m'a pas prévenue de cet appel. Expliquez directement ce que vous proposez et pourquoi ça m'intéresserait."
             }
         ],
-        "finished": false
+        "finished": false,
+        "feedback": "",
+        "insights": []
     },
     {
         "name": "Sophie Géraud",
@@ -14291,7 +15752,18 @@ const RAW_SIMULATIONS = [
                 "text": "Je peux, mais pas sans clarifier deux points avant. Dites d'abord comment vous comptez les approcher : mention du nom, ton du message, et engagement attendu."
             }
         ],
-        "finished": true
+        "finished": true,
+        "feedback": "Voici le debriefing de notre conversation.  \n⟪(silence de deux secondes)⟫\n\n  \n## 🤓 PERSONA  \n⟪(silence d’une seconde)⟫  \nClient exigeant, de type Rouge DISC, banquier privé, analytique, direct, avec de nombreux contacts dans son entourage professionnel et familial.\n\n  \n## 🎯 OBJECTIF PRINCIPAL  \n⟪(silence d’une seconde)⟫  \nVotre objectif était d’obtenir au moins deux recommandations qualifiées et l’accord explicite pour les contacter.  \nObjectif non atteint.\n\n  \n## ➕ Points forts  \n⟪(silence d’une seconde)⟫  \n- Vous avez débuté par vérifier la satisfaction du client, montrant une volonté d’écoute.  \n\n  \n- Vous avez valorisé le lien existant avec Paul, instaurant une continuité relationnelle rassurante.  \n\n  \n- Votre démarche a été directe, sans détour, ce qui peut convenir à des profils pressés.  \n\n  \nContinuez à miser sur votre authenticité et votre simplicité dans la demande, c’est une force appréciée par des clients aguerris.\n\n  \n## ⚠️ EIXOS DE MELHORIA  \n- Manque de reconnaissance personnalisée initiale : le client aurait apprécié que vous congratuliez explicitement pour sa décision, et valorisiez davantage son choix.  \n\n  \n- Absence d’exploration des points de satisfaction : vous n’avez pas demandé ce que le client a le plus apprécié dans votre accompagnement.  \n\n  \n- Demande de recommandations trop ouverte : « pensez-vous à des personnes ? » risque de bloquer la réflexion et n’aide pas à cibler des profils précis.  \n\n  \n- Aucun recueil d’autorisation ni humanisation du contact n’a été effectué ; il manque la demande claire d’accord pour citer le client, et une contextualisation chaleureuse des recommandations.  \n\n  \nN’hésitez pas à intégrer plus de personnalisation et de guidage dans votre démarche, cela générera davantage de confiance et de résultats.\n\n  \n## 🩵 ANALYSE ÉMOTIONNELLE  \nLe ton était correct mais légèrement mécanique, parfois un peu expéditif ; votre posture laissait transparaître une légère impatience, mais aucune tension.\n\n  \n## 🛅 MOMENTS-CHAVE  \nLa transition vers la demande de recommandations a été directe, sans valorisation préalable. Cela a freiné l’engagement du client, qui attendait d’être davantage reconnu avant de s’ouvrir.\n\n  \n## 🔊 REFORMULAÇÕES RECOMENDADAS  \n« Avant toute chose, merci pour votre confiance et bravo pour votre décision, c’est un vrai pas en avant. »\n\n  \n« Qu’est-ce que vous avez particulièrement apprécié dans notre démarche ensemble ? »\n\n  \n« Parmi vos collègues banquiers ou proches entrepreneurs, qui pourrait tirer profit d’un conseil aussi personnalisé ? »\n\n  \n« Seriez-vous d’accord que je prenne contact de votre part, en mentionnant que c’est à votre initiative ? »\n\n  \n## ➡️ RECOMENDAÇÕES  \nStructurez systématiquement votre demande en remerciant, en explorant la satisfaction, puis en guidant le client vers des profils précis. Demandez explicitement l’autorisation avant tout contact. Un brin de chaleur humaine rendra votre démarche aussi mémorable qu’efficace.\n\n  \nLa progression est déjà amorcée : continuez à affiner votre approche et les résultats suivront naturellement !",
+        "insights": [
+            "Vous avez débuté par vérifier la satisfaction du client, montrant une volonté d’écoute.",
+            "Vous avez valorisé le lien existant avec Paul, instaurant une continuité relationnelle rassurante.",
+            "Votre démarche a été directe, sans détour, ce qui peut convenir à des profils pressés.",
+            "Manque de reconnaissance personnalisée initiale : le client aurait apprécié que vous congratuliez explicitement pour sa décision, et valorisiez davantage son choix.",
+            "Absence d’exploration des points de satisfaction : vous n’avez pas demandé ce que le client a le plus apprécié dans votre accompagnement.",
+            "Demande de recommandations trop ouverte : « pensez-vous à des personnes ? » risque de bloquer la réflexion et n’aide pas à cibler des profils précis.",
+            "Aucun recueil d’autorisation ni humanisation du contact n’a été effectué ; il manque la demande claire d’accord pour citer le client, et une contextualisation chaleureuse des recommandations.",
+            "« Qu’est-ce que vous avez particulièrement apprécié dans notre démarche ensemble ? »"
+        ]
     },
     {
         "name": "GerenteSp Parceira",
@@ -14304,7 +15776,9 @@ const RAW_SIMULATIONS = [
         "lqa": "N/A",
         "interactions": 0,
         "messages": [],
-        "finished": false
+        "finished": false,
+        "feedback": "",
+        "insights": []
     },
     {
         "name": "GerenteSp Parceira",
@@ -14346,7 +15820,13 @@ const RAW_SIMULATIONS = [
                 "text": "Prefiro o material por e-mail primeiro. Se não puder enviar, não consigo abrir horário para conversa agora."
             }
         ],
-        "finished": true
+        "finished": true,
+        "feedback": "Aqui está o debriefing de nossa conversa.\n\n  \n\n### 🤓 PERSONA\n\nJovem executiva de tecnologia, perfil DISC predominantemente amarelo: curiosa, digital, independente, busca autonomia e clareza.\n\n  \n\n🎯 OBJETIVO PRINCIPAL\n\nO objetivo era vencer a objeção, evitando o envio de documentos genéricos e agendando uma reunião. O objetivo foi parcialmente atingido, pois faltaram argumentação e estrutura para convencer.\n\n  \n\n### ➕ Pontos fortes\n\nDemonstrou boa disposição para responder prontamente às objeções apresentadas pela prospect.\n\nTentou se aproximar por meio de perguntas para entender quais informações eram relevantes, mostrando uma escuta inicial.\n\nManteve tom cordial e respeitoso, não sendo insistente ou agressivo.\n\n  \n\n### ⚠️ EIXOS DE MELHORIA\n\nFaltou validar explicitamente o sentimento da prospect (“Sim, entendo que queira ver antes…”), usando a técnica do “Sim, mas”.\n\nNão apresentou de forma clara as razões para não enviar material genérico (personalização, avaliação mútua, inadequação do formato).\n\nAs perguntas ficaram vagas; não explorou perguntas abertas para descobrir razões ocultas por trás do pedido de informação (“O que te faria sentir mais segura para agendar?”).\n\nFaltou oferecer datas concretas para agendamento — usou perguntas abertas e formulou convites pouco assertivos.\n\n  \n\n### 🩵 ANÁLISE EMOCIONAL\n\nO tom usado foi amigável, mas apresentou certa hesitação. O ritmo foi ligeiramente apressado, e o vocabulário, informal e repetitivo. Predominou um estado emocional um pouco inseguro.\n\n  \n\n### 🛅 MOMENTOS-CHAVE\n\nQuando perguntou se havia algo a discutir antes da reunião, demonstrou tentativa de escuta ativa, mas não avançou para um entendimento mais profundo.\n\nAo sugerir “conversar rapidinho”, tentou ganhar tempo, mas faltou clareza nos benefícios e na estrutura da abordagem.\n\n  \n\n🔊 REFORMULAÇÕES RECOMENDADAS\n\nEntendo seu interesse em receber informações, mas acredito que uma conversa rápida traz respostas bem mais personalizadas para você.\n\nPosso te explicar em quinze minutos o que faria sentido no seu caso, sem compromisso algum.\n\nSe preferir, posso sugerir dois horários para escolhermos juntos o melhor.\n\nAssim você não perde tempo com material excessivamente genérico.\n\n  \n\n➡️ RECOMENDAÇÕES\n\nProvoque mais a descoberta dos motivos por trás da objeção; valide sempre o sentimento antes de propor. Dê dois horários fechados e explique por que a reunião é mais valiosa. Não hesite em mostrar segurança e clareza.\n\nContinue evoluindo: ajustar pequenos detalhes trará resultados muito melhores!",
+        "insights": [
+            "Jovem executiva de tecnologia, perfil DISC predominantemente amarelo: curiosa, digital, independente, busca autonomia e clareza.",
+            "Faltou oferecer datas concretas para agendamento — usou perguntas abertas e formulou convites pouco assertivos.",
+            "Continue evoluindo: ajustar pequenos detalhes trará resultados muito melhores!"
+        ]
     },
     {
         "name": "GerenteSp Parceira",
@@ -14368,7 +15848,9 @@ const RAW_SIMULATIONS = [
                 "text": "Oi, tudo bem. Estou ocupada agora e prefiro marcar só se eu souber o que vou ganhar com essa conversa. Você pode resumir em uma frase qual o benefício concreto pra mim?"
             }
         ],
-        "finished": false
+        "finished": false,
+        "feedback": "",
+        "insights": []
     },
     {
         "name": "GerenteSp Parceira",
@@ -14381,7 +15863,9 @@ const RAW_SIMULATIONS = [
         "lqa": "N/A",
         "interactions": 0,
         "messages": [],
-        "finished": false
+        "finished": false,
+        "feedback": "",
+        "insights": []
     },
     {
         "name": "GerenteSp Parceira",
@@ -14431,7 +15915,18 @@ const RAW_SIMULATIONS = [
                 "text": "Obrigada. Vou esperar a mensagem de texto e confirmo o horário da quinta de manhã."
             }
         ],
-        "finished": true
+        "finished": true,
+        "feedback": "Aqui está o debriefing da nossa troca.\n\n  \n🤓 PERSONA\n\n- Persona interpretada: Fernanda, dentista autônoma, perfil dominância do DISC Verde, pragmática, analítica e cuidadosa com decisões financeiras.\n\n  \n🎯 OBJETIVO PRINCIPAL\n\n- Corretor respondeu de forma sucinta às objeções, mas não demonstrou clareza em convertê-las em oportunidades.\n  \n- Não ficou claro para a prospect o benefício direto da reunião, nem houve uma defesa assertiva da proposta.\n  \n- O objetivo de obter uma reunião qualificada ficou parcialmente atingido, com vários pontos críticos.\n\n  \n➕ PONTOS FORTES\n\n- Demonstrou cordialidade e manteve tom amigável durante todo o contato.\n\n  \n- Fez tentativa de propor um agendamento, mostrando postura ativa, ainda que pouco estruturada.\n\n  \n- Mostrou predisposição em detalhar posteriormente a proposta, sinalizando disponibilidade.\n\n  \n⚠️ PONTOS DE MELHORIA\n\n- Ausência de autorização formal para prosseguir com a abordagem, o que pode gerar desconforto ao prospect.\n  \n- Falta de recomposição clara do motivo do contato e do valor agregado da reunião para Fernanda.\n  \n- Não usou gatilho de recomendação ao citar Paulo, perdendo oportunidade de gerar confiança imediata.\n  \n- Não ofereceu alternativa de escolha forçada entre dois horários próximos, tornando a marcação vaga.\n  \n- Não tratou efetivamente nenhuma objeção, apenas avançou para o próximo passo sem argumentação consultiva.\n\n  \n🩵 ANÁLISE EMOCIONAL\n\n- O tom foi cordial, mas o ritmo se mostrou atropelado em alguns trechos, com hesitação na formulação das frases.\n  \n- Estado emocional predominante: leve ansiedade, tentando ser gentil mas pouco estruturado.\n\n  \n🛅 MOMENTOS-CHAVE\n\n- Ao citar o nome Paulo sem explicar o vínculo, perdeu uma chance de gerar vínculo social, essencial para prospects desconfiados.\n  \n- Quando pediu e-mail antes de garantir interesse, desviou-se do roteiro de venda consultiva, esvaziando o impacto da proposta.\n\n  \n🔊 REFORMULAÇÕES RECOMENDADAS\n\n- “Recebi sua referência do Paulo, que falou muito bem de você. Tudo bem explicar em dois minutinhos o motivo da ligação?”\n  \n- “Por que não marcamos uma conversa rápida presencial ou online? Tenho agenda na terça às dez ou quarta às três. Qual fica mais prático?”\n  \n- “Entendo que você esteja ocupada, mas trago soluções que podem proteger sua estabilidade e da sua filha. Vale conversarmos!”\n  \n- “Posso te garantir que esse encontro será objetivo e útil para o seu momento profissional e pessoal.”\n\n  \n➡️ RECOMENDAÇÕES\n\nBusque sempre autorização inicial, conecte-se com o gatilho da recomendação e ofereça escolha forçada. Argumente no mérito das objeções. Mostre, já na abordagem, qual ganho prático Fernanda pode esperar com você. \n\nContinue praticando! Pequenos ajustes trarão grandes resultados na sua transformação de prospects em clientes.",
+        "insights": [
+            "Persona interpretada: Fernanda, dentista autônoma, perfil dominância do DISC Verde, pragmática, analítica e cuidadosa com decisões financeiras.",
+            "Corretor respondeu de forma sucinta às objeções, mas não demonstrou clareza em convertê-las em oportunidades.",
+            "Não ficou claro para a prospect o benefício direto da reunião, nem houve uma defesa assertiva da proposta.",
+            "O objetivo de obter uma reunião qualificada ficou parcialmente atingido, com vários pontos críticos.",
+            "Demonstrou cordialidade e manteve tom amigável durante todo o contato.",
+            "Fez tentativa de propor um agendamento, mostrando postura ativa, ainda que pouco estruturada.",
+            "Mostrou predisposição em detalhar posteriormente a proposta, sinalizando disponibilidade.",
+            "Ausência de autorização formal para prosseguir com a abordagem, o que pode gerar desconforto ao prospect."
+        ]
     },
     {
         "name": "Parceiro Rivorio3a12",
@@ -14521,7 +16016,18 @@ const RAW_SIMULATIONS = [
                 "text": "Senhor, obrigado. Até amanhã às nove horas. Boa tarde."
             }
         ],
-        "finished": true
+        "finished": true,
+        "feedback": "Aqui está o debriefing de nossa conversa.\n\n\n🤓 PERSONA\n\nAtuei como Thiago, empresário franqueado, perfil DISC majoritariamente vermelho: direto, objetivo e prático, com pouco tempo e bastante exigente.\n\n🎯 OBJETIVO PRINCIPAL\n\nVocê respondeu às objeções, manteve energia e tentou personalizar o contato, mas acabou cedendo ao envio do material, contrariando o objetivo. Objetivo parcialmente atingido.\n\n➕ Pontos fortes\n\nVocê buscou explicar por que o envio do material genérico não fazia sentido, ressaltando a consultoria personalizada.\nDemonstrou simpatia e tentou trazer o prospect para a conversa (“cafezinho rapidinho”, “bate-papo tranquilo”).\nExpôs o raciocínio de que conversar seria mais eficiente do que apenas material escrito.\nUtilizou a técnica da escolha forçada ao propor horários específicos para reunião.\n\n⚠️ EIXOS DE MELHORIA\n\nFaltou aprofundar as verdadeiras razões do pedido do material, com perguntas mais abertas e escuta ativa.\nCedeu rapidamente, aceitando enviar o material institucional, o que enfraquece o posicionamento consultivo.\nA argumentação ficou repetitiva nos pontos sobre material genérico, sem inovar ou explorar alavancas como confidencialidade, avaliação mútua ou inadequação do suporte.\nNão utilizou a técnica “Sim, mas…” de forma clara: faltou validação genuína do sentimento antes de argumentar.\nExemplo: “Ok, se você é inflexível...” — essa frase transmite um tom de resignação e não agrega empatia ou interesse genuíno pela objeção do cliente.\n\n🩵 ANÁLISE EMOCIONAL\n\nSeu tom manteve-se educado e cortês, mas notou-se certa hesitação e pouco vigor em explorar o motivo real da objeção do prospect.\n\n🛅 MOMENTOS-CHAVE\n\nQuando você explicou que a proposta só faz sentido personalizada, isso demonstrou domínio do processo e valorização do seu papel.\nAo aceitar logo enviar o material, inverteu o controle da conversa e perdeu a oportunidade de criar real curiosidade ou urgência no prospect.\n\n🔊 REFORMULAÇÕES RECOMENDADAS\n\nEntendo perfeitamente seu interesse em analisar antes, só me permita uma pergunta: qual aspecto lhe preocupa mais ao avaliar uma solução assim?  \n\nSe o senhor preferir, posso te mostrar exemplos práticos adaptados à sua realidade pessoal durante nosso breve encontro.  \n\nA experiência mostra que o impacto para cada cliente muda bastante — posso ser objetivo, direto e já prever, em quinze minutos, o que realmente faz sentido para você.    \n\n➡️ RECOMENDAÇÕES\n\nPriorize perguntas abertas, escuta ativa e argumentação personalizada antes de ceder à pressão do material. Foque no porquê, não só no o quê. Respeito gera conexão, mas firmeza constrói autoridade e confiança.\n\nContinue praticando: cada ligação é um degrau. Bora evoluir juntos!",
+        "insights": [
+            "Atuei como Thiago, empresário franqueado, perfil DISC majoritariamente vermelho: direto, objetivo e prático, com pouco tempo e bastante exigente.",
+            "Demonstrou simpatia e tentou trazer o prospect para a conversa (“cafezinho rapidinho”, “bate-papo tranquilo”).",
+            "Não utilizou a técnica “Sim, mas…” de forma clara: faltou validação genuína do sentimento antes de argumentar.",
+            "Exemplo: “Ok, se você é inflexível...” — essa frase transmite um tom de resignação e não agrega empatia ou interesse genuíno pela objeção do cliente.",
+            "Seu tom manteve-se educado e cortês, mas notou-se certa hesitação e pouco vigor em explorar o motivo real da objeção do prospect.",
+            "Entendo perfeitamente seu interesse em analisar antes, só me permita uma pergunta: qual aspecto lhe preocupa mais ao avaliar uma solução assim?",
+            "A experiência mostra que o impacto para cada cliente muda bastante — posso ser objetivo, direto e já prever, em quinze minutos, o que realmente faz sentido para você.",
+            "Continue praticando: cada ligação é um degrau. Bora evoluir juntos!"
+        ]
     },
     {
         "name": "Parceiro Rivorio3a12",
@@ -14534,7 +16040,9 @@ const RAW_SIMULATIONS = [
         "lqa": "N/A",
         "interactions": 0,
         "messages": [],
-        "finished": false
+        "finished": false,
+        "feedback": "",
+        "insights": []
     },
     {
         "name": "Parceiro Rivorio3a12",
@@ -14620,7 +16128,18 @@ const RAW_SIMULATIONS = [
                 "text": "Perfeito. Até terça então. Tchau."
             }
         ],
-        "finished": true
+        "finished": true,
+        "feedback": "Aqui está o debriefing da nossa troca.\n\n🤓 PERSONA\n\nInterpretei um prospect direto, objetivo e impaciente, predominância do perfil DISC vermelho, com pouca tolerância para enrolação.\n\n🎯 OBJETIVO PRINCIPAL\n\nVocê respondeu de forma convincente às objeções e obteve o acordo para a reunião de descoberta. Objetivo plenamente atingido.\n\n➕ PONTOS FORTES\n\n- Você utilizou de forma enfática a recomendação do Pedro como gatilho de confiança e aproximação.\n\n- Propôs escolha forçada para o café, mantendo o foco no agendamento, sem fugir do roteiro.\n\n- Argumentou bem o valor da reunião, destacando o caráter consultivo e personalizado da abordagem.\n\n- Manteve postura acolhedora e respeitosa, valorizando o tempo do prospect e facilitando o acordo.\n\n⚠️ PONTOS DE MELHORIA\n\n- **Ausência de autorização explícita**  \n  Faltou pedir permissão antes de abordar assuntos pessoais e seguir com o agendamento.\n\n- Algumas justificativas e repetições tornaram a abordagem menos direta, podendo cansar um prospect vermelho.\n\n- Não ficou clara a reconfirmação exata do local, data e horário logo que o prospect concordou.\n\n- Menção “proposta” no discurso pode gerar resistência precoce num perfil desconfiado.\n\n🩵 ANÁLISE EMOCIONAL\n\nO tom foi positivo, cordial e sereno, mas um pouco prolixo frente ao perfil do prospect. Demonstrou segurança e desenvoltura sem soar ansioso.\n\n🛅 MOMENTOS-CHAVE\n\nSituação: Uso intenso do nome do cliente recomendado logo de início  \nO que fez: Usou Pedro várias vezes como referência direta  \nImportância: Quebrou a desconfiança inicial do prospect  \nImpacto: Abriu espaço para aceitar a agenda\n\n🔊 REFORMULAÇÕES RECOMENDADAS\n\n- “Posso te explicar rapidinho, pode ser?”\n- “Pedro viu muito valor em te conectar comigo, posso compartilhar o porquê em vinte segundos?”\n- “Respeitando seu tempo, proponho terça ou quinta, qual encaixa melhor?”\n- “Quero entender seu cenário para montar algo útil e específico para você.”\n\n➡️ RECOMENDAÇÕES\n\nSempre peça autorização antes de avançar, evite repetições, seja ainda mais objetivo e reconfirme o local e o horário com clareza. Você gerou confiança, é só apertar esses parafusos e vai decolar!",
+        "insights": [
+            "Você utilizou de forma enfática a recomendação do Pedro como gatilho de confiança e aproximação.",
+            "Propôs escolha forçada para o café, mantendo o foco no agendamento, sem fugir do roteiro.",
+            "Argumentou bem o valor da reunião, destacando o caráter consultivo e personalizado da abordagem.",
+            "Manteve postura acolhedora e respeitosa, valorizando o tempo do prospect e facilitando o acordo.",
+            "Ausência de autorização explícita",
+            "Algumas justificativas e repetições tornaram a abordagem menos direta, podendo cansar um prospect vermelho.",
+            "Não ficou clara a reconfirmação exata do local, data e horário logo que o prospect concordou.",
+            "Menção “proposta” no discurso pode gerar resistência precoce num perfil desconfiado."
+        ]
     },
     {
         "name": "Parceiro Rivorio3a12",
@@ -14633,7 +16152,9 @@ const RAW_SIMULATIONS = [
         "lqa": "N/A",
         "interactions": 0,
         "messages": [],
-        "finished": false
+        "finished": false,
+        "feedback": "",
+        "insights": []
     },
     {
         "name": "Parceiro Rivorio3a12",
@@ -14646,7 +16167,9 @@ const RAW_SIMULATIONS = [
         "lqa": "N/A",
         "interactions": 0,
         "messages": [],
-        "finished": false
+        "finished": false,
+        "feedback": "",
+        "insights": []
     },
     {
         "name": "Parceiro Rivorio3a12",
@@ -14704,7 +16227,18 @@ const RAW_SIMULATIONS = [
                 "text": "Até lá e tchau, tchau."
             }
         ],
-        "finished": true
+        "finished": true,
+        "feedback": "Aqui está o debriefing da nossa troca.\n\n  \n🤓 PERSONA\n\nProspect interpretado: empreendedora sociável, perfil DISC amarelo, comunicativa, reação pelo sentimento, busca conexão antes do racional.\n\n\n🎯 OBJETIVO PRINCIPAL\n\nVocê obteve rapidamente o aceite para uma reunião qualificada, demonstrando assertividade sem ser agressiva. O objetivo foi plenamente atingido.\n\n\n  \n➕ PONTOS FORTES\n\n- Estabeleceu um tom simpático, casual e acolhedor logo no início, alinhado ao perfil da prospect.\n\n  \n- Propôs escolha forçada entre dois horários próximos, facilitando a decisão e acelerando o fechamento.\n\n  \n- Manteve a conversa objetiva, sem detalhar produtos ou entrar em vendas, focando na marcação da reunião.\n\n  \n- Demonstrou energia positiva e otimismo no convite, usando linguagem empática e calorosa.\n\n  \n⚠️ PONTOS DE MELHORIA\n\n- Faltou pedir autorização explícita para seguir com a proposta, pulando essa etapa importante de respeito.\n\n  \n- Não ativou gatilho da recomendação ao mencionar apenas que Maria passou o contato, sem contextualizar ou valorizar a indicação.\n\n  \n- Só sugeriu o benefício de “sentar e conversar”, faltando apresentar valor percebido para a prospect aceitar a reunião.\n\n  \n- Não tratou nenhuma objeção, mesmo superficialmente, nem buscou checar possíveis barreiras à reunião.\n\n  \n🩵 ANÁLISE EMOCIONAL\n\nO tom foi leve, sorridente e alinhado ao perfil da prospect. A postura dominante foi confiante, porém faltou escuta ativa e sensibilidade a possíveis hesitações.\n\n\n🛅 MOMENTOS-CHAVE\n\nSituação: Proposta de dois horários próximos.\nVocê: Facilitou a tomada de decisão, técnica certeira para avançar rapidamente.\nResultado: Engajamento imediato e fechamento do agendamento, deixando a prospect à vontade.\n\n  \n🔊 REFORMULAÇÕES RECOMENDADAS\n\n“Maria me falou super bem de você, por isso quis muito esse encontro.”\n\n“Podemos marcar na próxima semana, mas quero entender se faz sentido para você conversar comigo.”\n\n“Se algum tema te deixar desconfortável, fique à vontade para me avisar antes ou durante nosso bate-papo.”\n\n“Minha intenção é entender como posso agregar à sua rotina, nada de conversa engessada.”\n\n  \n➡️ RECOMENDAÇÕES\n\nInclua sempre uma etapa de autorização e destaque o motivo pessoal da recomendação. Ao propor a reunião, traga um benefício claro e cheque possíveis objeções, mesmo que sutis. Pratique escuta ativa e use o nome da pessoa somente após confirmação. Você tem equilíbrio e simpatia naturais: potencialize isso sendo ainda mais consultivo!",
+        "insights": [
+            "Prospect interpretado: empreendedora sociável, perfil DISC amarelo, comunicativa, reação pelo sentimento, busca conexão antes do racional.",
+            "Estabeleceu um tom simpático, casual e acolhedor logo no início, alinhado ao perfil da prospect.",
+            "Propôs escolha forçada entre dois horários próximos, facilitando a decisão e acelerando o fechamento.",
+            "Manteve a conversa objetiva, sem detalhar produtos ou entrar em vendas, focando na marcação da reunião.",
+            "Demonstrou energia positiva e otimismo no convite, usando linguagem empática e calorosa.",
+            "Faltou pedir autorização explícita para seguir com a proposta, pulando essa etapa importante de respeito.",
+            "Não ativou gatilho da recomendação ao mencionar apenas que Maria passou o contato, sem contextualizar ou valorizar a indicação.",
+            "Só sugeriu o benefício de “sentar e conversar”, faltando apresentar valor percebido para a prospect aceitar a reunião."
+        ]
     },
     {
         "name": "Parceiro Rivorio3a12",
@@ -14770,7 +16304,18 @@ const RAW_SIMULATIONS = [
                 "text": "Certo, combinado. Até segunda-feira então."
             }
         ],
-        "finished": true
+        "finished": true,
+        "feedback": "Aqui está o debriefing de nossa conversa.\n\n🤓 PERSONA\n\nAtuei como Thiago, empresário de perfil DISC dominante vermelho, direto, objetivo e com foco em decisões rápidas e práticas.\n\n🎯 OBJETIVO PRINCIPAL\n\nVocê respondeu de forma convincente à objeção do envio de material e conseguiu o compromisso para uma reunião, atingindo plenamente o objetivo proposto pela simulação.\n\n➕ Pontos fortes\n\n- Argumentou de forma clara a inadequação do envio de material, pontuando a importância da personalização e do diálogo.\n- Utilizou bem a técnica “sim, mas…”, validando o sentimento do prospect antes de redirecionar.\n- Demonstrou flexibilidade ao adaptar a proposta de horário, oferecendo múltiplas alternativas concretas e datadas para a reunião.\n- Manteve a iniciativa da conversa, sem cair em pressão excessiva ou insistência desconfortável.\n\n⚠️ EIXOS DE MELHORIA\n\n- Faltou investigar mais profundamente eventuais razões ocultas para a resistência ao encontro presencial, com perguntas abertas como “o que dificultaria reservar esse tempo?”.\n- O argumento de personalização foi repetido, mas poderia ser complementado com exemplos breves (“Já aconteceu de eu enviar material e a pessoa nem se reconhecer na proposta”).\n- Em alguns momentos, o discurso ficou prolixo; objetividade extra poderia valorizar ainda mais perante um perfil vermelho.\n- Em vez de justificar tanto o porquê não enviar material, considere também perguntar mais sobre as expectativas do prospect (“O que espera encontrar nesse material?”).\n\n🩵 ANÁLISE EMOCIONAL\n\nSeu tom foi seguro, respeitoso e persuasivo, transmitindo confiança e disposição em buscar alternativas viáveis para o prospect.\n\n🛅 MOMENTOS-CHAVE\n\nNo instante em que você explicou a inutilidade do material sem informação prévia e relacionou à personalização, marcou a virada da conversa e reduziu a resistência do prospect. Também foi relevante manter opções de horários e perguntar novamente sobre o presencial, mostrando real preocupação em facilitar.\n\n🔊 REFORMULAÇÕES RECOMENDADAS\n\nSenhor Thiago, posso perguntar rapidamente o que facilitaria pra você esse bate-papo presencial?\n\nEntendo totalmente sua preferência, por isso proponho uma conversa que respeite ao máximo seu tempo.\n\nO material só fará sentido para o senhor após entendermos juntos quais soluções realmente podem agregar ao seu perfil.\n\nCaso prefira, podemos agendar por vídeo — prometo ser direto e objetivo.\n\n➡️ RECOMENDAÇÕES\n\nAprofunde a escuta ativa com mais perguntas abertas sobre motivações e barreiras do prospect. Traga exemplos concretos de personalização e ajuste a objetividade do discurso conforme o perfil.\n\nParabéns pela condução firme e humana — continue aprimorando seu poder de escuta e adaptação!",
+        "insights": [
+            "Argumentou de forma clara a inadequação do envio de material, pontuando a importância da personalização e do diálogo.",
+            "Utilizou bem a técnica “sim, mas…”, validando o sentimento do prospect antes de redirecionar.",
+            "Demonstrou flexibilidade ao adaptar a proposta de horário, oferecendo múltiplas alternativas concretas e datadas para a reunião.",
+            "Manteve a iniciativa da conversa, sem cair em pressão excessiva ou insistência desconfortável.",
+            "Faltou investigar mais profundamente eventuais razões ocultas para a resistência ao encontro presencial, com perguntas abertas como “o que dificultaria reservar esse tempo?”.",
+            "O argumento de personalização foi repetido, mas poderia ser complementado com exemplos breves (“Já aconteceu de eu enviar material e a pessoa nem se reconhecer na proposta”).",
+            "Em alguns momentos, o discurso ficou prolixo; objetividade extra poderia valorizar ainda mais perante um perfil vermelho.",
+            "Em vez de justificar tanto o porquê não enviar material, considere também perguntar mais sobre as expectativas do prospect (“O que espera encontrar nesse material?”)."
+        ]
     },
     {
         "name": "Parceiro Rivorio3a12",
@@ -14783,7 +16328,9 @@ const RAW_SIMULATIONS = [
         "lqa": "N/A",
         "interactions": 0,
         "messages": [],
-        "finished": false
+        "finished": false,
+        "feedback": "",
+        "insights": []
     },
     {
         "name": "Parceiro Rivorio3a12",
@@ -14889,7 +16436,18 @@ const RAW_SIMULATIONS = [
                 "text": "Você insiste, eu entendo. Mas eu não marco nada sem um número mínimo agora. Se não tem como me dizer um valor, prefiro não perder meu tempo. Adeus."
             }
         ],
-        "finished": true
+        "finished": true,
+        "feedback": "Aqui está o debriefing da nossa troca.\n\n  \n🤓 PERSONA\n\n- Prospect do tipo pragmático e direto, predominância do perfil DISC vermelho, avesso à perda de tempo e a rodeios.\n\n  \n🎯 OBJETIVO PRINCIPAL\n\n- Você respondeu de forma detalhada às objeções trazidas pelo prospect.\n  \n- Não houve acordo definitivo de reunião com data, horário e local.\n  \n- Objetivo parcialmente atingido: houve tentativas convincentes, mas sem confirmação da reunião.\n\n  \n➕ PONTOS FORTES\n\n- Acolheu desconforto do prospect sem perder o tom profissional, mostrando empatia.\n\n  \n- Reforçou várias vezes o papel consultivo e personalizado do seu trabalho.\n\n  \n- Utilizou com insistência a escolha forçada entre dois horários, prática alinhada à metodologia.\n\n  \n- Explicou (sem exagerar) os benefícios relacionados à agilidade do pagamento e ausência de inventário.\n\n  \n⚠️ PONTOS DE MELHORIA\n\n- Faltou um pedido explícito de autorização antes de avançar o contato e apresentar o motivo da ligação.\n  \n- Houve abordagem de produto (explicação sobre indenização, ausência de inventário etc.) quando o objetivo era apenas agendar.\n  \n- A recomendação de Paulo apareceu, mas poderia ter sido ativada com mais associação emocional (“o Paulo me disse que valoriza muito sua opinião…”).\n  \n- Faltou reconfirmação clara da reunião e alinhamento sobre local/modalidade específica (café presencial, virtual?).\n\n  \n🩵 ANÁLISE EMOCIONAL\n\n- O tom foi confiante e cordial, com ritmo objetivo. Apesar da perseverança, faltou leveza em alguns momentos, com termos repetitivos.\n\n  \n🛅 MOMENTOS-CHAVE\n\n- Quando o prospect expressou surpresa com o contato, você admitiu falha de comunicação do Paulo e pediu desculpas, o que ajudou a manter a conversa viva e menos defensiva.\n  \n- Quando se recusou a dar um valor “no escuro”, reforçou ética e consultoria, mantendo a postura consultiva.\n\n  \n🔊 REFORMULAÇÕES RECOMENDADAS\n\n- “Antes de continuarmos, posso explicar rapidinho o motivo do meu contato, tudo bem?”\n\n  \n- “O Paulo me recomendou justamente por acreditar que esse tema pode realmente te interessar…”\n\n  \n- “A proposta é um bate-papo de vinte minutinhos para entender seu contexto, sem compromisso.”\n\n  \n- “Fica melhor para você na segunda ou terça-feira, presencial ou preferiria online?”\n\n  \n➡️ RECOMENDAÇÕES\n\n- Comece pelo pedido de autorização, ative laço emocional na recomendação e evite antecipar detalhes de produto. Aperfeiçoe a reconfirmação do encontro.\n\n  \nMandou bem ao sustentar profissionalismo; ajuste a abertura e evite spoiler do produto. Siga em frente com energia, você está no caminho!",
+        "insights": [
+            "Prospect do tipo pragmático e direto, predominância do perfil DISC vermelho, avesso à perda de tempo e a rodeios.",
+            "Você respondeu de forma detalhada às objeções trazidas pelo prospect.",
+            "Não houve acordo definitivo de reunião com data, horário e local.",
+            "Objetivo parcialmente atingido: houve tentativas convincentes, mas sem confirmação da reunião.",
+            "Acolheu desconforto do prospect sem perder o tom profissional, mostrando empatia.",
+            "Reforçou várias vezes o papel consultivo e personalizado do seu trabalho.",
+            "Utilizou com insistência a escolha forçada entre dois horários, prática alinhada à metodologia.",
+            "Explicou (sem exagerar) os benefícios relacionados à agilidade do pagamento e ausência de inventário."
+        ]
     },
     {
         "name": "Parceiro Rivorio3a12",
@@ -14911,7 +16469,9 @@ const RAW_SIMULATIONS = [
                 "text": "Good evening. I am busy at the moment; who are you and why are you calling?"
             }
         ],
-        "finished": false
+        "finished": false,
+        "feedback": "",
+        "insights": []
     },
     {
         "name": "Parceiro Rivorio3a12",
@@ -14933,7 +16493,9 @@ const RAW_SIMULATIONS = [
                 "text": "Hi, good evening. I'm a bit busy right now—who is this and what do you need?"
             }
         ],
-        "finished": false
+        "finished": false,
+        "feedback": "",
+        "insights": []
     },
     {
         "name": "Parceiro Rivorio3a12",
@@ -14963,7 +16525,9 @@ const RAW_SIMULATIONS = [
                 "text": "[som de engasgo]"
             }
         ],
-        "finished": false
+        "finished": false,
+        "feedback": "",
+        "insights": []
     },
     {
         "name": "Parceiro Rivorio3a12",
@@ -15065,7 +16629,18 @@ const RAW_SIMULATIONS = [
                 "text": "Tá bom, Camila. Recebo a mensagem e vejo lá. Até segunda na varanda, oito horas. Adeus."
             }
         ],
-        "finished": true
+        "finished": true,
+        "feedback": "Aqui está o debriefing da nossa troca\n\n🤓 PERSONA\n\nCorretor (Camila) adotou perfil voltado ao consultivo, comunicadora, com tendência dominante para influência e estabilidade segundo o DISC.\n\n🎯 OBJETIVO PRINCIPAL\n\nCorretor (Camila) respondeu às objeções e conseguiu marcar reunião confirmada com todos os dados e reconfirmação. Objetivo atingido.\n\n➕ PONTOS FORTES\n\n- Fez uso inteligente do gatilho de recomendação, citando o Paulo de maneira natural para criar vínculo e gerar confiança inicial.\n\n  \n- Utilizou escolha forçada ao propor dois horários próximos, acelerando a marcação da reunião.\n\n  \n- Demonstrou postura consultiva ao explicar que a solução seria personalizada e a conversa seria objetiva.\n\n  \n- Retomou contato ao final para pedir e-mail e confirmar detalhes práticos, reforçando comprometimento.\n\n⚠️ PONTOS DE MELHORIA\n\n- Faltou pedir autorização explícita para continuar a conversa já no início, antes de explicar o motivo da ligação.\n\n  \n- O “quebra-gelo” foi rápido demais: poderia personalizar mais o contato, mencionando algo sobre Paulo ou adaptando ao perfil do prospect.\n\n  \n- Ao tratar objeção sobre preço, usou argumentação mais subjetiva (“valor intangível”) em vez da técnica “sim, mas...” ou bumerangue, limitando o efeito de validação emocional.\n\n  \n- Pequeno deslize: em alguns momentos confundiu nome do prospect (\"Roberta\"/\"Roberto\"), o que pode soar impessoal ou gerar ruído.\n\n🩵 ANÁLISE EMOCIONAL\n\nO tom foi acolhedor e seguro, com ritmo fluido e vocabulário transparente. Estado emocional predominante: confiante e prestativa.\n\n🛅 MOMENTOS-CHAVE\n\nQuando mencionou o Paulo reforçando credibilidade, elevou a aceitação do prospect. Ao oferecer escolha entre dois horários, removeu indecisão e facilitou o agendamento.\n\n🔊 REFORMULAÇÕES RECOMENDADAS\n\n- “Posso continuar te explicando o motivo do meu contato rapidamente?”\n  \n- “Entendo sua preocupação com valores, sim, mas nada será decidido sem uma análise junto contigo.”\n  \n- “Paulo falou muito bem do seu perfil e por isso sugeriu nosso papo.”\n  \n- “Tenho certeza de que esse tempo será valioso pra entender o que faz sentido pra sua família.”\n\n➡️ RECOMENDAÇÕES\n\nPeça autorização logo após sua apresentação, use personalização no quebra-gelo e trate objeções com “sim, mas...”. Pratique variações do pitch inicial. Seu potencial consultivo é forte, só precisa de refino para ser imbatível. Vá em frente, siga lapidando!",
+        "insights": [
+            "Fez uso inteligente do gatilho de recomendação, citando o Paulo de maneira natural para criar vínculo e gerar confiança inicial.",
+            "Utilizou escolha forçada ao propor dois horários próximos, acelerando a marcação da reunião.",
+            "Demonstrou postura consultiva ao explicar que a solução seria personalizada e a conversa seria objetiva.",
+            "Retomou contato ao final para pedir e-mail e confirmar detalhes práticos, reforçando comprometimento.",
+            "Faltou pedir autorização explícita para continuar a conversa já no início, antes de explicar o motivo da ligação.",
+            "O “quebra-gelo” foi rápido demais: poderia personalizar mais o contato, mencionando algo sobre Paulo ou adaptando ao perfil do prospect.",
+            "Ao tratar objeção sobre preço, usou argumentação mais subjetiva (“valor intangível”) em vez da técnica “sim, mas...” ou bumerangue, limitando o efeito de validação emocional.",
+            "Pequeno deslize: em alguns momentos confundiu nome do prospect (\"Roberta\"/\"Roberto\"), o que pode soar impessoal ou gerar ruído."
+        ]
     },
     {
         "name": "Parceiro Rivorio3a12",
@@ -15131,7 +16706,12 @@ const RAW_SIMULATIONS = [
                 "text": "Tchau."
             }
         ],
-        "finished": true
+        "finished": true,
+        "feedback": "Aqui está o debriefing de nossa conversa.\n\n🤓 PERSONA\n\nAtuei como Ricardo, executivo sênior bancário em São Paulo, perfil DISC vermelho, analítico, direto e exigente.\n\n🎯 OBJETIVO PRINCIPAL\n\nVocê atendeu de forma clara à objeção e garantiu o agendamento da reunião sem envio de documentação prévia. Objetivo atingido.\n\n➕ Pontos fortes\n\nDestacou o caráter personalizado do seu trabalho, evitando sucumbir à armadilha do envio de material genérico.\n\nUtilizou bem argumentos sobre a inadequação e o excesso de informação dos materiais padrão, tornando-os pouco atraentes.\n\nManteve a conversa leve, com tom consultivo e simpático, sem soar pressionador, mesmo ao redirecionar para o agendamento.\n\nAplicou a técnica da escolha forçada ao sugerir opções concretas de horário, facilitando a aceitação.\n\n⚠️ EIXOS DE MELHORIA\n\nFaltou validar explicitamente o sentimento do prospect antes de avançar com a contra-argumentação (\"Entendo que o senhor prefira material escrito, faz sentido para muitos clientes...\").\n\nPoderia ter investigado melhor as razões ocultas do pedido de documentação, com perguntas abertas do tipo “O que é mais importante para o senhor ao escolher uma seguradora?” ou “Há algum ponto específico que gostaria de comparar?”.\n\nEm alguns momentos, o argumento ficou um pouco centrado no processo (“Eu não tenho como te enviar material...”) em vez de focar no benefício direto para o prospect.\n\n🩵 ANÁLISE EMOCIONAL\n\nO tom foi cordial, seguro, levemente descontraído e objetivo. Houve domínio da situação, com mantida empatia.\n\n🛅 MOMENTOS-CHAVE\n\nQuando você explicou com franqueza que nem você mesmo leria o material extenso, gerou empatia e quebrou resistências. O uso da técnica da escolha forçada no agendamento agilizou a decisão.\n\n🔊 REFORMULAÇÕES RECOMENDADAS\n\nCompreendo seu interesse em entender as opções, por isso faço questão de adaptar tudo ao seu perfil.\n\nSeriam quinze minutos focados nas suas necessidades e objetivos, assim consigo apresentar o que realmente importa para o senhor.\n\nEm vez de sobrecarregar com institucional, proponho irmos direto ao ponto juntos.\n\n➡️ RECOMENDAÇÕES\n\nAprimore a escuta ativa iniciando com validação explícita dos sentimentos do prospect e faça pelo menos uma pergunta aberta antes de argumentar. Continue destacando a personalização, mas aprofunde o entendimento das reais motivações do cliente.\n\nSiga firme, seu estilo consultivo só tende a amadurecer. Vá em frente!",
+        "insights": [
+            "Utilizou bem argumentos sobre a inadequação e o excesso de informação dos materiais padrão, tornando-os pouco atraentes.",
+            "Faltou validar explicitamente o sentimento do prospect antes de avançar com a contra-argumentação (\"Entendo que o senhor prefira material escrito, faz sentido para muitos clientes...\")."
+        ]
     },
     {
         "name": "Parceiro Rivorio3a12",
@@ -15157,7 +16737,9 @@ const RAW_SIMULATIONS = [
                 "text": "Não, você não fala com o Paulo. Quem é você e qual o motivo da ligação?"
             }
         ],
-        "finished": false
+        "finished": false,
+        "feedback": "",
+        "insights": []
     },
     {
         "name": "Parceiro Rivorio3a12",
@@ -15211,7 +16793,9 @@ const RAW_SIMULATIONS = [
                 "text": "É, o seguro de vida, né, a, a indenização que a seguradora paga, realmente é uma indenização que chega n-no máximo 30 dias, tá? Ela chega, ela não tem obrigação"
             }
         ],
-        "finished": false
+        "finished": false,
+        "feedback": "",
+        "insights": []
     },
     {
         "name": "Parceiro Rivorio3a12",
@@ -15297,7 +16881,18 @@ const RAW_SIMULATIONS = [
                 "text": "Ok, até lá."
             }
         ],
-        "finished": true
+        "finished": true,
+        "feedback": "Aqui está o debriefing da nossa troca.\n\n🤓 PERSONA\n\nInterpretou-se um prospect mulher, perfil DISC dominante amarelo, jovem executiva digital, criteriosa e informal, aberta a conversa se houver energia e foco no benefício.\n\n🎯 OBJETIVO PRINCIPAL\n\nVocê respondeu com agilidade inicial, geriu objeção sobre contato e agenda e obteve o aceite para reunião com reconfirmação. Objetivo atingido.\n\n➕ PONTOS FORTES\n\n- Demonstrou objetividade e respeito ao tempo do prospect, indo direto ao ponto com leveza e clareza.\n\n- Utilizou corretamente o gatilho da recomendação via Paulo, dando credibilidade ao contato.\n\n- Fez uma proposta de reunião utilizando escolha forçada de datas, facilitando a decisão do prospect.\n\n- Teve postura consultiva, explicando rapidamente seu papel e o valor da conversa, sem antecipar venda ou detalhe de produto.\n\n- Concluiu a negociação com reconfirmação clara da data, horário e modalidade da reunião.\n\n⚠️ PONTOS DE MELHORIA\n\n- Ausência clara do pedido de autorização (“Posso te explicar em um minuto o motivo da ligação?”) antes de avançar, o que facilitaria a abertura do prospect.\n\n- Faltou esforço embutido para criar quebra-gelo pessoal, o que para um perfil amarelo seria bem-vindo para gerar conexão.\n\n- A repetição do motivo do contato soou um pouco escorregadia na transição entre recomendação e objetivo, poderia ter sido mais natural.\n\n- Poderia explorar um pouco mais a agenda do prospect antes de sugerir horários, favorecendo maior personalização.\n\n🩵 ANÁLISE EMOCIONAL\n\nO tom foi seguro, educado e acolhedor, com ritmo ágil sem pressa, transmitindo confiança e energia adequada, do início ao fim.\n\n🛅 MOMENTOS-CHAVE\n\nNo anúncio da recomendação de Paulo você trouxe validação ao contato, facilitando que a confiança fosse rapidamente transferida.\n\nAo utilizar escolha forçada de datas, você posicionou o controle da agenda sem deixar o prospect dispersar, acelerando compromisso.\n\n🔊 REFORMULAÇÕES RECOMENDADAS\n\n- “João, posso te explicar rapidamente o que motivou o Paulo a me recomendar?”\n\n- “Prefere nossa conversa em um café presencial ou, pra facilitar, pelo digital mesmo?”\n\n- “Eu envio o convite já com tudo certinho. Pode me passar seu melhor e-mail?”\n\n- “Se surgir algum imprevisto, estou super aberta a remarcar, mas já coloco nossa reunião confirmada, tudo bem?”\n\n➡️ RECOMENDAÇÕES\n\nLembre-se sempre de pedir autorização logo no início; personalize ainda mais o quebra-gelo. Use escuta ativa para captar detalhes do perfil do prospect e adaptar ainda mais o discurso. Evolução constante é igual treino de surf: só fica bom praticando!\n\nSiga focando em conexão genuína e adaptabilidade. Está no caminho certo!",
+        "insights": [
+            "Interpretou-se um prospect mulher, perfil DISC dominante amarelo, jovem executiva digital, criteriosa e informal, aberta a conversa se houver energia e foco no benefício.",
+            "Demonstrou objetividade e respeito ao tempo do prospect, indo direto ao ponto com leveza e clareza.",
+            "Utilizou corretamente o gatilho da recomendação via Paulo, dando credibilidade ao contato.",
+            "Fez uma proposta de reunião utilizando escolha forçada de datas, facilitando a decisão do prospect.",
+            "Teve postura consultiva, explicando rapidamente seu papel e o valor da conversa, sem antecipar venda ou detalhe de produto.",
+            "Concluiu a negociação com reconfirmação clara da data, horário e modalidade da reunião.",
+            "Ausência clara do pedido de autorização (“Posso te explicar em um minuto o motivo da ligação?”) antes de avançar, o que facilitaria a abertura do prospect.",
+            "Faltou esforço embutido para criar quebra-gelo pessoal, o que para um perfil amarelo seria bem-vindo para gerar conexão."
+        ]
     },
     {
         "name": "Parceiro Rivorio3a12",
@@ -15463,7 +17058,18 @@ const RAW_SIMULATIONS = [
                 "text": "Beleza, até quarta então. Tchau."
             }
         ],
-        "finished": true
+        "finished": true,
+        "feedback": "Aqui está o debriefing da nossa troca.\n\n🤓 PERSONA\n\nAtuei como prospect direto, prático, impaciente, dominante, perfil DISC vermelho, com foco imediato em valor e resultados tangíveis.\n\n🎯 OBJETIVO PRINCIPAL\n\nVocê respondeu adequadamente às objeções, manteve postura consultiva e garantiu o agendamento da reunião. Objetivo plenamente atingido.\n\n➕ PONTOS FORTES\n\n- Solicitou autorização logo na abertura, respeitando o tempo do prospect e legitimando a ligação.\n\n- Utilizou de forma adequada o nome do recomendante logo no início, ativando o gatilho de indicação.\n\n- Estruturou a conversa com clareza, não desviando para venda por telefone e focando apenas no agendamento.\n\n- Manteve tom acolhedor, transmitindo transparência e compreensão das limitações de tempo do prospect.\n\n- Reforçou repetidamente os benefícios da reunião, contextualizando a proposta de valor do encontro.\n\n⚠️ PONTOS DE MELHORIA\n\n- Extrapolou o necessário nas explicações técnicas, chegando a descrever produtos, coberturas e preços (“apólices que começam a partir de R$300” e coberturas detalhadas).\n\n- Faltou ser mais sucinto diante da pressa do perfil vermelho; o excesso de detalhes em “coberturas em vida, doenças graves, internação” desviou do objetivo.\n\n- Reforçar ainda mais o método “sim, mas...”, validando emocionalmente (“sei que parece invasivo...” só surgiu tardiamente).\n\n- Poderia acelerar a escolha forçada de horários e usar frases mais incisivas, em vez de justificar várias vezes o valor da reunião.\n\n🩵 ANÁLISE EMOCIONAL\n\nO tom foi cortês, participativo, disposto a escutar, mas houve leve ansiedade em convencer. Predominou confiança aliada a certo excesso explicativo.\n\n🛅 MOMENTOS-CHAVE\n\nSituação: Prospect questionou o envio de material antes. Você explicou a dinâmica consultiva e reafirmou o convite à reunião. Isso reforçou a proposta de valor personalizada e superou a objeção.\n\nSituação: Reconfirmação explícita da reunião, garantindo local, horário e compromisso firmado. Isso gerou segurança e aumentou a taxa de conversão.\n\n🔊 REFORMULAÇÕES RECOMENDADAS\n\n“Posso te explicar tudo em vinte minutos, direto ao ponto, garantindo que não perca tempo.”\n\n“Paulo só recomenda quem realmente confia, por isso fiz questão de ligar pessoalmente.”\n\n“Prefere conversar quarta ou quinta-feira? Assim otimizo sua agenda sem enrolação.”\n\n“Na nossa conversa, vou entender sua realidade antes de sugerir qualquer solução.”\n\n“Se aparecer algum imprevisto, só me avisar pelo WhatsApp e remarcamos sem burocracia.”\n\n➡️ RECOMENDAÇÕES\n\nMantenha-se objetivo e consultivo, evite detalhamento técnico ou valores sem diagnóstico prévio. Imprima ainda mais ritmo, escuta ativa e validação emocional explícita. Faça o prospect sentir que controla o tempo.\n\nÓtima energia! Com pequenos ajustes, você vai converter ainda mais encontros em clientes satisfeitos. Vamos em frente!",
+        "insights": [
+            "Solicitou autorização logo na abertura, respeitando o tempo do prospect e legitimando a ligação.",
+            "Utilizou de forma adequada o nome do recomendante logo no início, ativando o gatilho de indicação.",
+            "Estruturou a conversa com clareza, não desviando para venda por telefone e focando apenas no agendamento.",
+            "Manteve tom acolhedor, transmitindo transparência e compreensão das limitações de tempo do prospect.",
+            "Reforçou repetidamente os benefícios da reunião, contextualizando a proposta de valor do encontro.",
+            "Extrapolou o necessário nas explicações técnicas, chegando a descrever produtos, coberturas e preços (“apólices que começam a partir de R$300” e coberturas detalhadas).",
+            "Faltou ser mais sucinto diante da pressa do perfil vermelho; o excesso de detalhes em “coberturas em vida, doenças graves, internação” desviou do objetivo.",
+            "Reforçar ainda mais o método “sim, mas...”, validando emocionalmente (“sei que parece invasivo...” só surgiu tardiamente)."
+        ]
     },
     {
         "name": "Parceiro Rivorio3a12",
@@ -15485,7 +17091,9 @@ const RAW_SIMULATIONS = [
                 "text": "Ah, João, super entendo que tu possa parecer, é, uma"
             }
         ],
-        "finished": false
+        "finished": false,
+        "feedback": "",
+        "insights": []
     },
     {
         "name": "Parceiro Rivorio3a12",
@@ -15559,7 +17167,12 @@ const RAW_SIMULATIONS = [
                 "text": "Obrigado. Boa tarde."
             }
         ],
-        "finished": true
+        "finished": true,
+        "feedback": "Aqui está o debriefing de nossa conversa.\n\n🤓 PERSONA\n\nPequeno produtor rural, perfil dominante vermelho, desconfiado, direto, valoriza o tempo e é relutante com novidades.\n\n🎯 OBJETIVO PRINCIPAL\n\nVocê evitou enviar material genérico, mas não descobriu razões ocultas nem obteve aceitação para reunião. Objetivo não atingido.\n\n➕ Pontos fortes\n\nVocê reforçou repetidamente o caráter consultivo e personalizado do serviço.  \nDemonstrou respeito ao tempo e ao perfil do prospect, não insistindo de forma agressiva.  \nTeve uma comunicação clara e um tom cordial em toda a abordagem.  \nBuscou diferenciar sua proposta ao citar a indicação do Paulo, trazendo referência positiva.\n\n⚠️ EIXOS DE MELHORIA\n\nFaltaram perguntas abertas para entender os motivos reais da resistência do prospect; usou apenas reafirmações da sua metodologia.  \nHouve um excesso de justificativas para não enviar material, sem investigar as demandas emocionais, financeiras ou relacionais por trás do pedido.  \nA técnica “Sim, mas…” foi tentada, mas sem validar genuinamente o sentimento do prospect antes de argumentar (“Ai que pena, João!” transmite certa frustração, não acolhimento).  \nNo agendamento, faltou assertividade na técnica de escolha forçada (“café ou online”), pois veio junto de um tom de despedida, soando como último recurso.\n\n🩵 ANÁLISE EMOCIONAL\n\nO tom foi simpático, porém flutuou entre cordial e resignado. Predominou a formalidade, mas houve momentos de hesitação e leve defensividade.\n\n🛅 MOMENTOS-CHAVE\n\nQuando explicou a inadequação do material genérico, foi clara, porém repetitiva – importante, mas poderia ter sido mais personalizada.  \nAo propor café presencial ou online, não explorou as causas da resistência antes, perdendo a chance de virar o jogo naquele instante.\n\n🔊 REFORMULAÇÕES RECOMENDADAS\n\n“João, posso entender: por qual motivo o senhor prefere receber antes um material? Algo o preocupa em nossa conversa?”  \n\n“Sei que assuntos pessoais exigem confiança. O que faria a conversa ser mais confortável para o senhor?”  \n\n“Posso propor dois horários curtos, de quinze minutos, para começarmos sem compromisso? Prefere manhã ou tarde?”  \n\n➡️ RECOMENDAÇÕES\n\nInvista nas perguntas abertas antes de explicar por que não envia material. Valide a emoção do prospect. Foque na criação de valor da conversa, e use a técnica da escolha forçada no momento certo.\n\nConcluo: persistência é importante, mas empatia e escuta ativa abrem as portas. O próximo passo está em suas mãos!",
+        "insights": [
+            "“João, posso entender: por qual motivo o senhor prefere receber antes um material? Algo o preocupa em nossa conversa?”",
+            "Concluo: persistência é importante, mas empatia e escuta ativa abrem as portas. O próximo passo está em suas mãos!"
+        ]
     },
     {
         "name": "Parceiro Rivorio3a12",
@@ -15733,7 +17346,18 @@ const RAW_SIMULATIONS = [
                 "text": "O senhor fala bonito, mas eu já disse o que quero: mande por e-mail como cem mil reais caem na conta da minha mulher, em quanto tempo, sem advogado. Se não vier por escrito, não marco nada."
             }
         ],
-        "finished": true
+        "finished": true,
+        "feedback": "Aqui está o debriefing de nossa conversa.\n\n\n🤓 PERSONA\n\nFui o Seu João, pequeno produtor agrícola do Sertão do Pernambuco, perfil DISC majoritariamente vermelho: direto, cauteloso e desconfiado, valoriza tradição e clareza.\n\n🎯 OBJETIVO PRINCIPAL\n\nVocê respondeu às objeções com persistência e explicou sobre a personalização do serviço, mas não chegou ao acordo para uma reunião sem envio de documentação. Objetivo parcialmente atingido.\n\n\n➕ Pontos fortes\n\n- Demonstrou resiliência ao recusar o envio de material genérico diversas vezes, mantendo o argumento de personalização.\n- Aplicou a técnica do “sim, mas…” ao validar a preocupação do prospect em alguns momentos.\n- Utilizou justificativas (sem dados pessoais, não é possível entregar proposta) alinhadas à abordagem consultiva.\n- Manteve proposta de reunião curta e ofereceu alternativas (café presencial e online).\n\n⚠️ EIXOS DE MELHORIA\n\n- Faltou investigação mais profunda sobre o verdadeiro motivo da objeção; perguntas sobre o porquê do material vieram tardiamente e sem aprofundamento.\n- Repetiu argumentos de personalização e consultoria sem adaptá-los à linguagem ou experiência do prospect, perdendo o vínculo.\n- A oferta de datas de reunião foi feita de modo repetitivo e direto, sem atentar aos sinais de hesitação ou desconforto.\n- Em alguns momentos, houve respostas que soaram impacientes (“sua pergunta não tá fazendo muito sentido”), o que pode afastar um perfil desconfiado.\n\n🩵 ANÁLISE EMOCIONAL\n\nO tom foi assertivo, mas em momentos tornou-se defensivo. O ritmo, apressado. Vocabulário consultivo. Estado emocional: ansioso-intercalado com tentativa de empatia.\n\n🛅 MOMENTOS-CHAVE\n\nQuando insistiu na não existência de material genérico, mostrou domínio técnico, mas não criou conexão emocional. Ao perguntar afinal sobre o motivo do pedido, abriu espaço para o prospect se explicar melhor — importante para contornar objeções, mas ocorreu tarde demais.\n\n🔊 REFORMULAÇÕES RECOMENDADAS\n\nSeu João, entendo sua cautela. Posso perguntar: o que faria o senhor confiar mais neste processo?\n\nA proposta só faz sentido se eu escutar sua realidade primeiro—por isso o nosso papo é fundamental.\n\nSe preferir, podemos marcar uma conversa rápida por telefone antes de decidir qualquer encontro presencial.\n\nMinhas reuniões são sempre objetivas: quinze minutos, direto ao ponto, para o senhor avaliar se vale seguir.\n\n➡️ RECOMENDAÇÕES\n\nAprofunde com empatia os motivos ocultos do pedido de material já no começo. Use mais perguntas abertas para legitimar as objeções. Varie argumentos e conecte melhor experiência do prospect à proposta. Mantenha sempre um tom acolhedor, especialmente diante da resistência.\n\nContinue lapidando sua escuta: grandes vendas nascem da verdadeira escuta, não só do discurso.",
+        "insights": [
+            "Fui o Seu João, pequeno produtor agrícola do Sertão do Pernambuco, perfil DISC majoritariamente vermelho: direto, cauteloso e desconfiado, valoriza tradição e clareza.",
+            "Demonstrou resiliência ao recusar o envio de material genérico diversas vezes, mantendo o argumento de personalização.",
+            "Aplicou a técnica do “sim, mas…” ao validar a preocupação do prospect em alguns momentos.",
+            "Utilizou justificativas (sem dados pessoais, não é possível entregar proposta) alinhadas à abordagem consultiva.",
+            "Manteve proposta de reunião curta e ofereceu alternativas (café presencial e online).",
+            "Faltou investigação mais profunda sobre o verdadeiro motivo da objeção; perguntas sobre o porquê do material vieram tardiamente e sem aprofundamento.",
+            "Repetiu argumentos de personalização e consultoria sem adaptá-los à linguagem ou experiência do prospect, perdendo o vínculo.",
+            "A oferta de datas de reunião foi feita de modo repetitivo e direto, sem atentar aos sinais de hesitação ou desconforto."
+        ]
     },
     {
         "name": "Parceiro Rivorio3a12",
@@ -15847,7 +17471,18 @@ const RAW_SIMULATIONS = [
                 "text": "Certo. Até quarta-feira, então."
             }
         ],
-        "finished": true
+        "finished": true,
+        "feedback": "Aqui está o debriefing da nossa troca\n\n🤓 PERSONA\n\nVocê representou uma prospect do tipo verde no DISC: paciente, analítica, pragmática, que valoriza segurança e solução personalizada.\n\n🎯 OBJETIVO PRINCIPAL\n\nVocê respondeu satisfatoriamente às objeções e obteve acordo para uma reunião de descoberta e apresentação MetLife. Objetivo atingido.\n\n➕ PONTOS FORTES\n\n- Fez uma abertura calorosa, apresentou o motivo do contato e validou a recomendação de forma clara e simpática.\n\n- Propôs a reunião com escolha forçada entre duas opções de datas próximas, agilizando a confirmação.\n\n- Argumentou de maneira consultiva, recusando o envio de material genérico, reforçando a personalização e o valor do encontro.\n\n- Demonstrou organização ao pedir o e-mail para envio de convite e reconfirmou local, data e horário.\n\n⚠️ PONTOS DE MELHORIA\n\n- Ausência de pedido formal de autorização para seguir na ligação, pulando uma etapa importante do método MetLife.  \n  Isso pode fazer o prospect se sentir invadido, especialmente se estiver ocupado.\n\n- Repetição excessiva da importância do que Paulo disse (“Paulo achou que faz sentido pra você”) sem trazer um elemento pessoal ou quebra-gelo que conecte emocionalmente.\n\n- Poderia ter ativado com mais força o gatilho da recomendação, contando algo genuíno ou pessoal da relação Paulo-prospect.\n\n- Pequena hesitação ao fechar o horário (“quarta então?”), podendo soar pouco firme. A escolha forçada deve ser objetiva e ajustada logo no primeiro aceite, para evitar cansaço.\n\n🩵 ANÁLISE EMOCIONAL\n\nTom atencioso, ritmo ágil, vocabulário simples. Estado emocional dominante: cordialidade focada, mas com leve ansiedade para fechar.\n\n🛅 MOMENTOS-CHAVE\n\nQuando recusou o envio de material genérico e reforçou a personalização do processo, transmitindo valor ao prospect.  \nAo propor a reunião com escolha forçada e ajustar na hora, mostrou flexibilidade para garantir o compromisso.\n\n🔊 REFORMULAÇÕES RECOMENDADAS\n\n- “Antes de explicar, posso te perguntar se cê tem um minuto para ouvir?”\n\n- “Paulo comentou que você valoriza soluções sob medida, por isso quis te recomendar.”\n\n- “Faço esse convite porque realmente acredito que você pode sair desta conversa com ideias novas de proteção.”\n\n- “Se der qualquer imprevisto, me fala para remarcarmos rapidinho, pode ser?”\n\n➡️ RECOMENDAÇÕES\n\nTrabalhe a formalização da autorização logo no início e personalize ainda mais a recomendação. Use um quebra-gelo genuíno e mantenha a escolha forçada assertiva e simpática. Evite repetições ao justificar o convite. Parabéns: continue evoluindo na escuta ativa e no ajuste de tom. Você vai transformar muitos cafés em parcerias!",
+        "insights": [
+            "Você representou uma prospect do tipo verde no DISC: paciente, analítica, pragmática, que valoriza segurança e solução personalizada.",
+            "Fez uma abertura calorosa, apresentou o motivo do contato e validou a recomendação de forma clara e simpática.",
+            "Propôs a reunião com escolha forçada entre duas opções de datas próximas, agilizando a confirmação.",
+            "Argumentou de maneira consultiva, recusando o envio de material genérico, reforçando a personalização e o valor do encontro.",
+            "Demonstrou organização ao pedir o e-mail para envio de convite e reconfirmou local, data e horário.",
+            "Ausência de pedido formal de autorização para seguir na ligação, pulando uma etapa importante do método MetLife.",
+            "Repetição excessiva da importância do que Paulo disse (“Paulo achou que faz sentido pra você”) sem trazer um elemento pessoal ou quebra-gelo que conecte emocionalmente.",
+            "Poderia ter ativado com mais força o gatilho da recomendação, contando algo genuíno ou pessoal da relação Paulo-prospect."
+        ]
     },
     {
         "name": "Parceiro Rivorio3a12",
@@ -15949,7 +17584,18 @@ const RAW_SIMULATIONS = [
                 "text": "Tchau."
             }
         ],
-        "finished": true
+        "finished": true,
+        "feedback": "Aqui está o debriefing da nossa troca.\n\n  \n### 🤓 PERSONA\n\nVocê conversou com um executivo sênior de perfil DISC predominante vermelho, racional, objetivo e acostumado a lidar com decisões de alto impacto.\n\n  \n### 🎯 OBJETIVO PRINCIPAL\n\nVocê conseguiu responder de forma cordial e clara às objeções e agendou uma reunião de descoberta para apresentação da oferta; objetivo plenamente atingido.\n\n  \n### ➕ PONTOS FORTES\n\n- Abriu a ligação com energia e apresentou a razão do contato já vinculando a recomendação do Paulo, criando rápida conexão.\n\n  \n- Solicitou autorização de continuidade, respeitando o tempo do prospect e reforçando sua agenda concorrida.\n\n  \n- Propôs reunião já com escolha forçada de horários próximos e flexibilidade de modalidade (presencial ou virtual).\n\n  \n- Deixou claro o caráter consultivo da reunião e evitou venda ou detalhamento excessivo do produto.\n\n  \n- Usou linguagem acolhedora e profissional durante toda a conversa.\n\n  \n### ⚠️ PONTOS DE MELHORIA\n\n- O pitch inicial citou um nome diferente do prospect (“Maria” ao invés de “João”), o que pode gerar desconfiança desde o início.\n\n  \n- A estrutura das etapas MetLife falhou na quebra-gelo personalizada; faltou ativar recomendação genuína ou curiosidade sobre o universo pessoal do prospect.\n\n  \n- Em alguns momentos, a fala foi acelerada e repetitiva, como no excesso de garantias do benefício da reunião e no uso recorrente do argumento “Paulo não indicaria à toa”.\n\n  \n- A reconfirmação vazou leve rigidez (“compromisso está firmado, ok?”), podendo soar um pouco impositiva.\n\n  \n###  🩵 ANÁLISE EMOCIONAL\n\nO tom se manteve positivo, porém ansioso, com ritmo constante e vocabulário respeitoso. O estado emocional dominante oscilou entre o cordial confiante e o ligeiramente afobado.\n\n  \n### 🛅 MOMENTOS-CHAVE\n\nMomento da escolha forçada de horários → Você propôs dois dias e alternativas de formato → Isso facilita a decisão e reduz objeção de tempo → Aumentou a taxa de conversão.\n\nMomento de reafirmar consultoria personalizada → Você ressaltou a individualização do serviço → Isso reforça valor consultivo → Gerou abertura do prospect.\n\n  \n### 🔊 REFORMULAÇÕES RECOMENDADAS\n\n“Paulo comentou que suas demandas são especiais; vou preparar algo exclusivo para você.”\n\n  \n“Se preferir, marcamos online para otimizar ainda mais seu tempo.”\n\n  \n“Nosso encontro é para mapear soluções sob medida, sem compromisso.”\n\n  \n“Garanto que o encontro agregará conhecimento sobre proteção patrimonial.”\n\n  \n“Basta me avisar se surgir algum imprevisto; ajustamos juntos.”\n\n  \n### ➡️ RECOMENDAÇÕES\n\nAprimore a personalização do quebra-gelo e evite lapsos de nomes. Foque na escuta ativa para perceber brechas de conexão emocional e mantenha sempre um convite reconfirmado, porém amistoso.\n\nContinue evoluindo! Lembre-se: confiança e naturalidade sempre abrem portas.",
+        "insights": [
+            "Abriu a ligação com energia e apresentou a razão do contato já vinculando a recomendação do Paulo, criando rápida conexão.",
+            "Solicitou autorização de continuidade, respeitando o tempo do prospect e reforçando sua agenda concorrida.",
+            "Propôs reunião já com escolha forçada de horários próximos e flexibilidade de modalidade (presencial ou virtual).",
+            "Deixou claro o caráter consultivo da reunião e evitou venda ou detalhamento excessivo do produto.",
+            "Usou linguagem acolhedora e profissional durante toda a conversa.",
+            "O pitch inicial citou um nome diferente do prospect (“Maria” ao invés de “João”), o que pode gerar desconfiança desde o início.",
+            "A estrutura das etapas MetLife falhou na quebra-gelo personalizada; faltou ativar recomendação genuína ou curiosidade sobre o universo pessoal do prospect.",
+            "Em alguns momentos, a fala foi acelerada e repetitiva, como no excesso de garantias do benefício da reunião e no uso recorrente do argumento “Paulo não indicaria à toa”."
+        ]
     },
     {
         "name": "Parceiro Rivorio3a12",
@@ -15979,7 +17625,9 @@ const RAW_SIMULATIONS = [
                 "text": "Ah, entendi, João. Fala pra mim, por gentileza, por que que você quer receber esse material online?"
             }
         ],
-        "finished": false
+        "finished": false,
+        "feedback": "",
+        "insights": []
     },
     {
         "name": "Parceiro Rivorio3a12",
@@ -16141,7 +17789,16 @@ const RAW_SIMULATIONS = [
                 "text": "Boatais"
             }
         ],
-        "finished": true
+        "finished": true,
+        "feedback": "Aqui está o debriefing de nossa conversa.\n\n\n🤓 PERSONA\n\nAtuei como Patrícia, controller de gestão, perfil DISC azul destacado: analítica, exigente, racional, cautelosa e orientada a detalhes.\n\n\n🎯 OBJETIVO PRINCIPAL\n\nO objetivo era superar a objeção do envio prévio de material, entender a razão subjacente e agendar reunião sem documentação. Objetivo parcialmente atingido.\n\n\n➕ Pontos fortes\n\nVocê explicou de forma consistente por que o material genérico não faz sentido e reforçou o caráter consultivo e personalizado da sua abordagem. \nDemonstrou tato ao retomar o discurso para não soar insistente, validando o tempo restrito do prospect. \nUtilizou perguntas abertas para buscar a raiz do pedido de material. \nAplicou a técnica da escolha forçada ao sugerir datas específicas para a reunião.\n\n⚠️ EIXOS DE MELHORIA\n\nFaltou escuta ativa mais refinada: muitas respostas acabaram girando no próprio argumento, sem valorizar plenamente o sentimento do prospect antes de argumentar.\nAs reformulações podiam ser mais empáticas – por exemplo, validar a resistência e a preferência por informações antecipadas antes de insistir na reunião.\nA inversão do pedido de informações pessoais (para enviar material) pode soar arriscada sem entender plenamente a insegurança do prospect.\nO excesso de justificativas repetidas sobre personalização tornou o fechamento circular, enfraquecendo o controle da conversa e fragilizando o convite final.\n\n🩵 ANÁLISE EMOCIONAL\n\nSeu tom alternou entre profissional e levemente ansioso. O ritmo foi firme, mas em certos momentos perdeu fluidez com repetições. Estado emocional: determinado, mas com traços de hesitação.\n\n\n🛅 MOMENTOS-CHAVE\n\nAo perguntar diretamente “por que você quer receber esse material por e-mail?”, abriu espaço para a real objeção – gesto fundamental para mapear as resistências.\nNo fechamento, ao agradecer e manter a porta aberta, você demonstrou respeito e preservou o relacionamento.\n\n\n🔊 REFORMULAÇÕES RECOMENDADAS\n\n“Entendo totalmente sua necessidade de análise prévia. Posso perguntar o que seria mais relevante para você receber em uma apresentação?”\n“Caso seja importante comparar opções, podemos dedicar quinze minutos a um diagnóstico inicial já personalizado.”\n“Minha proposta é: conversamos online por quinze minutos e, se não fizer sentido, não avançamos, combinado?”\n“Meu compromisso não é vender, mas entender o que realmente tem valor para você e sua família.”\n\n\n➡️ RECOMENDAÇÕES\n\nPriorize validar as emoções do prospect antes de justificar o método. Use mais perguntas abertas explorando motivações, depois proponha a reunião focando nos benefícios concretos de um bate-papo breve e personalizado. Mantenha o discurso menos circular.\n\nContinue, pois o domínio da escuta refinada é questão de treino e ajustes finos!",
+        "insights": [
+            "Atuei como Patrícia, controller de gestão, perfil DISC azul destacado: analítica, exigente, racional, cautelosa e orientada a detalhes.",
+            "Faltou escuta ativa mais refinada: muitas respostas acabaram girando no próprio argumento, sem valorizar plenamente o sentimento do prospect antes de argumentar.",
+            "Seu tom alternou entre profissional e levemente ansioso. O ritmo foi firme, mas em certos momentos perdeu fluidez com repetições. Estado emocional: determinado, mas com traços de hesitação.",
+            "Ao perguntar diretamente “por que você quer receber esse material por e-mail?”, abriu espaço para a real objeção – gesto fundamental para mapear as resistências.",
+            "“Minha proposta é: conversamos online por quinze minutos e, se não fizer sentido, não avançamos, combinado?”",
+            "Priorize validar as emoções do prospect antes de justificar o método. Use mais perguntas abertas explorando motivações, depois proponha a reunião focando nos benefícios concretos de um bate-papo breve e personalizado. Mantenha o discurso menos circular."
+        ]
     },
     {
         "name": "Parceiro Rivorio3a12",
@@ -16231,7 +17888,18 @@ const RAW_SIMULATIONS = [
                 "text": "Até lá, tchau, tchau"
             }
         ],
-        "finished": true
+        "finished": true,
+        "feedback": "Aqui está o debriefing da nossa troca.\n\n🤓 PERSONA\n\nInterpretei Larissa, empreendedora carismática, sociável, perfil DISC amarelo predominante, comunicativa, imediatista e aberta a novas experiências, porém desconfiada no início.\n\n🎯 OBJETIVO PRINCIPAL\n\nVocê respondeu de modo convincente às objeções e conseguiu agendar uma reunião presencial de apresentação. O objetivo foi plenamente atingido.\n\n➕ PONTOS FORTES\n\n- Você fez uma ótima abertura, usou um tom amigável e energético, típico de quem quer criar conexão.\n\n- Trouxe a recomendação do Paulo rapidamente, criando capital de confiança logo no início.\n\n- Propôs datas próximas e com escolha forçada, acelerando a decisão e facilitando o sim da prospect.\n\n- Demonstrou flexibilidade para confirmar e reconfirmar local, horário e canal de envio do convite.\n\n⚠️ PONTOS DE MELHORIA\n\n- Faltou formalizar explicitamente o pedido de autorização para seguir com a conversa; iniciou já mencionando o nome do Paulo.\n\n- A abordagem ficou muito focada na recomendação, sem investimento no quebra-gelo/personalização para captar o “clima” e despertar o entusiasmo da cliente amarela.\n\n- Poderia ter explorado minimamente com duas frases o valor da reunião para a rotina de Larissa—faltou um mini pitch do benefício para ela.\n\n- Não houve verdadeiro tratamento de objeções; Larissa não foi estimulada a manifestar pelo menos três a cinco bloqueios.\n\n🩵 ANÁLISE EMOCIONAL\n\nSeu tom e ritmo foram calorosos, com energia e foco na solução, mas por vezes um pouco acelerado, deixando de lado pausas consultivas e aprofundamentos personalizados.\n\n🛅 MOMENTOS-CHAVE\n\nSituação: Quando você sugeriu duas datas e rapidamente uma escolha de horários. Isso mostra domínio da técnica “escolha forçada” e eleva a taxa de sim imediato.\n\nSituação: Ao explicar por que tinha o número da prospect. Isso ajuda a passar segurança e transparência, minimizando desconfiança inicial.\n\n🔊 REFORMULAÇÕES RECOMENDADAS\n\n“Camila, antes de continuarmos, posso te explicar rapidamente o propósito desse contato para ver se faz sentido pra você?”\n\n“Imagino que você tenha pouco tempo, então prometo ser objetiva e focar no que é relevante pra sua rotina.”\n\n“O objetivo aqui não é vender nada por telefone, é só entender como posso ajudar no seu planejamento financeiro.”\n\n“Tenho duas opções de horário para facilitar: prefere conversarmos às oito ou às dez?”\n\n➡️ RECOMENDAÇÕES\n\nLembre-se sempre de pedir autorização explícita antes de avançar, trabalhar quebra-gelos personalizados e estimular objeções reais para torná-las pontos de engajamento. Aposte em uma escuta ainda mais ativa e valorize minipitches de benefício.\n\nSua energia abre portas! Agora é caprichar no vínculo consultivo—o sucesso está logo ali!",
+        "insights": [
+            "Você fez uma ótima abertura, usou um tom amigável e energético, típico de quem quer criar conexão.",
+            "Trouxe a recomendação do Paulo rapidamente, criando capital de confiança logo no início.",
+            "Propôs datas próximas e com escolha forçada, acelerando a decisão e facilitando o sim da prospect.",
+            "Demonstrou flexibilidade para confirmar e reconfirmar local, horário e canal de envio do convite.",
+            "Faltou formalizar explicitamente o pedido de autorização para seguir com a conversa; iniciou já mencionando o nome do Paulo.",
+            "A abordagem ficou muito focada na recomendação, sem investimento no quebra-gelo/personalização para captar o “clima” e despertar o entusiasmo da cliente amarela.",
+            "Poderia ter explorado minimamente com duas frases o valor da reunião para a rotina de Larissa—faltou um mini pitch do benefício para ela.",
+            "Não houve verdadeiro tratamento de objeções; Larissa não foi estimulada a manifestar pelo menos três a cinco bloqueios."
+        ]
     },
     {
         "name": "Parceiro Rivorio3a12",
@@ -16249,7 +17917,9 @@ const RAW_SIMULATIONS = [
                 "text": "Oi, João"
             }
         ],
-        "finished": false
+        "finished": false,
+        "feedback": "",
+        "insights": []
     },
     {
         "name": "Parceiro Rivorio3a12",
@@ -16262,7 +17932,9 @@ const RAW_SIMULATIONS = [
         "lqa": "N/A",
         "interactions": 0,
         "messages": [],
-        "finished": false
+        "finished": false,
+        "feedback": "",
+        "insights": []
     },
     {
         "name": "Parceiro Rivorio3a12",
@@ -16352,7 +18024,18 @@ const RAW_SIMULATIONS = [
                 "text": "Tá bom. Te aviso amanhã à tarde se posso passar o contato da Rosa e do Severino. Até amanhã."
             }
         ],
-        "finished": true
+        "finished": true,
+        "feedback": "Aqui está o debriefing da nossa conversa.\n\n  \n## 🤓 PERSONA\n\nVocê conversou com Seu João, pequeno produtor rural do sertão nordestino, perfil DISC majoritariamente dominante (vermelho).\n\n  \n## 🎯 OBJETIVO PRINCIPAL\n\nO objetivo era obter pelo menos dois nomes qualificados e autorização para contato usando o nome do cliente. O objetivo foi parcialmente atingido.\n\n  \n\n## ➕ Pontos fortes\n\n- Houve preocupação em alinhar expectativas e pedir consentimento explícito para entrar em contato com as indicações.\n  \n- Você utilizou um tom cordial e procurou deixar claro que não faria contato sem o “ok” do cliente.\n\n- Demonstrou interesse genuíno ao pedir mais detalhes sobre a irmã indicada, buscando humanizar o contato.\n  \n- Tentou valorizar o momento, mencionando a importância de aproveitar a atenção do cliente logo após a venda.\n  \nParabéns! Sua empatia abriu caminhos para recomendações; isso faz toda a diferença.\n\n  \n\n## ⚠️ EIXOS DE MELHORIA\n\n- **Reconhecimento inicial ausente**  \n  Faltou um agradecimento explícito pela confiança logo no início da solicitação; comece celebrando a escolha do cliente antes do pedido.\n\n- **Pedido excessivo e não segmentado**  \n  Você solicitou de cinco a dez nomes, o que pode assustar e paralisar a memória do cliente. Prefira uma lista curta e perfis segmentados (por exemplo, “alguém da igreja ou da cooperativa?”).\n\n- **Segunda etapa pouco aprofundada**  \n  Não houve uma investigação clara do que o cliente mais gostou na solução, o que potencializa as recomendações futuras.\n\n- **Pressão implícita**  \n  No final, a solicitação de muitos nomes e o ritmo acelerado prejudicaram a leveza do momento pós-venda.\n\nFique de olho nessas oportunidades: pequenas mudanças vão turbinar seus resultados!\n\n  \n\n## 🩵 ANÁLISE EMOCIONAL\n\nO tom foi cordial e confiante, mas moderadamente insistente no final. O ritmo foi acelerado e o vocabulário pragmático.\n\n  \n\n## 🛅 MOMENTOS-CHAVE\n\nAo reforçar que só contataria as indicações após o aval do cliente, você aumentou a confiança e facilitou a primeira recomendação. Ao pedir perfis de forma genérica e insistir em volume, gerou desconforto e retração.\n\n  \n\n## 🔊 REFORMULAÇÕES RECOMENDADAS\n\n“Antes de qualquer coisa, muito obrigado pela confiança!”\n\n“Entre seus colegas ou familiares, quem você acha que se beneficiaria de uma conversa como essa?”\n\n“Posso mencionar seu nome quando eu falar com eles, ou você prefere apresentar primeiro?”\n\n“Fique tranquilo: só entro em contato depois do seu ok final.”\n\n  \n\n## ➡️ RECOMENDAÇÕES\n\nReconheça sempre a conquista com entusiasmo antes do pedido. Peça nomes um a um, com segmentações claras. Evite pressionar por quantidade, prefira qualidade. Agradeça sinceramente a cada indicação. Você está no caminho certo e pequenos ajustes vão multiplicar sua efetividade!",
+        "insights": [
+            "Houve preocupação em alinhar expectativas e pedir consentimento explícito para entrar em contato com as indicações.",
+            "Você utilizou um tom cordial e procurou deixar claro que não faria contato sem o “ok” do cliente.",
+            "Demonstrou interesse genuíno ao pedir mais detalhes sobre a irmã indicada, buscando humanizar o contato.",
+            "Tentou valorizar o momento, mencionando a importância de aproveitar a atenção do cliente logo após a venda.",
+            "Reconhecimento inicial ausente",
+            "Pedido excessivo e não segmentado",
+            "Segunda etapa pouco aprofundada",
+            "No final, a solicitação de muitos nomes e o ritmo acelerado prejudicaram a leveza do momento pós-venda."
+        ]
     },
     {
         "name": "Parceiro Rivorio3a12",
@@ -16450,7 +18133,18 @@ const RAW_SIMULATIONS = [
                 "text": "Beleza. Falo com você quando eu der o sinal verde. Até mais."
             }
         ],
-        "finished": true
+        "finished": true,
+        "feedback": "Aqui está o debriefing da nossa conversa.\n\n  \n## 🤓 PERSONA\n\n  \nInterpretei Camila, jovem executiva tech, curiosa, digital e cética quanto a métodos tradicionais; perfil DISC amarelo, comunicativa e analítica.\n\n  \n## 🎯 OBJETIVO PRINCIPAL\n\n  \nO objetivo era obter pelo menos dois nomes de recomendações com autorização para contato mencionando Camila. O objetivo não foi atingido.\n\n  \n## ➕ Pontos fortes\n\n  \n- Você demonstrou entusiasmo ao reconhecer a satisfação da cliente logo no início da abordagem.\n\n  \n- Mostrou preocupação genuína com a experiência vivida por Camila, buscando resgatar o momento positivo da reunião.\n\n  \n- Teve flexibilidade ao propor que só entraria em contato com recomendados após o aval da cliente.\n\n  \nContinue valorizando o reconhecimento inicial, pois criar conexão é a base para recomendações.\n\n  \n## ⚠️ EIXOS DE MELHORIA\n\n  \n- **Faltou estrutura e método**\n  \n  Não houve segmentação de perfis nem perguntas direcionadas que facilitassem a lembrança de nomes específicos por parte de Camila.\n\n\n- **Pedido muito aberto e recorrente**\n  \n  O pedido soou genérico (“pessoas que você mais ama”), e foi reiterado sem ajudar a cliente a pensar em grupos concretos, causando resistência.\n\n\n- **Argumentação circular e pressão**\n  \n  Houve insistência ao repetir benefícios e tentar revalidar o atendimento (“nosso bate-papo não foi bom?”), o que tirou naturalidade e aumentou desconforto.\n\n\n- **Ausência de fechamento técnico**\n  \n  Faltou pedir explicitamente a autorização de menção do nome e agradecer de maneira calorosa, encerrando com empatia.\n\n  \nInvista em perguntas qualificadoras e respeite o ritmo da cliente para facilitar sua cooperação.\n\n  \n## 🩵 ANÁLISE EMOCIONAL\n\n  \nO tom foi esforçado, um pouco ansioso e repetitivo. Faltou escuta ativa, tornando a abordagem menos fluida e gerando leve tensão.\n\n  \n## 🛅 MOMENTOS-CHAVE\n\n  \nNo início, valorizou a satisfação, mas rapidamente entrou em modo de cobrança (“você me passar os nomes...”), perdendo a chance de aprofundar o valor percebido e reduzir barreiras. Esse movimento comprometeu a abertura para recomendações.\n\n  \n## 🔊 REFORMULAÇÕES RECOMENDADAS\n\n  \n“Camila, fiquei curioso: o que você mais gostou em todo nosso processo?”  \n“Muitas pessoas como você têm colegas na mesma área que valorizariam esse tipo de consultoria. Alguém te vem à cabeça?”  \n“Você se sentiria confortável que eu mencione seu nome de forma discreta no primeiro contato?”  \n“Fique tranquila, só entro em contato com sua sinalização.”\n\n  \n## ➡️ RECOMENDAÇÕES\n\n  \nEstruture sua abordagem em etapas: reconheça o cliente, explore o que ele valoriza, segmente perfis, peça recomendações uma a uma, e só então peça autorização de menção. Faça perguntas abertas, mas guiadas, e nunca em tom de cobrança. Cuidar do ritmo e da personalização fará diferença. Você tem potencial para evoluir muito sendo menos mecânico e mais curioso!",
+        "insights": [
+            "Você demonstrou entusiasmo ao reconhecer a satisfação da cliente logo no início da abordagem.",
+            "Mostrou preocupação genuína com a experiência vivida por Camila, buscando resgatar o momento positivo da reunião.",
+            "Teve flexibilidade ao propor que só entraria em contato com recomendados após o aval da cliente.",
+            "Faltou estrutura e método",
+            "Pedido muito aberto e recorrente",
+            "Argumentação circular e pressão",
+            "Houve insistência ao repetir benefícios e tentar revalidar o atendimento (“nosso bate-papo não foi bom?”), o que tirou naturalidade e aumentou desconforto.",
+            "Ausência de fechamento técnico"
+        ]
     },
     {
         "name": "Parceiro Rivorio3a12",
@@ -16468,7 +18162,9 @@ const RAW_SIMULATIONS = [
                 "text": "Oi Larissa, que bom que você gostou do nosso"
             }
         ],
-        "finished": false
+        "finished": false,
+        "feedback": "",
+        "insights": []
     },
     {
         "name": "Parceiro Rivorio3a12",
@@ -16486,7 +18182,9 @@ const RAW_SIMULATIONS = [
                 "text": "Não, eu estou"
             }
         ],
-        "finished": false
+        "finished": false,
+        "feedback": "",
+        "insights": []
     },
     {
         "name": "Parceiro Rivorio3a12",
@@ -16499,7 +18197,9 @@ const RAW_SIMULATIONS = [
         "lqa": "N/A",
         "interactions": 0,
         "messages": [],
-        "finished": false
+        "finished": false,
+        "feedback": "",
+        "insights": []
     },
     {
         "name": "Parceiro Rivorio3a12",
@@ -16589,7 +18289,18 @@ const RAW_SIMULATIONS = [
                 "text": "[silêncio]"
             }
         ],
-        "finished": true
+        "finished": true,
+        "feedback": "Aqui está o debriefing da nossa conversa.\n\n  \n## 🤓 PERSONA\n\nVocê interagiu com Larissa, cliente receptiva com perfil DISC majoritariamente verde, estável, relacional, focada em confiança e segurança.\n\n  \n## 🎯 OBJETIVO PRINCIPAL\n\nO objetivo era obter pelo menos dois nomes qualificados e permissão para contato. O objetivo foi parcialmente atingido.\n\n  \n## ➕ Pontos fortes\n\n- Você demonstrou cortesia e reconheceu a satisfação da cliente logo na abertura, com tom positivo e acolhedor.\n\n  \n- Explicou com clareza seu procedimento, reforçando que não faria contato sem autorização, transmitindo tranquilidade.\n\n  \n- Solicitou horários específicos e facilitou a decisão da cliente sobre o momento do retorno.\n\n  \n- Demonstrou cuidado para não pressionar, propondo um acordo claro e respeitador para a continuidade da conversa.\n\n  \nContinue assim, suas posturas transmitiram profissionalismo e confiança!\n\n  \n## ⚠️ EIXOS DE MELHORIA\n\n- **Sentimento de Pressa**\n  Alguns pedidos como “me passa os contatos agora” e a repetição sobre urgência soaram um pouco insistentes, podendo gerar desconforto.\n\n  \n- **Falta de Segmentação**\n  Faltou guiar com perfis específicos ou situações (“empreendedor”, “alguém que virou pai/mãe”) para ajudar a emerger nomes concretos.\n\n  \n- **Exploração do Valor Percebido**\n  Não explorou o que mais agradou à cliente na solução, perdendo a chance de criar mais convicção para gerar recomendações.\n\n  \nUse perguntas abertas e perfis direcionados! Isso suaviza e qualifica a abordagem.\n\n  \n## 🩵 ANÁLISE EMOCIONAL\n\nSeu tom foi cordial e seguro, porém o ritmo acelerado e falas repetidas deram pequena impressão de impaciência. A postura dominante foi assertiva, mas poderia ser um pouco mais empática.\n\n  \n## 🛅 MOMENTOS-CHAVE\n\nNo início, agradeceu e reconheceu a satisfação, o que facilitou a abertura. Em seguida, reforçou a autorização antes de qualquer contato, aumentando a confiança. Esses pontos reduziram resistências.\n\n  \n## 🔊 REFORMULAÇÕES RECOMENDADAS\n\n“Gostaria de entender quem, no seu círculo, você acha que mais se beneficiaria dessa tranquilidade que conquistamos aqui.”\n\n  \n“Entre seus colegas empreendedores ou amigos que estão passando por mudanças importantes, alguém te vem à cabeça?”\n\n  \n“Se preferir, posso aguardar o melhor momento para você conversar com essas pessoas antes que eu entre em contato.”\n\n  \n## ➡️ RECOMENDAÇÕES\n\nTrabalhe mais a personalização e a segmentação dos pedidos. Use perguntas abertas para valor percebido e perfis, evitando pressa. Sempre proponha claramente que citará seu nome, pedindo permissão. Confie: garantir respeito e contexto gera mais recomendações! Continue evoluindo – você tem ótimo potencial!",
+        "insights": [
+            "Você demonstrou cortesia e reconheceu a satisfação da cliente logo na abertura, com tom positivo e acolhedor.",
+            "Explicou com clareza seu procedimento, reforçando que não faria contato sem autorização, transmitindo tranquilidade.",
+            "Solicitou horários específicos e facilitou a decisão da cliente sobre o momento do retorno.",
+            "Demonstrou cuidado para não pressionar, propondo um acordo claro e respeitador para a continuidade da conversa.",
+            "Sentimento de Pressa",
+            "Falta de Segmentação",
+            "Exploração do Valor Percebido",
+            "Trabalhe mais a personalização e a segmentação dos pedidos. Use perguntas abertas para valor percebido e perfis, evitando pressa. Sempre proponha claramente que citará seu nome, pedindo permissão. Confie: garantir respeito e contexto gera mais recomendações! Continue evoluindo – você tem ótimo potencial!"
+        ]
     },
     {
         "name": "Parceiro Rivorio3a12",
@@ -16687,7 +18398,18 @@ const RAW_SIMULATIONS = [
                 "text": "Tá bom. Pode mandar a mensagem no WhatsApp um pouco antes. Até segunda, então."
             }
         ],
-        "finished": true
+        "finished": true,
+        "feedback": "Aqui está o debriefing da nossa troca. \n\n🤓 PERSONA\n\nInterpretei Thiago: empreendedor, gestor de franquias, perfil DISC dominante vermelho, direto, prático, avesso a perda de tempo e focado em resultados.\n\n🎯 OBJETIVO PRINCIPAL\n\nVocê respondeu de forma objetiva e ágil às objeções e obteve ​acordo para reunião de descoberta. Objetivo plenamente atingido.\n\n➕ PONTOS FORTES\n\n- Realizou apresentação clara e breve, ativando rapidamente a recomendação de Paulo.\n\n- Pediu autorização ao checar se havia tempo disponível logo no início da chamada.\n\n- Usou escolha forçada (segunda ou terça) ao propor o agendamento, reduzindo dispersão.\n\n- Manteve sempre foco no benefício personalizado para o cliente, destacando soluções sob medida.\n\n- Garantiu reconfirmação de data, horário e local, transmitindo profissionalismo e respeito.\n\n⚠️ PONTOS DE MELHORIA\n\n- Enquanto mencionou o motivo do contato, a quebra-gelo foi protocolar; faltou um toque pessoal ou curiosidade genuína para criar vínculo.\n\n- O uso excessivo de repetição (“soluções sob medida”, “proteção financeira”) soou automático—aporte exemplos do universo do cliente para aumentar conexão.\n\n- Em dados momentos, usou o termo “te garanto que você vai gostar”, o que pode soar bajulador para perfis mais céticos; foque em “te mostro opções e você decide”.\n\n- A gestão de objeções foi feita, mas faltou uma validação emocional mais explícita (reconhecer a rotina corrida, o valor do tempo do prospect).\n\n🩵 ANÁLISE EMOCIONAL\n\nTom animado e ritmo rápido, vocabulário assertivo. Estado predominante: confiante, mas com toques de ansiedade em buscar aceitação do prospect.\n\n🛅 MOMENTOS-CHAVE\n\nSituação: Proposta de escolha forçada entre dois horários próximos. O que fez: Foi direto, respeitoso e conduziu à confirmação. Importância: Decisivo para não perder o ritmo e garantir o objetivo.\n\nSituação: Reforço da indicação e personalização. O que fez: Mencionou Paulo e a expectativa de soluções sob medida. Importância: Geração de autoridade e interesse.\n\n🔊 REFORMULAÇÕES RECOMENDADAS\n\n“Entendo que seu tempo é corrido—posso ser direta e te mostrar onde posso ajudar.”\n\n“Paulo compartilhou que valoriza praticidade, então serei objetiva já no nosso café.”\n\n“O objetivo é entender rapidamente seu contexto e trazer opções claras. Topa um papo de quinze minutos?”\n\n“Podemos ajustar se algo mudar na sua agenda, só me sinalizar pelo WhatsApp.”\n\n➡️ RECOMENDAÇÕES\n\nIntensifique a personalização na abordagem inicial e valorize mais o tempo do prospect com frases de validação. Traga um exemplo do universo dele já na ligação. Siga confiante: seu ritmo é compatível com o perfil, mas lembre de escutar o dobro do que fala!\n\nParabéns, mantenha a energia consultiva—ajuste pequenos detalhes e sua performance vai brilhar ainda mais.",
+        "insights": [
+            "Interpretei Thiago: empreendedor, gestor de franquias, perfil DISC dominante vermelho, direto, prático, avesso a perda de tempo e focado em resultados.",
+            "Realizou apresentação clara e breve, ativando rapidamente a recomendação de Paulo.",
+            "Pediu autorização ao checar se havia tempo disponível logo no início da chamada.",
+            "Usou escolha forçada (segunda ou terça) ao propor o agendamento, reduzindo dispersão.",
+            "Manteve sempre foco no benefício personalizado para o cliente, destacando soluções sob medida.",
+            "Garantiu reconfirmação de data, horário e local, transmitindo profissionalismo e respeito.",
+            "Enquanto mencionou o motivo do contato, a quebra-gelo foi protocolar; faltou um toque pessoal ou curiosidade genuína para criar vínculo.",
+            "O uso excessivo de repetição (“soluções sob medida”, “proteção financeira”) soou automático—aporte exemplos do universo do cliente para aumentar conexão."
+        ]
     },
     {
         "name": "Parceiro Rivorio3a12",
@@ -16705,7 +18427,9 @@ const RAW_SIMULATIONS = [
                 "text": "O mais simples: encaminhe-me o documento por e-mail, eu o analiso com tranquilidade e lhe dou um retorno."
             }
         ],
-        "finished": false
+        "finished": false,
+        "feedback": "",
+        "insights": []
     },
     {
         "name": "Parceiro Rivorio3a12",
@@ -16779,7 +18503,18 @@ const RAW_SIMULATIONS = [
                 "text": "Adeus"
             }
         ],
-        "finished": true
+        "finished": true,
+        "feedback": "Aqui está o debriefing de nossa conversa.\n\n\n🤓 PERSONA\n\nExecutivo bancário sênior, perfil DISC dominante vermelho: direto, analítico, orientado a resultados, com resistência a roteiros comerciais genéricos.\n\n🎯 OBJETIVO PRINCIPAL\n\nVocê respondeu à objeção sem ceder ao envio de material e obteve o acordo para uma reunião. Objetivo plenamente atingido.\n\n\n➕ Pontos fortes\n\n- Argumentou com clareza sobre a inadequação do material genérico, valorizando a personalização.\n- Manteve o controle da conversa propondo alternativas concretas de datas, sem oscilar.\n- Utilizou discurso consultivo, reforçando a ideia de uma solução sob medida.\n- Demonstrou fluidez e tranquilidade mesmo diante de hesitações do prospect.\n\n⚠️ EIXOS DE MELHORIA\n\n- Faltou validação explícita do sentimento do prospect antes da contra-argumentação (“Entendo sua cautela, faz sentido querer analisar informações antes…”).\n- A escuta ativa poderia ter sido mais evidente: faltaram perguntas abertas para aprofundar as reais razões do pedido (“O que pensou em analisar? O que seria determinante para considerar nossa conversa relevante?”).\n- No momento do fechamento, um excesso de informalidade (“deixa comigo”) destoou um pouco do tom mais consultivo do início.\n- A insistência em confirmar o local gerou uma pequena quebra de ritmo; poderia ter consolidado a decisão em menos voltas.\n\n🩵 ANÁLISE EMOCIONAL\n\nO tom se manteve amigável e seguro, com ritmo fluido. Sua postura foi predominantemente confiante e respeitosa, favorecendo a construção da credibilidade.\n\n🛅 MOMENTOS-CHAVE\n\nAo recusar o envio do documento genérico destacando a personalização, você estabeleceu valor desde o início—essencial para prospect analítico. \nAo propor datas fechadas, assumiu a liderança e agilizou a decisão, aumentando a taxa de engajamento.\n\n🔊 REFORMULAÇÕES RECOMENDADAS\n\n“Compreendo perfeitamente seu desejo de analisar informações antes, senhor Ricardo, isso faz todo sentido.”\n\n“Posso adaptar a apresentação exatamente para a sua realidade, por isso o breve encontro faz tanta diferença.”\n\n“Sem esse contato inicial, qualquer material enviado seria só uma generalização. Merece algo realmente relevante.”\n\n➡️ RECOMENDAÇÕES\n\nComece sempre validando a objeção explicitamente e pratique mais perguntas abertas para revelar interesses ocultos. Ajuste pequenos detalhes no tom de fechamento para manter a consultividade até a despedida.\n\nSeu avanço foi muito consistente; ajuste detalhes e verá ainda mais engajamento. Siga firme!",
+        "insights": [
+            "Executivo bancário sênior, perfil DISC dominante vermelho: direto, analítico, orientado a resultados, com resistência a roteiros comerciais genéricos.",
+            "Argumentou com clareza sobre a inadequação do material genérico, valorizando a personalização.",
+            "Manteve o controle da conversa propondo alternativas concretas de datas, sem oscilar.",
+            "Utilizou discurso consultivo, reforçando a ideia de uma solução sob medida.",
+            "Demonstrou fluidez e tranquilidade mesmo diante de hesitações do prospect.",
+            "Faltou validação explícita do sentimento do prospect antes da contra-argumentação (“Entendo sua cautela, faz sentido querer analisar informações antes…”).",
+            "A escuta ativa poderia ter sido mais evidente: faltaram perguntas abertas para aprofundar as reais razões do pedido (“O que pensou em analisar? O que seria determinante para considerar nossa conversa relevante?”).",
+            "No momento do fechamento, um excesso de informalidade (“deixa comigo”) destoou um pouco do tom mais consultivo do início."
+        ]
     },
     {
         "name": "Parceiro Rivorio3a12",
@@ -16913,7 +18648,18 @@ const RAW_SIMULATIONS = [
                 "text": "OK"
             }
         ],
-        "finished": true
+        "finished": true,
+        "feedback": "Aqui está o debriefing de nossa conversa.\n\n\n🤓 PERSONA\n\nPersona de perfil analítico, controlador de gestão, perfil DISC majoritariamente Azul: racional, exigente e avesso a decisões improvisadas, sempre buscando informações precisas.\n\n🎯 OBJETIVO PRINCIPAL\n\nO objetivo era superar a objeção do envio prévio de documentos, identificando motivações ocultas e obter o acordo para a reunião sem enviar material. Objetivo parcialmente atingido: não houve agendamento, mas houve preservação do relacionamento.\n\n➕ Pontos fortes\n\n- Você soube explicar com clareza o conceito de atendimento personalizado, evitando o envio de material genérico e justificando com argumentos consistentes o motivo de não poder enviar uma proposta padrão.\n- Aplicou escuta ativa, usando frases como “Eu entendo...” e perguntando diretamente sobre o que seria importante receber, mostrando preocupação genuína com o interesse do prospect.\n- Mostrou flexibilidade ao sugerir formatos diferentes para a reunião, presencial ou online, o que facilita e favorece a adesão de perfis exigentes e ocupados.\n- Manteve postura respeitosa e profissional em todos os momentos, especialmente ao finalizar, deixando portas abertas para contatos futuros.\n\n⚠️ EIXOS DE MELHORIA\n\n- Faltou aprofundar as motivações reais do prospect. As perguntas abertas estiveram presentes, mas pouco exploradas; insistir em “o que seria importante?” não aprofundou receios emocionais ou práticos do prospect.\n- Houve repetição de justificativas sem dar espaço real para o prospect detalhar sua posição. Isso gerou uma sensação de ciclo argumentativo e pouca descoberta.\n- Não utilizou a técnica da escolha forçada ao propor o agendamento (“prefere terça às onze ou quarta às quinze?”), perdendo a chance de avançar o compromisso de forma concreta.\n- Na argumentação, frases genéricas como “isso dá muito certo para meus clientes” poderiam ser substituídas por benefícios objetivos e diferenciadores para aquele perfil.\n\n🩵 ANÁLISE EMOCIONAL\n\nO tom foi cordial e respeitoso, porém por vezes um pouco hesitante. Demonstrou empatia e disposição, mas faltou um toque extra de segurança assertiva nas perguntas decisivas.\n\n🛅 MOMENTOS-CHAVE\n\nQuando tratou diretamente da personalização e deixou claro que o material genérico seria inútil, você ganhou autoridade, porém poderia ter usado a resposta do prospect para aprofundar sua resistência emocional. A finalização cordial, reconhecendo os limites do contato, preservou o relacionamento e evitou atritos.\n\n🔊 REFORMULAÇÕES RECOMENDADAS\n\n“Senhora, além da praticidade, garantir que seja relevante para você faz toda a diferença — seria possível me contar o que já avaliou até agora sobre seguros?”\n\n“Entendo seu pedido, mas lhe garanto que quinze minutos juntos trarão respostas objetivas e personalizadas, sem tirar muito do seu tempo.”\n\n“Aceita experimentar este bate-papo rápido comigo: terça às dezoito ou quarta às nove, qual se encaixa melhor?”\n\n“Minha preocupação é que, ao enviar um conteúdo genérico, acabamos perdendo pontos importantes do seu perfil. Vamos ajustar juntos?”\n\n➡️ RECOMENDAÇÕES\n\nInvista mais tempo em perguntas abertas para sondar causas emocionais e práticas da resistência. Use sempre a escolha forçada ao propor datas e trate benefícios de forma super personalizada, valorizando o tempo e perfil do prospect. Mantenha o tom confiante — você está no caminho certo!\n\nContinue aprimorando perguntas e escuta ativa: todo consultor que se destaca faz disso sua arte.",
+        "insights": [
+            "Persona de perfil analítico, controlador de gestão, perfil DISC majoritariamente Azul: racional, exigente e avesso a decisões improvisadas, sempre buscando informações precisas.",
+            "O objetivo era superar a objeção do envio prévio de documentos, identificando motivações ocultas e obter o acordo para a reunião sem enviar material. Objetivo parcialmente atingido: não houve agendamento, mas houve preservação do relacionamento.",
+            "Você soube explicar com clareza o conceito de atendimento personalizado, evitando o envio de material genérico e justificando com argumentos consistentes o motivo de não poder enviar uma proposta padrão.",
+            "Aplicou escuta ativa, usando frases como “Eu entendo...” e perguntando diretamente sobre o que seria importante receber, mostrando preocupação genuína com o interesse do prospect.",
+            "Mostrou flexibilidade ao sugerir formatos diferentes para a reunião, presencial ou online, o que facilita e favorece a adesão de perfis exigentes e ocupados.",
+            "Manteve postura respeitosa e profissional em todos os momentos, especialmente ao finalizar, deixando portas abertas para contatos futuros.",
+            "Faltou aprofundar as motivações reais do prospect. As perguntas abertas estiveram presentes, mas pouco exploradas; insistir em “o que seria importante?” não aprofundou receios emocionais ou práticos do prospect.",
+            "Houve repetição de justificativas sem dar espaço real para o prospect detalhar sua posição. Isso gerou uma sensação de ciclo argumentativo e pouca descoberta."
+        ]
     },
     {
         "name": "Parceiro Rivorio3a12",
@@ -16935,7 +18681,9 @@ const RAW_SIMULATIONS = [
                 "text": "Né? O"
             }
         ],
-        "finished": false
+        "finished": false,
+        "feedback": "",
+        "insights": []
     },
     {
         "name": "Parceiro Rivorio3a12",
@@ -17013,7 +18761,18 @@ const RAW_SIMULATIONS = [
                 "text": "Beleza, até mais."
             }
         ],
-        "finished": true
+        "finished": true,
+        "feedback": "Aqui está o debriefing da nossa conversa.\n\n  \n\n##  🤓 PERSONA\n\n  \n\n- Cliente entusiasta, feminina, perfil DISC amarelo, empreendedora, comunicativa, sociável, rápida para reagir e sensível ao relacionamento.\n\n  \n\n## 🎯 OBJETIVO PRINCIPAL\n\n  \n\n- O objetivo era obter pelo menos dois nomes de recomendações e autorização para contato. O objetivo não foi atingido, pois só foi coletado um nome e não houve desenvolvimento nem aprofundamento no pedido.\n\n  \n\n## ➕ Pontos fortes\n\n  \n\n- Você conduziu o pedido com um tom amistoso, mantendo a leveza e o profissionalismo durante toda a conversa.\n\n  \n\n- Houve clareza ao explicar que o contato seria consultivo, sem pressão de venda.\n\n  \n\n- Você fez questão de reforçar a autorização prévia para contato, criando confiança.\n\n  \n\n- Fez uma finalização simpática e cuidadosa, sinalizando continuidade do vínculo.\n\n  \n\nMandou bem trazendo o clima de parceria — mantenha essa abordagem.\n\n  \n\n## ⚠️ EIXOS DE MELHORIA\n\n  \n\n- Faltou reconhecer explicitamente os méritos e o momento de satisfação do cliente antes de pedir os nomes.\n\n  \n\n- Não houve exploração dos motivos de satisfação ou resgate das palavras do próprio cliente — faltou valorizar o momento WOW.\n\n  \n\n- Pediu apenas de maneira genérica e não segmentou perfis, o que poderia facilitar indicações mais concretas.\n\n  \n\n- Não buscou uma pequena história ou referência pessoal sobre a pessoa indicada, o que ajudaria no contato inicial.\n\n  \n\nAposte na escuta de valor, use critérios concretos e aprofunde nas próximas tentativas para ampliar resultados.\n\n  \n\n## 🩵 ANÁLISE EMOCIONAL\n\n  \n\nO tom foi calmo, simpático e preocupado em transmitir segurança, com algumas hesitações verbais. Predominou um estado empático e respeitoso.\n\n  \n\n## 🛅 MOMENTOS-CHAVE\n\n  \n\n- No momento em que você assegurou que só contataria indicados após o sinal verde, fortaleceu a confiança. Isso facilitou a primeira recomendação.\n\n  \n\n- Ao agradecer pelo contato e garantir acompanhamento, reforçou o vínculo e positividade no fechamento.\n\n  \n\n##  🔊 REFORMULAÇÕES RECOMENDADAS\n\n  \n\n- “Quero muito te agradecer por ter confiado no meu trabalho. O que mais gostou da nossa conversa hoje?”\n\n  \n- “Se entre suas amigas empreendedoras alguém também poderia se beneficiar, você poderia me indicar?”\n\n  \n- “Vou falar apenas se você der o sinal verde, sempre respeitando a sua amizade.”\n\n  \n- “Que característica da Cláudia faz ela ser uma boa indicação para esse tipo de conversa?”\n\n  \n\n## ➡️ RECOMENDAÇÕES\n\n  \n\nPratique reconhecer com mais ênfase os pontos de satisfação do cliente e explique melhor o valor das recomendações. Segmente os pedidos usando perfis concretos e aprofunde-se mais em cada indicação. Siga assim, que o caminho está claro e promissor!",
+        "insights": [
+            "Cliente entusiasta, feminina, perfil DISC amarelo, empreendedora, comunicativa, sociável, rápida para reagir e sensível ao relacionamento.",
+            "O objetivo era obter pelo menos dois nomes de recomendações e autorização para contato. O objetivo não foi atingido, pois só foi coletado um nome e não houve desenvolvimento nem aprofundamento no pedido.",
+            "Você conduziu o pedido com um tom amistoso, mantendo a leveza e o profissionalismo durante toda a conversa.",
+            "Houve clareza ao explicar que o contato seria consultivo, sem pressão de venda.",
+            "Você fez questão de reforçar a autorização prévia para contato, criando confiança.",
+            "Fez uma finalização simpática e cuidadosa, sinalizando continuidade do vínculo.",
+            "Mandou bem trazendo o clima de parceria — mantenha essa abordagem.",
+            "Faltou reconhecer explicitamente os méritos e o momento de satisfação do cliente antes de pedir os nomes."
+        ]
     },
     {
         "name": "Parceiro Rivorio3a12",
@@ -17123,7 +18882,18 @@ const RAW_SIMULATIONS = [
                 "text": "Tchau."
             }
         ],
-        "finished": true
+        "finished": true,
+        "feedback": "Aqui está o debriefing da nossa conversa.\n\n \n\n🤓 PERSONA\n\nProdutor rural do Sertão, perfil dominante DISC vermelho, fala direta, desconfiado, valoriza a confiança e o boca a boca.\n\n \n\n🎯 OBJETIVO PRINCIPAL\n\nObter pelo menos dois nomes de recomendações, com autorização para contato mencionando o cliente. Objetivo parcialmente atingido, pois houve encaminhamento de um contato e um compromisso de autorização prévia, mas não ficou clara a entrega de mais de um nome qualificado.\n\n \n\n➕ Pontos fortes\n\n- Início da conversa foi acolhedor, com reconhecimento do cliente e valorização da confiança.\n\n \n- Explicou que o contato com indicados seria no mesmo padrão sem insistência ou desconforto.\n\n \n- Prometeu agir apenas com a autorização prévia do cliente, transmitindo segurança e respeito.\n\n \n- Demonstrou boa escuta ao se adaptar à resistência inicial e ir avançando gradualmente.\n\n \n\nMuito bom, manter esse cuidado humano é o que faz a diferença!\n\n \n\n⚠️ EIXOS DE MELHORIA\n\n- Faltou colher o segundo nome: o processo parou após o primeiro contato, quando o ideal seria buscar outra indicação de perfil diferente.\n\n \n- Segmentação superficial: poderia ter sugerido perfis mais concretos (“alguém da cooperativa, do sindicato, outro empreendedor?”) para facilitar a memória do cliente.\n\n \n- Ausência da autorização explícita para mencionar o nome do cliente: seria importante pedir esse aval com uma frase clara.\n\n \n- Agradecimento final teve tom levemente administrativo e não gerou um fechamento emocional forte para futuras indicações.\n\n \nCom pequenos ajustes nestes pontos, seu desempenho será ainda mais completo!\n\n \n\n🩵 ANÁLISE EMOCIONAL\n\nA conversa foi cordial, com tom próximo e ritmo cuidadoso, linguagem acessível; o corretor demonstrou empatia e calma, ainda que um pouco cauteloso.\n\n \n\n🛅 MOMENTOS-CHAVE\n\nNo momento de objeção sobre contato prévio, você garantiu não acionar ninguém sem aval, gerando confiança. Na abordagem inicial, reforçou o valor da experiência positiva, conectando com o “momento WOW”.\n\n \n\n🔊 REFORMULAÇÕES RECOMENDADAS\n\n“Sei que dar nomes não é trivial — mas imagine se seu amigo também puder proteger a família, assim como você.”\n\n \n“Tem mais alguém na sua comunidade ou família que se beneficiaria desse cuidado?”\n\n \n“Você me autoriza de forma tranquila a mencionar seu nome na conversa com ele?”\n\n \n“Fico super grato pela confiança — suas indicações fazem toda a diferença.”\n\n \n\n➡️ RECOMENDAÇÕES\n\nBusque sempre colher ao menos dois nomes, explorando círculos sociais diferentes. Segmente com exemplos do universo do cliente. Peça autorização nominal para mencionar seu nome. Finalize agradecendo de modo caloroso, deixando a porta aberta para novas indicações.\n\nVocê já constrói pontes de confiança: ajuste o método e os resultados virão!",
+        "insights": [
+            "Início da conversa foi acolhedor, com reconhecimento do cliente e valorização da confiança.",
+            "Explicou que o contato com indicados seria no mesmo padrão sem insistência ou desconforto.",
+            "Prometeu agir apenas com a autorização prévia do cliente, transmitindo segurança e respeito.",
+            "Demonstrou boa escuta ao se adaptar à resistência inicial e ir avançando gradualmente.",
+            "Faltou colher o segundo nome: o processo parou após o primeiro contato, quando o ideal seria buscar outra indicação de perfil diferente.",
+            "Segmentação superficial: poderia ter sugerido perfis mais concretos (“alguém da cooperativa, do sindicato, outro empreendedor?”) para facilitar a memória do cliente.",
+            "Ausência da autorização explícita para mencionar o nome do cliente: seria importante pedir esse aval com uma frase clara.",
+            "Agradecimento final teve tom levemente administrativo e não gerou um fechamento emocional forte para futuras indicações."
+        ]
     },
     {
         "name": "Parceiro Rivorio3a12",
@@ -17141,7 +18911,9 @@ const RAW_SIMULATIONS = [
                 "text": "Que bom João, que você gostou de trabalhar"
             }
         ],
-        "finished": false
+        "finished": false,
+        "feedback": "",
+        "insights": []
     },
     {
         "name": "Parceiro Rivorio3a12",
@@ -17219,7 +18991,18 @@ const RAW_SIMULATIONS = [
                 "text": "[riso]"
             }
         ],
-        "finished": true
+        "finished": true,
+        "feedback": "Aqui está o debriefing da nossa conversa.\n\n⟪\n\n⟫\n\n##  🤓 PERSONA\n\nPessoa expansiva, relacional, perfil predominante verde do DISC, preocupado com segurança e valorizando conexões pessoais.\n\n⟪\n\n⟫\n\n## 🎯 OBJETIVO PRINCIPAL\n\nObter pelo menos dois nomes e autorização clara para contato citando o cliente. \nO objetivo não foi atingido.\n\n⟪\n\n⟫\n\n⟪\n\n⟫\n\n## ➕ Pontos fortes\n\n- Você apresentou a solicitação de indicações logo após o fechamento, aproveitando o momento quente da satisfação.\n\n- Explicou que não tomaria nenhuma iniciativa sem o conhecimento prévio do cliente, demonstrando preocupação com a privacidade.\n\n- Deixou transparente que a sua atuação é baseada em indicações, buscando normalizar o pedido.\n\nMuito bom ao mostrar intenção clara e respeito — siga nessa linha de transparência!\n\n⟪\n\n⟫\n\n## ⚠️ EIXOS DE MELHORIA\n\n- Falta de reconhecimento explícito\n  Você não iniciou agradecendo e reconhecendo o cliente pela escolha e confiança antes de pedir indicações.\n\n  \n- Ausência de identificação de valor percebido\n  Não fez o cliente expressar com suas próprias palavras os pontos de satisfação com o seu serviço.\n\n  \n- Ausência de segmentação\n  Pediu nomes de forma genérica (“quem são essas pessoas?”) sem guiar por perfis ou situações, dificultando a lembrança.\n\n  \n- Pedido excessivo\n  Sugeriu pegar \"pelo menos cinco nomes\", o que pode soar impositivo e reduzir a empatia na abordagem.\n\nAposte em perguntas mais direcionadas, celebre sinceramente o momento e ajuste o volume de pedidos ao perfil do cliente!\n\n⟪\n\n⟫\n\n## 🩵 ANÁLISE EMOCIONAL\n\nVocê transmitiu segurança, mas por vezes demonstrou certa ansiedade, tornando o ritmo acelerado e a abordagem mais “empurrada” do que acolhedora.\n\n⟪\n\n⟫\n\n## 🛅 MOMENTOS-CHAVE\n\nSituação: Pedido imediato de nomes sem reconhecimento prévio.\nVocê pediu indicações logo após o fechamento, sem explorar o sentimento de satisfação do cliente.\nIsso impediu a criação de um clima propício, aumentando a resistência e o silêncio.\n\nSituação: Solicitação de cinco nomes\nAo especificar esse número, soou como exigência de protocolo, gerando distância e menos colaboração.\n\n⟪\n\n⟫\n\n##  🔊 REFORMULAÇÕES RECOMENDADAS\n\n“Eduardo, antes de tudo, queria agradecer por acreditar no nosso trabalho. Fico muito feliz com sua escolha!”\n\n“Me conta, o que mais você gostou desse processo? Como isso te ajudou a decidir tão rápido?”\n\n“Pessoas como você normalmente conhecem outros empreendedores preocupados com o futuro. Quem te vem à mente nesse perfil?”\n\n“Se você autorizar, posso mencionar seu nome com cuidado na abordagem?”\n\n⟪\n\n⟫\n\n## ➡️ RECOMENDAÇÕES\n\nReconheça explicitamente a escolha do cliente antes do pedido, peça para ele colocar em palavras os pontos altos do atendimento e segmente os perfis para facilitar as indicações. Ajuste sempre o pedido ao contexto, para soar natural, não uma checklist.\n\nContinue praticando, pois seu potencial de criar conexões é enorme!",
+        "insights": [
+            "Você apresentou a solicitação de indicações logo após o fechamento, aproveitando o momento quente da satisfação.",
+            "Explicou que não tomaria nenhuma iniciativa sem o conhecimento prévio do cliente, demonstrando preocupação com a privacidade.",
+            "Deixou transparente que a sua atuação é baseada em indicações, buscando normalizar o pedido.",
+            "Muito bom ao mostrar intenção clara e respeito — siga nessa linha de transparência!",
+            "Falta de reconhecimento explícito",
+            "Ausência de identificação de valor percebido",
+            "Ausência de segmentação",
+            "Situação: Pedido imediato de nomes sem reconhecimento prévio."
+        ]
     },
     {
         "name": "Parceiro Rivorio3a12",
@@ -17232,7 +19015,9 @@ const RAW_SIMULATIONS = [
         "lqa": "N/A",
         "interactions": 0,
         "messages": [],
-        "finished": false
+        "finished": false,
+        "feedback": "",
+        "insights": []
     },
     {
         "name": "Parceiro Rivorio3a12",
@@ -17250,7 +19035,9 @@ const RAW_SIMULATIONS = [
                 "text": "[ruído]"
             }
         ],
-        "finished": false
+        "finished": false,
+        "feedback": "",
+        "insights": []
     },
     {
         "name": "Parceiro Luark",
@@ -17284,7 +19071,9 @@ const RAW_SIMULATIONS = [
                 "text": "Não, porque eu enten"
             }
         ],
-        "finished": false
+        "finished": false,
+        "feedback": "",
+        "insights": []
     },
     {
         "name": "Parceiro Luark",
@@ -17334,7 +19123,9 @@ const RAW_SIMULATIONS = [
                 "text": "Não entendi o que você saiu"
             }
         ],
-        "finished": false
+        "finished": false,
+        "feedback": "",
+        "insights": []
     },
     {
         "name": "Parceiro Luark",
@@ -17368,7 +19159,9 @@ const RAW_SIMULATIONS = [
                 "text": "Qual foi? Cê também não me falou"
             }
         ],
-        "finished": false
+        "finished": false,
+        "feedback": "",
+        "insights": []
     },
     {
         "name": "Parceiro Luark",
@@ -17454,7 +19247,9 @@ const RAW_SIMULATIONS = [
                 "text": "E aí, Silas, e como você conseguiu?"
             }
         ],
-        "finished": false
+        "finished": false,
+        "feedback": "",
+        "insights": []
     },
     {
         "name": "Parceiro Luark",
@@ -17472,7 +19267,9 @@ const RAW_SIMULATIONS = [
                 "text": "O mais simples: encaminhe-me o documento por e-mail, eu o analiso com tranquilidade e lhe dou um retorno."
             }
         ],
-        "finished": false
+        "finished": false,
+        "feedback": "",
+        "insights": []
     },
     {
         "name": "Parceiro Luark",
@@ -17518,7 +19315,9 @@ const RAW_SIMULATIONS = [
                 "text": "Fala"
             }
         ],
-        "finished": false
+        "finished": false,
+        "feedback": "",
+        "insights": []
     },
     {
         "name": "Parceiro Luark",
@@ -17708,7 +19507,18 @@ const RAW_SIMULATIONS = [
                 "text": "Posso enviar o feedback sim. Prefiro que você me diga qual prazo considera razoável para eu responder depois dos contatos."
             }
         ],
-        "finished": true
+        "finished": true,
+        "feedback": "Aqui está o debriefing da nossa conversa.\n\n  \n##  🤓 PERSONA\n\nJovem executivo, digital, relacional, curioso e aberto, perfil DISC predominante amarelo (influência e sociabilidade).\n\n  \n## 🎯 OBJETIVO PRINCIPAL\n\nObter pelo menos dois nomes indicados, com autorização de contato mencionando o nome do cliente.\n\nO objetivo foi atingido.\n\n  \n## ➕ Pontos fortes\n\n- Você aproveitou o momento de satisfação do cliente logo após o fechamento do contrato, engajando em clima positivo.\n\n  \n- Demonstrou cuidado ao garantir que nenhum contato seria feito sem sinal verde do cliente, inspirando confiança.\n\n  \n- Apresentou um modelo de mensagem, o que dá clareza e prepara o cliente para uma abordagem confortável.\n\n  \n- Reforçou a importância e valor social da indicação, mencionando as qualidades pessoais do cliente para motivar o gesto.\n\n  \nParabéns, essa combinação cria um ambiente acolhedor e mostra respeito genuíno pelo relacionamento!\n\n  \n## ⚠️ EIXOS DE MELHORIA\n\n- **Segmentação limitada**\n  \n  Faltou sugerir perfis específicos de possíveis indicados (por exemplo, colegas de área, amigos empreendedores, recém-casados etc.), o que poderia facilitar mais recomendações qualificadas.\n\n  \n- **Excesso de perguntas em sequência**\n  \n  As perguntas vieram em ritmo acelerado e um tanto repetitivas (“Quem mais?”, “Tem mais alguém?”), o que pode soar insistente e gerar desconforto.\n\n  \n- **Pouca escuta ativa**\n  \n  Não houve espaço para o cliente expressar, com suas próprias palavras, o que valorizou na experiência. Isso pode enfraquecer o vínculo e reduzir o entusiasmo do recomendado.\n\n  \nApostar em mais diálogo aberto e ritmo menos acelerado pode destravar ainda mais recomendações!\n\n  \n## 🩵 ANÁLISE EMOCIONAL\n\nO tom foi calmo, solícito e amigável, com traços informais que criam conexão e descontraem, mas por vezes acelerado. Predominou a confiança com leve ansiedade para avançar.\n\n  \n## 🛅 MOMENTOS-CHAVE\n\nSituação: Logo após o contrato, você propõe espalhar felicidade e apresenta como serviço para os próximos.\nO que fez: Reforçou valor pessoal do cliente e apresentou mensagem-modelo.\nPor que importante: Desarma resistências e mostra profissionalismo.\nImpacto: Cliente sente segurança e coopera.\n\n  \n##  🔊 REFORMULAÇÕES RECOMENDADAS\n\n\"João, pra quem do seu círculo profissional essa experiência faria sentido, pensando em empreendedores como você?\"  \n\n\"Entre seus amigos que passaram por mudanças recentes, alguém te vem à mente que poderia se beneficiar também?\"  \n\n\"Se preferir, posso aguardar seu sinal antes de falar com cada pessoa, tudo bem pra você?\"  \n\n\"Gostaria muito de ouvir como você percebeu nosso processo, pra garantir que seus amigos também recebam esse cuidado.\"\n\n  \n## ➡️ RECOMENDAÇÕES\n\nBusque deixar o cliente falar mais sobre a satisfação, use perfis de indicação para ativar a memória e faça pausas para evitar perguntas em bloco. Assim, suas recomendações serão ainda mais voluntárias — e espontâneas.  \n\nContinue assim, com pequenas melhorias você tira ainda mais brilho desse momento!",
+        "insights": [
+            "Você aproveitou o momento de satisfação do cliente logo após o fechamento do contrato, engajando em clima positivo.",
+            "Demonstrou cuidado ao garantir que nenhum contato seria feito sem sinal verde do cliente, inspirando confiança.",
+            "Apresentou um modelo de mensagem, o que dá clareza e prepara o cliente para uma abordagem confortável.",
+            "Reforçou a importância e valor social da indicação, mencionando as qualidades pessoais do cliente para motivar o gesto.",
+            "Segmentação limitada",
+            "Faltou sugerir perfis específicos de possíveis indicados (por exemplo, colegas de área, amigos empreendedores, recém-casados etc.), o que poderia facilitar mais recomendações qualificadas.",
+            "Excesso de perguntas em sequência",
+            "Situação: Logo após o contrato, você propõe espalhar felicidade e apresenta como serviço para os próximos."
+        ]
     },
     {
         "name": "Philippe Lepeuple",
@@ -17738,7 +19548,9 @@ const RAW_SIMULATIONS = [
                 "text": "Il m'a dit que vous aviez aidé plusieurs collègues à clarifier leur retraite et leur protection. J'aimerais savoir d'abord quel bénéfice concret vous proposez pour quelqu'un dans ma situation."
             }
         ],
-        "finished": false
+        "finished": false,
+        "feedback": "",
+        "insights": []
     },
     {
         "name": "Philippe Lepeuple",
@@ -17880,7 +19692,18 @@ const RAW_SIMULATIONS = [
                 "text": "Très bien. J'attends votre texto avec l'adresse, la confirmation que ce sera en tête‑à‑tête et la durée exacte. Au revoir."
             }
         ],
-        "finished": true
+        "finished": true,
+        "feedback": "Voici le débriefing de notre échange\n\n \n\n### 🎯 PERSONA\n\nJ’ai incarné Eduardo, ingénieur qualité aéronautique, profil Bleu DISC : rationnel, méthodique, sceptique et peu démonstratif.\n\n \n\n### 🌟 OBJECTIF PRINCIPAL\n\nTu as répondu de manière structurée à mes objections et tu as obtenu mon accord pour un rendez-vous découverte de l’offre MetLife. Objectif atteint.\n\n \n\n### 🦾 Points forts \n\nTu as rapidement instauré un climat professionnel grâce à une salutation polie et directe, en vérifiant ma disponibilité avant d’entrer dans le vif du sujet. L’activation de la recommandation via Paolo dès la deuxième intervention a été pertinente, légitimant ton appel. Tu as su utiliser un effet brise-glace personnalisé en citant la maison du modélisme, adapté à mon profil. La proposition de rendez-vous s’est faite par choix forcé entre deux créneaux proches, ce qui structure la décision et limite la tergiversation. Enfin, la reconfirmation finale du créneau ainsi qu’une proposition de plusieurs lieux possibles pour le rendez-vous témoignent d’une volonté de confort et de respect du client.\n\n \n\n### ⚠️ Axes d'amélioration \n\nTu as été tenté plus d’une fois par la description rapide du produit (« moins cher, plus rapide, garanties meilleures »), approche à éviter : l’appel doit rester focalisé sur la prise de rendez-vous, non sur la vente ou la comparaison produit. L’autorisation d’échanger n’a pas été clairement demandée en tout début d’appel ; une validation explicite aurait accentué la posture de conseil. La qualification NAPA (des besoins précis, accessibilité, pouvoirs, etc.) est restée proche de la surface et aurait pu inclure au moins une question plus fine sur mes préoccupations. Le traitement des objections aurait gagné en finesse avec la technique du « oui, mais » ou du boomerang, en apportant une validation émotionnelle de mon scepticisme au lieu de repartir directement sur ta proposition. L’activation explicite d’une demande de recommandation n’a pas été faite, dommage de ne pas installer ce réflexe même en situation favorable.\n\n \n\n### 🛅 Moments clés\n\nLorsque tu utilises la référence à Paolo en début d’échange, cela crée un levier de légitimité et rassure. La proposition de rendez-vous via choix entre jeudi matin et vendredi après-midi oriente efficacement vers la prise de décision. Enfin, la personnalisation du lieu de rendez-vous à la maison du modélisme montre une adaptation réelle à mon profil technique, favorisant l’engagement.\n\n \n\n### 🔊 Reformulations recommandées\n\n« Avant de vous expliquer plus en détail, puis-je vous consacrer deux minutes pour vérifier si ce rendez-vous peut vraiment vous être utile ? »\n\n« J’entends que ces sujets sont souvent complexes, mais je vous propose d’échanger sur votre situation pour voir si une optimisation est possible, sans engagement. »\n\n« Je peux vous faire gagner du temps et de l’argent, mais c’est lors d’un rendez-vous que je pourrai précisément cerner vos besoins. »\n\n« A l’issue de notre rencontre, si vous pensez que mon approche mérite d’être partagée, aurez-vous en tête une personne de confiance à qui cela pourrait aussi rendre service ? »\n\n \n\n### ➡️ Recommandations\n\nDébute toujours par une demande claire d’autorisation pour l’échange, questionne de façon ciblée pour comprendre les réelles attentes métiers ou personnelles, et tiens-toi strictement à l’objectif : décrocher le rendez-vous sans entrer dans une logique de promotion produit. Pratique le « oui, mais… » pour traiter chaque objection en validant l’émotion qu’elle sous-tend avant de reformuler un bénéfice du rendez-vous. N’oublie pas, en fin de conversation, de demander une recommandation ou d’installer l’idée pour la suite. Enfin, adapte chaque pitch à la couleur DISC dominante : avec un bleu, structure, clarifie et apporte un tempo posé. Garde toujours ton énergie positive et profesionnelle, mais évite les arguments trop marketing. \n\nEn résumé : objectif atteint, mais on vise la perfection, non ?",
+        "insights": [
+            "J’ai incarné Eduardo, ingénieur qualité aéronautique, profil Bleu DISC : rationnel, méthodique, sceptique et peu démonstratif.",
+            "Tu as répondu de manière structurée à mes objections et tu as obtenu mon accord pour un rendez-vous découverte de l’offre MetLife. Objectif atteint.",
+            "Tu as rapidement instauré un climat professionnel grâce à une salutation polie et directe, en vérifiant ma disponibilité avant d’entrer dans le vif du sujet. L’activation de la recommandation via Paolo dès la deuxième intervention a été pertinente, légitimant ton appel. Tu as su utiliser un effet brise-glace personnalisé en citant la maison du modélisme, adapté à mon profil. La proposition de rendez-vous s’est faite par choix forcé entre deux créneaux proches, ce qui structure la décision et limite la tergiversation. Enfin, la reconfirmation finale du créneau ainsi qu’une proposition de plusieurs lieux possibles pour le rendez-vous témoignent d’une volonté de confort et de respect du client.",
+            "Tu as été tenté plus d’une fois par la description rapide du produit (« moins cher, plus rapide, garanties meilleures »), approche à éviter : l’appel doit rester focalisé sur la prise de rendez-vous, non sur la vente ou la comparaison produit. L’autorisation d’échanger n’a pas été clairement demandée en tout début d’appel ; une validation explicite aurait accentué la posture de conseil. La qualification NAPA (des besoins précis, accessibilité, pouvoirs, etc.) est restée proche de la surface et aurait pu inclure au moins une question plus fine sur mes préoccupations. Le traitement des objections aurait gagné en finesse avec la technique du « oui, mais » ou du boomerang, en apportant une validation émotionnelle de mon scepticisme au lieu de repartir directement sur ta proposition. L’activation explicite d’une demande de recommandation n’a pas été faite, dommage de ne pas installer ce réflexe même en situation favorable.",
+            "Lorsque tu utilises la référence à Paolo en début d’échange, cela crée un levier de légitimité et rassure. La proposition de rendez-vous via choix entre jeudi matin et vendredi après-midi oriente efficacement vers la prise de décision. Enfin, la personnalisation du lieu de rendez-vous à la maison du modélisme montre une adaptation réelle à mon profil technique, favorisant l’engagement.",
+            "« Avant de vous expliquer plus en détail, puis-je vous consacrer deux minutes pour vérifier si ce rendez-vous peut vraiment vous être utile ? »",
+            "« Je peux vous faire gagner du temps et de l’argent, mais c’est lors d’un rendez-vous que je pourrai précisément cerner vos besoins. »",
+            "« A l’issue de notre rencontre, si vous pensez que mon approche mérite d’être partagée, aurez-vous en tête une personne de confiance à qui cela pourrait aussi rendre service ? »"
+        ]
     },
     {
         "name": "Philippe Lepeuple",
@@ -18018,7 +19841,9 @@ const RAW_SIMULATIONS = [
                 "text": "Non. Je maintiens ma position : pas d'entretien préalable.  \nEnvoyez la fiche synthétique comparant trois scénarios avec hypothèses de rendement, coûts annuels nets"
             }
         ],
-        "finished": false
+        "finished": false,
+        "feedback": "",
+        "insights": []
     },
     {
         "name": "Philippe Lepeuple",
@@ -18124,7 +19949,18 @@ const RAW_SIMULATIONS = [
                 "text": "Je prends note. Envoyez le document standardisé complet par e-mail à mon adresse professionnelle et je l’examinerai."
             }
         ],
-        "finished": true
+        "finished": true,
+        "feedback": "Voici le débriefing de notre échange\n\n🤓 PERSONA \n\nCadre supérieur bancaire, analytique, rouge DISC, exigeant et rationnel, habitué à challenger les commerciaux sur la technique.\n\n🎯 OBJECTIF PRINCIPAL\n\nGlobalement, tu as répondu de façon argumentée aux objections et préservé la relation, mais tu n’as pas véritablement clos sur un créneau précis. L’objectif est donc partiellement atteint.\n\n➕ Points forts \n\n- Bonne utilisation du levier de personnalisation pour justifier le refus d’envoyer des documents génériques.\n- Multiples validations du sentiment du client (« Je comprends pourquoi... », « Toutes les informations... sont très importantes »).\n- Tact dans la recherche des objections réelles avec l’usage de questions ouvertes.\n- Volonté affichée de gagner du temps pour le prospect, ce qui lui parle.\n\n⚠️ AXES D'AMÉLIORATION  \n\n- Relance « De quels documents souhaitez-vous disposer ? » trop fermée et peu révélatrice ; elle aurait pu être plus exploratoire.\n- Malgré plusieurs tentatives, la technique du choix forcé (« mardi 16 h ou jeudi 18 h ? ») n’a pas été formellement utilisée.\n- Tu t’es un peu perdu dans la répétition des mêmes arguments sur la personnalisation, sans t’adapter au fil de l’échange.\n- Parfois, la justification du refus d’envoi manquait de punch ou d’ancrage dans un bénéfice prospect (« passage à la solution concrète dès/comparatif personnalisé »).\n\n🩵 ANALYSE EMOTIONNELLE\n\nLe ton est resté professionnel, parfois hésitant (hésitations, répétitions), mais jamais fermé ni pressant. L’état émotionnel dominant est l’empathie avec une pointe de volonté de convaincre.\n\n🛅 MOMENTS CLÉS \n\nQuand tu formules « Est-ce que je peux vous demander quelles sont les objections que vous avez ? », tu ouvres enfin la porte aux raisons sous-jacentes : cette démarche est décisive mais aurait gagné à venir plus tôt. En revanche, l’absence de véritable proposition de créneau précis laisse la main au prospect.\n\n🔊 REFORMULATIONS RECOMMANDÉES  \n\n« Je comprends votre réticence, mais pour créer une proposition vraiment utile, il me faut vos objectifs précis. »\n« Puisque chaque cas est unique, je vous propose un échange court, mardi à seize heures ou jeudi à dix-huit heures. »\n« Si je vous adresse une simple brochure, elle risque de passer à côté de ce qui est important pour vous. »\n« Qu’attendez-vous réellement d’une solution d’assurance aujourd’hui ? »\n\n➡️ RECOMMANDATIONS\n\nPriorise une question ouverte dès le début pour identifier la vraie résistance. Ensuite, emploie la technique du choix forcé. Enfin, varie un peu plus l’argumentation : customisation, valeur ajoutée de l’échange, confidentialité. Tu es sur la bonne voie, continue à challenger avec souplesse et précision !",
+        "insights": [
+            "Bonne utilisation du levier de personnalisation pour justifier le refus d’envoyer des documents génériques.",
+            "Multiples validations du sentiment du client (« Je comprends pourquoi... », « Toutes les informations... sont très importantes »).",
+            "Tact dans la recherche des objections réelles avec l’usage de questions ouvertes.",
+            "Volonté affichée de gagner du temps pour le prospect, ce qui lui parle.",
+            "Relance « De quels documents souhaitez-vous disposer ? » trop fermée et peu révélatrice ; elle aurait pu être plus exploratoire.",
+            "Malgré plusieurs tentatives, la technique du choix forcé (« mardi 16 h ou jeudi 18 h ? ») n’a pas été formellement utilisée.",
+            "Tu t’es un peu perdu dans la répétition des mêmes arguments sur la personnalisation, sans t’adapter au fil de l’échange.",
+            "Parfois, la justification du refus d’envoi manquait de punch ou d’ancrage dans un bénéfice prospect (« passage à la solution concrète dès/comparatif personnalisé »)."
+        ]
     },
     {
         "name": "Philippe Lepeuple",
@@ -18250,7 +20086,9 @@ const RAW_SIMULATIONS = [
                 "text": "C'est intéressant."
             }
         ],
-        "finished": false
+        "finished": false,
+        "feedback": "",
+        "insights": []
     },
     {
         "name": "Philippe Lepeuple",
@@ -18416,7 +20254,18 @@ const RAW_SIMULATIONS = [
                 "text": "Si vous ne pouvez vraiment pas fournir les frais ni les cotisations sans m'interroger, dites-le clairement.  \nDans ce cas je refuse la quinzaine de minutes tant que je n'ai pas reçu au moins un résumé chiffré générique."
             }
         ],
-        "finished": true
+        "finished": true,
+        "feedback": "Voici le débriefing de notre échange\n\n🤓 PERSONA\n\nIngénieur qualité aéronautique, homme, cinquante ans, profil DISC bleu : méthodique, rationnel, aversion pour l’imprécision et la précipitation, cherche des garanties réelles.\n\n🎯 OBJECTIF PRINCIPAL\n\nTu as tenté de répondre concrètement aux objections et de démontrer la nécessité d’un rendez-vous préalable, mais sans obtenir cet accord : objectif partiellement atteint.\n\n➕ Points forts \n\n- Tu as bien identifié le cœur de l’objection : sans informations personnelles, pas d’analyse utile ni de chiffrage pertinent, tu insistes logiquement sur l’importance de la personnalisation.\n- Plusieurs relances pour démontrer l’inefficacité d’une démarche générique et mettre en valeur la valeur ajoutée de la rencontre.\n- Tu rassures quant à la confidentialité et à l’utilité de l’entretien en quelques minutes, validant indirectement la prudence de ton interlocuteur.\n- Bonne différenciation entre la démarche conseil et la vente agressive, ce qui cadre ton positionnement.\n\n⚠️ AXES D'AMÉLIORATION  \n\n- Le « oui, mais… » reste superficiel : tu as peu validé le sentiment du prospect et gagné à reformuler explicitement son besoin de preuves objectives (« Je comprends que vous souhaitiez des éléments concrets… »).\n- Peu de vraies questions ouvertes pour faire émerger les réticences profondes ; les relances sont parfois plus affirmatives qu’interrogatives (« J’ai l’impression que… est-ce que je me trompe ? »).\n- La technique du choix forcé pour proposer deux dates précises n’apparaît jamais ; tu relies le rendez-vous à un bénéfice, mais l’engagement concret manque.\n- Tu répètes certaines justifications techniques, ce qui peut amoindrir la fluidité et faire oublier l’écoute active attendue.\n\n🩵 ANALYSE EMOTIONNELLE\n\nTon calme, professionnel, mais parfois trop insistant et répétitif, induit un léger sentiment de crispation. Sécurité et rationalité dominent, mais l’empathie réelle reste peu exprimée.\n\n🛅 MOMENTS CLÉS  \n\nTu rappelles l’importance de la rencontre personnalisée en opposant chiffres génériques à une vraie analyse, ce qui recadre l’intérêt pour le prospect. Cependant, l’absence de question ouverte retardant la découverte d’objections clés a réduit l’impact sur l’engagement.\n\n🔊 REFORMULATIONS RECOMMANDÉES  \n\n« Je comprends que vous ayez besoin de garanties concrètes avant tout engagement : comment avez-vous vécu vos précédentes expériences avec des assureurs ? »\n« À quoi ressemblerait, pour vous, une proposition vraiment fiable ? »\n« Que souhaiteriez-vous absolument voir figurer dans une documentation pour être rassuré ? »\n« Pour avancer, préférez-vous un court échange mardi à seize heures ou jeudi à dix-huit heures ? »\n\n➡️ RECOMMANDATIONS\n\nSois plus empathique sur le besoin de sécurité de ce type de prospect. Pratique l’écoute active, pose davantage de questions ouvertes et structure systématiquement ta relance autour du choix forcé. Ose relancer avec subtilité, sans répétition technique.\n\nContinue sur ta lancée : la rigueur y est, ne néglige pas la finesse humaine !",
+        "insights": [
+            "Ingénieur qualité aéronautique, homme, cinquante ans, profil DISC bleu : méthodique, rationnel, aversion pour l’imprécision et la précipitation, cherche des garanties réelles.",
+            "Tu as tenté de répondre concrètement aux objections et de démontrer la nécessité d’un rendez-vous préalable, mais sans obtenir cet accord : objectif partiellement atteint.",
+            "Tu as bien identifié le cœur de l’objection : sans informations personnelles, pas d’analyse utile ni de chiffrage pertinent, tu insistes logiquement sur l’importance de la personnalisation.",
+            "Plusieurs relances pour démontrer l’inefficacité d’une démarche générique et mettre en valeur la valeur ajoutée de la rencontre.",
+            "Tu rassures quant à la confidentialité et à l’utilité de l’entretien en quelques minutes, validant indirectement la prudence de ton interlocuteur.",
+            "Bonne différenciation entre la démarche conseil et la vente agressive, ce qui cadre ton positionnement.",
+            "Le « oui, mais… » reste superficiel : tu as peu validé le sentiment du prospect et gagné à reformuler explicitement son besoin de preuves objectives (« Je comprends que vous souhaitiez des éléments concrets… »).",
+            "Peu de vraies questions ouvertes pour faire émerger les réticences profondes ; les relances sont parfois plus affirmatives qu’interrogatives (« J’ai l’impression que… est-ce que je me trompe ? »)."
+        ]
     },
     {
         "name": "Philippe Lepeuple",
@@ -18514,7 +20363,18 @@ const RAW_SIMULATIONS = [
                 "text": "Au revoir."
             }
         ],
-        "finished": true
+        "finished": true,
+        "feedback": "Voici le débriefing de notre échange\n\n     \n🤓 PERSONA \n\nRoberto, commerçant à Rio, profil DISC dominant vert, chaleureux et un peu anxieux, tendance à digresser et à éviter de s’engager sans oublier sa méfiance prudente. \n\n\n🎯 OBJECTIF PRINCIPAL \n\nTu as su répondre de façon claire aux objections et obtenir un rendez-vous sans envoi de documentation. Objectif atteint.\n\n\n     \n➕ Points forts \n\n- Tu as obstinément refusé d’envoyer de la documentation générique, en mettant en avant la personnalisation nécessaire.\n- Argumentaire cohérent sur l’intérêt d’échanger pour fournir des données vraiment utiles et adaptées à la situation du prospect.\n- Tu as utilisé la technique du choix forcé de façon simple et efficace (« mardi dix heures ou jeudi quinze heures ? »).\n- Ton discours est resté logique, sans glisser vers la vente prématurée du produit.\n- Bonne volonté de découvrir la raison sous-jacente du refus, avec une tentative de questionnement ouvert.\n\n\n     \n⚠️ AXES D'AMÉLIORATION  \n\n- Tu n’as pas suffisamment validé le sentiment ou la gêne ressentie par le prospect avant de contre-argumenter (« Je sens bien dans votre position qu’il y a autre chose… » est un peu abrupt).\n- Les questions ouvertes sont utiles, mais l’enchaînement manque parfois de chaleur ou d’empathie ; certaines relances pouvaient inviter davantage à la confidence.\n- À deux reprises, le discours devient un peu répétitif sur la justification de la visio (« c’est pour ça que… ») sans suffisamment ajuster en fonction des signaux envoyés par le prospect.\n- L’explication du bénéfice du rendez-vous aurait gagné à être illustrée par un exemple concret vécu par d’autres clients : storytelling manquant !\n- L’expression « ça ne sert à rien » pourrait être jugée un peu sèche par certains interlocuteurs.\n\n\n     \n🩵 ANALYSE EMOTIONNELLE\n\nEnsemble cohérent et posé, ton professionnel, parfois un peu mécanique. L’état émotionnel est surtout maîtrisé et assertif, mais la chaleur relationnelle pourrait être davantage développée.\n\n\n     \n🛅 MOMENTS CLÉS  \n\nQuand tu refuses l’envoi de documentation avec pédagogie, puis que tu proposes un choix précis de rendez-vous : tu maintiens la maîtrise et avances l’échange. Le passage à la question ouverte sur les expériences passées permettait d’aller chercher une objection cachée — bon réflexe, même si la forme méritait plus de douceur.\n\n\n     \n🔊 REFORMULATIONS RECOMMANDÉES  \n\n« Je comprends que vous aimiez avoir des chiffres précis, c’est justement pour ça que je propose cet échange personnalisé. »  \n« L’idée, c’est de vous proposer une solution adaptée, pas un dossier standardisé qui ne vous parlerait pas vraiment. »  \n« Accepteriez-vous qu’on échange quinze minutes, juste pour que je comprenne ce que vous attendez vraiment ? »  \n« Mardi dix heures ou jeudi quinze heures, qu’est-ce qui vous arrange le plus pour cet entretien rapide ? »\n\n\n     \n➡️ RECOMMANDATIONS\n\nValide toujours explicitement la gêne du prospect avant de reformuler ou de relancer. Apporte un exemple rassurant ou un micro-storytelling. Fais preuve de davantage d’écoute active et d’empathie relationnelle. Adapte ton discours pour éviter toute impression de mécanique argumentative.\n\nBien joué sur l’essentiel ! Continue à perfectionner la dimension humaine de la relation, c’est ton meilleur levier auprès de profils comme Roberto.",
+        "insights": [
+            "Tu as su répondre de façon claire aux objections et obtenir un rendez-vous sans envoi de documentation. Objectif atteint.",
+            "Tu as obstinément refusé d’envoyer de la documentation générique, en mettant en avant la personnalisation nécessaire.",
+            "Argumentaire cohérent sur l’intérêt d’échanger pour fournir des données vraiment utiles et adaptées à la situation du prospect.",
+            "Tu as utilisé la technique du choix forcé de façon simple et efficace (« mardi dix heures ou jeudi quinze heures ? »).",
+            "Ton discours est resté logique, sans glisser vers la vente prématurée du produit.",
+            "Bonne volonté de découvrir la raison sous-jacente du refus, avec une tentative de questionnement ouvert.",
+            "Tu n’as pas suffisamment validé le sentiment ou la gêne ressentie par le prospect avant de contre-argumenter (« Je sens bien dans votre position qu’il y a autre chose… » est un peu abrupt).",
+            "Les questions ouvertes sont utiles, mais l’enchaînement manque parfois de chaleur ou d’empathie ; certaines relances pouvaient inviter davantage à la confidence."
+        ]
     },
     {
         "name": "Philippe Lepeuple",
@@ -18676,7 +20536,9 @@ const RAW_SIMULATIONS = [
                 "text": "Très bien.  \nJe serai connecté vendredi à dix heures trente, quinze minutes prévues.  \nEnvoyez le lien par e‑mail."
             }
         ],
-        "finished": false
+        "finished": false,
+        "feedback": "",
+        "insights": []
     },
     {
         "name": "Philippe Lepeuple",
@@ -18689,7 +20551,9 @@ const RAW_SIMULATIONS = [
         "lqa": "N/A",
         "interactions": 0,
         "messages": [],
-        "finished": false
+        "finished": false,
+        "feedback": "",
+        "insights": []
     },
     {
         "name": "Philippe Lepeuple",
@@ -18779,7 +20643,18 @@ const RAW_SIMULATIONS = [
                 "text": "Dix heures trente lundi me va. Donnez-moi votre nom complet et je vous communique l’adresse."
             }
         ],
-        "finished": true
+        "finished": true,
+        "feedback": "Voici le débriefing de notre échange.\n\n  \n\n🤓 PERSONA\n\n- Eduardo, ingénieur de qualité, cinquante ans, profil DISC bleu, méthodique, prudent, centré sur la fiabilité et la sécurité.\n\n  \n\n🎯 OBJECTIF PRINCIPAL\n\n- Tu as adopté une posture plus conseil que vendeur.\n  \n- Tu as amené la prise de conscience du risque, lié à l’impact pour la famille.\n  \n- Tu as géré les réticences avec tact, sans rupture.\n  \n- Tu as obtenu un engagement concret (prise de rendez-vous).\n  \n- Objectif pleinement atteint.\n\n  \n\n➕ Points forts\n\n- Bonne écoute des réticences émotionnelles initiales, sans forcer la main.\n  \n- Utilisation pertinente de questions de projection sur l'impact pour les proches.\n  \n- Argumentation centrée sur la protection des proches plutôt que sur la mort elle-même.\n  \n- Proposition claire d’un rendez-vous personnalisé, axé sur l'analyse des vrais besoins.\n  \n- Persévérance calme pour conduire jusqu’à l’acceptation du rendez-vous.\n\n  \n\n⚠️ AXES D'AMÉLIORATION\n\n- Questions ouvertes sur la situation familiale/professionnelle : Elles auraient pu être plus approfondies avant la proposition pour mieux qualifier le prospect.\n  \n- Gestion du silence/temps de réaction : À certaines étapes, tu as enchaîné un peu vite (« Vous avez entendu ce que j'ai dit ? ») alors qu’un silence aurait renforcé l’écoute active. \n  \n- Formulation de la valeur ajoutée MetLife : Manque la différenciation de l’offre (« pourquoi vous / pourquoi MetLife »).\n  \n- Clôture de l’argumentaire : Certains passages sont restés flous (« laisser des affaires fausses »), retravaille la fluidité de fin d’argument.\n\n  \n\n🩵 ANALYSE EMOTIONNELLE\n\nLe ton est posé et respectueux, avec une assertivité discrète ; on sent une volonté d’empathie et de rassurer, malgré quelques maladresses dans la gestion de la tension.\n\n  \n\n🛅 MOMENTS CLÉS\n\nLe passage « Si les revenus que vous amenez disparaissent pour eux ? » a marqué le pivot de la prise de conscience sans créer de peur, vital avec ce profil.\n\nL’obtention du rendez-vous avec une alternative sur le lieu d’échange a permis de donner un sentiment de choix et de confort au prospect.\n\n  \n\n🔊 REFORMULATIONS RECOMMANDÉES\n\n« Je comprends que c’est un sujet sensible, mais c’est justement pour anticiper sereinement l’avenir de votre famille. »\n\n« L’objectif, ce n’est pas de parler de malheur, mais d’assurer la stabilité de ceux qui comptent pour vous. »\n\n« Ce rendez-vous servira avant tout à clarifier les priorités de protection pour votre foyer, pas à vendre un produit standard. »\n\n  \n\n➡️ RECOMMANDATIONS\n\nPense à approfondir ta phase de découverte par des questions ouvertes avant la proposition. Introduis rapidement ce qui différencie MetLife pour rassurer ce profil sceptique. Attention à conserver des transitions fluides et à ne jamais précipiter la clôture. Continue ainsi, la protection bien expliquée trouve toujours sa place !",
+        "insights": [
+            "Eduardo, ingénieur de qualité, cinquante ans, profil DISC bleu, méthodique, prudent, centré sur la fiabilité et la sécurité.",
+            "Tu as adopté une posture plus conseil que vendeur.",
+            "Tu as amené la prise de conscience du risque, lié à l’impact pour la famille.",
+            "Tu as géré les réticences avec tact, sans rupture.",
+            "Tu as obtenu un engagement concret (prise de rendez-vous).",
+            "Objectif pleinement atteint.",
+            "Bonne écoute des réticences émotionnelles initiales, sans forcer la main.",
+            "Utilisation pertinente de questions de projection sur l'impact pour les proches."
+        ]
     },
     {
         "name": "Philippe Lepeuple",
@@ -18809,7 +20684,9 @@ const RAW_SIMULATIONS = [
                 "text": "Ça marche, merci. Au revoir."
             }
         ],
-        "finished": false
+        "finished": false,
+        "feedback": "",
+        "insights": []
     },
     {
         "name": "Philippe Lepeuple",
@@ -18831,7 +20708,9 @@ const RAW_SIMULATIONS = [
                 "text": "Desculpe, não entendi bem. Poderia explicar de forma mais concreta o que quer dizer com \"identificação\" aqui?"
             }
         ],
-        "finished": false
+        "finished": false,
+        "feedback": "",
+        "insights": []
     },
     {
         "name": "Philippe Lepeuple",
@@ -18861,7 +20740,9 @@ const RAW_SIMULATIONS = [
                 "text": "Ravi que ça se soit bien passé. Si vous pensez que quelques proches pourraient en bénéficier, je peux réfléchir et vous donner deux ou trois noms cette semaine."
             }
         ],
-        "finished": false
+        "finished": false,
+        "feedback": "",
+        "insights": []
     },
     {
         "name": "Philippe Lepeuple",
@@ -18899,7 +20780,9 @@ const RAW_SIMULATIONS = [
                 "text": "Je comprends. Si cela peut aider, je peux réfléchir à deux ou trois personnes de mon entourage qui pourraient être intéressées. Je préfère que vous m'expliquiez d'abord comment vous les contacterez."
             }
         ],
-        "finished": false
+        "finished": false,
+        "feedback": "",
+        "insights": []
     },
     {
         "name": "Philippe Lepeuple",
@@ -18929,7 +20812,9 @@ const RAW_SIMULATIONS = [
                 "text": "Je disais que je ne donne pas de noms sans savoir comment vous allez les contacter et ce que vous leur direz. Expliquez-moi brièvement votre approche de prise de contact."
             }
         ],
-        "finished": false
+        "finished": false,
+        "feedback": "",
+        "insights": []
     },
     {
         "name": "Philippe Lepeuple",
@@ -18951,7 +20836,9 @@ const RAW_SIMULATIONS = [
                 "text": "Je comprends la demande, mais je préfère d'abord savoir comment vous allez les contacter. Vous appelez direct de ma part ou vous passez par un message?"
             }
         ],
-        "finished": false
+        "finished": false,
+        "feedback": "",
+        "insights": []
     },
     {
         "name": "Philippe Lepeuple",
@@ -18997,7 +20884,9 @@ const RAW_SIMULATIONS = [
                 "text": "Les premiers qui me viennent sont deux collègues promus récemment au département des investissements et un ami entrepreneur qui"
             }
         ],
-        "finished": false
+        "finished": false,
+        "feedback": "",
+        "insights": []
     },
     {
         "name": "Philippe Lepeuple",
@@ -19075,7 +20964,9 @@ const RAW_SIMULATIONS = [
                 "text": "Je n'ai pas le chiffre exact, mais il tourne plutôt autour de trente mille reais par mois quand l'affaire marche bien.  \nSouvent c'est irrégulier, parfois bien en dessous, donc il est très sensible aux offres qui protègent sans trop grever la trésorerie."
             }
         ],
-        "finished": false
+        "finished": false,
+        "feedback": "",
+        "insights": []
     },
     {
         "name": "Philippe Lepeuple",
@@ -19113,7 +21004,9 @@ const RAW_SIMULATIONS = [
                 "text": "Oui, je préfère que vous les informiez par email avant mon appel.  \nEnvoyez un message court expliquant que je vais les contacter et que vous m'avez autorisé à mentionner votre nom."
             }
         ],
-        "finished": false
+        "finished": false,
+        "feedback": "",
+        "insights": []
     },
     {
         "name": "Philippe Lepeuple",
@@ -19126,7 +21019,9 @@ const RAW_SIMULATIONS = [
         "lqa": "N/A",
         "interactions": 0,
         "messages": [],
-        "finished": false
+        "finished": false,
+        "feedback": "",
+        "insights": []
     },
     {
         "name": "Philippe Lepeuple",
@@ -19196,7 +21091,9 @@ const RAW_SIMULATIONS = [
                 "text": "Je comprends le profil, mais je ne donnerai pas de noms de proches.  \nSi vous ciblez ce segment, concentrez-vous sur des parents avec deux enfants ou plus, revenus stables et emprunt immobilier."
             }
         ],
-        "finished": false
+        "finished": false,
+        "feedback": "",
+        "insights": []
     },
     {
         "name": "Philippe Lepeuple",
@@ -19298,7 +21195,18 @@ const RAW_SIMULATIONS = [
                 "text": "Très bien.  \nJe vous recontacte quand j'aurai identifié une ou deux personnes."
             }
         ],
-        "finished": true
+        "finished": true,
+        "feedback": "Voici le débriefing de notre échange.\n\n  \n##  🤓 PERSONA \n\n  \nVous avez eu en face un ingénieur qualité, méthodique, analytique et prudent, profil DISC bleu, peu démonstratif et attentif à la cohérence.\n\n  \n## 🎯 OBJECTIF PRINCIPAL\n\n  \nVous n’avez pas obtenu de recommandations effectives ni l’autorisation de citer le client. L’objectif est donc non atteint, bien que le terrain ait été préparé.\n\n  \n## ➕ Points forts \n\n  \n- Vous avez valorisé la satisfaction du client dès le début, créant un climat de confiance.\n\n  \n- La segmentation des sphères de l’entourage était claire, appuyant la réflexion (famille, professionnel, associatif).\n\n  \n- Vous avez rassuré quant à la non-intrusion et laissé l’initiative au client d’en parler lui-même à ses proches avant tout contact.\n\n  \n- L’ensemble de l’échange est resté respectueux, sans pression ni insistance, préservant la relation.\n\n  \n## ⚠️ AXES D'AMÉLIORATION \n\n  \n- Prise d’engagement.\n  Vous êtes resté sur un accord vague (“vous réfléchissez et m’envoyez des noms plus tard”) : aucune recommandation effective n’a été obtenue. Il aurait fallu aller jusqu’à l’obtention d’au moins un nom concret.\n\n  \n- Collecte d’informations A.S.K.T.H.E.M.A.N.\n  Cette étape a été évitée ou reportée alors qu’elle aurait pu être amorcée de façon plus fluide si un nom avait été donné.\n\n  \n- Autorisation de mention.\n  Oubli de demander explicitement l’accord du client pour mentionner son nom lors du premier contact.\n\n  \n- Trigger immédiat.\n  Vous avez manqué l’opportunité d’exploiter le “moment WOW” post-signature, préférant repousser la demande à plus tard.\n\n  \n## 🩵 ANALYSE EMOTIONNELLE\n\n  \nLe ton employé était posé, rassurant, parfois un peu trop prudent. L’attitude reflétait surtout la volonté de ne pas brusquer, au détriment de l’efficacité commerciale.\n\n  \n## 🛅 MOMENTS CLÉS  \n\n  \nLe passage où vous segmentez les cercles relationnels a structuré la réflexion du client, favorisant l’identification de profils concrets. Toutefois, votre proposition d’un suivi différé (“vous me recontactez par mail”) a coupé court à la dynamique, freinant la prise de recommandations immédiate.\n\n  \n##  🔊 REFORMULATIONS RECOMMANDÉES  \n\n  \n“Pourriez-vous me citer, à chaud, une personne à qui vous souhaiteriez voir bénéficier de cette même sécurité ?”\n\n  \n“Bien entendu, je ne les contacterai que lorsque vous les aurez informés personnellement et avec votre accord explicite.”\n\n  \n“Si vous deviez choisir quelqu’un dans votre entourage professionnel, qui serait le premier à qui vous penseriez ?”\n\n  \n“Pouvez-vous me partager un détail ou une qualité de cette personne qui pourrait faciliter notre premier échange ?”\n\n  \n## ➡️ RECOMMANDATIONS\n\n  \nOsez aller jusqu’à l’obtention d’au moins un nom immédiatement, et testez la collecte d’informations à ce moment chaud. Demandez explicitement l’autorisation de mention, et utilisez la segmentation pour aider le client à penser à des personnes concrètes. Ne repoussez pas la demande sous prétexte de confort : c’est ici et maintenant que ça se joue.\n\n  \nVous progressez ! Un simple pas de plus, et les recommandations seront au rendez-vous.",
+        "insights": [
+            "Vous avez valorisé la satisfaction du client dès le début, créant un climat de confiance.",
+            "La segmentation des sphères de l’entourage était claire, appuyant la réflexion (famille, professionnel, associatif).",
+            "Vous avez rassuré quant à la non-intrusion et laissé l’initiative au client d’en parler lui-même à ses proches avant tout contact.",
+            "L’ensemble de l’échange est resté respectueux, sans pression ni insistance, préservant la relation.",
+            "Vous êtes resté sur un accord vague (“vous réfléchissez et m’envoyez des noms plus tard”) : aucune recommandation effective n’a été obtenue. Il aurait fallu aller jusqu’à l’obtention d’au moins un nom concret.",
+            "Collecte d’informations A.S.K.T.H.E.M.A.N.",
+            "Autorisation de mention.",
+            "Vous avez manqué l’opportunité d’exploiter le “moment WOW” post-signature, préférant repousser la demande à plus tard."
+        ]
     },
     {
         "name": "Philippe Lepeuple",
@@ -19464,7 +21372,18 @@ const RAW_SIMULATIONS = [
                 "text": "Au revoir."
             }
         ],
-        "finished": true
+        "finished": true,
+        "feedback": "Voici le débriefing de notre échange.\n\n  \n##  🤓 PERSONA \n\nPatrícia, femme rigoureuse de quarante-quatre ans, profil bleu DISC, très structurée, exigeante et cartésienne. \n\n  \n## 🎯 OBJECTIF PRINCIPAL\n\nTu as obtenu deux noms qualifiés et l’accord pour citer le nom du client à la prise de contact. L’objectif est **atteint**.  \n\n  \n## ➕ Points forts \n\n- Tu as su remercier et valoriser la démarche du client en tout début de séquence, créant une atmosphère positive.\n\n  \n- Tu as bien exploité le moment WOW post-vente, en valorisant le bénéfice client et en l’invitant à verbaliser sa tranquillité d’esprit.\n\n  \n- La demande de recommandations a été présentée comme un geste bienveillant au service des proches, et non un passage en force commercial.\n\n  \n- Tu as proposé une segmentation claire (famille, professionnel, amis), facilitant la mémorisation de contacts.\n\n  \n- Tu as pris le soin de valider l’accord du client à chaque étape avant de poursuivre ou de demander des coordonnées.\n\n  \n## ⚠️ AXES D'AMÉLIORATION  \n\n- Recueil d’informations détaillées\n  Le recueil A.S.K.T.H.E.M.A.N manque de subtilité : « âge, entourage familial ? » arrive abruptement, ce qui aurait pu crisper davantage Patrícia. Plutôt que d’aller trop vite, privilégie la reformulation douce.\n\n  \n- Lien émotionnel à renforcer\n  Une anecdote ou une qualité à propos de chaque contact aurait pu humaniser davantage la future prise de contact et rassurer ton client.\n\n  \n- Relance un peu insistante\n  Lorsque tu insistes (« c’est quasiment de votre devoir »), le ton peut sembler culpabilisant sur un profil bleu prudent. Préfère la valorisation au sur-argumentaire.\n\n  \n## 🩵 ANALYSE EMOTIONNELLE\n\nLe ton est professionnel, chaleureux et volontaire, mais avec une légère teinte pressante sur certaines relances. L’état émotionnel dominant ressort confiant et motivé.\n\n  \n## 🛅 MOMENTS CLÉS  \n\nPremier basculement positif : Prise de temps pour remercier et reconnaître la décision client, ouvrant un espace propice à la recommandation.\n\n  \nMoins réussi : La collecte des informations A.S.K.T.H.E.M.A.N trop directe, qui aurait pu générer un frein si la cliente avait été plus méfiante.\n\n  \n##  🔊 REFORMULATIONS RECOMMANDÉES  \n\n« Parmi vos proches, à qui pensez-vous que cette tranquillité d’esprit pourrait aussi faire du bien ? » \n\n  \n« Pour bien personnaliser ma démarche, que puis-je évoquer de positif à propos de votre frère lorsque je prendrai contact ? »\n\n  \n« Je respecterai strictement le moment où vous me donnerez le feu vert avant toute prise de contact, c’est un engagement. » \n\n  \n## ➡️ RECOMMANDATIONS\n\nGarde la valorisation finale et la segmentation, mais veille à personnaliser la collecte des infos et à toujours intégrer une anecdote ou qualité du recommandé. Ton accompagnement doit rassurer et donner l’impression de sur-mesure. \n\nContinue ainsi, la progression est réelle – un soupçon de finesse en plus, et tu seras redoutable !",
+        "insights": [
+            "Patrícia, femme rigoureuse de quarante-quatre ans, profil bleu DISC, très structurée, exigeante et cartésienne.",
+            "Tu as su remercier et valoriser la démarche du client en tout début de séquence, créant une atmosphère positive.",
+            "Tu as bien exploité le moment WOW post-vente, en valorisant le bénéfice client et en l’invitant à verbaliser sa tranquillité d’esprit.",
+            "La demande de recommandations a été présentée comme un geste bienveillant au service des proches, et non un passage en force commercial.",
+            "Tu as proposé une segmentation claire (famille, professionnel, amis), facilitant la mémorisation de contacts.",
+            "Tu as pris le soin de valider l’accord du client à chaque étape avant de poursuivre ou de demander des coordonnées.",
+            "Recueil d’informations détaillées",
+            "Le recueil A.S.K.T.H.E.M.A.N manque de subtilité : « âge, entourage familial ? » arrive abruptement, ce qui aurait pu crisper davantage Patrícia. Plutôt que d’aller trop vite, privilégie la reformulation douce."
+        ]
     },
     {
         "name": "Philippe Lepeuple",
@@ -19622,7 +21541,18 @@ const RAW_SIMULATIONS = [
                 "text": "D'accord pour quinze heures à dix-sept heures demain.  \nPrévenez-moi seulement quand vous avez effectivement obtenu l'accord de la première personne, et je vous donnerai le nom ensuite."
             }
         ],
-        "finished": true
+        "finished": true,
+        "feedback": "Voici le débriefing de notre échange.\n\n  \n\n🤓 PERSONA \n\nJ'ai incarné Ricardo, cadre dirigeant bancaire à São Paulo, profil DISC rouge, analytique, exigeant, peu enclin au small talk et prudent sur la recommandation.\n\n  \n\n🎯 OBJECTIF PRINCIPAL\n\nTu as obtenu l'accord du client pour fournir des recommandations dans plusieurs cercles, avec coordination pour la prise de contact. L'objectif est partiellement atteint, car la qualification précise des recommandations n'est pas complètement validée.\n\n  \n\n➕ Points forts \n\n- Tu as créé un climat positif après la signature, en soulignant la satisfaction et l’utilité ressentie.\n\n  \n- Tu as introduit la demande de recommandation par une valorisation de la démarche vécue, évitant l’effet « commercial bourrin ».\n\n  \n- Tu as progressivement segmenté les réseaux (famille, pro, amis), ce qui facilite l’émergence de noms chez un interlocuteur analytique.\n\n  \n- L’accent sur la confidentialité et la coordination préalable rassure et montre du respect pour le réseau du client.\n\n  \n\n⚠️ AXES D'AMÉLIORATION  \n\n- Absence de remerciement franc au démarrage.\n  Oublier le « moment WOW » nuit à l’ouverture du client et risque de limiter la confiance.\n\n  \n- Faiblesse de la qualification.\n  Les informations détaillées sur chaque personne (coordonnées, âge, contexte…) ne sont pas systématiquement structurées ni obtenues selon la méthode <lang xml:lang=\"en-US\">ask the man</lang>.\n\n  \n- Demande parfois trop floue ou trop ouverte (« à qui vous pensez ? »).\n  Cela oblige le client à faire l’effort de recherche au lieu de l’aider par ta segmentation.\n\n  \n- L’autorisation de mention de ton nom est évoquée, mais gagnerait à être clarifiée explicitement, pour lever toute ambiguïté.\n\n  \n\n🩵 ANALYSE EMOTIONNELLE\n\nTon ton est chaleureux, enjoué et volontaire, parfois hésitant sur la forme, mais rassurant sur le fond. Ton état émotionnel principal : bienveillant et impliqué.\n\n  \n\n🛅 MOMENTS CLÉS  \n\nL’introduction de la segmentation par cercles familiaux, professionnels puis amicaux a permis à Ricardo d’ouvrir progressivement son réseau, ce qui a facilité le passage à la phase active de recommandation.\n\n  \nL’argument sur la confidentialité a été décisif pour baisser la résistance du client, lui donnant un vrai sentiment de sécurité.\n\n  \n\n🔊 REFORMULATIONS RECOMMANDÉES  \n\n« Je tenais d’abord à vous remercier pour votre confiance et la qualité de nos échanges. »\n\n  \n« Parmi vos collègues du secteur financier, y en a-t-il qui pourraient bénéficier de ce type de solution ? »\n\n  \n« Pour que je prépare un échange respectueux, auriez-vous un point sur leurs attentes ou une anecdote qui les illustre ? »\n\n  \n« Puis-je leur préciser que c’est à votre initiative que je les contacte ? »\n\n  \n\n➡️ RECOMMANDATIONS\n\nOuvre toujours par une reconnaissance sincère. Structure ta démarche avec la méthode <lang xml:lang=\"en-US\">ask the man</lang> de façon fluide. Précise explicitement l’autorisation de citer le nom du client. Segmente davantage. Tu avances dans la bonne direction : avec un peu plus de méthode, tu vises le sans-faute !",
+        "insights": [
+            "Tu as créé un climat positif après la signature, en soulignant la satisfaction et l’utilité ressentie.",
+            "Tu as introduit la demande de recommandation par une valorisation de la démarche vécue, évitant l’effet « commercial bourrin ».",
+            "Tu as progressivement segmenté les réseaux (famille, pro, amis), ce qui facilite l’émergence de noms chez un interlocuteur analytique.",
+            "L’accent sur la confidentialité et la coordination préalable rassure et montre du respect pour le réseau du client.",
+            "Absence de remerciement franc au démarrage.",
+            "Faiblesse de la qualification.",
+            "Les informations détaillées sur chaque personne (coordonnées, âge, contexte…) ne sont pas systématiquement structurées ni obtenues selon la méthode <lang xml:lang=\"en-US\">ask the man</lang>.",
+            "Demande parfois trop floue ou trop ouverte (« à qui vous pensez ? »)."
+        ]
     },
     {
         "name": "Philippe Lepeuple",
@@ -19660,7 +21590,9 @@ const RAW_SIMULATIONS = [
                 "text": "Pas vraiment. Beaucoup semblent mal informés ou pensent que c'est compliqué et cher.  \nSi vous voulez, je peux réfléchir à une personne qui pourrait être intéressée, mais j'aimerais d'abord que vous précisiez comment vous les contactez."
             }
         ],
-        "finished": false
+        "finished": false,
+        "feedback": "",
+        "insights": []
     },
     {
         "name": "Philippe Lepeuple",
@@ -19834,7 +21766,9 @@ const RAW_SIMULATIONS = [
                 "text": "À bientôt."
             }
         ],
-        "finished": true
+        "finished": true,
+        "feedback": "",
+        "insights": []
     },
     {
         "name": "Philippe Lepeuple",
@@ -19984,7 +21918,18 @@ const RAW_SIMULATIONS = [
                 "text": "Très bien.  \nJe vous préviendrai quand j'aurai leur accord.  \nAu revoir."
             }
         ],
-        "finished": true
+        "finished": true,
+        "feedback": "Voici le débriefing de notre échange.\n\n  \n##  🤓 PERSONA \n\nHomme, quarante-deux ans, enseignant calme et fidèle, centré sur la sécurité et l’humain, profil DISC majoritaire vert.\n\n  \n## 🎯 OBJECTIF PRINCIPAL\n\nTu n’as obtenu aucun nom concret ni accord de mention, malgré une démarche appuyée. L’objectif est non atteint.\n\n  \n## ➕ Points forts \n\n- Tu valorises d’emblée la confiance et la satisfaction du client, installant un climat plutôt bienveillant.\n\n  \n- Tu expliques pourquoi tu sollicites des recommandations, évitant le ton purement transactionnel.\n\n  \n- Tu proposes un processus structuré : prévention préalable des contacts, planification, confidentialité.\n\n  \n- Tu segmentes l’entourage, tentant d’accompagner le client dans la réflexion (pro/perso/amis).\n\n  \n## ⚠️ AXES D'AMÉLIORATION  \n\n- Manque d’écoute profonde : tu enchaînes les demandes sans laisser le client s’exprimer en détail sur ce qu’il a apprécié.\n\n  \n- Rythme trop soutenu : tu sautes rapidement aux profils recherchés sans laisser respirer, ce qui fait monter la résistance.\n\n  \n- Démarche trop mécanique : la structuration type « cercles » et la répétition des questions donnent l’image d’un script.\n\n  \n- A.S.K.T.H.E.M.A.N est totalement absent : aucune collecte fluide des informations clés ni question personnalisante, alors que c’est un pivot du dispositif.\n\n  \n- Absence d’autorisation explicite liée à la mention du nom : étape pourtant cruciale dans ce contexte de réticence naturelle.\n\n  \n## 🩵 ANALYSE EMOTIONNELLE\n\nTon ferme, argumentaire méthodique mais peu chaleureux. Une petite tension sous-jacente liée à l’insistance et au manque de prise en compte des signaux de retenue du client.\n\n  \n## 🛅 MOMENTS CLÉS  \n\nPremière segmentation proposée → structure la réflexion mais génère de la crispation par effet entonnoir, la confiance n’étant pas assez solide.\n\n  \nReprise répétée sur la remise des prénoms → dévoile une perte de naturel et de l’agacement, accentuant la fermeture du client.\n\n  \n##  🔊 REFORMULATIONS RECOMMANDÉES  \n\n« Merci encore pour votre confiance, cela me touche vraiment. »\n\n  \n« Parmi vos collègues ou proches qui vous parlent parfois de leurs préoccupations familiales, qui souhaiteriez-vous aider ? »\n\n  \n« Accepteriez-vous que je me recommande de vous en toute discrétion lors d’un premier appel avec eux ? »\n\n  \n« Y aurait-il une particularité ou un point qui me permettrait de personnaliser mon approche lorsqu’ils me recevront ? »\n\n  \n## ➡️ RECOMMANDATIONS\n\nReprends la grille MetLife : reconnaissance sincère, écoute active, segmentation douce, collecte naturelle et obtention explicite de l’accord. Garde à l’esprit : la qualité du lien vaut mieux qu’une liste incomplète. N’oublie pas de faire vivre <sub alias=\"ask the man\">A.S.K.T.H.E.M.A.N</sub> pour humaniser chaque étape.\n\nTu as la technique, ne perds pas le côté humain : la magie se niche dans le subtil, pas dans le scripte !",
+        "insights": [
+            "Homme, quarante-deux ans, enseignant calme et fidèle, centré sur la sécurité et l’humain, profil DISC majoritaire vert.",
+            "Tu valorises d’emblée la confiance et la satisfaction du client, installant un climat plutôt bienveillant.",
+            "Tu expliques pourquoi tu sollicites des recommandations, évitant le ton purement transactionnel.",
+            "Tu proposes un processus structuré : prévention préalable des contacts, planification, confidentialité.",
+            "Tu segmentes l’entourage, tentant d’accompagner le client dans la réflexion (pro/perso/amis).",
+            "Manque d’écoute profonde : tu enchaînes les demandes sans laisser le client s’exprimer en détail sur ce qu’il a apprécié.",
+            "Rythme trop soutenu : tu sautes rapidement aux profils recherchés sans laisser respirer, ce qui fait monter la résistance.",
+            "Démarche trop mécanique : la structuration type « cercles » et la répétition des questions donnent l’image d’un script."
+        ]
     },
     {
         "name": "Philippe Lepeuple",
@@ -20030,7 +21975,18 @@ const RAW_SIMULATIONS = [
                 "text": "Je ne trouve pas cette formulation professionnelle ni respectueuse.  \nJe ne fournirai pas de contacts sur la base d'une description ainsi."
             }
         ],
-        "finished": true
+        "finished": true,
+        "feedback": "Voici le débriefing de notre échange.\n\n  \n##  🤓 PERSONA  \n  \nJ’ai incarné Patrícia, contrôleuse de gestion, quarante-quatre ans, profil DISC bleu, cartésienne, prudente et exigeante.\n  \n  \n## 🎯 OBJECTIF PRINCIPAL  \n  \nL’objectif d’obtenir au moins deux recommandations avec autorisation de citer le nom du client n’a pas été atteint.\n  \n  \n## ➕ Points forts  \n  \n- Tu as spontanément abordé le sujet des recommandations sans hésitation après la signature.\n\n  \n- Ta bonne humeur initiale mettait une touche sympathique, ce qui peut détendre l’atmosphère.\n  \n  \n## ⚠️ AXES D'AMÉLIORATION  \n  \n- Introduction défaillante   \n  Tu n’as pas félicité, remercié ou reconnu la décision du client avant de demander une recommandation. Cela ferme la porte d’emblée.\n\n  \n- Absence de valorisation  \n  Tu n’as pas cherché à faire exprimer ce que le client avait apprécié, ni créé de « moment wow ».\n\n  \n- Manque de méthode dans la demande  \n  La question posée est générale et impersonnelle (« des gens »), ce qui paralyse la mémoire au lieu d’orienter.\n\n  \n- Demande trop frontale  \n  Tu demandes directement le nom, prénom et téléphone sans contextualiser l’objectif, ni rassurer sur la démarche.\n\n  \n- Oubli total de la segmentation  \n  Tu n’as pas guidé le client vers des profils précis ni utilisé la méthode ⟪A.S.K.T.H.E.M.A.N|ask the man⟫, et l’approche a semblé mécanique voire cavalière.\n\n  \n- Maladresse relationnelle   \n  La phrase sur « les gens riches et crédules » est contre-productive, car elle brise la relation de confiance.\n  \n  \n## 🩵 ANALYSE EMOTIONNELLE  \n  \nLe ton est d’abord détendu puis maladroit, avec une tentative d’humour mal placée qui nuit à la confiance. L’attitude donne une impression d’empressement, voire d’impatience.\n  \n  \n## 🛅 MOMENTS CLÉS  \n  \nAu tout début, tu entres dans la demande sans reconnaissance ni valorisation, ce qui provoque un repli chez le client.\nPlus tard, ta remarque sur les « riches et crédules » marque un décrochage, désacralise la démarche et décrédibilise l’échange.\n  \n  \n##  🔊 REFORMULATIONS RECOMMANDÉES  \n  \n« Je tenais d'abord à vous remercier pour votre confiance et la qualité de nos échanges. »\n\n  \n« Pouvez-vous me dire ce que vous avez particulièrement apprécié dans notre démarche ? »\n\n  \n« J’accompagne souvent des cadres financiers de votre réseau ou d’anciens collègues, il vous revient en tête une personne à qui cette protection pourrait être utile ? »\n\n  \n« Pourriez-vous me dire ce qui rend cette personne unique, afin que je puisse personnaliser mon approche ? »\n\n  \n## ➡️ RECOMMANDATIONS  \n  \nCommence toujours par la reconnaissance et la création d’un moment WOW. Segmente ta demande, utilise la méthode ⟪A.S.K.T.H.E.M.A.N|ask the man⟫ pas à pas, et veille à rester centré sur l’intérêt du client et de ses proches, jamais sur tes objectifs. \n\nNe t’inquiète pas, chaque échange est une chance d’apprendre pour t’affiner !",
+        "insights": [
+            "J’ai incarné Patrícia, contrôleuse de gestion, quarante-quatre ans, profil DISC bleu, cartésienne, prudente et exigeante.",
+            "Tu as spontanément abordé le sujet des recommandations sans hésitation après la signature.",
+            "Ta bonne humeur initiale mettait une touche sympathique, ce qui peut détendre l’atmosphère.",
+            "Introduction défaillante",
+            "Absence de valorisation",
+            "Manque de méthode dans la demande",
+            "Demande trop frontale",
+            "Oubli total de la segmentation"
+        ]
     },
     {
         "name": "Philippe Lepeuple",
@@ -20172,7 +22128,18 @@ const RAW_SIMULATIONS = [
                 "text": "Très bien, à bientôt."
             }
         ],
-        "finished": true
+        "finished": true,
+        "feedback": "Voici le débriefing de notre échange.\n\n  \n##  🤓 PERSONA \n\nPatrícia, femme très structurée, profil DISC bleu : analytique, rigoureuse, exigeante, sensible aux démarches méthodiques et respectueuses.\n\n  \n## 🎯 OBJECTIF PRINCIPAL\n\nTu n’as obtenu aucun nom qualifié ni l’accord explicite de mention de la cliente. L’objectif n’est donc pas atteint.\n\n  \n## ➕ Points forts \n\n- Tu as bien démarré en félicitant et remerciant la cliente pour sa décision, tout en valorisant sa démarche de protection familiale.\n\n  \n- Tu as cherché à faire exprimer le bénéfice ressenti, encourageant le client à verbaliser sa tranquillité d’esprit.\n\n  \n- Tu as tenté d’instaurer une notion d’entraide, en reliant la recommandation à l’idée d’aider ses proches.\n\n  \n- Tu as segmenté l’entourage par cercles (famille, professionnel, amis), ce qui structure la réflexion du client.\n\n  \n## ⚠️ AXES D'AMÉLIORATION   \n\n- Absence de collecte concrète\n  Tu n’as jamais recueilli un nom précis ni d’information A.S.K.T.H.E.M.A.N en direct : tu es resté au stade conceptuel (« combien de personnes ? »).\n\n  \n- Manque d’autorisation claire\n  L’autorisation de citer le nom du client n’a pas été explicitement demandée, point crucial de la méthode.\n\n  \n- Absence de reformulation personnalisante\n  Tu as omis la « question magique » (anecdote, intérêt, qualité sur chaque recommandé), qui humanise la future prise de contact.\n\n  \n- Collecte perçue comme très mécanique\n  L’enchaînement rapide des cercles et des demandes pouvait donner une impression d’interrogatoire, sans rebond authentique sur les hésitations du client.\n\n  \n## 🩵 ANALYSE EMOTIONNELLE\n\nTon globalement professionnel mais verbalement timoré, hésitations fréquentes, rythme peu assuré, vocabulaire convenu manquant de chaleur relationnelle.\n\n  \n## 🛅 MOMENTS CLÉS  \n\nLorsque tu présentes les cercles concentriques, tu structures la démarche : cela oriente bien le client mais une relance trop rapide dilue son efficacité.\nQuand la cliente se questionne sur la méthode (« comment souhaite-t-on procéder ? »), tu passes tout de suite à la prise de rendez-vous sans concrétiser la recommandation, manquant ainsi l’ouverture du client.\n\n  \n##  🔊 REFORMULATIONS RECOMMANDÉES  \n\n« Je me permets de vous demander : parmi vos collègues ou proches à qui vous tenez, qui pourrait bénéficier d’un échange confidentiel comme celui-ci ? »\n\n« Pour contacter Mme X, puis-je mentionner que c’est sur votre recommandation ? Cela facilitera notre échange. »\n\n« Y a-t-il une anecdote, un centre d’intérêt ou une valeur que je pourrais mentionner pour personnaliser notre premier contact ? »\n\n« Merci de votre aide, cela me permet d’apporter à d’autres familles la même tranquillité d’esprit que la vôtre. »\n\n  \n## ➡️ RECOMMANDATIONS\n\nPriorise la concrétisation : vise à obtenir au moins un nom dans l’entretien. Applique le A.S.K.T.H.E.M.A.N nom par nom, en rebondissant avec une question humanisante. Demande explicitement l’autorisation de mention à chaque étape pour sécuriser la relation.\n\nTu tiens le bon fil, mais il faut resserrer les mailles : structure, humanise, puis concrétise !",
+        "insights": [
+            "Patrícia, femme très structurée, profil DISC bleu : analytique, rigoureuse, exigeante, sensible aux démarches méthodiques et respectueuses.",
+            "Tu as bien démarré en félicitant et remerciant la cliente pour sa décision, tout en valorisant sa démarche de protection familiale.",
+            "Tu as cherché à faire exprimer le bénéfice ressenti, encourageant le client à verbaliser sa tranquillité d’esprit.",
+            "Tu as tenté d’instaurer une notion d’entraide, en reliant la recommandation à l’idée d’aider ses proches.",
+            "Tu as segmenté l’entourage par cercles (famille, professionnel, amis), ce qui structure la réflexion du client.",
+            "Absence de collecte concrète",
+            "Tu n’as jamais recueilli un nom précis ni d’information A.S.K.T.H.E.M.A.N en direct : tu es resté au stade conceptuel (« combien de personnes ? »).",
+            "Manque d’autorisation claire"
+        ]
     },
     {
         "name": "Philippe Lepeuple",
@@ -20338,7 +22305,18 @@ const RAW_SIMULATIONS = [
                 "text": "Très bien, à dans deux jours alors.  \nBonne journée et merci."
             }
         ],
-        "finished": true
+        "finished": true,
+        "feedback": "Voici le débriefing de notre échange.  \n\n  \n##  🤓 PERSONA \n\nMédecin gynécologue de trente-six ans, profil DISC majoritairement vert, attentive, prudente, orientée humanité et réseau féminin.  \n\n  \n## 🎯 OBJECTIF PRINCIPAL\n\nL’objectif n’a pas été atteint : aucune recommandation concrète ni accord explicite pour une prise de contact n’a été obtenu.   \n\n  \n## ➕ Points forts \n\n- Tu as bien reconnu la satisfaction, valorisé la démarche du client et manifesté ta gratitude en ouverture.\n\n  \n- Tu as instauré une atmosphère bienveillante en insistant sur la confidentialité et le respect.\n\n  \n- Tu as introduit la recommandation en la reliant à la logique d’entraide et de protection de l’entourage.\n\n  \n- Tu as tenté une segmentation pertinente par cercles (famille, pro, amis), ce qui est un vrai progrès comparé aux demandes vagues.  \n\n  \n## ⚠️ AXES D'AMÉLIORATION  \n\n- Manque d’explicitations\n  La présentation de la prise de recommandation restait floue : « à qui précisément vous pouvez penser ? » aurait nécessité d’aller plus loin, avec plus de guidage ou d’exemples.\n\n  \n- Oubli de la démarche ⟪ ASK THE MAN ⟫\n  Aucune question ciblée pour collecter les informations clés, ni introduction naturelle de la méthode. On reste très général, voire évasif.\n\n  \n- Autorisation de mention du nom\n  Tu as évoqué le « feu vert », mais sans demander explicitement l’autorisation de citer le nom du client ni t’assurer d’obtenir son approbation avec ses conditions.\n\n  \n- Rythme mécanique\n  Les relances successives sur les cercles d’entourage ressemblent trop à une checklist, ce qui peut créer une impression de démarche trop commerciale, surtout sans contextualisation humanisante.\n\n  \n## 🩵 ANALYSE EMOTIONNELLE\n\nTon courtois, relativement détendu, mais qui laisse percer une impatience en fin d’échange. Attitude majoritairement contrôlée, mais le discours devient saccadé sur la dernière phase.  \n\n  \n## 🛅 MOMENTS CLÉS  \n\nAu moment où tu segmentes l’entourage en cercles, tu crées une ouverture puissante, mais tu perds l’engagement faute de relancer avec empathie sur les profils concrets, et d’exploiter le storytelling qui rassure.\n\n  \nEn demandant un prochain rendez-vous pour « recueillir les noms », tu exposes la carence d’accord réel et ouvres la porte à l’oubli ou à la procrastination du client.  \n\n  \n##  🔊 REFORMULATIONS RECOMMANDÉES  \n\n« Parmi vos collègues médecins ou amies jeunes mamans, qui pourrait, selon vous, bénéficier d’une démarche de protection similaire à la vôtre ? »  \n\n  \n« J’aimerais, avec votre permission, leur mentionner que c’est à travers vous que ce contact a été initié—êtes-vous à l’aise avec cela ? »  \n\n  \n« Avant de les contacter, y a-t-il une information ou une anecdote qui pourrait m’aider à personnaliser mon approche ? »  \n\n  \n## ➡️ RECOMMANDATIONS\n\nRenforce l’ouverture en exprimant explicitement l’autorisation de citation et incarne une écoute active. Utilise naturellement ⟪ ASK THE MAN ⟫ pour qualifier, tout en maintenant une dimension empathique. Termine toujours en rendant la démarche tangible et humaine.  \n\nTu as le potentiel pour faciliter le passage de la satisfaction à la recommandation active—lâche rien, le chemin se trace à chaque étape !",
+        "insights": [
+            "Médecin gynécologue de trente-six ans, profil DISC majoritairement vert, attentive, prudente, orientée humanité et réseau féminin.",
+            "L’objectif n’a pas été atteint : aucune recommandation concrète ni accord explicite pour une prise de contact n’a été obtenu.",
+            "Tu as bien reconnu la satisfaction, valorisé la démarche du client et manifesté ta gratitude en ouverture.",
+            "Tu as instauré une atmosphère bienveillante en insistant sur la confidentialité et le respect.",
+            "Tu as introduit la recommandation en la reliant à la logique d’entraide et de protection de l’entourage.",
+            "Tu as tenté une segmentation pertinente par cercles (famille, pro, amis), ce qui est un vrai progrès comparé aux demandes vagues.",
+            "Manque d’explicitations",
+            "La présentation de la prise de recommandation restait floue : « à qui précisément vous pouvez penser ? » aurait nécessité d’aller plus loin, avec plus de guidage ou d’exemples."
+        ]
     },
     {
         "name": "Philippe Lepeuple",
@@ -20351,7 +22329,9 @@ const RAW_SIMULATIONS = [
         "lqa": "N/A",
         "interactions": 0,
         "messages": [],
-        "finished": false
+        "finished": false,
+        "feedback": "",
+        "insights": []
     },
     {
         "name": "Philippe Lepeuple",
@@ -20493,7 +22473,18 @@ const RAW_SIMULATIONS = [
                 "text": "Parfait, à dans une semaine alors."
             }
         ],
-        "finished": true
+        "finished": true,
+        "feedback": "Voici le débriefing de notre échange.\n\n  \n##  🤓 PERSONA \n\nPédiatre quarantenaire, en couple, chaleureux et expressif, avec profil DISC jaune dominant et forte sensibilité à la relation humaine.\n\n  \n## 🎯 OBJECTIF PRINCIPAL\n\nObjectif partiellement atteint : engagement à fournir des recommandations, mais pas de noms ni infos qualifiées à ce stade.\n\n  \n## ➕ Points forts \n\n- Remerciements sincères et reconnaissance explicite de la décision du client dès la prise de parole.\n\n  \n- Bonne exploitation du moment WOW, mettant en avant la satisfaction vécue et l’état d’esprit positif généré.\n\n  \n- Mise en avant de la démarche comme un service rendu aux proches, pas une démarche commerciale pure.\n\n  \n- Proposition structurée de segmentation par cercles de confiance (familial, professionnel, amical) pour stimuler la mémoire du client.\n\n  \n## ⚠️ AXES D'AMÉLIORATION  \n\n- Absence de prise d’informations concrètes : la conversation ne franchit jamais le cap des demandes nominatives ou des profils précis. Aucun nom réel ou piste, ce qui limite l’efficacité réelle.\n\n  \n- Étape A.S.K.T.H.E.M.A.N mentionnée de façon trop vague : aucune collecte d’informations précises ni tentative d’humanisation du contact (anecdote, hobby).\n\n  \n- L’accord sur la recommandation reste très général, sans autorisation explicite de mentionner le nom du client lors de la prise de contact.\n\n  \n- Manque de reformulation émotionnelle ou de question magique personnalisée pour créer du lien entre le recommandé et la démarche.\n\n  \n## 🩵 ANALYSE EMOTIONNELLE  \n\nLe ton est professionnel, rassurant, et très respectueux ; la posture demeure confiante mais un peu trop prudente, évitant l’assertivité directe.\n\n  \n## 🛅 MOMENTS CLÉS  \n\nLa segmentation par cercles familiaux, professionnels et amicaux a clarifié l’approche et facilité l’acceptation de principe, mais l’absence d’exemples ou de relances personnalisées a freiné la concrétisation de recommandations réelles.\n\n  \n##  🔊 REFORMULATIONS RECOMMANDÉES  \n\n« Parmi vos confrères ou amis qui, selon vous, gagneraient à vivre cette tranquillité d’esprit, qui vous vient en tête ? »\n\n  \n« Serait-il possible que je les contacte de votre part, en leur expliquant ce que vous avez apprécié ? »\n\n  \n« Auriez-vous un exemple d’un parent ou collègue qui hésite sur ce sujet, et à qui je pourrais vraiment rendre service ? »\n\n  \n## ➡️ RECOMMANDATIONS\n\nOsez la relance sur certains profils concrets, ancrez la démarche via des anecdotes ou traits humains, et demandez explicitement l’autorisation de mention. Recueillez au moins un nom, même partiel, pour enclencher le vrai flux de recommandations.\n\nVous avez posé un cadre sain et rassurant : il vous reste à aller chercher le « oui » final — persévérez !",
+        "insights": [
+            "Objectif partiellement atteint : engagement à fournir des recommandations, mais pas de noms ni infos qualifiées à ce stade.",
+            "Remerciements sincères et reconnaissance explicite de la décision du client dès la prise de parole.",
+            "Bonne exploitation du moment WOW, mettant en avant la satisfaction vécue et l’état d’esprit positif généré.",
+            "Mise en avant de la démarche comme un service rendu aux proches, pas une démarche commerciale pure.",
+            "Proposition structurée de segmentation par cercles de confiance (familial, professionnel, amical) pour stimuler la mémoire du client.",
+            "Absence de prise d’informations concrètes : la conversation ne franchit jamais le cap des demandes nominatives ou des profils précis. Aucun nom réel ou piste, ce qui limite l’efficacité réelle.",
+            "Étape A.S.K.T.H.E.M.A.N mentionnée de façon trop vague : aucune collecte d’informations précises ni tentative d’humanisation du contact (anecdote, hobby).",
+            "L’accord sur la recommandation reste très général, sans autorisation explicite de mentionner le nom du client lors de la prise de contact."
+        ]
     },
     {
         "name": "Philippe Lepeuple",
@@ -20611,7 +22602,18 @@ const RAW_SIMULATIONS = [
                 "text": "Très bien, je vous attends la semaine prochaine.  \nBonne journée et à bientôt."
             }
         ],
-        "finished": true
+        "finished": true,
+        "feedback": "Voici le débriefing de notre échange  \n \n🤓 PERSONA  \nGustavo, médecin généraliste de cinquante-quatre ans, profil DISC majoritairement vert, prudent, fidèle, centré sur la stabilité et la confiance.  \n  \n🎯 OBJECTIF PRINCIPAL  \nObjectif partiellement atteint : engagement d’envoi de recommandations mais pas de noms précis obtenus immédiatement.  \n  \n➕ Points forts  \n  \n- Très bonne reconnaissance et valorisation du client dès l’ouverture, créant un climat chaleureux propice à la recommandation.  \n  \n- Excellente écoute active, questions ouvertes pour faire exprimer la satisfaction et l’impact positif de la solution.  \n  \n- Bonne segmentation des cercles de recommandations (famille, pro, amis), ce qui structure la réflexion du client.  \n  \n- Respect des objections et adaptation du discours sans passage en force ou pression commerciale.  \n  \n⚠️ AXES D'AMÉLIORATION  \n  \n- Recueil partiel  \nTu n’es pas parvenu à obtenir des prénoms ou des recommandations qualifiées avant la fin de l'échange. Il manquait un pas plus précis dans la reformulation et la relance.  \n  \n- Sécurisation de l'autorisation  \nL’obtention de l’accord explicite pour la mention de ton nom lors de la prise de contact reste floue, ce qui peut freiner la démarche.  \n  \n- Utilisation de la méthode ASKT H E M A N  \nL’étape d’investigation a été survolée, et tu n’as pas naturellement intégré les informations-clés pour chaque potentiel recommandé.  \n  \n- Question magique  \nTu n’as pas exploré d’anecdote ou d’élément humain sur les proches afin d’adoucir la future prise de contact.  \n  \n🩵 ANALYSE EMOTIONNELLE  \nLe ton était respectueux et chaleureux, le langage rassurant et empathique. L’attitude était confiante et posée, mais un zeste de conviction aurait pu renforcer la dynamique de clôture.  \n  \n🛅 MOMENTS CLÉS  \n  \nLors de la segmentation en cercles (familial, professionnel, amical), tu as permis au client de cibler des profils, ce qui a structuré sa réflexion et baissé sa résistance.  \nTon insistance douce sur la nécessité du « feu vert » du client a installé un climat de sécurité. Cela a renforcé la confiance mais amoindri l’urgence de la délivrance des recommandations.  \n  \n🔊 REFORMULATIONS RECOMMANDÉES  \n  \n« Parmi vos proches, qui pourrait gagner en tranquillité d’esprit comme vous ? »  \n« Si vous deviez protéger une seule personne autour de vous, qui choisiriez-vous en priorité ? »  \n« Pourrais-je vous citer lorsque j’entrerai en contact avec eux, afin qu’ils comprennent ma démarche ? »  \n« En quoi leurs situations ressemblent-elles à la vôtre au moment où vous avez franchi le pas ? »  \n  \n➡️ RECOMMANDATIONS  \nOse des relances plus concrètes : encourage le client à prononcer au moins un prénom dès la première fois. Demande systématiquement l’autorisation explicite de mention. Intègre de façon fluide la méthode ASKT H E M A N. Valorise le geste en donnant du sens et de l’émotion.  \n  \nTon empathie naturelle est une grande force : couple-la à davantage d’audace pour que chaque rendez-vous se transforme en opportunité réelle.",
+        "insights": [
+            "Gustavo, médecin généraliste de cinquante-quatre ans, profil DISC majoritairement vert, prudent, fidèle, centré sur la stabilité et la confiance.",
+            "Objectif partiellement atteint : engagement d’envoi de recommandations mais pas de noms précis obtenus immédiatement.",
+            "Très bonne reconnaissance et valorisation du client dès l’ouverture, créant un climat chaleureux propice à la recommandation.",
+            "Excellente écoute active, questions ouvertes pour faire exprimer la satisfaction et l’impact positif de la solution.",
+            "Bonne segmentation des cercles de recommandations (famille, pro, amis), ce qui structure la réflexion du client.",
+            "Respect des objections et adaptation du discours sans passage en force ou pression commerciale.",
+            "Sécurisation de l'autorisation",
+            "Utilisation de la méthode ASKT H E M A N"
+        ]
     },
     {
         "name": "Philippe Lepeuple",
@@ -20685,7 +22687,9 @@ const RAW_SIMULATIONS = [
                 "text": "Vous savez combien ça m'..."
             }
         ],
-        "finished": false
+        "finished": false,
+        "feedback": "",
+        "insights": []
     },
     {
         "name": "Philippe Lepeuple",
@@ -20835,7 +22839,18 @@ const RAW_SIMULATIONS = [
                 "text": "Je n'ai pas d'objection à ce que vous mentionniez mon nom, à condition que vous n'appeliez personne sans mon feu vert final.  \nQuand j'aurai obtenu leur accord, je vous enverrai leurs coordonnées une par une, et je vous préviendrai avant que vous ne les contactiez."
             }
         ],
-        "finished": true
+        "finished": true,
+        "feedback": "Voici le débriefing de notre échange\n\n  \n\n\n\n## 🤓 PERSONA \n\nPatrícia, contrôleuse de gestion, profil DISC bleu, rigoureuse, prudente, peu sensible aux discours flous.\n\n  \n\n\n## 🎯 OBJECTIF PRINCIPAL\n\nObjectif atteint : obtention de plusieurs recommandations qualifiées avec autorisation pour mention du nom.\n\n  \n\n\n## ➕ Points forts \n\n- Tu as commencé par féliciter et remercier Patrícia, créant un climat positif dès l’ouverture.\n  \n- Tu as utilisé la référence à Paolo pour illustrer la valeur d’une recommandation, rendant la demande concrète.\n  \n- La segmentation a été bien menée, en guidant ton interlocutrice à travers cercle familial, professionnel puis amical.\n\n- L’engagement de ne jamais contacter sans feu vert a efficacement levé la résistance.\n\n- Tu as explicitement demandé l’accord pour mentionner le nom lors du contact, validant l’étape cruciale de la méthode.\n\n  \n\n\n## ⚠️ AXES D'AMÉLIORATION  \n\n- Recueil \"ASK THE MAN\" \n  La collecte d’informations est restée partielle et un peu mécanique, risquant l’effet interrogatoire. Il manque des détails personnalisants pour chaque recommandé.\n\n  \n- Valorisation des points de satisfaction\n  Tu as à peine laissé Patrícia exprimer, avec ses mots, ce qu’elle a apprécié dans ta démarche. Mieux exploiter cet échange renforcerait l’effet “WOW”.\n\n  \n- Personnalisation de la prise de contact future\n  Peu de questions sur les qualités humaines ou anecdotes à glisser au moment du premier contact, dommage pour l’ancrage relationnel.\n\n  \n- Ton “un peu trop inquiète” peut paraître brusque à une interlocutrice structurée, pense à la reformulation bienveillante.\n\n  \n\n\n## 🩵 ANALYSE EMOTIONNELLE\n\nLe ton est resté direct et professionnel, parfois un peu pressant. Ta confiance domine, mais le rythme aurait gagné à s’adapter davantage à ton interlocutrice analytique.\n\n  \n\n\n## 🛅 MOMENTS CLÉS  \n\nLe rappel de l’engagement de ne jamais contacter sans feu vert a rassuré Patrícia, débloquant les premiers noms. La segmentation guidée des cercles (familial, pro, amical) a concrètement accéléré la récolte.\n\n  \n\n\n## 🔊 REFORMULATIONS RECOMMANDÉES  \n\n“Qu’avez-vous le plus apprécié dans notre collaboration ? Cela m’aide à progresser, vraiment.”\n\n“Lorsque vous penserez à leur en parler, je vous laisse me donner le signal, ainsi nous avançons à votre rythme.”\n\n“Pour que ce premier contact soit à la hauteur, pouvez-vous me glisser une anecdote ou un trait positif sur votre proche ?”\n\n“Je demanderai toujours avant de joindre qui que ce soit, c’est la règle d’or chez nous.”\n\n  \n\n\n## ➡️ RECOMMANDATIONS\n\nSoigne davantage l’écoute active dans la phase de valorisation. Adapte le recueil \"ASK THE MAN\" pour le rendre plus conversationnel et moins interrogatif, en intégrant des éléments humains. Capitalise sur chaque occasion pour humaniser la recommandation.\n\nContinue comme ça, chaque échange peut t’apporter de vraies victoires !",
+        "insights": [
+            "Objectif atteint : obtention de plusieurs recommandations qualifiées avec autorisation pour mention du nom.",
+            "Tu as commencé par féliciter et remercier Patrícia, créant un climat positif dès l’ouverture.",
+            "Tu as utilisé la référence à Paolo pour illustrer la valeur d’une recommandation, rendant la demande concrète.",
+            "La segmentation a été bien menée, en guidant ton interlocutrice à travers cercle familial, professionnel puis amical.",
+            "L’engagement de ne jamais contacter sans feu vert a efficacement levé la résistance.",
+            "Tu as explicitement demandé l’accord pour mentionner le nom lors du contact, validant l’étape cruciale de la méthode.",
+            "Recueil \"ASK THE MAN\"",
+            "Valorisation des points de satisfaction"
+        ]
     },
     {
         "name": "Philippe Lepeuple",
@@ -20921,7 +22936,9 @@ const RAW_SIMULATIONS = [
                 "text": "Je suis mal à l'aise de donner des noms d'amis à chaud, j'aime les prévenir avant.  \nSi vous segmentez un peu — par exemple amis chefs d'entreprise ou parents d'enfants scolarisés à l'école française — je peux réfléchir et revenir avec un nom quand je serai prêt."
             }
         ],
-        "finished": false
+        "finished": false,
+        "feedback": "",
+        "insights": []
     },
     {
         "name": "Philippe Lepeuple",
@@ -21023,7 +23040,9 @@ const RAW_SIMULATIONS = [
                 "text": "Non. Je vous ai demandé un test sur quelqu’un de neutre.  \nFaites d’abord cet appel test et revenez me dire le résultat avant de contacter mes proches."
             }
         ],
-        "finished": false
+        "finished": false,
+        "feedback": "",
+        "insights": []
     },
     {
         "name": "Philippe Lepeuple",
@@ -21061,7 +23080,9 @@ const RAW_SIMULATIONS = [
                 "text": "Honnêtement, certains oui, d'autres non.  \nJe n'aime pas donner des noms sur le coup. Si vous voulez, dites-moi comment vous abordez la première prise de contact, et je verrai si j'accepte de vous mettre en relation."
             }
         ],
-        "finished": false
+        "finished": false,
+        "feedback": "",
+        "insights": []
     },
     {
         "name": "Philippe Lepeuple",
@@ -21179,7 +23200,18 @@ const RAW_SIMULATIONS = [
                 "text": "Très bien.  \nÀ dans deux jours."
             }
         ],
-        "finished": true
+        "finished": true,
+        "feedback": "Voici le débriefing de notre échange\n\n \n\n## 🤓 PERSONA \n\nHomme, ingénieur qualité, profil DISC Bleu : méthodique, rationnel, prudent, recherche des preuves avant de s’engager.\n\n \n\n## 🎯 OBJECTIF PRINCIPAL\n\nObjectif partiellement atteint : engagement à transmettre plusieurs noms avec accord de prise de contact mentionnant son nom.\n\n \n\n## ➕ Points forts \n\n- Remerciement sincère du client pour sa confiance et valorisation de la solution retenue, générant un climat propice à la recommandation.\n\n \n\n- Prise en compte de la posture rationnelle du client avec un questionnement structurant sur la satisfaction et l’état d’esprit.\n\n \n\n- Effort de segmentation par cercles de proximité (familial, professionnel, amical), facilitant l’émergence de recommandations.\n\n \n\n- Clarté sur le respect du consentement : promesse explicite de ne contacter personne sans feu vert du client.\n\n \n\n- Ton amical, posture conseil, absence de pression commerciale ressentie tout au long de l’échange.\n\n \n\n## ⚠️ AXES D'AMÉLIORATION  \n\n- Manque l’explicitation claire que votre activité repose sur la recommandation ; cela aurait renforcé la légitimité de la démarche.\n\n \n\n- Introduction un peu abrupte de la demande : « Dites-moi dans votre entourage ... » ; gagnerait à être plus progressive et personnalisée.\n\n \n\n- Oubli de la méthode ASKT HEMAN en anglais : collecte des informations restée sommaire, peu de questions sur les spécificités ou anecdotes, ni de réelle fluidité dans l’enchaînement.\n\n \n\n- Absence de réelle “question magique” pour personnaliser le futur contact et humaniser la présentation des recommandés.\n\n \n\n- La synchronisation finale est perfectible : passage trop vite sur l’étape de préparation du client avant le premier contact.\n\n \n\n## 🩵 ANALYSE EMOTIONNELLE\n\nTonalité chaleureuse, professionnelle, rassurante ; le rythme reste calme mais parfois légèrement directif. Attitude globalement confiante et empathique.\n\n \n\n## 🛅 MOMENTS CLÉS  \n\nPremière segmentation famille/pro/perso : tu guides le client dans sa réflexion — cela lève le blocage mental habituel et enclenche la dynamique de recommandations.\n\n \n\nFormulation de l’engagement : “je ne les contacte jamais sans feu vert” — tu abats une barrière fondamentale de confiance, rendant la démarche plus acceptable.\n\n \n\n##  🔊 REFORMULATIONS RECOMMANDÉES  \n\n« Je tiens à vous remercier pour la confiance que vous m’avez témoignée. »\n\n \n\n« Parmi vos collègues ingénieurs, y aurait-il quelqu’un de votre entourage qui pourrait bénéficier d’un échange comme le nôtre ? »\n\n \n\n« Je n’entrerai en contact avec vos proches qu’après que vous en ayez parlé et donné votre accord. »\n\n \n\n« Une anecdote ou point fort à propos de cette personne ? Cela rendra notre premier échange plus humain. »\n\n \n\n## ➡️ RECOMMANDATIONS\n\nCommence toujours par expliciter que la recommandation fait partie intégrante de ta démarche. Prends le temps de personnaliser la demande et utilise la méthode ASKT HEMAN en anglais avec doigté pour obtenir des informations utiles. Humanise encore davantage le relais entre le client et ses proches.\n\nTu as de solides fondamentaux, un peu de finesse et d’outillage supplémentaire feront la différence. Continue, tu es clairement sur la bonne trajectoire !",
+        "insights": [
+            "Homme, ingénieur qualité, profil DISC Bleu : méthodique, rationnel, prudent, recherche des preuves avant de s’engager.",
+            "Objectif partiellement atteint : engagement à transmettre plusieurs noms avec accord de prise de contact mentionnant son nom.",
+            "Remerciement sincère du client pour sa confiance et valorisation de la solution retenue, générant un climat propice à la recommandation.",
+            "Prise en compte de la posture rationnelle du client avec un questionnement structurant sur la satisfaction et l’état d’esprit.",
+            "Effort de segmentation par cercles de proximité (familial, professionnel, amical), facilitant l’émergence de recommandations.",
+            "Clarté sur le respect du consentement : promesse explicite de ne contacter personne sans feu vert du client.",
+            "Ton amical, posture conseil, absence de pression commerciale ressentie tout au long de l’échange.",
+            "Manque l’explicitation claire que votre activité repose sur la recommandation ; cela aurait renforcé la légitimité de la démarche."
+        ]
     },
     {
         "name": "Philippe Lepeuple",
@@ -21305,7 +23337,18 @@ const RAW_SIMULATIONS = [
                 "text": "Certo. Vou dizer que ganhei proteção para a família e mais tranquilidade no dia a dia.  \nEu falo isso e, se ele quiser, peço pra você explicar custos e coberturas."
             }
         ],
-        "finished": true
+        "finished": true,
+        "feedback": "Aqui está o debriefing da nossa conversa.\n\n  \n## 🤓 PERSONA\n\nMarcos, professor de história, perfil DISC majoritariamente Verde, valoriza segurança, empatia e avesso à pressão.\n\n  \n## 🎯 OBJETIVO PRINCIPAL\n\nO objetivo não foi atingido: não houve obtenção clara de pelo menos dois nomes nem autorização explícita.\n\n  \n## ➕ Pontos fortes\n\n- Houve abertura com elogio à satisfação do cliente e questionamento sobre como ele se sentia após o processo.\n\n  \n- Utilizou linguagem acolhedora e procurou legitimar a satisfação, reforçando o papel consultivo.\n\n  \n- Demonstrou preocupação legítima em respeitar o tempo e o consentimento do cliente antes de abordar terceiros.\n\n  \n- Tentou posicionar a recomendação como gesto de amizade, focando na proteção das pessoas próximas.\n\n  \n## ⚠️ EIXOS DE MELHORIA\n\n- Falta de Estrutura  \n  Não seguiu claramente cada etapa do processo MetLife: pulou a identificação detalhada dos pontos de satisfação, essencial para engajar.\n\n  \n- Pedido Genérico  \n  Perguntas como “quem você pode pensar agora?” ou “alguém perto de você?” são amplas e dificultam a lembrança. Faltou segmentação ativa com exemplos concretos.\n\n  \n- \"ASK THE MAN\" superficial  \n  Não houve coleta estruturada das informações essenciais do contato: nome, idade, profissão etc., de modo natural e completo.\n\n  \n- Ausência de Autorização Explícita  \n  Não ficou registrada de maneira clara a autorização para mencionar o nome do cliente aos indicados.\n\n  \n## 🩵 ANÁLISE EMOCIONAL\n\nO tom do corretor foi amável e empático, por vezes hesitante, com pausas e insegurança visível nas transições de temas.\n\n  \n## 🛅 MOMENTOS-CHAVE\n\nNa abertura, ao confirmar a satisfação do cliente, conseguiu criar clima acolhedor — fundamental para a abordagem de recomendações.\n\n  \nAo propor segmentação, perdeu a chance de guiar o cliente por perfis específicos, fazendo o cliente buscar sozinho.\n\n  \n## 🔊 REFORMULAÇÕES RECOMENDADAS\n\n“Marcos, pensando nos seus colegas do sindicato ou pais da escola, alguém vem à sua cabeça que valorize tranquilidade como você?”\n\n  \n“Posso citar seu nome quando eu for conversar, para que seus amigos saibam que foi por sua indicação?”\n\n  \n“Se preferir, só entro em contato após você avisá-los. Assim, seguimos confortáveis em todo o processo.”\n\n  \n## ➡️ RECOMENDAÇÕES\n\nAprofunde a etapa de identificação da satisfação. Dê exemplos de perfis na abordagem, tornando mais fácil ao cliente lembrar nomes. No uso do \"ASK THE MAN\", faça perguntas abertas e lúdicas para tornar leve. Sempre peça autorização explícita.\n\n  \nContinue! Da próxima vez, foque nas etapas e faça da recomendação algo natural — e não um checklist.",
+        "insights": [
+            "O objetivo não foi atingido: não houve obtenção clara de pelo menos dois nomes nem autorização explícita.",
+            "Houve abertura com elogio à satisfação do cliente e questionamento sobre como ele se sentia após o processo.",
+            "Utilizou linguagem acolhedora e procurou legitimar a satisfação, reforçando o papel consultivo.",
+            "Demonstrou preocupação legítima em respeitar o tempo e o consentimento do cliente antes de abordar terceiros.",
+            "Tentou posicionar a recomendação como gesto de amizade, focando na proteção das pessoas próximas.",
+            "Não seguiu claramente cada etapa do processo MetLife: pulou a identificação detalhada dos pontos de satisfação, essencial para engajar.",
+            "\"ASK THE MAN\" superficial",
+            "Não houve coleta estruturada das informações essenciais do contato: nome, idade, profissão etc., de modo natural e completo."
+        ]
     },
     {
         "name": "Philippe Lepeuple",
@@ -21375,7 +23418,9 @@ const RAW_SIMULATIONS = [
                 "text": "Non. Je ne fais pas de visio à l'aveugle non plus. Proposez-moi une autre alternative concrète et courte, pas"
             }
         ],
-        "finished": false
+        "finished": false,
+        "feedback": "",
+        "insights": []
     },
     {
         "name": "Philippe Lepeuple",
@@ -21437,7 +23482,9 @@ const RAW_SIMULATIONS = [
                 "text": "Non. Je refuse qu'on m'impose un rendez-vous sans document préalable."
             }
         ],
-        "finished": false
+        "finished": false,
+        "feedback": "",
+        "insights": []
     },
     {
         "name": "Philippe Lepeuple",
@@ -21499,7 +23546,18 @@ const RAW_SIMULATIONS = [
                 "text": "Tudo bem, obrigado pela ligação. Até quarta."
             }
         ],
-        "finished": true
+        "finished": true,
+        "feedback": "Voici le débriefing de notre échange\n\n🤓 PERSONA \n\nJ’ai incarné Eduardo, ingénieur qualité aéronautique, profil DISC majoritairement Bleu, méthodique, rationnel, résistant à la pression commerciale.\n\n🎯 OBJECTIF PRINCIPAL\n\nTu as obtenu un rendez-vous ferme tout en traitant les objections du prospect de façon structurée et claire. L’objectif est donc atteint.\n\n➕ Points forts \n\n- La présentation est claire, personnalisée et rassurante, avec une mention immédiate du client référent.\n\n- L’objectif du rendez-vous est bien défini sans tentative de vente prématurée ni détail produit.\n\n- La proposition de créneaux précis en choix forcé respecte la méthode, tout en adaptant les horaires au prospect.\n\n- Tu es resté professionnel, direct et synthétique, évitant tout jargon ou superflu.\n\n⚠️ AXES D’AMÉLIORATION  \n\n- Autorisation\n  Il manque l’obtention explicite de l’autorisation de poursuivre l’échange après la présentation initiale.\n\n- Levier de recommandation\n  L’activation du référent reste factuelle ; ajouter une touche humaine ou anecdote aurait renforcé le lien.\n\n- Réassurance sur la visio\n  Un bénéfice concret (confidentialité, praticité, aucune vente) peut être souligné pour lever les doutes techniques/temps.\n\n- Validation d’objection\n  Un usage plus marqué du “oui, mais…” ou du boomerang rend l’écoute et la personnalisation plus visibles.\n\n🩵 ANALYSE EMOTIONNELLE\n\nLe ton était calme, posé, professionnel, mais un peu linéaire. Manquait un soupçon de chaleur ou de sourire audible pour rassurer un prospect bleu.\n\n🛅 MOMENTS CLÉS  \n\nPremier rebond sur l’assurance déjà existante : tu exposes l’objectif de bilan, ce qui recadre sans contrarier et illustre ta posture conseil.\n\nLe choix forcé horaire en fin d’échange sécurise l’engagement et donne un sentiment d’organisation méthodique au prospect.\n\n🔊 REFORMULATIONS RECOMMANDÉES  \n\n« Je comprends que vous soyez déjà bien protégé, mais ce bilan personnalisé vous permettra d’identifier d’éventuels points d’optimisation en quinze minutes seulement. »\n\n« Paolo m’a parlé de votre souci de fiabilité, c’est justement ce que nous analysons lors de ce rendez-vous. »\n\n« Je vous propose un échange court, sans engagement, mardi ou mercredi à dix-huit heures, c’est votre convenance qui prime. »\n\n« Ce rendez-vous en visioconférence est confidentiel et totalement adapté à vos contraintes personnelles. »\n\n➡️ RECOMMANDATIONS\n\nTravaille ta phase d’autorisation et d’ouverture relationnelle, humanise davantage la recommandation pour détendre l’échange. Structure systématiquement chaque objection avec le “oui, mais…”. N’hésite pas à injecter un brin de chaleur, même en mode “efficacité bleue” !\n\nBravo, tu avances vers l’excellence commerciale, continue à peaufiner ces détails et tu décolleras façon fusée !",
+        "insights": [
+            "Tu as obtenu un rendez-vous ferme tout en traitant les objections du prospect de façon structurée et claire. L’objectif est donc atteint.",
+            "La présentation est claire, personnalisée et rassurante, avec une mention immédiate du client référent.",
+            "L’objectif du rendez-vous est bien défini sans tentative de vente prématurée ni détail produit.",
+            "La proposition de créneaux précis en choix forcé respecte la méthode, tout en adaptant les horaires au prospect.",
+            "Tu es resté professionnel, direct et synthétique, évitant tout jargon ou superflu.",
+            "Levier de recommandation",
+            "Réassurance sur la visio",
+            "Validation d’objection"
+        ]
     },
     {
         "name": "Philippe Lepeuple",
@@ -21617,7 +23675,18 @@ const RAW_SIMULATIONS = [
                 "text": "Tudo bem. À mardi soir à vingt heures."
             }
         ],
-        "finished": true
+        "finished": true,
+        "feedback": "Voici le débriefing de notre échange\n\n🤓 PERSONA\n\nJ'ai incarné Eduardo, ingénieur qualité aéronautique, profil DISC très bleu : méthodique, rationnel, exigeant en preuves et allergique à la précipitation.\n\n🎯 OBJECTIF PRINCIPAL\n\nTu as obtenu le rendez-vous de façon directe, sans laisser de place à la vente, tout en traitant une partie des objections. L'objectif est partiellement atteint car le traitement des objections reste superficiel.\n\n➕ Points forts\n\n- Excellente ouverture : présentation claire, mention immédiate de la recommandation (\"Paolo\") qui pose les bases de la confiance.\n\n- Tu es resté focalisé sur l'objectif RDV, sans tenter de vendre ni d'entrer dans la technique.\n\n- Proposition de créneaux précis (\"mardi soir ou mercredi matin\") : respect du choix forcé.\n\n- Respect du format court en visio et de l'argument \"pas de paperasse\", adapté au contexte.\n\n⚠️ AXES D'AMÉLIORATION  \n\n- Gestion des objections\n  Le traitement est trop rapide ou esquivé (\"on a plein de documents\", puis retour au RDV). Les raisons de refus n'ont pas été explorées, pas de \"oui, mais…\" ni de validation émotionnelle.\n\n- Posture consultative\n  L'approche reste \"fonctionnelle\", peu personnalisée ni vraiment empathique, alors qu'un bleu attend un minimum d'explications rationnelles sur le bénéfice concret.\n\n- Conclusion mécanique\n  Ton passage en force sur l'acceptation/rendez-vous (\"vous acceptez ou pas ?\") manque de souplesse et de chaleur, risquant de braquer ou frustrer le prospect.\n\n- Absence de brise-glace personnel\n  La recommandation est citée mais peu exploitée pour créer du lien : aucun clin d'œil ou anecdote sur Paolo.\n\n🩵 ANALYSE EMOTIONNELLE\n\nLe ton est posé mais un peu robotique, le rythme s’accélère au fil de l’échange, l’ensemble paraît parfois autoritaire plus que chaleureux. Confiant, mais manque de nuance empathique.\n\n🛅 MOMENTS CLÉS\n\nPremière proposition de deux créneaux précis : structurant, efficace pour verrouiller l’agenda du prospect.\n\nQuand tu veux \"détecter\" la qualité du contrat actuel d’Eduardo : prise de position risquée (\"ce qui m’étonnerait\"), qui pénalise la neutralité du conseil.\n\n🔊 REFORMULATIONS RECOMMANDÉES  \n\n\"Je comprends que vous soyez sollicité, mon objectif est vraiment d'adapter notre échange à votre emploi du temps.\"\n\n\"Parlez-moi brièvement des points qui comptent le plus pour vous en matière de sécurité familiale.\"\n\n\"Pour Paolo, cet échange a permis d’optimiser des aspects auxquels il n’avait pas pensé initialement.\"\n\n\"Si mardi soir vous arrange, je vous propose vingt heures : cela reste flexible pour vous ?\"\n\n\"Je vous confirme donc pour mardi, vingt heures en visio, je vous envoie le lien dans la foulée. D’accord ?\"\n\n➡️ RECOMMANDATIONS\n\nDéveloppe la gestion fine des objections avant de proposer le RDV. Humanise ton approche : brise-glace, anecdotes sur la recommandation, validation de l’émotion du prospect à chaque objection. Sois rassurant, moins directif.\n\nContinue, tu maîtrises la structure — il ne manque qu’un soupçon d’art du dialogue pour performer !",
+        "insights": [
+            "J'ai incarné Eduardo, ingénieur qualité aéronautique, profil DISC très bleu : méthodique, rationnel, exigeant en preuves et allergique à la précipitation.",
+            "Tu as obtenu le rendez-vous de façon directe, sans laisser de place à la vente, tout en traitant une partie des objections. L'objectif est partiellement atteint car le traitement des objections reste superficiel.",
+            "Excellente ouverture : présentation claire, mention immédiate de la recommandation (\"Paolo\") qui pose les bases de la confiance.",
+            "Tu es resté focalisé sur l'objectif RDV, sans tenter de vendre ni d'entrer dans la technique.",
+            "Proposition de créneaux précis (\"mardi soir ou mercredi matin\") : respect du choix forcé.",
+            "Respect du format court en visio et de l'argument \"pas de paperasse\", adapté au contexte.",
+            "Gestion des objections",
+            "Posture consultative"
+        ]
     },
     {
         "name": "Philippe Lepeuple",
@@ -21695,7 +23764,18 @@ const RAW_SIMULATIONS = [
                 "text": "Certo. E outra questão…  \nTrès bien, j'attends le lien. À samedi onze heures, quinzième minutes strictes. Au revoir."
             }
         ],
-        "finished": true
+        "finished": true,
+        "feedback": "Voici le débriefing de notre échange.\n\n  \n🤓 PERSONA  \n\nJ’ai incarné Patricia, controller de gestion, très cartésienne, profil DISC clairement bleu : exigeante, structurée, méfiante face au flou ou à la pression commerciale.\n\n  \n🎯 OBJECTIF PRINCIPAL  \n\nTu as partiellement atteint l’objectif : le rendez-vous a été obtenu mais la gestion des objections et l’ancrage du bénéfice concret auraient pu être mieux travaillés.\n\n  \n➕ Points forts  \n\n- Ouverture directe, légitime la recommandation par Paolo en introduction, ce qui crédibilise l’appel.\n\n  \n- Explication claire de la logique du rendez-vous court (« quinze minutes »), rassurant sur la durée et l’engagement.\n\n  \n- Proposition de créneaux avec tentative d’humour (« faire la grasse matinée »), créant un climat détendu.\n\n  \n- Capacité à reformuler l’avantage client (« documents personnalisés pour vous ») et à conclure avec engagement sur le format court.\n\n  \n⚠️ AXES D'AMÉLIORATION  \n\n- Absence de traitement des objections : la conversation déroule une argumentation sans laisser le prospect exprimer ses freins.\n\n  \n- Manque d’écoute active : c’est un monologue, il manque l’espace pour que Patricia pose ses questions ou formule ses réticences.\n\n  \n- La posture est parfois trop orientée solution (« je vais vous faire une proposition »), ce qui frôle le discours vendeur, au détriment du conseil indépendant.\n\n  \n- Absence d’autorisation réelle : tu passes vite du pitch à la prise de rendez-vous sans obtenir de validation explicite sur la poursuite de l’appel.\n\n  \n🩵 ANALYSE EMOTIONNELLE  \n\nLe ton est professionnel, chaleureux, plutôt avenant, mais sur un rythme rapide qui manque parfois d’empathie et de pauses d’écoute.\n\n  \n🛅 MOMENTS CLÉS  \n\nProposition du créneau alternatif en mode humour (« grasse matinée ») : détend l’atmosphère et humanise l’échange.\n  \nEngagement ferme sur la durée du rendez-vous : favorise l’acceptation mais peut créer une attente de performance/délivrable élevé.\n\n  \n🔊 REFORMULATIONS RECOMMANDÉES  \n\n« Pour que ce soit utile, je vous propose un échange très personnalisé et sans aucune pression de décision. »\n\n  \n« C’est justement parce que chaque situation est différente que je ne vous bombarde pas de documents standard : tout part de votre réalité. »\n\n  \n« Nous prendrons quinze minutes ensemble pour voir si l’analyse peut vous apporter une vraie valeur, sans engagement de votre part. »\n\n  \n  \n➡️ RECOMMANDATIONS  \n\nTravaille l’écoute active dès le début : pose des questions ouvertes, laisse venir les objections, puis traite-les par validation émotionnelle et réponse adaptée. Insiste sur le bénéfice personnel, pas sur la solution déjà en tête. Amène deux vrais créneaux proches, pas une suite de propositions trop rapides.\n\nTu as la base : muscle l’écoute, ralentis, et Patricia t’ouvrira vraiment sa porte !",
+        "insights": [
+            "J’ai incarné Patricia, controller de gestion, très cartésienne, profil DISC clairement bleu : exigeante, structurée, méfiante face au flou ou à la pression commerciale.",
+            "Tu as partiellement atteint l’objectif : le rendez-vous a été obtenu mais la gestion des objections et l’ancrage du bénéfice concret auraient pu être mieux travaillés.",
+            "Ouverture directe, légitime la recommandation par Paolo en introduction, ce qui crédibilise l’appel.",
+            "Explication claire de la logique du rendez-vous court (« quinze minutes »), rassurant sur la durée et l’engagement.",
+            "Proposition de créneaux avec tentative d’humour (« faire la grasse matinée »), créant un climat détendu.",
+            "Capacité à reformuler l’avantage client (« documents personnalisés pour vous ») et à conclure avec engagement sur le format court.",
+            "Absence de traitement des objections : la conversation déroule une argumentation sans laisser le prospect exprimer ses freins.",
+            "Manque d’écoute active : c’est un monologue, il manque l’espace pour que Patricia pose ses questions ou formule ses réticences."
+        ]
     },
     {
         "name": "Philippe Lepeuple",
@@ -21817,7 +23897,18 @@ const RAW_SIMULATIONS = [
                 "text": "On dira."
             }
         ],
-        "finished": true
+        "finished": true,
+        "feedback": "Voici le débriefing de notre échange\n\n🤓 PERSONA \n\nJ'incarnais Seu João, producteur agricole de cinquante-huit ans, méfiant, profil DISC rouge, direct et attaché à son réseau local.\n\n🎯 OBJECTIF PRINCIPAL\n\nTu as répondu avec pertinence aux objections et obtenu l'accord ferme pour un rendez-vous visio. L'objectif est atteint.\n\n➕ Points forts \n\n- Tu as rapidement mentionné la recommandation de Paolo, activant ainsi la stratégie de recommandation.\n\n- Tu as su rebondir sur chaque objection sans t’énerver, gardant le contrôle de l’échange.\n\n- Après plusieurs objections, tu as formulé un choix forcé sur deux créneaux proches, méthode efficace.\n\n- Tu as ouvert la visio à la conjointe, ce qui montre une flexibilité et une bonne écoute de la réalité du persona.\n\n⚠️ AXES D'AMÉLIORATION  \n\n- Manque d’autorisation claire en débuts d’appel (« puis-je vous consacrer quinze minutes ? »).\n\n- Certains passages basculent vers la logique de vente ou de produit (« les produits Make life sont quand même les meilleurs »), risquant d’amoindrir ta posture de conseil.\n\n- Explication trop technique du délai contractuel (« ça peut prendre entre un et trois mois »), alors que le rendez-vous n’est pas encore pris.\n\n- Absence possible de brise-glace personnalisé lié à Paolo ou au contexte du client pour instaurer la confiance.\n\n🩵 ANALYSE EMOTIONNELLE\n\nLe ton est resté pro avec une assertivité marquée. Parfois un peu trop technique mais dans l’ensemble confiant et dynamique.\n\n🛅 MOMENTS CLÉS  \n\nL’annonce du choix forcé (mardi matin ou jeudi après-midi) était décisive pour obtenir une réponse claire.  \nLa mention que l’épouse est bienvenue a contribué à lever un dernier frein, créant de l’inclusion.\n\n🔊 REFORMULATIONS RECOMMANDÉES  \n\n« Paolo m’a parlé de vous, il a insisté sur votre sens du concret : je comprends que vous ne perdez pas de temps. »\n\n« Mon but n’est pas de vendre, mais d’analyser votre situation pour voir ce qui a du sens pour votre famille. »\n\n« Ce rendez-vous de quinze minutes est sans engagement et totalement personnalisé, vous et Madame choisirez la suite en toute liberté. »\n\n« Mardi matin à onze heures ou jeudi à quinze heures, qu’est-ce qui colle le mieux à votre agenda ? »\n\n« Je reconfirme : mardi quinze heures en visio, en présence de votre épouse, je vous envoie la confirmation par WhatsApp. »\n\n➡️ RECOMMANDATIONS\n\nPense à soigner l’ouverture, demander l’autorisation avant de dérouler l’argumentaire, et à éviter toute phrase qui ressemble à une promesse de produit ou à de la vente. Reste 100% posture de conseil.\n\nBravo, tu installes une vraie dynamique de rendez-vous – ta progression est indéniable, poursuis ainsi !",
+        "insights": [
+            "J'incarnais Seu João, producteur agricole de cinquante-huit ans, méfiant, profil DISC rouge, direct et attaché à son réseau local.",
+            "Tu as répondu avec pertinence aux objections et obtenu l'accord ferme pour un rendez-vous visio. L'objectif est atteint.",
+            "Tu as rapidement mentionné la recommandation de Paolo, activant ainsi la stratégie de recommandation.",
+            "Tu as su rebondir sur chaque objection sans t’énerver, gardant le contrôle de l’échange.",
+            "Après plusieurs objections, tu as formulé un choix forcé sur deux créneaux proches, méthode efficace.",
+            "Tu as ouvert la visio à la conjointe, ce qui montre une flexibilité et une bonne écoute de la réalité du persona.",
+            "Manque d’autorisation claire en débuts d’appel (« puis-je vous consacrer quinze minutes ? »).",
+            "Certains passages basculent vers la logique de vente ou de produit (« les produits Make life sont quand même les meilleurs »), risquant d’amoindrir ta posture de conseil."
+        ]
     },
     {
         "name": "Philippe Lepeuple",
@@ -21839,7 +23930,9 @@ const RAW_SIMULATIONS = [
                 "text": "Olha, estou no meio de uma tarefa e não tenho muito tempo agora. Podemos falar rápido, do que se trata?"
             }
         ],
-        "finished": false
+        "finished": false,
+        "feedback": "",
+        "insights": []
     },
     {
         "name": "Philippe Lepeuple",
@@ -21861,7 +23954,9 @@ const RAW_SIMULATIONS = [
                 "text": "Ok. Só tenho alguns minutos agora, fale rápido."
             }
         ],
-        "finished": false
+        "finished": false,
+        "feedback": "",
+        "insights": []
     },
     {
         "name": "Philippe Lepeuple",
@@ -21923,7 +24018,9 @@ const RAW_SIMULATIONS = [
                 "text": "Certo. Tá bom, outra coisa: eu já tenho um seguro, então."
             }
         ],
-        "finished": false
+        "finished": false,
+        "feedback": "",
+        "insights": []
     },
     {
         "name": "Philippe Lepeuple",
@@ -21949,7 +24046,9 @@ const RAW_SIMULATIONS = [
                 "text": "Tá bom, Felipe. Ouvi dizer que foi indicação do Paulo, mas ele não me avisou da ligação. Estou no meio de uma reunião agora, pode ser rápido?"
             }
         ],
-        "finished": false
+        "finished": false,
+        "feedback": "",
+        "insights": []
     },
     {
         "name": "Philippe Lepeuple",
@@ -21962,7 +24061,9 @@ const RAW_SIMULATIONS = [
         "lqa": "N/A",
         "interactions": 0,
         "messages": [],
-        "finished": false
+        "finished": false,
+        "feedback": "",
+        "insights": []
     },
     {
         "name": "Philippe Lepeuple",
@@ -21992,7 +24093,9 @@ const RAW_SIMULATIONS = [
                 "text": "Fiz a leitura técnica e gostei do raciocínio. Explicou bem os trade-offs e a estrutura fiscal ficou clara. Onde você vê margem para otimizar custos de carregamento?"
             }
         ],
-        "finished": false
+        "finished": false,
+        "feedback": "",
+        "insights": []
     },
     {
         "name": "Philippe Lepeuple",
@@ -22098,7 +24201,18 @@ const RAW_SIMULATIONS = [
                 "text": "Parfait, je vous attends mardi à dix-sept heures au cabinet avec ma sœur.  \nMerci et à mardi."
             }
         ],
-        "finished": true
+        "finished": true,
+        "feedback": "Aqui está o debriefing da nossa troca.\n\n  \n## 🤓 PERSONA\n\n- Femme, profil Vert majoritaire (DISC), dentiste pragmatique, objection principale : besoin de valider la décision avec un tiers (sœur).\n  \n\n## 🎯 OBJECTIF PRINCIPAL\n\n- Découvrir la véritable raison de l’ajournement et traiter l’obstacle du consentement externe pour obtenir l’engagement immédiat. Objectif partiellement atteint : pas de closing immédiat, mais prochain rendez-vous fixé avec la sœur.\n  \n\n## ➕ POINTS FORTS\n\n- Bonne écoute active en début d’entretien, avec des questions ouvertes pour comprendre le blocage réel.\n\n  \n- Reformulation personnalisée pour rappeler le travail déjà réalisé sur le budget et l’ADN du client.\n\n  \n- Posture professionnelle et chaleureuse en proposant d’accompagner physiquement au cabinet, renforçant la proximité.\n\n  \n- Capacité à proposer rapidement un rendez-vous précis, maintenant ainsi le momentum.\n  \n\nBravo pour cette écoute et cette adaptabilité !\n  \n\n## ⚠️ POINTS DE AMÉLIORATION\n\n- Découverte objection cachée  \n  La question “quelles sont les vraies raisons…” aurait pu être plus douce, moins frontale pour ne pas générer de défense.\n\n  \n- Manque de valorisation de votre expertise personnelle face à la demande d’avis d’un tiers.  \n  Il aurait été pertinent de rappeler pourquoi la solution est sur-mesure, fruit d’un diagnostic approfondi.\n\n  \n- Gun de closing  \n  Le passage à la fixation du rendez-vous saute l’étape de transformation de la validation extérieure en retour à l’ADN : risque de n’être qu’un ajournement sans engagement émotionnel renforcé.\n\n  \nOn progresse en affinant la découverte et en soignant la transition vers le closing !\n\n  \n## 🩵 ANALYSE ÉMOTIONNELLE\n\nTon calme et posé, rythme parfois trop rapide vers la conclusion, questionnement assertif mais légèrement insistant ; impression dominante : confiance cordiale, avec une pointe d’impatience contenue.\n\n  \n## 🛅 MOMENTS-CLÉ\n\nSituation : Refus de décider sans l’avis de la sœur → proposition rapide de convocation au bureau.  \nImportance : Cela canalise la discussion, évite la fuite, mais ne traite pas l’objection sous-jacente.  \nImpact : Engagement reporté mais interlocuteur rassuré et pris en considération.\n\n  \n\n## 🔊 REFORMULATIONS RECOMMANDÉES\n\n- “Qu’est-ce qui vous aiderait à vous sentir totalement sereine pour avancer aujourd’hui ?”\n- “Je comprends que l’avis de votre sœur compte. En quoi pensez-vous que son retour pourrait influencer votre choix personnel ?”\n- “On peut valider ensemble les points techniques, puis je vous accompagne pour répondre à toutes les questions qui pourraient lui venir.”\n- Power Phrase : “Ce qui compte, c’est que votre solution vous ressemble vraiment – c’est pour cela qu’on l’a bâtie sur mesure pour vous et votre fille.”\n- Question de closing : “Si tout est validé de votre côté aujourd’hui, êtes-vous partante pour finaliser ensemble, en présence de votre sœur ?”\n  \n\n## ➡️ RECOMMANDATIONS\n\nContinuez à explorer l’émotion cachée derrière la demande de validation externe et à revaloriser votre diagnostic expert. Amenez plus en douceur la transition de l’analyse à l’engagement. Votre empathie et votre professionnalisme sont vos meilleurs alliés : gardez ce cap !",
+        "insights": [
+            "Femme, profil Vert majoritaire (DISC), dentiste pragmatique, objection principale : besoin de valider la décision avec un tiers (sœur).",
+            "Découvrir la véritable raison de l’ajournement et traiter l’obstacle du consentement externe pour obtenir l’engagement immédiat. Objectif partiellement atteint : pas de closing immédiat, mais prochain rendez-vous fixé avec la sœur.",
+            "Bonne écoute active en début d’entretien, avec des questions ouvertes pour comprendre le blocage réel.",
+            "Reformulation personnalisée pour rappeler le travail déjà réalisé sur le budget et l’ADN du client.",
+            "Posture professionnelle et chaleureuse en proposant d’accompagner physiquement au cabinet, renforçant la proximité.",
+            "Capacité à proposer rapidement un rendez-vous précis, maintenant ainsi le momentum.",
+            "Découverte objection cachée",
+            "Manque de valorisation de votre expertise personnelle face à la demande d’avis d’un tiers."
+        ]
     },
     {
         "name": "Philippe Lepeuple",
@@ -22196,7 +24310,18 @@ const RAW_SIMULATIONS = [
                 "text": "Très bien. On signe maintenant. Prépare la proposition et dis-moi où je dois apposer ma signature."
             }
         ],
-        "finished": true
+        "finished": true,
+        "feedback": "Aqui está o debriefing da nossa troca.\n\n  \n\n🤓 PERSONA\n\n- J’ai interprété Bruno, chirurgien, profil DISC Rouge, exprimant une objection financière sincère et ferme liée à l’ajustement budgétaire immédiat.\n\n  \n\n🎯 OBJECTIF PRINCIPAL\n\n- L’objectif de découvrir l’origine réelle du blocage et de traiter la crainte budgétaire par une pratique MetLife a été partiellement atteint.\n\n  \n\n➕ POINTS FORTS\n\n- Tu as proposé concrètement d’adapter le capital garanti et la mensualité à la situation financière du client.\n\n  \n- Tu as mis en avant la flexibilité de l’offre (“c’est vous qui décidez...”), rassurant le client sur le contrôle qu’il peut garder.\n\n  \n- Proposition claire de passer rapidement à l’action, adaptée au profil Rouge (“je vous propose de signer maintenant”).\n\n  \nBravo pour ta capacité à rendre le produit plus flexible et ta volonté d’avancer sans tergiverser !\n\n  \n\n📈 POINTS DE AMÉLIORATION\n\n- Diagnostic de la vraie objection. Il manque des questions ouvertes pour comprendre si le frein est lié au montant, au long terme ou à un autre engagement.\n\n  \n- Empathie verbale. La formule de départ minimise une difficulté sincère (“c’est justement pour éviter pire après”) sans vraie écoute. Une reformulation ou question aurait été préférable.\n\n  \n- Croisement ADN/besoins. Les besoins spécifiques du client (enfants, dettes, revenus) n’ont pas été remis dans la balance avant la relance.\n\n  \n- Power Phrase. L’usage d’une phrase forte et d’un silence après (“Personne ne regrette d’avoir protégé les siens à temps...”) aurait eu plus d’impact.\n\n  \nPiste : explore les non-dits et évite de foncer tête baissée — avec le Rouge, la rapidité oui, mais sans négliger l’étape écoute !\n\n  \n\n🩵 ANALYSE ÉMOTIONNELLE\n\nLe ton est professionnel, parfois un peu mécanique, manquant d’empathie verbale. L’attitude globale est rapide, déterminée mais quelque peu pressée.\n\n  \n\n🛅 MOMENTS-CLÉ\n\nSituation : Proposition d’ajuster les garanties.\n\n  \nAction : Tu montres la souplesse disponible dès maintenant.\n\n  \nImportance : Cela sécurise le client mais aurait gagné à être précédé par une écoute active plus affirmée.\n\n  \n\n🔊 REFORMULATIONS RECOMMANDÉES\n\n« Qu’est-ce qui, dans cette proposition, vous freine le plus aujourd’hui : le montant, la durée ou autre chose ? »\n\n« Ce choix vous protège dès maintenant, même à un niveau plus modeste, et vous pourrez toujours l’ajuster en fonction de votre réalité. »\n\n« Signer aujourd’hui, c’est prendre la décision tant que votre budget le permet et garder toute latitude pour l’avenir. On avance ? »\n\n« Personne ne regrette d’avoir protégé sa famille à temps. Beaucoup regrettent de l’avoir reporté. »\n\n  \n\n➡️ RECOMMANDATIONS\n\nPrends toujours un moment pour investiguer franchement le vrai blocage, personnalise la relance avec les besoins ADN, utilise le silence après ta Power Phrase et confirme avec une question de clôture. Tu es sur la bonne voie, garde ce cap tout en musclant ton écoute active et ton impact émotionnel !",
+        "insights": [
+            "J’ai interprété Bruno, chirurgien, profil DISC Rouge, exprimant une objection financière sincère et ferme liée à l’ajustement budgétaire immédiat.",
+            "L’objectif de découvrir l’origine réelle du blocage et de traiter la crainte budgétaire par une pratique MetLife a été partiellement atteint.",
+            "Tu as proposé concrètement d’adapter le capital garanti et la mensualité à la situation financière du client.",
+            "Tu as mis en avant la flexibilité de l’offre (“c’est vous qui décidez...”), rassurant le client sur le contrôle qu’il peut garder.",
+            "Proposition claire de passer rapidement à l’action, adaptée au profil Rouge (“je vous propose de signer maintenant”).",
+            "Diagnostic de la vraie objection. Il manque des questions ouvertes pour comprendre si le frein est lié au montant, au long terme ou à un autre engagement.",
+            "Empathie verbale. La formule de départ minimise une difficulté sincère (“c’est justement pour éviter pire après”) sans vraie écoute. Une reformulation ou question aurait été préférable.",
+            "Croisement ADN/besoins. Les besoins spécifiques du client (enfants, dettes, revenus) n’ont pas été remis dans la balance avant la relance."
+        ]
     },
     {
         "name": "Philippe Lepeuple",
@@ -22286,7 +24411,18 @@ const RAW_SIMULATIONS = [
                 "text": "D'accord, programmons la première mensualité pour le mois prochain.  \nEnvoyez-moi les détails pour la signature et je m'occupe de tout."
             }
         ],
-        "finished": true
+        "finished": true,
+        "feedback": "Aqui está o debriefing da nossa troca.\n\n  \n🤓 PERSONA\n\n- Femme, profil majoritairement Vert (DISC), pragmatique, soucieuse de sécuriser sa fille mais prudente côté budget.\n  \n- Exprime d’abord l’objection « le moment n’est pas idéal, finances serrées », typique d’une contrainte budgétaire réelle.\n\n  \n🎯 OBJECTIF PRINCIPAL\n\n- Vous avez découvert la raison réelle du blocage et proposé un ajustement concret, déclenchant l'accord immédiat de Fernanda.\n\n- L’objectif a été atteint, avec une cliente tranquille, sans pression ni malaise.\n\n  \n➕ POINTS FORTS\n\n- Bonne écoute des inquiétudes financières, pas de précipitation ni de minimisation initiale.\n\n- Proposition habile et progressive d’un ajustement du montant de la prime pour coller à la réalité du budget.\n\n- Argumentaire axé sur l’importance de la protection familiale, recentré sur la valeur de l’assurance, pas sur le « produit ».\n\n- Clôture consultative, à l’écoute, avec choix du client à chaque étape et invitation explicite à valider.\n\n- Bravo, c’est une approche empathique et structurée qui inspire confiance !\n\n  \n📈 POINTS DE MELHORIA\n\n- Manque de phase de silence après une Power Phrase. Parfois, l'enchaînement rapide d'arguments peut noyer l’impact émotionnel.\n\n- Absence d’une vraie reformulation des besoins ADN avant la conclusion : la reprise synthétique aurait renforcé la connexion avec les priorités identifiées.\n\n- L'offre de flexibilité sur la prime est bonne, mais gagne à être formulée en visualisant la « croix VOSSA/NOSSA » (rapport obligations/client/société).\n\n- La question de diagnostic sur la durée des difficultés mérite d’être posée plus tôt et creusée plus en profondeur.\n\n- Les progrès sont déjà visibles, quelques raffinements feront décoller votre closing !\n\n  \n🩵 ANALYSE EMOTIONNELLE\n\n- Ton calme, discours fluide, vocabulaire rassurant et accessible.\n\n- Attitude majoritairement confiante, apaisante, avec quelques moments de petite précipitation vers la fin.\n\n  \n🛅 MOMENTS-CHAVE\n\n- Lorsque Fernanda hésite sur le budget, vous proposez de baisser à quatre cents puis trois cent cinquante reais : la flexibilité fait baisser sa résistance et déverrouille l’accord.\n\n- La reformulation de la possibilité d’ajuster la prime plus tard ancre la notion de sécurité sur mesure.\n\n  \n🔊 REFORMULATIONS RECOMMANDEES\n\n- « Beaucoup de gens reportent cette décision et le regrettent : mieux vaut protéger pendant qu’on le peut encore. »\n\n- « Au-delà du montant, c’est la tranquillité de votre famille qu’on sécurise : c’est bien votre priorité, n’est-ce pas ? »\n\n- « Est-ce que l’obstacle principal, c’est la mensualité, le long terme ou l’idée de souscrire maintenant ? »\n\n- « Partons sur cette mensualité adaptée. Je prépare le dossier, cela vous convient-il ? »\n\n- « Dès que votre situation s’améliore, nous réévaluons ensemble, vous restez toujours maître à bord. »\n\n  \n➡️ RECOMMANDATIONS\n\nContinuez à mettre l’accent sur la co-construction et le rythme du client, tout en structurant davantage les moments d’émotion (silence, reformulation ADN). Ancrez systématiquement l’avantage client à chaque ajustement budgétaire. Vous êtes sur la bonne voie : gardez ce cap vibrant et humain !",
+        "insights": [
+            "Femme, profil majoritairement Vert (DISC), pragmatique, soucieuse de sécuriser sa fille mais prudente côté budget.",
+            "Exprime d’abord l’objection « le moment n’est pas idéal, finances serrées », typique d’une contrainte budgétaire réelle.",
+            "Vous avez découvert la raison réelle du blocage et proposé un ajustement concret, déclenchant l'accord immédiat de Fernanda.",
+            "L’objectif a été atteint, avec une cliente tranquille, sans pression ni malaise.",
+            "Bonne écoute des inquiétudes financières, pas de précipitation ni de minimisation initiale.",
+            "Proposition habile et progressive d’un ajustement du montant de la prime pour coller à la réalité du budget.",
+            "Argumentaire axé sur l’importance de la protection familiale, recentré sur la valeur de l’assurance, pas sur le « produit ».",
+            "Clôture consultative, à l’écoute, avec choix du client à chaque étape et invitation explicite à valider."
+        ]
     },
     {
         "name": "Philippe Lepeuple",
@@ -22376,7 +24512,18 @@ const RAW_SIMULATIONS = [
                 "text": "Parfait, à jeudi alors.  \nSi besoin d'ajuster l'heure, envoie-moi un message avant mercredi soir."
             }
         ],
-        "finished": true
+        "finished": true,
+        "feedback": "Aqui está o debriefing da nossa troca.\n\n  \n## 🤓 PERSONA\n\n- Gynécologue-obstétricienne, profil DISC majoritairement vert, exprimant principalement une objection liée à la nécessité de consulter le conjoint avant décision.\n\n\n## 🎯 OBJECTIF PRINCIPAL\n\n- Découvrir la vraie raison de l’ajournement et traiter par technique Gorilla adaptée.\n- Objectif partiellement atteint, mais sans obtention de la signature immédiate.\n\n\n## ➕ PONTOS FORTES\n\n- Bonne écoute initiale, avec reformulation puis question sur ce qui empêche la décision aujourd'hui—esprit Gorilla des questions de découverte.\n\n  \n- Proposition d’un rendez-vous à trois pour avancer, démontre adaptation et respect de la dynamique de couple, posture de planificateur.\n\n  \n- Démonstration d’assertivité en offrant un choix direct de créneau horaire, incarnant la Concordância Tácita.\n\n  \n- Ton professionnel et cordial, sans pression manifeste ni manipulation émotionnelle excessive.\n\n  \n- Bravo, tu as gardé la porte ouverte et tu as su maintenir la relation de confiance !\n\n\n## ⚠️ PONTOS DE MELHORIA\n\n- Découverte incomplet de l’objection cachée (absence de la question Gorilla « Vous souhaitez réfléchir à si vous allez le faire, ou quand ? »).\n\n  \n- Technique Gorilla « Histoire de l’Anneau de Brillants » non utilisée alors qu’adaptée à ce profil d’objection familiale.\n\n  \n- Absence d’un rappel clair des besoins du client (méthode V.I.D.A.) pour reconnecter à l’émotionnel et activer un levier de décision.\n\n  \n- L’opportunité d’utiliser une Power Phrase Gorilla et le silence qui suit n’a pas été saisie pour renforcer la conviction.\n\n  \n- Pour progresser : t’appuyer davantage sur les séquences Gorilla (questions, émotion, Power Phrase) pour fluidifier la bascule vers la signature immédiate.\n\n\n## 🩵 ANÁLISE EMOCIONAL\n\nLe ton est serein, parfois un brin hésitant, rythmé par des questions sincères ; vocabulaire informel mais respectueux. État dominant : empathique et professionnel.\n\n\n## 🛅 MOMENTOS-CHAVE\n\nSituation : Lorsque le client exprime le besoin de consulter son conjoint.\n\n  \nAction : Proposition rapide d'un rendez-vous à trois (technique Gorilla—Compromis et orientation solution).\n\n  \nImportance : Permet d’éviter l’évitement et de maintenir l’avancée, mais la non-activation émotionnelle limite la concrétisation.\n\n\n## 🔊 REFORMULAÇÕES RECOMENDADAS\n\n- « Vous voulez réfléchir à si vous allez souscrire, ou simplement à quand vous allez le faire ? »\n\n- « Ce genre de protection, c’est un cadeau d’amour qu’on n’a pas toujours besoin de valider à deux, mais je comprends. »\n\n- « Vous savez, l’important n’est pas quand on veut souscrire un assurance, mais pendant qu’on en a la possibilité. »\n\n- « Préférez-vous mettre cent pour cent au bénéfice de votre conjoint, ou souhaitez-vous répartir différemment ? »\n\n- « Mardi ou jeudi, qu’est-ce qui est le plus rassurant pour avancer ensemble ? »\n\n\n## ➡️ RECOMENDAÇÕES\n\nPense à toujours diagnostiquer l’objection réelle via les cinq questions Gorilla, puis connecte l’émotionnel (méthode V.I.D.A.) et ose la Power Phrase suivie d’un silence. Adopte la technique de l’Anneau de Brillants quand la validation du conjoint émerge. Un pas de plus, et la signature est à toi !",
+        "insights": [
+            "Gynécologue-obstétricienne, profil DISC majoritairement vert, exprimant principalement une objection liée à la nécessité de consulter le conjoint avant décision.",
+            "Découvrir la vraie raison de l’ajournement et traiter par technique Gorilla adaptée.",
+            "Objectif partiellement atteint, mais sans obtention de la signature immédiate.",
+            "Bonne écoute initiale, avec reformulation puis question sur ce qui empêche la décision aujourd'hui—esprit Gorilla des questions de découverte.",
+            "Proposition d’un rendez-vous à trois pour avancer, démontre adaptation et respect de la dynamique de couple, posture de planificateur.",
+            "Démonstration d’assertivité en offrant un choix direct de créneau horaire, incarnant la Concordância Tácita.",
+            "Ton professionnel et cordial, sans pression manifeste ni manipulation émotionnelle excessive.",
+            "Bravo, tu as gardé la porte ouverte et tu as su maintenir la relation de confiance !"
+        ]
     },
     {
         "name": "Sabrina Oliveira",
@@ -22494,7 +24641,9 @@ const RAW_SIMULATIONS = [
                 "text": "Tem certeza de que vai me explicar agora? Tenho só alguns minutos. Seja direta: quanto eu pagaria e o que eu receberia de cobertura."
             }
         ],
-        "finished": false
+        "finished": false,
+        "feedback": "",
+        "insights": []
     },
     {
         "name": "Sabrina Oliveira",
@@ -22524,7 +24673,9 @@ const RAW_SIMULATIONS = [
                 "text": "Já me abordaram algumas vezes, sim. Não tenho seguro de vida hoje. Acho importante, sim, principalmente pela minha filha."
             }
         ],
-        "finished": false
+        "finished": false,
+        "feedback": "",
+        "insights": []
     },
     {
         "name": "Sabrina Oliveira",
@@ -22602,7 +24753,9 @@ const RAW_SIMULATIONS = [
                 "text": "Genilson, não mexe não, cê tá me confundindo com outro cara. Eu não vendo nada agora e não tenho tempo pra proposta rápida. Se for sério, manda uma mensagem com os dados da oferta que eu vejo depois."
             }
         ],
-        "finished": false
+        "finished": false,
+        "feedback": "",
+        "insights": []
     },
     {
         "name": "Sabrina Oliveira",
@@ -22632,7 +24785,9 @@ const RAW_SIMULATIONS = [
                 "text": "Que bom que você está conversando com eles. Posso só saber quem exatamente você está falando?"
             }
         ],
-        "finished": false
+        "finished": false,
+        "feedback": "",
+        "insights": []
     },
     {
         "name": "Sabrina Oliveira",
@@ -22650,7 +24805,9 @@ const RAW_SIMULATIONS = [
                 "text": "(música de introdução)"
             }
         ],
-        "finished": false
+        "finished": false,
+        "feedback": "",
+        "insights": []
     },
     {
         "name": "Sabrina Oliveira",
@@ -22672,7 +24829,9 @@ const RAW_SIMULATIONS = [
                 "text": "Oito ou dez mil de cobertura? Pode ser, mas preciso entender o que exatamente cobre. Você já tem um resumo simples das garantias e exclusões?"
             }
         ],
-        "finished": false
+        "finished": false,
+        "feedback": "",
+        "insights": []
     },
     {
         "name": "Sabrina Oliveira",
@@ -22685,7 +24844,9 @@ const RAW_SIMULATIONS = [
         "lqa": "N/A",
         "interactions": 0,
         "messages": [],
-        "finished": false
+        "finished": false,
+        "feedback": "",
+        "insights": []
     },
     {
         "name": "Sabrina Oliveira",
@@ -22735,7 +24896,18 @@ const RAW_SIMULATIONS = [
                 "text": "Então, Camila... Tá bom."
             }
         ],
-        "finished": true
+        "finished": true,
+        "feedback": "Aqui está o debriefing da nossa troca.\n\n  \n### 🤓 PERSONA\n\nPersona: Prospect mulher, perfil alta executiva, tom desconfiado, perfil DISC majoritariamente verde, reservado no início ao ser abordada.\n\n  \n### 🎯 OBJETIVO PRINCIPAL\n\n- As objeções referentes à origem do contato foram minimamente endereçadas.\n  \n- A proposta de reunião foi feita, porém sem escolha forçada entre dois horários.\n  \n- O objetivo foi parcialmente atingido.\n\n  \n### ➕ PONTOS FORTES\n\n- O nome do cliente em comum foi utilizado de maneira consistente, trazendo associação de confiança indireta.\n  \n- O pitch inicial foi breve e buscou criar conexão ao mencionar o perfil e os planos do prospect.\n  \n- O objetivo de propor a reunião foi repetido e houve menção clara do benefício desse encontro.\n\n  \n### ⚠️ PONTOS DE MELHORIA\n\n- **Falta de pedido de autorização explícito**  \n  Não foi solicitado se era um bom momento para falar antes de seguir na abordagem.\n\n  \n- **Quebra-gelo e recomendação pessoal pouco explorada**  \n  Faltou ativar um gatilho de recomendação mais humanizado ou um aspecto pessoal do relacionamento com Paulo.\n  \n\n- **Tentativa precoce de venda e uso de linguagem muito comercial**  \n  Uso de termos como “produto” e descrição antecipada do benefício fogem da postura consultiva/metodologia MetLife.\n  \n\n- **Ausência de escolha forçada na agenda**  \n  A proposta de reunião não especificou opções de data e horário próximas.\n\n  \n### 🩵 ANÁLISE EMOCIONAL\n\nO tom foi cortês, mas um pouco ansioso. Faltou mais empatia e adaptação ao ritmo do prospect. Postura predominantemente cordial, porém com energia vendedorística.\n\n  \n### 🛅 MOMENTOS-CHAVE\n\nSituação: Justificativa da ligação citando o Paulo.  \nCorretor ativou um elo de confiança, mas não explorou detalhes da recomendação, perdendo chance de quebrar objeções de desconfiança.\n\n  \nSituação: Tentativa de marcar reunião após breve apresentação.  \nFoi direto ao ponto, mas não personalizou a proposta segundo tempo/disponibilidade do prospect.\n\n  \n### 🔊 REFORMULAÇÕES RECOMENDADAS\n\n- Camila, posso reservar dois minutinhos agora ou prefere que eu retorne em outro horário específico?\n  \n- O Paulo falou muito bem de você e me sugeriu porque acha que também posso contribuir para seus planos.\n  \n- Acho que cinco minutos podem te ajudar a entender o que pode fazer sentido para proteger seu futuro e da sua família.\n  \n- Prefere conversar amanhã às dez ou na quarta-feira às quatorze?\n\n  \n### ➡️ RECOMENDAÇÕES\n\nSempre peça autorização antes de avançar. Use mais o lado pessoal e histórias ligadas ao recomendador. Proponha horários concretos e evite detalhamento de produto antes da reunião. Adote tom consultivo, sem pressa.\n\n  \nConfie no seu potencial: ajustes simples vão transformar seu índice de reuniões em algo digno de portfólio!",
+        "insights": [
+            "Persona: Prospect mulher, perfil alta executiva, tom desconfiado, perfil DISC majoritariamente verde, reservado no início ao ser abordada.",
+            "As objeções referentes à origem do contato foram minimamente endereçadas.",
+            "A proposta de reunião foi feita, porém sem escolha forçada entre dois horários.",
+            "O objetivo foi parcialmente atingido.",
+            "O nome do cliente em comum foi utilizado de maneira consistente, trazendo associação de confiança indireta.",
+            "O pitch inicial foi breve e buscou criar conexão ao mencionar o perfil e os planos do prospect.",
+            "O objetivo de propor a reunião foi repetido e houve menção clara do benefício desse encontro.",
+            "Falta de pedido de autorização explícito"
+        ]
     },
     {
         "name": "Sabrina Oliveira",
@@ -22765,7 +24937,9 @@ const RAW_SIMULATIONS = [
                 "text": "O que você quer agora? Estou ocupada colhendo e não gosto de perder tempo."
             }
         ],
-        "finished": false
+        "finished": false,
+        "feedback": "",
+        "insights": []
     },
     {
         "name": "Sabrina Oliveira",
@@ -22799,7 +24973,9 @@ const RAW_SIMULATIONS = [
                 "text": "Será que eu-- (música de suspense)"
             }
         ],
-        "finished": false
+        "finished": false,
+        "feedback": "",
+        "insights": []
     },
     {
         "name": "Sabrina Oliveira",
@@ -22901,7 +25077,18 @@ const RAW_SIMULATIONS = [
                 "text": "Tudo bem. Aguardo o e‑mail com"
             }
         ],
-        "finished": true
+        "finished": true,
+        "feedback": "Aqui está o debriefing da nossa troca.\n\n  \n### 🤓 PERSONA\n\nVocê lidou com uma prospect azul no DISC: analítica, racional, desconfiada, focada em lógica e clareza.\n\n  \n### 🎯 OBJETIVO PRINCIPAL\n\nVocê respondeu a objeções e apresentou a proposta sem vender produtos. Porém, não conseguiu confirmar reunião. Objetivo parcialmente atingido.\n\n  \n### ➕ PONTOS FORTES\n\n- Solicitou permissão antes de apresentar o motivo da ligação, respeitando o tempo da prospect.\n\n  \n- Explicou a recomendação de Paulo de forma detalhada, gerando autoridade e contexto.\n\n  \n- Apresentou a proposta de reunião com escolha forçada entre dois horários.\n\n  \n- Reforçou a personalização da abordagem, evitando enviar material genérico sem propósito.\n\n  \n### ⚠️ PONTOS DE MELHORIA\n\n- **Gestão das objeções**\n  \n  Apesar de tratar o pedido de material, faltou validar o desconforto e usar o “sim, mas...” com mais empatia, por exemplo: “Entendo que queira se preparar, mas posso contextualizar pessoalmente e esclarecer direto suas dúvidas.”\n\n  \n- **Construção de vínculo**\n  \n  O quebra-gelo ficou formal e frio, quase mecânico, sem nenhuma aproximação pessoal.\n\n  \n- **Falta de reconfirmação**\n  \n  Não houve fechamento claro de agenda. A reunião ficou no “quem sabe”, sem compromisso assertivo.\n\n  \n- **Tom consultivo**\n  \n  Apesar de evitar venda direta, ainda empregou argumentos que soaram como “justificativa” e não “aconselhamento”.\n\n  \n###  🩵 ANÁLISE EMOCIONAL\n\nA comunicação foi clara, mas um pouco rígida. Seu tom foi educado e assertivo, porém faltou calor e genuíno interesse pessoal.\n\n  \n### 🛅 MOMENTOS-CHAVE\n\nQuando explicou o motivo do contato e a recomendação de Paulo, reforçou autoridade e propósito—isso gera diferenciação e abre portas.\n\nAo insistir em não enviar material, sem validar o desejo da prospect, houve perda de empatia e engajamento no instante crucial da objeção.\n\n  \n### 🔊 REFORMULAÇÕES RECOMENDADAS\n\n“Entendo que queira analisar antes; posso compartilhar um resumo institucional e, na nossa conversa, trabalhamos seu cenário juntos, pode ser?”\n\n  \n“Paulo recomendou seu perfil por sua visão de futuro—posso mostrar como planejar de forma personalizada, sem compromisso de adesão.”\n\n  \n“Posso propor começarmos juntos amanhã às nove da manhã ou prefere quinta à tarde?”\n\n  \n“O maior valor está em entender você; por isso nada pronto se encaixa. Prefere presencial ou online?”\n\n  \n### ➡️ RECOMENDAÇÕES\n\nAprimore a validação emocional das objeções. Traga o prospect para o centro da conversa e reforce a proposta consultiva. Sempre feche com data, hora e reconfirmação clara. Teste adicionar uma pitada de leveza e proximidade.\n\nA jornada de alta performance começa na escuta ativa. Siga com energia!",
+        "insights": [
+            "Você lidou com uma prospect azul no DISC: analítica, racional, desconfiada, focada em lógica e clareza.",
+            "Solicitou permissão antes de apresentar o motivo da ligação, respeitando o tempo da prospect.",
+            "Explicou a recomendação de Paulo de forma detalhada, gerando autoridade e contexto.",
+            "Apresentou a proposta de reunião com escolha forçada entre dois horários.",
+            "Reforçou a personalização da abordagem, evitando enviar material genérico sem propósito.",
+            "Apesar de tratar o pedido de material, faltou validar o desconforto e usar o “sim, mas...” com mais empatia, por exemplo: “Entendo que queira se preparar, mas posso contextualizar pessoalmente e esclarecer direto suas dúvidas.”",
+            "Construção de vínculo",
+            "O quebra-gelo ficou formal e frio, quase mecânico, sem nenhuma aproximação pessoal."
+        ]
     },
     {
         "name": "Sabrina Oliveira",
@@ -22923,7 +25110,9 @@ const RAW_SIMULATIONS = [
                 "text": "Aí, mas eu pedi pra senhora me mandar um material antes, né? Quero ver por escrito antes de marcar qualquer encontro."
             }
         ],
-        "finished": false
+        "finished": false,
+        "feedback": "",
+        "insights": []
     },
     {
         "name": "Sabrina Oliveira",
@@ -22941,7 +25130,9 @@ const RAW_SIMULATIONS = [
                 "text": "Ai, não, desculpa."
             }
         ],
-        "finished": false
+        "finished": false,
+        "feedback": "",
+        "insights": []
     },
     {
         "name": "Sabrina Oliveira",
@@ -22954,7 +25145,9 @@ const RAW_SIMULATIONS = [
         "lqa": "N/A",
         "interactions": 0,
         "messages": [],
-        "finished": false
+        "finished": false,
+        "feedback": "",
+        "insights": []
     },
     {
         "name": "Sabrina Oliveira",
@@ -22972,7 +25165,9 @@ const RAW_SIMULATIONS = [
                 "text": "O mais prático é me enviar o documento por e-mail, eu o percorro no meu ritmo e retorno com minhas impressões."
             }
         ],
-        "finished": false
+        "finished": false,
+        "feedback": "",
+        "insights": []
     },
     {
         "name": "Sabrina Oliveira",
@@ -22985,7 +25180,9 @@ const RAW_SIMULATIONS = [
         "lqa": "N/A",
         "interactions": 0,
         "messages": [],
-        "finished": false
+        "finished": false,
+        "feedback": "",
+        "insights": []
     },
     {
         "name": "Sabrina Oliveira",
@@ -23007,7 +25204,9 @@ const RAW_SIMULATIONS = [
                 "text": "Pode falar."
             }
         ],
-        "finished": false
+        "finished": false,
+        "feedback": "",
+        "insights": []
     },
     {
         "name": "Sabrina Oliveira",
@@ -23020,7 +25219,9 @@ const RAW_SIMULATIONS = [
         "lqa": "N/A",
         "interactions": 0,
         "messages": [],
-        "finished": false
+        "finished": false,
+        "feedback": "",
+        "insights": []
     },
     {
         "name": "Sabrina Oliveira",
@@ -23102,7 +25303,18 @@ const RAW_SIMULATIONS = [
                 "text": "Doutora, agradeço que envie o material.  \nQuinta-feira às quatro da tarde serve melhor para mim."
             }
         ],
-        "finished": true
+        "finished": true,
+        "feedback": "Aqui está o debriefing de nossa conversa.\n\n🤓 PERSONA\n\nInterpretei Patrícia, controller de gestão, perfil majoritariamente azul DISC: analítica, rigorosa, orientada a fatos, avessa à improvisação e exigente por clareza.\n\n🎯 OBJETIVO PRINCIPAL\n\nVocê explicou as razões para não enviar material genérico e tentou agendar uma reunião, mas cedeu à objeção ao final. Objetivo parcialmente atingido.\n\n➕ Pontos fortes\n\n- Fez uma boa introdução ao explicar a necessidade de personalização, mostrando que o planejamento depende do perfil individual.\n- Aplicou, de início, a técnica de eleição forçada ao propor dois horários concretos e próximos para a reunião.\n- Comunicou respeito ao considerar preferências do prospect sobre o formato do encontro (online ou presencial).\n\n⚠️ EIXOS DE MELHORIA\n\n- Faltou validação clara do sentimento da prospect (“Patrícia, entendo sua cautela, é natural querer avaliar antes.”), o que poderia aumentar a receptividade.\n- A argumentação sobre a impossibilidade do material genérico foi atropelada e um tanto repetitiva, com hesitações (“é, é isso... eu não tenho–”, “Mas deixa eu explicar uma coisa pra você...”).\n- Cedeu no envio do material ainda que tenha advertido sobre sua limitação, perdendo a negociação e não explorando suficientemente as razões do pedido.\n- Não investigou, com perguntas abertas e escuta ativa, as verdadeiras motivações da prospect, como desconfiança, comparação ou desconforto com o tema.\n- O tempo proposto para reunião oscilou (trinta, quarenta minutos; depois quinze), transmitindo insegurança.\n\n🩵 ANÁLISE EMOCIONAL\n\nO tom foi contido, por vezes hesitante, transmitindo certa insegurança na argumentação. O vocabulário buscou ser cuidadoso, mas a fluidez foi prejudicada por repetições e respostas pouco estruturadas.\n\n🛅 MOMENTOS-CHAVE\n\nDestaque para o momento em que você explicou a personalização da proposta e fez a primeira tentativa de agendamento, revelando domínio do processo. Por outro lado, ao aceitar enviar o material, o controle da conversa foi perdido, impactando negativamente o desempenho negociador.\n\n🔊 REFORMULAÇÕES RECOMENDADAS\n\n“Compreendo seu desejo de analisar antes, mas só faz sentido apresentar informações alinhadas ao seu perfil.”  \n\n“Posso entender o que mais lhe preocupa ao falar sobre seguros? Assim, ajusto o conteúdo para ser relevante para a senhora.”  \n\n“Posso garantir que a conversa será objetiva e sem compromisso, apenas para mapear o que realmente faz sentido para a senhora.”  \n\n“Dado seu perfil, posso reservar um horário rápido na quinta-feira às quatro ou sexta-feira às nove – qual seria melhor?”\n\n➡️ RECOMENDAÇÕES\n\nInvista em validar logo o sentimento da prospect e investigue suas motivações com perguntas abertas antes de contra-argumentar. Reforce que o processo é consultivo, personalizado e sem compromisso. Evite ceder à primeira objeção. Estruture melhor o discurso.\n\nContinue treinando: dominar objeções e manter o controle é questão de prática e autoconfiança!",
+        "insights": [
+            "Interpretei Patrícia, controller de gestão, perfil majoritariamente azul DISC: analítica, rigorosa, orientada a fatos, avessa à improvisação e exigente por clareza.",
+            "Fez uma boa introdução ao explicar a necessidade de personalização, mostrando que o planejamento depende do perfil individual.",
+            "Aplicou, de início, a técnica de eleição forçada ao propor dois horários concretos e próximos para a reunião.",
+            "Comunicou respeito ao considerar preferências do prospect sobre o formato do encontro (online ou presencial).",
+            "Faltou validação clara do sentimento da prospect (“Patrícia, entendo sua cautela, é natural querer avaliar antes.”), o que poderia aumentar a receptividade.",
+            "A argumentação sobre a impossibilidade do material genérico foi atropelada e um tanto repetitiva, com hesitações (“é, é isso... eu não tenho–”, “Mas deixa eu explicar uma coisa pra você...”).",
+            "Cedeu no envio do material ainda que tenha advertido sobre sua limitação, perdendo a negociação e não explorando suficientemente as razões do pedido.",
+            "Não investigou, com perguntas abertas e escuta ativa, as verdadeiras motivações da prospect, como desconfiança, comparação ou desconforto com o tema."
+        ]
     },
     {
         "name": "Sabrina Oliveira",
@@ -23128,7 +25340,9 @@ const RAW_SIMULATIONS = [
                 "text": "Então, eu não sei o que é isso aqui, se alguém sabe, alguém comenta aí, porque eu tô meio esquecida."
             }
         ],
-        "finished": false
+        "finished": false,
+        "feedback": "",
+        "insights": []
     },
     {
         "name": "Sabrina Oliveira",
@@ -23150,7 +25364,9 @@ const RAW_SIMULATIONS = [
                 "text": "O que foi?"
             }
         ],
-        "finished": false
+        "finished": false,
+        "feedback": "",
+        "insights": []
     },
     {
         "name": "Sabrina Oliveira",
@@ -23163,7 +25379,9 @@ const RAW_SIMULATIONS = [
         "lqa": "N/A",
         "interactions": 0,
         "messages": [],
-        "finished": false
+        "finished": false,
+        "feedback": "",
+        "insights": []
     },
     {
         "name": "Sabrina Oliveira",
@@ -23221,7 +25439,18 @@ const RAW_SIMULATIONS = [
                 "text": "Ok, combinado. Espero sua mensagem com o local exato perto do portão principal por volta das onze da manhã. Até lá."
             }
         ],
-        "finished": true
+        "finished": true,
+        "feedback": "Aqui está o debriefing da nossa troca.\n\n🤓 PERSONA\n\nInterpretado como Eduardo, engenheiro de qualidade, perfil DISC azul, metódico, racional, avesso a pressa e desconfiado.\n\n🎯 OBJETIVO PRINCIPAL\n\nVocê foi convincente e estruturado, tratou objeções embrionárias e conseguiu agendar uma reunião. Objetivo atingido com reservas.\n\n➕ PONTOS FORTES\n\n- Abriu citando a recomendação do Paulo, ativando o gatilho de confiança logo no início.\n  \n- Demonstrou conhecimento do perfil do prospect e personalizou o convite, citando detalhes da rotina e da profissão.\n  \n- Propôs a reunião usando a técnica da escolha forçada de horário, dentro do prazo adequado.\n\n- Não tentou vender ou detalhar produtos, respeitando o objetivo da ligação.\n\n⚠️ PONTOS DE MELHORIA\n\n- **Ausência de Autorização**\n  Não pediu autorização clara para falar ou abordar o tema antes de avançar, correndo o risco de elevar resistência.\n\n- **Quebra-gelo superficial**\n  Poderia ter investido em um quebra-gelo mais pessoal e genuíno, não apenas baseado em informações profissionais.\n  \n- **Gestão das objeções**\n  Houve pouca manifestação e tratamento ativo de objeções; você poderia ter buscado explicitamente dúvidas ou hesitações.\n  \n- **Reconfirmação**\n  Não houve reconfirmação formal de local, data e objetivo; apenas menção vaga ao “te encaminho depois”.\n\n🩵 ANÁLISE EMOCIONAL\n\nTom simpático, ritmo calmo, mas com pausas e hesitações frequentes. Estado dominante: relativamente confiante, porém um pouco inseguro no fechamento.\n\n🛅 MOMENTOS-CHAVE\n\nSituação: Uso da recomendação do Paulo logo na abertura. Essa âncora aumentou a aceitação inicial, elevando o grau de confiança.\n  \nSituação: Proposta direta de horários. Fundamental para avançar rapidamente e evitar dispersão ou procrastinação por parte do prospect.\n\n🔊 REFORMULAÇÕES RECOMENDADAS\n\n“Posso contar com três minutos da sua atenção antes de avançar?”\n \n“Se preferir outro lugar para conversar, Eduardo, é só me sugerir, ok?”\n\n“Vamos fechar: terça-feira, às oito, na cafeteria próxima à Boeing, está bom para você?”\n\n“Se surgir algum imprevisto, me avise para remarcarmos sem problemas.”\n\n“Vou enviar a confirmação por WhatsApp para não restar dúvidas, fechado?”\n\n➡️ RECOMENDAÇÕES\n\nSempre peça autorização para seguir com a proposta e busque gerar mais empatia ainda no início. Conclua reconfirmando local, horário e expectativa da reunião para reforçar o compromisso. Peça dúvidas explicitamente. O segredo está nos detalhes — na abordagem consultiva está a diferença entre ser só mais um e aquele que vira referência!",
+        "insights": [
+            "Abriu citando a recomendação do Paulo, ativando o gatilho de confiança logo no início.",
+            "Demonstrou conhecimento do perfil do prospect e personalizou o convite, citando detalhes da rotina e da profissão.",
+            "Propôs a reunião usando a técnica da escolha forçada de horário, dentro do prazo adequado.",
+            "Não tentou vender ou detalhar produtos, respeitando o objetivo da ligação.",
+            "Ausência de Autorização",
+            "Quebra-gelo superficial",
+            "Poderia ter investido em um quebra-gelo mais pessoal e genuíno, não apenas baseado em informações profissionais.",
+            "Tom simpático, ritmo calmo, mas com pausas e hesitações frequentes. Estado dominante: relativamente confiante, porém um pouco inseguro no fechamento."
+        ]
     },
     {
         "name": "Sabrina Oliveira",
@@ -23295,7 +25524,18 @@ const RAW_SIMULATIONS = [
                 "text": "Obrigado."
             }
         ],
-        "finished": true
+        "finished": true,
+        "feedback": "Aqui está o debriefing da nossa troca.\n\n🤓 PERSONA\n\nRicardo, executivo sênior de banco privado em São Paulo, perfil DISC vermelho, direto, pragmático, analítico e exigente.\n\n🎯 OBJETIVO PRINCIPAL\n\nVocê conseguiu tratar objeções de forma convincente e engajar Ricardo na marcação de reunião, atingindo plenamente o objetivo proposto.\n\n➕ PONTOS FORTES\n\n- Uso inteligente do gatilho da recomendação e quebra-gelo ao citar Paulo e o futebol, criando conexão logo no início.\n\n- Estrutura consistente e clara da abordagem, respeitando o método MetLife, sobretudo a proposta de escolha forçada de horários.\n\n- Postura consultiva marcada, reforçando diagnóstico personalizado em vez de “venda fria” e evitando detalhamento precoce de produtos.\n\n- Manutenção constante de tom acolhedor e profissional, mostrando respeito à agenda e ao perfil do prospect.\n\n⚠️ PONTOS DE MELHORIA\n\n- Ausência de pedido explícito de autorização para seguir com a explicação; uma anuência logo no início reforçaria o respeito ao tempo do prospect.\n\n- A argumentação poderia ser mais objetiva, especialmente para um perfil vermelho, evitando termos repetitivos e cortes (“deixa eu me apresentar”, “vou ser sucinto...”).\n\n- Faltou reforço do benefício concreto para o cliente na proposta da reunião (“o que você ganha com esse papo?”), essencial para engajar um analítico exigente.\n\n- O local do café foi definido unilateralmente; poderia ter validado se era realmente conveniente e confortável para Ricardo.\n\n🩵 ANÁLISE EMOCIONAL\n\nO tom demonstrou calma, leveza e segurança, com vocabulário cordial e direto, espelhando boa leitura do perfil do interlocutor. Predominou confiança.\n\n🛅 MOMENTOS-CHAVE\n\nSituação: Proposta de escolha forçada para o horário da reunião.\n\nCorretor apresentou alternativas próximas, facilitando decisão ao prospect. Isso agilizou o fechamento e evitou evasivas, aumentando a taxa de transformação.\n\n🔊 REFORMULAÇÕES RECOMENDADAS\n\n- Ricardo, posso te explicar rapidamente o objetivo e, se fizer sentido para você, seguimos?\n\n- Sei que seu tempo é valioso, então proponho: deixo clara a ideia em cinco minutos, pode ser?\n\n- O que Paulo me comentou é que você busca sempre alternativas inéditas de planejamento. Posso te detalhar isso pessoalmente?\n\n- Prefere um encontro no próprio escritório ou em outro local conveniente para você?\n\n➡️ RECOMENDAÇÕES\n\nPeça autorização para seguir já no início. Traga o benefício concreto para o prospect sem rodeios. Valorize a preferência dele para local/modalidade. Mantenha o foco no planejamento personalizado.\n\nVocê transformou uma abordagem fria em uma reunião confirmada—não é todo dia que se converte um executivo “vermelho” em cinco minutos. Siga firme!",
+        "insights": [
+            "Uso inteligente do gatilho da recomendação e quebra-gelo ao citar Paulo e o futebol, criando conexão logo no início.",
+            "Estrutura consistente e clara da abordagem, respeitando o método MetLife, sobretudo a proposta de escolha forçada de horários.",
+            "Postura consultiva marcada, reforçando diagnóstico personalizado em vez de “venda fria” e evitando detalhamento precoce de produtos.",
+            "Manutenção constante de tom acolhedor e profissional, mostrando respeito à agenda e ao perfil do prospect.",
+            "Ausência de pedido explícito de autorização para seguir com a explicação; uma anuência logo no início reforçaria o respeito ao tempo do prospect.",
+            "A argumentação poderia ser mais objetiva, especialmente para um perfil vermelho, evitando termos repetitivos e cortes (“deixa eu me apresentar”, “vou ser sucinto...”).",
+            "Faltou reforço do benefício concreto para o cliente na proposta da reunião (“o que você ganha com esse papo?”), essencial para engajar um analítico exigente.",
+            "O local do café foi definido unilateralmente; poderia ter validado se era realmente conveniente e confortável para Ricardo."
+        ]
     },
     {
         "name": "Sabrina Oliveira",
@@ -23333,7 +25573,9 @@ const RAW_SIMULATIONS = [
                 "text": "Olha, Sabrina, eu não tenho seguro de vida hoje. Esses horários de terça não dão pra mim. Quarta às nove parece melhor, mas preciso saber rapidamente o que eu ganho com essa reunião."
             }
         ],
-        "finished": false
+        "finished": false,
+        "feedback": "",
+        "insights": []
     },
     {
         "name": "Sabrina Oliveira",
@@ -23371,7 +25613,9 @@ const RAW_SIMULATIONS = [
                 "text": "Tenho um seguro pelo meu trabalho, sim. Não sei exatamente a cobertura. Posso pegar os detalhes depois, mas por enquanto queria saber qual seria a vantagem para mim conversar contigo sobre isso."
             }
         ],
-        "finished": false
+        "finished": false,
+        "feedback": "",
+        "insights": []
     },
     {
         "name": "Sabrina Oliveira",
@@ -23397,7 +25641,9 @@ const RAW_SIMULATIONS = [
                 "text": "Posso saber por que não quer receber o material por e-mail?"
             }
         ],
-        "finished": false
+        "finished": false,
+        "feedback": "",
+        "insights": []
     },
     {
         "name": "Sabrina Oliveira",
@@ -23419,7 +25665,9 @@ const RAW_SIMULATIONS = [
                 "text": "Eu não vi nada, aquela... (pausa de dente)"
             }
         ],
-        "finished": false
+        "finished": false,
+        "feedback": "",
+        "insights": []
     },
     {
         "name": "Sabrina Oliveira",
@@ -23493,7 +25741,18 @@ const RAW_SIMULATIONS = [
                 "text": "Ótimo, mas é, tá completamente diferente da semana passada. Ela não quer marcar. Sim."
             }
         ],
-        "finished": true
+        "finished": true,
+        "feedback": "Aqui está o debriefing de nossa conversa.\n\n  \n\n### 🤓 PERSONA\n\nJovem executiva de tecnologia, perfil DISC amarelo predominante: digital, curiosa, comparadora, analítica e avessa a processos tradicionais.\n\n  \n\n🎯 OBJETIVO PRINCIPAL\n\nVocê buscou argumentar contra o envio de material genérico, mas acabou cedendo. O objetivo foi apenas parcialmente atingido, pois cedeu ao envio dos documentos antes da reunião.\n\n  \n\n### ➕ Pontos fortes\n\n- Soube explicar, de modo acessível, a necessidade de personalização do planejamento e a importância da conversa.\n- Ofereceu opções concretas de datas, aplicando a técnica de escolha forçada.\n- Apresentou flexibilidade quanto ao canal do encontro (online ou presencial), adaptando-se ao perfil.\n\n  \n\n### ⚠️ EIXOS DE MELHORIA\n\n- Apesar de começar bem, acabou cedendo ao pedido de envio do material, o que enfraqueceu sua posição.\n- Faltou validar mais diretamente o sentimento do prospect antes de passar ao contra-argumento, por exemplo, reconhecendo o desejo de comparar e a ansiedade com o tema.\n- Não utilizou perguntas abertas para entender as razões reais da objeção (por exemplo: “O que exatamente gostaria de analisar antes da nossa conversa?”).\n- Poderia reforçar ainda mais que o material é desenhado para ser apresentado junto, não simplesmente enviado, usando a inadequação do formato como argumento.\n\n  \n\n### 🩵 ANÁLISE EMOCIONAL\n\nO tom foi cordial, mostrou respeito e tentou manter o controle, mas oscilou entre assertividade e concessão, demonstrando leve insegurança ao ceder.\n\n  \n\n### 🛅 MOMENTOS-CHAVE\n\nAo insistir na personalização e apresentar a escolha forçada de datas, exerceu iniciativa e evitou deixar a conversa dispersa. No entanto, retrocedeu ao prometer o envio do material, diminuindo sua autoridade e abrindo espaço para procrastinação do prospect.\n\n  \n\n🔊 REFORMULAÇÕES RECOMENDADAS\n\n“Entendo sua vontade de analisar informações, mas posso garantir que um bate-papo curto trará muito mais clareza para seu perfil.”\n\n“O material faz sentido mesmo quando trazido para a sua realidade; por isso, vamos encaixar uma conversa rápida?”\n\n“Podemos marcar na quinta às nove ou sexta às quatro—qual prefere para alinhar sua necessidade?”\n\n  \n\n➡️ RECOMENDAÇÕES\n\nPratique a escuta ativa antes de argumentar, extraindo as razões do pedido de material. Mantenha firmeza na recusa ao envio genérico, demonstrando que a proposta só é relevante se personalizada. Lembre-se: você conduz o ritmo, mas sem pressionar.\n\n  \n\nVenda consultiva é maratona — ajuste o passo, mantenha o fôlego e avance com mais assertividade na próxima!",
+        "insights": [
+            "Jovem executiva de tecnologia, perfil DISC amarelo predominante: digital, curiosa, comparadora, analítica e avessa a processos tradicionais.",
+            "Soube explicar, de modo acessível, a necessidade de personalização do planejamento e a importância da conversa.",
+            "Ofereceu opções concretas de datas, aplicando a técnica de escolha forçada.",
+            "Apresentou flexibilidade quanto ao canal do encontro (online ou presencial), adaptando-se ao perfil.",
+            "Apesar de começar bem, acabou cedendo ao pedido de envio do material, o que enfraqueceu sua posição.",
+            "Faltou validar mais diretamente o sentimento do prospect antes de passar ao contra-argumento, por exemplo, reconhecendo o desejo de comparar e a ansiedade com o tema.",
+            "Não utilizou perguntas abertas para entender as razões reais da objeção (por exemplo: “O que exatamente gostaria de analisar antes da nossa conversa?”).",
+            "Poderia reforçar ainda mais que o material é desenhado para ser apresentado junto, não simplesmente enviado, usando a inadequação do formato como argumento."
+        ]
     },
     {
         "name": "Sabrina Oliveira",
@@ -23547,7 +25806,18 @@ const RAW_SIMULATIONS = [
                 "text": "Até lá."
             }
         ],
-        "finished": true
+        "finished": true,
+        "feedback": "Aqui está o debriefing de nossa conversa.\n\n \n\n🤓 PERSONA\n\nPersona Eduardo, engenheiro de qualidade, perfil DISC azul, racional, cético, busca clareza, evita ser pressionado e preza por informações seguras e personalizadas.\n\n🎯 OBJETIVO PRINCIPAL\n\nVocê respondeu de forma convincente à objeção sobre o envio de documentação e conseguiu agendar a reunião sem ceder ao pedido de material pronto. Objetivo plenamente atingido.\n\n \n\n➕ Pontos fortes\n\n- Você validou o desejo do prospect de conhecer materiais antes de contra-argumentar, usando a técnica “sim, mas…” com naturalidade.\n- Argumentou bem que a solução é construída de forma personalizada, descartando a existência de um material genérico.\n- Introduziu o benefício do encontro ao falar em planejamento adaptado, explicando que as respostas dependem do prospect.\n- Aplicou com eficácia a técnica da escolha forçada ao sugerir datas e horários precisos para a reunião.\n- Manteve o tom respeitoso e calmo, não caindo na armadilha de vender o produto por telefone.\n\n \n\n⚠️ EIXOS DE MELHORIA\n\n- Faltou explorar mais a fundo os motivos reais do pedido de material; perguntas abertas sobre expectativas, experiências anteriores ou possíveis receios poderiam trazer objeções ocultas à tona.\n- Poderia ter valorizado ainda mais os benefícios específicos da conversa personalizada para engajar emocionalmente o prospect.\n- Em vez de mencionar de imediato que outro cliente também quis um material, foque primeiro no individual do prospect, evitando comparações que podem soar impessoais.\n- Ao final, cuidar para não acumular muitas informações logísticas de uma vez: dividir o convite, formato e envio em interações separadas.\n\n \n\n🩵 ANÁLISE EMOCIONAL\n\nTom calmo, ritmo claro e respeitoso. Predomina uma confiança gentil, sem pressa ou imposição, transmitindo segurança e tranquilidade.\n\n \n\n🛅 MOMENTOS-CHAVE\n\nQuando explicou que o material é apenas norteador e que a solução depende da conversa, reforçou a personalização e legitimou o valor do encontro. Ao oferecer duas opções de horário, facilitou a aceitação sem pressionar.\n\n \n\n🔊 REFORMULAÇÕES RECOMENDADAS\n\nCompreendo perfeitamente seu interesse em analisar informações antes, isso demonstra cuidado e responsabilidade.\n\nPor isso, gostaria de te explicar que uma proposta adequada só surge após entendermos juntos suas necessidades.\n\nPosso garantir que o encontro tem como objetivo construir, de forma personalizada, as melhores soluções para o seu perfil.\n\nPrefere que nossa conversa seja on-line ou presencial, para sua maior comodidade?\n\n \n\n➡️ RECOMENDAÇÕES\n\nAprofunde a descoberta das razões ocultas por trás da objeção com perguntas abertas. Demonstre ainda mais empatia individual e ressalte os benefícios exclusivos da conversa. Pontue as etapas finais com objetividade e clareza.\n\nVocê está no caminho certo — afinar esses detalhes fará você conquistar ainda mais reuniões!",
+        "insights": [
+            "Você validou o desejo do prospect de conhecer materiais antes de contra-argumentar, usando a técnica “sim, mas…” com naturalidade.",
+            "Argumentou bem que a solução é construída de forma personalizada, descartando a existência de um material genérico.",
+            "Introduziu o benefício do encontro ao falar em planejamento adaptado, explicando que as respostas dependem do prospect.",
+            "Aplicou com eficácia a técnica da escolha forçada ao sugerir datas e horários precisos para a reunião.",
+            "Manteve o tom respeitoso e calmo, não caindo na armadilha de vender o produto por telefone.",
+            "Faltou explorar mais a fundo os motivos reais do pedido de material; perguntas abertas sobre expectativas, experiências anteriores ou possíveis receios poderiam trazer objeções ocultas à tona.",
+            "Poderia ter valorizado ainda mais os benefícios específicos da conversa personalizada para engajar emocionalmente o prospect.",
+            "Em vez de mencionar de imediato que outro cliente também quis um material, foque primeiro no individual do prospect, evitando comparações que podem soar impessoais."
+        ]
     },
     {
         "name": "Sabrina Oliveira",
@@ -23585,7 +25855,12 @@ const RAW_SIMULATIONS = [
                 "text": "Perfeito, senhora. Recebi o convite no e-mail e estarei disponível na sexta-feira às três horas por vídeo. Até lá."
             }
         ],
-        "finished": true
+        "finished": true,
+        "feedback": "Aqui está o debriefing de nossa conversa.\n\n🤓 PERSONA\n\nJovem executiva tech, perfil DISC amarelo, prática, digital, questiona antes de decidir, valoriza autonomia e experiência personalizada.\n\n🎯 OBJETIVO PRINCIPAL\n\nVocê respondeu com clareza à objeção sobre a documentação e conseguiu agendar a reunião sem enviar material prévio, atingindo o objetivo com eficiência.\n\n➕ Pontos fortes\n\nSeu discurso validou a curiosidade do prospect, mostrando empatia.\nExplicou claramente o motivo de não enviar material genérico, destacando a personalização da proposta.\nOfereceu alternativas concretas de datas para o agendamento, aplicando a técnica correta.\nManteve um tom cordial e respeitoso durante todo o diálogo.\n\n⚠️ EIXOS DE MELHORIA\n\nFaltou explorar as reais razões subjacentes à solicitação de material, sem perguntas abertas para compreender o contexto da objeção.\nA argumentação, ainda que clara, poderia mencionar mais a avaliação mútua – mostrando explicitamente que a conversa é útil para ambos.\nO tempo proposto (trinta, quarenta minutos) pode ser percebido como longo para uma primeira abordagem, especialmente para perfis digitais.\nIncluir brevemente um benefício concreto (ex: economia de tempo, proposta sob medida) teria potencializado o valor percebido da reunião.\n\n🩵 ANÁLISE EMOCIONAL\n\nSeu tom foi calmo, seguro e cortês, transmitindo confiança. O ritmo foi sereno e sem pressão. Linguagem alinhada à formalidade esperada, mantendo o prospect confortável.\n\n🛅 MOMENTOS-CHAVE\n\nAo validar o comportamento do Paulo e equiparar a curiosidade do prospect, você gerou empatia e quebrou a resistência inicial, facilitando a abertura para o convite.\nNa oferta de datas específicas, aplicou a técnica da escolha forçada, conduzindo com suavidade o fechamento do acordo.\n\n🔊 REFORMULAÇÕES RECOMENDADAS\n\n“Entendo querer analisar antes, mas a proposta só faz sentido se ela for personalizada para você.” \n\n“A reunião é rápida, podemos explorar juntos soluções alinhadas à sua experiência e perfil.”\n\n“Posso te mostrar exemplos práticos que fazem diferença no seu planejamento.”\n\n➡️ RECOMENDAÇÕES\n\nTraga perguntas abertas para entender motivos ocultos antes de argumentar. Mostre que o valor está no bate-papo bilateral, não em um monólogo. Ofereça reuniões mais curtas quando necessário. Parabéns, você avançou bem – continue se aprimorando e não perca a curiosidade pelo contexto do prospect!",
+        "insights": [
+            "Incluir brevemente um benefício concreto (ex: economia de tempo, proposta sob medida) teria potencializado o valor percebido da reunião.",
+            "Traga perguntas abertas para entender motivos ocultos antes de argumentar. Mostre que o valor está no bate-papo bilateral, não em um monólogo. Ofereça reuniões mais curtas quando necessário. Parabéns, você avançou bem – continue se aprimorando e não perca a curiosidade pelo contexto do prospect!"
+        ]
     },
     {
         "name": "Sabrina Oliveira",
@@ -23607,7 +25882,9 @@ const RAW_SIMULATIONS = [
                 "text": "Deixa eu te falar uma coisa..."
             }
         ],
-        "finished": false
+        "finished": false,
+        "feedback": "",
+        "insights": []
     },
     {
         "name": "Sabrina Oliveira",
@@ -23637,7 +25914,9 @@ const RAW_SIMULATIONS = [
                 "text": "Eu não tô ouvindo. É, tava muito baixo."
             }
         ],
-        "finished": false
+        "finished": false,
+        "feedback": "",
+        "insights": []
     },
     {
         "name": "Sabrina Oliveira",
@@ -23691,7 +25970,18 @@ const RAW_SIMULATIONS = [
                 "text": "Obrigado."
             }
         ],
-        "finished": true
+        "finished": true,
+        "feedback": "Aqui está o debriefing da nossa troca\n\n🤓 PERSONA\n\nVocê conversou com Ricardo, executivo sênior de banco privado, perfil DISC predominante vermelho (dominante, objetivo e exigente).\n\n🎯 OBJETIVO PRINCIPAL\n\nO objetivo era superar objeções iniciais de Ricardo e conseguir um compromisso para uma reunião qualificada MetLife. O objetivo foi apenas parcialmente atingido, pois houve agendamento de retorno, não de reunião.\n\n➕ PONTOS FORTES\n\n- Boa menção inicial à recomendação de Paulo, criando rápida conexão de confiança.\n\n- Tom respeitoso, direto e adaptado ao perfil ocupado do prospect.\n\n- Solicitou autorização antes de prosseguir, reforçando postura ética.\n\n- Demonstrou preocupação em não atrapalhar a agenda do prospect.\n\n⚠️ PONTOS DE MELHORIA\n\n- Faltou apresentar claramente o objetivo e o valor da conversa, deixando Ricardo desinformado sobre o propósito do contato.\n\n- Não houve tentativa de quebra-gelo ou personalização além da recomendação.\n\n- Não tratou nenhuma objeção de fato; aceitou adiar sem utilizar técnicas “sim, mas…” ou o bumerangue.\n\n- Não propôs uma escolha forçada entre horários próximos para um encontro; apenas sugeriu ligar mais tarde.\n\n- Deixou de mencionar o benefício que Ricardo teria participando da reunião.\n\n🩵 ANÁLISE EMOCIONAL\n\nO tom foi respeitoso e cordial, com ritmo linear e pouco envolvimento emocional. A postura ficou mais reativa que proativa.\n\n🛅 MOMENTOS-CHAVE\n\nAo mencionar a recomendação de Paulo logo na abertura, mostrou boa intenção de usar gatilho de confiança, mas falhou ao não explorar mais. E, ao permitir remarcar a ligação sem confirmar o objetivo, perdeu a oportunidade de avançar no compromisso.\n\n🔊 REFORMULAÇÕES RECOMENDADAS\n\n- “Ricardo, posso explicar rapidamente o que motivou minha ligação e o valor para você?”\n\n- “Entendo que está ocupado; podemos agendar um encontro rápido amanhã ou depois para que eu te apresente as novidades relevantes à sua área?”\n\n- “Paulo mencionou que você busca soluções otimizadas — quero te mostrar algo que pode interessar.”\n\n➡️ RECOMENDAÇÕES\n\nSeja mais assertivo ao comunicar propósito e benefício já na abertura. Use escolha forçada para datas de reunião e sempre trate as objeções no momento, não só aceite o adiamento. Mantenha energia consultiva: o prospect precisa perceber valor imediato no seu contato.\n\nContinue lapidando seu início de abordagem e não esqueça: cada ligação é uma porta que só se abre se você mostrar rápido o que há de interessante do outro lado!",
+        "insights": [
+            "Boa menção inicial à recomendação de Paulo, criando rápida conexão de confiança.",
+            "Tom respeitoso, direto e adaptado ao perfil ocupado do prospect.",
+            "Solicitou autorização antes de prosseguir, reforçando postura ética.",
+            "Demonstrou preocupação em não atrapalhar a agenda do prospect.",
+            "Faltou apresentar claramente o objetivo e o valor da conversa, deixando Ricardo desinformado sobre o propósito do contato.",
+            "Não houve tentativa de quebra-gelo ou personalização além da recomendação.",
+            "Não tratou nenhuma objeção de fato; aceitou adiar sem utilizar técnicas “sim, mas…” ou o bumerangue.",
+            "Não propôs uma escolha forçada entre horários próximos para um encontro; apenas sugeriu ligar mais tarde."
+        ]
     },
     {
         "name": "Sabrina Oliveira",
@@ -23704,7 +25994,9 @@ const RAW_SIMULATIONS = [
         "lqa": "N/A",
         "interactions": 0,
         "messages": [],
-        "finished": false
+        "finished": false,
+        "feedback": "",
+        "insights": []
     },
     {
         "name": "Sabrina Oliveira",
@@ -23762,7 +26054,13 @@ const RAW_SIMULATIONS = [
                 "text": "Obrigado, Larissa. Eu peço por gentileza que cê coloque nossa agenda na tua-- na-nossa reunião na tua agenda, por gentileza. É super importante pra mim esse horário e eu gostaria também de te atender assim como eu fiz com o Paulo. Brigado, até semana que vem."
             }
         ],
-        "finished": true
+        "finished": true,
+        "feedback": "Aqui está o debriefing de nossa conversa.\n\n\n🤓 PERSONA\n\nAtuei como Larissa, empreendedora carismática e sociável, perfil DISC majoritariamente amarelo: expressiva, voltada ao relacionamento, busca conexão rápida e valorização pessoal.\n\n\n🎯 OBJETIVO PRINCIPAL\n\nVocê respondeu às objeções de forma respeitosa, manteve a recusa do envio de documentação e partiu para o agendamento direto. O objetivo ficou parcialmente atingido, pois faltou explorar razões ocultas.\n\n\n➕ Pontos fortes\n\nVocê validou o sentimento inicial (“entendo o seu pedido e é super comum”), mostrando empatia.\nTrouxe referência de indicação do Paulo, criando conexão e utilizando prova social.\nUtilizou a técnica da escolha forçada, sugerindo duas datas concretas para o encontro.\nManteve tom amigável, flexível e focado em facilitar a vida da prospect.\n\n\n⚠️ EIXOS DE MELHORIA\n\nFaltou investigar a fundo as razões reais para o pedido do material antes do encontro – nenhuma pergunta aberta do tipo \"O que seria importante para a senhora saber antes?\" apareceu.\nA argumentação sobre não enviar documentos ficou mais atrelada à experiência do Paulo do que à personalização, avaliação mútua ou inadequação do material.\nEm dado momento, ofereceu tantas alternativas de horário (“antes do primeiro cliente, até umas oito”) que pode soar indeciso ao invés de assertivo.\nVocê monopolizou a fala em blocos longos, quase não escutando a prospect nem permitindo que ela se abrisse sobre suas motivações.\n\n\n🩵 ANÁLISE EMOCIONAL\n\nO tom foi solícito, respeitoso e flexível, porém demandou maior equilíbrio entre assertividade e escuta ativa. Dominou a fala e demonstrou boa vontade, mas faltou pausa estratégica para ouvir.\n\n\n🛅 MOMENTOS-CHAVE\n\nAo citar a objeção do Paulo, você contextualizou o pedido e tentou gerar identificação, evitando ceder ao envio do material – fundamental para manter estratégia.\nNa oferta detalhada de horários e locais, mostrou flexibilidade, favorecendo o relacionamento, mas poderia ter sido mais sucinta.\n\n\n🔊 REFORMULAÇÕES RECOMENDADAS\n\n“Posso entender melhor o que te motivou a pedir o material antes da conversa?”\n“Prefere que eu adapte nossa reunião focando em algum ponto que te preocupe?”\n“Esse encontro é justamente pra entender seu perfil antes de qualquer proposta.”\n“Quero te ouvir: qual fator mais pesaria na sua decisão?”\n\n\n➡️ RECOMENDAÇÕES\n\nPratique perguntas abertas e escuta ativa para descobrir motivações profundas. Argumente valorando personalização e adequação ao perfil do cliente, não apenas pela experiência de outro. Equilibre assertividade com pausas sinceras para ouvir.\n\n\nContinue avançando! O próximo passo: abra espaço para o cliente falar mais. Isso gera laços e oportunidades.",
+        "insights": [
+            "Atuei como Larissa, empreendedora carismática e sociável, perfil DISC majoritariamente amarelo: expressiva, voltada ao relacionamento, busca conexão rápida e valorização pessoal.",
+            "“Quero te ouvir: qual fator mais pesaria na sua decisão?”",
+            "Continue avançando! O próximo passo: abra espaço para o cliente falar mais. Isso gera laços e oportunidades."
+        ]
     },
     {
         "name": "Sabrina Oliveira",
@@ -23820,7 +26118,18 @@ const RAW_SIMULATIONS = [
                 "text": "Não preciso confirmar por escrito. Estarei lá terça-feira às sete horas no Iguatemi"
             }
         ],
-        "finished": true
+        "finished": true,
+        "feedback": "Aqui está o debriefing da nossa troca.\n\n  \n\n### 🤓 PERSONA\n\nPatrícia, perfil dominante azul DISC; analítica, cautelosa, exigente e avessa a improvisações.\n\n  \n\n### 🎯 OBJETIVO PRINCIPAL\n\nVocê respondeu de forma convincente às objeções e conseguiu o aceite para uma reunião qualificada. Objetivo atingido.\n\n  \n\n### ➕ PONTOS FORTES\n\n- Utilizou o nome de Paulo de maneira consistente, ativando o gatilho de recomendação desde o início.  \n\n- Fez uso do “quebra-gelo” sugerindo um café, tornando o convite mais acolhedor e menos comercial.  \n\n- Demonstrou assertividade ao propor datas próximas e prática da escolha forçada entre dois horários.  \n\n- Manteve postura consultiva, focando no benefício do prospect e alinhando a conversa ao universo pessoal dela.  \n\n- Reforçou a reconfirmação do compromisso, reduzindo riscos de no-show, e encerrou com cordialidade.\n\n  \n\n### ⚠️ PONTOS DE MELHORIA\n\n- Pedido de autorização incompleto.\n  Faltou perguntar se era um bom momento para falar antes de iniciar a abordagem.\n\n- Excesso de menção ao Paulo.\n  Elevou o nome do recomendante ao status de “âncora emocional”, arriscando soar forçado após repetir várias vezes.\n\n- Falhas sutis na escuta ativa.\n  Em alguns momentos, as respostas pareceram scripts prontos; personalize ainda mais para aumentar conexão.\n\n- Pequena antecipação sobre proteção/ferramenta.\n  Evite entrar em detalhes técnicos ou de produto na primeira ligação, reforçando que tudo será abordado no encontro.\n\n  \n\n###  🩵 ANÁLISE EMOCIONAL\n\nO tom foi profissional, gentil, ritmo fluido e seguro, vocabulário adaptado. Estado dominante: confiante e atento às respostas.\n\n  \n\n### 🛅 MOMENTOS-CHAVE\n\nSituação: Apresentação da proposta com escolha forçada de datas.\nVocê levou o prospect rapidamente à ação sem espaço para dispersão, mostrando domínio da etapa de agendamento.\n\nSituação: Reforço do vínculo com o recomendante.\nA menção ao Paulo criou credibilidade, mas poderia ser mais equilibrada para evitar repetição.\n\n  \n\n### 🔊 REFORMULAÇÕES RECOMENDADAS\n\n“Patrícia, posso tomar dois minutos para explicar rapidamente o motivo do contato?”\n\n“Se preferir, marcamos só quinze minutos para que possa avaliar se faz sentido aprofundar.”\n\n“Caso surjam dúvidas, trago as respostas pessoalmente de forma estruturada, como fiz com o Paulo.”\n\n“Só preciso de um ok seu para reservar a agenda e garantir o seu horário preferencial.”\n\n  \n\n### ➡️ RECOMENDAÇÕES\n\nAbertura com autorização explícita cria mais empatia. Dê mais espaço para a prospect se expressar. Menos foco em quem recomendou, mais em como aquela agenda vai resolver um problema real. Persista nas reformulações; cada ligação é treino de escuta generosa. Parabéns pela condução firme e ética—continue evoluindo!",
+        "insights": [
+            "Utilizou o nome de Paulo de maneira consistente, ativando o gatilho de recomendação desde o início.",
+            "Fez uso do “quebra-gelo” sugerindo um café, tornando o convite mais acolhedor e menos comercial.",
+            "Demonstrou assertividade ao propor datas próximas e prática da escolha forçada entre dois horários.",
+            "Manteve postura consultiva, focando no benefício do prospect e alinhando a conversa ao universo pessoal dela.",
+            "Reforçou a reconfirmação do compromisso, reduzindo riscos de no-show, e encerrou com cordialidade.",
+            "Pedido de autorização incompleto.",
+            "Excesso de menção ao Paulo.",
+            "Falhas sutis na escuta ativa."
+        ]
     },
     {
         "name": "Sabrina Oliveira",
@@ -23878,7 +26187,18 @@ const RAW_SIMULATIONS = [
                 "text": "Perfeito, senhora corretora. Até terça-feira às dez horas, então. Adeus."
             }
         ],
-        "finished": true
+        "finished": true,
+        "feedback": "Aqui está o debriefing de nossa conversa.\n\n   \n\n### 🤓 PERSONA\n\nLarissa, empresária carismática do ramo de beleza em Brasília, perfil DISC majoritariamente amarelo, sociável e expressiva.\n\n   \n\n🎯 OBJETIVO PRINCIPAL\n\nVocê respondeu de forma envolvente à objeção sem enviar documentos genéricos e conseguiu agendar a reunião. Objetivo atingido!\n\n   \n\n### ➕ Pontos fortes\n\n- Demonstrou empatia logo de início, validando o desconforto comum de receber contatos comerciais.\n- Trouxe exemplo real do seu cliente Paulo para criar identificação e validar a abordagem personalizada.\n- Argumentou de modo convincente sobre a inadequação do material genérico, destacando o valor do encontro presencial.\n- Aplicou efetivamente a técnica da escolha forçada, oferecendo opções concretas de datas e horários para avançar.\n- Manteve postura profissional, respeitosa e com leveza, alinhada ao perfil da prospect.\n\n   \n\n### ⚠️ EIXOS DE MELHORIA\n\n- Poderia explorar um pouco mais as razões ocultas por trás do pedido de material, usando perguntas abertas para entender possíveis inseguranças ou objeções (por exemplo, “O que gostaria de avaliar antes de conversarmos?”).\n- A explicação do benefício da conversa presencial foi adequada, mas faltou inserir ao menos uma pergunta para envolver Larissa na construção da proposta, reforçando ainda mais a personalização.\n- No fechamento, use linguagem mais colaborativa (\"Combinado, nos vemos terça\"), para reforçar vínculo e minimizar rigidez.\n\n   \n\n### 🩵 ANÁLISE EMOCIONAL\n\nO tom foi caloroso, assertivo e seguro. O ritmo foi natural, com vocabulário acessível e profissional. Estado dominante: confiante e empático.\n\n   \n\n### 🛅 MOMENTOS-CHAVE\n\nQuando mencionou a experiência do Paulo, criou aproximação e confiança, legitimando o formato da sua abordagem. No convite com alternativas de agenda, demonstrou domínio da condução comercial, facilitando o avanço natural para o agendamento.\n\n   \n\n🔊 REFORMULAÇÕES RECOMENDADAS\n\n“Entendo perfeitamente sua vontade de conhecer mais antes, posso perguntar o que considera mais importante nesse tipo de proteção?”\n\n“Minha intenção é adaptar tudo ao seu perfil, por isso faz diferença esse nosso bate-papo rápido.”\n\n“Prefere terça às sete ou segunda ao final da tarde? Prometo ser breve e objetivo.”\n\n   \n\n➡️ RECOMENDAÇÕES\n\nBusque aprofundar ainda mais a escuta ativa com perguntas que revelem motivações do prospect. Valorize o momento de co-construção da proposta. Ajuste pequenas formalidades para criar sensação de parceria. Prossiga assim: seu engajamento já está em alto nível, mas sempre é possível polir ainda mais!\n\nParabéns pelo avanço e siga lapidando – naturalidade com método é a fórmula do sucesso!",
+        "insights": [
+            "Demonstrou empatia logo de início, validando o desconforto comum de receber contatos comerciais.",
+            "Trouxe exemplo real do seu cliente Paulo para criar identificação e validar a abordagem personalizada.",
+            "Argumentou de modo convincente sobre a inadequação do material genérico, destacando o valor do encontro presencial.",
+            "Aplicou efetivamente a técnica da escolha forçada, oferecendo opções concretas de datas e horários para avançar.",
+            "Manteve postura profissional, respeitosa e com leveza, alinhada ao perfil da prospect.",
+            "Poderia explorar um pouco mais as razões ocultas por trás do pedido de material, usando perguntas abertas para entender possíveis inseguranças ou objeções (por exemplo, “O que gostaria de avaliar antes de conversarmos?”).",
+            "A explicação do benefício da conversa presencial foi adequada, mas faltou inserir ao menos uma pergunta para envolver Larissa na construção da proposta, reforçando ainda mais a personalização.",
+            "No fechamento, use linguagem mais colaborativa (\"Combinado, nos vemos terça\"), para reforçar vínculo e minimizar rigidez."
+        ]
     },
     {
         "name": "Sabrina Oliveira",
@@ -23952,7 +26272,18 @@ const RAW_SIMULATIONS = [
                 "text": "Perfeito, recebi o convite. Até quinta às dez horas."
             }
         ],
-        "finished": true
+        "finished": true,
+        "feedback": "Aqui está o debriefing da nossa troca.\n\n  \n### 🤓 PERSONA\n\nJovem executiva de tecnologia, curiosa e prática, perfil DISC fortemente amarelo, comunicativa e orientada à experiência digital.\n\n  \n### 🎯 OBJETIVO PRINCIPAL\n\nVocê endereçou as objeções e obteve o aceite para uma reunião com data e horário definidos. Objetivo atingido.\n\n  \n### ➕ PONTOS FORTES\n\n- Rapidamente se apresentou, referenciou Paulo e pediu autorização para seguir, mostrando cuidado e educação.\n\n  \n- Construiu o motivo do contato com personalização, ao citar o contexto profissional e de vida semelhante ao do Paulo.\n\n  \n- Explicou bem que o processo será construído juntos, reforçando a personalização e afastando possíveis roteiros engessados.\n\n  \n- Usou escolha forçada de horários próximos, técnica muito acertada para conversão rápida.\n\n  \n- Demonstrou postura consultiva ao focar em planejamento e não em vender produto ou preço.\n\n  \n### ⚠️ PONTOS DE MELHORIA\n\n- Ausência de um verdadeiro quebra-gelo pessoal e próximo, limitando o vínculo inicial no contato.\n\n  \n- Na gestão da objeção sobre material prévio, repetiu justificativa, mas sem converter totalmente para benefício perceptível imediato.\n\n  \n- Faltou reconfirmação clara dos detalhes da reunião (local/modo e tempo estimado), apenas marcou horário.\n\n  \n- Poderia ter usado breve validação emocional diante da objeção (“sei como é querer entender antes, faz sentido…”).\n\n  \n### 🩵 ANÁLISE EMOCIONAL\n\nO tom foi seguro e educado, com ritmo natural e vocabulário acessível. Estado emocional transmitido: confiante, ainda que um pouco apressado.\n\n  \n### 🛅 MOMENTOS-CHAVE\n\nSituação: Primeira proposta direta de agenda. Você apresentou horários fechados, o que acelerou a decisão da cliente.\n\n  \nSituação: Explicação sobre não enviar material. Importante para alinhar expectativa e mostrar exclusividade do atendimento.\n\n  \n### 🔊 REFORMULAÇÕES RECOMENDADAS\n\n“Entendo que você queira informações antes, mas garanto que só faz sentido analisarmos juntas seu cenário pessoal.”\n\n  \n“Sua rotina é corrida, por isso proponho algo breve, objetivo e １００％ adaptado à sua realidade.”\n\n  \n“Meu papel não é te vender nada agora, Camila, e sim gerar valor de verdade para o seu planejamento.”\n\n  \n“Se preferir, a gente faz por videoconferência — o que te deixa mais confortável?”\n\n  \n“Posso confirmar: quinta às dez horas, online, com convite pelo e-mail correto?”\n\n  \n### ➡️ RECOMENDAÇÕES\n\nFoque sempre em validar emoções nas objeções, detalhar o diferencial do processo consultivo e confirmar todos os dados da reunião (canal, duração estimada). Explore um pouco de quebra-gelo, pois conexão é moeda forte nesse perfil.\n\nParabéns pela objetividade e por seguir o roteiro! Siga aprimorando — excelência é treino, não mágica.",
+        "insights": [
+            "Rapidamente se apresentou, referenciou Paulo e pediu autorização para seguir, mostrando cuidado e educação.",
+            "Construiu o motivo do contato com personalização, ao citar o contexto profissional e de vida semelhante ao do Paulo.",
+            "Explicou bem que o processo será construído juntos, reforçando a personalização e afastando possíveis roteiros engessados.",
+            "Usou escolha forçada de horários próximos, técnica muito acertada para conversão rápida.",
+            "Demonstrou postura consultiva ao focar em planejamento e não em vender produto ou preço.",
+            "Ausência de um verdadeiro quebra-gelo pessoal e próximo, limitando o vínculo inicial no contato.",
+            "Na gestão da objeção sobre material prévio, repetiu justificativa, mas sem converter totalmente para benefício perceptível imediato.",
+            "Faltou reconfirmação clara dos detalhes da reunião (local/modo e tempo estimado), apenas marcou horário."
+        ]
     },
     {
         "name": "Sabrina Oliveira",
@@ -24026,7 +26357,18 @@ const RAW_SIMULATIONS = [
                 "text": "Beleza, recebi. Vou dar uma olhada no convite quando terminar a entrega. Até terça então."
             }
         ],
-        "finished": true
+        "finished": true,
+        "feedback": "Aqui está o debriefing da nossa troca.\n\n  \n🤓 PERSONA\n\n- Interpretei Roberto, comerciante carioca, perfil DISC verde predominante, comunicativo, mas ansioso e reticente com abordagens comerciais.\n\n  \n🎯 OBJETIVO PRINCIPAL\n\n- Você respondeu a objeções de modo cordial e focado.\n  \n- Você obteve o aceite do prospect para uma reunião de apresentação MetLife, com data proposta e confirmação.\n  \n- Objetivo atingido.\n\n  \n➕ PONTOS FORTES\n\n- Abriu a conversa de maneira educada, citando a recomendação de Paulo, criando conexão inicial.\n\n- Explicou sucintamente o propósito do contato, contextualizando com a realidade do prospect (proteção financeira e familiar).\n\n- Usou escolha forçada entre dois horários próximos, agilizando o fechamento.\n\n- Respondeu à objeção sobre preço com segurança e foco na adequação ao perfil do prospect.\n\n  \n⚠️ PONTOS DE MELHORIA\n\n- Faltou autorização clara para a continuidade da chamada após a apresentação inicial.\n\n- A ativação do gatilho de recomendação poderia ser mais pessoal e menos protocolar, trazendo exemplo concreto do que foi feito para Paulo.\n\n- O discurso seguiu as etapas, mas a quebra-gelo ficou tímida, sem busca de vínculo pessoal para deixar Roberto mais à vontade.\n\n- Respondeu as objeções, mas poderia validar mais as emoções do prospect (“eu entendo sua preocupação, Roberto...”), deixando a abordagem ainda mais consultiva.\n\n  \n🩵 ANÁLISE EMOCIONAL\n\nO tom foi calmo, acolhedor e seguro, mas algo apressado; o vocabulário fluiu simples e direto. Estado emocional predominantemente confiante, sem perder a gentileza.\n\n  \n🛅 MOMENTOS-CHAVE\n\nSituação: Ao oferecer dois horários próximos para a reunião.\n  \nO que fez: Facilitou a decisão sem abrir margem para evasivas.\n  \nPor que importa: Aumenta a taxa de conversão e demonstra organização.\n  \nImpacto: Prospect aceitou rapidamente.\n\nSituação: Pergunta sobre preço.\n  \nO que fez: Foi assertivo ao adiar o tema, focando no benefício.\n  \nPor que importa: Mantém o controle e reforça a proposta de valor.\n\n  \n🔊 REFORMULAÇÕES RECOMENDADAS\n\n- “Roberto, Paulo recomendou porque viu valor real; posso compartilhar brevemente um caso?”\n\n- “Posso seguir e te explicar em linhas rápidas em como posso ajudar?”\n\n- “Ao final da nossa conversa, você decide se faz sentido — sem compromisso.”\n\n- “Prefere nossa conversa presencialmente na terça às quatorze ou na quarta às dezessete?”\n\n- “Sua prioridade é tempo? Prometo objetividade — vinte minutos que podem te dar mais tranquilidade.”\n\n  \n➡️ RECOMENDAÇÕES\n\nValide mais os sentimentos do prospect e personalize o gatilho de recomendação. Mostre que compreende suas dores e contexto real. Use sempre a autorização explícita antes de avançar. Com esse ajuste, seu índice de engajamento vai subir!\n\nSiga afiado: cada ligação é treino — talento mais método vence!",
+        "insights": [
+            "Interpretei Roberto, comerciante carioca, perfil DISC verde predominante, comunicativo, mas ansioso e reticente com abordagens comerciais.",
+            "Você respondeu a objeções de modo cordial e focado.",
+            "Você obteve o aceite do prospect para uma reunião de apresentação MetLife, com data proposta e confirmação.",
+            "Abriu a conversa de maneira educada, citando a recomendação de Paulo, criando conexão inicial.",
+            "Explicou sucintamente o propósito do contato, contextualizando com a realidade do prospect (proteção financeira e familiar).",
+            "Usou escolha forçada entre dois horários próximos, agilizando o fechamento.",
+            "Respondeu à objeção sobre preço com segurança e foco na adequação ao perfil do prospect.",
+            "Faltou autorização clara para a continuidade da chamada após a apresentação inicial."
+        ]
     },
     {
         "name": "Sabrina Oliveira",
@@ -24068,7 +26410,13 @@ const RAW_SIMULATIONS = [
                 "text": "Tudo bem, senhora. Nos vemos na quinta-feira às quatorze horas. Até lá."
             }
         ],
-        "finished": true
+        "finished": true,
+        "feedback": "Aqui está o debriefing de nossa conversa.\n\n\n🤓 PERSONA\n\nRoberto: comerciante de classe média do Rio, expansivo, relacional, perfil majoritariamente verde DISC, avesso a pressão.\n\n🎯 OBJETIVO PRINCIPAL\n\nO objetivo de recusar o envio prévio de documentação e obter o agendamento da reunião foi apenas parcialmente atingido, pois a proposta incluiu levar o material durante a visita.\n\n➕ Pontos fortes\n\nVocê apresentou de forma clara o caráter personalizado da proposta, diferenciando do que foi entregue ao Paulo.\nDemonstrou habilidade na técnica da escolha forçada ao sugerir duas opções de datas concretas.\nManteve uma postura cordial, mostrando preocupação em adaptar a solução financeira à família do prospect.\nTransmitiu segurança e processo definido para o atendimento.\n\n⚠️ EIXOS DE MELHORIA\n\nFaltou validar explicitamente o sentimento ou motivação do prospect ao solicitar o material (“Vejo que o senhor prefere analisar antes...”).\nAcabou prometendo o envio do material presencialmente, o que é uma concessão disfarçada (“levo esse material, te apresento...”), não rompendo com a armadilha da documentação genérica.\nNão utilizou perguntas abertas para descobrir as verdadeiras razões ocultas por trás do pedido, perdendo chance de aprofundar a relação.\nPoderia ter reforçado ainda mais a necessidade do encontro para realmente personalizar o que seria apresentado, sem se comprometer a entregar antes nem durante a reunião algo genérico.\n\n🩵 ANÁLISE EMOCIONAL\n\nO tom foi confiante e cordial, transmitindo profissionalismo e leveza, mas ainda um pouco apressado no fechamento da proposta.\n\n🛅 MOMENTOS-CHAVE\n\nQuando diferenciou a proposta do Paulo, mostrou boa leitura quanto à necessidade de personalização, o que quebrou um pouco a resistência.\nNo momento em que propôs datas concretas para a reunião, tomou a iniciativa e acelerou a decisão, consolidando o controle da conversa.\n\n🔊 REFORMULAÇÕES RECOMENDADAS\n\n“Entendo seu interesse no material, mas posso garantir que só consigo preparar algo adequado após ouvi-lo rapidinho.”\n“Tem algo específico que o senhor gostaria de entender antes? Assim consigo alinhar melhor a apresentação.”\n“Nossa conversa é rápida, e só depois dela consigo deixar um material personalizado para o senhor.”\n“Prefere que eu prepare tudo para terça às dezessete ou quinta às catorze?”\n\n➡️ RECOMENDAÇÕES\n\nAprofunde a escuta perguntando o porquê do pedido do material antes de conceder ou recusar. Reforce a importância da personalização e mantenha um convite firme, mas empático. Evite ao máximo prometer entrega de material mesmo presencialmente.\n\nVocê já domina a arte do convite, falta só afinar a escuta — capriche que o gol tá aberto!",
+        "insights": [
+            "Roberto: comerciante de classe média do Rio, expansivo, relacional, perfil majoritariamente verde DISC, avesso a pressão.",
+            "“Entendo seu interesse no material, mas posso garantir que só consigo preparar algo adequado após ouvi-lo rapidinho.”",
+            "Você já domina a arte do convite, falta só afinar a escuta — capriche que o gol tá aberto!"
+        ]
     },
     {
         "name": "Sabrina Oliveira",
@@ -24081,7 +26429,9 @@ const RAW_SIMULATIONS = [
         "lqa": "N/A",
         "interactions": 0,
         "messages": [],
-        "finished": false
+        "finished": false,
+        "feedback": "",
+        "insights": []
     },
     {
         "name": "Sabrina Oliveira",
@@ -24103,7 +26453,9 @@ const RAW_SIMULATIONS = [
                 "text": "Não, aqui é o Thiago. Quem fala? Estou ocupado, fale rápido."
             }
         ],
-        "finished": false
+        "finished": false,
+        "feedback": "",
+        "insights": []
     },
     {
         "name": "Sabrina Oliveira",
@@ -24116,7 +26468,9 @@ const RAW_SIMULATIONS = [
         "lqa": "N/A",
         "interactions": 0,
         "messages": [],
-        "finished": false
+        "finished": false,
+        "feedback": "",
+        "insights": []
     },
     {
         "name": "Sabrina Oliveira",
@@ -24174,7 +26528,18 @@ const RAW_SIMULATIONS = [
                 "text": "Eu que agradeço. Até mais."
             }
         ],
-        "finished": true
+        "finished": true,
+        "feedback": "Aqui está o debriefing de nossa conversa.\n\n  \n\n### 🤓 PERSONA\n\nAtuei como Larissa, empreendedora expressiva, perfil DISC majoritariamente amarelo, voltada para relações, emoção e projeção rápida.\n\n  \n\n🎯 OBJETIVO PRINCIPAL\n\nSua resposta à objeção foi educada, porém não conseguiu marcar reunião sem enviar documentação. Objetivo não atingido, mas houve tentativa razoável de contornar a resistência.\n\n  \n\n### ➕ Pontos fortes\n\n- Demonstrou empatia, reconhecendo a preocupação da prospect e tentando adaptar seu discurso ao perfil dela.\n- Tentou valorizar o encontro ao argumentar sobre a importância da personalização da proposta.\n- Teve uma postura respeitosa, mantendo o tom cordial mesmo diante da recusa.\n- Procurou, ainda que timidamente, ressaltar as vantagens do contato presencial.\n\n  \n\n### ⚠️ EIXOS DE MELHORIA\n\n- Faltou explorar perguntas abertas para investigar os reais motivos da objeção: as perguntas foram fechadas e pouco investigativas.\n- Cedeu rapidamente ao pedido de envio do material, antes de buscar mais argumentos ou entender as raízes da resistência.\n- Argumentação sobre a inadequação do envio genérico ficou confusa e repetitiva, prejudicando sua assertividade.\n- Não explorou alternativas concretas de agendamento, quando poderia ter proposto a escolha de datas próximas para facilitar o aceite.\n\n  \n\n### 🩵 ANÁLISE EMOCIONAL\n\nSeu tom foi cordial, mas notou-se certa hesitação e insegurança, com uso excessivo de “é…”, pausas e redundâncias, impactando negativamente a confiança transmitida na ligação.\n\n  \n\n### 🛅 MOMENTOS-CHAVE\n\nQuando sugeriu marcar a reunião sem envio prévio, foi relevante, pois mostrou intenção de personalizar o atendimento. No momento em que cedeu ao envio por e-mail, perdeu o controle da conversa e reduziu suas chances.\n\n  \n\n🔊 REFORMULAÇÕES RECOMENDADAS\n\n“Senhora Larissa, entendo totalmente seu interesse, mas minha proposta depende das suas necessidades específicas; por isso, uma reunião breve faz toda diferença.”\n\n“Que tal reservarmos só quinze minutos, assim consigo construir algo realmente focado em você?”\n\n“O material enviado sem contexto pode não responder exatamente ao que procura. Prefiro escutá-la antes de apresentar soluções.”\n\n  \n\n➡️ RECOMENDAÇÕES\n\nInvista em perguntas abertas e valide o sentimento do prospect antes de contra-argumentar. Fortaleça sua argumentação sobre a personalização e adote sempre alternativas concretas ao agendar. Seja firme, mas sem perder a gentileza.\n\nContinue aprimorando: cada conversa é um degrau na escada do sucesso!",
+        "insights": [
+            "Demonstrou empatia, reconhecendo a preocupação da prospect e tentando adaptar seu discurso ao perfil dela.",
+            "Tentou valorizar o encontro ao argumentar sobre a importância da personalização da proposta.",
+            "Teve uma postura respeitosa, mantendo o tom cordial mesmo diante da recusa.",
+            "Procurou, ainda que timidamente, ressaltar as vantagens do contato presencial.",
+            "Faltou explorar perguntas abertas para investigar os reais motivos da objeção: as perguntas foram fechadas e pouco investigativas.",
+            "Cedeu rapidamente ao pedido de envio do material, antes de buscar mais argumentos ou entender as raízes da resistência.",
+            "Argumentação sobre a inadequação do envio genérico ficou confusa e repetitiva, prejudicando sua assertividade.",
+            "Não explorou alternativas concretas de agendamento, quando poderia ter proposto a escolha de datas próximas para facilitar o aceite."
+        ]
     },
     {
         "name": "Sabrina Oliveira",
@@ -24236,7 +26601,18 @@ const RAW_SIMULATIONS = [
                 "text": "Prefiro mesmo receber o material por escrito antes de qualquer compromisso. Se preferir, envie para o meu WhatsApp o documento e eu dou uma olhada."
             }
         ],
-        "finished": true
+        "finished": true,
+        "feedback": "Aqui está o debriefing de nossa conversa.\n\n \n\n### 🤓 PERSONA\n\nProprietária de salão premium, carismática, expressiva, rápida no sim, perfil DISC amarelo dominante, prioriza boas conexões.\n\n \n\n🎯 OBJETIVO PRINCIPAL\n\nVocê respondeu simpaticamente às objeções e buscou o agendamento, mas acabou concordando com envio prévio de material. Objetivo não atingido.\n\n \n\n### ➕ Pontos fortes\n\n- Teve receptividade e simpatia ao abordar Larissa, valorizando suas qualidades e gerando empatia.\n- Relacionou o convite à indicação de Paulo e fez links com a vida agitada da prospect, mostrando conhecimento do contexto.\n- Tentou personalizar o encontro ao propor um café e visitar o salão, o que cria proximidade.\n- Praticou escuta ativa, respondendo rapidamente às falas da prospect e sendo flexível quanto ao horário.\n\n \n\n### ⚠️ EIXOS DE MELHORIA\n\n- Após objeção, faltou validar o sentimento de Larissa antes de contra-argumentar; não houve espaço para ela expor razões ocultas.\n- Ao propor agendamento, rapidamente cedeu ao envio do material (“eu vou te encaminhar um pouco do trabalho…”), caindo na armadilha.\n- Não explorou as razões profundas do pedido de documentação (ansiedade, desconfiança, comparação, etc.) com perguntas abertas.\n- Propostas de horário alternaram entre escolhas forçadas e perguntas abertas, diminuindo a firmeza da condução.\n- A argumentação sobre personalização da proposta ficou ausente; não mencionou a importância do encontro para adaptar a solução.\n\n \n\n### 🩵 ANÁLISE EMOCIONAL\n\nO tom se manteve amigável, acelerado e levemente ansioso, com vocabulário informal e repetição de elogios; transmitiu simpatia, mas também certa pressa e pouca escuta.\n\n \n\n### 🛅 MOMENTOS-CHAVE\n\nAo propor “minimamente marcar um café”, buscou quebrar resistências, mas logo após aceitou o envio de material, esvaziando sua posição – o avanço inicial foi comprometido pelo recuo.\n\n \n\n🔊 REFORMULAÇÕES RECOMENDADAS\n\n“Compreendo que queira analisar informações primeiro, mas esse material faz muito mais sentido quando conversamos sobre seu perfil.”\n\n“Prometo que nosso papo será leve e rápido, totalmente focado em você.”\n\n“Posso reservar quinze minutos na quinta às nove ou sexta às dezesseis, o que combina mais com sua semana?”\n\n“Sempre adapto minha apresentação conforme o que você valoriza; assim, consigo entregar algo relevante para sua realidade.”\n\n \n\n➡️ RECOMENDAÇÕES\n\nNa próxima, evite ceder ao envio do material sem gerar curiosidade ou valor. Valide o sentimento da prospect, investigue os motivos do pedido por perguntas abertas e, só então, proponha alternativas de agenda com clareza. Corrija o tom ansioso e fortaleça a personalização.\n\nSeu entusiasmo é um diferencial: basta agora canalizá-lo para manter o controle assertivo até o fechamento. Vá que você chega lá!",
+        "insights": [
+            "Teve receptividade e simpatia ao abordar Larissa, valorizando suas qualidades e gerando empatia.",
+            "Relacionou o convite à indicação de Paulo e fez links com a vida agitada da prospect, mostrando conhecimento do contexto.",
+            "Tentou personalizar o encontro ao propor um café e visitar o salão, o que cria proximidade.",
+            "Praticou escuta ativa, respondendo rapidamente às falas da prospect e sendo flexível quanto ao horário.",
+            "Após objeção, faltou validar o sentimento de Larissa antes de contra-argumentar; não houve espaço para ela expor razões ocultas.",
+            "Ao propor agendamento, rapidamente cedeu ao envio do material (“eu vou te encaminhar um pouco do trabalho…”), caindo na armadilha.",
+            "Não explorou as razões profundas do pedido de documentação (ansiedade, desconfiança, comparação, etc.) com perguntas abertas.",
+            "Propostas de horário alternaram entre escolhas forçadas e perguntas abertas, diminuindo a firmeza da condução."
+        ]
     },
     {
         "name": "Sabrina Oliveira",
@@ -24249,7 +26625,9 @@ const RAW_SIMULATIONS = [
         "lqa": "N/A",
         "interactions": 0,
         "messages": [],
-        "finished": false
+        "finished": false,
+        "feedback": "",
+        "insights": []
     },
     {
         "name": "Sabrina Oliveira",
@@ -24262,7 +26640,9 @@ const RAW_SIMULATIONS = [
         "lqa": "N/A",
         "interactions": 0,
         "messages": [],
-        "finished": false
+        "finished": false,
+        "feedback": "",
+        "insights": []
     },
     {
         "name": "Sabrina Oliveira",
@@ -24275,7 +26655,9 @@ const RAW_SIMULATIONS = [
         "lqa": "N/A",
         "interactions": 0,
         "messages": [],
-        "finished": false
+        "finished": false,
+        "feedback": "",
+        "insights": []
     },
     {
         "name": "Sabrina Oliveira",
@@ -24337,7 +26719,18 @@ const RAW_SIMULATIONS = [
                 "text": "Perfeito, vou ficar aguardando a sua mensagem com o perfil então. Boa"
             }
         ],
-        "finished": true
+        "finished": true,
+        "feedback": "Aqui está o debriefing da nossa conversa.\n\n  \n## 🤓 PERSONA\n\nEmpreendedora automotivada, carismática e expressiva, perfil DISC majoritariamente amarelo com forte orientação relacional e um toque de emoção.\n\n  \n## 🎯 OBJETIVO PRINCIPAL\n\nO objetivo de obter recomendações qualificadas com permissão de contato não foi atingido nesta simulação.\n\n  \n## ➕ Pontos fortes\n\n- Demonstrou cordialidade ao agradecer e valorizar a cliente logo no início da abordagem.\n\n  \n- Procurou tranquilizar quanto à discrição, mostrando respeito pela rede de contatos da cliente.\n\n  \n- Tentou apresentar a recomendação como benefício para os contatos da cliente e não apenas para si.\n\n  \n- Procurou reforçar o viés consultivo do serviço, evitando enfoque puramente comercial.\n\n  \n## ⚠️ EIXOS DE MELHORIA\n\n- Falta de perguntas sobre os pontos de satisfação específicos: você não explorou o que, na experiência dela, foi mais marcante.\n\n  \n- Pedido de recomendação pouco segmentado: a solicitação permaneceu genérica, sem direcionamento (“alguém que talvez possa ser útil”).\n\n  \n- Ausência da aplicação do método ⟪ASK THE MAN⟫: não coletou informações detalhadas nem guiou a memória da cliente.\n\n  \n- Não houve obtenção de autorização clara para menção do nome da cliente, passo-chave para uma abordagem ética e facilitada.\n\n  \n- Aceitou desistir rapidamente, encerrando a tentativa diante da hesitação sem buscar contornar as objeções de modo mais estruturado.\n\n  \n## 🩵 ANÁLISE EMOCIONAL\n\nO tom foi educado e respeitoso, com ritmo hesitante e vocabulário repetitivo. A emoção predominante foi reserva, com tentativa de se mostrar empático, mas um traço de insegurança permeia a fala.\n\n  \n## 🛅 MOMENTOS-CHAVE\n\nAgradecimento inicial → você valorizou a cliente, criando abertura para o diálogo, essencial para ativar o momento positivo.\n\n  \nArgumentação sobre o networking → tentou mostrar a recomendação como oportunidade de conexão, mas faltou aprofundamento para gerar engajamento real.\n\n  \n## 🔊 REFORMULAÇÕES RECOMENDADAS\n\n“Posso te perguntar: no que, especialmente, meu trabalho te surpreendeu ou agradou?”\n\n  \n“Entre suas parceiras ou colegas empreendedoras, há alguém que poderia se beneficiar dessa proteção como você?”\n\n  \n“Com sua permissão, posso citar seu nome quando conversar com elas, só como referência de confiança?”\n\n  \n## ➡️ RECOMENDAÇÕES\n\nExplore o momento WOW resgatando detalhes da satisfação da cliente. Segmente perfis para facilitar a lembrança. Aplique gradualmente o método ⟪ASK THE MAN⟫, sem pressa. Sempre peça a autorização para citar o nome dela. Persista com empatia, mas assertividade.\n\nContinue evoluindo: a confiança se constrói, e seu jeito respeitoso é um ótimo começo!",
+        "insights": [
+            "Demonstrou cordialidade ao agradecer e valorizar a cliente logo no início da abordagem.",
+            "Procurou tranquilizar quanto à discrição, mostrando respeito pela rede de contatos da cliente.",
+            "Tentou apresentar a recomendação como benefício para os contatos da cliente e não apenas para si.",
+            "Procurou reforçar o viés consultivo do serviço, evitando enfoque puramente comercial.",
+            "Falta de perguntas sobre os pontos de satisfação específicos: você não explorou o que, na experiência dela, foi mais marcante.",
+            "Pedido de recomendação pouco segmentado: a solicitação permaneceu genérica, sem direcionamento (“alguém que talvez possa ser útil”).",
+            "Ausência da aplicação do método ⟪ASK THE MAN⟫: não coletou informações detalhadas nem guiou a memória da cliente.",
+            "Não houve obtenção de autorização clara para menção do nome da cliente, passo-chave para uma abordagem ética e facilitada."
+        ]
     },
     {
         "name": "Sabrina Oliveira",
@@ -24395,7 +26788,18 @@ const RAW_SIMULATIONS = [
                 "text": "O Paulo não me avisou que ia te passar o contato. Antes de marcar, preciso saber por que essa reunião é interessante para mim. Que benefício concreto você traz em vinte minutos de conversa?"
             }
         ],
-        "finished": true
+        "finished": true,
+        "feedback": "Aqui está o debriefing da nossa troca.\n\n  \n🤓 PERSONA\n\nEngenheiro de qualidade aeronáutica, perfil DISC dominante azul, metódico, racional e desconfiado no início do contato.\n\n  \n🎯 OBJETIVO PRINCIPAL\n\nCorretor respondeu razoavelmente às objeções, mas antecipou informações e tentou vender benefícios. O objetivo de obter uma reunião foi parcialmente atingido.\n\n  \n➕ PONTOS FORTES\n\n- Apresentou-se de maneira cordial, educada e reconheceu a limitação de tempo do prospect.\n\n  \n- Trouxe rapidamente o tema de recomendação (referência ao Paulo) como gatilho de confiança.\n\n  \n- Procurou mostrar personalização e preocupação com a realidade individual do prospect para a solução.\n\n  \n- Ofereceu datas concretas e próximas para a reunião, utilizando a escolha forçada.\n\n  \n⚠️ PONTOS DE MELHORIA\n\n- Descrição precoce de produtos e benefícios (\"produtos de segurança patrimonial e seguro de vida\") desviou da proposta da MetLife, que é convite para reunião e não venda ou explicação aprofundada.\n\n  \n- Ausência de pedido explícito de autorização antes de prosseguir — importante para engajamento e respeito ao prospect.\n\n  \n- Quebra-gelo foi superficial, faltando conexão mais pessoal (explorar afinidades ou situações compartilhadas pelo prospect).\n\n  \n- Faltou validação emocional das objeções com uso consistente do “sim, mas…” (exemplo: poderia ter nomeado a pressão de tempo do prospect antes de propor).\n\n  \n🩵 ANÁLISE EMOCIONAL\n\nO tom foi amistoso e profissional; ritmo controlado, mas um pouco apressado para “vender” valor. Estado emocional geral: confiante mas ansiosa.\n\n  \n🛅 MOMENTOS-CHAVE\n\nAo mencionar explicitamente o Paulo na justificativa do contato, Corretor facilitou a abertura inicial, aproximando-se de um vínculo de confiança. Mas ao introduzir produtos prematuramente, enfraqueceu o foco na escuta e no agendamento puro.\n\n  \n🔊 REFORMULAÇÕES RECOMENDADAS\n\n“Se fizer sentido, podemos marcar só um café rápido para eu entender suas necessidades melhor?”\n\n  \n“O objetivo é te ouvir – só vou explicar mais se você quiser, combinado?”\n\n  \n“Se for mais conveniente, posso ajustar o horário para encaixar na sua rotina – o que acha?”\n\n  \n“Paulo comentou que buscava segurança para o momento de vida; queria saber se você pensa diferente ou igual.”\n\n  \n➡️ RECOMENDAÇÕES\n\nConcentre-se na autorização e construção de valor para a reunião, não para o produto. Use o método “sim, mas…” com calma e demonstre interesse genuíno pelas motivações do prospect. Menos argumentos no telefone – mais escuta ativa!\n\nVocê está evoluindo. Ajuste pequenos detalhes e verá conversões subirem.",
+        "insights": [
+            "Apresentou-se de maneira cordial, educada e reconheceu a limitação de tempo do prospect.",
+            "Trouxe rapidamente o tema de recomendação (referência ao Paulo) como gatilho de confiança.",
+            "Procurou mostrar personalização e preocupação com a realidade individual do prospect para a solução.",
+            "Ofereceu datas concretas e próximas para a reunião, utilizando a escolha forçada.",
+            "Descrição precoce de produtos e benefícios (\"produtos de segurança patrimonial e seguro de vida\") desviou da proposta da MetLife, que é convite para reunião e não venda ou explicação aprofundada.",
+            "Ausência de pedido explícito de autorização antes de prosseguir — importante para engajamento e respeito ao prospect.",
+            "Quebra-gelo foi superficial, faltando conexão mais pessoal (explorar afinidades ou situações compartilhadas pelo prospect).",
+            "Faltou validação emocional das objeções com uso consistente do “sim, mas…” (exemplo: poderia ter nomeado a pressão de tempo do prospect antes de propor)."
+        ]
     },
     {
         "name": "Sabrina Oliveira",
@@ -24461,7 +26865,9 @@ const RAW_SIMULATIONS = [
                 "text": "Beleza. Posso pensar e te retorno por mensagem mais tarde."
             }
         ],
-        "finished": false
+        "finished": false,
+        "feedback": "",
+        "insights": []
     },
     {
         "name": "Sabrina Oliveira",
@@ -24503,7 +26909,9 @@ const RAW_SIMULATIONS = [
                 "text": "Tipo colegas de trabalho do setor de produto e alguns amigos que estão começando a pensar em casar ou comprar apartamento. Quero falar com eles antes de você puxar contato, tá?"
             }
         ],
-        "finished": false
+        "finished": false,
+        "feedback": "",
+        "insights": []
     },
     {
         "name": "Sabrina Oliveira",
@@ -24516,7 +26924,9 @@ const RAW_SIMULATIONS = [
         "lqa": "N/A",
         "interactions": 0,
         "messages": [],
-        "finished": false
+        "finished": false,
+        "feedback": "",
+        "insights": []
     },
     {
         "name": "Sabrina Oliveira",
@@ -24838,7 +27248,18 @@ const RAW_SIMULATIONS = [
                 "text": "Ok, bom abraço. Até amanhã."
             }
         ],
-        "finished": true
+        "finished": true,
+        "feedback": "Aqui está o debriefing da nossa conversa.\n\n  \n## 🤓 PERSONA\n\nEduardo. Engenheiro de qualidade, perfil DISC Azul, analítico, racional, resistente a abordagens comerciais diretas.\n\n  \n## 🎯 OBJETIVO PRINCIPAL\n\nO objetivo foi atingido: você obteve mais de dois nomes qualificados com autorização explícita para contato.\n\n  \n## ➕ Pontos fortes\n\n- Abriu com agradecimento genuíno, valorizando a decisão da cliente e celebrando seu momento.\n\n  \n- Demonstrou escuta ativa ao pedir percepções e reforçar os benefícios, reforçando o “momento UAU” pós-venda.\n\n  \n- Explicou de forma didática a dinâmica das recomendações, usando exemplos práticos e tornando o pedido mais pessoal.\n\n  \n- Segmentou com perguntas direcionadas e cenários (profissionais liberais, quem tem filhos, colegas de trabalho), facilitando a lembrança.\n\n  \n- Aplicou gradativamente o método ⟪\"ASK THE MAN\"⟫, coletando informações essenciais sem soar apressado (mesmo que levemente mecânico em alguns momentos).\n\n  \n## ⚠️ EIXOS DE MELHORIA\n\n- Abordagem repetitiva.\n  \n  Em diversos momentos insistiu com perguntas quase idênticas, o que pode soar forçado (“Quem mais? Tem mais alguém?”), especialmente para perfis analíticos.\n\n  \n- Coleta de dados\n  \n  Ao abordar itens do ⟪\"ASK THE MAN\"⟫, por vezes fez diversas perguntas em bloco (“Ela mora onde, tem filhos, que cargo ocupa?”), o que quebrou a fluidez e pode parecer interrogatório.\n\n  \n- Excessiva reafirmação de compromisso\n  \n  Voltou múltiplas vezes à questão do consentimento (só ligar depois da autorização etc), quando bastaria uma explicação e acordo. Isso pode dar margem a insegurança ao invés de transmiti-la.\n\n  \n- Poderia explorar mais histórias ou características pessoais dos indicados (pergunta mágica), para humanizar os futuros contatos.\n\n  \n## 🩵 ANÁLISE EMOCIONAL\n\nO tom foi acolhedor, mas com um ritmo levemente ansioso. Demonstrou empatia e reforçou o compromisso, embora tenha flertado com insistência. Estado emocional dominante: solícito, porém ansioso por fechamento.\n\n  \n## 🛅 MOMENTOS-CHAVE\n\nQuando você explicou como a recomendação funciona (“Igual fizeram com você, só com aviso prévio”), aumentou a confiança do cliente e desbloqueou objeções fundamentais.\n\n  \nNa segmentação dos perfis (“alguém com filhos pequenos, profissionais liberais?”), facilitou a memorização e acelerou as respostas, transformando resistência em colaboração efetiva.\n\n  \n## 🔊 REFORMULAÇÕES RECOMENDADAS\n\n“Você mencionou que gostou do nosso processo. Pensando nisso, quem ao seu redor poderia se beneficiar desse mesmo cuidado?”\n\n  \n“Você prefere começar pensando em pessoas da família, do trabalho ou amigos mais próximos?”\n\n  \n“Depois que você conversar com eles, posso mencionar seu nome quando ligar para apresentar a proposta?”\n\n  \n“Qual detalhe você considera mais importante avisar previamente para deixar esse contato confortável para todos?”\n\n  \n## ➡️ RECOMENDAÇÕES\n\nEvite insistências ou repetições desnecessárias. Ao usar ⟪\"ASK THE MAN\"⟫, distribua as perguntas ao longo da conversa, dando contexto a cada uma. Explore um pouco mais as histórias dos indicados para criar vínculos já no primeiro contato. Capriche na naturalidade e mantenha confiança.\n\nParabéns pelo resultado e lembre: abordagem consultiva não tem que rimar com roteiro engessado!",
+        "insights": [
+            "O objetivo foi atingido: você obteve mais de dois nomes qualificados com autorização explícita para contato.",
+            "Abriu com agradecimento genuíno, valorizando a decisão da cliente e celebrando seu momento.",
+            "Demonstrou escuta ativa ao pedir percepções e reforçar os benefícios, reforçando o “momento UAU” pós-venda.",
+            "Explicou de forma didática a dinâmica das recomendações, usando exemplos práticos e tornando o pedido mais pessoal.",
+            "Segmentou com perguntas direcionadas e cenários (profissionais liberais, quem tem filhos, colegas de trabalho), facilitando a lembrança.",
+            "Aplicou gradativamente o método ⟪\"ASK THE MAN\"⟫, coletando informações essenciais sem soar apressado (mesmo que levemente mecânico em alguns momentos).",
+            "Abordagem repetitiva.",
+            "Excessiva reafirmação de compromisso"
+        ]
     },
     {
         "name": "Sabrina Oliveira",
@@ -24851,7 +27272,9 @@ const RAW_SIMULATIONS = [
         "lqa": "N/A",
         "interactions": 0,
         "messages": [],
-        "finished": false
+        "finished": false,
+        "feedback": "",
+        "insights": []
     },
     {
         "name": "Sabrina Oliveira",
@@ -24869,7 +27292,9 @@ const RAW_SIMULATIONS = [
                 "text": "Uma lapidada mesmo, do dez"
             }
         ],
-        "finished": false
+        "finished": false,
+        "feedback": "",
+        "insights": []
     },
     {
         "name": "Sabrina Oliveira",
@@ -24907,7 +27332,9 @@ const RAW_SIMULATIONS = [
                 "text": "Slow down—I’m fine with helping, but I don’t give out names on the spot.    \nIf you want, tell me which specific profiles you need first."
             }
         ],
-        "finished": false
+        "finished": false,
+        "feedback": "",
+        "insights": []
     },
     {
         "name": "Sabrina Oliveira",
@@ -24925,7 +27352,9 @@ const RAW_SIMULATIONS = [
                 "text": "No"
             }
         ],
-        "finished": false
+        "finished": false,
+        "feedback": "",
+        "insights": []
     },
     {
         "name": "Sabrina Oliveira",
@@ -25111,7 +27540,18 @@ const RAW_SIMULATIONS = [
                 "text": "Beleza. Vou te enviar um ou dois contatos por mensagem quando eu falar com eles. Até mais."
             }
         ],
-        "finished": true
+        "finished": true,
+        "feedback": "Aqui está o debriefing da nossa conversa.\n\n\n## 🤓 PERSONA\n\nEmpresário do setor de franquias, perfil DISC vermelho, objetivo, rápido, prático, com tempo limitado e postura direta.\n\n\n## 🎯 OBJETIVO PRINCIPAL\n\nO objetivo não foi atingido, pois não houve a obtenção de nomes de recomendações qualificados e autorizados.\n\n\n## ➕ Pontos fortes\n\n- Você reconheceu e valorizou a confiança do cliente logo no início, mostrando empatia e profissionalismo.\n\n  \n- Explicou a importância das recomendações e do marketing boca a boca como base do seu trabalho.\n\n  \n- Demonstrou disposição em respeitar o timing do cliente, acordando que só ligaria após autorização.\n\n  \n- Ofereceu suporte ao cliente com modelo de mensagem, facilitando sua ação e reduzindo objeções.\n\n\n## ⚠️ EIXOS DE MELHORIA\n\n- Ordem e prioridade.\n  Você pediu as recomendações antes de buscar os pontos de satisfação emocionais do cliente, invertendo o timing ideal do “momento WOW”.\n\n  \n- Excessiva insistência e número.\n  Solicitar cinco nomes logo de cara pode ter parecido exigente ou invasivo, especialmente para um cliente prático – sugerir um a três é mais natural.\n\n  \n- Falta de segmentação.\n  O pedido de nomes não foi suficientemente guiado por perfis, faltando direcionamento (“pensa em alguém do futebol, da franquia…”).\n\n  \n- Sequência abrupta.\n  Suas perguntas finais sobre satisfação vieram só após forte insistência nas indicações, perdendo o potencial do feedback espontâneo e da escuta ativa.\n\n  \n- Método ASK THE MAN.\n  Não houve coleta fluida das informações-chave sobre possíveis indicados, deixando a abordagem menos personalizada.\n\n\n## 🩵 ANÁLISE EMOCIONAL\n\nO tom foi caloroso e determinado, mas teve momentos de ansiedade e pressão. Predominou um estado emocional assertivo, com pequenas oscilações de impaciência.\n\n\n## 🛅 MOMENTOS-CHAVE\n\nQuando você se compromete explicitamente a só contatar após autorização, isso constrói confiança e reduz objeções do cliente, sinalizando respeito ao relacionamento.\n\n  \nA insistência na quantidade de indicações (“preciso que você me passe agora cinco nomes”) eleva a resistência e desvia do clima de parceria.\n\n\n## 🔊 REFORMULAÇÕES RECOMENDADAS\n\n\"Thiago, me diz: de tudo que conversamos, o que mais te chamou atenção na nossa proposta?\"\n\n  \n\"Entre seus colegas empreendedores ou amigos do futebol, alguém te vem à mente que se beneficiaria dessa solução?\"\n\n  \n\"Sem pressa: se lembrar de um ou dois nomes para eu ajudar da mesma forma, seria excelente.\"\n\n\n## ➡️ RECOMENDAÇÕES\n\nComece explorando os pontos de satisfação reais do cliente antes de pedir por nomes. Use segmentação e uma coleta gradual das informações com ASK THE MAN para humanizar a conversa. Foque mais na escuta ativa, menos na sensação de lista de tarefas.\n\nParabéns pelo comprometimento e energia – com pequenos ajustes, você vai converter ainda mais indicações!",
+        "insights": [
+            "Você reconheceu e valorizou a confiança do cliente logo no início, mostrando empatia e profissionalismo.",
+            "Explicou a importância das recomendações e do marketing boca a boca como base do seu trabalho.",
+            "Demonstrou disposição em respeitar o timing do cliente, acordando que só ligaria após autorização.",
+            "Ofereceu suporte ao cliente com modelo de mensagem, facilitando sua ação e reduzindo objeções.",
+            "Excessiva insistência e número.",
+            "Falta de segmentação.",
+            "Não houve coleta fluida das informações-chave sobre possíveis indicados, deixando a abordagem menos personalizada.",
+            "\"Thiago, me diz: de tudo que conversamos, o que mais te chamou atenção na nossa proposta?\""
+        ]
     },
     {
         "name": "Sabrina Oliveira",
@@ -25141,7 +27581,9 @@ const RAW_SIMULATIONS = [
                 "text": "It features"
             }
         ],
-        "finished": false
+        "finished": false,
+        "feedback": "",
+        "insights": []
     },
     {
         "name": "Sabrina Oliveira",
@@ -25154,7 +27596,9 @@ const RAW_SIMULATIONS = [
         "lqa": "N/A",
         "interactions": 0,
         "messages": [],
-        "finished": false
+        "finished": false,
+        "feedback": "",
+        "insights": []
     },
     {
         "name": "Sabrina Oliveira",
@@ -25167,7 +27611,9 @@ const RAW_SIMULATIONS = [
         "lqa": "N/A",
         "interactions": 0,
         "messages": [],
-        "finished": false
+        "finished": false,
+        "feedback": "",
+        "insights": []
     },
     {
         "name": "Sabrina Oliveira",
@@ -25377,7 +27823,14 @@ const RAW_SIMULATIONS = [
                 "text": "Até mais."
             }
         ],
-        "finished": true
+        "finished": true,
+        "feedback": "Aqui está o debriefing da nossa troca.\n\n🤓 PERSONA\n\nVocê atuou como Larissa, empresária comunicativa, perfil DISC amarelo, prestando atenção rápida, desconfiada e buscando vínculo pessoal rápido.  \n\n🎯 OBJETIVO PRINCIPAL\n\nVocê respondeu a diversas perguntas, mas concentrou-se quase totalmente em explicar o produto e preço. Não planejou ou qualificou a reunião, mas conseguiu agendar um horário. Objetivo atingido apenas parcialmente.\n\n➕ PONTOS FORTES\n\nMostrou familiaridade técnica ao descrever coberturas, prazos e condições em detalhes.\n\nSoube responder de prontidão a dúvidas operacionais, demonstrando domínio do produto.\n\nConseguiu obter a aceitação para uma reunião, respeitando a objeção de agenda.\n\n⚠️ PONTOS DE MELHORIA\n\nFaltou apresentação formal, autorização e contextualização (“João, posso te explicar o motivo do contato?”).\n\nPraticou venda telefônica ao detalhar coberturas, prêmios e exemplos, ignorando a diretriz de agendar apenas a reunião.\n\nIgnorou a etapa de quebra-gelo e referência/recomendação, o que reduz a taxa de conversão em perfis desconfiados.\n\nAo não adotar o método “sim, mas…”, deixou as objeções no campo técnico, sem abordagem consultiva ou escuta ativa.\n\nDeixou brechas de credibilidade ao citar valores em bitcoins e dar respostas titubeantes, o que diminui a confiança.\n\n🩵 ANÁLISE EMOCIONAL\n\nTonalidade e vocabulário colocaram você em postura insegura, hesitante e técnica. Faltou empatia e naturalidade consultiva, com excesso de pausas e hesitações.\n\n🛅 MOMENTOS-CHAVE\n\nAo entrar direto em preço/cobertura (“Apenas trezentos reais por mês”), perdeu o vínculo planejado pelo método MetLife, reduzindo o engajamento.\n\nO aceite final do prospect sobre o horário da reunião só ocorreu após uma série longa de dúvidas técnicas, mostrando foco desviando do objetivo.\n\n🔊 REFORMULAÇÕES RECOMENDADAS\n\n“Larissa, te incomodo só dois minutos? Posso me apresentar rapidinho antes de seguirmos?”\n\n“Minha missão é entender sua rotina e ver se faz sentido para você, sem venda pelo telefone.”\n\n“Te proponho um bate-papo presencial: amanhã às nove ou às onze horas, qual combina melhor contigo?”\n\n“Paulo recomendou nosso contato por já valorizar nosso serviço, tudo bem seguir?”\n\n➡️ RECOMENDAÇÕES\n\nEstruture sempre as oito etapas, peça autorização, ative recomendação, valorize benefícios da conversa, nunca venda ou detalhe produto por telefone, e trate objeções de forma consultiva e emocional — nunca só técnica.  \n\nFique atento e faça da próxima ligação uma experiência mais fluida e profissional. Seu potencial está logo ali!",
+        "insights": [
+            "Você respondeu a diversas perguntas, mas concentrou-se quase totalmente em explicar o produto e preço. Não planejou ou qualificou a reunião, mas conseguiu agendar um horário. Objetivo atingido apenas parcialmente.",
+            "Ignorou a etapa de quebra-gelo e referência/recomendação, o que reduz a taxa de conversão em perfis desconfiados.",
+            "“Te proponho um bate-papo presencial: amanhã às nove ou às onze horas, qual combina melhor contigo?”",
+            "Estruture sempre as oito etapas, peça autorização, ative recomendação, valorize benefícios da conversa, nunca venda ou detalhe produto por telefone, e trate objeções de forma consultiva e emocional — nunca só técnica."
+        ]
     },
     {
         "name": "Sabrina Oliveira",
@@ -25403,7 +27856,9 @@ const RAW_SIMULATIONS = [
                 "text": "Tá bom, pode deixar.  \nQuero que seja simples e sem alarde, só o que for preciso pra minha família ficar tranquila."
             }
         ],
-        "finished": false
+        "finished": false,
+        "feedback": "",
+        "insights": []
     },
     {
         "name": "Sabrina Oliveira",
@@ -25416,7 +27871,9 @@ const RAW_SIMULATIONS = [
         "lqa": "N/A",
         "interactions": 0,
         "messages": [],
-        "finished": false
+        "finished": false,
+        "feedback": "",
+        "insights": []
     },
     {
         "name": "Sabrina Oliveira",
@@ -25454,7 +27911,9 @@ const RAW_SIMULATIONS = [
                 "text": "Aí a gente fez, a gente fez essa situação, fez, deu certo. Eu fechei aqui minha sacada, é"
             }
         ],
-        "finished": false
+        "finished": false,
+        "feedback": "",
+        "insights": []
     },
     {
         "name": "Sabrina Oliveira",
@@ -25467,7 +27926,9 @@ const RAW_SIMULATIONS = [
         "lqa": "N/A",
         "interactions": 0,
         "messages": [],
-        "finished": false
+        "finished": false,
+        "feedback": "",
+        "insights": []
     },
     {
         "name": "Sabrina Oliveira",
@@ -25525,7 +27986,15 @@ const RAW_SIMULATIONS = [
                 "text": "E aqui eu posso passar para o debriefing"
             }
         ],
-        "finished": true
+        "finished": true,
+        "feedback": "Aqui está o debriefing da nossa conversa.\n\n  \n\n## 🤓 PERSONA\n\nEngenheiro de qualidade, perfil analítico, cético e reservado, predominância DISC azul.\n\n  \n\n## 🎯 OBJETIVO PRINCIPAL\n\nO objetivo de obter ao menos dois nomes de recomendações, com autorização de contato, não foi atingido.\n\n  \n\n## ➕ Pontos fortes\n\n- Houve tentativa de deixar a conversa descontraída, sem forçar respostas.\n\n  \n\n## ⚠️ EIXOS DE MELHORIA\n\n- Estrutura faltante  \n  Não houve abordagem estruturada para reconhecer a satisfação do cliente antes de avançar para pedidos.\n\n  \n- Ausência de escuta ativa  \n  Não foram feitos questionamentos para identificar pontos valorizados na experiência do cliente.\n\n  \n- Falta de clareza no pedido  \n  Não foi apresentado o contexto ou o propósito das recomendações; o cliente sequer foi guiado para pensar em perfis.\n\n  \n- Método \"ASK THE MAN\" não aplicado  \n  Não houve coleta de nenhuma informação específica nem menção à autorização de referência.\n\n  \n\n## 🩵 ANÁLISE EMOCIONAL \n\nA conversa foi fragmentada, sem conexão empática ou assertividade. O clima transmitido soou disperso e superficial.\n\n  \n\n## 🛅 MOMENTOS-CHAVE\n\nO momento de pedir recomendações não ocorreu: isso impediu o desencadeamento de qualquer passo relevante do método MetLife.\n\n  \n\n## 🔊 REFORMULAÇÕES RECOMENDADAS\n\n“Quero te agradecer de novo pela confiança, Eduardo, e reforçar que fico muito feliz com o resultado que encontramos.”\n\n“Seria interessante saber, na sua opinião, qual ponto do nosso atendimento mais te surpreendeu?”\n\n“Muitas vezes, pessoas próximas a você podem se beneficiar do mesmo tipo de consultoria. Você se sentiria confortável em me indicar alguém?”\n\n  \n\n## ➡️ RECOMENDAÇÕES\n\nInvista em reconhecer a satisfação do cliente, segmente perfis concretos ao pedir nomes e explique o valor do serviço para os indicados. Estruture a coleta de indicações, aplicando \"ASK THE MAN\" de modo leve. Cada finalização é um novo começo. Avance sem medo de ouvir não!",
+        "insights": [
+            "Houve tentativa de deixar a conversa descontraída, sem forçar respostas.",
+            "Ausência de escuta ativa",
+            "Falta de clareza no pedido",
+            "Método \"ASK THE MAN\" não aplicado",
+            "O momento de pedir recomendações não ocorreu: isso impediu o desencadeamento de qualquer passo relevante do método MetLife."
+        ]
     },
     {
         "name": "Sabrina Oliveira",
@@ -25538,7 +28007,9 @@ const RAW_SIMULATIONS = [
         "lqa": "N/A",
         "interactions": 0,
         "messages": [],
-        "finished": false
+        "finished": false,
+        "feedback": "",
+        "insights": []
     },
     {
         "name": "Sabrina Oliveira",
@@ -25560,7 +28031,9 @@ const RAW_SIMULATIONS = [
                 "text": "Oi, tudo bem. Agradeço o contato, mas acho que houve um engano: não fechei nenhum plano com você."
             }
         ],
-        "finished": false
+        "finished": false,
+        "feedback": "",
+        "insights": []
     },
     {
         "name": "Sabrina Oliveira",
@@ -25670,7 +28143,18 @@ const RAW_SIMULATIONS = [
                 "text": "Combinado"
             }
         ],
-        "finished": true
+        "finished": true,
+        "feedback": "Aqui está o debriefing da nossa conversa.\n\n  \n## 🤓 PERSONA\n\n- Jovem executiva, curiosa e digital, perfil DISC majoritariamente amarelo, com postura analítica, bem conectada e cética com instituições tradicionais.\n\n  \n## 🎯 OBJETIVO PRINCIPAL\n\n- O objetivo não foi atingido, pois não houve a obtenção de nomes qualificados nem autorização clara para contato.\n\n  \n## ➕ Pontos fortes\n\n- Começou bem, parabenizando pela escolha e reconhecendo o momento positivo após a assinatura.\n  \n- Explicou com didática que seu trabalho se apoia em recomendações, citando o exemplo do Paulo.\n  \n- Mostrou disponibilidade e preocupação em não invadir o espaço do cliente, negociando o melhor momento para contato.\n\n  \n## ⚠️ EIXOS DE MELHORIA\n\n- Faltou identificar pontos de satisfação: não houve espaço para o cliente expor com suas palavras o que gostou, o que complicou a conquista da confiança para recomendação.\n  \n- O pedido de nomes foi repetitivo, insistente e pouco segmentado, parecendo mais pressão do que facilitação; frases como “qual o problema de você me passar o nome?” soaram invasivas.\n  \n- Não houve uso do método ⟪ \"A.S.K.T.H.E.M.A.N\" ⟫ para qualificar perfis, o que limita a conversão de recomendações de qualidade.\n  \n- Em vez de explorar motivos ou objeções do cliente, houve tentativas de convencer, sem acolher suficientemente as resistências legítimas da persona.\n\n  \n## 🩵 ANÁLISE EMOCIONAL\n\n- O tom revelou certo nervosismo, ritmo apressado e linguagem repetitiva, sugerindo ansiedade por obter resultado rápido, gerando defensividade na conversa.\n\n  \n## 🛅 MOMENTOS-CHAVE\n\n- Ao prometer não contatar ninguém antes do aval do cliente, buscou criar segurança, porém logo insistiu de novo nos nomes, minando a confiança.\n  \n- A falta de perguntas abertas sobre satisfação impediu a valorização do momento WOW e reduziu a propensão do cliente em indicar terceiros.\n\n  \n## 🔊 REFORMULAÇÕES RECOMENDADAS\n\n- “Queria ouvir de você: o que mais te agradou no nosso processo até aqui?”\n  \n- “Vou te pedir recomendações só depois de você conversar com seus contatos e eles se sentirem confortáveis, tudo bem?”\n  \n- “Entre suas colegas tech ou amigos empreendedores, tem alguém que você acha que se beneficiaria de algo assim?”\n  \n- “Minha abordagem será sempre consultiva e respeitosa, como foi contigo.”\n\n  \n## ➡️ RECOMENDAÇÕES\n\nInvista mais tempo em escutar e valorizar o feedback espontâneo do cliente antes de pedir nomes. Segmente e facilite a lembrança, use ⟪ \"A.S.K.T.H.E.M.A.N\" ⟫ para enriquecer os dados e sempre garanta que sua abordagem soe leve e natural. Sua próxima oportunidade será sempre melhor se o pós-venda for genuinamente humano!",
+        "insights": [
+            "Jovem executiva, curiosa e digital, perfil DISC majoritariamente amarelo, com postura analítica, bem conectada e cética com instituições tradicionais.",
+            "O objetivo não foi atingido, pois não houve a obtenção de nomes qualificados nem autorização clara para contato.",
+            "Começou bem, parabenizando pela escolha e reconhecendo o momento positivo após a assinatura.",
+            "Explicou com didática que seu trabalho se apoia em recomendações, citando o exemplo do Paulo.",
+            "Mostrou disponibilidade e preocupação em não invadir o espaço do cliente, negociando o melhor momento para contato.",
+            "Faltou identificar pontos de satisfação: não houve espaço para o cliente expor com suas palavras o que gostou, o que complicou a conquista da confiança para recomendação.",
+            "O pedido de nomes foi repetitivo, insistente e pouco segmentado, parecendo mais pressão do que facilitação; frases como “qual o problema de você me passar o nome?” soaram invasivas.",
+            "Não houve uso do método ⟪ \"A.S.K.T.H.E.M.A.N\" ⟫ para qualificar perfis, o que limita a conversão de recomendações de qualidade."
+        ]
     },
     {
         "name": "Sabrina Oliveira",
@@ -25760,7 +28244,9 @@ const RAW_SIMULATIONS = [
                 "text": "Claro que é importante proteger a família dele.  \nAinda assim, eu prefiro esperar para ver na prática como o plano se ajusta ao nosso orçamento antes de falar com alguém."
             }
         ],
-        "finished": false
+        "finished": false,
+        "feedback": "",
+        "insights": []
     },
     {
         "name": "Sabrina Oliveira",
@@ -25773,7 +28259,9 @@ const RAW_SIMULATIONS = [
         "lqa": "N/A",
         "interactions": 0,
         "messages": [],
-        "finished": false
+        "finished": false,
+        "feedback": "",
+        "insights": []
     },
     {
         "name": "Sabrina Oliveira",
@@ -25911,7 +28399,18 @@ const RAW_SIMULATIONS = [
                 "text": "É que você perguntou se eu queria que você avisasse elas, lembra? Prefiro que você peça autorização antes de qualquer contato. Pode combinar isso por mensagem com cada uma."
             }
         ],
-        "finished": true
+        "finished": true,
+        "feedback": "Aqui está o debriefing da nossa conversa.\n\n  \n\n## 🤓 PERSONA\n\nInterpretei Larissa, empreendedora, carismática, comunicativa, perfil DISC majoritariamente amarelo, com forte rede social e facilidade em dialogar.\n\n  \n\n## 🎯 OBJETIVO PRINCIPAL\n\nO objetivo foi atingido: você obteve duas recomendações qualificadas e a autorização para contatar utilizando o nome da cliente.\n\n  \n\n## ➕ Pontos fortes\n\n- Reconhecimento inicial\n  Você buscou ouvir sobre o nível de satisfação antes de solicitar recomendações, reforçando o valor da solução.\n\n  \n- Clareza sobre acompanhamento\n  Explicou de forma transparente que estará sempre disponível em caso de dúvidas e necessidades da cliente.\n\n  \n- Superou objeções com empatia\n  Respeitou a necessidade de consentimento, negociou a ordem dos contatos e explicou que a abordagem seria informativa e consultiva.\n\n  \n- Segmentação assertiva\n  Direcionou a busca de nomes mencionando perfis semelhantes e detalhou perguntas complementares sobre filhos e localização, facilitando a memória da cliente.\n\n  \nContinue avançando nessa linha, foi natural e acolhedor!\n\n  \n\n## ⚠️ EIXOS DE MELHORIA\n\n- Exploração do momento WOW\n  Faltou evidenciar explicitamente o “momento de ouro” pós-venda, celebrando a conquista da cliente antes de avançar ao pedido.\n\n  \n- Convite à expressão do valor\n  Poderia ter deixado a cliente detalhar mais o que especificamente gostou da experiência (“O que te deixou mais satisfeita no processo?”).\n\n  \n- Abordagem inicial da recomendação\n  Sua primeira solicitação juntou várias perguntas rápidas, o que pode ser interpretado como leve pressão. Uma pergunta aberta, seguida de pausas, cria espaço mais orgânico.\n\n  \n- Humanização dos indicados\n  Faltou pedir anedotas ou traços pessoais sobre os recomendados, o que facilitaria a personalização do próximo contato.\n\n  \nTrabalhe esses pontos para refinar ainda mais sua naturalidade nas conversas.\n\n  \n\n## 🩵 ANÁLISE EMOCIONAL\n\nO tom transmitiu cuidado e segurança, mas o ritmo acelerado em alguns momentos. Demonstrou empatia e presença, dominante confiante, com leves traços de ansiedade no fechamento.\n\n  \n\n## 🛅 MOMENTOS-CHAVE\n\nAo acolher a objeção sobre consentimento (“você vai falar primeiro com elas?”), explicou calmamente o respeito pelo ritmo da cliente—isso reforçou confiança e colaboratividade.\n\nAo segmentar os perfis (“ela tem filhos? Mora em São Paulo?”), facilitou que a cliente pensasse em nomes concretos — acelerou o fluxo de indicações.\n\n  \n\n## 🔊 REFORMULAÇÕES RECOMENDADAS\n\n“Queria saber, do seu ponto de vista, o que você mais curtiu do nosso atendimento?”\n\n“Entre seus colegas empreendedores, quem você acha que mais se beneficiaria de um bate-papo despretensioso sobre proteção?”\n\n“Posso dizer que você indicou nosso contato por confiança no que vivenciou? Isso sempre aproxima a conversa.”\n\n“Tem algum detalhe especial dessas pessoas que você acha importante eu saber antes da abordagem?”\n\n  \n\n## ➡️ RECOMENDAÇÕES\n\nCelebre o sucesso do cliente antes de pedir algo, convide-o a expressar o valor percebido e conduza o pedido num ritmo calmo, com perguntas individualizadas e pausas. Peça sempre uma autorização personalizada para uso do nome, buscando detalhes humanos sobre os indicados.\n\nVocê vem mostrando evolução! Continue afinando pequenos detalhes; eles farão sua abordagem brilhar de forma ainda mais natural e eficaz.",
+        "insights": [
+            "O objetivo foi atingido: você obteve duas recomendações qualificadas e a autorização para contatar utilizando o nome da cliente.",
+            "Reconhecimento inicial",
+            "Clareza sobre acompanhamento",
+            "Superou objeções com empatia",
+            "Segmentação assertiva",
+            "Exploração do momento WOW",
+            "Faltou evidenciar explicitamente o “momento de ouro” pós-venda, celebrando a conquista da cliente antes de avançar ao pedido.",
+            "Convite à expressão do valor"
+        ]
     },
     {
         "name": "Gorilla Su2026",
@@ -25933,7 +28432,9 @@ const RAW_SIMULATIONS = [
                 "text": "(laughs)"
             }
         ],
-        "finished": false
+        "finished": false,
+        "feedback": "",
+        "insights": []
     },
     {
         "name": "Tabajara Dias",
@@ -25971,7 +28472,9 @@ const RAW_SIMULATIONS = [
                 "text": "Do princípio de nada."
             }
         ],
-        "finished": false
+        "finished": false,
+        "feedback": "",
+        "insights": []
     },
     {
         "name": "Tabajara Dias",
@@ -26089,7 +28592,9 @@ const RAW_SIMULATIONS = [
                 "text": "Como é que eu vou saber?"
             }
         ],
-        "finished": false
+        "finished": false,
+        "feedback": "",
+        "insights": []
     },
     {
         "name": "Tabajara Dias",
@@ -26102,7 +28607,9 @@ const RAW_SIMULATIONS = [
         "lqa": "N/A",
         "interactions": 0,
         "messages": [],
-        "finished": false
+        "finished": false,
+        "feedback": "",
+        "insights": []
     },
     {
         "name": "Tabajara Dias",
@@ -26232,7 +28739,13 @@ const RAW_SIMULATIONS = [
                 "text": "Até mais."
             }
         ],
-        "finished": true
+        "finished": true,
+        "feedback": "Aqui está o debriefing de nossa conversa.\n\n\n\n🤓 PERSONA\n\nCliente relutante, sociável, emotivo e expressivo, busca conexão interpessoal, perfil DISC predominantemente amarelo.\n\n\n\n🎯 OBJETIVO PRINCIPAL\n\nVocê apresentou argumentos para superar a objeção, tentou marcar reunião, mas acabou cedendo e enviando a documentação. Objetivo parcialmente atingido.\n\n\n\n➕ Pontos fortes\n\nVocê demonstrou flexibilidade ao propor alternativas como presencial e vídeo, adaptando-se à possível limitação de agenda do cliente.\n\nTentou focar nos benefícios do encontro ao ressaltar a complexidade do tema e a importância de esclarecimentos ao vivo.\n\nTrouxe linguagem respeitosa, demonstrando cordialidade e preocupação em facilitar a decisão do prospect.\n\nOfereceu alternativas de horários, avançando na técnica de escolha forçada.\n\n\n\n⚠️ EIXOS DE MELHORIA\n\nFaltou validar emocionalmente a objeção: não houve uma escuta ativa clara (“Entendo seu pedido…”), nem explorações abertas sobre o motivo da solicitação de documentos.\n\nCedeu ao envio de documentos antes de explorar suficientemente as razões do prospect, o que retirou força da argumentação contra materiais genéricos.\n\nA argumentação ficou genérica e repetitiva, sem personalizar para o perfil do cliente ou usar as alavancas MetLife (personalização, necessidade mútua, inadequação do suporte).\n\nAs perguntas permaneceram fechadas e não exploratórias, impedindo descobrir inseguranças, crenças ou preocupações reais do prospect.\n\n\n\n🩵 ANÁLISE EMOCIONAL\n\nSeu tom buscou ser cordial e colaborativo, mas os excessos de hesitações e muletas verbais deram aparência insegura. Predominou um estado emocional oscilante entre prestatividade e insegurança.\n\n\n\n🛅 MOMENTOS-CHAVE\n\nQuando sugeriu o esclarecimento presencial para evitar dúvidas foi ponto positivo, mas ceder ao envio do material desmontou sua posição e o controle da ligação.\n\n\n\n🔊 REFORMULAÇÕES RECOMENDADAS\n\nEntendo que queira conhecer mais antes, posso perguntar o que é prioridade para o senhor ao analisar uma proposta?\n\nMinha intenção é adaptar totalmente ao seu contexto; um breve encontro me permite entender o que faz sentido para o senhor.\n\nQue tal reservamos vinte minutos por vídeo e o material faço questão de apresentar pessoalmente, assim fica tudo claro para o senhor.\n\nPosso propor quarta às dezessete ou quinta às dezenove para conversarmos com calma?\n\n\n\n➡️ RECOMENDAÇÕES\n\nOuça ativamente o motivo da objeção, valide o sentimento, use perguntas abertas e reforce as vantagens do encontro personalizado. Só ceda ao envio de documentos após esgotar as estratégias acima. Foque em empatia sem perder de vista seu objetivo.\n\n\n\nSe cair, levante melhor: cada conversa lapida seu poder de influência!",
+        "insights": [
+            "Você demonstrou flexibilidade ao propor alternativas como presencial e vídeo, adaptando-se à possível limitação de agenda do cliente.",
+            "Faltou validar emocionalmente a objeção: não houve uma escuta ativa clara (“Entendo seu pedido…”), nem explorações abertas sobre o motivo da solicitação de documentos.",
+            "Se cair, levante melhor: cada conversa lapida seu poder de influência!"
+        ]
     },
     {
         "name": "Tabajara Dias",
@@ -26302,7 +28815,18 @@ const RAW_SIMULATIONS = [
                 "text": "Adeus. Aqui."
             }
         ],
-        "finished": true
+        "finished": true,
+        "feedback": "Aqui está o debriefing de nossa conversa.\n\n  \n🤓 PERSONA\n\nVocê interagiu com Roberto, comerciante carioca, perfil DISC majoritariamente verde: comunicativo, caloroso, digressivo e com resistência sutil à pressão.\n\n\n🎯 OBJETIVO PRINCIPAL\n\nSeu objetivo era vencer a objeção sobre o envio de material antes da reunião e obter o agendamento sem ceder documentos genéricos. O objetivo não foi atingido.\n\n\n  \n➕ Pontos fortes\n\n- Demonstrou preocupação com a personalização da proposta, explicando que o envio de materiais genéricos não seria produtivo.\n- Mencionou a importância da reunião para alinhar a oferta às demandas do cliente.\n- Utilizou argumentos baseados na segurança e adequação do produto.\n\n  \n⚠️ EIXOS DE MELHORIA\n\n- Faltou escuta ativa: em nenhum momento você procurou, com perguntas abertas, entender as reais reticências do prospect, focando só na contraposição ao envio do material.\n- A técnica do “Sim, mas…” foi pouco aplicada: você não validou o sentimento do prospect antes de apresentar seus motivos, o que aumentou a resistência.\n- Houve hesitação e mudança de postura: acabou cedendo ao envio do material (“eu envio o material pro senhor...”), contrariando sua própria orientação inicial.\n- Não utilizou a escolha forçada para o agendamento: pediu para o prospect sugerir datas, perdendo o controle do processo.\n  \n🩵 ANÁLISE EMOCIONAL\n\nSeu tom oscilou entre esforçado e levemente tenso, com ritmo hesitante e repetição de palavras. Faltou confiança consistente, predominando insegurança ao final.\n\n\n  \n🛅 MOMENTOS-CHAVE\n\nNa justificativa inicial, você destacou a necessidade de personalização – abordagem boa, mas sem escuta. No momento em que cedeu ao envio do material, perdeu o controle e enfraqueceu sua posição, levando ao encerramento abrupto.\n\n\n🔊 REFORMULAÇÕES RECOMENDADAS\n\n“Senhor Roberto, entendo sua preferência por avaliar materiais, posso perguntar o que gostaria de analisar primeiro?”\n\n“Se me permitir, em poucos minutos consigo entender melhor o que realmente faz sentido para o senhor.”\n\n“Que tal marcarmos quinze minutos presenciais ou por vídeo, terça às dez ou quarta às quinze, para facilitar esse ajuste?”\n\n“O material só fará sentido após conversarmos sobre suas necessidades, concorda?”\n\n\n➡️ RECOMENDAÇÕES\n\nPriorize perguntas abertas para revelar objeções reais, valide sentimentos antes de argumentar e sustente a recusa com simpatia e método, sem hesitação. Retome sempre a proposta de datas fechadas para não perder o controle.\n\nPersista, pois cada ligação é uma chance de avançar, mesmo nos “nãos” mais teimosos!",
+        "insights": [
+            "Você interagiu com Roberto, comerciante carioca, perfil DISC majoritariamente verde: comunicativo, caloroso, digressivo e com resistência sutil à pressão.",
+            "Demonstrou preocupação com a personalização da proposta, explicando que o envio de materiais genéricos não seria produtivo.",
+            "Mencionou a importância da reunião para alinhar a oferta às demandas do cliente.",
+            "Utilizou argumentos baseados na segurança e adequação do produto.",
+            "Faltou escuta ativa: em nenhum momento você procurou, com perguntas abertas, entender as reais reticências do prospect, focando só na contraposição ao envio do material.",
+            "A técnica do “Sim, mas…” foi pouco aplicada: você não validou o sentimento do prospect antes de apresentar seus motivos, o que aumentou a resistência.",
+            "Houve hesitação e mudança de postura: acabou cedendo ao envio do material (“eu envio o material pro senhor...”), contrariando sua própria orientação inicial.",
+            "Não utilizou a escolha forçada para o agendamento: pediu para o prospect sugerir datas, perdendo o controle do processo."
+        ]
     },
     {
         "name": "Tabajara Dias",
@@ -26328,7 +28852,9 @@ const RAW_SIMULATIONS = [
                 "text": "Oi. Não esperava essa ligação e estou no meio de algo. Pode resumir em poucas palavras o que você quer oferecer?"
             }
         ],
-        "finished": false
+        "finished": false,
+        "feedback": "",
+        "insights": []
     },
     {
         "name": "Tabajara Dias",
@@ -26378,7 +28904,18 @@ const RAW_SIMULATIONS = [
                 "text": "Quinze minutos ok, mas antes me diz: quanto isso vai custar por mês e se tem carência pra doenças graves."
             }
         ],
-        "finished": true
+        "finished": true,
+        "feedback": "Aqui está o debriefing da nossa troca.\n\n\n🤓 PERSONA\n\n- Interpretei Roberto, comerciante carioca de classe média, perfil DISC majoritariamente verde, relacional, comunicativo e desconfiado no começo.\n\n \n🎯 OBJETIVO PRINCIPAL\n\n- Você respondeu parcialmente às objeções levantadas, porém o convite para reunião não foi fortalecido.\n- Não houve fechamento claro da agenda nem concordância do prospect.\n- O objetivo foi parcialmente atingido.\n\n \n➕ PONTOS FORTES\n\n- Demonstrou preocupação em adaptar a proposta ao perfil e às necessidades familiares do prospect, buscando personalização.\n\n- Fez menção ao respeito pelo tempo do cliente, tentando legitimar o convite para uma reunião presencial.\n\n- Teve intenção de atuar de maneira consultiva, evitando descrição detalhada dos produtos ou tentativa explícita de venda.\n\n \n⚠️ PONTOS DE MELHORIA\n\n- Ausência de apresentação formal e, sobretudo, de autorização explícita para continuar a ligação, deixando o prospect inseguro.\n\n- Falta de um gatilho de recomendação ou quebra-gelo pessoal, o que dificultou criar vínculo inicial.\n\n- Não utilizou a técnica de escolha forçada entre dois horários para facilitar o agendamento (apenas sugeriu genericamente “quinze minutos”).\n\n- A proposta de reunião ficou vaga e sem prazo, e não houve reconfirmação de data, horário ou local.\n\n- O discurso apresentou muitas hesitações e repetições (“hã”, “é, é, é”), o que prejudicou a assertividade e a confiança transmitida.\n\n \n🩵 ANÁLISE EMOCIONAL\n\n- O tom esteve hesitante e prolixo, o ritmo um pouco truncado por pausas, e o vocabulário foi redundante.\n- Estado emocional dominante: inseguro, gentil, mas com baixa assertividade.\n\n \n🛅 MOMENTOS-CHAVE\n\n- Ao tentar mostrar preocupação com o tempo do prospect → buscou empatia, mas faltou firmeza para converter em ação → enfraqueceu a taxa de engajamento.\n\n \n🔊 REFORMULAÇÕES RECOMENDADAS\n\n- “Roberto, foi o Paulo da Associação Comercial que comentou que você poderia se interessar por uma solução como essa. Posso explicar rapidamente?”\n\n- “Se fizer sentido para você, podemos agendar um bate-papo de quinze minutos amanhã às dez ou às quinze, o que prefere?”\n\n- “Posso te explicar pessoalmente como isso pode beneficiar sua família, sem compromisso, pode ser?”\n\n- “Gostaria de confirmar: você prefere conversar presencialmente na sua farmácia ou num café aqui perto?”\n\n\n➡️ RECOMENDAÇÕES\n\nTraga logo no início a recomendação do Paulo, peça autorização clara para continuar, use escolha forçada entre datas e seja mais assertivo e conciso. Ensaie a abertura e adote um tom mais seguro. Com treino, sua abordagem ficará muito mais poderosa!",
+        "insights": [
+            "Interpretei Roberto, comerciante carioca de classe média, perfil DISC majoritariamente verde, relacional, comunicativo e desconfiado no começo.",
+            "Você respondeu parcialmente às objeções levantadas, porém o convite para reunião não foi fortalecido.",
+            "Não houve fechamento claro da agenda nem concordância do prospect.",
+            "O objetivo foi parcialmente atingido.",
+            "Demonstrou preocupação em adaptar a proposta ao perfil e às necessidades familiares do prospect, buscando personalização.",
+            "Fez menção ao respeito pelo tempo do cliente, tentando legitimar o convite para uma reunião presencial.",
+            "Teve intenção de atuar de maneira consultiva, evitando descrição detalhada dos produtos ou tentativa explícita de venda.",
+            "Ausência de apresentação formal e, sobretudo, de autorização explícita para continuar a ligação, deixando o prospect inseguro."
+        ]
     },
     {
         "name": "Tabajara Dias",
@@ -26404,7 +28941,9 @@ const RAW_SIMULATIONS = [
                 "text": "Depende do que você quer que eu coloque. Você está falando de incluir alguém na apólice ou de adicionar um benefício específico?"
             }
         ],
-        "finished": false
+        "finished": false,
+        "feedback": "",
+        "insights": []
     },
     {
         "name": "Tabajara Dias",
@@ -26502,7 +29041,18 @@ const RAW_SIMULATIONS = [
                 "text": "Tudo bem, João Pedro. Até quinta-feira, então."
             }
         ],
-        "finished": true
+        "finished": true,
+        "feedback": "Aqui está o debriefing da nossa conversa.\n\n  \n\n## :nerd_face: PERSONA\n\nMulher, empreendedora, carismática e comunicativa, perfil DISC: majoritariamente amarelo, estilo relacional, rápida, emocional.\n\n  \n\n## :dart: OBJETIVO PRINCIPAL\n\nNão foram obtidos nomes de indicações qualificados nem autorização explícita para contato. O objetivo foi não atingido.\n\n  \n\n## :heavy_plus_sign: PONTOS FORTES\n\n- Você parabenizou e reconheceu a decisão da cliente, criando um ambiente positivo inicial.\n\n  \n- Demonstrou preocupação com discrição e respeito pelo círculo da cliente ao mencionar abordagem sutil.\n\n  \n- Tentou agendar um novo contato para dar tempo à cliente de pensar, em vez de pressionar por respostas imediatas.\n\n  \n\n## :warning: EIXOS DE MELHORIA\n\n- Faltou explorar o momento de satisfação genuína da cliente com perguntas abertas sobre o que mais ela apreciou no atendimento.\n\n  \n- O pedido de indicações foi realizado de forma genérica e sem segmentação (“familiares, amigos”), dificultando a lembrança de nomes concretos.\n\n  \n- Não aplicou a técnica A.S.K.T.H.E.M.A.N (\"ASKZEMANN\") nem coletou informações qualificadas dos possíveis indicados.\n\n  \n- Pulou as etapas mágicas: não humanizou o pedido (anecdota, qualidade dos amigos), nem pediu autorização explícita para mencionar seu nome.\n\n  \n\n## :light_blue_heart: ANÁLISE EMOCIONAL\n\nA conversa transmitiu respeito, mas trouxe hesitação e excesso de repetições. O tom foi educado, porém pouco assertivo e linear.\n\n  \n\n## :left_luggage: MOMENTOS-CHAVE\n\n- Início positivo → você fez um reconhecimento breve da cliente → importante para abertura, mas faltou aprofundamento.\n\n  \n- Pedido direto e genérico por indicações → agiu rapidamente, mas sem criar conexão emocional ou explorar perfis específicos → resultado: cliente não se engajou.\n\n  \n\n## :loud_sound: REFORMULAÇÕES RECOMENDADAS\n\n- “Larissa, antes de tudo, posso perguntar o que mais te marcou nessa experiência com nosso atendimento?”\n\n  \n- “Entre suas clientes empreendedoras ou amigas que valorizam proteção financeira, alguém vem à sua cabeça?”\n\n  \n- “Se eu puder mencionar que você já conhece o serviço, isso tornaria mais confortável nosso contato?”\n\n  \n\n## :arrow_right: RECOMENDAÇÕES\n\nAprofunde o reconhecimento antes do pedido, faça a cliente falar sobre o valor percebido e segmente com exemplos concretos. Use as perguntas mágicas para humanizar as indicações e peça autorização explícita. Pratique até que este roteiro soe natural. Treine até o WOW se tornar rotina!",
+        "insights": [
+            "Mulher, empreendedora, carismática e comunicativa, perfil DISC: majoritariamente amarelo, estilo relacional, rápida, emocional.",
+            "## :heavy_plus_sign: PONTOS FORTES",
+            "Você parabenizou e reconheceu a decisão da cliente, criando um ambiente positivo inicial.",
+            "Demonstrou preocupação com discrição e respeito pelo círculo da cliente ao mencionar abordagem sutil.",
+            "Tentou agendar um novo contato para dar tempo à cliente de pensar, em vez de pressionar por respostas imediatas.",
+            "Faltou explorar o momento de satisfação genuína da cliente com perguntas abertas sobre o que mais ela apreciou no atendimento.",
+            "O pedido de indicações foi realizado de forma genérica e sem segmentação (“familiares, amigos”), dificultando a lembrança de nomes concretos.",
+            "Não aplicou a técnica A.S.K.T.H.E.M.A.N (\"ASKZEMANN\") nem coletou informações qualificadas dos possíveis indicados."
+        ]
     },
     {
         "name": "Tabajara Dias",
@@ -26532,7 +29082,9 @@ const RAW_SIMULATIONS = [
                 "text": "Desculpe, não acompanho isso. Você está falando comigo sobre seguro? Tenho pouco tempo."
             }
         ],
-        "finished": false
+        "finished": false,
+        "feedback": "",
+        "insights": []
     },
     {
         "name": "Tabajara Dias",
@@ -26550,7 +29102,9 @@ const RAW_SIMULATIONS = [
                 "text": "O mais simples: encaminhe-me o documento por e-mail, eu o analiso com tranquilidade e lhe dou um retorno."
             }
         ],
-        "finished": false
+        "finished": false,
+        "feedback": "",
+        "insights": []
     },
     {
         "name": "Philippe de Langlais",
@@ -26612,7 +29166,13 @@ const RAW_SIMULATIONS = [
                 "text": "Envie o resumo por escrito antes da proposta de horários. Quero ver números e condições por escrito para avaliar."
             }
         ],
-        "finished": true
+        "finished": true,
+        "feedback": "Voici le débriefing de notre échange\n\n🎯 PERSONA\n\nPatrícia, controladora de gestão, perfil Azul (DISC) dominante: lógica, objetiva, exige clareza, avessa à improvisação e a vendas pouco consultivas.\n\n🌟 OBJETIVO PRINCIPAL\n\nO objetivo de obter um aceite qualificado para uma reunião de descoberta Metlife, respondendo às objeções com precisão, não foi atingido.\n\n🦾 Pontos fortes \n\nVocê demonstrou cordialidade na abordagem inicial, mantendo um tom educado e respeitoso. Tentou trazer o cliente para a proposta ao criar um chamado direto à ação (\"gostaria de te propor um bom negócio\") e finalizar propondo, de forma aberta, o envio de opções de agenda. Houve uma tentativa de identificar se o prospect já tem seguro, um ponto relevante para rápida qualificação.\n\n⚠️ Axes d'amélioration \n\nFaltou estruturar a conversa nas oito etapas Metlife: não houve solicitação de autorização, nem brise-glace pessoal ou menção de recomendação, o que dificultou criar vínculo e credibilidade. O uso de frases vagas como \"propor um bom negócio\" e “renda muito boa” tende a soar genérico ou comercial, o que pode gerar resistência num perfil lógico como o de Patrícia. Não houve uma proposta de agenda em formato de escolha forçada (“terça às dez ou quarta às quinze?”) e faltou a reconfirmação do compromisso. O tratamento das objeções não utilizou a técnica “sim, mas…”, não havendo validador emocional ou perguntas para aprofundar necessidades. Além disso, houve tentativas implícitas de venda (“produto com renda muito boa”), arriscando afastar quem busca uma abordagem consultiva. A conclusão foi vaga, sem confirmação prática de data, local ou engajamento real.\n\n🛅 Momentos chave\n\nQuando abordou de imediato a proposta de um “bom negócio”, saltou etapas importantes para gerar confiança com Patrícia. Ao perguntar se possuía seguro de vida, tentou qualificar, mas faltou conexão pessoal e explicação do benefício objetivo de ouvir sua proposta. Por fim, ao sugerir envio de \"dois até três possibilidades\" de horários, deixou indefinição e sem sentido de urgência para o agendamento.\n\n🔊 Reformulações recomendadas\n\n“Recebi sua indicação através do Paulo, tudo bem abordar você sobre este tema agora?”\n“Tenho auxiliado pessoas do seu perfil a otimizar proteção financeira, posso explicar rapidamente o objetivo do contato antes de tudo?”\n“Prefere conversarmos terça às quinze ou quarta às dezessete, ambas online?”\n“Posso contar com uma indicação sua, mesmo que não avance nesta etapa?”\n\n➡️ Recomendations\n\nInvista em estruturar cada chamada seguindo fielmente as oito etapas. Comece sempre ganhando permissão para seguir, usando o nome da referência (quando apropriado), e construa um brise-glace personalizado. Elabore o benefício do encontro de forma consultiva e evite termos genéricos ou promessas vagas. Use perguntas de dupla escolha para data/hora próxima, trate objeções com o método “sim, mas…” sempre buscando o motivo real por trás da recusa e mantenha o foco exclusivo no agendamento do encontro, nunca na venda. Por fim, sempre peça uma recomendação – inclusive após um “não” – mantendo calor humano, clareza e ritmo dinâmico para aumentar sua taxa de transformação. Isso fará toda a diferença ao enfrentar perfis analíticos como Patrícia.",
+        "insights": [
+            "Patrícia, controladora de gestão, perfil Azul (DISC) dominante: lógica, objetiva, exige clareza, avessa à improvisação e a vendas pouco consultivas.",
+            "Faltou estruturar a conversa nas oito etapas Metlife: não houve solicitação de autorização, nem brise-glace pessoal ou menção de recomendação, o que dificultou criar vínculo e credibilidade. O uso de frases vagas como \"propor um bom negócio\" e “renda muito boa” tende a soar genérico ou comercial, o que pode gerar resistência num perfil lógico como o de Patrícia. Não houve uma proposta de agenda em formato de escolha forçada (“terça às dez ou quarta às quinze?”) e faltou a reconfirmação do compromisso. O tratamento das objeções não utilizou a técnica “sim, mas…”, não havendo validador emocional ou perguntas para aprofundar necessidades. Além disso, houve tentativas implícitas de venda (“produto com renda muito boa”), arriscando afastar quem busca uma abordagem consultiva. A conclusão foi vaga, sem confirmação prática de data, local ou engajamento real.",
+            "Invista em estruturar cada chamada seguindo fielmente as oito etapas. Comece sempre ganhando permissão para seguir, usando o nome da referência (quando apropriado), e construa um brise-glace personalizado. Elabore o benefício do encontro de forma consultiva e evite termos genéricos ou promessas vagas. Use perguntas de dupla escolha para data/hora próxima, trate objeções com o método “sim, mas…” sempre buscando o motivo real por trás da recusa e mantenha o foco exclusivo no agendamento do encontro, nunca na venda. Por fim, sempre peça uma recomendação – inclusive após um “não” – mantendo calor humano, clareza e ritmo dinâmico para aumentar sua taxa de transformação. Isso fará toda a diferença ao enfrentar perfis analíticos como Patrícia."
+        ]
     },
     {
         "name": "Philippe de Langlais",
@@ -26690,7 +29250,14 @@ const RAW_SIMULATIONS = [
                 "text": "Obrigada. Aguardo o resumo por mensagem antes da videochamada. Até lá."
             }
         ],
-        "finished": true
+        "finished": true,
+        "feedback": "Voici le débriefing de notre échange\n\n🎯 PERSONA\n\nCamila, jovem Product Manager em tech, perfil digital, crítico, curioso e dominante DISC amarelo.\n\n🌟 OBJECTIVO PRINCIPAL\n\nVocê respondeu de modo parcial às objeções e propôs reunião, mas sem garantir aceitação firme. Objetivo parcialmente atingido.\n\n🦾 Pontos fortes\n\nSua abordagem inicial foi direta e educada, usando o nome da cliente e citando a recomendação do Paulo, o que cria certo vínculo. O convite para uma conversa presencial demonstra intenção clara de avançar para o próximo passo, e apresentou a proposta, sugerindo horários específicos (escolha forçada). Mostrou disponibilidade ao enviar posteriormente um descritivo da solução, buscando manter o interesse aceso.\n\n⚠️ Axes de melhoria\n\nFaltou pedir autorização formal para seguir a conversa, algo fundamental no método MetLife para criar segurança, principalmente com perfis mais desconfiados e digitais como o de Camila. O brise-glace ficou confuso e não houve genuína conexão pessoal antes da proposta. A escolha forçada ocorreu, mas com datas longes do ideal (mais de setenta e duas horas depois, reduzindo o senso de urgência). Não houve gestão clara das objeções (“já tenho seguro”, “já conheço Paulo?”), e em vários momentos a fala ficou entrecortada e hesitante, prejudicando a assertividade e a confiança passada na voz. Não houve validação explícita de perfil NAPA. Não aconteceu a reconfirmação do compromisso (data, hora, local) nem o pedido de indicação ao final. E atenção: citar detalhes de produto (“descritivo do seguro de vida que gostaria de te propor”) pode soar como venda e fere o objetivo do contato.\n\n🛅 Momentos chave\n\nQuando usou a recomendação de Paulo, abriu oportunidade de aproximação rapidamente, mas não aprofundou para gerar conexão real, deixando a oportunidade de ativar o brise-glace de lado. Sua proposta de datas foi assertiva, mas muito espaçada para uma decisão quente. Ao finalizar oferecendo o envio do material antes do encontro, perdeu foco do objetivo central: marcar o compromisso.\n\n🔊 Reformulações recomendadas\n\nCamila, tudo bem? Recebi seu contato pelo Paulo, que comentou que você valoriza inovação e praticidade – posso tomar dois minutos para te explicar o motivo do meu contato?  \nTenho dois horários nos próximos dias: quarta às onze horas ou quinta às dezesseis horas, qual fica melhor pra você?  \nMeu objetivo é só apresentar rapidamente soluções diferentes do que se vê por aí – sem compromisso de contratação.  \nAo final da nossa conversa, se você perceber valor, talvez possa me indicar alguém do seu círculo que também buscaria alternativas personalizadas – faz sentido?\n\n➡️ Recomendações\n\nSaia do script hesitante: estrutura e naturalidade andam juntas. Sempre peça a autorização para abrir a conversa e crie um brise-glace alinhado ao perfil do prospect (algo pessoal, leve e relevante). Trate as objeções com “sim, mas…” trazendo sempre benefício ao prospect. Use datas próximas para o RDV e reconfirme todos os detalhes no final. Nunca entre em venda ou envio de material antes do encontro: objetivo é marcar, não vender. E nunca finalize sem pedir uma recomendação, mesmo em caso de recusa. Explore mais o NAPA – sem medo de parecer consultivo. Se conseguir tornar esse processo mais fluido e humanizado, seu resultado com perfis digitais de alta exigência como a Camila será muito melhor.",
+        "insights": [
+            "Faltou pedir autorização formal para seguir a conversa, algo fundamental no método MetLife para criar segurança, principalmente com perfis mais desconfiados e digitais como o de Camila. O brise-glace ficou confuso e não houve genuína conexão pessoal antes da proposta. A escolha forçada ocorreu, mas com datas longes do ideal (mais de setenta e duas horas depois, reduzindo o senso de urgência). Não houve gestão clara das objeções (“já tenho seguro”, “já conheço Paulo?”), e em vários momentos a fala ficou entrecortada e hesitante, prejudicando a assertividade e a confiança passada na voz. Não houve validação explícita de perfil NAPA. Não aconteceu a reconfirmação do compromisso (data, hora, local) nem o pedido de indicação ao final. E atenção: citar detalhes de produto (“descritivo do seguro de vida que gostaria de te propor”) pode soar como venda e fere o objetivo do contato.",
+            "Quando usou a recomendação de Paulo, abriu oportunidade de aproximação rapidamente, mas não aprofundou para gerar conexão real, deixando a oportunidade de ativar o brise-glace de lado. Sua proposta de datas foi assertiva, mas muito espaçada para uma decisão quente. Ao finalizar oferecendo o envio do material antes do encontro, perdeu foco do objetivo central: marcar o compromisso.",
+            "Tenho dois horários nos próximos dias: quarta às onze horas ou quinta às dezesseis horas, qual fica melhor pra você?",
+            "Saia do script hesitante: estrutura e naturalidade andam juntas. Sempre peça a autorização para abrir a conversa e crie um brise-glace alinhado ao perfil do prospect (algo pessoal, leve e relevante). Trate as objeções com “sim, mas…” trazendo sempre benefício ao prospect. Use datas próximas para o RDV e reconfirme todos os detalhes no final. Nunca entre em venda ou envio de material antes do encontro: objetivo é marcar, não vender. E nunca finalize sem pedir uma recomendação, mesmo em caso de recusa. Explore mais o NAPA – sem medo de parecer consultivo. Se conseguir tornar esse processo mais fluido e humanizado, seu resultado com perfis digitais de alta exigência como a Camila será muito melhor."
+        ]
     },
     {
         "name": "Philippe de Langlais",
@@ -26836,7 +29403,15 @@ const RAW_SIMULATIONS = [
                 "text": "Seu tom foi inapropriado. Não aceito ser desrespeitado nem pressionado. \n\nEncerramos aqui. Boa tarde."
             }
         ],
-        "finished": true
+        "finished": true,
+        "feedback": "Aqui está o debriefing de nossa conversa.\n\n\n🤓 PERSONA\n\nInterpretei Eduardo, engenheiro metódico, perfil DISC azul, racional, desconfiado, avesso à pressa e sedento por informações sólidas.\n\n\n🎯 OBJETIVO PRINCIPAL\n\nVocê tentou justificar a não entrega de documentação antes de reunião, mas não abordou a objeção de forma empática. Não conseguiu agendar a reunião nem superar o bloqueio do prospect: objetivo não atingido.\n\n\n➕ Pontos fortes\n\nVocê citou a importância da personalização, mostrando que a proposta depende do perfil do cliente.\n\nTeve iniciativa em controlar a conversa, tentando gerar valor com o encontro presencial.\n\nExplicou que a proposta é sob medida e depende de dados, evitando envio genérico.\n\nDemonstrou esforço em argumentar o diferencial de um contato direto.\n\n\n⚠️ EIXOS DE MELHORIA\n\nFaltou escuta ativa: você não identificou ou tratou diretamente a razão profunda da recusa do prospect.\n\nCedeu à tentação de vender pelo telefone, inclusive mencionando valores sem a devida qualificação prévia.\n\nSeu tom tornou-se impaciente e agressivo (“o senhor não merece o nosso serviço”), minando o relacionamento.\n\nNão usou perguntas abertas para descobrir obstáculos ou reticências.\n\nNão aplicou a técnica da escolha forçada com datas concretas para o agendamento.\n\n\n🩵 ANÁLISE EMOCIONAL\n\nSeu ritmo foi hesitante e em certos momentos ansioso, alternando entre tentativas de persuasão e irritação, culminando em rompimento relacional. O estado predominante foi de impaciência.\n\n\n🛅 MOMENTOS-CHAVE\n\nNo momento em que cedeu à pressão do preço e detalhou valores pelo telefone, perdeu credibilidade e controle do processo.\n\nNo fechamento, ao dizer que o prospect não merecia o serviço, você quebrou a postura profissional e fechou portas futuras.\n\n\n🔊 REFORMULAÇÕES RECOMENDADAS\n\n“Entendo sua cautela, mas acredito que uma conversa breve nos permitirá esclarecer exatamente o que realmente faz sentido para sua família.”\n\n“Posso sugerir: conversamos por quinze minutos nesta sexta às dez ou na segunda às catorze, o que é mais viável?”\n\n“Prefiro não enviar material genérico, pois isso não refletiria suas necessidades específicas. Nosso encontro visa customizar a proposta.”\n\n“Fique à vontade para trazer suas comparações – posso esclarecer todas as dúvidas durante nossa conversa.”\n\n\n➡️ RECOMENDAÇÕES\n\nInvista em escuta ativa e perguntas abertas. Evite discutir valores sem antes qualificar e criar valor. Sempre preserve a cordialidade, mesmo diante da resistência. O segredo está em manter o canal aberto, não em vencê-lo pela exaustão.\n\nCada encontro é uma oportunidade de aprendizado – não desanime, ajuste o foco, escute mais e avance!",
+        "insights": [
+            "Você tentou justificar a não entrega de documentação antes de reunião, mas não abordou a objeção de forma empática. Não conseguiu agendar a reunião nem superar o bloqueio do prospect: objetivo não atingido.",
+            "Faltou escuta ativa: você não identificou ou tratou diretamente a razão profunda da recusa do prospect.",
+            "Seu tom tornou-se impaciente e agressivo (“o senhor não merece o nosso serviço”), minando o relacionamento.",
+            "“Posso sugerir: conversamos por quinze minutos nesta sexta às dez ou na segunda às catorze, o que é mais viável?”",
+            "Invista em escuta ativa e perguntas abertas. Evite discutir valores sem antes qualificar e criar valor. Sempre preserve a cordialidade, mesmo diante da resistência. O segredo está em manter o canal aberto, não em vencê-lo pela exaustão."
+        ]
     },
     {
         "name": "Philippe de Langlais",
@@ -26890,7 +29465,9 @@ const RAW_SIMULATIONS = [
                 "text": "Não gosto de abordagem de venda massiva. Quero entender benefício real pra mim antes de marcar qualquer"
             }
         ],
-        "finished": false
+        "finished": false,
+        "feedback": "",
+        "insights": []
     },
     {
         "name": "Philippe de Langlais",
@@ -26903,7 +29480,9 @@ const RAW_SIMULATIONS = [
         "lqa": "N/A",
         "interactions": 0,
         "messages": [],
-        "finished": false
+        "finished": false,
+        "feedback": "",
+        "insights": []
     },
     {
         "name": "Philippe de Langlais",
@@ -27037,7 +29616,18 @@ const RAW_SIMULATIONS = [
                 "text": "Tudo bem, pode mandar o e-mail com as opções de horário.  \nVou confirmar por mensagem antes da ligação."
             }
         ],
-        "finished": true
+        "finished": true,
+        "feedback": "Aqui está o debriefing da nossa conversa.\n\n  \n\n:nerd_face: PERSONA\n\nLarissa, proprietária de um salão premium em Brasília, sociável, intensa, perfil DISC amarelo, focada em reconhecimento e conexões.\n\n  \n\n:dart: OBJETIVO PRINCIPAL\n\nVocê não conseguiu obter dois nomes de indicações qualificados, nem consentimento explícito para contato mencionando o nome da cliente. Objetivo não atingido.\n\n  \n\n:heavy_plus_sign: PONTOS FORTES\n\n- Você começou reconhecendo a escolha do seguro com parabéns e tom positivo, aproveitando o momento de satisfação.\n\n  \n- Fez perguntas abertas sobre a satisfação e diferenciais do produto em relação à concorrência, buscando valor percebido.\n\n  \n- Demonstrou preocupação com abordagem humanizada, mencionando contato \"carinhoso, profissional e com as necessidades da pessoa\".\n\n  \n\n:warning: EIXOS DE MELHORIA\n\n- O pedido de indicações foi direto e pouco segmentado, sem exemplos concretos de perfis para facilitar a memória da Larissa.\n\n  \n- Não houve uma segmentação clara nem perguntas que ajudassem a cliente a lembrar de nomes específicos, como empreendedoras ou clientes VIP, por exemplo.\n\n  \n- A abordagem A.S.K.T.H.E.M.A.N foi insinuada, mas sem naturalidade e sem avançar para perguntas sobre dados relevantes dos contatos.\n\n  \n- A autorização para mencionar o nome ficou apenas sugerida e repetida, mas não foi acompanhada de uma \"pergunta mágica\" para humanizar o contato.\n\n  \n- A condução do fechamento, marcando \"vamos conversar depois\", adiou a concretização; a cliente ficou no modo \"penso e te mando\".\n\n  \n\n:light_blue_heart: ANÁLISE EMOCIONAL\n\nO tom foi gentil, busca por conexão, ritmo levemente ansioso e repetitivo, vocabulário cordial. Seu estado emocional pareceu hesitante e formal.\n\n  \n\n:left_luggage: MOMENTOS-CHAVE\n\nAo agradecer e reconhecer, você gerou empatia, mas não converteu em confiança para obter indicações.\n\n  \nNo pedido pouco segmentado, perdeu o timing da memória afetiva da cliente, dificultando avanços.\n\n  \n\n:loud_sound: REFORMULAÇÕES RECOMENDADAS\n\n\"Larissa, entre suas amigas empreendedoras, quem se destacou recentemente ou comentou sobre preocupações com o futuro?\"\n\n  \n\"Se eu pudesse mencionar seu nome no primeiro contato, deixaria claro o carinho dessa indicação. Isso te deixaria confortável?\"\n\n  \n\"Quais qualidades dessa pessoa você mais admira? Assim posso personalizar minha abordagem desde o início.\"\n\n  \n\n:arrow_right: RECOMENDAÇÕES\n\nPratique mais segmentação de perfis e peça as indicações um nome por vez, envolvendo a cliente com perguntas leves e curiosas. Use o método A.S.K.T.H.E.M.A.N como conversa, não checklist. Pergunte diretamente a autorização para citar o nome, sempre humanizando o contato.\n\nContinue evoluindo: cada conversa é uma nova chance de se destacar!",
+        "insights": [
+            ":heavy_plus_sign: PONTOS FORTES",
+            "Você começou reconhecendo a escolha do seguro com parabéns e tom positivo, aproveitando o momento de satisfação.",
+            "Fez perguntas abertas sobre a satisfação e diferenciais do produto em relação à concorrência, buscando valor percebido.",
+            "Demonstrou preocupação com abordagem humanizada, mencionando contato \"carinhoso, profissional e com as necessidades da pessoa\".",
+            "O pedido de indicações foi direto e pouco segmentado, sem exemplos concretos de perfis para facilitar a memória da Larissa.",
+            "Não houve uma segmentação clara nem perguntas que ajudassem a cliente a lembrar de nomes específicos, como empreendedoras ou clientes VIP, por exemplo.",
+            "A abordagem A.S.K.T.H.E.M.A.N foi insinuada, mas sem naturalidade e sem avançar para perguntas sobre dados relevantes dos contatos.",
+            "A autorização para mencionar o nome ficou apenas sugerida e repetida, mas não foi acompanhada de uma \"pergunta mágica\" para humanizar o contato."
+        ]
     },
     {
         "name": "Philippe de Langlais",
@@ -27187,7 +29777,18 @@ const RAW_SIMULATIONS = [
                 "text": "Obrigado. Tenha um bom fim de semana também."
             }
         ],
-        "finished": true
+        "finished": true,
+        "feedback": "Aqui está o debriefing da nossa conversa.\n\n\n  \n:nerd_face: PERSONA\n\n  \nCliente extremamente racional, perfil DISC azul, engenheiro de qualidade de cinquenta anos, metódico, cético e pouco demonstrativo.  \n\n  \n:dart: OBJETIVO PRINCIPAL\n\n  \nVocê não conseguiu obter dois nomes de indicações nem consentimento claro para contato mencionando o nome do cliente.  \nObjetivo: não atingido.  \n\n  \n:heavy_plus_sign: PONTOS FORTES\n\n  \n- Fez um reconhecimento inicial, parabenizando e agradecendo pela contratação.  \n\n  \n- Abriu espaço para o cliente falar sobre o que motivou sua decisão, buscando engajamento.  \n\n  \n- Demonstrou preocupação em pedir autorização antes de ligar para qualquer indicado, mostrando respeito.  \n\n  \n- Ofereceu acompanhar o processo com envio de script e contato posterior, transmitindo organização.  \n\n  \n:warning: EIXOS DE MELHORIA\n\n  \n- Faltou à etapa de segmentação ao pedir recomendações: “família, amigos...” é aberto demais e não ativa a memória do cliente.  \n\n  \n- A coleta de informações ficou superficial, sem aplicação fluida do método A.S.K.T.H.E.M.A.N — perguntas-chave não foram feitas, e a sequência ficou dispersa.  \n\n  \n- Evite argumentar em tom de cobrança (“agora você não confia em mim?”) pois isso pode gerar incômodo e resistência no cliente.  \n\n  \n- Não houve a extração de anedotas ou humanização dos indicados, comprometendo a qualidade da futura abordagem.  \n\n  \n:light_blue_heart: ANÁLISE EMOCIONAL\n\n  \nO tom flutuou entre empático e ansioso, com quebras abruptas e algumas frases desconexas. O ritmo soou apressado em alguns momentos, sugerindo certa insegurança.  \n\n  \n:left_luggage: MOMENTOS-CHAVE\n\n  \nReconhecimento inicial — você parabenizou o cliente, valorizando sua decisão.  \nImportante pois abre a porta para um clima de confiança e é etapa vital do método.  \nPedido de indicação sem segmentar — a generalização dificultou a coleta de nomes.  \nIsso esvazia o efeito “lembrança ativa” no cliente.  \n\n  \n:loud_sound: REFORMULAÇÕES RECOMENDADAS\n\n  \n\"Entre seus colegas de trabalho que estejam pensando em previdência, há alguém que possa se beneficiar de uma proteção como esta?\"  \n\n  \n\"Quem na sua família também valoriza segurança e planejamento como você?\"  \n\n  \n\"Posso mencionar que foi você quem me recomendou, caso entre em contato?\"  \n\n  \n\"Tem alguma característica ou história marcante dessa pessoa que eu possa citar na primeira conversa?\"  \n\n  \n:arrow_right: RECOMENDAÇÕES\n\n  \nFaça segmentações específicas ao pedir indicações e conduza a coleta A.S.K.T.H.E.M.A.N com leveza, evitando checklist. Foque em gerar confiança, valorize as respostas e peça autorização de forma humanizada. Não tema o silêncio — ele ajuda muito. Logo você será referência nesse pós-venda!",
+        "insights": [
+            ":heavy_plus_sign: PONTOS FORTES",
+            "Fez um reconhecimento inicial, parabenizando e agradecendo pela contratação.",
+            "Abriu espaço para o cliente falar sobre o que motivou sua decisão, buscando engajamento.",
+            "Demonstrou preocupação em pedir autorização antes de ligar para qualquer indicado, mostrando respeito.",
+            "Ofereceu acompanhar o processo com envio de script e contato posterior, transmitindo organização.",
+            "Faltou à etapa de segmentação ao pedir recomendações: “família, amigos...” é aberto demais e não ativa a memória do cliente.",
+            "A coleta de informações ficou superficial, sem aplicação fluida do método A.S.K.T.H.E.M.A.N — perguntas-chave não foram feitas, e a sequência ficou dispersa.",
+            "Evite argumentar em tom de cobrança (“agora você não confia em mim?”) pois isso pode gerar incômodo e resistência no cliente."
+        ]
     },
     {
         "name": "Philippe de Langlais",
@@ -27273,7 +29874,18 @@ const RAW_SIMULATIONS = [
                 "text": "Entendi. Mas olha, isso está bem errado: eu não tenho filhos nem conheço nenhum dos filhos do Eduardo."
             }
         ],
-        "finished": true
+        "finished": true,
+        "feedback": "Aqui está o debriefing da nossa troca.\n\n  \n🤓 PERSONA\n\n- Persona interpretada: jovem executiva de tecnologia, perfil digital, desconfiada por natureza e predominância do perfil DISC amarelo.\n\n  \n🎯 OBJETIVO PRINCIPAL\n\n- Não foi demonstrada gestão eficiente das objeções nem foi confirmado agendamento qualificado da reunião.\n- O objetivo principal de obter acordo para uma reunião não foi atingido.\n\n  \n➕ PONTOS FORTES\n\n- Corretor tentou utilizar o gatilho de recomendação ao citar o cliente Marcelo Castro como referência.\n\n  \n- Procurou contextualizar o contato ao mencionar a experiência prévia do indicado com seguros.\n\n\n- Apresentou o benefício de personalização de propostas, tentando estimular a curiosidade do prospect.\n\n\n  \n⚠️ PONTOS DE MELHORIA\n\n- **Ausência de estrutura**\n  Foi seguida pouca ou nenhuma ordem lógica das oito etapas MetLife, faltando autorização formal e quebra-gelo natural.\n\n  \n- **Tentativa disfarçada de venda**\n  Ao mencionar “proposta de intervenção” e experiências do cliente, soa como tentativa de vender antes de agendar reunião.\n\n  \n- **Falta de escolha forçada**\n  Não apresentou datas e horários objetivos, apenas perguntas abertas como “qual o melhor momento?”.\n\n\n- **Erros de personalização**\n  Usou dados improvisados e incorretos sobre vida familiar do prospect, perdendo credibilidade.\n\n\n- **Tom robótico e desconexo**\n  Alternou tratamento (“senhora”, “você”) e mostrou hesitação com múltiplas pausas e frases truncadas.\n\n\n  \n🩵 ANÁLISE EMOCIONAL\n\n- O tom foi hesitante, formal e distante, com vocabulário pouco convidativo e ritmo nervoso. O estado emocional dominante foi inseguro.\n\n  \n🛅 MOMENTOS-CHAVE\n\n- Situação: Primeira abordagem com nome do cliente recomendante\n  Corretor tentou conectar via recomendação, mas forçou dados não confirmados, prejudicando a confiança inicial.\n\n- Situação: Pedido de reunião\n  Fez proposta genérica e vaga, sem escolha forçada, reduzindo a chance de engajamento imediato.\n\n  \n🔊 REFORMULAÇÕES RECOMENDADAS\n\n- “Fulano comentou comigo sobre seu perfil e sugeriu que uma conversa rápida poderia ser útil para você.”\n- “Posso reservar quinze minutos nesta quarta às dez ou quinta às quatorze, qual funciona melhor?”\n- “Meu objetivo é só entender se conseguimos, juntos, planejar algo do seu jeito, sem compromisso algum.”\n- “Você prefere conversar por vídeo ou telefone, para ser mais prático?”\n- “Se não fizer sentido, você me diz sem problema depois, tudo sob seu controle.”\n\n  \n➡️ RECOMENDAÇÕES\n\n- Estruture cada ligação conforme os oito passos MetLife: abra com energia, peça autorização, quebre o gelo de maneira autêntica, utilize a recomendação, proponha datas objetivas e ouça ativamente.  \nLembre-se: reunião agendada é conquista bem maior que vender por telefone.  \nAprimore esses pontos e seu potencial de conversão vai disparar!",
+        "insights": [
+            "Persona interpretada: jovem executiva de tecnologia, perfil digital, desconfiada por natureza e predominância do perfil DISC amarelo.",
+            "Não foi demonstrada gestão eficiente das objeções nem foi confirmado agendamento qualificado da reunião.",
+            "O objetivo principal de obter acordo para uma reunião não foi atingido.",
+            "Corretor tentou utilizar o gatilho de recomendação ao citar o cliente Marcelo Castro como referência.",
+            "Procurou contextualizar o contato ao mencionar a experiência prévia do indicado com seguros.",
+            "Apresentou o benefício de personalização de propostas, tentando estimular a curiosidade do prospect.",
+            "Ausência de estrutura",
+            "Foi seguida pouca ou nenhuma ordem lógica das oito etapas MetLife, faltando autorização formal e quebra-gelo natural."
+        ]
     },
     {
         "name": "Philippe de Langlais",
@@ -27399,7 +30011,18 @@ const RAW_SIMULATIONS = [
                 "text": "Tudo bem, obrigado. Até segunda às dez horas. Boa semana."
             }
         ],
-        "finished": true
+        "finished": true,
+        "feedback": "Aqui está o debriefing da nossa troca.\n\n🤓 PERSONA\n\nVocê abordou Eduardo, engenheiro de qualidade aeronáutica, perfil DISC azul: analítico, metódico, cético, direto e resistente a abordagens apressadas.\n\n🎯 OBJETIVO PRINCIPAL\n\nVocê respondeu às objeções com argumentação razoável e obteve acordo para uma reunião de quinze minutos. Objetivo parcialmente atingido: houve reuniões de objeções, mas faltou precisão consultiva.\n\n➕ PONTOS FORTES\n\n- Utilizou a recomendação do cunhado e personalizou a abordagem, criando um vínculo inicial.\n\n- Propôs claramente uma reunião curta, respeitando o tempo e rotina do prospect.\n\n- Ofereceu a possibilidade de comparação entre produtos, acionando o gatilho racional do perfil azul.\n\n- Garantiu tom respeitoso e humano, amenizando a resistência inicial.\n\n⚠️ PONTOS DE MELHORIA\n\n- Faltou uma autorização explícita para seguir com a conversa, ponto essencial no método MetLife.\n\n- Houve hesitação e ruídos na construção da referência do recomendado, gerando dúvidas e possível desconforto.\n\n- O motivo do contato ficou misturado com tentativa de “venda” e menção precoce de produto e benefícios (“nosso seguro tem muitas possibilidades…”).\n\n- Em lugar de perguntas abertas, deveria ter usado a escolha forçada entre dois horários já no início, gerando mais assertividade.\n\n- Não houve reconfirmação estruturada da reunião como previsto: faltou reafirmação do dia, horário, duração e formato da conversa.\n\n🩵 ANÁLISE EMOCIONAL\n\nSeu tom foi acolhedor e gentil, mas houve momentos de hesitação e insegurança, refletindo nervosismo. A postura foi cortês, porém pouco assertiva.\n\n🛅 MOMENTOS-CHAVE\n\nSituação: Referência à recomendação do cunhado e ligação da proteção familiar.\nVocê buscou criar rapport e associar a solução à família.\nImpacto: Quebrou parte da barreira racional, mas a hesitação atrapalhou a fluidez.\n\nSituação: Proposta de reunião curta, presencial ou por vídeo.\nVocê mostrou respeito ao tempo, facilitando a aceitação.\nImpacto: Aumentou a taxa de aceitação do convite.\n\n🔊 REFORMULAÇÕES RECOMENDADAS\n\n“Posso seguir com a ligação, Eduardo, ou prefere um outro momento mais tranquilo?”\n\n“Seu tempo é valioso, por isso proponho só quinze minutos por vídeo para analisar sua real proteção.”\n\n“Prefere segunda ou terça-feira às dez da manhã, Eduardo? Fica mais prático para você?”\n\n“Recebi seu contato por recomendação do seu cunhado Ricardo, que recentemente revisou a proteção familiar dele comigo.”\n\n➡️ RECOMENDAÇÕES\n\nComece sempre pedindo autorização, traga o benefício concreto já nos primeiros segundos, use escolha forçada de horários e reconstrução clara do motivo da recomendação. Reconfirme sempre o compromisso ao final. Constância constrói confiança.\n\nMandou bem! Com sutis ajustes, vai conquistar ainda mais reuniões.",
+        "insights": [
+            "Você abordou Eduardo, engenheiro de qualidade aeronáutica, perfil DISC azul: analítico, metódico, cético, direto e resistente a abordagens apressadas.",
+            "Você respondeu às objeções com argumentação razoável e obteve acordo para uma reunião de quinze minutos. Objetivo parcialmente atingido: houve reuniões de objeções, mas faltou precisão consultiva.",
+            "Utilizou a recomendação do cunhado e personalizou a abordagem, criando um vínculo inicial.",
+            "Propôs claramente uma reunião curta, respeitando o tempo e rotina do prospect.",
+            "Ofereceu a possibilidade de comparação entre produtos, acionando o gatilho racional do perfil azul.",
+            "Garantiu tom respeitoso e humano, amenizando a resistência inicial.",
+            "Faltou uma autorização explícita para seguir com a conversa, ponto essencial no método MetLife.",
+            "Houve hesitação e ruídos na construção da referência do recomendado, gerando dúvidas e possível desconforto."
+        ]
     },
     {
         "name": "Philippe de Langlais",
@@ -27453,7 +30076,18 @@ const RAW_SIMULATIONS = [
                 "text": "Entendi. Ok. Aliás, eu já disse que tenho um seguro e não quero perder tempo com promessas genéricas."
             }
         ],
-        "finished": true
+        "finished": true,
+        "feedback": "Aqui está o debriefing da nossa troca.\n\n  \n### 🤓 PERSONA\n\n- Perfil de prospect: Eduardo, engenheiro de qualidade aeronáutica, cinquenta anos, casado, racional, cético, dominante no perfil DISC azul.\n\n  \n### 🎯 OBJETIVO PRINCIPAL\n\n- Houve tentativa de lidar com objeções e pedir a reunião, mas as respostas não foram convincentes.\n  \n- O acordo concreto para uma reunião de descoberta não foi obtido.\n\n- Objetivo não atingido.\n\n  \n### ➕ PONTOS FORTES\n\n- Menção ao nome de um conhecido (cunhado Álvaro), tentando um gatilho de recomendação.\n\n  \n- Tentativa de agendar a reunião propondo uma data e horário.\n\n  \n- Demonstra postura respeitosa quanto à disponibilidade do prospect, sem insistência agressiva.\n\n  \n### ⚠️ PONTOS DE MELHORIA\n\n- Falta de apresentação pessoal clara e confiante logo na abertura; o início ficou truncado.\n\n  \n- Postura titubeante, uso excessivo de “hã,” “é…”, e repetições – transmite insegurança e pouca clareza.\n\n  \n- Ausência da etapa de autorização e de um verdadeiro quebra-gelo pessoal, tornando a abordagem fria e genérica.\n\n  \n- Não explicita o benefício concreto e personalizado da reunião para Eduardo; utiliza frases vagas e apelativas (“pode mudar a sua vida”) que não ressoam com o perfil azul.\n\n  \n- Descreve produto e faz tentativa de venda precoce, em vez de focar no agendamento da reunião.\n\n  \n### 🩵 ANÁLISE EMOCIONAL\n\n- O tom se mostrou hesitante, ritmo vacilante, vocabulário informal com excesso de muletas. Estado: inseguro, pouco assertivo.  \n\n  \n### 🛅 MOMENTOS-CHAVE\n\n- Se apresentando em nome do cunhado, mas sem estabelecer real conexão ou credibilidade, resultando em bula e distanciamento.\n\n  \n- Tentativa de antecipar objeções (“sei que está ocupado”), porém sem técnica “sim, mas…” clara, nem valorização do tempo do prospect.\n\n  \n### 🔊 REFORMULAÇÕES RECOMENDADAS\n\n- “Eduardo, fui recomendado pelo Álvaro para entrar em contato e gostaria da sua permissão para explicar o motivo rapidamente.”\n\n  \n- “Entendo sua agenda, por isso proponho quinze minutos para avaliarmos juntos se faz sentido, sem compromisso.”\n\n  \n- “Posso reservar segunda às nove ou terça no mesmo horário, o que fica melhor para você?”\n\n  \n- “Meu objetivo não é vender, mas entender se algo personalizado faz sentido para seu momento e prioridades.”\n\n  \n### ➡️ RECOMENDAÇÕES\n\n- Estruture sua abordagem com uma apresentação clara, peça autorização para seguir, traga benefício objetivo e personalize pela lente do prospect.\n  \n- Use menos muletas e ganhe confiança na voz.\n  \nLembre que até engenheiro crítico abre espaço para ouvir se sentir compreensão e proposta de valor real. Vá na próxima!",
+        "insights": [
+            "Perfil de prospect: Eduardo, engenheiro de qualidade aeronáutica, cinquenta anos, casado, racional, cético, dominante no perfil DISC azul.",
+            "Houve tentativa de lidar com objeções e pedir a reunião, mas as respostas não foram convincentes.",
+            "O acordo concreto para uma reunião de descoberta não foi obtido.",
+            "Objetivo não atingido.",
+            "Menção ao nome de um conhecido (cunhado Álvaro), tentando um gatilho de recomendação.",
+            "Tentativa de agendar a reunião propondo uma data e horário.",
+            "Demonstra postura respeitosa quanto à disponibilidade do prospect, sem insistência agressiva.",
+            "Falta de apresentação pessoal clara e confiante logo na abertura; o início ficou truncado."
+        ]
     },
     {
         "name": "Philippe de Langlais",
@@ -27555,7 +30189,18 @@ const RAW_SIMULATIONS = [
                 "text": "Até, bom fim de semana pra você também."
             }
         ],
-        "finished": true
+        "finished": true,
+        "feedback": "Aqui está o debriefing da nossa troca\n\n🤓 PERSONA\n\nProfessor de história, perfil DISC majoritariamente Verde; calmo, humano, valorizando segurança e relações; desconfiado com abordagens comerciais.\n\n🎯 OBJETIVO PRINCIPAL\n\nCorretor respondeu às objeções básicas e obteve o agendamento de uma reunião, porém com postura mais de vendedor do que consultor. Objetivo atingido, mas com ressalvas na forma.\n\n➕ PONTOS FORTES\n\n- Usou a recomendação do cunhado de modo amistoso e contextualizou o motivo do contato, gerando conexão inicial.\n\n- Fez escolha forçada de horários próximos e concretos para o agendamento, cumprindo o roteiro MetLife.\n\n- Informou claramente data, hora e local para a reunião, com confirmação do prospect.\n\n- Corrigiu o tom após perceber o impacto negativo de uma abordagem mais direta e alarmista.\n\n⚠️ PONTOS DE MELHORIA\n\n- Abordagem Vendedora\n  Faltou postura consultiva: apresentou o seguro de vida e benefícios logo no início (“...interesse em conhecer o nosso seguro de vida...”), desviando do script de descoberta.\n\n- Gestão de Objeções\n  Respostas defensivas (“Como? O senhor não tem tempo para pensar em proteger a sua família?”) podem soar invasivas e pressionar o prospect.\n\n- Exploração Insuficiente\n  Não houve perguntas abertas para qualificação rápida; aceitou as informações do cliente sem buscar entender a real necessidade do prospect.\n\n- Ausência de autorização explícita antes de avançar no roteiro.\n\n🩵 ANÁLISE EMOCIONAL\n\nO tom flutuou entre cordialidade e certa pressa, ficando por vezes tenso e defensivo, mas recuperando empatia ao final.\n\n🛅 MOMENTOS-CHAVE\n\nSituação: Apresentação direta do produto logo após o quebra-gelo.\nO que fez: Conduziu para o seguro de vida e proteção familiar.\nImportância: Antecipou o tema sem mapear o interesse real — impacto negativo na escuta ativa.\n\nSituação: Corrigiu o tom após objeção percebida como agressiva.\nO que fez: Reconheceu o erro e retomou com empatia.\nImportância: Resgate de confiança do prospect — evitou o fechamento precoce.\n\n🔊 REFORMULAÇÕES RECOMENDADAS\n\n- “Marcos, achei bacana que você e seu cunhado compartilham um perfil de cuidado com a família, por isso ele pensou em você.”\n\n- “Nossa conversa é só para analisarmos juntos seu cenário — sem compromisso ou proposta agora.”\n\n- “Prefere conversar sobre isso no escritório ou em outro local que você escolha?”\n\n- “Prometo que serão só vinte minutinhos para te apresentar um plano personalizado, ok?”\n\n➡️ RECOMENDAÇÕES\n\nEvite discurso de venda imediata e foque em ouvir, explorar as necessidades e explicar o benefício do encontro sem mencionar produto. Pratique respostas menos defensivas às objeções para evitar bloqueios. Pouco a pouco, deixe as respostas automáticas para a Prudential — aqui, conexão humana faz diferença. Siga com consistência, pois potencial para evoluir não te falta!",
+        "insights": [
+            "Usou a recomendação do cunhado de modo amistoso e contextualizou o motivo do contato, gerando conexão inicial.",
+            "Fez escolha forçada de horários próximos e concretos para o agendamento, cumprindo o roteiro MetLife.",
+            "Informou claramente data, hora e local para a reunião, com confirmação do prospect.",
+            "Corrigiu o tom após perceber o impacto negativo de uma abordagem mais direta e alarmista.",
+            "Faltou postura consultiva: apresentou o seguro de vida e benefícios logo no início (“...interesse em conhecer o nosso seguro de vida...”), desviando do script de descoberta.",
+            "Exploração Insuficiente",
+            "Ausência de autorização explícita antes de avançar no roteiro.",
+            "Situação: Apresentação direta do produto logo após o quebra-gelo."
+        ]
     },
     {
         "name": "Philippe de Langlais",
@@ -27597,7 +30242,9 @@ const RAW_SIMULATIONS = [
                 "text": "Sem problema. Boa tarde e bom trabalho."
             }
         ],
-        "finished": false
+        "finished": false,
+        "feedback": "",
+        "insights": []
     },
     {
         "name": "Philippe de Langlais",
@@ -27610,7 +30257,9 @@ const RAW_SIMULATIONS = [
         "lqa": "N/A",
         "interactions": 0,
         "messages": [],
-        "finished": false
+        "finished": false,
+        "feedback": "",
+        "insights": []
     },
     {
         "name": "Philippe de Langlais",
@@ -27680,7 +30329,18 @@ const RAW_SIMULATIONS = [
                 "text": "Obrigado. Bom fim de semana para você também."
             }
         ],
-        "finished": true
+        "finished": true,
+        "feedback": "Aqui está o debriefing da nossa conversa.\n\n  \n🤓 PERSONA\n\nRicardo, executivo sênior bancário de perfil dominante e analítico, exigente, seguro, valorizando eficiência e cautela em relações comerciais.\n\n  \n🎯 OBJETIVO PRINCIPAL\n\nO objetivo não foi atingido, pois não houve entrega de recomendações qualificadas nem autorização expressa para uso do nome.\n\n  \n➕ Pontos fortes\n\n- Você abordou o “momento de ouro” do pós-venda, lembrando ao cliente dos benefícios da solução.\n\n  \n- Demonstrou cordialidade ao reconhecer a satisfação do cliente e concluir agradecendo de forma simpática.\n\n  \n- Manteve uma postura paciente e não pressionou o cliente diante das objeções, preservando um bom clima.\n\n  \n- Transmitiu transparência ao sugerir acompanhar juntos o sucesso do seguro, mostrando comprometimento.\n\n  \nContinue demonstrando respeito ao ritmo do cliente, isso colabora para criar confiança a médio prazo!\n\n  \n⚠️ EIXOS DE MELHORIA\n\n- Pedido direto demais  \n  Você solicitou nomes rapidamente (“você teria pessoas como...”), sem explorar a satisfação do cliente nem ouvi-lo sobre o valor da experiência.\n\n  \n- Sem segmentação ou exemplificação de perfis  \n  Faltou guiar a memória do cliente com perfis específicos, dificultando que ele se lembrasse de pessoas concretas.\n\n  \n- Não pediu autorização de menção  \n  Não houve solicitação clara para usar o nome de Ricardo ao abordar os indicados.\n\n  \n- Aceitou o adiamento sem contra-argumento  \n  Quando o cliente sugeriu retomar depois, faltou explicar o valor de tratar a recomendação “a quente”.\n\n  \nSugira etapas e aprofunde a escuta, assim as indicações surgirão mais naturalmente!\n\n  \n🩵 ANÁLISE EMOCIONAL\n\nO tom foi respeitoso, mas demonstrou certa insegurança e hesitação, com falas longas e pausas, caracterizando uma atitude cuidadosa ao invés de assertiva.\n\n  \n🛅 MOMENTOS-CHAVE\n\nNo início, você reforçou a satisfação do cliente, o que poderia ser um gatilho ideal, mas não aproveitou para aprofundar sensações nem convidá-lo a verbalizar o valor percebido.\n\nQuando aceitou adiar para um compromisso futuro, perdeu a oportunidade de converter a energia positiva do momento recém-assinatura em recomendações concretas.\n\n  \n🔊 REFORMULAÇÕES RECOMENDADAS\n\n“Ricardo, o que mais te chamou atenção nesse processo e na solução?”\n\n  \n“Entre amigos empreendedores ou colegas de banco, quem você acha que se beneficiaria de um olhar como esse?”\n\n  \n“Se você se sentir confortável, posso mencionar seu nome quando os procurar?”\n\n  \n“Qual foi o maior diferencial desse atendimento para você?”\n\n  \n➡️ RECOMENDAÇÕES\n\nInvista mais na etapa de escuta ativa, pedindo detalhes sobre o que o cliente valorizou. Segmente os perfis e peça autorização de menção. Não aceite adiamento sem explicar as vantagens da abordagem imediata. Pratique para naturalizar esses passos, sem parecer mecânico.\n\nAvance, o caminho para a excelência comercial é feito de ajustes finos. Você está no rumo certo!",
+        "insights": [
+            "Você abordou o “momento de ouro” do pós-venda, lembrando ao cliente dos benefícios da solução.",
+            "Demonstrou cordialidade ao reconhecer a satisfação do cliente e concluir agradecendo de forma simpática.",
+            "Manteve uma postura paciente e não pressionou o cliente diante das objeções, preservando um bom clima.",
+            "Transmitiu transparência ao sugerir acompanhar juntos o sucesso do seguro, mostrando comprometimento.",
+            "Pedido direto demais",
+            "Você solicitou nomes rapidamente (“você teria pessoas como...”), sem explorar a satisfação do cliente nem ouvi-lo sobre o valor da experiência.",
+            "Sem segmentação ou exemplificação de perfis",
+            "Não pediu autorização de menção"
+        ]
     },
     {
         "name": "Philippe de Langlais",
@@ -27778,7 +30438,18 @@ const RAW_SIMULATIONS = [
                 "text": "Setor familiar, certo. Prefiro dois perfis distintos: um casal executivo com filhos adolescentes e outro empresário solo, planejando sucessão. Esses são os que me vêm"
             }
         ],
-        "finished": true
+        "finished": true,
+        "feedback": "Aqui está o debriefing da nossa conversa.  \n\n##  🤓 PERSONA  \n\nRicardo, executivo sênior de banco privado em São Paulo, perfil DISC dominante Vermelho, analítico e direto.  \n\n## 🎯 OBJETIVO PRINCIPAL  \n\nO objetivo de obter pelo menos dois nomes de recomendações e a autorização para contato foi parcialmente atingido.  \n\n## ➕ Pontos fortes  \n\n- Você buscou criar empatia ao dizer que entende a prudência de Ricardo, tentando se posicionar como alguém que respeita promessas concretas.  \n\n- Houve preocupação em reforçar a importância de entender o perfil dos indicados antes de propor a solução, o que demonstra cuidado e personalização.  \n\n- Apareceu o esforço para garantir o consentimento prévio de Ricardo antes de abordar seus contatos, sinalizando respeito ao círculo dele.  \n\nSeu relacionamento respeitoso e consultivo é uma boa base para evoluir!  \n\n## ⚠️ EIXOS DE MELHORIA  \n\n- Falta de reconhecimento inicial.  \nVocê começou a pedir recomendações sem agradecer explicitamente pela confiança ou celebrar a assinatura, o que desperdiçou o “momento UAU”.  \n\n- Pedido aberto e pouco estruturado.  \nAs perguntas iniciais ficaram vagas (“Você gosta de aconselhar para amigos?”) e não contextualizaram o valor de uma recomendação, nem o perfil buscado.  \n\n- Segmentação insuficiente.  \nFaltaram exemplos ou perfis concretos para facilitar a lembrança de nomes (“empreendedores”, “pais jovens”, etc.), dificultando a resposta do cliente.  \n\n- Repetição e hesitação.  \nHouve repetições (“de novo”, “o que você acha?”) e hesitações, trazendo um tom pouco assertivo e tornando o pedido menos convincente.  \n\nBusque explorar mais os elogios e qualificações do cliente para dar direção ao pedido!  \n\n## 🩵 ANÁLISE EMOCIONAL  \n\nO tom foi hesitante e pouco confiante, com ritmo interrompido por pausas e insegurança nas falas. Prevaleceu um estado emocional vacilante, com preocupação em não pressionar.  \n\n## 🛅 MOMENTOS-CHAVE  \n\nAo mostrar interesse em personalizar a abordagem dos indicados, você transmitiu cuidado, gerando abertura para discutir perfis.  \nPorém, a falta de celebração no início minou o potencial impacto do pedido, tornando-o mais trabalhoso de desenrolar.  \n\n##  🔊 REFORMULAÇÕES RECOMENDADAS  \n\n“Ricardo, antes de tudo, parabéns pela decisão. Fico muito feliz em caminhar junto com você nesse projeto!”  \n\n\"Sinto que este é um daqueles momentos em que a gente pode proteger não só a própria família, mas também ajudar quem está ao nosso redor. Tem alguém que você imagina se beneficiando dessa estrutura?\"  \n\n“Se preferir, eu só entro em contato assim que você avisar e der o sinal verde, sempre com seu nome como referência de confiança.”  \n\n“Para facilitar, posso citar alguns perfis de amigos ou colegas que normalmente procuram soluções como esta. O que acha?”  \n\n## ➡️ RECOMENDAÇÕES  \n\nCelebre mais o momento pós-venda e valorize a confiança depositada antes de qualquer pedido. Estruture seu pedido de recomendações por perfis, exemplifique situações e trate cada nome individualmente, pedindo autorização explícita e sempre demonstrando respeito pelo círculo do cliente.  \n\nConfie em você — quando a abordagem é genuína, fica muito mais natural pedir indicações!",
+        "insights": [
+            "Você buscou criar empatia ao dizer que entende a prudência de Ricardo, tentando se posicionar como alguém que respeita promessas concretas.",
+            "Houve preocupação em reforçar a importância de entender o perfil dos indicados antes de propor a solução, o que demonstra cuidado e personalização.",
+            "Apareceu o esforço para garantir o consentimento prévio de Ricardo antes de abordar seus contatos, sinalizando respeito ao círculo dele.",
+            "Falta de reconhecimento inicial.",
+            "Pedido aberto e pouco estruturado.",
+            "Segmentação insuficiente.",
+            "Repetição e hesitação.",
+            "Porém, a falta de celebração no início minou o potencial impacto do pedido, tornando-o mais trabalhoso de desenrolar."
+        ]
     },
     {
         "name": "Philippe de Langlais",
@@ -27836,7 +30507,18 @@ const RAW_SIMULATIONS = [
                 "text": "Claro, é, quando eu estou dizendo isso é para justamente proteger, é, é, todas as, as cláusulas que, que, que Te protege melhor, hein, é, que são fundamentais pela família"
             }
         ],
-        "finished": true
+        "finished": true,
+        "feedback": "Aqui está o debriefing da nossa troca.\n\n  \n## 🤓 PERSONA\n\n- Interpretei Eduardo, engenheiro de qualidade aeronáutica, perfil DISC azul, racional e metódico.\n  \n- Sua objeção principal foi a dificuldade de encaixar o seguro no orçamento devido ao momento financeiro apertado.\n\n  \n## 🎯 OBJETIVO PRINCIPAL\n\n- O objetivo era descobrir o real motivo do bloqueio financeiro e tratar a objeção com uma das práticas MetLife.\n\n- Buscava-se estimular a contratação já, de forma tranquila e sem pressão.\n\n- O objetivo foi parcialmente atingido.\n\n  \n## ➕ PONTOS FORTES\n\n- Você demonstrou acolhimento ao agradecer pelo reconhecimento da proposta logo no início.\n\n  \n- Procurou adaptar o valor do prêmio ao orçamento, sugerindo redução da cobertura para viabilizar o seguro.\n\n  \n- Manteve foco na importância de “iniciar a proteção” e valorizar o que já é possível fazer.\n\n  \n- Procurou manter um tom calmo e não pressionou para fechamento imediato, o que é um excelente ponto de partida.\n\n  \nParabéns pelo tato inicial e pela ideia de flexibilização!\n\n  \n## 📈 PONTOS DE MELHORIA\n\n- Faltou diagnóstico mais profundo sobre a objeção real; perguntas mais abertas poderiam explorar se o entrave era valor, medo de compromisso ou outra prioridade.\n\n  \n- A argumentação ficou um pouco repetitiva na questão da redução do prêmio, sem usar plenamente técnicas MetLife como “SIM MAS” ou cruz VOSSA/NOSSA.\n\n  \n- Faltou reconectar mais claramente com as necessidades da ADN do cliente, mostrando as prioridades protegidas pelo seguro.\n\n  \n- A Power Phrase não apareceu; frases de impacto como “Nunca vi ninguém quebrar por pagar um prêmio de seguro...” teriam trazido mais força.\n\n  \n- A pergunta de concordância tácita (“Vamos colocar tal beneficiário?”) não foi utilizada para avançar naturalmente ao fechamento.\n\n  \nFoque em investir em perguntas e técnicas do método para avançar no fechamento de maneira consultiva!\n\n  \n## 🩵 ANÁLISE EMOCIONAL\n\nO tom foi gentil, seguro, com ritmo calmo e vocabulário simples, porém um pouco vacilante em momentos-chave. O estado emocional transmitido foi de cuidado, mas faltou confiança mais firme.\n\n  \n## 🛅 MOMENTOS-CHAVE\n\nNo momento em que sugeriu diminuir a cobertura em troca de um prêmio menor, houve acolhimento e flexibilidade, gerando maior abertura do cliente.\n\n  \nA insistência na importância de começar, sem detalhar o valor agregado do seguro, fez o cliente escutar, mas sem se engajar totalmente.\n\n  \n## 🔊 REFORMULAÇÕES RECOMENDADAS\n\n- “Você mencionou que está difícil encaixar no orçamento – isso te preocupa mais pelo valor do prêmio, pelo compromisso a longo prazo ou há alguma outra razão?”\n\n- “O mais importante é garantir que as prioridades da sua família estejam protegidas, mesmo que começando com um valor menor.”\n\n- Power phrase: “Nunca vi ninguém ficar no prejuízo por proteger a família. Já vi muitos se arrependerem por adiar.”\n\n- “Se ajustarmos o valor do prêmio para caber no seu momento, faz sentido darmos esse passo hoje?”\n\n- “Vamos colocar cem por cento para sua esposa como beneficiária?”\n\n  \n## ➡️ RECOMENDAÇÕES\n\nInvista mais tempo em investigar o bloqueio oculto usando perguntas abertas e técnicas MetLife. Reforce o valor do que está sendo protegido, utilize power phrases e avance para o fechamento consultivo. Você tem tudo para evoluir rápido – experimente, refine e verá o retorno!",
+        "insights": [
+            "Interpretei Eduardo, engenheiro de qualidade aeronáutica, perfil DISC azul, racional e metódico.",
+            "Sua objeção principal foi a dificuldade de encaixar o seguro no orçamento devido ao momento financeiro apertado.",
+            "O objetivo era descobrir o real motivo do bloqueio financeiro e tratar a objeção com uma das práticas MetLife.",
+            "Buscava-se estimular a contratação já, de forma tranquila e sem pressão.",
+            "O objetivo foi parcialmente atingido.",
+            "Você demonstrou acolhimento ao agradecer pelo reconhecimento da proposta logo no início.",
+            "Procurou adaptar o valor do prêmio ao orçamento, sugerindo redução da cobertura para viabilizar o seguro.",
+            "Manteve foco na importância de “iniciar a proteção” e valorizar o que já é possível fazer."
+        ]
     },
     {
         "name": "Philippe de Langlais",
@@ -27890,7 +30572,18 @@ const RAW_SIMULATIONS = [
                 "text": "Certo, combinado. Espero a sua proposta amanhã às cinco da tarde."
             }
         ],
-        "finished": true
+        "finished": true,
+        "feedback": "Aqui está o debriefing da nossa troca.\n\n  \n## 🤓 PERSONA\n\n- Persona Camila, perfil DISC yellow (entusiasta, curiosa, questionadora), expressou principalmente a objeção “o prêmio mensal não cabe no orçamento agora”.\n\n  \n## 🎯 OBJETIVO PRINCIPAL\n\n- Descobrir a razão real da objeção financeira e tratar pela técnica correta, guiando ao fechamento imediato, com o cliente seguro.\n- O objetivo foi parcialmente atingido.\n\n  \n## ➕ PONTOS FORTES\n\n- Você demonstrou escuta ativa logo de início, reconhecendo sinceramente o contexto financeiro da Camila.\n\n  \n- Sugeriu prontamente a revisão da proposta para adequar o prêmio ao orçamento, sinalizando flexibilidade e foco na solução.\n\n  \n- Procurou focar a elaboração da nova proposta nas prioridades da cliente, dando espaço para ela se sentir protagonista.\n\n  \nParabéns, essa postura consultiva inspira confiança e mostra abertura a negociar, pontos valiosos para esse perfil!\n\n  \n## 📈 PONTOS DE MELHORIA\n\n- Faltou aprofundar a descoberta da real causa do bloqueio financeiro com perguntas abertas (“Camila, o que mais te preocupa hoje sobre esse compromisso mensal?”).\n\n  \n- Não utilizou claramente uma prática MetLife (SIM MAS, Obrigação, Live or Die) para “virar a chave” da objeção antes de partir para a revisão.\n\n  \n- A reconexão com as necessidades da ADN ficou apenas sugerida, sem “trazer à mesa” explicitamente como o seguro protegeria as prioridades já mencionadas.\n\n  \n- A proposta de fechamento ficou focada em novo agendamento e não conduziu de maneira clara para um “sim” no primeiro encontro.\n  \nInvista em perguntas reveladoras e dê um passo a mais: traga a lógica da proteção para o centro da conversa!\n\n  \n## 🩵 ANÁLISE EMOCIONAL\n\n- Seu tom foi calmo, respeitoso e empático, com ritmo tranquilo, mas por vezes inseguro na condução, dando vazão à hesitação do cliente.\n\n  \n## 🛅 MOMENTOS-CHAVE\n\n- Situação: Ao propor ajuste imediato do valor do prêmio. Você mostrou flexibilidade e tirou o peso da decisão, facilitando a abertura da Camila.\n\n  \n- Situação: Agendamento de nova proposta ao invés de buscar fechamento já. Isso enfraqueceu a chance de avançar no calor do interesse inicial.\n\n  \n## 🔊 REFORMULAÇÕES RECOMENDADAS\n\n- “Camila, nunca vi ninguém quebrar por investir em proteção, mas já vi muita gente se arrepender por adiar.”\n\n- “O que mais pode pesar para você, além do valor? O compromisso longo ou a ideia de decidir hoje?”\n\n- “Se você sentir que faz sentido começar agora, faz mais sentido colocar o beneficiário principal já na proposta?”\n\n- “Pensando nas suas prioridades, de que forma esse seguro ajudaria a manter seu padrão caso algo acontecesse?”\n\n- “Se caber um valor menor, você topa protegermos pelo básico e revisamos depois?”\n\n  \n## ➡️ RECOMENDAÇÕES\n\n- Aprofunde a verdadeira objeção antes de refazer propostas. Use técnicas MetLife e encare o fechamento com perguntas de concordância tácita. Confie! Seu papel planejador é decisivo. Uma boa escuta transforma objeção em oportunidade. Siga firme, seu potencial consultivo é real!",
+        "insights": [
+            "Persona Camila, perfil DISC yellow (entusiasta, curiosa, questionadora), expressou principalmente a objeção “o prêmio mensal não cabe no orçamento agora”.",
+            "Descobrir a razão real da objeção financeira e tratar pela técnica correta, guiando ao fechamento imediato, com o cliente seguro.",
+            "O objetivo foi parcialmente atingido.",
+            "Você demonstrou escuta ativa logo de início, reconhecendo sinceramente o contexto financeiro da Camila.",
+            "Sugeriu prontamente a revisão da proposta para adequar o prêmio ao orçamento, sinalizando flexibilidade e foco na solução.",
+            "Procurou focar a elaboração da nova proposta nas prioridades da cliente, dando espaço para ela se sentir protagonista.",
+            "Faltou aprofundar a descoberta da real causa do bloqueio financeiro com perguntas abertas (“Camila, o que mais te preocupa hoje sobre esse compromisso mensal?”).",
+            "Não utilizou claramente uma prática MetLife (SIM MAS, Obrigação, Live or Die) para “virar a chave” da objeção antes de partir para a revisão."
+        ]
     },
     {
         "name": "Philippe de Langlais",
@@ -27932,6 +30625,16 @@ const RAW_SIMULATIONS = [
                 "text": "Posso sim, desde que você não fale com ninguém sem eu avisar antes. Me diga um perfil claro e eu penso em quem pode interessar."
             }
         ],
-        "finished": true
+        "finished": true,
+        "feedback": "Aqui está o debriefing da nossa conversa\n\n🤓 PERSONA\n\nThiago, empreendedor de perfil dominante (DISC vermelho), objetivo, direto e valorizador de resultados rápidos.\n\n🎯 OBJETIVO PRINCIPAL\n\nTransformar satisfação em recomendações qualificadas, com autorização para mencionar o nome do cliente. O objetivo não foi atingido.\n\n➕ Pontos fortes\n\n- Você iniciou reconhecendo e parabenizando o cliente pela escolha, valorizando o momento UAU do pós-venda.\n\n- Procurou aferir o nível de satisfação e ouviu ativamente as percepções do cliente.\n\n- Apresentou a ideia de indicação de maneira geral, tentando associar o benefício ao círculo de confiança do cliente.\n\nContinue usando esse reconhecimento inicial, pois ele cria um ambiente positivo para pedidos de recomendação.\n\n⚠️ EIXOS DE MELHORIA\n\n- **Segmentação dos perfis indicados**\n  Faltou guiar o cliente com exemplos concretos de perfis (empreendedores, pais, colegas), facilitando a lembrança.\n\n- **Pedido pouco estruturado**\n  O pedido foi feito de maneira vaga e com perguntas abertas, dificultando a mobilização de nomes concretos.\n\n- **Ausência de autorização específica**\n  Não foi explicitada a permissão para citar seu nome, nem buscada uma anedota ou detalhe pessoal sobre o indicado.\n\n- **Foco na quantidade**\n  A prioridade deveria ser qualidade e preparo, não necessariamente pedir “uma pessoa” logo na sequência.\n\nTente trazer exemplos mais tangíveis e buscar autorização explícita para cada etapa do contato, isso facilita a entrega e diminui a resistência.\n\n🩵 ANÁLISE EMOCIONAL\n\nSeu tom foi cordial, mas hesitante, com oscilações e repetições típicas de quem busca aceitação. Prevaleceu boa intenção, mas faltou assertividade estruturada.\n\n🛅 MOMENTOS-CHAVE\n\nAo parabenizar pela assinatura do contrato você valorizou o momento, mostrando respeito e profissionalismo, o que é fundamental para engajar o cliente de início.\n\nNo momento do pedido, perguntas abertas e falta de segmentação fizeram com que a conversa não avançasse para recomendações concretas, travando o fluxo.\n\n🔊 REFORMULAÇÕES RECOMENDADAS\n\n“Thiago, parabéns mais uma vez pela decisão – realmente fez uma escolha estratégica.”\n\n“Você conhece outros empreendedores como você, vivendo um momento de expansão ou com família em crescimento?”\n\n“Se me autorizar, posso mencionar seu nome como referência quando procurar essas pessoas?”\n\n“Tem algum detalhe especial que eu possa levar para facilitar esse primeiro contato?”\n\n➡️ RECOMENDAÇÕES\n\nTraga exemplos de perfis com situações de vida próximas ao do cliente. Peça permissão para citar o nome do cliente antes de cada abordagem e busque sempre detalhes pessoais sobre os recomendados. Estruture seu pedido e reduza vagas generalizações.\n\nContinue treinando: cada conversa é uma oportunidade de aperfeiçoar sua abordagem!",
+        "insights": [
+            "Você iniciou reconhecendo e parabenizando o cliente pela escolha, valorizando o momento UAU do pós-venda.",
+            "Procurou aferir o nível de satisfação e ouviu ativamente as percepções do cliente.",
+            "Apresentou a ideia de indicação de maneira geral, tentando associar o benefício ao círculo de confiança do cliente.",
+            "Segmentação dos perfis indicados",
+            "Pedido pouco estruturado",
+            "Ausência de autorização específica",
+            "Continue treinando: cada conversa é uma oportunidade de aperfeiçoar sua abordagem!"
+        ]
     }
 ];
