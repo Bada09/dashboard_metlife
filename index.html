@@ -10,8 +10,8 @@
         rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-    <script src="metlife_users_data.js?v=13"></script>
-    <script src="metlife_simulations_data.js?v=13"></script>
+    <script src="metlife_users_data.js?v=14"></script>
+    <script src="metlife_simulations_data.js?v=14"></script>
 
     <style>
         :root {
@@ -2492,8 +2492,35 @@
                 return `${d}/${m}/${y}`;
             };
 
-            const firstDate = formatDate(allDates[0]);
-            const lastDate = formatDate(allDates[allDates.length - 1]);
+            let firstDate = formatDate(allDates[0]);
+            let lastDate = formatDate(allDates[allDates.length - 1]);
+
+            if (currentFilterPeriodPreset === 'all') {
+                if (typeof LATEST_DUMP_DATE !== 'undefined' && LATEST_DUMP_DATE) {
+                    lastDate = LATEST_DUMP_DATE;
+                }
+            } else if (currentFilterPeriodPreset === 'last7') {
+                const today = new Date();
+                const limit = new Date();
+                limit.setDate(today.getDate() - 7);
+                firstDate = formatDate(limit);
+                lastDate = formatDate(today);
+            } else if (currentFilterPeriodPreset === 'last30') {
+                const today = new Date();
+                const limit = new Date();
+                limit.setDate(today.getDate() - 30);
+                firstDate = formatDate(limit);
+                lastDate = formatDate(today);
+            } else if (currentFilterPeriodPreset === 'custom') {
+                if (currentFilterStartDate) {
+                    const [y, m, d] = currentFilterStartDate.split('-');
+                    firstDate = `${d}/${m}/${y}`;
+                }
+                if (currentFilterEndDate) {
+                    const [y, m, d] = currentFilterEndDate.split('-');
+                    lastDate = `${d}/${m}/${y}`;
+                }
+            }
 
             const top5 = [...activeInFilter].sort((a, b) => {
                 const aSims = filteredSims.filter(s => s.name === a.name);

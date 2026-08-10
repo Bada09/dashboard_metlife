@@ -1,3 +1,4 @@
+const LATEST_DUMP_DATE = "10/08/2026";
 const RAW_SIMULATIONS = [
     {
         "name": "Juliana Pedrão",
