@@ -1,4 +1,4 @@
-const LATEST_DUMP_DATE = "10/08/2026";
+const LATEST_DUMP_DATE = "11/08/2026";
 const RAW_SIMULATIONS = [
     {
         "name": "Juliana Pedrão",
@@ -13022,6 +13022,209 @@ const RAW_SIMULATIONS = [
             "Ausência de um pitch de valor diferenciado nos primeiros dez segundos, deixando a abertura morna e sem impacto.",
             "Faltou quebra-gelo com toque pessoal antes de avançar para agendamento; ficou protocolar demais.",
             "Poderia ter ativado o gatilho da recomendação real (história ou benefício concreto do Vinícius) para aumentar confiança."
+        ]
+    },
+    {
+        "name": "Sophie Géraud",
+        "agency": "Outros",
+        "region": "Outros",
+        "date": "10/08/2026",
+        "dur": "0m 8s",
+        "score": 51,
+        "scenario": "PROSPECT_FRIO",
+        "lqa": "N/A",
+        "interactions": 7,
+        "messages": [
+            {
+                "role": "AI",
+                "text": "J'ai bien compris la proposition et elle me semble pertinente, mais je préfère prendre un peu de temps pour y réfléchir. Je te redis ma décision après en avoir parlé avec ma femme."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Très bien. Est-ce qu'il y a un point particulier qui fait que vous ne voulez pas accepter dès maintenant"
+            },
+            {
+                "role": "AI",
+                "text": "Non pas un point précis, juste que c'est une décision financière importante et je veux en parler calmement avec ma femme.  \nOn peut fixer un rappel la semaine prochaine pour en reparler après notre discussion."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Très bien, voulez-vous qu'on organise un point avec elle ?"
+            },
+            {
+                "role": "AI",
+                "text": "Oui, pourquoi pas. Peux-tu proposer un créneau en fin de journée la semaine prochaine qui conviendrait à ma femme?"
+            },
+            {
+                "role": "HUMAN",
+                "text": "Jeudi ou vendredi à 18 heures ?"
+            },
+            {
+                "role": "AI",
+                "text": "Vendredi à dix-huit heures me va mieux.  \nPeux-tu confirmer que ce sera par appel vidéo afin que ma femme puisse voir les documents?"
+            }
+        ],
+        "finished": true,
+        "feedback": "Aqui está le debriefing de notre échange.  \n\n🤓 PERSONA  \n\n- Client incarné : Rafael, pédiatre chaleureux de profil DISC jaune, principal frein exprimé : objection de consentement (besoin de consulter sa conjointe).  \n\n🎯 OBJECTIF PRINCIPAL  \n\n- Découvrir la raison réelle du report et traiter l’objection avec la CHAVE adaptée pour obtenir un engagement immédiat, sans pression. Objectif partiellement atteint.  \n\n  \n➕ POINTS FORTS  \n\n- Bonne écoute initiale : tu accueilles le besoin de recul du client et reconnais l’importance de valider à deux.  \n\n- Proposition active d’inclure la conjointe rapidement avec une question concrète (“voulez-vous qu’on organise un point avec elle ?”).  \n\n- Prise d’initiative dans la proposition de créneaux très précis (jeudi ou vendredi, dix-huit heures) pour ne pas perdre l’élan.  \n\n  Tu avances déjà bien sur la posture consultative !  \n\n  \n⚠️ POINTS DE MELHORIA  \n\n- Manque de reformulation des besoins ADN avant de re-solliciter un rendez-vous.  \n  Le lien émotionnel aurait pu être ravivé (“Rappelons pourquoi cette protection est importante pour votre famille...”).\n\n- Absence de phrase d’impact commerciale ou de silence posé après argument (“Ce type de décision est un vrai cadeau que l’on s’offre pendant qu’on est encore capable de le faire.” [silence]).\n\n- Le signal de fuite (“je veux en parler à ma femme”) est suivi d’un simple agendamento, risquant de perdre le momentum.  \n  Insiste davantage sur le côté “présent d’amour” ou tente un bumerangue pour relier à l’urgence.\n\n  Travail ces nuances pour éviter que la décision ne se dilue dans le temps !  \n\n  \n🩵 ANALYSE ÉMOTIONNELLE  \n\n- Ton posé, professionnel, adaptable ; mais on perçoit un brin d’expéditif dans l’enchaînement des propositions. Esprit confiant au global.  \n\n  \n🛅 MOMENTS-CHAVE  \n\n- Lorsque tu proposes d’organiser une réunion avec la conjointe, tu restes constructif et solutionnant, mais cette initiative manque l’appui émotionnel ADN.  \n  Impact : efficace logisticien, mais tu laisses passer l’opportunité d’enchanter la décision.  \n\n  \n🔊 REFORMULAÇÕES RECOMENDADAS  \n\n- “Au fond, est-ce le fait de devoir décider ensemble… ou un point sur la pertinence même du contrat qui vous retient ?”  \n\n- “Ce genre de protection, c’est aussi une façon de dire ‘je t’aime’ sans mots… On prend cinq minutes pour choisir ensemble ?”  \n\n- “Si tout vous paraît clair, mettons simplement le contrat au nom de votre épouse comme bénéficiaire ?”  \n\n- “Qu’aimeriez-vous entendre, pour être pleinement rassuré d’ici jeudi ?”  \n\n- “Je vous propose : vendredi dix-huit heures tous les trois en visio, ça vous va ?”  \n\n  \n➡️ RECOMMANDATIONS  \n\nInvestis dès la pré-clôture sur le rappel des besoins ADN et ose la phrase d’impact suivie d’un vrai silence. Montre que tu es l’allié du couple, pas juste l’organisateur. Bravo pour ton engagement relationnel, encore un effort pour allumer l’étincelle décisionnelle !",
+        "insights": [
+            "Client incarné : Rafael, pédiatre chaleureux de profil DISC jaune, principal frein exprimé : objection de consentement (besoin de consulter sa conjointe).",
+            "Découvrir la raison réelle du report et traiter l’objection avec la CHAVE adaptée pour obtenir un engagement immédiat, sans pression. Objectif partiellement atteint.",
+            "Bonne écoute initiale : tu accueilles le besoin de recul du client et reconnais l’importance de valider à deux.",
+            "Proposition active d’inclure la conjointe rapidement avec une question concrète (“voulez-vous qu’on organise un point avec elle ?”).",
+            "Prise d’initiative dans la proposition de créneaux très précis (jeudi ou vendredi, dix-huit heures) pour ne pas perdre l’élan.",
+            "Manque de reformulation des besoins ADN avant de re-solliciter un rendez-vous.",
+            "Absence de phrase d’impact commerciale ou de silence posé après argument (“Ce type de décision est un vrai cadeau que l’on s’offre pendant qu’on est encore capable de le faire.” [silence]).",
+            "Le signal de fuite (“je veux en parler à ma femme”) est suivi d’un simple agendamento, risquant de perdre le momentum."
+        ]
+    },
+    {
+        "name": "Sophie Géraud",
+        "agency": "Outros",
+        "region": "Outros",
+        "date": "10/08/2026",
+        "dur": "0m 18s",
+        "score": 15,
+        "scenario": "PROSPECT_FRIO",
+        "lqa": "N/A",
+        "interactions": 14,
+        "messages": [
+            {
+                "role": "AI",
+                "text": "Achei a proposta bem explicada, mas preciso conversar com minha esposa antes de decidir. Vou levar o material e pensar com calma, depois te dou uma resposta."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Conversar com você, sua esposa? Mas por quê?"
+            },
+            {
+                "role": "AI",
+                "text": "Porque decisões financeiras importantes a gente decide em conjunto. Minha esposa participa das escolhas que afetam a família, então prefiro conversar com ela antes de fechar."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Você quer um compromisso com sua esposa?"
+            },
+            {
+                "role": "AI",
+                "text": "Quero sim. Minha esposa participa das decisões que impactam a família, e prefiro que a gente alinhe juntos antes de fechar qualquer compromisso."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Ok, ok Soa nome"
+            },
+            {
+                "role": "HUMAN",
+                "text": "A, a nome de você?"
+            },
+            {
+                "role": "AI",
+                "text": "Você está perguntando se o seguro vai ficar no meu nome? Sim, a proposta seria em meu nome. Vou primeiro conversar com minha esposa sobre os detalhes e aí dou retorno."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Qualis, qual é o seu nome de você?"
+            },
+            {
+                "role": "AI",
+                "text": "Meu nome é Gustavo Drummond. Vou conversar com minha esposa e depois te dou retorno."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Perfeito. Qual é o seu nome?"
+            },
+            {
+                "role": "AI",
+                "text": "Meu nome é Larissa Drummond. Vou conversar com meu marido e te dou retorno."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Perfecto, obrigada"
+            },
+            {
+                "role": "AI",
+                "text": "Por nada. Vou falar com meu marido e te retorno na próxima semana."
+            }
+        ],
+        "finished": true,
+        "feedback": "Aqui está le debriefing de notre échange.\n\n  \n🤓 PERSONA  \n\n- Prospect homme, cinquante-quatre ans, profil DISC vert (stable, prudent, réfléchi).  \n- Objection majeure exprimée : CONSENTEMENT (besoin de consulter son épouse avant de s’engager).\n\n  \n🎯 OBJECTIF PRINCIPAL  \n\n- Découvrir le vrai motif d’ajournement et traiter l’objection avec la clé adaptée.\n- Amener à la souscription immédiate, sans pression. Objectif non atteint.\n\n  \n➕ POINTS FORTS  \n\n- Présence d’une tentative d’identification de la raison de l’ajournement.\n\n  \n- Recherche active du nom du client, traduisant une volonté d’engagement personnalisé.\n\n  \n- Prise d’initiative pour enlever des incertitudes, montrant un souci d’aller vers la clarté.\n\n  \nContinue à garder cette curiosité et cette recherche de transparence, ton enthousiasme est communicatif.\n\n  \n⚠️ POINTS DE MELHORIA  \n\n- Clarification de la posture : Les questions semblaient parfois inattendues ou légèrement abruptes (« Você quer um compromisso com sua esposa? »), pouvant créer de la confusion.\n\n  \n- Traitement de l’objection CONSENTEMENT : Absence de validation positive du fait de consulter l’épouse, aucun usage d’alternative concrète ni de l’histoire adéquate (ex : “Anel de Brilhantes”).\n\n  \n- Manque de recadrage autour des besoins personnels identifiés (ADN) avant de tenter d’avancer.\n\n  \n- Fréquence élevée de questions très proches sans réelle découverte de l’objection cachée.\n\n  \nIl te suffit d’un peu plus de structure et d’empathie pour transformer ces échanges en opportunités.\n\n  \n🩵 ANALYSE ÉMOTIONNELLE  \n\nLe ton était insistant voire légèrement brusque, avec un rythme haché, manquant de fluidité. L’attitude semblait pressée, pas vraiment rassurante pour un profil vert.\n\n  \n🛅 MOMENTS-CLÉS  \n\n- Question directe sur la nécessité de consulter l’épouse → Absence de validation émotionnelle, ce qui a freiné le dialogue.  \n- Recherche du nom du client → Bonne idée, mais aurait gagné à arriver dans une séquence plus dialoguée.\n\n  \n🔊 REFORMULAÇÕES RECOMENDADAS  \n\n- « Je comprends, c’est une décision que beaucoup aiment partager en famille : qu’est-ce qui serait important pour votre épouse ? »  \n- « En général, vous souhaitez réfléchir au fait de faire le contrat, ou plutôt au moment pour le faire ? »  \n- « Je peux vous raconter une petite histoire sur ce que représentent ces décisions pour le couple… »  \n- « Voulez-vous qu’on voit ensemble quelle part prévoir pour votre épouse comme bénéficiaire ? »\n\n  \n➡️ RECOMMANDATIONS  \n\nSoigne ta posture d’écoute : valide les besoins de consulter, puis réintroduis les motivations clés évoquées par le client. Utilise une histoire ou alternative concrète adaptée, calme le tempo et privilégie la connexion émotionnelle. Progresser ici fera passer ton taux de closing au niveau supérieur, c’est certain !",
+        "insights": [
+            "Prospect homme, cinquante-quatre ans, profil DISC vert (stable, prudent, réfléchi).",
+            "Objection majeure exprimée : CONSENTEMENT (besoin de consulter son épouse avant de s’engager).",
+            "Découvrir le vrai motif d’ajournement et traiter l’objection avec la clé adaptée.",
+            "Amener à la souscription immédiate, sans pression. Objectif non atteint.",
+            "Présence d’une tentative d’identification de la raison de l’ajournement.",
+            "Recherche active du nom du client, traduisant une volonté d’engagement personnalisé.",
+            "Prise d’initiative pour enlever des incertitudes, montrant un souci d’aller vers la clarté.",
+            "Clarification de la posture : Les questions semblaient parfois inattendues ou légèrement abruptes (« Você quer um compromisso com sua esposa? »), pouvant créer de la confusion."
+        ]
+    },
+    {
+        "name": "Sophie Géraud",
+        "agency": "Outros",
+        "region": "Outros",
+        "date": "10/08/2026",
+        "dur": "0m 22s",
+        "score": 39,
+        "scenario": "PROSPECT_FRIO",
+        "lqa": "N/A",
+        "interactions": 11,
+        "messages": [
+            {
+                "role": "AI",
+                "text": "Achei a proposta muito interessante, mas preciso de um tempo para pensar melhor antes de decidir. Depois eu te dou uma resposta."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Ou por que você precisa o tempo?"
+            },
+            {
+                "role": "AI",
+                "text": "Preciso de um tempo para conversar com meu companheiro e organizar as finanças da casa antes de assumir mais um compromisso.  \nTambém quero revisar com calma alguns pontos que impactam a família, para ficar tranquila com a escolha."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Você quer um compromisso, você e sua, sua, seu marido?"
+            },
+            {
+                "role": "AI",
+                "text": "Desculpe, não entendi bem a pergunta.  \nQuero apenas falar com meu companheiro antes de fechar, para alinharmos prioridades e as contas da casa."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Oi"
+            },
+            {
+                "role": "HUMAN",
+                "text": "Tubing?"
+            },
+            {
+                "role": "AI",
+                "text": "Desculpe, não entendi o que você quis dizer com \"tubing\".  \nSe for sobre fechar o seguro, prefiro conversar com meu companheiro e decidir em seguida."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Ok, perfeito. E qual Qual é o seu nome? Qual deles são não?"
+            },
+            {
+                "role": "AI",
+                "text": "Meu nome é Mariana.  \nQuero combinar com meu companheiro quem será o beneficiário antes de seguir."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Ok, Mariana Obrigada"
+            }
+        ],
+        "finished": true,
+        "feedback": "Aqui está o debriefing da nossa troca.  \n \n🤓 PERSONA\n\n- Femme, profil DISC majoritairement Vert, objection principale de la famille CONSENTEMENT (besoin de consulter son conjoint).  \n \n🎯 OBJECTIF PRINCIPAL\n\n- L'objectif était d'identifier la vraie raison du report et de traiter l'objection avec la CHAVE correcte pour aboutir à la souscription immédiate. L'objectif n'a pas été atteint.  \n \n➕ POINTS FORTS\n\n- Bonne volonté d’explorer la raison de l'hésitation du client via une question directe (« por que você precisa o tempo? »).  \n\n- Tentative d’amorcer la discussion autour de la prise de décision partagée avec le conjoint, ce qui montre une prise en compte de la famille de l’objection.  \n\n- Usage du prénom du client dès la confirmation, favorisant une relation plus humaine.  \n\nBravo, il y a une base d’écoute à renforcer !  \n \n⚠️ POINTS DE MELHORIA\n\n- **Formulation maladroite et imprécise**  \n  Les questions posées sont floues ou désorganisées (« Qual deles são não? », « Tubing? »), ce qui peut désorienter la cliente.\n\n- **Absence de traitement structuré**  \n  Il manque la validation de la posture du client et la mobilisation d'une CHAVE adaptée à l'objection CONSENTEMENT (histoire de connexion, proposition concrète...).\n\n- **Pas de relance découverte**  \n  Aucune question ouverte n’a vraiment permis de différencier une fausse objection d’une vraie.\n\n- **Aucune reprise de l’ADN ni phrase d’impact**  \n  Il n’y a pas eu de re-connexion aux besoins du client ni de phrase de momentum.  \n\nGardez ces points précis en vue pour progresser et osez structurer davantage vos relances !  \n \n🩵 ANALYSE EMOTIONNELLE\n\nLe ton semble hésitant et parfois confus, avec un rythme décousu et des formulations incertaines. L’état dominant perçu est l’hésitation mêlée à de la bonne volonté.  \n \n🛅 MOMENTS-CHAVE\n\nPremière question explorant le besoin de temps : initiative pertinente mais manque de clarté, ce qui diminue l’impact et l’efficacité dans la gestion de l’objection.  \n \n🔊 REFORMULAÇÕES RECOMENDADAS\n\n- « Mariana, vous souhaitez surtout y réfléchir ou recueillir l’avis de votre mari avant d’avancer ? »\n\n- « Qu'est-ce qui vous aiderait à vous sentir sereine pour prendre cette décision dès aujourd’hui ? »\n\n- « Justement, beaucoup de clientes me partagent que protéger la famille, c’est aussi un cadeau d’amour, parfois une surprise qu’on offre à ses proches. »\n\n- « Préférez-vous qu’on note 100% au bénéfice de votre mari ou souhaitez-vous répartir différemment ? »\n\n- « Si tout vous paraît clair, puis-je déjà vérifier les informations pour avancer ? »  \n \n➡️ RECOMENDAÇÕES\n\nTravaillez vos formulations pour plus de clarté, structurez mieux le traitement des objections et osez plus de relances ouvertes. La clé est dans la qualité de vos questions. Continuez, chaque échange est une vraie opportunité d’évoluer !",
+        "insights": [
+            "Femme, profil DISC majoritairement Vert, objection principale de la famille CONSENTEMENT (besoin de consulter son conjoint).",
+            "L'objectif était d'identifier la vraie raison du report et de traiter l'objection avec la CHAVE correcte pour aboutir à la souscription immédiate. L'objectif n'a pas été atteint.",
+            "Bonne volonté d’explorer la raison de l'hésitation du client via une question directe (« por que você precisa o tempo? »).",
+            "Tentative d’amorcer la discussion autour de la prise de décision partagée avec le conjoint, ce qui montre une prise en compte de la famille de l’objection.",
+            "Usage du prénom du client dès la confirmation, favorisant une relation plus humaine.",
+            "Formulation maladroite et imprécise",
+            "Absence de traitement structuré",
+            "Pas de relance découverte"
         ]
     },
     {
@@ -28436,6 +28639,231 @@ const RAW_SIMULATIONS = [
         "finished": false,
         "feedback": "",
         "insights": []
+    },
+    {
+        "name": "Tabajara Dias",
+        "agency": "Outros",
+        "region": "Outros",
+        "date": "10/08/2026",
+        "dur": "1m 29s",
+        "score": 31,
+        "scenario": "PROSPECT_FRIO",
+        "lqa": "N/A",
+        "interactions": 20,
+        "messages": [
+            {
+                "role": "AI",
+                "text": "Achei a proposta muito interessante, mas preciso pensar com calma antes de decidir. Vou levar o material e respondo na próxima semana."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Olá Camila, bom dia, tudo bem? Que bom que você achou"
+            },
+            {
+                "role": "HUMAN",
+                "text": "Proposta interessante. Ééé importante que a gente o quanto antes possa assinar"
+            },
+            {
+                "role": "HUMAN",
+                "text": "A, o, o contrato, porque justamente a gente pode assegurar as condições que, que eu consegui pra senhora, tá? Então foram discussões que eu, que eu, ééé Trouxe internamente pra que a gente pudesse evoluir com a melhor proposta dedicada É A, as suas condições e as suas necessidades"
+            },
+            {
+                "role": "AI",
+                "text": "Entendo a urgência, mas ainda preciso conversar com meu companheiro antes de assinar. Podemos agendar uma nova chamada para a próxima semana?"
+            },
+            {
+                "role": "HUMAN",
+                "text": "Ééé, a-até a próxima semana não vou conseguir, ééé manter o preço que eu ofereci. Então se a gente puder falar com o seu companheiro, a gente pode marcar entre hoje, amanhã, no máximo em dois dias"
+            },
+            {
+                "role": "HUMAN",
+                "text": "É, uma nova reunião que a gen-- eu explico os detalhes e qualquer dúvida pra gente possa assinar pra assegurar o preço, como eu disse antes"
+            },
+            {
+                "role": "AI",
+                "text": "Entendo que o preço pode mudar, mas hoje não dá para incluir meu companheiro na chamada. Podemos agendar para daqui a três dias?"
+            },
+            {
+                "role": "HUMAN",
+                "text": "Daqui três dias"
+            },
+            {
+                "role": "HUMAN",
+                "text": "Pode ser. A senhora prefere às 9h da manhã, às 14h ou às 16h? Eu tenho esses três ho-horários disponíveis onde a gente possa conversar"
+            },
+            {
+                "role": "AI",
+                "text": "Prefiro às quatorze horas. Pode ser por vídeo?"
+            },
+            {
+                "role": "HUMAN",
+                "text": "Claro, pode ser por vídeo, sim Vamos nos falar então às 14h"
+            },
+            {
+                "role": "HUMAN",
+                "text": "Senhora Camila, eee"
+            },
+            {
+                "role": "HUMAN",
+                "text": "E aí a gente-- eu mando o link. É, só me confirma, por favor, o e-mail da senhora pra que eu possa enviar o link pra chamada"
+            },
+            {
+                "role": "AI",
+                "text": "Não vou passar meu e-mail pessoal aqui. Pode enviar o link pelo WhatsApp que já confirmo."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Ok, vou enviar o link pra, pra senhora. De qualquer maneira, o e-mail Está no contrato também. Então pensei em utilizar, é, o e-mail que, que está lá no contrato, mas se a senhora prefere, eu posso enviar por WhatsApp"
+            },
+            {
+                "role": "AI",
+                "text": "Prefiro por WhatsApp então. Me manda no número que está no contrato e eu confirmo o recebimento."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Perfeito, senhora Camila. Obrigado pela atenção"
+            },
+            {
+                "role": "AI",
+                "text": "Perfeito. Vou ficar atenta ao WhatsApp e confirmar quando receber o link. Até lá."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Até"
+            }
+        ],
+        "finished": true,
+        "feedback": "Aqui está o debriefing da nossa troca.\n\n  \n🤓 PERSONA\n\n- Jovem executiva de tecnologia, perfil DISC amarelo, principal objeção da família CONSENTIMENTO (“preciso falar com meu companheiro”).\n\n  \n🎯 OBJETIVO PRINCIPAL\n\n- O objetivo era descobrir a razão real do adiamento e tratar a objeção, levando ao fechamento imediato, sem pressão indevida. Objetivo não foi atingido.\n\n  \n➕ PONTOS FORTES\n\n- Cortesia foi mantida do início ao fim, com postura respeitosa e profissional.\n\n  \n- Tentativa de agilizar o processo oferecendo diferentes horários e opções para acomodar o cônjuge.\n\n  \n- Voz de proximidade ao tratar da personalização da proposta para Camila.\n\n  \n Mandou bem em não perder a linha diante da hesitação do prospect.\n\n  \n⚠️ PONTOS DE MELHORIA\n\n- Ausência de identificação clara da objeção real: não houve pergunta para descobrir se o “vou conversar” era dúvida sobre o SE ou o QUANDO.\n\n  \n- Ausência da CHAVE correta para a objeção de CONSENTIMENTO: faltou validação (ex: “super importante decidir juntos!”) e história de conexão (Anel de Brilhantes).\n\n  \n- Tom de pressão com possível perda de condição especial (“não vou conseguir manter o preço”), o que pode soar manipulador.\n\n  \n- Não houve recapitulação das necessidades da ADN nem conexão com os motivos pessoais da cliente para criar urgência legítima.\n\n  \n- O fechamento proposto foi adiar para outra reunião, não avançando para tentar fechar já — fuga disfarçada.\n\n  \n Tente focar mais em perguntas abertas e conexão verdadeira com seus prospects, você tem potencial!\n\n  \n🩵 ANÁLISE EMOCIONAL\n\n- Tom formal, ritmo um pouco hesitante e múltiplas repetições. Emoção dominante: insegurança tentando soar confiante.\n\n  \n🛅 MOMENTOS-CHAVE\n\n- Aviso da possível perda de condição (“não vou conseguir manter o preço”) — intenção de criar urgência, mas faltou amparo na necessidade real do cliente.\n\n  \n- Oferecimento de agendar com o companheiro — sinaliza disposição, mas sem tentar descobrir o real motivo da hesitação.\n\n  \n🔊 REFORMULAÇÕES RECOMENDADAS\n\n- “Camila, entendo que você queira conversar com seu companheiro. Posso te perguntar: sua dúvida é mesmo se vale a pena o seguro, ou só o melhor momento para começar?”\n\n- “Muita gente me diz que são decisões de casal, mas no fundo acabam sendo presentes individuais — como um anel de brilhantes: uma surpresa de cuidado.”\n\n- “Podemos garantir a proposta já deixando um passo encaminhado para você seguir tranquila — posso iniciar aqui e você só confirma depois?”\n\n- “Prefere revisar o contrato juntos agora, ou prefere garantir os dados e depois compartilhar os detalhes com ele?”\n\n  \n➡️ RECOMENDAÇÕES\n\nProcure entender primeiro o que está realmente travando a decisão. Explore objeções de modo consultivo, conectando as necessidades à solução. Confie mais na escuta e na personalização, menos na pressão artificial. O futuro pertence aos consultores que desafiam com empatia e criatividade!",
+        "insights": [
+            "Jovem executiva de tecnologia, perfil DISC amarelo, principal objeção da família CONSENTIMENTO (“preciso falar com meu companheiro”).",
+            "O objetivo era descobrir a razão real do adiamento e tratar a objeção, levando ao fechamento imediato, sem pressão indevida. Objetivo não foi atingido.",
+            "Cortesia foi mantida do início ao fim, com postura respeitosa e profissional.",
+            "Tentativa de agilizar o processo oferecendo diferentes horários e opções para acomodar o cônjuge.",
+            "Voz de proximidade ao tratar da personalização da proposta para Camila.",
+            "Ausência de identificação clara da objeção real: não houve pergunta para descobrir se o “vou conversar” era dúvida sobre o SE ou o QUANDO.",
+            "Ausência da CHAVE correta para a objeção de CONSENTIMENTO: faltou validação (ex: “super importante decidir juntos!”) e história de conexão (Anel de Brilhantes).",
+            "Tom de pressão com possível perda de condição especial (“não vou conseguir manter o preço”), o que pode soar manipulador."
+        ]
+    },
+    {
+        "name": "Tabajara Dias",
+        "agency": "Outros",
+        "region": "Outros",
+        "date": "10/08/2026",
+        "dur": "0m 0s",
+        "score": 0,
+        "scenario": "PROSPECT_FRIO",
+        "lqa": "N/A",
+        "interactions": 0,
+        "messages": [],
+        "finished": false,
+        "feedback": "",
+        "insights": []
+    },
+    {
+        "name": "Tabajara Dias",
+        "agency": "Outros",
+        "region": "Outros",
+        "date": "10/08/2026",
+        "dur": "2m 2s",
+        "score": 67,
+        "scenario": "PROSPECT_FRIO",
+        "lqa": "N/A",
+        "interactions": 20,
+        "messages": [
+            {
+                "role": "AI",
+                "text": "Achei a proposta muito clara e faz sentido, mas preciso pensar melhor antes de decidir. Depois eu te dou uma resposta."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Olá Camila, que bom que você gostou da proposta"
+            },
+            {
+                "role": "HUMAN",
+                "text": "E viu aderência nela e tá, e tá feliz com a sua decisão. Ééé, mas qual é a sua dúvida em relação à proposta? É o prazo pra iniciarmos o contrato? Ééé, né, são valores? Qua-- me fale, assim eu posso agilizar pra que a gente acelere e eu posso garantir as condições que lá eu coloquei"
+            },
+            {
+                "role": "AI",
+                "text": "Oi, obrigada. Minha principal dúvida é sobre o impacto no meu fluxo de caixa mensal, porque minha renda varia bastante. Você pode me explicar como ficam as opções de pagamento e se tem flexibilidade caso eu precise suspender temporariamente?"
+            },
+            {
+                "role": "HUMAN",
+                "text": "Olha, tem, tem sim, isso está no, no próprio contrato. Ééé, a gente pode, pode revisar agora, se quiser ééé, essa cláusula e você pode ver lá que você pode suspender temporariamente sem perder as condições e também a gente podeee alterar as datas de vencimento pra queee, pra que você continue"
+            },
+            {
+                "role": "HUMAN",
+                "text": "Honrando e-e-e, e possa usufruir de-desse seguro que é muito importante pra, pra você e seu esposo e sua família"
+            },
+            {
+                "role": "AI",
+                "text": "Certo, ótimo saber que há essa flexibilidade. Pode me dizer qual é o prazo mínimo de suspensão permitido e se há cobrança de taxa ao retomar os pagamentos?"
+            },
+            {
+                "role": "HUMAN",
+                "text": "Então três meses, tá? E aí você pode voltar a, a continuar a pagar o, o o contrato eee seguir com, com o seu seguro"
+            },
+            {
+                "role": "AI",
+                "text": "Três meses parece razoável. Tem alguma cobrança ou carência quando eu retomo os pagamentos?"
+            },
+            {
+                "role": "HUMAN",
+                "text": "Não tem carência nem, nem cobrança. Ééé, apenas a senhora tem que avisar"
+            },
+            {
+                "role": "HUMAN",
+                "text": "com uma antecedência de 30 dias pra que a gente possa congelar o contrato"
+            },
+            {
+                "role": "AI",
+                "text": "Certo, obrigado pela informação. Então, para eu me programar, qual é a melhor data de vencimento mensal para você lançar no débito automático?"
+            },
+            {
+                "role": "HUMAN",
+                "text": "Isso você me diz. O que que a senhora prefere, dia 5, dia 15 ou dia 20?"
+            },
+            {
+                "role": "AI",
+                "text": "Prefiro o dia quinze, que fica mais alinhado com o fluxo do meu consultório. Podemos deixar assim no débito automático."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Sim, claro. Dia 15 Então como a gente já sanou essa questão do, do, do contrato do contrato"
+            },
+            {
+                "role": "HUMAN",
+                "text": "Eu imagino que, que tudo certo pra, pra iniciar. Então vamos seguir com a assinatura eee tendo essa flexibilidade, caso a senhora não possa honrar, ééé, veja que no contrato isso tá, tá muito bem alinhado com, com as suas necessidades, então tranquilo"
+            },
+            {
+                "role": "AI",
+                "text": "Ok, vamos em frente então. Podemos fazer a assinatura hoje e deixar o débito automático no dia quinze."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Perfeito Ééé, OK. Já estou enviando pro e-mail da senhora assinatura do contrato e mais uma vez parabéns por essa conquista, porque isso assegura É um futuro seu, do seu esposo e de sua família"
+            },
+            {
+                "role": "HUMAN",
+                "text": "Estou muito feliz em, em celebrar esse contrato com a senhora, Camila"
+            },
+            {
+                "role": "AI",
+                "text": "Obrigada, fico feliz também. Pode me enviar o contrato por e-mail agora mesmo."
+            }
+        ],
+        "finished": true,
+        "feedback": "Aqui está o debriefing da nossa troca.\n\n  \n🤓 PERSONA\n\n- Prospect feminina, perfil DISC dominante verde, apresentou objeção principal da família TEMPO (precisava pensar melhor e buscar segurança para decidir).\n\n\n🎯 OBJETIVO PRINCIPAL\n\n- Corretor buscou tratar a objeção e chegou ao fechamento imediato, deixando a cliente confortável; objetivo atingido corretamente.\n\n  \n➕ PONTOS FORTES\n\n- Validação clara da dúvida da cliente, demonstrando escuta ativa e interesse genuíno em resolver as questões levantadas.\n\n  \n- Trouxe informações detalhadas sobre flexibilidade de pagamento, suspensão e retomada do seguro, assegurando transparência.\n\n  \n- Avançou de maneira consultiva para o fechamento, oferecendo opções de datas, facilitando o aceite.\n\n  \n- Manteve postura respeitosa e atenciosa durante toda a conversa, reconhecendo o aspecto emocional da decisão.\n\n\nParabéns! Seu acolhimento e foco na solução foram fundamentais.\n\n\n⚠️ PONTOS DE MELHORIA\n\n- Faltou uma pergunta mais direta de descoberta da objeção oculta no momento inicial (“quer pensar se realmente vai fazer ou quando vai fazer?”).\n\n  \n- Não houve recapitulação explícita das necessidades identificadas na entrevista de ADN antes de propor o fechamento, deixando de conectar a solução aos motivos pessoais da cliente.\n\n  \n- O uso de expressões hesitantes (“ééé”, “né”, “tá”) transmite menos segurança no argumento, podendo ser ajustado para maior assertividade.\n\n\nPistas de progresso: um pouco mais de estrutura nas perguntas e foco na ADN elevarão ainda mais sua performance.\n\n\n🩵 ANÁLISE EMOCIONAL\n\n- Tom empático e calmo, ritmo paciente, vocabulário cordial, mas com excesso de hesitações, que prejudica a percepção de autoridade. Estado emocional dominante: acolhedor, porém um tanto inseguro.\n\n\n🛅 MOMENTOS-CHAVE\n\n- Cliente levantou dúvida sobre suspensão de pagamento; Corretor explicou detalhadamente as opções e já aplicou uma alternativa concreta (dias de pagamento), acelerando o fechamento.\n\n  \n- Ao perceber sinal de compra (“Sim, claro. Dia 15”), Corretor imediatamente engatou o próximo passo, garantindo o sim tácito da cliente.\n\n\n🔊 REFORMULAÇÕES RECOMENDADAS\n\n- “Fernanda, só pra entender melhor: você precisa pensar se quer mesmo fazer, ou apenas quando iniciar?”\n\n- “Como comentamos, proteger sua filha e garantir o padrão de vida dela é prioridade. Não é uma questão de quando se quer um seguro, e sim de enquanto se pode fazer.”\n\n- “Você prefere que a data de vencimento fique para o dia cinco, quinze ou vinte?”\n\n- “Posso já ir preenchendo a proposta com esses dados para garantir as condições atuais?”\n\n- “Ficou alguma dúvida importante ou já podemos seguir para o preenchimento?”\n\n\n➡️ RECOMENDAÇÕES\n\nUtilize sempre uma pergunta de descoberta da objeção verdadeira antes de responder. Reforce as necessidades da ADN antes de fechar. Pratique frases de impacto e silêncio para dar peso à sua argumentação. Continue evoluindo, pois seu potencial consultivo é evidente!",
+        "insights": [
+            "Prospect feminina, perfil DISC dominante verde, apresentou objeção principal da família TEMPO (precisava pensar melhor e buscar segurança para decidir).",
+            "Corretor buscou tratar a objeção e chegou ao fechamento imediato, deixando a cliente confortável; objetivo atingido corretamente.",
+            "Validação clara da dúvida da cliente, demonstrando escuta ativa e interesse genuíno em resolver as questões levantadas.",
+            "Trouxe informações detalhadas sobre flexibilidade de pagamento, suspensão e retomada do seguro, assegurando transparência.",
+            "Avançou de maneira consultiva para o fechamento, oferecendo opções de datas, facilitando o aceite.",
+            "Manteve postura respeitosa e atenciosa durante toda a conversa, reconhecendo o aspecto emocional da decisão.",
+            "Faltou uma pergunta mais direta de descoberta da objeção oculta no momento inicial (“quer pensar se realmente vai fazer ou quando vai fazer?”).",
+            "Não houve recapitulação explícita das necessidades identificadas na entrevista de ADN antes de propor o fechamento, deixando de conectar a solução aos motivos pessoais da cliente."
+        ]
     },
     {
         "name": "Tabajara Dias",
