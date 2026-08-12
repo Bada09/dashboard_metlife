@@ -1,4 +1,4 @@
-const LATEST_DUMP_DATE = "11/08/2026";
+const LATEST_DUMP_DATE = "12/08/2026";
 const RAW_SIMULATIONS = [
     {
         "name": "Juliana Pedrão",
@@ -79,6 +79,26 @@ const RAW_SIMULATIONS = [
         "name": "Juliana Pedrão",
         "agency": "Outros",
         "region": "Outros",
+        "date": "11/08/2026",
+        "dur": "0m 0s",
+        "score": 0,
+        "scenario": "PROSPECT_FRIO",
+        "lqa": "N/A",
+        "interactions": 1,
+        "messages": [
+            {
+                "role": "AI",
+                "text": "Achei a proposta muito clara e faz sentido, mas preciso pensar com calma antes de decidir. Vou levar o material e te dou uma resposta na próxima semana."
+            }
+        ],
+        "finished": false,
+        "feedback": "",
+        "insights": []
+    },
+    {
+        "name": "Juliana Pedrão",
+        "agency": "Outros",
+        "region": "Outros",
         "date": "25/06/2026",
         "dur": "0m 19s",
         "score": 32,
@@ -127,6 +147,198 @@ const RAW_SIMULATIONS = [
             "Ausência do “motivo do contato” objetivo",
             "Desvio para detalhamento precoce do caso anterior"
         ]
+    },
+    {
+        "name": "Juliana Pedrão",
+        "agency": "Outros",
+        "region": "Outros",
+        "date": "11/08/2026",
+        "dur": "0m 0s",
+        "score": 0,
+        "scenario": "PROSPECT_FRIO",
+        "lqa": "N/A",
+        "interactions": 1,
+        "messages": [
+            {
+                "role": "AI",
+                "text": "Achei a proposta muito boa, mas preciso pensar com calma antes de decidir. Vou levar o material e falo com você depois."
+            }
+        ],
+        "finished": false,
+        "feedback": "",
+        "insights": []
+    },
+    {
+        "name": "Juliana Pedrão",
+        "agency": "Outros",
+        "region": "Outros",
+        "date": "11/08/2026",
+        "dur": "0m 0s",
+        "score": 0,
+        "scenario": "PROSPECT_FRIO",
+        "lqa": "N/A",
+        "interactions": 1,
+        "messages": [
+            {
+                "role": "AI",
+                "text": "Achei a proposta muito interessante, mas preciso pensar melhor antes de decidir. Depois te dou uma resposta."
+            }
+        ],
+        "finished": false,
+        "feedback": "",
+        "insights": []
+    },
+    {
+        "name": "Juliana Pedrão",
+        "agency": "Outros",
+        "region": "Outros",
+        "date": "11/08/2026",
+        "dur": "0m 0s",
+        "score": 0,
+        "scenario": "PROSPECT_FRIO",
+        "lqa": "N/A",
+        "interactions": 3,
+        "messages": [
+            {
+                "role": "AI",
+                "text": "Achei a proposta muito interessante, mas preciso pensar com calma antes de decidir. Vou levar o material e converso com meu companheiro esta semana, depois te dou uma resposta."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Não tava ativado"
+            },
+            {
+                "role": "AI",
+                "text": "Ah, entendi. Você pode me dizer se isso afeta o prazo de aceitação da"
+            }
+        ],
+        "finished": false,
+        "feedback": "",
+        "insights": []
+    },
+    {
+        "name": "Juliana Pedrão",
+        "agency": "Outros",
+        "region": "Outros",
+        "date": "11/08/2026",
+        "dur": "3m 27s",
+        "score": 0,
+        "scenario": "PROSPECT_FRIO",
+        "lqa": "N/A",
+        "interactions": 11,
+        "messages": [
+            {
+                "role": "AI",
+                "text": "Achei a proposta muito bem explicada, mas preciso pensar melhor antes de decidir. Depois te dou uma resposta, tudo bem?"
+            },
+            {
+                "role": "HUMAN",
+                "text": "Mariana, entendo perfeitamente, é, mas qual que seria a real dúvida? É, por que que você precisaria pensar depois e não, é, tomar a decisão de assinar essa proposta agora? É, meu papel aqui é te ajudar a pensar. Vamo pensar juntos aqui, até como especialista no assunto, né, sobre proteção financeira, é, meu papel é tentar te ajudar a pensar qual, qual que é a real dúvida"
+            },
+            {
+                "role": "AI",
+                "text": "Preciso pensar porque estou grávida e quero discutir com meu parceiro sobre prioridades do orçamento e a escolha dos beneficiários. Também quero confirmar com calma se o valor cobre bem a educação futura do bebê. Posso te retornar na próxima semana depois dessa conversa em casa?"
+            },
+            {
+                "role": "HUMAN",
+                "text": "Dependendo do, do tempo faz Até 36 semanas, se não me falha a memória"
+            },
+            {
+                "role": "HUMAN",
+                "text": "Posso? M-Mariana, perfeito, entendo. É, no caso, obrigado por abrir aqui também o, o motivo, tá? Sobre os beneficiários, ééé, sugiro você colocar o seu marido primeiro como beneficiário e depois quando o seu filho nascer, a gente pode fazer uma alteração na sua apólice e acrescentar o novo beneficiário. Inclusive, nós podemos até dividir, é, o percentual do benefício, tá? Colocar, por exemplo, 50% pro seu marido, 50% pro-pro seu filho. Não tem problema nenhum, tá bom? Isso daí a gente pode resolver depois, independe se você, é, fechar agora ou mais pra frente, essa seria a solução. Com relação à educação do seu filho, lembra que eu comentei com você que o meu papel como especialista, ééé, é, é acompanhar você, acompanhar seu marido A partir de hoje, acompanhar a vida de vocês. Eu tenho clientes que estão na minha carteira há Há 15 anos Então imagina, há 15 anos eu fechei uma apólice assim como essa também pra esse cliente. Na época ele nem era casado, ele nem tinha filhos, ele era solteiro E desde então eu venho acompanhando ele, né? Hoje ele se tornou uma pessoa, é-- mudou o padrão de vida dele. Ele-- hoje ele é casado, hoje ele tem uma filha. Aliás, a filha dele tá com cinco aninhos. É, e o meu papel nesse, nesse momento foi o quê? Revisitá-lo. Eu visitei novamente esse cliente, é, fiz um complemento na apólice dele, principalmente pra proteger, é, o filho dele, porque ele se tornou pilar financeiro. Então, a partir desse momento, ele teve um dependente financeiro Eee foi quando eu me fiz presente. Eu fui até a casa dele, conversei com a esposa, fiz um complemento pra ele, fiz uma nova apólice pra esposa também, porque a partir daquele momento, ela teria uma grande responsabilidade financeira, né, que seria o novo filho E o mesmo eu farei com vocês, tá? Eu dou a minha palavra que como especialista, como um consultor, é, vou acompanhar você ao longo da sua vida, da sua trajetória. E quando esse filho nascer, nós vamos novamente nos encontrar e eu faço qualquer tipo de a-de alteração que você precisar, tá? Então meu papel é te acompanhar. Isso independe de você assinar a apólice agora, pelo contrário"
+            },
+            {
+                "role": "HUMAN",
+                "text": "Ao saber que você tá grávida, esse é o momento que você mais precisa de proteção. Então, se eu puder te sugerir, eu acredito que seria interessante você dar entrada nessa proposta hoje aqui comigo pra gente passar por uma análise, ver se você tá apta a se tornar uma, uma segurada, se você tem saúde pra se tornar uma segurada, inclusive, e estando tudo certo, a apólice vai ser emitida, claro, tá? Mas então a gente pode dar entrada na proposta agora pra análise do seu risco"
+            },
+            {
+                "role": "HUMAN",
+                "text": "Depois a gente agenda uma nova reunião, onde a gente vai se encontrar com seu marido e eu vou explicar tudo pra ele do que a gente fez aqui"
+            },
+            {
+                "role": "AI",
+                "text": "Pode, podemos agendar essa reunião com meu marido na próxima semana. Me manda algumas opções de dia e horário e eu organizo com ele."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Acho que ela não pegou o que eu falei"
+            },
+            {
+                "role": "AI",
+                "text": "Desculpe,"
+            },
+            {
+                "role": "HUMAN",
+                "text": "Vamo, quer tentar de novo? A gente tenta"
+            }
+        ],
+        "finished": false,
+        "feedback": "",
+        "insights": []
+    },
+    {
+        "name": "Juliana Pedrão",
+        "agency": "Outros",
+        "region": "Outros",
+        "date": "11/08/2026",
+        "dur": "2m 20s",
+        "score": 0,
+        "scenario": "PROSPECT_FRIO",
+        "lqa": "N/A",
+        "interactions": 12,
+        "messages": [
+            {
+                "role": "AI",
+                "text": "Achei a proposta muito interessante, mas preciso pensar melhor antes de decidir.  \nLevo o material comigo e converso com meu companheiro, depois retorno."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Perfeito, Mariana, entendi. É, mas qual que é a real dúvida? É, podemos agendar uma reunião sim com seu marido, acho que é superimportante ele entender Tudo que eu expliquei aqui pra você, né, o, ooo, a importância de ter um ativo garantidor. Mas qual que foi a real dúvida que ficou aqui da nossa reunião?"
+            },
+            {
+                "role": "AI",
+                "text": "Minha principal dúvida é só o tempo agora, com a gravidez e a rotina corrida.  \nQuero conversar com meu companheiro antes de decidir, talvez agendando uma conversa conjunta em alguns dias."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Perfeito, Mariana. Ééé, concordo, nós precisamos realmente conversar juntos Ééé, quanto tempo você tá grávida? Qual que é o-- qual-- quantos meses você tá? Semanas? Quantas semanas"
+            },
+            {
+                "role": "HUMAN",
+                "text": "Você tá grávida"
+            },
+            {
+                "role": "AI",
+                "text": "Sim, estou grávida de nove semanas.  \nPor isso quero conversar com meu companheiro antes de fechar, podemos agendar essa reunião em alguns dias?"
+            },
+            {
+                "role": "HUMAN",
+                "text": "Claro, Mariana. Ééé, olha, ééé, eu acredito queee esse é o melhor momento pra você tomar uma decisão"
+            },
+            {
+                "role": "AI",
+                "text": "Entendo seu ponto, mas"
+            },
+            {
+                "role": "HUMAN",
+                "text": "E realmente dar entrada nessa proposta. Veja bem, é, toda seguradora, ela tem, ela-ela consegue oferecer uma garantia pra pessoas como você, que estão grávidas. Só que existe um limite de semanas da gravidez e você hoje pode ter o seguro. Quando você passar de 36 semanas da gravidez, você não poderá ter mais um seguro como esse, você vai ter que esperar um período após, é, você dar luz ao filho, você vai ter que esperar um período, um prazo, pra você novamente ter a oportunidade de dar entrada numa proposta. E veja, a gente não sabe o dia de amanhã, a gente não sabe o que pode acontecer com qualquer um de nós, é, no dia de amanhã. Então, hoje pode ser que você tenha saúde e hoje você tem a possibilidade de fechar essa proposta, você pode fazer isso. De repente, amanhã você não tenha mais essa oportunidade. Então, se eu puder, é, te dar uma sugestão, por que não dar entrada nessa proposta hoje"
+            },
+            {
+                "role": "AI",
+                "text": "Agradeço a preocupação e faz sentido o que você explicou.  \nPor enquanto prefiro confirmar com meu companheiro antes de dar entrada; podemos agendar uma conversa conjunta para daqui a três dias?"
+            },
+            {
+                "role": "HUMAN",
+                "text": "Mariana, claro que a gente pode, claro que a gente pode agendar essa reunião pra daqui a três dias. Ééé, mas a questão aqui, além disso, além de ter ali o-o OK do seu ma-- do seu companheiro, existe alguma outra, alguma outra preocupação, alguma outra dúvida ou alguma outra questão que não fizesse você assinar essa proposta hoje?"
+            },
+            {
+                "role": "AI",
+                "text": "Além do ok do meu companheiro, minha principal preocupação é entender como fica a cobertura se eu tiver um parto prematuro.  \nSe você puder esclarecer isso brevemente, eu já levo o ponto para a conversa com ele."
+            }
+        ],
+        "finished": false,
+        "feedback": "",
+        "insights": []
     },
     {
         "name": "Juliana Pedrão",
@@ -11361,6 +11573,352 @@ const RAW_SIMULATIONS = [
             "Mensagem de valor inicial.",
             "Faltou uma saudação clara e um reconhecimento explícito pela decisão do cliente antes do pedido de recomendações — um “momento uau” faria diferença."
         ]
+    },
+    {
+        "name": "Parceira Ark",
+        "agency": "Outros",
+        "region": "Outros",
+        "date": "11/08/2026",
+        "dur": "0m 3s",
+        "score": 0,
+        "scenario": "RECOMENDACOES",
+        "lqa": "N/A",
+        "interactions": 1,
+        "messages": [
+            {
+                "role": "HUMAN",
+                "text": "Olá Fernanda, que que você achou da nossa reunião?"
+            }
+        ],
+        "finished": false,
+        "feedback": "",
+        "insights": []
+    },
+    {
+        "name": "Parceira Ark",
+        "agency": "Outros",
+        "region": "Outros",
+        "date": "11/08/2026",
+        "dur": "2m 19s",
+        "score": 45,
+        "scenario": "RECOMENDACOES",
+        "lqa": "N/A",
+        "interactions": 21,
+        "messages": [
+            {
+                "role": "HUMAN",
+                "text": "Excelente, Fernanda. Agora eu vou te explicar como funcionam os próximos passos, tá bem? Até aqui ficou alguma dúvida?"
+            },
+            {
+                "role": "AI",
+                "text": "Está tudo claro por enquanto. Só quero confirmar como e quando vocês vão me enviar os comprovantes finais."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Correto. O que que nós vamos fazer agora? Agora eu vou mon-- subir a sua ficha de saúde, onde a MetLife vai poder analisar a sua saúde e os seus hábitos de vida. Após feito essa análise, é que o seu seguro passa a ser vigente. Tudo bem?"
+            },
+            {
+                "role": "AI",
+                "text": "Tudo bem, pode subir a ficha. Só confirma se eu preciso anexar algum exame ou só responder ao formulário online."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Perfeito. Ééé, neste momento não é necessário nenhum exame. Primeiro vai pra análise. Caso for necessário, a seguradora entenda que seja necessário subir algum exame, eles vão me acionar e eu te solicito esses exames, tá bem? Mas por enquanto é somente essa ficha mesmo"
+            },
+            {
+                "role": "AI",
+                "text": "Beleza, pode seguir então. Me avisa se precisarem de algo mais da minha parte."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Correto. Agora me fala o que que você achou da apresentação numa escala de zero a 10, que nota você daria pra essa apresentação e pras soluções que foram te apresentada?"
+            },
+            {
+                "role": "AI",
+                "text": "Dou nota oito para a apresentação e para as soluções. Achei claro, objetivo e com boas opções,"
+            },
+            {
+                "role": "HUMAN",
+                "text": "[ruído]"
+            },
+            {
+                "role": "HUMAN",
+                "text": "Muito legal! E assim como a Renata lembrou de você, quem que você entende que seja importante também conhecer essas soluções? Alguém que você ame e que você pense que seja importante conhecer"
+            },
+            {
+                "role": "AI",
+                "text": "Olha, no momento prefiro não dar nomes direto. Acho cedo pra expor meus contatos sem avisar antes."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Não tem problema algum, tá? Cê pode me falar algum nome que vem à sua cabeça, algum amigo, algum colega de trabalho assim como você, que seja importante. É só me falar o nome mesmo"
+            },
+            {
+                "role": "AI",
+                "text": "Prefiro não dar nome agora. Posso pensar e te falar depois por mensagem."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Com certeza, mas assim, é, se você me passa agora o nome, já fica mais fácil, porque a gente sabe que a vida é bem corrida e depois isso acaba não sendo uma prioridade e você acaba tirando a oportunidade de outra pessoa conhecer essa oportunidade que nem você fez, que nem a Renata fez com você, na verdade, né? Me fala quem que você acha que, do seu colega de trabalho, que é legal conhecer"
+            },
+            {
+                "role": "AI",
+                "text": "Eu entendo a pressa, mas prefiro não dar nome agora. Posso pensar e te enviar uma pessoa por mensagem mais tarde."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Pode, com certeza, sem problema algum. Vamo fazer o seguinte? Você me passa o nome então pra pes-- hã, mais tarde, o nome da pessoa eee, e já avisa ela que eu entro em contato, tudo bem?"
+            },
+            {
+                "role": "AI",
+                "text": "Posso sim, mas aviso só quando eu tiver combinado com a pessoa antes, pra não pegá-la de surpresa."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Sem problema. De qualquer forma, eu só entro em contato com a pessoa após você me autorizar, tá? Mas não tem problema, você pode me passar depois. Eu agradeço e assim que a Match Life então entrar em contato, eu te aciono pra te falar qual foi o posicionamento da seguradora. Fico no aguardo então do contato, tá bem?"
+            },
+            {
+                "role": "AI",
+                "text": "Perfeito. Fico aguardando seu retorno sobre a análise. Me aviso se precisarem de algo mais."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Obrigada e parabéns pela sua escolha mais uma vez, viu? Com certeza, proteger a família e proteger principalmente você e o seu patrimônio vai ser a melhor solução que você já fez na vida. Até breve."
+            },
+            {
+                "role": "AI",
+                "text": "Obrigada, Fernanda. Foi bom falar com você. Até mais."
+            }
+        ],
+        "finished": true,
+        "feedback": "Aqui está o debriefing da nossa conversa.\n\n  \n##  🤓 PERSONA\n\n  \nVocê conversou com Camila, executiva de tecnologia, perfil DISC majoritariamente amarelo, curiosa, conectada, valorizando experiência digital e clareza.\n\n  \n## 🎯 OBJETIVO PRINCIPAL\n\n  \nConverter uma cliente satisfeita em promotora ativa, obtendo pelo menos dois nomes recomendados com permissão para mencionar o nome dela no contato.\n\nO objetivo não foi atingido; não houve recomendações claras, apenas um compromisso genérico e futuro.\n\n  \n## ➕ Pontos fortes\n\n  \n- Você iniciou reconhecendo a escolha da cliente e manteve um tom cordial ao longo da conversa.\n\n  \n- Explicou de forma clara e didática os próximos passos do processo de seguro, transmitindo segurança.\n\n  \n- Demonstrou flexibilidade ao aceitar o envio dos nomes para recomendações posteriormente, o que evita pressão.\n\n  \nÓtima condução do relacionamento até aqui, sinalizando empatia e respeito!\n\n  \n## ⚠️ EIXOS DE MELHORIA\n\n  \n- Faltou pedir explicitamente que a cliente compartilhasse, com suas próprias palavras, o que valorizou na sua apresentação. Isso poderia gerar mais envolvimento.\n\n  \n- O pedido de recomendações foi feito de maneira um pouco ampla. Frases como “quem vem à sua cabeça” podem bloquear o raciocínio; seria mais eficaz sugerir perfis específicos.\n\n  \n- Não ficou claro se você pediu permissão para mencionar o nome da cliente no contato com os indicados. Explique que só fará isso com autorização explícita.\n\n  \n- Ao aceitar que a cliente envie nomes depois, perdeu o “momento quente” pós-venda. Com pequenas reformulações, você pode obter respostas imediatas.\n\n  \nCom ajustes simples, você tem tudo para avançar muito nesse modelo de abordagem!\n\n  \n## 🩵 ANÁLISE EMOCIONAL\n\n  \nO tom foi amistoso, mas em alguns momentos ficou levemente ansioso. O vocabulário foi acessível, e o ritmo natural. O estado emocional dominante foi cordial e proativo.\n\n  \n## 🛅 MOMENTOS-CHAVE\n\n  \nSituação: Solicitação de feedback sobre a apresentação.\n\nVocê perguntou sobre a avaliação da cliente – abre espaço para escuta ativa e pode fortalecer a relação.\n\nSituação: Flexibilidade ao permitir envio futuro.\n\nVocê aceitou que a cliente passe nomes depois – isso pode suavizar a pressão, mas reduz as chances de resposta imediata.\n\n  \n##  🔊 REFORMULAÇÕES RECOMENDADAS\n\n  \n“Você poderia me contar o que mais gostou nessa solução?”\n\n“Entre seus colegas de trabalho, alguém passou recentemente por mudanças importantes?”\n\n“Meu contato com seus amigos será sempre com respeito e só vou mencionar seu nome se você concordar — posso fazer isso?”\n\n“Agradeço sua confiança e quero garantir que seus próximos tenham acesso à mesma orientação qualificada.”\n\n  \n## ➡️ RECOMENDAÇÕES\n\n  \nInvista no detalhamento dos pedidos: sempre peça exemplos de perfis e use perguntas fechadas para estimular a memória do cliente. Busque obter pelo menos um nome no calor do momento. Não esqueça de pedir sempre a autorização de menção. \n\nCom pequenos ajustes, seu índice de recomendações vai decolar!",
+        "insights": [
+            "Você iniciou reconhecendo a escolha da cliente e manteve um tom cordial ao longo da conversa.",
+            "Explicou de forma clara e didática os próximos passos do processo de seguro, transmitindo segurança.",
+            "Demonstrou flexibilidade ao aceitar o envio dos nomes para recomendações posteriormente, o que evita pressão.",
+            "Faltou pedir explicitamente que a cliente compartilhasse, com suas próprias palavras, o que valorizou na sua apresentação. Isso poderia gerar mais envolvimento.",
+            "O pedido de recomendações foi feito de maneira um pouco ampla. Frases como “quem vem à sua cabeça” podem bloquear o raciocínio; seria mais eficaz sugerir perfis específicos.",
+            "Não ficou claro se você pediu permissão para mencionar o nome da cliente no contato com os indicados. Explique que só fará isso com autorização explícita.",
+            "Ao aceitar que a cliente envie nomes depois, perdeu o “momento quente” pós-venda. Com pequenas reformulações, você pode obter respostas imediatas.",
+            "Situação: Solicitação de feedback sobre a apresentação."
+        ]
+    },
+    {
+        "name": "Parceira Ark",
+        "agency": "Outros",
+        "region": "Outros",
+        "date": "11/08/2026",
+        "dur": "0m 2s",
+        "score": 0,
+        "scenario": "RECOMENDACOES",
+        "lqa": "N/A",
+        "interactions": 1,
+        "messages": [
+            {
+                "role": "HUMAN",
+                "text": "Olá, tudo bem? Ó, agora, não"
+            }
+        ],
+        "finished": false,
+        "feedback": "",
+        "insights": []
+    },
+    {
+        "name": "Parceira Ark",
+        "agency": "Outros",
+        "region": "Outros",
+        "date": "11/08/2026",
+        "dur": "2m 42s",
+        "score": 41,
+        "scenario": "RECOMENDACOES",
+        "lqa": "N/A",
+        "interactions": 22,
+        "messages": [
+            {
+                "role": "HUMAN",
+                "text": "Perfeito! Só fala pra mim quem que você indica do seu ciclo profissional, só me fala o nome da pessoa"
+            },
+            {
+                "role": "HUMAN",
+                "text": "Então Larissa, até aqui você ficou com alguma dúvida?"
+            },
+            {
+                "role": "AI",
+                "text": "Sem dúvidas por enquanto, Larissa. O que me ficou claro foi a proposta e o próximo passo."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Perfeito. Entãooo, é, o que que nós vamos fazer agora, tá? Agora nós vamos preencher a sua ficha de saúde, colocar em análise e assim que a seguradora me der um retorno, eu te notifico caso precisar de algum documento ou algum exame, tudo bem?"
+            },
+            {
+                "role": "AI",
+                "text": "Tudo bem, Larissa. Pode seguir com a ficha de saúde e me avise se precisarem de algo."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Tá bem. Ééé, me fala o que você achou da apresentação, que nota de zero a 10 você co-- você daria pra essa apresentação?"
+            },
+            {
+                "role": "AI",
+                "text": "Eu daria nota oito. A apresentação foi clara e bem estruturada, só achei a fala um pouco acelerada em pontos."
+            },
+            {
+                "role": "HUMAN",
+                "text": "[riso] Peço desculpas pela aceleração na fala, eu sou mesmo um pouco ansiosa às vezes, viu? Mas que bom que você gostou, se ficou tudo muito claro. A minha intenção é que não fique nenhuma dúvida com relação às proteções, à proposta que lhe foi apresentada. Isso ficou tudo muito claro pra você?"
+            },
+            {
+                "role": "AI",
+                "text": "Sim, ficou claro. Pode seguir com a ficha e me avise caso precisem de algo adicional."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Muito bom. Larissa, deixa eu te falar assim como a Renata fez com você, que ela me apresentou você, que Quem que você, é, pensa em me apresentar nesse momento? Alguém que você goste, que seja profissional independente assim como você, que precise trabalhar pra gerar renda, ou cabeleireiro, um dentista, quem que você pensa"
+            },
+            {
+                "role": "AI",
+                "text": "Olha, prefiro não dar nomes agora. Acho cedo para envolver meus contatos sem ver como isso evolui."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Ah, supernormal, viu, Renata? Mas é importante, é porque como eu te falei no início da, da apresentação, não tem como outras pessoas conhecerem esse trabalho. Você gostou desse trabalho? Ele foi importante pra você?"
+            },
+            {
+                "role": "AI",
+                "text": "Foi útil sim, tirou várias dúvidas importantes sobre coberturas e prazos.  \nAinda prefiro esperar um pouco antes de indicar alguém, mas agradeço o cuidado na apresentação."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Sim, eu entendo. Ééé, mas você não pensa em ninguém que você ama e que você queira proteger, assim como você tá fazendo com você? De repente, seu irmão, sua mãe, uma irmã Alguém que você pense que, que seria importante?"
+            },
+            {
+                "role": "AI",
+                "text": "Entendo a intenção, mas prefiro não envolver familiares agora.  \nSe você quiser, posso pensar em uma pessoa do meu círculo profissional e te falo mais tarde por mensagem."
+            },
+            {
+                "role": "AI",
+                "text": "Prefiro não dar nome agora. Posso pensar com calma e te falo por mensagem mais tarde."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Certo, e ó, eu super entendo que você queira falar mais tarde, mas a gente sabe que a, você é beeem, ééé, beeem ocupada, né? E com certeza eu-- você vai, vai acabar passando, cê vai deixar. Vamo, vamo já passar agora e eu me comprometo com você, tá? Seee-- eu só vou fazer contato quando você falar pra mim: \"Aline, olha, já conversei, pode falar\". Se não, eu não falo, tá? Eu me comprometo com você, pode confiar"
+            },
+            {
+                "role": "AI",
+                "text": "Escuta, eu agradeço a disponibilidade, mas prefiro manter isso por minha conta agora.  \nSe eu decidir, eu te aviso por mensagem quando estiver pronta para autorizar o contato."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Perfeito, superentendo. Ééé, vamos fazer o seguinte? Ééé, só passa o nome da pessoa, cê não precisa me passar o contato agora, me passa o nome e me fala um pouquinho sobre ela e quando você me passar o contato eu falo com ela, o que que você acha?"
+            },
+            {
+                "role": "AI",
+                "text": "Não vou passar nome agora. Posso pensar com calma e te mando uma mensagem quando autorizar."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Tá bem então. Então vamo fazer assim? Quando eu voltar com você, aí você me passa o nome, tá bom? Eu vou ficar aguardando e qualquer coisa eu te mando uma mensagem lembrando então. Ó, bom final de semana pra você, vai ser um excelente, ééé, proposta e parabéns por você ter tomado essa decisão. Tenho certeza que você não vai se arrepender"
+            },
+            {
+                "role": "AI",
+                "text": "Tudo bem, Larissa. Fica à vontade para me lembrar por mensagem. Tenha um bom final de semana."
+            }
+        ],
+        "finished": true,
+        "feedback": "Aqui está o debriefing da nossa conversa.\n\n  \n## 🤓 PERSONA\n\n  \n- Interpretei Larissa, profissional independente, perfil dominante azul (DISC), metódica, racional, valoriza confiabilidade.\n  \n\n## 🎯 OBJETIVO PRINCIPAL\n\n  \n- Converter cliente satisfeita em promotora com ao menos duas recomendações qualificadas e autorização para contato.\n  \n- O objetivo não foi atingido.\n  \n\n  \n## ➕ Pontos fortes\n\n  \n- Reconhecimento do momento pós-venda: você valorizou a satisfação de Larissa antes de iniciar o pedido.\n  \n- Tentativa de identificação do valor percebido: perguntou sobre o que achou da apresentação.\n  \n- Explicou a importância das recomendações e segmentou perfis, citando exemplos concretos.\n  \n- Demonstrou empatia ao reconhecer a rotina agitada da cliente e disposição para adaptar o processo.\n  \n- Parabenizou a cliente pela decisão ao final, gerando boa impressão.\n  \nContinue explorando a empatia e criando um ambiente acolhedor!\n  \n\n## ⚠️ EIXOS DE MELHORIA\n\n  \n- Ausência de agradecimento formal antes do pedido: faltou explicitamente parabenizar e valorizar a escolha da cliente no início.\n  \n\n- Pedido de nomes feito de maneira rápida e repetitiva, sem tempo para a cliente expressar em detalhes os benefícios percebidos.\n  \n\n- Faltou pedir autorização explícita para mencionar o nome da cliente ao contatar os indicados.\n  \n\n- Perguntas feitas em sequência (“só fala pra mim quem”, “passa o nome”, “me fala um pouquinho”), transmitindo leve sensação de pressão e ansiedade.\n  \n\nFoque em dar mais espaço ao cliente e conduzir com mais naturalidade a autorização e o contato das recomendações.\n  \n\n## 🩵 ANÁLISE EMOCIONAL\n\n  \nO tom usado foi simpático, porém acelerado e ansioso, com vocabulário repetitivo e hesitações. O estado emocional dominante foi impaciente, mesmo que amistoso e gentil.\n  \n\n## 🛅 MOMENTOS-CHAVE\n\n  \nMomento em que pediste indicações logo após a satisfação da cliente: não houve tempo para absorver o resultado, o que prejudicou a fluidez.\n  \nSeu compromisso de respeitar o tempo da cliente antes do contato com um indicado: importante para gerar confiança, mas poderia ser enfatizado com mais sutileza.\n  \n\n## 🔊 REFORMULAÇÕES RECOMENDADAS\n\n  \n“Larissa, parabéns pela decisão! Fico muito feliz por confiar no meu trabalho.”\n  \n“Posso contar com sua indicação para alguém que, como você, valorize proteção e segurança?”\n  \n“Se preferir, só menciono seu nome quando você me autorizar, combinado?”\n  \n“Você poderia compartilhar o que mais gostou desse processo para que eu possa apresentar com ainda mais clareza aos seus indicados?”\n  \n\n## ➡️ RECOMENDAÇÕES\n\n  \nComece sempre parabenizando calorosamente e reconhecendo a importância da escolha. Peça exemplos do que agradou antes do pedido, segmente perfis e proponha um ritmo mais pausado. Solicite licença para citar o nome, garantindo confiança. Pratique e verá o retorno positivo das recomendações!\n\nVocê já está no caminho certo: agora, é só desacelerar um pouco e caprichar no pedido!",
+        "insights": [
+            "Interpretei Larissa, profissional independente, perfil dominante azul (DISC), metódica, racional, valoriza confiabilidade.",
+            "Converter cliente satisfeita em promotora com ao menos duas recomendações qualificadas e autorização para contato.",
+            "O objetivo não foi atingido.",
+            "Reconhecimento do momento pós-venda: você valorizou a satisfação de Larissa antes de iniciar o pedido.",
+            "Tentativa de identificação do valor percebido: perguntou sobre o que achou da apresentação.",
+            "Explicou a importância das recomendações e segmentou perfis, citando exemplos concretos.",
+            "Demonstrou empatia ao reconhecer a rotina agitada da cliente e disposição para adaptar o processo.",
+            "Parabenizou a cliente pela decisão ao final, gerando boa impressão."
+        ]
+    },
+    {
+        "name": "Parceira Ark",
+        "agency": "Outros",
+        "region": "Outros",
+        "date": "11/08/2026",
+        "dur": "0m 17s",
+        "score": 0,
+        "scenario": "RECOMENDACOES",
+        "lqa": "N/A",
+        "interactions": 5,
+        "messages": [
+            {
+                "role": "HUMAN",
+                "text": "Ó, olááá, é, vamos lá. E ficou com alguma dúvida até aquiii?"
+            },
+            {
+                "role": "AI",
+                "text": "Sem dúvida alguma. Só quero confirmar"
+            },
+            {
+                "role": "HUMAN",
+                "text": "Sim"
+            },
+            {
+                "role": "AI",
+                "text": "Ótimo. Você pode aproveitar e, se achar pertinente, pedir indicação a uma pessoa do meu círculo profissional. Quero entender como você pretende abordar esse primeiro contato."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Perfeito, vamos lá. É, é, é até importante você mencionar, porque como eu mencionei lá no início da nossa conversa, não existe a possibilidade das pessoas conhecerem esse trabalho sem, ééé, é"
+            }
+        ],
+        "finished": false,
+        "feedback": "",
+        "insights": []
+    },
+    {
+        "name": "Parceira Ark",
+        "agency": "Outros",
+        "region": "Outros",
+        "date": "11/08/2026",
+        "dur": "0m 48s",
+        "score": 0,
+        "scenario": "RECOMENDACOES",
+        "lqa": "N/A",
+        "interactions": 8,
+        "messages": [
+            {
+                "role": "HUMAN",
+                "text": "Vamos lá, Patrícia, até aqui ficou com alguma dúvida? Podemos seguir com os próximos passos?"
+            },
+            {
+                "role": "AI",
+                "text": "Sem dúvida, não ficou dúvida relevante. Podemos seguir com os próximos passos."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Muito bem, primeiramente eu gostaria de parabenizá-la pela decisão em seguir com a sua proposta. Tenho certeza que você nunca irá se arrepender e que as proteções vão fazer muito sentido caso você precise. E assim como você, eu gostaria de saber quem você pensa que faria sentido, é, também conhecer essa ferramenta, né, é, pra que po-- tenha a oportunidade. Eu me comprometo que assim como você gostou, outras pessoas também tenham a possibilidade de gostar e eu até peço permissão pra usar o seu nome, caso você me permitir referenciar."
+            },
+            {
+                "role": "AI",
+                "text": "Agradeço a confiança e parabenizo a postura respeitosa. Antes de autorizar, eu preciso saber que você só fará o primeiro contato após meu sinal, e que apresentará a proposta como uma consultoria gratuita, sem pressão. Se for assim, você pode mencionar meu nome no primeiro contato."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Oi?"
+            },
+            {
+                "role": "AI",
+                "text": "Oi. Você"
+            },
+            {
+                "role": "HUMAN",
+                "text": "Olá, boa tarde, tudo bem, Adriele? Tudo bem e você? Desculpa lá, por atraso"
+            },
+            {
+                "role": "AI",
+                "text": "Tudo bem, Adriele. Sem problemas pelo atraso. Pode me dizer como você pretende abordar o primeiro contato, de forma bem objetiva e curta?"
+            }
+        ],
+        "finished": false,
+        "feedback": "",
+        "insights": []
     },
     {
         "name": "Parceira Ark",
