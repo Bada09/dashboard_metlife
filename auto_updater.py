@@ -5,8 +5,8 @@ Robô de Atualização Automática do Dashboard MetLife
 --------------------------------------------------
 Executa diariamente para:
 1. Detectar o dump JSON mais recente (no diretório do projeto ou no Desktop).
-2. Processar simulações, usuários, métricas e competências.
-3. Atualizar os arquivos metlife_users_data.js e metlife_simulations_data.js.
+2. Processar simulações, usuários, métricas, análises comportamentais e competências.
+3. Atualizar os arquivos metlife_users_data.js e metlife_simulations_data.js com insights atualizados.
 4. Atualizar o selo de data e versão de cache no index.html.
 5. Fazer commit e push automático para o repositório GitHub.
 """
@@ -93,7 +93,6 @@ def parse_dump_date(filename):
         dt = datetime(int(year), int(mon), int(day), int(hr), int(mn))
         return date_br, time_str, dt
     
-    # Fallback para timestamp de modificação do arquivo
     mtime = os.path.getmtime(filename)
     dt = datetime.fromtimestamp(mtime)
     return dt.strftime("%d/%m/%Y"), dt.strftime("%H:%M"), dt
@@ -123,7 +122,6 @@ def find_latest_dump():
     candidates.sort(key=lambda x: x[0], reverse=True)
     latest_file = candidates[0][1]
     
-    # Se o arquivo estiver no Desktop fora da pasta do projeto, copia para dentro da pasta
     target_in_base = os.path.join(BASE_DIR, os.path.basename(latest_file))
     if os.path.normpath(latest_file) != os.path.normpath(target_in_base):
         try:
@@ -152,24 +150,31 @@ def dur_ms_to_str(ms):
     return f"{total_s // 60}m {total_s % 60}s"
 
 def extract_insights_from_feedback(feedback_text):
+    """Extrai pontos de atenção, fortalezas e observações comportamentais do feedback da IA."""
     if not feedback_text:
         return []
     lines = [l.strip() for l in feedback_text.split("\n") if l.strip()]
     bullets = []
-    header_re = re.compile(r"^[^\w\s]{1,3}\s*[A-Z]")
     for line in lines:
-        if header_re.match(line) or len(line) < 20:
+        clean = re.sub(r"^[-•*]\s*", "", line)
+        clean = re.sub(r"^\d+[\.\)]\s*", "", clean)
+        clean = re.sub(r"^\*\*(.*?)\*\*", r"\1", clean).strip()
+        
+        # Ignorar títulos genéricos
+        if len(clean) < 20 or re.match(r"^[^\w\s]{1,3}\s*[A-Z\s]{4,}$", line):
             continue
-        if line.startswith("**") and line.endswith("**"):
-            bullets.append(line)
-        elif line.startswith("-") or line.startswith("•"):
-            bullets.append(line.lstrip("-•").strip())
-        elif re.match(r"^\d+[\.\)]\s", line):
-            bullets.append(re.sub(r"^\d+[\.\)]\s", "", line))
+            
+        if line.startswith("-") or line.startswith("•") or line.startswith("*") or re.match(r"^\d+[\.\)]", line) or line.startswith("**"):
+            bullets.append(clean)
+        elif "—" in line or "-" in line or ":" in line:
+            if len(clean) > 30 and not line.isupper():
+                bullets.append(clean)
+                
     if not bullets:
-        sentences = re.split(r"(?<=[.!?])\s+", feedback_text)
-        bullets = [s.strip() for s in sentences[:4] if len(s.strip()) > 20]
-    return bullets[:6]
+        sentences = [s.strip() for s in re.split(r"(?<=[.!?])\s+", feedback_text) if len(s.strip()) > 25]
+        bullets = sentences[:6]
+        
+    return bullets[:8]
 
 def score_skills_from_feedback(feedback_text, base_score):
     skills = {"Escuta": 0, "Personalizacao": 0, "Empatia": 0, "Crises": 0, "Padroes": 0}
@@ -177,7 +182,7 @@ def score_skills_from_feedback(feedback_text, base_score):
         return skills
     text_lower = (feedback_text or "").lower()
     def rm_acc(s):
-        return ''.join(c for c in unicodedata.normalize('NFD', s) if unicodedata.category(c) != 'Mn')
+        return "".join(c for c in unicodedata.normalize("NFD", s) if unicodedata.category(c) != "Mn")
     text_lower = rm_acc(text_lower)
     rng = random.Random(hash(feedback_text[:50]))
     for skill, keywords in SKILL_KEYWORDS.items():
@@ -203,7 +208,7 @@ def process_dump_file(dump_path):
         last = user.get("lastName", "") or ""
         name = (first + " " + last).strip()
         if not name:
-            continue
+            name = "Usuário Desconhecido"
 
         agency, region = "Outros", "Outros"
         locale = (user.get("locale") or "PT").upper()
@@ -211,9 +216,9 @@ def process_dump_file(dump_path):
         durations_ms = []
         sim_dates = []
         skills_acc = defaultdict(list)
-        insights_list = []
         lqa_scores = []
 
+        # Ordenar conversas por data para priorizar análises recentes
         for conv_entry in conversations:
             inner = conv_entry.get("conversation", {})
             eval_d = inner.get("evaluation")
@@ -245,6 +250,7 @@ def process_dump_file(dump_path):
                 if text:
                     msgs_fmt.append({"role": role, "text": text})
 
+            sim_insights = extract_insights_from_feedback(feedback)
             sim_record = {
                 "name": name,
                 "agency": agency,
@@ -256,7 +262,9 @@ def process_dump_file(dump_path):
                 "lqa": lqa,
                 "interactions": len(msgs_fmt),
                 "messages": msgs_fmt,
-                "finished": finished
+                "finished": finished,
+                "feedback": feedback,
+                "insights": sim_insights
             }
             all_simulations.append(sim_record)
 
@@ -267,12 +275,28 @@ def process_dump_file(dump_path):
                 skills_partial = score_skills_from_feedback(feedback, score)
                 for sk, val in skills_partial.items():
                     skills_acc[sk].append(val)
-                if not insights_list:
-                    bullets = extract_insights_from_feedback(feedback)
-                    if bullets:
-                        insights_list = bullets
             if user_dur_ms > 0:
                 durations_ms.append(user_dur_ms)
+
+        # Agregar análises mais recentes do usuário
+        user_insights = []
+        for conv_entry in reversed(conversations):
+            inner = conv_entry.get("conversation", {})
+            eval_d = inner.get("evaluation")
+            if eval_d and eval_d.get("feedback"):
+                fb = eval_d.get("feedback")
+                b_list = extract_insights_from_feedback(fb)
+                for b in b_list:
+                    if b not in user_insights:
+                        user_insights.append(b)
+                if len(user_insights) >= 8:
+                    break
+
+        if not user_insights:
+            user_insights = [
+                "Usuário ainda não possui simulações avaliadas recentemente.",
+                "Incentive a realizar simulações para gerar análise comportamental detalhada."
+            ]
 
         avg_score = round(sum(scores) / len(scores), 1) if scores else 0.0
         avg_dur_ms = sum(durations_ms) / len(durations_ms) if durations_ms else 0
@@ -288,20 +312,14 @@ def process_dump_file(dump_path):
 
         languages = [locale] if locale else ["PT"]
 
-        if not insights_list:
-            insights_list = [
-                "Usuario ainda nao possui simulacoes avaliadas.",
-                "Incentive a realizar simulacoes para gerar analise detalhada."
-            ]
-
         user_rec = {
             "avgDurSec": avg_dur_sec_r,
             "avgScore": avg_score,
             "skills": skills_avg,
             "count": len(conversations),
             "insights": {
-                "pt": insights_list,
-                "fr": insights_list
+                "pt": user_insights,
+                "fr": user_insights
             },
             "name": name,
             "agency": agency,
@@ -323,7 +341,9 @@ def process_dump_file(dump_path):
         json.dump(user_records, f, ensure_ascii=False, indent=4)
         f.write(";\n")
 
+    date_br, _, _ = parse_dump_date(dump_path)
     with open(SIMS_OUT, "w", encoding="utf-8") as f:
+        f.write(f'const LATEST_DUMP_DATE = "{date_br}";\n')
         f.write("const RAW_SIMULATIONS = ")
         json.dump(all_simulations, f, ensure_ascii=False, indent=4)
         f.write(";\n")
@@ -336,7 +356,6 @@ def update_index_html(date_br, time_str):
     with open(INDEX_HTML, "r", encoding="utf-8") as f:
         content = f.read()
 
-    # 1. Bump version query string (?v=X -> ?v=X+1)
     def bump_ver(m):
         prefix = m.group(1)
         ver = int(m.group(2)) + 1
@@ -345,7 +364,6 @@ def update_index_html(date_br, time_str):
     content = re.sub(r'(src="metlife_users_data\.js)\?v=(\d+)"', bump_ver, content)
     content = re.sub(r'(src="metlife_simulations_data\.js)\?v=(\d+)"', bump_ver, content)
 
-    # 2. Atualiza textos de última atualização
     pt_str = f'lastUpdate: "Última atualização: {date_br} - {time_str}",'
     fr_time = time_str.replace(":", "h")
     fr_str = f'lastUpdate: "Mise à jour : {date_br} - {fr_time}",'
@@ -363,7 +381,6 @@ def git_commit_and_push(dump_filename):
     """Comita e envia as alterações para o GitHub."""
     os.chdir(BASE_DIR)
     try:
-        # Verificar se há alterações
         status = subprocess.check_output(["git", "status", "--porcelain"], text=True)
         if not status.strip():
             log("Nenhuma alteração detectada para commit no Git.")
@@ -394,7 +411,7 @@ def main():
     date_br, time_str, dt = parse_dump_date(latest_dump)
     log(f"Dump mais recente identificado: {os.path.basename(latest_dump)} ({date_br} {time_str})")
 
-    # Processar dados
+    # Processar dados com análises atualizadas
     process_dump_file(latest_dump)
 
     # Atualizar HTML
