@@ -1,15 +1,15 @@
 const users = [
     {
-        "avgDurSec": 36,
-        "avgScore": 70.5,
+        "avgDurSec": 44,
+        "avgScore": 68.8,
         "skills": {
-            "Escuta": 80.2,
-            "Personalizacao": 66.0,
-            "Empatia": 79.2,
-            "Crises": 73.2,
-            "Padroes": 69.0
+            "Escuta": 71.8,
+            "Personalizacao": 63.8,
+            "Empatia": 71.2,
+            "Crises": 75.8,
+            "Padroes": 78.8
         },
-        "count": 19,
+        "count": 26,
         "insights": {
             "pt": [
                 "Interpretei André, médico clínico geral, perfil DISC vermelho (direto, exigente), com objeção principal de adiamento para pensar melhor.",
@@ -44,6 +44,8 @@ const users = [
             "fr": "Continuer a pratiquer et travailler les points d amelioration identifies."
         },
         "dates": [
+            "13/08/2026",
+            "13/08/2026",
             "19/06/2026",
             "19/06/2026",
             "19/06/2026",
@@ -54,6 +56,9 @@ const users = [
             "11/08/2026",
             "11/08/2026",
             "11/08/2026",
+            "13/08/2026",
+            "13/08/2026",
+            "12/08/2026",
             "04/08/2026",
             "04/08/2026",
             "04/08/2026",
@@ -62,7 +67,9 @@ const users = [
             "04/08/2026",
             "04/08/2026",
             "05/08/2026",
-            "05/08/2026"
+            "05/08/2026",
+            "13/08/2026",
+            "12/08/2026"
         ],
         "avgDurMin": 2
     },
@@ -105,11 +112,11 @@ const users = [
         "avgDurSec": 17,
         "avgScore": 49.7,
         "skills": {
-            "Escuta": 55.1,
-            "Personalizacao": 56.4,
-            "Empatia": 51.6,
-            "Crises": 54.4,
-            "Padroes": 49.6
+            "Escuta": 61.1,
+            "Personalizacao": 63.2,
+            "Empatia": 51.8,
+            "Crises": 51.1,
+            "Padroes": 50.7
         },
         "count": 23,
         "insights": {
@@ -177,10 +184,10 @@ const users = [
         "avgScore": 63.7,
         "skills": {
             "Escuta": 67.3,
-            "Personalizacao": 83.3,
-            "Empatia": 59.7,
-            "Crises": 58.0,
-            "Padroes": 62.7
+            "Personalizacao": 80.7,
+            "Empatia": 79.0,
+            "Crises": 66.0,
+            "Padroes": 69.7
         },
         "count": 8,
         "insights": {
@@ -232,11 +239,11 @@ const users = [
         "avgDurSec": 56,
         "avgScore": 57.0,
         "skills": {
-            "Escuta": 61.0,
-            "Personalizacao": 59.5,
-            "Empatia": 63.5,
-            "Crises": 67.5,
-            "Padroes": 52.0
+            "Escuta": 71.5,
+            "Personalizacao": 68.5,
+            "Empatia": 57.0,
+            "Crises": 59.0,
+            "Padroes": 56.0
         },
         "count": 14,
         "insights": {
@@ -294,11 +301,11 @@ const users = [
         "avgDurSec": 26,
         "avgScore": 54.1,
         "skills": {
-            "Escuta": 66.5,
-            "Personalizacao": 57.8,
-            "Empatia": 62.5,
-            "Crises": 59.0,
-            "Padroes": 46.9
+            "Escuta": 63.6,
+            "Personalizacao": 65.1,
+            "Empatia": 64.0,
+            "Crises": 56.9,
+            "Padroes": 53.4
         },
         "count": 16,
         "insights": {
@@ -425,16 +432,16 @@ const users = [
         "avgDurMin": 0
     },
     {
-        "avgDurSec": 7,
+        "avgDurSec": 8,
         "avgScore": 74.5,
         "skills": {
-            "Escuta": 77.0,
-            "Personalizacao": 82.2,
-            "Empatia": 79.0,
-            "Crises": 77.2,
-            "Padroes": 76.0
+            "Escuta": 80.2,
+            "Personalizacao": 87.5,
+            "Empatia": 78.5,
+            "Crises": 74.0,
+            "Padroes": 77.8
         },
-        "count": 5,
+        "count": 6,
         "insights": {
             "pt": [
                 "Você validou logo de início o pedido do prospect e explicou com clareza que materiais genéricos não agregariam valor, reforçando a necessidade de personalização.",
@@ -469,6 +476,7 @@ const users = [
             "fr": "Continuer a pratiquer et travailler les points d amelioration identifies."
         },
         "dates": [
+            "13/08/2026",
             "11/07/2026",
             "11/07/2026",
             "11/07/2026",
@@ -481,11 +489,11 @@ const users = [
         "avgDurSec": 6,
         "avgScore": 38.1,
         "skills": {
-            "Escuta": 43.3,
-            "Personalizacao": 49.9,
-            "Empatia": 41.1,
-            "Crises": 39.4,
-            "Padroes": 44.1
+            "Escuta": 44.4,
+            "Personalizacao": 40.7,
+            "Empatia": 32.3,
+            "Crises": 41.6,
+            "Padroes": 36.6
         },
         "count": 18,
         "insights": {
@@ -547,11 +555,11 @@ const users = [
         "avgDurSec": 5,
         "avgScore": 56.0,
         "skills": {
-            "Escuta": 61.0,
-            "Personalizacao": 70.0,
-            "Empatia": 60.0,
-            "Crises": 53.0,
-            "Padroes": 65.0
+            "Escuta": 67.5,
+            "Personalizacao": 69.0,
+            "Empatia": 61.0,
+            "Crises": 56.0,
+            "Padroes": 62.0
         },
         "count": 3,
         "insights": {
@@ -674,11 +682,11 @@ const users = [
         "avgDurSec": 14,
         "avgScore": 66.2,
         "skills": {
-            "Escuta": 75.0,
-            "Personalizacao": 73.6,
-            "Empatia": 69.0,
-            "Crises": 67.8,
-            "Padroes": 64.5
+            "Escuta": 76.1,
+            "Personalizacao": 77.1,
+            "Empatia": 72.1,
+            "Crises": 68.5,
+            "Padroes": 67.2
         },
         "count": 17,
         "insights": {
@@ -739,11 +747,11 @@ const users = [
         "avgDurSec": 10,
         "avgScore": 67.1,
         "skills": {
-            "Escuta": 71.0,
-            "Personalizacao": 76.4,
-            "Empatia": 67.5,
-            "Crises": 66.8,
-            "Padroes": 67.0
+            "Escuta": 69.0,
+            "Personalizacao": 77.8,
+            "Empatia": 69.2,
+            "Crises": 67.5,
+            "Padroes": 66.5
         },
         "count": 18,
         "insights": {
@@ -904,11 +912,11 @@ const users = [
         "avgDurSec": 3,
         "avgScore": 58.0,
         "skills": {
-            "Escuta": 60.3,
-            "Personalizacao": 74.3,
-            "Empatia": 55.3,
-            "Crises": 56.7,
-            "Padroes": 58.7
+            "Escuta": 65.1,
+            "Personalizacao": 72.9,
+            "Empatia": 64.9,
+            "Crises": 54.7,
+            "Padroes": 62.1
         },
         "count": 19,
         "insights": {
@@ -971,11 +979,11 @@ const users = [
         "avgDurSec": 12,
         "avgScore": 54.7,
         "skills": {
-            "Escuta": 46.0,
-            "Personalizacao": 67.3,
-            "Empatia": 53.0,
-            "Crises": 53.0,
-            "Padroes": 68.0
+            "Escuta": 59.3,
+            "Personalizacao": 60.3,
+            "Empatia": 49.7,
+            "Crises": 57.3,
+            "Padroes": 55.0
         },
         "count": 8,
         "insights": {
@@ -1027,11 +1035,11 @@ const users = [
         "avgDurSec": 21,
         "avgScore": 58.7,
         "skills": {
-            "Escuta": 57.7,
-            "Personalizacao": 68.5,
-            "Empatia": 54.3,
-            "Crises": 61.4,
-            "Padroes": 61.3
+            "Escuta": 66.4,
+            "Personalizacao": 72.7,
+            "Empatia": 64.0,
+            "Crises": 59.0,
+            "Padroes": 62.6
         },
         "count": 23,
         "insights": {
@@ -1098,11 +1106,11 @@ const users = [
         "avgDurSec": 27,
         "avgScore": 65.8,
         "skills": {
-            "Escuta": 72.7,
+            "Escuta": 74.5,
             "Personalizacao": 78.2,
-            "Empatia": 69.8,
-            "Crises": 67.2,
-            "Padroes": 61.8
+            "Empatia": 72.7,
+            "Crises": 67.7,
+            "Padroes": 75.2
         },
         "count": 7,
         "insights": {
@@ -1151,35 +1159,35 @@ const users = [
     },
     {
         "avgDurSec": 27,
-        "avgScore": 34.6,
+        "avgScore": 37.7,
         "skills": {
-            "Escuta": 38.1,
-            "Personalizacao": 40.3,
-            "Empatia": 35.9,
-            "Crises": 38.7,
-            "Padroes": 36.8
+            "Escuta": 44.8,
+            "Personalizacao": 46.1,
+            "Empatia": 43.2,
+            "Crises": 40.3,
+            "Padroes": 39.5
         },
-        "count": 76,
+        "count": 90,
         "insights": {
             "pt": [
-                "Vous avez débuté par vérifier la satisfaction du client, montrant une volonté d’écoute.",
-                "Vous avez valorisé le lien existant avec Paul, instaurant une continuité relationnelle rassurante.",
-                "Votre démarche a été directe, sans détour, ce qui peut convenir à des profils pressés.",
-                "Manque de reconnaissance personnalisée initiale : le client aurait apprécié que vous congratuliez explicitement pour sa décision, et valorisiez davantage son choix.",
-                "Absence d’exploration des points de satisfaction : vous n’avez pas demandé ce que le client a le plus apprécié dans votre accompagnement.",
-                "Demande de recommandations trop ouverte : « pensez-vous à des personnes ? » risque de bloquer la réflexion et n’aide pas à cibler des profils précis.",
-                "Aucun recueil d’autorisation ni humanisation du contact n’a été effectué ; il manque la demande claire d’accord pour citer le client, et une contextualisation chaleureuse des recommandations.",
-                "« Qu’est-ce que vous avez particulièrement apprécié dans notre démarche ensemble ? »"
+                "Fernanda, dentiste indépendante à Belo Horizonte, quarante-huit ans, profil DISC vert majoritaire.",
+                "La principale objection exprimée touche à la famille TEMPS (“besoin de réfléchir avant de signer”).",
+                "Découvrir la vraie raison de l’ajournement et traiter l’objection par la bonne CHAVE.",
+                "Obtenir l’engagement au moment présent, dans une ambiance sereine pour la cliente.",
+                "Objectif partiellement atteint : la pression a prédominé, la raison profonde n’a pas émergé clairement et la signature n’a pas été actée.",
+                "Ton professionnel, direct, sans agressivité manifeste.",
+                "Mise en valeur du travail accompli (“cinq rendez-vous, revue des impacts fiscaux et de projets”).",
+                "Présentation explicite du droit de rétractation, rassurant la cliente sur la liberté d’annuler."
             ],
             "fr": [
-                "Vous avez débuté par vérifier la satisfaction du client, montrant une volonté d’écoute.",
-                "Vous avez valorisé le lien existant avec Paul, instaurant une continuité relationnelle rassurante.",
-                "Votre démarche a été directe, sans détour, ce qui peut convenir à des profils pressés.",
-                "Manque de reconnaissance personnalisée initiale : le client aurait apprécié que vous congratuliez explicitement pour sa décision, et valorisiez davantage son choix.",
-                "Absence d’exploration des points de satisfaction : vous n’avez pas demandé ce que le client a le plus apprécié dans votre accompagnement.",
-                "Demande de recommandations trop ouverte : « pensez-vous à des personnes ? » risque de bloquer la réflexion et n’aide pas à cibler des profils précis.",
-                "Aucun recueil d’autorisation ni humanisation du contact n’a été effectué ; il manque la demande claire d’accord pour citer le client, et une contextualisation chaleureuse des recommandations.",
-                "« Qu’est-ce que vous avez particulièrement apprécié dans notre démarche ensemble ? »"
+                "Fernanda, dentiste indépendante à Belo Horizonte, quarante-huit ans, profil DISC vert majoritaire.",
+                "La principale objection exprimée touche à la famille TEMPS (“besoin de réfléchir avant de signer”).",
+                "Découvrir la vraie raison de l’ajournement et traiter l’objection par la bonne CHAVE.",
+                "Obtenir l’engagement au moment présent, dans une ambiance sereine pour la cliente.",
+                "Objectif partiellement atteint : la pression a prédominé, la raison profonde n’a pas émergé clairement et la signature n’a pas été actée.",
+                "Ton professionnel, direct, sans agressivité manifeste.",
+                "Mise en valeur du travail accompli (“cinq rendez-vous, revue des impacts fiscaux et de projets”).",
+                "Présentation explicite du droit de rétractation, rassurant la cliente sur la liberté d’annuler."
             ]
         },
         "name": "Sophie Géraud",
@@ -1194,9 +1202,14 @@ const users = [
             "fr": "Continuer a pratiquer et travailler les points d amelioration identifies."
         },
         "dates": [
+            "13/08/2026",
+            "10/08/2026",
+            "13/08/2026",
+            "14/08/2026",
+            "14/08/2026",
             "10/08/2026",
             "10/08/2026",
-            "10/08/2026",
+            "13/08/2026",
             "06/05/2026",
             "06/05/2026",
             "06/05/2026",
@@ -1220,8 +1233,14 @@ const users = [
             "12/05/2026",
             "12/05/2026",
             "13/05/2026",
+            "13/08/2026",
             "13/05/2026",
             "13/05/2026",
+            "13/08/2026",
+            "13/08/2026",
+            "13/08/2026",
+            "14/08/2026",
+            "14/08/2026",
             "02/07/2026",
             "02/07/2026",
             "02/07/2026",
@@ -1264,12 +1283,15 @@ const users = [
             "16/07/2026",
             "16/07/2026",
             "16/07/2026",
+            "14/08/2026",
+            "14/08/2026",
             "28/07/2026",
             "28/07/2026",
             "31/07/2026",
             "31/07/2026",
             "31/07/2026",
-            "05/08/2026"
+            "05/08/2026",
+            "14/08/2026"
         ],
         "avgDurMin": 0
     },
@@ -1277,11 +1299,11 @@ const users = [
         "avgDurSec": 25,
         "avgScore": 46.5,
         "skills": {
-            "Escuta": 56.0,
-            "Personalizacao": 52.0,
-            "Empatia": 52.5,
-            "Crises": 49.0,
-            "Padroes": 46.0
+            "Escuta": 49.0,
+            "Personalizacao": 49.0,
+            "Empatia": 63.0,
+            "Crises": 56.0,
+            "Padroes": 52.5
         },
         "count": 5,
         "insights": {
@@ -1330,11 +1352,11 @@ const users = [
         "avgDurSec": 39,
         "avgScore": 64.3,
         "skills": {
-            "Escuta": 69.4,
-            "Personalizacao": 74.4,
-            "Empatia": 66.4,
-            "Crises": 65.5,
-            "Padroes": 66.2
+            "Escuta": 72.3,
+            "Personalizacao": 76.2,
+            "Empatia": 73.1,
+            "Crises": 68.2,
+            "Padroes": 68.4
         },
         "count": 45,
         "insights": {
@@ -1564,10 +1586,10 @@ const users = [
         "avgScore": 61.0,
         "skills": {
             "Escuta": 63.0,
-            "Personalizacao": 68.0,
-            "Empatia": 74.0,
-            "Crises": 52.0,
-            "Padroes": 76.0
+            "Personalizacao": 54.0,
+            "Empatia": 57.0,
+            "Crises": 51.0,
+            "Padroes": 57.0
         },
         "count": 7,
         "insights": {
@@ -1618,11 +1640,11 @@ const users = [
         "avgDurSec": 34,
         "avgScore": 60.5,
         "skills": {
-            "Escuta": 60.2,
-            "Personalizacao": 57.9,
-            "Empatia": 63.7,
-            "Crises": 61.1,
-            "Padroes": 60.1
+            "Escuta": 66.0,
+            "Personalizacao": 64.6,
+            "Empatia": 66.8,
+            "Crises": 66.9,
+            "Padroes": 57.7
         },
         "count": 56,
         "insights": {
@@ -1757,11 +1779,11 @@ const users = [
         "avgDurSec": 31,
         "avgScore": 57.7,
         "skills": {
-            "Escuta": 59.7,
-            "Personalizacao": 70.6,
-            "Empatia": 59.4,
-            "Crises": 58.2,
-            "Padroes": 60.3
+            "Escuta": 64.6,
+            "Personalizacao": 70.1,
+            "Empatia": 66.9,
+            "Crises": 61.4,
+            "Padroes": 65.1
         },
         "count": 75,
         "insights": {
@@ -1949,16 +1971,16 @@ const users = [
         "avgDurMin": 0
     },
     {
-        "avgDurSec": 45,
-        "avgScore": 40.5,
+        "avgDurSec": 7,
+        "avgScore": 41.0,
         "skills": {
-            "Escuta": 44.2,
-            "Personalizacao": 52.0,
-            "Empatia": 44.8,
-            "Crises": 43.5,
-            "Padroes": 43.5
+            "Escuta": 53.9,
+            "Personalizacao": 46.1,
+            "Empatia": 51.1,
+            "Crises": 52.5,
+            "Padroes": 41.9
         },
-        "count": 14,
+        "count": 20,
         "insights": {
             "pt": [
                 "Mulher, empreendedora, carismática e comunicativa, perfil DISC: majoritariamente amarelo, estilo relacional, rápida, emocional.",
@@ -1996,6 +2018,8 @@ const users = [
             "10/08/2026",
             "10/08/2026",
             "10/08/2026",
+            "13/08/2026",
+            "13/08/2026",
             "04/05/2026",
             "04/05/2026",
             "13/05/2026",
@@ -2003,12 +2027,16 @@ const users = [
             "13/05/2026",
             "12/06/2026",
             "19/06/2026",
+            "13/08/2026",
+            "13/08/2026",
             "28/06/2026",
             "30/06/2026",
             "02/07/2026",
-            "02/07/2026"
+            "02/07/2026",
+            "13/08/2026",
+            "13/08/2026"
         ],
-        "avgDurMin": 0
+        "avgDurMin": 1
     },
     {
         "avgDurSec": 0,
@@ -2049,11 +2077,11 @@ const users = [
         "avgDurSec": 54,
         "avgScore": 41.5,
         "skills": {
-            "Escuta": 43.8,
-            "Personalizacao": 51.1,
-            "Empatia": 44.4,
-            "Crises": 45.9,
-            "Padroes": 44.3
+            "Escuta": 48.7,
+            "Personalizacao": 49.9,
+            "Empatia": 49.5,
+            "Crises": 43.9,
+            "Padroes": 49.6
         },
         "count": 18,
         "insights": {
