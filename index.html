@@ -10,8 +10,8 @@
         rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-    <script src="metlife_users_data.js?v=25"></script>
-    <script src="metlife_simulations_data.js?v=25"></script>
+    <script src="metlife_users_data.js?v=26"></script>
+    <script src="metlife_simulations_data.js?v=26"></script>
 
     <style>
         :root {
@@ -2009,7 +2009,7 @@
                     ? "📞 PROSPECÇÃO – Transformar um prospect frio em uma reunião qualificada" 
                     : "📞 PROSPECTION – Transformer un prospect froid en rendez-vous qualifié";
             }
-            if (sc === "ENVIE_DOCUMENT") {
+            if (sc === "ENVIE_DOCUMENT" || sc === "DOCUMENTO_REUNIAO") {
                 return currentLang === 'pt' 
                     ? "📄 PROSPECÇÃO – Transformar o pedido 'Envie-me um documento' em agendamento de reunião" 
                     : "📄 PROSPECTION – Transformer la demande 'Envoyez-moi un document' en prise de rendez-vous";
@@ -2018,6 +2018,21 @@
                 return currentLang === 'pt' 
                     ? "🛡️ ARGUMENTAÇÃO – Convencer um prospect da pertinência de uma cobertura de vida/sucessão" 
                     : "🛡️ ARGUMENTAIRE – Convaincre un prospect de la pertinence d'une couverture décès MetLife";
+            }
+            if (sc === "OBJECAO_ADIAMENTO") {
+                return currentLang === 'pt'
+                    ? "⏳ ARGUMENTAÇÃO – Contornar a objeção de adiamento ('Preciso pensar / Decido depois')"
+                    : "⏳ ARGUMENTAIRE – Traiter l'objection de report ('Je dois réfléchir / Décider plus tard')";
+            }
+            if (sc === "OBJECAO_FINANCEIRA") {
+                return currentLang === 'pt'
+                    ? "💰 ARGUMENTAÇÃO – Contornar a objeção financeira ('Está muito caro / Não tenho dinheiro')"
+                    : "💰 ARGUMENTAIRE – Traiter l'objection financière ('C'est trop cher / Pas de budget')";
+            }
+            if (sc === "CONVENCER_PROSPECT") {
+                return currentLang === 'pt'
+                    ? "🎯 ARGUMENTAÇÃO – Convencer um prospect cético"
+                    : "🎯 ARGUMENTAIRE – Convaincre un prospect sceptique";
             }
             if (sc === "RECOMENDACOES") {
                 return currentLang === 'pt' 
@@ -2028,8 +2043,8 @@
         }
 
         function getArea(sc) {
-            if (sc === "PROSPECT_FRIO" || sc === "ENVIE_DOCUMENT") return "Recepcionista";
-            if (sc === "COBERTURA_DECES") return "Concierge";
+            if (sc === "PROSPECT_FRIO" || sc === "ENVIE_DOCUMENT" || sc === "DOCUMENTO_REUNIAO") return "Recepcionista";
+            if (sc === "COBERTURA_DECES" || sc === "OBJECAO_ADIAMENTO" || sc === "OBJECAO_FINANCEIRA" || sc === "CONVENCER_PROSPECT") return "Concierge";
             if (sc === "RECOMENDACOES") return "Guest Attendant";
             return ui[currentLang].areaOutros;
         }
@@ -2392,6 +2407,22 @@
                         "ENVIE_DOCUMENT": {
                             pt: "Foco em identificar a real necessidade por trás do pedido de documento e reter controle.",
                             fr: "Focus sur l'identification du besoin réel derrière la demande de document."
+                        },
+                        "DOCUMENTO_REUNIAO": {
+                            pt: "Foco em identificar a real necessidade por trás do pedido de documento e reter controle.",
+                            fr: "Focus sur l'identification du besoin réel derrière la demande de document."
+                        },
+                        "OBJECAO_ADIAMENTO": {
+                            pt: "Foco em demonstrar o custo da inação, criar senso de urgência e fechar compromisso.",
+                            fr: "Focus sur le coût de l'inaction, la création d'un sentiment d'urgence et la conclusion."
+                        },
+                        "OBJECAO_FINANCEIRA": {
+                            pt: "Foco em agregar valor, reestruturar a proposta e comparar benefícios versus custos diários.",
+                            fr: "Focus sur la création de valeur, la restructuration de l'offre et l'analyse coût/bénéfice."
+                        },
+                        "CONVENCER_PROSPECT": {
+                            pt: "Foco em estabelecer credibilidade, alinhar expectativas e contornar ceticismo inicial.",
+                            fr: "Focus sur l'établissement de la crédibilité et le traitement du scepticisme."
                         },
                         "COBERTURA_DECES": {
                             pt: "Foco em empatia, abordagem ética de temas delicados e sensibilização sobre proteção familiar.",

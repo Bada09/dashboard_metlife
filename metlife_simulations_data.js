@@ -303,7 +303,7 @@ const RAW_SIMULATIONS = [
         "date": "11/08/2026",
         "dur": "0m 0s",
         "score": 0,
-        "scenario": "PROSPECT_FRIO",
+        "scenario": "OBJECAO_ADIAMENTO",
         "lqa": "N/A",
         "interactions": 1,
         "messages": [
@@ -376,7 +376,7 @@ const RAW_SIMULATIONS = [
         "date": "11/08/2026",
         "dur": "0m 0s",
         "score": 0,
-        "scenario": "PROSPECT_FRIO",
+        "scenario": "OBJECAO_ADIAMENTO",
         "lqa": "N/A",
         "interactions": 1,
         "messages": [
@@ -396,7 +396,7 @@ const RAW_SIMULATIONS = [
         "date": "11/08/2026",
         "dur": "0m 0s",
         "score": 0,
-        "scenario": "PROSPECT_FRIO",
+        "scenario": "OBJECAO_ADIAMENTO",
         "lqa": "N/A",
         "interactions": 1,
         "messages": [
@@ -416,7 +416,7 @@ const RAW_SIMULATIONS = [
         "date": "11/08/2026",
         "dur": "0m 0s",
         "score": 0,
-        "scenario": "PROSPECT_FRIO",
+        "scenario": "OBJECAO_ADIAMENTO",
         "lqa": "N/A",
         "interactions": 3,
         "messages": [
@@ -444,7 +444,7 @@ const RAW_SIMULATIONS = [
         "date": "11/08/2026",
         "dur": "3m 27s",
         "score": 0,
-        "scenario": "PROSPECT_FRIO",
+        "scenario": "OBJECAO_ADIAMENTO",
         "lqa": "N/A",
         "interactions": 11,
         "messages": [
@@ -504,7 +504,7 @@ const RAW_SIMULATIONS = [
         "date": "11/08/2026",
         "dur": "2m 20s",
         "score": 0,
-        "scenario": "PROSPECT_FRIO",
+        "scenario": "OBJECAO_ADIAMENTO",
         "lqa": "N/A",
         "interactions": 12,
         "messages": [
@@ -568,7 +568,7 @@ const RAW_SIMULATIONS = [
         "date": "13/08/2026",
         "dur": "0m 0s",
         "score": 0,
-        "scenario": "PROSPECT_FRIO",
+        "scenario": "OBJECAO_ADIAMENTO",
         "lqa": "N/A",
         "interactions": 1,
         "messages": [
@@ -588,7 +588,7 @@ const RAW_SIMULATIONS = [
         "date": "13/08/2026",
         "dur": "0m 0s",
         "score": 0,
-        "scenario": "PROSPECT_FRIO",
+        "scenario": "OBJECAO_ADIAMENTO",
         "lqa": "N/A",
         "interactions": 0,
         "messages": [],
@@ -603,7 +603,7 @@ const RAW_SIMULATIONS = [
         "date": "12/08/2026",
         "dur": "1m 11s",
         "score": 0,
-        "scenario": "PROSPECT_FRIO",
+        "scenario": "OBJECAO_ADIAMENTO",
         "lqa": "N/A",
         "interactions": 8,
         "messages": [
@@ -1201,7 +1201,7 @@ const RAW_SIMULATIONS = [
         "date": "13/08/2026",
         "dur": "1m 58s",
         "score": 0,
-        "scenario": "PROSPECT_FRIO",
+        "scenario": "OBJECAO_ADIAMENTO",
         "lqa": "N/A",
         "interactions": 15,
         "messages": [
@@ -14112,7 +14112,7 @@ const RAW_SIMULATIONS = [
         "date": "13/08/2026",
         "dur": "0m 21s",
         "score": 53,
-        "scenario": "PROSPECT_FRIO",
+        "scenario": "OBJECAO_ADIAMENTO",
         "lqa": "N/A",
         "interactions": 9,
         "messages": [
@@ -14173,7 +14173,7 @@ const RAW_SIMULATIONS = [
         "date": "10/08/2026",
         "dur": "0m 8s",
         "score": 51,
-        "scenario": "PROSPECT_FRIO",
+        "scenario": "OBJECAO_ADIAMENTO",
         "lqa": "N/A",
         "interactions": 7,
         "messages": [
@@ -14226,7 +14226,7 @@ const RAW_SIMULATIONS = [
         "date": "13/08/2026",
         "dur": "0m 45s",
         "score": 32,
-        "scenario": "PROSPECT_FRIO",
+        "scenario": "OBJECAO_ADIAMENTO",
         "lqa": "N/A",
         "interactions": 11,
         "messages": [
@@ -14400,7 +14400,7 @@ const RAW_SIMULATIONS = [
         "date": "10/08/2026",
         "dur": "0m 18s",
         "score": 15,
-        "scenario": "PROSPECT_FRIO",
+        "scenario": "OBJECAO_ADIAMENTO",
         "lqa": "N/A",
         "interactions": 14,
         "messages": [
@@ -14481,7 +14481,7 @@ const RAW_SIMULATIONS = [
         "date": "10/08/2026",
         "dur": "0m 22s",
         "score": 39,
-        "scenario": "PROSPECT_FRIO",
+        "scenario": "OBJECAO_ADIAMENTO",
         "lqa": "N/A",
         "interactions": 11,
         "messages": [
@@ -14550,7 +14550,7 @@ const RAW_SIMULATIONS = [
         "date": "13/08/2026",
         "dur": "0m 18s",
         "score": 0,
-        "scenario": "PROSPECT_FRIO",
+        "scenario": "OBJECAO_ADIAMENTO",
         "lqa": "N/A",
         "interactions": 11,
         "messages": [
@@ -15552,7 +15552,7 @@ const RAW_SIMULATIONS = [
         "date": "13/08/2026",
         "dur": "0m 0s",
         "score": 0,
-        "scenario": "PROSPECT_FRIO",
+        "scenario": "OBJECAO_ADIAMENTO",
         "lqa": "N/A",
         "interactions": 1,
         "messages": [
@@ -30363,7 +30363,7 @@ const RAW_SIMULATIONS = [
         "date": "10/08/2026",
         "dur": "1m 29s",
         "score": 31,
-        "scenario": "PROSPECT_FRIO",
+        "scenario": "OBJECAO_ADIAMENTO",
         "lqa": "N/A",
         "interactions": 20,
         "messages": [
@@ -30468,7 +30468,7 @@ const RAW_SIMULATIONS = [
         "date": "10/08/2026",
         "dur": "0m 0s",
         "score": 0,
-        "scenario": "PROSPECT_FRIO",
+        "scenario": "OBJECAO_ADIAMENTO",
         "lqa": "N/A",
         "interactions": 0,
         "messages": [],
@@ -30483,7 +30483,7 @@ const RAW_SIMULATIONS = [
         "date": "10/08/2026",
         "dur": "2m 2s",
         "score": 67,
-        "scenario": "PROSPECT_FRIO",
+        "scenario": "OBJECAO_ADIAMENTO",
         "lqa": "N/A",
         "interactions": 20,
         "messages": [
@@ -30588,7 +30588,7 @@ const RAW_SIMULATIONS = [
         "date": "13/08/2026",
         "dur": "2m 31s",
         "score": 41,
-        "scenario": "PROSPECT_FRIO",
+        "scenario": "OBJECAO_ADIAMENTO",
         "lqa": "N/A",
         "interactions": 19,
         "messages": [
@@ -30689,7 +30689,7 @@ const RAW_SIMULATIONS = [
         "date": "13/08/2026",
         "dur": "3m 7s",
         "score": 44,
-        "scenario": "PROSPECT_FRIO",
+        "scenario": "OBJECAO_ADIAMENTO",
         "lqa": "N/A",
         "interactions": 17,
         "messages": [
