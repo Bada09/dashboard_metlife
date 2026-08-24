@@ -1,4 +1,4 @@
-const LATEST_DUMP_DATE = "19/08/2026";
+const LATEST_DUMP_DATE = "24/08/2026";
 const RAW_SIMULATIONS = [
     {
         "name": "Juliana Pedrão",
@@ -595,6 +595,75 @@ const RAW_SIMULATIONS = [
         "finished": false,
         "feedback": "",
         "insights": []
+    },
+    {
+        "name": "Juliana Pedrão",
+        "agency": "Outros",
+        "region": "Outros",
+        "date": "21/08/2026",
+        "dur": "2m 5s",
+        "score": 78,
+        "scenario": "OBJECAO_FINANCEIRA",
+        "lqa": "N/A",
+        "interactions": 11,
+        "messages": [
+            {
+                "role": "AI",
+                "text": "Gostei muito da explicação, ficou tudo claro, mas o momento financeiro aqui em casa está apertado. Não consigo assumir mais um compromisso mensal agora."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Excelente, Rafael. Muito obrigado pela oportunidade de falar contigo. Ééé, deixa eu perguntar: você entendeu sobre a importância de todas as proteções, ééé, e a dúvida é somente em relação ao preço ou alguma dúvida em relação às proteções também?"
+            },
+            {
+                "role": "AI",
+                "text": "Entendi bem as proteções, foi tudo claro. Minha dúvida é só sobre o preço; agora não cabe no orçamento."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Excelente, Rafael. É importante saber que esse plano foi feito sob medida pra você, ééé, considerando todas as suas despesas e todas suas receitas. Ééé, além disso, ele traduz todas as suas responsabilidades Queee, que a gente estudou. Entãooo Imagina se a situação hoje tá ruim assim, imagina se alguma das situações que a gente tá protegendo aqui acontecesse. O meu trabalho, Rafael, é proteger e garantir que por mais que que a gente tenha alguns imprevistos, a gente esteja 100% protegido. Em relação ao preço"
+            },
+            {
+                "role": "HUMAN",
+                "text": "O que que faz sentido pra você? Será que faz sentido a gente começar com algumas importân-- algumas produções mais importantes pra você, como por exemplo, a produção do seu filho"
+            },
+            {
+                "role": "AI",
+                "text": "Faz sentido proteger a educação do meu filho, sim. Mas preciso saber se dá para reduzir o valor agora e depois aumentar quando a situação melhorar."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Claro, Rafael. É, é importante saber que os nossos seguros, claro, são seguros estruturados com análise de risco e o congelamento desse mesmo risco. Entãooo, por isso que é importante a gente se proteger o quanto antes e pelo valor necessário pra gente. Mas se a situação financeira está apertada, sim, a gente entra nessa estratégia de proteger o que é o mais importante e no futuro a gente protege o resto. Qual que é o risco aqui, Rafael?"
+            },
+            {
+                "role": "HUMAN",
+                "text": "A gente ter algum risco de saúde que impossibilite a contratação futura É, pra gente trabalhar de uma maneira E-é, direcionada aqui. Quanto que fica confortável desses R$ 1000 por mês aqui, a gente colocar e que realmente não vai apertar suas contas?"
+            },
+            {
+                "role": "AI",
+                "text": "Mil reais por mês hoje é demais pra mim. Se a ideia é focar na educação do meu filho, consigo pagar trezentos por mês sem comprometer as contas."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Excelente então, Rafael. Vamos fazer um plano considerando a educação do seu filho e esses R$300 por mês. Agora eu vou perguntar algumas perguntas em relação à sua saúde, tá bom? Pra aí seguir a contratação"
+            },
+            {
+                "role": "AI",
+                "text": "Tá ótimo. Pode perguntar sobre a saúde. Vou responder com sinceridade."
+            }
+        ],
+        "finished": true,
+        "feedback": "Aqui está o debriefing da nossa troca.\n\n  \n\n## 🤓 PERSONA\n\n- Rafael, pediatra  Yellow, expressivo e relacional, que verbalizou não conseguir contratar devido ao momento financeiro apertado.\n\n  \n\n## 🎯 OBJETIVO PRINCIPAL\n\n- Corretor () conseguiu identificar a causa real da objeção, adaptar solução ao orçamento e conduzir ao fechamento de modo natural.\n- Objetivo atingido: proposta personalizada, fechamento no primeiro encontro, sem pressão.\n\n  \n\n## ➕ PONTOS FORTES\n\n- Escuta ativa: buscou validar se a dúvida era só o preço ou também as proteções, dando espaço para o cliente expor.\n\n  \n- Abordagem consultiva: propôs ajustar as coberturas às prioridades, respeitando limites do orçamento, sem forçar uma contratação completa.\n\n  \n- Técnica \"Can you qualify\": explicou claramente o risco do adiamento, vinculando à saúde, sem pressão e com lógica construtiva.\n\n  \n- Processo de fechamento fluido: guiou naturalmente para o preenchimento da proposta após alinhamento do valor mensal.\n\n  \nParabéns, trouxe leveza e acolhimento, e demonstrou preocupação genuína com a realidade do cliente.\n\n  \n\n## 📈 PONTOS DE MELHORIA\n\n- Explorar objeção oculta: poderia ter usado mais perguntas abertas para aprofundar se existia algum medo sobre o compromisso ou preferências além do valor.\n\n  \n- Power phrase: faltou verbalizar uma frase de força marcante e fazer silêncio, permitindo o impacto emocional da mensagem.\n\n  \n- Cruz VOSSA/NOSSA: sugeriu a prioridade e ajuste, mas seria ainda mais potente visualizar para Rafael a diferença entre o valor investido e o capital protegido.\n\n  \nAjustar esses detalhes pode aumentar o impacto e a taxa de fechamento até com clientes mais racionais ou indecisos!\n\n  \n\n## 🩵 ANÁLISE EMOCIONAL\n\nO tom foi empático, tranquilo e ritmado, adequado ao perfil do cliente, com vocabulário próximo e envolvente. Predomínio de segurança e interesse consultivo.\n\n  \n\n## 🛅 MOMENTOS-CHAVE\n\nSituação: Rafael ressalta orçamento apertado → Corretor () sugere adequação do prêmio ao que não apertaria as contas.\nImportância: Demonstra flexibilidade e foco nas prioridades, reforçando confiança do cliente e abrindo caminho ao sim.\n\n  \n\n## 🔊 REFORMULAÇÕES RECOMENDADAS\n\n- \"Rafael, nunca vi alguém se arrepender por proteger o filho, mas já vi arrependimentos sérios por esperar demais.\"\n- \"Se o valor ainda incomoda, é o valor mensal, o compromisso longo, ou é o momento da decisão que pesa mais pra você?\"\n- \"Se colocarmos R$300 pensando só na educação do seu filho agora, você fica confortável em seguir para a contratação?\"\n- \"Se surgir espaço no orçamento, podemos ampliar a proteção mais à frente, tudo bem pra você?\"\n\n  \n\n## ➡️ RECOMENDAÇÕES\n\nExplorar mais perguntas de descoberta, usar power phrases com silêncio e sempre evidenciar visualmente a troca VOSSA/NOSSA. Continue sendo consultivo, mas ouse marcar as emoções no fechamento. Seu caminho é de excelência: continue ajustando e inove no próximo encontro!",
+        "insights": [
+            "Rafael, pediatra  Yellow, expressivo e relacional, que verbalizou não conseguir contratar devido ao momento financeiro apertado.",
+            "Corretor () conseguiu identificar a causa real da objeção, adaptar solução ao orçamento e conduzir ao fechamento de modo natural.",
+            "Objetivo atingido: proposta personalizada, fechamento no primeiro encontro, sem pressão.",
+            "Escuta ativa: buscou validar se a dúvida era só o preço ou também as proteções, dando espaço para o cliente expor.",
+            "Abordagem consultiva: propôs ajustar as coberturas às prioridades, respeitando limites do orçamento, sem forçar uma contratação completa.",
+            "Técnica \"Can you qualify\": explicou claramente o risco do adiamento, vinculando à saúde, sem pressão e com lógica construtiva.",
+            "Processo de fechamento fluido: guiou naturalmente para o preenchimento da proposta após alinhamento do valor mensal.",
+            "Explorar objeção oculta: poderia ter usado mais perguntas abertas para aprofundar se existia algum medo sobre o compromisso ou preferências além do valor."
+        ]
     },
     {
         "name": "Juliana Pedrão",
@@ -3789,6 +3858,50 @@ const RAW_SIMULATIONS = [
         "name": "Parceiro Apice24mais",
         "agency": "Outros",
         "region": "Outros",
+        "date": "19/08/2026",
+        "dur": "0m 16s",
+        "score": 0,
+        "scenario": "PROSPECT_FRIO",
+        "lqa": "N/A",
+        "interactions": 7,
+        "messages": [
+            {
+                "role": "HUMAN",
+                "text": "[silêncio]"
+            },
+            {
+                "role": "HUMAN",
+                "text": "Oi F-- é Fernanda. Oi Fernanda, boa tarde, tudo bem? Aqui quem fala é a Débora, quem pediu pra falar contigo foi o João Pedro, seu colega de trabalho, que também é dentista. Tudo bem com você?"
+            },
+            {
+                "role": "AI",
+                "text": "Oi. Estou ocupada agora, posso falar rápido. Quem é você e como conseguiu meu telefone?"
+            },
+            {
+                "role": "HUMAN",
+                "text": "Cara, eu nem vou continuar, JP Você acabou de falar Entendeu?"
+            },
+            {
+                "role": "HUMAN",
+                "text": "Tipo assim, não melhorou porra nenhuma, não vou perder meu tempo"
+            },
+            {
+                "role": "AI",
+                "text": "Olha, não"
+            },
+            {
+                "role": "HUMAN",
+                "text": "[inaudível]"
+            }
+        ],
+        "finished": false,
+        "feedback": "",
+        "insights": []
+    },
+    {
+        "name": "Parceiro Apice24mais",
+        "agency": "Outros",
+        "region": "Outros",
         "date": "02/07/2026",
         "dur": "0m 0s",
         "score": 0,
@@ -4813,6 +4926,62 @@ const RAW_SIMULATIONS = [
             "Não houve construção clara de valor nem contexto dos reais benefícios para Larissa.",
             "Faltou postura consultiva: abordagem soou apressada, pouco personalizada e voltada ao agendamento, não à descoberta.",
             "A reconfirmação do agendamento ficou superficial, sem detalhar local ou fins da reunião."
+        ]
+    },
+    {
+        "name": "Parceiro Apice24mais",
+        "agency": "Outros",
+        "region": "Outros",
+        "date": "19/08/2026",
+        "dur": "1m 13s",
+        "score": 61,
+        "scenario": "PROSPECT_FRIO",
+        "lqa": "N/A",
+        "interactions": 9,
+        "messages": [
+            {
+                "role": "HUMAN",
+                "text": "Oi Fernanda, boa tarde, tudo bem? Aqui quem fala é a Débora, eu tô te ligando a pedido da sua amiga Márcia, que também é dentista. Ela pediu pra falar com você. Ela chegou te avisar que eu ligaria?"
+            },
+            {
+                "role": "AI",
+                "text": "Oi, Débora. Não, a Márcia não me avisou que você ia ligar. Estou ocupada agora, posso falar só alguns minutos."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Ah, perfeito! Aqui eu também eu tô entre uma reunião e outra, ela não te avisou, porque eu acho que ela deve ter esquecido, mas ela pediu pra falar com você, Fernanda, que eu fiz um trabalho pra ela de proteção de renda, que é muito utilizado por dentistas, né? E ela falou que cê é dentista, é autônoma, que ela falou assim: \"Que eu acho que é importante e que a Fernanda vai gostar de conhecer\". E aí eu só tô te ligando hoje pra gente combinar um horário semana que vem, que funcione melhor pra você, pra eu te explicar como funciona, e aí você analisa se faz sentido ou não pra você, assim como fez pra sua amiga Márcia. Na semana que vem, o que que funciona melhor pra você? Segunda ou terça?"
+            },
+            {
+                "role": "AI",
+                "text": "Não gosto de ser pega de surpresa com marcação assim. Posso ouvir rápido: me explica em uma frase qual o benefício direto pra mim como dentista autônoma."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Fernanda, ééé, se você não pudesse gerar renda, tá? Ééé, se você po-- não pudesse trabalhar, como é que você manteria a renda que você gera hoje com a sua atividade?"
+            },
+            {
+                "role": "AI",
+                "text": "Se eu ficar impossibilitada de trabalhar, eu teria que usar minhas reservas ou pedir ajuda da família, o que não é ideal. Quero saber se isso que você oferece cobre perda de renda por incapacidade e por quanto tempo."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Tá. É, é, é, ele cobre sim perda de renda por incapacidade. O quanto tempo? A gente vai bater um papo justamente pra poder entender qual é o tempo que você precisa, qual é o teu momento de vida, qual é a tua renda. Então a ideia desse bate-papo é justamente pra poder explicar sobre isso, tá, Fernanda? O que que fica melhor pra você, segunda ou terça?"
+            },
+            {
+                "role": "AI",
+                "text": "Não vou marcar nada sem antes entender pelo menos uma estimativa de duração da cobertura e o valor aproximado"
+            },
+            {
+                "role": "HUMAN",
+                "text": "Tá bom, Fernanda, obrigada"
+            }
+        ],
+        "finished": true,
+        "feedback": "Aqui está o debriefing da nossa troca.\n\n🤓 PERSONA\n\nVocê interpretou Fernanda, dentista autônoma, perfil DISC verde, pragmática, organizada e cuidadosa nas decisões financeiras.\n\n🎯 OBJETIVO PRINCIPAL\n\nVocê respondeu a algumas objeções, tentou direcionar para o agendamento, mas não confirmou a reunião no final. Objetivo parcialmente atingido.\n\n➕ PONTOS FORTES\n\nVocê usou a recomendação de uma amiga (gatilho social), o que cria confiança inicial.\n\nSua abordagem foi simpática e acolhedora, com linguagem próxima e sem rodeios técnicos.\n\nTentou aplicar a escolha forçada entre dois dias, mantendo a objetividade com foco no agendamento.\n\nParabéns! O tom próximo e a menção à colega aumentam a chance de engajamento logo de saída.\n\n⚠️ PONTOS DE MELHORIA\n\nFaltou pedir autorização explícita para continuar a conversa antes de avançar para os detalhes.\n\nA reunião foi proposta para “semana que vem”, sem especificar horários próximos nem confirmar o melhor canal (presencial, online...).\n\nA pergunta sobre incapacidade ficou solta e as objeções para envio de material ou dúvidas sobre prioridade não foram abordadas.\n\nA escuta ativa foi prejudicada por excesso de explicações e pouco espaço para as respostas da prospect — ritmo acelerado.\n\nTrabalhe a transição entre apresentação e exploração de necessidades; analise o timing para perguntas mais sensíveis.\n\n🩵 ANÁLISE EMOCIONAL\n\nO tom foi amistoso e espontâneo, mas houve momentos de ligeira pressa. O estado emocional predominante foi cordial, com leve ansiedade em converter logo.\n\n🛅 MOMENTOS-CHAVE\n\nNa abertura, acionar o nome de Márcia aumentou a receptividade, demonstrando preparo e personalização.\n\nAo não especificar alternativas concretas de data e local, a margem de recusa cresceu e o prospect não firmou compromisso.\n\n🔊 REFORMULAÇÕES RECOMENDADAS\n\nFernanda, posso avançar rapidamente ou prefere reagendar para um momento mais confortável para você?\n\nEntendi sua correria, mas em quinze minutos conseguimos esclarecer se faz sentido pra você — pode ser presencial ou online!\n\nMárcia viu muito valor e sugeriu que eu trouxesse a você, mas só iremos aprofundar se fizer sentido.\n\nE se combinássemos um bate-papo já nos próximos dias, segunda às nove ou terça às onze, o que te atende melhor?\n\nMe diga se prefere um encontro rápido no seu consultório ou online, conforme for mais simples para a sua rotina.\n\n➡️ RECOMENDAÇÕES\n\nComece sempre pedindo autorização, proponha datas concretas em até setenta e duas horas e seja ainda mais consultivo, ouvindo ativamente e conduzindo perguntas abertas no momento oportuno. Trabalhe o encaminhamento gradual para o agendamento, mantendo a naturalidade. Você está evoluindo bem, ajuste esses detalhes e colherá mais conversões!",
+        "insights": [
+            "A escuta ativa foi prejudicada por excesso de explicações e pouco espaço para as respostas da prospect — ritmo acelerado.",
+            "Entendi sua correria, mas em quinze minutos conseguimos esclarecer se faz sentido pra você — pode ser presencial ou online!",
+            "E se combinássemos um bate-papo já nos próximos dias, segunda às nove ou terça às onze, o que te atende melhor?"
         ]
     },
     {
@@ -8596,6 +8765,111 @@ const RAW_SIMULATIONS = [
         "name": "Parceiro Inside24mais",
         "agency": "Outros",
         "region": "Outros",
+        "date": "20/08/2026",
+        "dur": "1m 12s",
+        "score": 48,
+        "scenario": "PROSPECT_FRIO",
+        "lqa": "N/A",
+        "interactions": 20,
+        "messages": [
+            {
+                "role": "HUMAN",
+                "text": "Alô?"
+            },
+            {
+                "role": "AI",
+                "text": "Quem fala? Estou ocupada e tenho poucos minutos."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Oi Roberta, aqui é o Arita, tudo bem?"
+            },
+            {
+                "role": "AI",
+                "text": "Oi Arita, alguns minutos só. Quem te indicou exatamente?"
+            },
+            {
+                "role": "HUMAN",
+                "text": "Maravilha, Roberta, peguei o seu telefone com a Elaine, ela avisou que eu ligaria?"
+            },
+            {
+                "role": "AI",
+                "text": "Não, a Elaine não avisou nada. Estou no consultório e tenho pouco tempo. Sobre o que é?"
+            },
+            {
+                "role": "HUMAN",
+                "text": "Ah, legal. A Elaine falou que ia avisar, daí eu vou puxar a orelha dela Conversa com a Elaine semana passada sobre sustentabilidade financeira"
+            },
+            {
+                "role": "HUMAN",
+                "text": "Que envolve a parte do consultório profissional e a parte familiar. Ela falou: \"Ó, dá uma ligada pra Roberta que ela tem dois filhos, eu acho que ela teria interesse em conversar sobre essas questões\""
+            },
+            {
+                "role": "AI",
+                "text": "Não tenho dois filhos. Acho que você se confundiu. Tenho pouco tempo; resume em uma frase o que você quer."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Então, eu acho que ela falou sobre um filho, pelo menos, né?"
+            },
+            {
+                "role": "AI",
+                "text": "Eu tenho uma filha apenas. Se a Elaine falou outra coisa, ela que esclareça com você. Sobre a ligação: você pode dizer em uma frase qual é o objetivo?"
+            },
+            {
+                "role": "HUMAN",
+                "text": "Claro, é uma consultoria de sustentabilidade financeira"
+            },
+            {
+                "role": "HUMAN",
+                "text": "Que envolve a sua parte profissional e pessoal. Então a gente vai falar sobre alguns imprevistos que a saúde pode trazer e o seu consultório ficar parado, ééé, é muito ruim, né? É de onde você tira renda"
+            },
+            {
+                "role": "AI",
+                "text": "Sim, meu consultório é minha fonte de renda principal. Se a proposta é falar sobre proteção para quando eu não puder trabalhar, explique em uma frase qual a vantagem concreta para mim."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Legal, a ideia não é fazer a reunião aqui com você agora, né? É até mesmo tirar um tempo específico pra gente sentar, eu te explicar todos os detalhes, porque eu sou especialista nessa área, sou dentista, então eu entendo muito dessas questões de profissionais da área da saúde. E o seu profissional envolve a sua parte, é, de casa também, né? Então a gente vai falar sobre essas questões. Você tem um horário pra gente conversar na segunda ou na terça-feira?"
+            },
+            {
+                "role": "AI",
+                "text": "Posso na terça à tarde, depois das consultas. Prefiro um encontro objetivo de trinta minutos. Qual horário você tem disponível?"
+            },
+            {
+                "role": "HUMAN",
+                "text": "Perfeito. Então terça-feira às 18h, pode ser?"
+            },
+            {
+                "role": "AI",
+                "text": "Terça às dezoito horas funciona, mas confirmo por mensagem no dia anterior. Até lá."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Até lá, obrigado"
+            },
+            {
+                "role": "AI",
+                "text": "Ok, até terça."
+            }
+        ],
+        "finished": true,
+        "feedback": "Aqui está o debriefing da nossa troca\n\n🤓 PERSONA\n\nInterpretei Fernanda, dentista autônoma de Belo Horizonte, perfil DISC dominante verde, pragmática, organizada e cautelosa.\n\n🎯 OBJETIVO PRINCIPAL\n\nVocê marcou a reunião de descoberta para apresentação da oferta MetLife, respondendo a objeções sutis e conduzindo bem o agendamento. Objetivo plenamente atingido.\n\n➕ PONTOS FORTES\n\n- A abordagem inicial foi simpática e pessoal, utilizando referência da Elaine para gerar proximidade e confiança.\n\n- Você respeitou o tempo da pessoa, explicitando que esta ligação não seria para vender, mas para agendar um bate-papo estruturado.\n\n- Trouxe rapidamente para o centro da conversa o benefício do encontro, relacionando-o à realidade do dia a dia da pessoa e focando a sustentabilidade financeira.\n\n- Proposta de agenda foi objetiva, usando escolha forçada entre segunda ou terça, facilitando a tomada de decisão.\n\nParabéns, você construiu empatia e clareza em poucos minutos!\n\n⚠️ PONTOS DE MELHORIA\n\n- Faltou pedir autorização explícita antes de partir para o assunto direto. “Posso falar rapidamente sobre o motivo do contato?” teria sido o ideal.\n\n- A ativação da recomendação poderia ter sido mais forte. Poderia citar brevemente uma situação em comum com a Elaine envolvendo consultoria financeira.\n\n- O pitch poderia ser mais direto nos dez segundos iniciais, para aumentar a percepção de valor imediato e capturar atenção.\n\n- Faltou reconfirmar local/modalidade da reunião e reforçar a importância da presença.\n\nIncluir essas etapas vai refinar ainda mais sua performance; você já está quase lá!\n\n🩵 ANÁLISE EMOCIONAL\n\nSeu tom foi acolhedor, seguro e respeitoso, com vocabulário técnico, mas acessível, e ritmo calmo. Demonstrou autoconfiança consultiva.\n\n🛅 MOMENTOS-CHAVE\n\nSituação: Referência à Elaine na abertura → Você criou vínculo e justificou a ligação → Isso quebrou defesas e facilitou o engajamento.\n\nSituação: Escolha forçada de datas → Facilitou resposta rápida → Aumentou a taxa de transformação em reunião confirmada.\n\n🔊 REFORMULAÇÕES RECOMENDADAS\n\n“Posso te explicar em trinta segundos o motivo do contato, tudo bem?”\n\n“A Elaine comentou como você se preocupa com o equilíbrio entre vida e consultório, achei super relevante para nossa conversa.”\n\n“Me especializei em planejamento financeiro para profissionais da saúde, por isso entendi que sua agenda merece atenção personalizada.”\n\n“Prefere conversar presencialmente ou por vídeo, qual o melhor formato pra você?”\n\n“Na terça, às dezoito horas, então alinhamos nossa conversa, te confirmo por WhatsApp?”\n\n➡️ RECOMENDAÇÕES\n\nInclua o pedido de autorização, fortaleça o gatilho da recomendação e termine sempre reconfirmando local e formato da reunião. Lembre-se: escuta ativa sempre, mas sem perder a assertividade dos próximos passos.\n\nContinue assim, pois sua evolução está consistente e, com alguns ajustes, você vai brilhar ainda mais!",
+        "insights": [
+            "A abordagem inicial foi simpática e pessoal, utilizando referência da Elaine para gerar proximidade e confiança.",
+            "Você respeitou o tempo da pessoa, explicitando que esta ligação não seria para vender, mas para agendar um bate-papo estruturado.",
+            "Trouxe rapidamente para o centro da conversa o benefício do encontro, relacionando-o à realidade do dia a dia da pessoa e focando a sustentabilidade financeira.",
+            "Proposta de agenda foi objetiva, usando escolha forçada entre segunda ou terça, facilitando a tomada de decisão.",
+            "Faltou pedir autorização explícita antes de partir para o assunto direto. “Posso falar rapidamente sobre o motivo do contato?” teria sido o ideal.",
+            "A ativação da recomendação poderia ter sido mais forte. Poderia citar brevemente uma situação em comum com a Elaine envolvendo consultoria financeira.",
+            "O pitch poderia ser mais direto nos dez segundos iniciais, para aumentar a percepção de valor imediato e capturar atenção.",
+            "Faltou reconfirmar local/modalidade da reunião e reforçar a importância da presença."
+        ]
+    },
+    {
+        "name": "Parceiro Inside24mais",
+        "agency": "Outros",
+        "region": "Outros",
         "date": "08/07/2026",
         "dur": "0m 0s",
         "score": 0,
@@ -9541,6 +9815,207 @@ const RAW_SIMULATIONS = [
         "name": "Parceiro Inside24mais",
         "agency": "Outros",
         "region": "Outros",
+        "date": "20/08/2026",
+        "dur": "4m 27s",
+        "score": 67,
+        "scenario": "RECOMENDACOES",
+        "lqa": "N/A",
+        "interactions": 44,
+        "messages": [
+            {
+                "role": "HUMAN",
+                "text": "Boa noite!"
+            },
+            {
+                "role": "AI",
+                "text": "Boa noite. Como foi a assinatura aí, tudo acertado?"
+            },
+            {
+                "role": "HUMAN",
+                "text": "Ô Diego, deu tudo certo, graças a Deus"
+            },
+            {
+                "role": "HUMAN",
+                "text": "Obrigado pela, pela paciência, né? E pela confiança que você teve no nosso trabalho. Me fala um pouco o que que você achou, foi invasivo, não? Me conta um pouco da experiência"
+            },
+            {
+                "role": "AI",
+                "text": "Não foi invasivo não, Diego. Você explicou com calma, ouviu o que eu precisava e falou as opções sem empurrar nada. O que me deixou mais tranquilo foi você responder direto sobre tempo de pagamento e quem fica com a renda se eu faltar."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Ah, legal, muito bacana. Parabéns pela decisão"
+            },
+            {
+                "role": "HUMAN",
+                "text": "Cê acha que supriu totalmente as suas necessidades?"
+            },
+            {
+                "role": "AI",
+                "text": "Atendeu a maior parte, sim. Ainda quero ver como vai ser na prática com a próxima safra, mas as garantias que combinamos me deixam mais tranquilo."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Maravilha. Passa o meu telefone pra sua esposa, pros seus familiares, tá? Sempre importante eles terem o meu contato também. E qualquer problema burocrático, troca de beneficiário, cartão de crédito, você pode contar comigo"
+            },
+            {
+                "role": "AI",
+                "text": "Olha, prefiro não espalhar seu número assim sem avisar ninguém. Quero falar com a minha esposa primeiro e combinar como você vai ser apresentado."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Não, perfeito, é isso que eu pedi pra você, né? Na realidade você conversar com ela, com seus familiares, porque em caso de necessidade eles têm o meu telefone, fica mais fácil pra eu ajudar a acionar o, o seguro. Se-- mas se Deus quiser, não vai precisar"
+            },
+            {
+                "role": "AI",
+                "text": "Certo, Diego. Vou falar com a Maria hoje à noite e combinar como você vai ser apresentado. Depois te digo quem você pode procurar, certo?"
+            },
+            {
+                "role": "HUMAN",
+                "text": "Certo, certo. Hã, me fala uma coisa, hã, como você gostou bastante do meu trabalho, é um trabalho que a gente faz pra proteger algumas pessoas, da mesma forma que eu cheguei em você por uma indicação, eu gostaria de conversar com algumas pessoas pra gente conseguir proteger essas pessoas"
+            },
+            {
+                "role": "AI",
+                "text": "Olha, Diego, eu não gosto de sair dando nome assim na hora, é cedo. Quero primeiro falar com a Maria e preparar como vou apresentar você."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Ah, entendo completamente. Eu posso te ajudar nessa preparação, né? Até mesmo pra, pras pessoas terem o interesse, porque culturalmente as pessoas não gostam de falar sobre seguro. Só que aqui a gente pode proteger a vida financeira e a vida, é, da saúde da pessoa, né? Porque se ela tem o recurso financeiro pra conseguir fazer o melhor tratamento, é melhor, né? É bom pra essa família. O grande problema é quando a gente demora pra entrar em contato com essas pessoas, porque eu te expliquei os prazos de carência que tem no nosso produto, né?"
+            },
+            {
+                "role": "AI",
+                "text": "Eu sei, Diego. Hoje à noite eu falo com a Maria e combinamos a melhor maneira de te apresentar. Depois eu te digo uma pessoa que posso indicar."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Legal. É, pensando na sua rede de relacionamento, seus amigos do do, da faculdade, do trabalho"
+            },
+            {
+                "role": "HUMAN",
+                "text": "Quem-- qual o último grupo de WhatsApp que você falou?"
+            },
+            {
+                "role": "AI",
+                "text": "O último grupo que eu falei foi o da igreja, aquele dos irmãos da célula. Vou conversar com a Maria antes de falar com eles."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Oh, maravilha! É, é, é sempre bom, né, passar mensagem positiva pro, pros amigos da igreja também, porque são as pessoas que estão mais próximas da gente nos finais de semana, né, fazendo culto a Deus. Eee quem que é o seu melhor amigo lá?"
+            },
+            {
+                "role": "AI",
+                "text": "Meu melhor amigo lá é o irmão José. Vou falar com a Maria primeiro antes de te dizer se posso passar o contato dele."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Legal, legal. Eee o José, ah, você tem mais amigos dentro dessa célula, fora o José?"
+            },
+            {
+                "role": "AI",
+                "text": "Tem mais um casal na célula, o Manoel e a Rita, e mais a irmã Ana. Vou combinar com a Maria antes de te passar qualquer nome, beleza?"
+            },
+            {
+                "role": "HUMAN",
+                "text": "Claro, claro. O que o José faz na, na vida pessoal dele? Ele trabalha com o quê?"
+            },
+            {
+                "role": "AI",
+                "text": "O José trabalha com transporte de frutas, faz frete para o pessoal da região e às vezes ajuda na colheita. Vou falar com a Maria antes de te confirmar qualquer coisa."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Ah legal, e a Ana e o Manuel, eles faziam o quê?"
+            },
+            {
+                "role": "AI",
+                "text": "A Rita ajuda na feira com venda das frutas, o Manoel cuida da irrigação na fazenda dele. Sobre a Ana, ela trabalha como professora na escola do bairro. Vou combinar com a Maria antes de te passar qualquer nome, beleza?"
+            },
+            {
+                "role": "HUMAN",
+                "text": "Claro, claro. Ficam aos cuidados da Maria"
+            },
+            {
+                "role": "HUMAN",
+                "text": "Mas é uma responsabilidade muito grande que você dá pra Maria, né? Porque se ela falar pra você: \"Putz, não passo o telefone deles\" e acontece alguma coisa com essas pessoas que você gosta muito, vou te dar um exemplo: se o, o Manuel ficar doente, ele não tem o recurso financeiro pra conseguir fazer o melhor tratamento, como que você se sentiria?"
+            },
+            {
+                "role": "AI",
+                "text": "Eu fico mal, né? Se fosse o Manoel, eu ia me sentir culpado por não ter feito nada antes. Por isso quero pensar com a Maria e apresentar você do jeito certo, sem empurrar ninguém."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Claro, perfeito. Esse é o, o foco do nosso trabalho, né? Mostrar uma consultoria pra que essas pessoas entendam e elas tomem a decisão, né? E aí eu tenho todos os métodos pra gente conseguir desenvolver essa conversa sem atrapalhar seu tempo também, porque você trabalha muito, né? Imagina que você vai conseguir falar com essas pessoas somente no final de semana. Eu vou conseguir marcar com essas pessoas somente na outra semana. E aí tem o fechamento que é na outra semana. A gente tá falando de três semanas aí pra frente, né? Talvez se você me passar o telefone dessas pessoas pra eu entrar em contato com elas amanhã, você só dá o aviso: \"Ó, o Arita vai ligar\"."
+            },
+            {
+                "role": "HUMAN",
+                "text": "E ele vai falar sobre um assunto muito bacana. Eu ligo e já tento marcar pra essa semana, a gente adianta, né, porque o imprevisto a gente nunca sabe quando acontece"
+            },
+            {
+                "role": "AI",
+                "text": "Espera um pouco... Eu já falei que vou conversar com a Maria primeiro. Não vou te passar telefone agora. Depois te digo se pode ligar, combinado?"
+            },
+            {
+                "role": "HUMAN",
+                "text": "Combinado. Então fica sobre a sua responsabilidade, eu não gostaria que acontecesse nada com eles É, antecipadamente. Como eu fiz com, com a Elaine, né? A Elaine eu conversei com ela, ela me passou do seu telefone antes de falar mesmo com você E você gostou muito do nosso trabalho, então em menos de uma semana eu consegui proteger você e a sua família. É isso que eu gostaria de fazer com eles, né? Não esperar três, quatro semanas pra depois proteger, porque aí eu vou te passar um pouco da minha experiência, tá bom? Eu tenho clientes que eu demorei tanto pra falar"
+            },
+            {
+                "role": "HUMAN",
+                "text": "Que passou o prazo ali dos 90 dias e antes disso a pessoa ficou doente e eu não consegui ajudá-los, mesmo eles tendo seguro, eu não consegui ajudá-los com recurso financeiro pra fazer o melhor tratamento"
+            },
+            {
+                "role": "AI",
+                "text": "Eu sei dessa história dos noventa dias, Diego. Por isso eu quero conversar com a Maria primeiro e só depois decidir se passo algum nome."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Hum, não, perfeito, perfeito. Eu fico sobre Os seus cuidados aí"
+            },
+            {
+                "role": "HUMAN",
+                "text": "Hããã, se você conseguiu conversar o quanto antes, a gente pode combinar então pra amanhã, pra eu pegar esses telefones pra gente adiantar todo o processo?"
+            },
+            {
+                "role": "AI",
+                "text": "Não. Eu já disse que primeiro vou falar com a Maria hoje à noite. Amanhã eu te digo se posso passar telefone, combinado?"
+            },
+            {
+                "role": "HUMAN",
+                "text": "Combinado, combinado"
+            },
+            {
+                "role": "HUMAN",
+                "text": "Eu agradeço então, e aí eu te ligo amanhã pra gente pegar esses telefones após você ter falado com a Maria"
+            },
+            {
+                "role": "AI",
+                "text": "Tá bom, Diego. Fala amanhã depois que eu já tiver conversado com a Maria. Até mais."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Combinado, boa noite"
+            },
+            {
+                "role": "AI",
+                "text": "Boa noite, Diego."
+            }
+        ],
+        "finished": true,
+        "feedback": "Aqui está o debriefing da nossa conversa\n\n \n\n## 🤓 PERSONA\n\n \nVocê dialogou com Seu João, produtor rural de 58 anos, perfil DISC predominante vermelho: direto, pragmático, resistente, valoriza confiança e clareza.\n\n \n\n## 🎯 OBJETIVO PRINCIPAL\n\n \nObter recomendações qualificadas e permissão para contato mencionando o nome do cliente. Objetivo parcialmente atingido: houve compromisso de passar contatos, mas não a entrega imediata completa.\n\n \n\n## ➕ Pontos fortes\n\n \n- Você iniciou agradecendo, reconhecendo a confiança e valorizando a experiência positiva do cliente, criando clima favorável.\n\n \n- Explicitou a importância da indicação como um serviço de proteção à rede do cliente, não apenas um favor pessoal.\n\n \n- Fez perguntas segmentadas (amigos da igreja, etc.), facilitando que o cliente lembrasse de nomes específicos.\n\n \n- Respeitou o tempo do cliente, negociando um próximo contato após ele conversar com a esposa, mostrando consideração.\n\n \nSiga nessa linha humana e consultiva — você inspira confiança e empatia autênticas!\n\n \n\n## ⚠️ EIXOS DE MELHORIA\n\n \n- Faltou pedir explicitamente a autorização para mencionar o nome do cliente já na primeira abordagem aos indicados.\n\n \n- O discurso ficou um pouco repetitivo e, em certos momentos, levemente incisivo (“é uma responsabilidade muito grande que você dá pra Maria…”), o que pode soar como pressão.\n\n \n- Poderia explorar brevemente o que o cliente mais gostou do seu atendimento para fortalecer o momento “wow”.\n\n \n- O pedido de recomendações ainda oscilou entre aberto e segmentado — foque mais em perfis concretos e ancorados na realidade do cliente.\n\n \nContinue ajustando o tom e invista ainda mais na escuta ativa, isso vai tornar o processo mais fluido!\n\n \n\n## 🩵 ANÁLISE EMOCIONAL\n\nVocê demonstrou um tom confiante e consultivo, com ritmo envolvente. Linguagem acessível, mas pontuada por momentos um pouco insistentes. Predominou empatia e assertividade.\n\n \n\n## 🛅 MOMENTOS-CHAVE\n\nSituação: Reconhecimento sincero do cliente no início → Você agradeceu e pontuou a confiança dele → Isso aqueceu o ambiente e diminuiu resistências.\n\nSituação: Segmentação (“amigos da igreja, último grupo de WhatsApp”) → Facilitou a lembrança de nomes → Impacto positivo na cooperação do cliente.\n\n \n\n## 🔊 REFORMULAÇÕES RECOMENDADAS\n\n“Posso mencionar que foi você quem sugeriu esse contato, para dar mais confiança ao seu amigo?”\n\n“Entre seus colegas da igreja, alguém que se preocupa bastante com a família, como você?”\n\n“Se preferir, aguardo seu sinal verde antes de ligar para cada pessoa.”\n\n“Quero que seus contatos se sintam à vontade: minha abordagem será sempre de orientação, sem pressão.”\n\n \n\n## ➡️ RECOMENDAÇÕES\n\nAprimore a autorização de menção do nome e a exploração do valor percebido pelo cliente. Encaminhe o fechamento valorizando a experiência e proponha perfis bem direcionados nas perguntas. Parabéns, está no caminho certo — seu respeito pela história do cliente faz toda diferença!",
+        "insights": [
+            "Você dialogou com Seu João, produtor rural de 58 anos, perfil DISC predominante vermelho: direto, pragmático, resistente, valoriza confiança e clareza.",
+            "Obter recomendações qualificadas e permissão para contato mencionando o nome do cliente. Objetivo parcialmente atingido: houve compromisso de passar contatos, mas não a entrega imediata completa.",
+            "Você iniciou agradecendo, reconhecendo a confiança e valorizando a experiência positiva do cliente, criando clima favorável.",
+            "Explicitou a importância da indicação como um serviço de proteção à rede do cliente, não apenas um favor pessoal.",
+            "Fez perguntas segmentadas (amigos da igreja, etc.), facilitando que o cliente lembrasse de nomes específicos.",
+            "Respeitou o tempo do cliente, negociando um próximo contato após ele conversar com a esposa, mostrando consideração.",
+            "Siga nessa linha humana e consultiva — você inspira confiança e empatia autênticas!",
+            "Faltou pedir explicitamente a autorização para mencionar o nome do cliente já na primeira abordagem aos indicados."
+        ]
+    },
+    {
+        "name": "Parceiro Inside24mais",
+        "agency": "Outros",
+        "region": "Outros",
         "date": "30/07/2026",
         "dur": "0m 0s",
         "score": 0,
@@ -10309,6 +10784,119 @@ const RAW_SIMULATIONS = [
             "Segmentou bem os perfis sugeridos, dando exemplos concretos para facilitar a memória da cliente.",
             "Humanização das indicações",
             "Continue praticando: pequenas melhorias trarão grandes saltos!"
+        ]
+    },
+    {
+        "name": "Parceiro Inside24mais",
+        "agency": "Outros",
+        "region": "Outros",
+        "date": "20/08/2026",
+        "dur": "2m 1s",
+        "score": 78,
+        "scenario": "RECOMENDACOES",
+        "lqa": "N/A",
+        "interactions": 22,
+        "messages": [
+            {
+                "role": "HUMAN",
+                "text": "Alô?"
+            },
+            {
+                "role": "AI",
+                "text": "Oi. Acabei de assinar o contrato, tudo certo do meu lado. Você tem algo rápido para acertarmos agora?"
+            },
+            {
+                "role": "HUMAN",
+                "text": "Claro, Daniel. Primeiro eu te quero te agradecer a confiança, né? Hããã, e também parabenizar, porque você tá protegendo a sua família. Que que você achou do meu trabalho?"
+            },
+            {
+                "role": "AI",
+                "text": "Seu atendimento foi objetivo e bem técnico, do jeito que eu gosto. Gostei da clareza nas opções e das comparações que você trouxe. Podemos seguir."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Legal, e sobre as necessidades da sua vida, você achou que foi coberto?"
+            },
+            {
+                "role": "AI",
+                "text": "Sim, cobriu o essencial que eu queria: proteção da renda e capital para o meu filho em caso de imprevisto. Ainda quero revisar só dois pontos técnicos depois, mas no geral ficou adequado."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Perfeito O que a gente vai fazer agora? Proteger esses pais que são parecidos com você Que têm uma necessidade específica por ser autônomo e que tenham filhos, que na dependência, na falta do seu trabalho ou até mesmo numa ausência prematura morte"
+            },
+            {
+                "role": "HUMAN",
+                "text": "essas crianças passem necessidades. Então a gente vai conversar com esses pais também"
+            },
+            {
+                "role": "AI",
+                "text": "Antes de tudo, você pode explicar como você pretende abordar esses pais no primeiro contato? Quero entender o tom e o que será oferecido."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Claro, da mesma forma como eu cheguei em você através da Elaine, é, ela te avisou, né, por uma mensagem. Logo em seguida eu entrei em contato com você e fiz umaaa conversa consultiva pra você entender sobre o nosso trabalho. E aí nessa conversa eu mencionei que ela te indicou, então eu gostaria de indicar, é, colocar o seu nome também na conversa"
+            },
+            {
+                "role": "AI",
+                "text": "Espera um pouco... não me sinto à vontade com você mencionando meu nome sem eu autorizar. Quero saber como você fará o primeiro contato, só isso."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Ah não, perfeito. É isso que eu tô te pedindo, uma autorização pra mencionar o seu nome. Então eu vou mandar uma mensagem pra essa pessoa Ééé, falando que eu te conheci, que eu fiz uma consultoria que você gostou muito"
+            },
+            {
+                "role": "HUMAN",
+                "text": "E que você gostou também e daria essa consultoria de presente pra ela"
+            },
+            {
+                "role": "AI",
+                "text": "Não autorizei você a dizer que eu daria a consultoria de presente. Não ok. Se for abordar meus contatos, faz um primeiro contato consultivo, discreto, sem pressão, e só com meu sinal verde para mencionar meu nome."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Perfeito, é isso mesmo que eu vou fazer, né? É que você perguntou pra mim como eu faria. E aí eu te dei o exemplo de como eu faria, mas a gente pode seguir do seu jeito, né? Eu te mando uma mensagem, você manda essa mensagem pros seus"
+            },
+            {
+                "role": "HUMAN",
+                "text": "amigos, né? Pelo, é, principalmente pros pais de crianças. E aí na sequência eu ligo, ééé, falando da nossa consultoria, né?"
+            },
+            {
+                "role": "AI",
+                "text": "Espera um pouco... quero confirmação clara: você não vai contactar ninguém sem meu sinal verde explícito, e na primeira mensagem meu nome não será mencionado. Confirma isso, por favor."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Perfeito, perfeito. Pode ser dessa, dessa forma. Eu só vou entrar em contato com as pessoas que você indicar. Aí dessa forma, elas vão saber que você que tá indicando, né?"
+            },
+            {
+                "role": "AI",
+                "text": "Não. Você confirmou antes que não mencionaria meu nome na primeira mensagem. Mantenha esse acordo e só contate as pessoas depois do meu sinal verde."
+            },
+            {
+                "role": "HUMAN",
+                "text": "É isso mesmo que eu vou fazer, eu não vou ligar pra essas pessoas, a não ser que você me dê o sinal verde"
+            },
+            {
+                "role": "HUMAN",
+                "text": "A partir do momento que você me deu o sinal verde, eu não preciso falar o seu nome porque você mesmo já falou"
+            },
+            {
+                "role": "AI",
+                "text": "Não, eu não disse isso. Se eu der o sinal verde, autorizei o contato, não autorizei que meu nome seja citado automaticamente sem eu confirmar. Você só menciona meu nome depois do meu sinal verde explícito."
+            }
+        ],
+        "finished": true,
+        "feedback": "Aqui está o debriefing da nossa conversa\n\n[ligne vide]\n\n🤓 PERSONA\n\nParticipei como Patrícia, uma cliente perfil azul do DISC: analítica, exigente, racional e muito focada em clareza e cautela.\n\n[ligne vide]\n\n🎯 OBJETIVO PRINCIPAL\n\nTransformar a satisfação do cliente em pelo menos dois nomes qualificados com permissão para contato. O objetivo não foi atingido.\n\n[ligne vide]\n[ligne vide]\n\n➕ Pontos fortes\n\n- Reconhecimento explícito da importância da decisão do cliente logo na abertura, valorizando a confiança e a proteção familiar.\n\n[ligne vide]\n\n- Tentativa de levar o cliente a verbalizar sua satisfação com o serviço e a solução apresentada.\n\n[ligne vide]\n\n- Esclarecimento sobre o processo de indicação, explicando de forma transparente como será feita a abordagem junto aos indicados.\n\n[ligne vide]\n\n- Abordagem consultiva e empática, sem pressa ou pressão exagerada ao tratar das recomendações.\n\n[ligne vide]\n\nÓtimos movimentos para transmitir segurança e respeito. Continue explorando essa escuta ativa e reforço emocional!\n\n[ligne vide]\n\n⚠️ EIXOS DE MELHORIA\n\n- Faltaram pedidos concretos de nomes: em nenhum momento foi solicitado explicitamente que o cliente fornecesse “nomes” ou perfis específicos, o que impediu a coleta das recomendações efetivas.\n\n[ligne vide]\n\n- **Segmentação insuficiente**  \n  Não houve incentivo com exemplos práticos que facilitassem a lembrança (“entre seus colegas médicos…”), perdendo em efetividade para destravar a memória do cliente.\n\n[ligne vide]\n\n- Não confirmou detalhadamente a permissão para citar o nome, nem coletou informações qualitativas sobre os recomendados, o que ajudaria no contato personalizado.\n\n[ligne vide]\n\n- Faltou agradecimento final consistente, fechando a conversa de forma acolhedora e marcando o convite para futuras indicações.\n\n[ligne vide]\n\nInvista em perguntas mais abertas, combinadas com segmentação e fechamento do ciclo do agradecimento. O progresso depende desses pequenos ajustes na estrutura!\n\n[ligne vide]\n\n🩵 ANÁLISE EMOCIONAL\n\nO tom manteve-se calmo, acolhedor e natural, mas houve hesitação e pouca assertividade na transição do reconhecimento ao pedido direto. A empatia foi genuína.\n\n[ligne vide]\n\n🛅 MOMENTOS-CHAVE\n\nSituação: Primeira abordagem pós-venda com agradecimento e convite à reflexão sobre satisfação.  \nO que fez: Reforçou o valor da solução e a confiança no processo.  \nPor que importa: Criou terreno fértil para um pedido, mas faltou avançar para a ação concreta, o que impactou no resultado.\n\n[ligne vide]\n\n🔊 REFORMULAÇÕES RECOMENDADAS\n\n“Patrícia, pensando nos seus amigos autônomos com filhos, você se sentiria à vontade para indicar dois nomes em situações parecidas?”\n\n[ligne vide]\n\n“Posso mencionar que você ficou satisfeita com a consultoria quando conversar com eles?”\n\n[ligne vide]\n\n“A ideia é oferecer a eles o mesmo cuidado personalizado que você teve, sem compromisso. Posso contar com sua indicação?”\n\n[ligne vide]\n\n➡️ RECOMENDAÇÕES\n\nComece sempre pelo agradecimento, peça nomes de forma segmentada e um a um, garantindo permissão explícita para mencionar o cliente no contato. Ao final, agradeça e plante a semente para futuras recomendações. Pequenas mudanças abrem grandes portas — perto do gol, só falta o chute certeiro!",
+        "insights": [
+            "Participei como Patrícia, uma cliente perfil azul do DISC: analítica, exigente, racional e muito focada em clareza e cautela.",
+            "Reconhecimento explícito da importância da decisão do cliente logo na abertura, valorizando a confiança e a proteção familiar.",
+            "Tentativa de levar o cliente a verbalizar sua satisfação com o serviço e a solução apresentada.",
+            "Esclarecimento sobre o processo de indicação, explicando de forma transparente como será feita a abordagem junto aos indicados.",
+            "Abordagem consultiva e empática, sem pressa ou pressão exagerada ao tratar das recomendações.",
+            "Faltaram pedidos concretos de nomes: em nenhum momento foi solicitado explicitamente que o cliente fornecesse “nomes” ou perfis específicos, o que impediu a coleta das recomendações efetivas.",
+            "Segmentação insuficiente",
+            "Não confirmou detalhadamente a permissão para citar o nome, nem coletou informações qualitativas sobre os recomendados, o que ajudaria no contato personalizado."
         ]
     },
     {
@@ -17852,6 +18440,111 @@ const RAW_SIMULATIONS = [
         "name": "Parceiro Rivorio3a12",
         "agency": "Outros",
         "region": "Outros",
+        "date": "22/08/2026",
+        "dur": "1m 31s",
+        "score": 48,
+        "scenario": "OBJECAO_ADIAMENTO",
+        "lqa": "N/A",
+        "interactions": 20,
+        "messages": [
+            {
+                "role": "AI",
+                "text": "Achei a proposta muito interessante, mas preciso conversar com minha esposa antes de decidir. Depois eu te dou uma resposta."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Ah, claro, super entendo. Mas só pra eu conseguir te ajudar um pouco melhor. Ééé, sobre o que exatamente cê precisa pensar?"
+            },
+            {
+                "role": "AI",
+                "text": "Preciso conversar com minha esposa para ver se ela concorda com o valor e com quem será beneficiário. Depois volto a falar com você."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Ah, entendi. É, lembra lá na nossa primeira conversa que eu te perguntei se você precisava de mais alguém pra tomar essa decisão? Você confirmou pra mim que não, que você não precisava, é, confirmar. E o beneficiário é algo supersimples, né? Se você, por acaso, depois decidir fazer qualquer alteração, você pode alterar a qualquer tempo"
+            },
+            {
+                "role": "AI",
+                "text": "Sim, lembro que disse isso. Mesmo assim prefiro que minha esposa veja antes, para evitar qualquer surpresa. Posso ligar pra você depois da conversa com ela, combinado?"
+            },
+            {
+                "role": "HUMAN",
+                "text": "Ah, sim, claro, eu entendo. É, nesse caso, o que que acontece? Pode ser que a sua esposa tenha dúvidas que você não vai saber responder, porque claro, né, quem tem que ter essas respostas todas sou eu. Então assim, tem alguma dúvida que ficou, é, que eu possa já te ajudar agora a esclarecer?"
+            },
+            {
+                "role": "AI",
+                "text": "Acho que não, nenhuma dúvida técnica agora. Só quero que ela veja o valor e concorde com o beneficiário. Se você puder me enviar por mensagem só um resumo objetivo com esses pontos, eu levo pra ela e te ligo depois."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Ah, claro, posso te enviar sim, sem problema algum. É, em relação ao valor, não ficou dentro daquilo que a gente tinha acordado na primeira reunião?"
+            },
+            {
+                "role": "AI",
+                "text": "Sim, ficou dentro do que combinamos. Pode mandar só o resumo com o valor do prêmio e o nome do beneficiário pro meu WhatsApp."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Ah, entendi. É, então cê tá dentro do valor que a gente combinou. Você tinha me contado que você não precisava de mais ninguém pra tomar essa decisão. E o beneficiário é você mesmo que escolhe, pode alterar a qualquer tempo. Ééé, não é mais interessante a gente já dar entrada na sua análise de risco agora, e aí se tiver qualquer alteração, eu faço essa alteração pra você sem problema algum. Se a tua esposa tiver qualquer dúvida, eu posso tirar essas dúvidas pra ela também, mas é importante que vocês já fiquem pro-- é, protegidos desde agora"
+            },
+            {
+                "role": "AI",
+                "text": "Tudo bem, faz assim: me manda pelo WhatsApp um resumo objetivo com o valor do prêmio e o beneficiário proposto. Depois eu mostro pra minha esposa e te retorno por ligação, combinado?"
+            },
+            {
+                "role": "HUMAN",
+                "text": "Então, é, quem propõe o beneficiário é você, não sou eu"
+            },
+            {
+                "role": "AI",
+                "text": "Perfeito, então me manda só o resumo com o valor do prêmio e o beneficiário pro WhatsApp que eu mostro pra minha esposa e te ligo depois."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Tá bom, pode deixar. Mas antes eu só queria entender o que exatamente você precisa mostrar pra sua esposa?"
+            },
+            {
+                "role": "AI",
+                "text": "Preciso que você mande só o resumo com o valor do prêmio mensal e quem está proposto como beneficiário.  \nSe tiver alguma observação rápida sobre carência ou início de vigência, inclui também."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Tá bom, pode deixar"
+            },
+            {
+                "role": "AI",
+                "text": "Perfeito. Vou esperar sua mensagem no WhatsApp e ligo depois que eu conversar com ela."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Ok"
+            },
+            {
+                "role": "AI",
+                "text": "Perfeito, fico no aguardo então."
+            },
+            {
+                "role": "HUMAN",
+                "text": "OK."
+            }
+        ],
+        "finished": true,
+        "feedback": "Aqui está o debriefing da nossa troca.\n\n  \n\n🤓 PERSONA\n\n- Cirurgião cardiotorácico, perfil DISC predominantemente vermelho, direto, objetivo e pragmático.\n  \n- A objeção principal da família CONSENTIMENTO: necessidade de falar com o cônjuge antes de decidir.\n\n  \n\n🎯 OBJETIVO PRINCIPAL\n\n- Houve esforço para descobrir a razão real do adiamento, mas o tratamento da objeção não ficou totalmente claro.\n  \n- O fechamento imediato não foi obtido; portanto, objetivo parcialmente atingido.\n\n  \n\n➕ PONTOS FORTES\n\n- Houve escuta ativa, com várias perguntas para buscar a raiz da objeção (“Sobre o que exatamente cê precisa pensar?”).\n  \n- Demonstrou empatia validando o envolvimento do cônjuge e acolhendo as dúvidas do cliente.\n  \n- Ofereceu disponibilidade para tirar dúvidas da esposa, mantendo abertura ao diálogo.\n\n  \n\n⚠️ PONTOS DE MELHORIA\n\n- Faltou aplicação clara de uma CHAVE específica para objeção de consentimento, como a história de conexão (“anel de brilhantes”) ou sugestão de ligar para a esposa naquele momento.\n\n  \n- Não houve reconexão explícita com as necessidades da ADN antes de propor o avanço.\n  \n- O fechamento não foi conduzido com perguntas de concordância tácita, resultando em aceitação passiva e não em adesão engajada.\n  \n- A argumentação girou em círculos sobre o beneficiário repetidas vezes, sem criar um gatilho emocional ou racional de urgência.\n\n  \n- Para avançar, utilize um fechamento mais consultivo, agregando impacto com frases de força e silêncio estratégico.\n\n  \n\n🩵 ANÁLISE EMOCIONAL\n\nO tom foi acolhedor, mas hesitante em vários momentos. O ritmo foi linear, sem variabilidade de entonação ou impacto, transmitindo leve insegurança.\n\n  \n\n🛅 MOMENTOS-CHAVE\n\nNa identificação do motivo da consulta ao cônjuge, houve exploração, mas faltou uma conclusão transformadora.\n\n  \nNa oferta de esclarecimento de dúvidas da esposa, abriu oportunidade, mas não fortaleceu o momentum: isso empatou a performance.\n\n  \n\n🔊 REFORMULAÇÕES RECOMENDADAS\n\n- “Seguro de vida não é uma questão de quando se quer fazer, e sim de enquanto se pode. Posso te ajudar a conversar com ela agora?”\n\n  \n- “Qual ponto você acredita que pode gerar dúvidas para ela? Prefere que eu explique diretamente?”\n\n  \n- “Se estiver tudo certo para você, podemos colocar a análise de risco em andamento já?”\n\n  \n- “Vamos deixar sua família protegida a partir de hoje?”\n\n  \n- “Prefere que eu ligue para vocês dois, assim esclareço tudo diretamente?”\n\n  \n\n➡️ RECOMENDAÇÕES\n\nBusque aplicar a CHAVE da objeção com histórias ou alternativas específicas. Reconecte sempre com as motivações do cliente e finalize com perguntas de fechamento tático. Practice, porque com pequenos ajustes, seu fechamento vai voar!",
+        "insights": [
+            "Cirurgião cardiotorácico, perfil DISC predominantemente vermelho, direto, objetivo e pragmático.",
+            "A objeção principal da família CONSENTIMENTO: necessidade de falar com o cônjuge antes de decidir.",
+            "Houve esforço para descobrir a razão real do adiamento, mas o tratamento da objeção não ficou totalmente claro.",
+            "O fechamento imediato não foi obtido; portanto, objetivo parcialmente atingido.",
+            "Houve escuta ativa, com várias perguntas para buscar a raiz da objeção (“Sobre o que exatamente cê precisa pensar?”).",
+            "Demonstrou empatia validando o envolvimento do cônjuge e acolhendo as dúvidas do cliente.",
+            "Ofereceu disponibilidade para tirar dúvidas da esposa, mantendo abertura ao diálogo.",
+            "Faltou aplicação clara de uma CHAVE específica para objeção de consentimento, como a história de conexão (“anel de brilhantes”) ou sugestão de ligar para a esposa naquele momento."
+        ]
+    },
+    {
+        "name": "Parceiro Rivorio3a12",
+        "agency": "Outros",
+        "region": "Outros",
         "date": "10/07/2026",
         "dur": "2m 37s",
         "score": 0,
@@ -18367,6 +19060,107 @@ const RAW_SIMULATIONS = [
             "Reforçou várias vezes o papel consultivo e personalizado do seu trabalho.",
             "Utilizou com insistência a escolha forçada entre dois horários, prática alinhada à metodologia.",
             "Explicou (sem exagerar) os benefícios relacionados à agilidade do pagamento e ausência de inventário."
+        ]
+    },
+    {
+        "name": "Parceiro Rivorio3a12",
+        "agency": "Outros",
+        "region": "Outros",
+        "date": "22/08/2026",
+        "dur": "1m 53s",
+        "score": 87,
+        "scenario": "OBJECAO_ADIAMENTO",
+        "lqa": 100,
+        "interactions": 19,
+        "messages": [
+            {
+                "role": "AI",
+                "text": "Achei a proposta muito interessante, mas preciso pensar um pouco melhor antes de decidir. Depois eu te dou uma resposta."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Claro, eu superentendo, mas só pra eu entender um pouquinho melhor, cê precisa pensar sobre que ponto exatamente"
+            },
+            {
+                "role": "AI",
+                "text": "Preciso pensar se o valor cabe no meu fluxo, porque meus rendimentos variam de mês para mês. Também quero confirmar quem vou nomear como beneficiária e como fica se eu precisar suspender o pagamento por um tempo."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Ah, entendi"
+            },
+            {
+                "role": "HUMAN",
+                "text": "Mas recapitulando um pouco, esse valor que eu te apresentei hoje não fica dentro daquele que a gente já tinha combinado na nossa primeira conversa? E além disso, eu não te apresentei também a opção de fazer o pagamento anual, assim, dessa forma, né? Essa variação de renda que você tem mês a mês não vai impactar tanto na sua proteção"
+            },
+            {
+                "role": "AI",
+                "text": "Sim, na primeira conversa a gente tinha esboçado um teto parecido, mas quero ter certeza que esse parcelamento mensal se ajusta nos meses mais fracos. Sobre anual, prefiro não pagar tudo de uma vez; existe uma opção de débito automático com carência para meses sem receita?"
+            },
+            {
+                "role": "HUMAN",
+                "text": "Ééé, ah, entendo, mas não, infelizmente a gente não tem essa opção, né? Até porque a sua proteção ela não pode ser pausada, você precisa ficar coberta, né, durante todo o, o período. Então a i-a ideia é essa, é você ficar muito bem protegida. Ééé"
+            },
+            {
+                "role": "HUMAN",
+                "text": "Esse valor é um valor que fica compatível com a sua renda, ainda que você tenha um mês um-- que, que tenha um recebimento um pouco abaixo, né, isso não impacta tanto. Foi por isso justamente que a gente ajustou esse valor na primeira conversa"
+            },
+            {
+                "role": "AI",
+                "text": "Certo, faz sentido. Então me diz uma coisa: se eu atrasar um pagamento por uns meses, quais são as consequências práticas no contrato?"
+            },
+            {
+                "role": "HUMAN",
+                "text": "Olha, a lei determina que, é, o pagamento de 30 dias-- a falta de pagamento de 30 dias, é, permite com que a seguradora cancele o contrato, mas aqui na MetLife a gente não faz dessa forma, né? A gente chega a esperar aí até três meses sem o pagamento do cliente antes de realmente cancelar. A gente busca entender, né, nós consultores conversamos com clientes e vamos buscar soluções pra compor, né, situações como essas. Então, é, cê pode ficar tranquila em relação a isso"
+            },
+            {
+                "role": "AI",
+                "text": "Ok, bom saber que há essa flexibilidade. Então me diz uma coisa direta: se eu precisar suspender por dois meses, depois eu volto a pagar normalmente sem carência extra ou perda de cobertura?"
+            },
+            {
+                "role": "HUMAN",
+                "text": "É, a princípio sim, você volta a pagar, né, você paga isso e você não perde tudo aquilo que você já tinha pago"
+            },
+            {
+                "role": "AI",
+                "text": "Beleza, então vou considerar que consigo pausar por até dois meses sem perder cobertura nem precisar cumprir carência extra. Uma última coisa: posso nomear a minha filha como beneficiária principal e minha irmã como secundária?"
+            },
+            {
+                "role": "HUMAN",
+                "text": "Claro, pode sim. É uma das grandes vantagens do seguro de vida que o beneficiário é de livre escolha"
+            },
+            {
+                "role": "AI",
+                "text": "Perfeito. Nesse caso, já que posso escolher livremente, quero colocar minha filha como beneficiária principal e minha irmã como secundária. Qual o próximo passo para formalizar isso?"
+            },
+            {
+                "role": "HUMAN",
+                "text": "Claro, sem problema nenhum. Eu já abri aqui o nosso sistema e a gente vai dar entrada aqui na sua análise de risco. Eu vou colher algumas informações importantes com você, inclusive de saúde, conforme eu já tinha te explicado. E aí, assim que a seguradora aprovar, é, o seu seguro, eu te aviso"
+            },
+            {
+                "role": "AI",
+                "text": "Ok, podemos seguir então. Podemos fazer a coleta das informações agora mesmo?"
+            },
+            {
+                "role": "HUMAN",
+                "text": "Claro, sem dúvidas, eu já dei início aqui"
+            },
+            {
+                "role": "AI",
+                "text": "Perfeito, podemos começar então. Pode me dizer quais"
+            }
+        ],
+        "finished": true,
+        "feedback": "Aqui está o debriefing da nossa troca. \n\n  \n🤓 PERSONA  \n  \n- Fernanda, cirurgiã-dentista, perfil DISC verde, organizada e pragmática.  \n- Apresentou resistência na família TEMPO (“preciso pensar melhor”) e, em estágio seguinte, dúvidas pontuais sobre pagamento e beneficiário.\n\n  \n🎯 OBJETIVO PRINCIPAL  \n  \n- Você conseguiu descobrir a razão do adiamento e tratar a objeção com escuta ativa e perguntas.  \n- O fechamento foi obtido com a cliente tranquila, satisfeita e sem pressão. Objetivo plenamente atingido.\n\n  \n➕ PONTOS FORTES  \n  \n- Sua escuta ativa foi clara ao pedir à cliente para especificar “o que exatamente” queria pensar, diferenciando o motivo real.  \n  \n- Proposta bem conectada à primeira conversa (“ajustamos esse valor juntos”), mostrando personalização e empatia.  \n  \n- Argumentação sobre o fluxo de pagamentos e flexibilização mostrou domínio técnico, trazendo segurança.  \n  \n- Você fez perguntas claras, explicou etapas e detalhou próximo passo sem apressar, mantendo a cliente confortável.  \n  \nÓtima condução, parabéns! Mantenha esse tom próximo e seguro.\n\n  \n⚠️ PONTOS DE MELHORIA  \n  \n- Faltou reforçar explicitamente o valor emocional da proteção para a filha, reconectando mais claramente à motivação de Fernanda.  \n  \n- A técnica dos “três sim” ou uma frase de impacto comercial (“seguro de vida é para quem vive”) poderia potencializar o momento de decisão, acompanhada de um breve silêncio.  \n  \n- Em alguns momentos, suas respostas ficaram um pouco longas ou explicativas demais. Tente ser ainda mais sintético sem perder o acolhimento.  \n  \nContinue praticando essas sutilezas e busque sempre reconectar a conversa à ADN do cliente.\n\n  \n🩵 ANÁLISE EMOCIONAL  \n  \nO tom foi próximo, acolhedor e gentil, mantendo ritmo calmo e vocabulário acessível. Estado emocional dominante: empático e seguro.\n\n  \n🛅 MOMENTOS-CHAVE  \n  \nSituação: Cliente hesitou (“preciso pensar melhor”).  \nVocê: Perguntou de forma aberta sobre qual ponto precisava refletir.  \nImpacto: Identificou a objeção verdadeira e abriu caminho para avançar sem pressão.\n\nSegundo momento: Ao detalhar opções de pagamento e esclarecer dúvidas sobre o beneficiário, percebeu o sinal de compra e conduziu com naturalidade ao fechamento.\n\n  \n🔊 REFORMULAÇÕES RECOMENDADAS  \n  \n- “Fernanda, quando você diz que precisa pensar, seria sobre fazer agora ou apenas sobre algum detalhe específico?”  \n  \n- “Muitas vezes, seguro de vida não é uma questão de quando queremos, e sim de enquanto podemos.”  \n  \n- “Se precisar mudar o beneficiário depois, isso pode ser feito com facilidade, está bem?”  \n  \n- “Posso preencher sua proposta e você me diz quem prefere colocar como beneficiário?”  \n  \n- “Podemos escolher o pagamento anual ou mensal: qual fica mais prático para sua rotina?”\n\n  \n➡️ RECOMENDAÇÕES  \n  \nMantenha a escuta ativa e sempre reconecte a decisão à motivação principal do cliente antes do fechamento. Treine frases de impacto seguidas de silêncio e continue evitando pressa ou pressão. Você está no caminho certo — com constância, esses detalhes farão toda diferença!",
+        "insights": [
+            "Fernanda, cirurgiã-dentista, perfil DISC verde, organizada e pragmática.",
+            "Apresentou resistência na família TEMPO (“preciso pensar melhor”) e, em estágio seguinte, dúvidas pontuais sobre pagamento e beneficiário.",
+            "Você conseguiu descobrir a razão do adiamento e tratar a objeção com escuta ativa e perguntas.",
+            "O fechamento foi obtido com a cliente tranquila, satisfeita e sem pressão. Objetivo plenamente atingido.",
+            "Sua escuta ativa foi clara ao pedir à cliente para especificar “o que exatamente” queria pensar, diferenciando o motivo real.",
+            "Proposta bem conectada à primeira conversa (“ajustamos esse valor juntos”), mostrando personalização e empatia.",
+            "Argumentação sobre o fluxo de pagamentos e flexibilização mostrou domínio técnico, trazendo segurança.",
+            "Você fez perguntas claras, explicou etapas e detalhou próximo passo sem apressar, mantendo a cliente confortável."
         ]
     },
     {
@@ -20958,6 +21752,67 @@ const RAW_SIMULATIONS = [
         "finished": false,
         "feedback": "",
         "insights": []
+    },
+    {
+        "name": "Parceiro Rivorio3a12",
+        "agency": "Outros",
+        "region": "Outros",
+        "date": "22/08/2026",
+        "dur": "0m 41s",
+        "score": 41,
+        "scenario": "OBJECAO_ADIAMENTO",
+        "lqa": "N/A",
+        "interactions": 9,
+        "messages": [
+            {
+                "role": "AI",
+                "text": "Achei a proposta muito clara e faz sentido, mas preciso conversar com meu marido antes de decidir. Depois te dou uma resposta."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Ah, sim, entendo. Que bom que você achou nossa proposta clara e objetiva. Sobre o que exatamente cê precisa conversar com seu marido?"
+            },
+            {
+                "role": "AI",
+                "text": "Preciso alinhar com ele sobre o custo no orçamento doméstico e confirmar quem será o beneficiário principal. Posso conversar hoje à noite e te retorno amanhã."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Ah, perfeito. Mas sobre o valor, a gente já tinha alinhado isso na primeira reunião, você já tinha confirmado com ele. Então eu fiz o orçamento todo baseado naquelas informações que você já tinha me passado"
+            },
+            {
+                "role": "AI",
+                "text": "Certo, obrigado por confirmar. Vou conversar com ele hoje à noite sobre o impacto no orçamento e confirmo amanhã cedo."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Ah, super entendo, mas existe aqui-- como é que a gente segue normalmente, né? Eu dou entrada na análise de risco do cliente e aí sendo aprovada a proposta, a gente dá segmento"
+            },
+            {
+                "role": "AI",
+                "text": "Certo, então segue como combinamos: eu converso com meu marido hoje à noite e te retorno amanhã cedo com a decisão."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Entendo. Ficou alguma dúvida específica sobre valores? É, cê co-- achou que a-as coberturas que eu apresentei estão adequadas, os valores de capital segurado estão adequados?"
+            },
+            {
+                "role": "AI",
+                "text": "Não, não tenho dúvida técnica sobre os valores. Vou apenas confirmar com meu marido se o prêmio cabe no fluxo familiar e quem será o beneficiário principal. Retorno amanhã cedo com a posição."
+            }
+        ],
+        "finished": true,
+        "feedback": "Aqui está o debriefing da nossa troca.\n\n  \n\n🤓 PERSONA\n\n- Executivo bancário do tipo DISC vermelho, muito analítico e direto.\n  \n- Objeção principal de consentimento: necessidade de validar a decisão com o cônjuge.\n\n  \n\n🎯 OBJETIVO PRINCIPAL\n\n- O corretor explorou a hesitação, fez perguntas para descobrir a razão do adiamento, mas não tratou a objeção com uma CHAVE concreta.\n  \n- O fechamento imediato não foi atingido, faltou alinhamento consultivo e progressão efetiva rumo ao sim.\n\n  \n\n➕ PONTOS FORTES\n\n- Demonstrou escuta ativa ao acolher o motivo de adiamento e perguntar diretamente sobre o que precisava consultar.\n  \n- Buscou confirmar se o ponto de valor já havia sido esclarecido desde a reunião anterior.\n  \n- Demonstrou interesse genuíno na preocupação do cliente, ajustando o discurso conforme a resposta.\n  \nParabéns por manter o tom acolhedor, mesmo diante da resistência!\n\n  \n\n⚠️ PONTOS DE MELHORIA\n\n- Faltou aplicar a CHAVE da objeção de consentimento: reconhecer o papel do cônjuge e contar a história do “Anel de Brilhantes” ou propor alternativa concreta (ligação, agendamento com ambos).\n  \n- Não houve retomada clara das necessidades da ADN antes de sugerir o avanço.\n  \n- A proposta de “dar entrada na análise de risco” ficou genérica e pouco vinculada ao valor emocional da decisão para o cliente.\n  \n- O corretor não usou frase de impacto comercial nem silêncio estratégico para reforçar momentum.\n  \nCom pequenos ajustes na prática das CHAVES, sua taxa de conversão pode saltar!\n\n  \n\n🩵 ANÁLISE EMOCIONAL\n\nO tom foi acolhedor, com vocabulário acessível e ritmo respeitoso, porém faltou assertividade e comando consultivo para avançar.\n\n  \n\n🛅 MOMENTOS-CHAVE\n\nSituação: Cliente justifica o adiamento pela validação com o cônjuge → O corretor explora o tema mas não valoriza a decisão individual nem propõe avanço concreto → Perde-se a oportunidade de fechar pelo impulso consultivo.\n\n  \n\n🔊 REFORMULAÇÕES RECOMENDADAS\n\n“Ricardo, deixa eu te perguntar: a decisão é sobre fazer o seguro ou só sobre alguns detalhes do valor?”\n\n“Tem decisões que ficam ainda mais especiais quando são surpresa para quem a gente mais quer proteger, como um anel de brilhantes. Será que agora não é um desses momentos?”\n\n“Posso já deixar tudo encaminhado para garantir as condições, colocando sua esposa como beneficiária?”\n\n“Quer agendar comigo uma rápida ligação com a Beatriz para decidirem juntos?”\n\n  \n\n➡️ RECOMENDAÇÕES\n\nReconheça legitimamente a importância do cônjuge, use uma história ou alternativa assertiva, retome as necessidades levantadas e feche consultivamente. Um fechamento ético e consultivo é sempre mais impactante. Siga evoluindo com confiança e foco!",
+        "insights": [
+            "Executivo bancário do tipo DISC vermelho, muito analítico e direto.",
+            "Objeção principal de consentimento: necessidade de validar a decisão com o cônjuge.",
+            "O corretor explorou a hesitação, fez perguntas para descobrir a razão do adiamento, mas não tratou a objeção com uma CHAVE concreta.",
+            "O fechamento imediato não foi atingido, faltou alinhamento consultivo e progressão efetiva rumo ao sim.",
+            "Demonstrou escuta ativa ao acolher o motivo de adiamento e perguntar diretamente sobre o que precisava consultar.",
+            "Buscou confirmar se o ponto de valor já havia sido esclarecido desde a reunião anterior.",
+            "Demonstrou interesse genuíno na preocupação do cliente, ajustando o discurso conforme a resposta.",
+            "Faltou aplicar a CHAVE da objeção de consentimento: reconhecer o papel do cônjuge e contar a história do “Anel de Brilhantes” ou propor alternativa concreta (ligação, agendamento com ambos)."
+        ]
     },
     {
         "name": "Parceiro Luark",

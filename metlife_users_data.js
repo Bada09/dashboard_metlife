@@ -1,15 +1,15 @@
 const users = [
     {
-        "avgDurSec": 44,
-        "avgScore": 68.8,
+        "avgDurSec": 42,
+        "avgScore": 70.3,
         "skills": {
-            "Escuta": 72.2,
+            "Escuta": 76.5,
             "Personalizacao": 75.0,
-            "Empatia": 81.4,
-            "Crises": 73.4,
-            "Padroes": 68.6
+            "Empatia": 75.2,
+            "Crises": 73.8,
+            "Padroes": 78.3
         },
-        "count": 26,
+        "count": 27,
         "insights": {
             "pt": [
                 "Interpretei André, médico clínico geral, perfil DISC vermelho (direto, exigente), com objeção principal de adiamento para pensar melhor.",
@@ -58,6 +58,7 @@ const users = [
             "11/08/2026",
             "13/08/2026",
             "13/08/2026",
+            "21/08/2026",
             "12/08/2026",
             "04/08/2026",
             "04/08/2026",
@@ -112,11 +113,11 @@ const users = [
         "avgDurSec": 17,
         "avgScore": 49.7,
         "skills": {
-            "Escuta": 51.1,
-            "Personalizacao": 57.8,
-            "Empatia": 49.7,
-            "Crises": 57.6,
-            "Padroes": 54.3
+            "Escuta": 54.0,
+            "Personalizacao": 62.1,
+            "Empatia": 47.2,
+            "Crises": 48.1,
+            "Padroes": 60.6
         },
         "count": 23,
         "insights": {
@@ -183,11 +184,11 @@ const users = [
         "avgDurSec": 55,
         "avgScore": 63.7,
         "skills": {
-            "Escuta": 74.7,
-            "Personalizacao": 77.0,
-            "Empatia": 64.0,
-            "Crises": 68.7,
-            "Padroes": 70.0
+            "Escuta": 63.3,
+            "Personalizacao": 69.3,
+            "Empatia": 64.7,
+            "Crises": 65.7,
+            "Padroes": 70.3
         },
         "count": 8,
         "insights": {
@@ -239,11 +240,11 @@ const users = [
         "avgDurSec": 56,
         "avgScore": 57.0,
         "skills": {
-            "Escuta": 56.5,
-            "Personalizacao": 57.5,
-            "Empatia": 54.0,
-            "Crises": 76.5,
-            "Padroes": 53.0
+            "Escuta": 58.0,
+            "Personalizacao": 71.5,
+            "Empatia": 53.5,
+            "Crises": 59.0,
+            "Padroes": 71.5
         },
         "count": 14,
         "insights": {
@@ -298,18 +299,21 @@ const users = [
         "avgDurMin": 1
     },
     {
-        "avgDurSec": 26,
-        "avgScore": 54.1,
+        "avgDurSec": 21,
+        "avgScore": 54.9,
         "skills": {
-            "Escuta": 56.2,
-            "Personalizacao": 60.5,
-            "Empatia": 59.1,
-            "Crises": 63.9,
-            "Padroes": 52.2
+            "Escuta": 65.1,
+            "Personalizacao": 72.4,
+            "Empatia": 57.6,
+            "Crises": 56.1,
+            "Padroes": 65.1
         },
-        "count": 16,
+        "count": 18,
         "insights": {
             "pt": [
+                "A escuta ativa foi prejudicada por excesso de explicações e pouco espaço para as respostas da prospect — ritmo acelerado.",
+                "Entendi sua correria, mas em quinze minutos conseguimos esclarecer se faz sentido pra você — pode ser presencial ou online!",
+                "E se combinássemos um bate-papo já nos próximos dias, segunda às nove ou terça às onze, o que te atende melhor?",
                 "Utilizou o nome recomendado no início (“Débora, que tem um salão de beleza…”), ativando o gatilho da recomendação.",
                 "Demonstrou iniciativa para propor reunião em curto prazo, seguindo a lógica do agendamento ágil.",
                 "Adotou linguagem simples e direta, mantendo ritmo prático.",
@@ -320,6 +324,9 @@ const users = [
                 "A reconfirmação do agendamento ficou superficial, sem detalhar local ou fins da reunião."
             ],
             "fr": [
+                "A escuta ativa foi prejudicada por excesso de explicações e pouco espaço para as respostas da prospect — ritmo acelerado.",
+                "Entendi sua correria, mas em quinze minutos conseguimos esclarecer se faz sentido pra você — pode ser presencial ou online!",
+                "E se combinássemos um bate-papo já nos próximos dias, segunda às nove ou terça às onze, o que te atende melhor?",
                 "Utilizou o nome recomendado no início (“Débora, que tem um salão de beleza…”), ativando o gatilho da recomendação.",
                 "Demonstrou iniciativa para propor reunião em curto prazo, seguindo a lógica do agendamento ágil.",
                 "Adotou linguagem simples e direta, mantendo ritmo prático.",
@@ -342,6 +349,7 @@ const users = [
             "fr": "Continuer a pratiquer et travailler les points d amelioration identifies."
         },
         "dates": [
+            "19/08/2026",
             "02/07/2026",
             "03/07/2026",
             "03/07/2026",
@@ -357,7 +365,8 @@ const users = [
             "06/07/2026",
             "06/07/2026",
             "10/07/2026",
-            "10/07/2026"
+            "10/07/2026",
+            "19/08/2026"
         ],
         "avgDurMin": 1
     },
@@ -435,11 +444,11 @@ const users = [
         "avgDurSec": 8,
         "avgScore": 74.5,
         "skills": {
-            "Escuta": 69.8,
-            "Personalizacao": 83.5,
-            "Empatia": 80.8,
-            "Crises": 75.0,
-            "Padroes": 78.0
+            "Escuta": 80.0,
+            "Personalizacao": 87.0,
+            "Empatia": 75.8,
+            "Crises": 68.8,
+            "Padroes": 78.5
         },
         "count": 6,
         "insights": {
@@ -489,11 +498,11 @@ const users = [
         "avgDurSec": 6,
         "avgScore": 38.1,
         "skills": {
-            "Escuta": 45.4,
-            "Personalizacao": 49.1,
-            "Empatia": 36.6,
-            "Crises": 40.9,
-            "Padroes": 35.9
+            "Escuta": 45.0,
+            "Personalizacao": 46.9,
+            "Empatia": 37.6,
+            "Crises": 39.4,
+            "Padroes": 37.4
         },
         "count": 18,
         "insights": {
@@ -555,11 +564,11 @@ const users = [
         "avgDurSec": 5,
         "avgScore": 56.0,
         "skills": {
-            "Escuta": 62.5,
-            "Personalizacao": 77.5,
-            "Empatia": 57.0,
-            "Crises": 58.5,
-            "Padroes": 77.0
+            "Escuta": 51.5,
+            "Personalizacao": 62.0,
+            "Empatia": 58.5,
+            "Crises": 65.0,
+            "Padroes": 67.0
         },
         "count": 3,
         "insights": {
@@ -682,11 +691,11 @@ const users = [
         "avgDurSec": 14,
         "avgScore": 66.2,
         "skills": {
-            "Escuta": 68.9,
-            "Personalizacao": 72.4,
-            "Empatia": 68.1,
-            "Crises": 75.5,
-            "Padroes": 69.1
+            "Escuta": 71.8,
+            "Personalizacao": 74.6,
+            "Empatia": 68.5,
+            "Crises": 65.4,
+            "Padroes": 77.6
         },
         "count": 17,
         "insights": {
@@ -744,48 +753,36 @@ const users = [
         "avgDurMin": 2
     },
     {
-        "avgDurSec": 10,
-        "avgScore": 67.1,
+        "avgDurSec": 23,
+        "avgScore": 66.5,
         "skills": {
-            "Escuta": 68.7,
-            "Personalizacao": 79.8,
-            "Empatia": 66.8,
-            "Crises": 71.6,
-            "Padroes": 67.4
+            "Escuta": 66.3,
+            "Personalizacao": 75.0,
+            "Empatia": 67.7,
+            "Crises": 73.9,
+            "Padroes": 69.7
         },
-        "count": 18,
+        "count": 21,
         "insights": {
             "pt": [
-                "Você iniciou agradecendo e reconhecendo a escolha do cliente, valorizando o momento pós-venda.",
-                "Demonstrou preocupação em receber feedback sincero para entender a percepção sobre o processo.",
-                "Explicou a importância das recomendações na consultoria, enfatizando o propósito de proteção.",
-                "Segmentou bem os perfis sugeridos, dando exemplos concretos para facilitar a memória da cliente.",
-                "Humanização das indicações",
-                "Continue praticando: pequenas melhorias trarão grandes saltos!",
-                "Interpretei um cliente perfil azul DISC: engenheiro, racional, metódico, valorizando segurança, com resistência natural a abordagens comerciais apressadas.",
-                "Você iniciou com reconhecimento e parabenização, valorizando a escolha do cliente e criando um ambiente receptivo.",
-                "Buscou identificar pontos de satisfação, alinhando suas perguntas à experiência perceptível da cliente.",
-                "Segmentou de forma razoável os perfis a serem indicados, citando profissões e situações familiares, estimulando a memória da cliente.",
-                "Manteve uma conversa informal, evitando pressão direta nos primeiros minutos. Boa postura consultiva!",
-                "Faltou pedir autorização explícita para mencionar o nome da cliente no contato com os indicados, elemento-chave do método.",
-                "Nas perguntas sobre indicações, você partiu rápido para “quem mais?”, o que soou levemente insistente e “interrogatório”, perdendo calor humano.",
-                "Mostrou impaciência na sequência de perguntas (“Ah, quem mais? Perfeito, quem mais?”), arriscando entrar em modo checklist, o que pode travar a colaboração."
+                "Participei como Patrícia, uma cliente perfil azul do DISC: analítica, exigente, racional e muito focada em clareza e cautela.",
+                "Reconhecimento explícito da importância da decisão do cliente logo na abertura, valorizando a confiança e a proteção familiar.",
+                "Tentativa de levar o cliente a verbalizar sua satisfação com o serviço e a solução apresentada.",
+                "Esclarecimento sobre o processo de indicação, explicando de forma transparente como será feita a abordagem junto aos indicados.",
+                "Abordagem consultiva e empática, sem pressa ou pressão exagerada ao tratar das recomendações.",
+                "Faltaram pedidos concretos de nomes: em nenhum momento foi solicitado explicitamente que o cliente fornecesse “nomes” ou perfis específicos, o que impediu a coleta das recomendações efetivas.",
+                "Segmentação insuficiente",
+                "Não confirmou detalhadamente a permissão para citar o nome, nem coletou informações qualitativas sobre os recomendados, o que ajudaria no contato personalizado."
             ],
             "fr": [
-                "Você iniciou agradecendo e reconhecendo a escolha do cliente, valorizando o momento pós-venda.",
-                "Demonstrou preocupação em receber feedback sincero para entender a percepção sobre o processo.",
-                "Explicou a importância das recomendações na consultoria, enfatizando o propósito de proteção.",
-                "Segmentou bem os perfis sugeridos, dando exemplos concretos para facilitar a memória da cliente.",
-                "Humanização das indicações",
-                "Continue praticando: pequenas melhorias trarão grandes saltos!",
-                "Interpretei um cliente perfil azul DISC: engenheiro, racional, metódico, valorizando segurança, com resistência natural a abordagens comerciais apressadas.",
-                "Você iniciou com reconhecimento e parabenização, valorizando a escolha do cliente e criando um ambiente receptivo.",
-                "Buscou identificar pontos de satisfação, alinhando suas perguntas à experiência perceptível da cliente.",
-                "Segmentou de forma razoável os perfis a serem indicados, citando profissões e situações familiares, estimulando a memória da cliente.",
-                "Manteve uma conversa informal, evitando pressão direta nos primeiros minutos. Boa postura consultiva!",
-                "Faltou pedir autorização explícita para mencionar o nome da cliente no contato com os indicados, elemento-chave do método.",
-                "Nas perguntas sobre indicações, você partiu rápido para “quem mais?”, o que soou levemente insistente e “interrogatório”, perdendo calor humano.",
-                "Mostrou impaciência na sequência de perguntas (“Ah, quem mais? Perfeito, quem mais?”), arriscando entrar em modo checklist, o que pode travar a colaboração."
+                "Participei como Patrícia, uma cliente perfil azul do DISC: analítica, exigente, racional e muito focada em clareza e cautela.",
+                "Reconhecimento explícito da importância da decisão do cliente logo na abertura, valorizando a confiança e a proteção familiar.",
+                "Tentativa de levar o cliente a verbalizar sua satisfação com o serviço e a solução apresentada.",
+                "Esclarecimento sobre o processo de indicação, explicando de forma transparente como será feita a abordagem junto aos indicados.",
+                "Abordagem consultiva e empática, sem pressa ou pressão exagerada ao tratar das recomendações.",
+                "Faltaram pedidos concretos de nomes: em nenhum momento foi solicitado explicitamente que o cliente fornecesse “nomes” ou perfis específicos, o que impediu a coleta das recomendações efetivas.",
+                "Segmentação insuficiente",
+                "Não confirmou detalhadamente a permissão para citar o nome, nem coletou informações qualitativas sobre os recomendados, o que ajudaria no contato personalizado."
             ]
         },
         "name": "Parceiro Inside24mais",
@@ -800,6 +797,7 @@ const users = [
             "fr": "Continuer a pratiquer et travailler les points d amelioration identifies."
         },
         "dates": [
+            "20/08/2026",
             "08/07/2026",
             "08/07/2026",
             "08/07/2026",
@@ -812,12 +810,14 @@ const users = [
             "15/07/2026",
             "15/07/2026",
             "15/07/2026",
+            "20/08/2026",
             "30/07/2026",
             "30/07/2026",
             "30/07/2026",
             "03/08/2026",
             "03/08/2026",
-            "04/08/2026"
+            "04/08/2026",
+            "20/08/2026"
         ],
         "avgDurMin": 1
     },
@@ -912,11 +912,11 @@ const users = [
         "avgDurSec": 3,
         "avgScore": 58.0,
         "skills": {
-            "Escuta": 59.3,
-            "Personalizacao": 75.6,
-            "Empatia": 58.9,
-            "Crises": 66.0,
-            "Padroes": 61.6
+            "Escuta": 56.3,
+            "Personalizacao": 63.7,
+            "Empatia": 56.1,
+            "Crises": 64.4,
+            "Padroes": 69.7
         },
         "count": 19,
         "insights": {
@@ -979,11 +979,11 @@ const users = [
         "avgDurSec": 12,
         "avgScore": 54.7,
         "skills": {
-            "Escuta": 57.0,
-            "Personalizacao": 65.3,
-            "Empatia": 50.0,
-            "Crises": 55.3,
-            "Padroes": 63.7
+            "Escuta": 55.7,
+            "Personalizacao": 62.3,
+            "Empatia": 48.3,
+            "Crises": 65.3,
+            "Padroes": 59.3
         },
         "count": 8,
         "insights": {
@@ -1035,11 +1035,11 @@ const users = [
         "avgDurSec": 21,
         "avgScore": 58.7,
         "skills": {
-            "Escuta": 59.9,
-            "Personalizacao": 64.8,
-            "Empatia": 57.3,
-            "Crises": 57.3,
-            "Padroes": 64.8
+            "Escuta": 62.9,
+            "Personalizacao": 70.7,
+            "Empatia": 57.1,
+            "Crises": 61.4,
+            "Padroes": 65.4
         },
         "count": 23,
         "insights": {
@@ -1106,11 +1106,11 @@ const users = [
         "avgDurSec": 27,
         "avgScore": 65.8,
         "skills": {
-            "Escuta": 71.3,
-            "Personalizacao": 77.0,
-            "Empatia": 75.2,
-            "Crises": 73.0,
-            "Padroes": 71.2
+            "Escuta": 72.2,
+            "Personalizacao": 80.7,
+            "Empatia": 63.2,
+            "Crises": 63.8,
+            "Padroes": 78.0
         },
         "count": 7,
         "insights": {
@@ -1161,11 +1161,11 @@ const users = [
         "avgDurSec": 27,
         "avgScore": 37.7,
         "skills": {
-            "Escuta": 43.5,
-            "Personalizacao": 45.9,
-            "Empatia": 38.4,
-            "Crises": 41.9,
-            "Padroes": 44.2
+            "Escuta": 42.4,
+            "Personalizacao": 45.0,
+            "Empatia": 41.6,
+            "Crises": 40.7,
+            "Padroes": 41.8
         },
         "count": 90,
         "insights": {
@@ -1299,11 +1299,11 @@ const users = [
         "avgDurSec": 25,
         "avgScore": 46.5,
         "skills": {
-            "Escuta": 47.5,
-            "Personalizacao": 59.5,
-            "Empatia": 62.0,
-            "Crises": 57.5,
-            "Padroes": 43.0
+            "Escuta": 55.5,
+            "Personalizacao": 54.5,
+            "Empatia": 51.0,
+            "Crises": 67.0,
+            "Padroes": 56.0
         },
         "count": 5,
         "insights": {
@@ -1349,42 +1349,42 @@ const users = [
         "avgDurMin": 0
     },
     {
-        "avgDurSec": 39,
-        "avgScore": 64.3,
+        "avgDurSec": 38,
+        "avgScore": 63.5,
         "skills": {
-            "Escuta": 66.2,
-            "Personalizacao": 72.6,
-            "Empatia": 68.6,
-            "Crises": 67.7,
-            "Padroes": 67.6
+            "Escuta": 66.6,
+            "Personalizacao": 72.0,
+            "Empatia": 65.8,
+            "Crises": 65.1,
+            "Padroes": 72.0
         },
-        "count": 45,
+        "count": 48,
         "insights": {
             "pt": [
-                "Você apresentou a solicitação de indicações logo após o fechamento, aproveitando o momento quente da satisfação.",
-                "Explicou que não tomaria nenhuma iniciativa sem o conhecimento prévio do cliente, demonstrando preocupação com a privacidade.",
-                "Deixou transparente que a sua atuação é baseada em indicações, buscando normalizar o pedido.",
-                "Muito bom ao mostrar intenção clara e respeito — siga nessa linha de transparência!",
-                "Falta de reconhecimento explícito",
-                "Ausência de identificação de valor percebido",
-                "Ausência de segmentação",
-                "Situação: Pedido imediato de nomes sem reconhecimento prévio."
+                "Executivo bancário do tipo DISC vermelho, muito analítico e direto.",
+                "Objeção principal de consentimento: necessidade de validar a decisão com o cônjuge.",
+                "O corretor explorou a hesitação, fez perguntas para descobrir a razão do adiamento, mas não tratou a objeção com uma CHAVE concreta.",
+                "O fechamento imediato não foi atingido, faltou alinhamento consultivo e progressão efetiva rumo ao sim.",
+                "Demonstrou escuta ativa ao acolher o motivo de adiamento e perguntar diretamente sobre o que precisava consultar.",
+                "Buscou confirmar se o ponto de valor já havia sido esclarecido desde a reunião anterior.",
+                "Demonstrou interesse genuíno na preocupação do cliente, ajustando o discurso conforme a resposta.",
+                "Faltou aplicar a CHAVE da objeção de consentimento: reconhecer o papel do cônjuge e contar a história do “Anel de Brilhantes” ou propor alternativa concreta (ligação, agendamento com ambos)."
             ],
             "fr": [
-                "Você apresentou a solicitação de indicações logo após o fechamento, aproveitando o momento quente da satisfação.",
-                "Explicou que não tomaria nenhuma iniciativa sem o conhecimento prévio do cliente, demonstrando preocupação com a privacidade.",
-                "Deixou transparente que a sua atuação é baseada em indicações, buscando normalizar o pedido.",
-                "Muito bom ao mostrar intenção clara e respeito — siga nessa linha de transparência!",
-                "Falta de reconhecimento explícito",
-                "Ausência de identificação de valor percebido",
-                "Ausência de segmentação",
-                "Situação: Pedido imediato de nomes sem reconhecimento prévio."
+                "Executivo bancário do tipo DISC vermelho, muito analítico e direto.",
+                "Objeção principal de consentimento: necessidade de validar a decisão com o cônjuge.",
+                "O corretor explorou a hesitação, fez perguntas para descobrir a razão do adiamento, mas não tratou a objeção com uma CHAVE concreta.",
+                "O fechamento imediato não foi atingido, faltou alinhamento consultivo e progressão efetiva rumo ao sim.",
+                "Demonstrou escuta ativa ao acolher o motivo de adiamento e perguntar diretamente sobre o que precisava consultar.",
+                "Buscou confirmar se o ponto de valor já havia sido esclarecido desde a reunião anterior.",
+                "Demonstrou interesse genuíno na preocupação do cliente, ajustando o discurso conforme a resposta.",
+                "Faltou aplicar a CHAVE da objeção de consentimento: reconhecer o papel do cônjuge e contar a história do “Anel de Brilhantes” ou propor alternativa concreta (ligação, agendamento com ambos)."
             ]
         },
         "name": "Parceiro Rivorio3a12",
         "agency": "Outros",
         "region": "Outros",
-        "lqaScore": 85.7,
+        "lqaScore": 87.5,
         "languages": [
             "PT"
         ],
@@ -1393,6 +1393,7 @@ const users = [
             "fr": "Continuer a pratiquer et travailler les points d amelioration identifies."
         },
         "dates": [
+            "22/08/2026",
             "10/07/2026",
             "10/07/2026",
             "10/07/2026",
@@ -1402,6 +1403,7 @@ const users = [
             "10/07/2026",
             "14/07/2026",
             "14/07/2026",
+            "22/08/2026",
             "23/07/2026",
             "23/07/2026",
             "23/07/2026",
@@ -1437,7 +1439,8 @@ const users = [
             "02/08/2026",
             "02/08/2026",
             "02/08/2026",
-            "02/08/2026"
+            "02/08/2026",
+            "22/08/2026"
         ],
         "avgDurMin": 1
     },
@@ -1585,11 +1588,11 @@ const users = [
         "avgDurSec": 30,
         "avgScore": 61.0,
         "skills": {
-            "Escuta": 82.0,
-            "Personalizacao": 66.0,
-            "Empatia": 57.0,
-            "Crises": 55.0,
-            "Padroes": 75.0
+            "Escuta": 76.0,
+            "Personalizacao": 79.0,
+            "Empatia": 69.0,
+            "Crises": 74.0,
+            "Padroes": 47.0
         },
         "count": 7,
         "insights": {
@@ -1640,11 +1643,11 @@ const users = [
         "avgDurSec": 34,
         "avgScore": 60.5,
         "skills": {
-            "Escuta": 56.4,
-            "Personalizacao": 62.8,
-            "Empatia": 62.5,
-            "Crises": 61.0,
-            "Padroes": 68.1
+            "Escuta": 60.1,
+            "Personalizacao": 67.1,
+            "Empatia": 59.8,
+            "Crises": 58.0,
+            "Padroes": 60.0
         },
         "count": 56,
         "insights": {
@@ -1779,11 +1782,11 @@ const users = [
         "avgDurSec": 31,
         "avgScore": 57.7,
         "skills": {
-            "Escuta": 61.7,
-            "Personalizacao": 68.5,
-            "Empatia": 62.3,
-            "Crises": 62.3,
-            "Padroes": 62.8
+            "Escuta": 61.1,
+            "Personalizacao": 69.4,
+            "Empatia": 56.7,
+            "Crises": 59.7,
+            "Padroes": 69.4
         },
         "count": 75,
         "insights": {
@@ -1974,11 +1977,11 @@ const users = [
         "avgDurSec": 7,
         "avgScore": 41.0,
         "skills": {
-            "Escuta": 41.8,
-            "Personalizacao": 57.0,
-            "Empatia": 51.1,
-            "Crises": 54.5,
-            "Padroes": 41.9
+            "Escuta": 42.8,
+            "Personalizacao": 45.9,
+            "Empatia": 44.1,
+            "Crises": 47.1,
+            "Padroes": 50.9
         },
         "count": 20,
         "insights": {
@@ -2077,11 +2080,11 @@ const users = [
         "avgDurSec": 54,
         "avgScore": 41.5,
         "skills": {
-            "Escuta": 45.9,
-            "Personalizacao": 53.7,
-            "Empatia": 46.8,
-            "Crises": 47.9,
-            "Padroes": 47.5
+            "Escuta": 42.7,
+            "Personalizacao": 53.9,
+            "Empatia": 48.1,
+            "Crises": 45.7,
+            "Padroes": 50.9
         },
         "count": 18,
         "insights": {
