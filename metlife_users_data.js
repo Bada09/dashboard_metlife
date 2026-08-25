@@ -3,11 +3,11 @@ const users = [
         "avgDurSec": 42,
         "avgScore": 70.3,
         "skills": {
-            "Escuta": 76.5,
-            "Personalizacao": 75.0,
-            "Empatia": 75.2,
-            "Crises": 73.8,
-            "Padroes": 78.3
+            "Escuta": 68.3,
+            "Personalizacao": 68.5,
+            "Empatia": 73.5,
+            "Crises": 79.3,
+            "Padroes": 75.7
         },
         "count": 27,
         "insights": {
@@ -113,11 +113,11 @@ const users = [
         "avgDurSec": 17,
         "avgScore": 49.7,
         "skills": {
-            "Escuta": 54.0,
-            "Personalizacao": 62.1,
-            "Empatia": 47.2,
-            "Crises": 48.1,
-            "Padroes": 60.6
+            "Escuta": 57.8,
+            "Personalizacao": 58.8,
+            "Empatia": 54.0,
+            "Crises": 54.3,
+            "Padroes": 51.1
         },
         "count": 23,
         "insights": {
@@ -184,11 +184,11 @@ const users = [
         "avgDurSec": 55,
         "avgScore": 63.7,
         "skills": {
-            "Escuta": 63.3,
-            "Personalizacao": 69.3,
-            "Empatia": 64.7,
-            "Crises": 65.7,
-            "Padroes": 70.3
+            "Escuta": 71.3,
+            "Personalizacao": 72.0,
+            "Empatia": 60.7,
+            "Crises": 63.7,
+            "Padroes": 66.3
         },
         "count": 8,
         "insights": {
@@ -240,11 +240,11 @@ const users = [
         "avgDurSec": 56,
         "avgScore": 57.0,
         "skills": {
-            "Escuta": 58.0,
-            "Personalizacao": 71.5,
-            "Empatia": 53.5,
-            "Crises": 59.0,
-            "Padroes": 71.5
+            "Escuta": 61.5,
+            "Personalizacao": 59.0,
+            "Empatia": 63.0,
+            "Crises": 66.5,
+            "Padroes": 62.5
         },
         "count": 14,
         "insights": {
@@ -302,11 +302,11 @@ const users = [
         "avgDurSec": 21,
         "avgScore": 54.9,
         "skills": {
-            "Escuta": 65.1,
-            "Personalizacao": 72.4,
-            "Empatia": 57.6,
-            "Crises": 56.1,
-            "Padroes": 65.1
+            "Escuta": 62.1,
+            "Personalizacao": 65.7,
+            "Empatia": 62.3,
+            "Crises": 57.0,
+            "Padroes": 51.7
         },
         "count": 18,
         "insights": {
@@ -444,11 +444,11 @@ const users = [
         "avgDurSec": 8,
         "avgScore": 74.5,
         "skills": {
-            "Escuta": 80.0,
-            "Personalizacao": 87.0,
-            "Empatia": 75.8,
-            "Crises": 68.8,
-            "Padroes": 78.5
+            "Escuta": 76.8,
+            "Personalizacao": 81.0,
+            "Empatia": 85.2,
+            "Crises": 79.0,
+            "Padroes": 70.8
         },
         "count": 6,
         "insights": {
@@ -498,11 +498,11 @@ const users = [
         "avgDurSec": 6,
         "avgScore": 38.1,
         "skills": {
-            "Escuta": 45.0,
-            "Personalizacao": 46.9,
-            "Empatia": 37.6,
-            "Crises": 39.4,
-            "Padroes": 37.4
+            "Escuta": 40.6,
+            "Personalizacao": 41.3,
+            "Empatia": 42.7,
+            "Crises": 40.4,
+            "Padroes": 37.0
         },
         "count": 18,
         "insights": {
@@ -564,11 +564,11 @@ const users = [
         "avgDurSec": 5,
         "avgScore": 56.0,
         "skills": {
-            "Escuta": 51.5,
-            "Personalizacao": 62.0,
-            "Empatia": 58.5,
-            "Crises": 65.0,
-            "Padroes": 67.0
+            "Escuta": 64.0,
+            "Personalizacao": 84.5,
+            "Empatia": 64.0,
+            "Crises": 68.5,
+            "Padroes": 59.0
         },
         "count": 3,
         "insights": {
@@ -691,11 +691,11 @@ const users = [
         "avgDurSec": 14,
         "avgScore": 66.2,
         "skills": {
-            "Escuta": 71.8,
-            "Personalizacao": 74.6,
-            "Empatia": 68.5,
-            "Crises": 65.4,
-            "Padroes": 77.6
+            "Escuta": 73.4,
+            "Personalizacao": 74.5,
+            "Empatia": 70.8,
+            "Crises": 68.5,
+            "Padroes": 67.2
         },
         "count": 17,
         "insights": {
@@ -756,11 +756,11 @@ const users = [
         "avgDurSec": 23,
         "avgScore": 66.5,
         "skills": {
-            "Escuta": 66.3,
-            "Personalizacao": 75.0,
-            "Empatia": 67.7,
-            "Crises": 73.9,
-            "Padroes": 69.7
+            "Escuta": 70.0,
+            "Personalizacao": 77.8,
+            "Empatia": 71.8,
+            "Crises": 68.1,
+            "Padroes": 64.9
         },
         "count": 21,
         "insights": {
@@ -912,11 +912,11 @@ const users = [
         "avgDurSec": 3,
         "avgScore": 58.0,
         "skills": {
-            "Escuta": 56.3,
-            "Personalizacao": 63.7,
-            "Empatia": 56.1,
-            "Crises": 64.4,
-            "Padroes": 69.7
+            "Escuta": 62.4,
+            "Personalizacao": 69.6,
+            "Empatia": 56.6,
+            "Crises": 63.9,
+            "Padroes": 58.6
         },
         "count": 19,
         "insights": {
@@ -979,11 +979,11 @@ const users = [
         "avgDurSec": 12,
         "avgScore": 54.7,
         "skills": {
-            "Escuta": 55.7,
-            "Personalizacao": 62.3,
-            "Empatia": 48.3,
-            "Crises": 65.3,
-            "Padroes": 59.3
+            "Escuta": 59.0,
+            "Personalizacao": 55.3,
+            "Empatia": 53.7,
+            "Crises": 59.3,
+            "Padroes": 61.3
         },
         "count": 8,
         "insights": {
@@ -1032,36 +1032,36 @@ const users = [
         "avgDurMin": 1
     },
     {
-        "avgDurSec": 21,
-        "avgScore": 58.7,
+        "avgDurSec": 28,
+        "avgScore": 59.1,
         "skills": {
-            "Escuta": 62.9,
-            "Personalizacao": 70.7,
-            "Empatia": 57.1,
-            "Crises": 61.4,
-            "Padroes": 65.4
+            "Escuta": 64.9,
+            "Personalizacao": 65.7,
+            "Empatia": 63.1,
+            "Crises": 62.4,
+            "Padroes": 57.1
         },
-        "count": 23,
+        "count": 28,
         "insights": {
             "pt": [
-                "Roberto, comerciante carioca, perfil majoritariamente Verde no DISC: cordial, aberto, mas com toques de ansiedade e resistência inicial.",
-                "Você manteve um tom acolhedor e explicou bem o processo, sempre tranquilizando o cliente.",
-                "Demonstrou respeito pelo vínculo de confiança, reforçando que só falaria com recomendados após aviso prévio do próprio cliente.",
-                "Segmentou os perfis de recomendação, citando empresários, familiares e profissionais de saúde, o que facilitou o raciocínio do cliente.",
-                "Fez elogios ao cliente pela decisão, valorizando o momento e mostrando empatia.",
-                "Faltou explorar de maneira mais direta os pontos que o cliente apreciou no seu atendimento, estimulando-o a verbalizar sua satisfação antes do pedido.",
-                "A introdução do pedido poderia ter sido menos acelerada: em certas falas, você misturou etapas, talvez por ansiedade em fechar as recomendações sem espaçar perguntas.",
-                "É recomendável pedir autorização explícita para citar o nome do cliente, de forma mais formal: apesar de ter mencionado, ficou um pouco implícito."
+                "Mariana, perfil dominante Verde (DISC), médica ginecologista, transmite prudência e foco no impacto humano.",
+                "Objeção principal de PERTINÊNCIA (\"Não sei se é o valor certo\").",
+                "O foco era descobrir a razão real do adiamento, tratar a objeção de valor e buscar o fechamento seguro agora.",
+                "O objetivo foi parcialmente atingido: houve negociação e avanço, mas faltou reconexão emocional à real motivação da cliente.",
+                "Escuta ativa: você acolheu os ajustes sugeridos e permitiu espaço para a cliente expressar dúvidas concretas.",
+                "Flexibilidade: respondeu rapidamente sobre formas de pagamento e adaptou o capital segurado com naturalidade.",
+                "Postura consultiva: não houve pressão nem promessas indevidas, o tom foi aberto e acolhedor.",
+                "Faltou identificar explicitamente a razão do adiamento antes de negociar (“quero pensar se vale o preço ou se é o momento?”)."
             ],
             "fr": [
-                "Roberto, comerciante carioca, perfil majoritariamente Verde no DISC: cordial, aberto, mas com toques de ansiedade e resistência inicial.",
-                "Você manteve um tom acolhedor e explicou bem o processo, sempre tranquilizando o cliente.",
-                "Demonstrou respeito pelo vínculo de confiança, reforçando que só falaria com recomendados após aviso prévio do próprio cliente.",
-                "Segmentou os perfis de recomendação, citando empresários, familiares e profissionais de saúde, o que facilitou o raciocínio do cliente.",
-                "Fez elogios ao cliente pela decisão, valorizando o momento e mostrando empatia.",
-                "Faltou explorar de maneira mais direta os pontos que o cliente apreciou no seu atendimento, estimulando-o a verbalizar sua satisfação antes do pedido.",
-                "A introdução do pedido poderia ter sido menos acelerada: em certas falas, você misturou etapas, talvez por ansiedade em fechar as recomendações sem espaçar perguntas.",
-                "É recomendável pedir autorização explícita para citar o nome do cliente, de forma mais formal: apesar de ter mencionado, ficou um pouco implícito."
+                "Mariana, perfil dominante Verde (DISC), médica ginecologista, transmite prudência e foco no impacto humano.",
+                "Objeção principal de PERTINÊNCIA (\"Não sei se é o valor certo\").",
+                "O foco era descobrir a razão real do adiamento, tratar a objeção de valor e buscar o fechamento seguro agora.",
+                "O objetivo foi parcialmente atingido: houve negociação e avanço, mas faltou reconexão emocional à real motivação da cliente.",
+                "Escuta ativa: você acolheu os ajustes sugeridos e permitiu espaço para a cliente expressar dúvidas concretas.",
+                "Flexibilidade: respondeu rapidamente sobre formas de pagamento e adaptou o capital segurado com naturalidade.",
+                "Postura consultiva: não houve pressão nem promessas indevidas, o tom foi aberto e acolhedor.",
+                "Faltou identificar explicitamente a razão do adiamento antes de negociar (“quero pensar se vale o preço ou se é o momento?”)."
             ]
         },
         "name": "Parceira Ark",
@@ -1082,6 +1082,7 @@ const users = [
             "11/08/2026",
             "11/08/2026",
             "11/08/2026",
+            "24/08/2026",
             "07/07/2026",
             "08/07/2026",
             "08/07/2026",
@@ -1092,13 +1093,17 @@ const users = [
             "13/07/2026",
             "14/07/2026",
             "14/07/2026",
+            "24/08/2026",
+            "25/08/2026",
             "28/07/2026",
             "28/07/2026",
             "28/07/2026",
             "28/07/2026",
             "28/07/2026",
             "30/07/2026",
-            "30/07/2026"
+            "30/07/2026",
+            "24/08/2026",
+            "25/08/2026"
         ],
         "avgDurMin": 1
     },
@@ -1106,11 +1111,11 @@ const users = [
         "avgDurSec": 27,
         "avgScore": 65.8,
         "skills": {
-            "Escuta": 72.2,
-            "Personalizacao": 80.7,
-            "Empatia": 63.2,
-            "Crises": 63.8,
-            "Padroes": 78.0
+            "Escuta": 74.2,
+            "Personalizacao": 69.3,
+            "Empatia": 65.7,
+            "Crises": 69.3,
+            "Padroes": 70.3
         },
         "count": 7,
         "insights": {
@@ -1161,11 +1166,11 @@ const users = [
         "avgDurSec": 27,
         "avgScore": 37.7,
         "skills": {
-            "Escuta": 42.4,
-            "Personalizacao": 45.0,
-            "Empatia": 41.6,
-            "Crises": 40.7,
-            "Padroes": 41.8
+            "Escuta": 44.0,
+            "Personalizacao": 41.5,
+            "Empatia": 43.0,
+            "Crises": 38.2,
+            "Padroes": 39.4
         },
         "count": 90,
         "insights": {
@@ -1299,11 +1304,11 @@ const users = [
         "avgDurSec": 25,
         "avgScore": 46.5,
         "skills": {
-            "Escuta": 55.5,
-            "Personalizacao": 54.5,
-            "Empatia": 51.0,
-            "Crises": 67.0,
-            "Padroes": 56.0
+            "Escuta": 44.0,
+            "Personalizacao": 62.0,
+            "Empatia": 52.5,
+            "Crises": 57.0,
+            "Padroes": 51.0
         },
         "count": 5,
         "insights": {
@@ -1352,11 +1357,11 @@ const users = [
         "avgDurSec": 38,
         "avgScore": 63.5,
         "skills": {
-            "Escuta": 66.6,
-            "Personalizacao": 72.0,
-            "Empatia": 65.8,
-            "Crises": 65.1,
-            "Padroes": 72.0
+            "Escuta": 68.6,
+            "Personalizacao": 69.9,
+            "Empatia": 70.7,
+            "Crises": 65.8,
+            "Padroes": 65.0
         },
         "count": 48,
         "insights": {
@@ -1588,11 +1593,11 @@ const users = [
         "avgDurSec": 30,
         "avgScore": 61.0,
         "skills": {
-            "Escuta": 76.0,
-            "Personalizacao": 79.0,
-            "Empatia": 69.0,
-            "Crises": 74.0,
-            "Padroes": 47.0
+            "Escuta": 74.0,
+            "Personalizacao": 51.0,
+            "Empatia": 71.0,
+            "Crises": 54.0,
+            "Padroes": 52.0
         },
         "count": 7,
         "insights": {
@@ -1643,11 +1648,11 @@ const users = [
         "avgDurSec": 34,
         "avgScore": 60.5,
         "skills": {
-            "Escuta": 60.1,
-            "Personalizacao": 67.1,
-            "Empatia": 59.8,
-            "Crises": 58.0,
-            "Padroes": 60.0
+            "Escuta": 59.2,
+            "Personalizacao": 63.3,
+            "Empatia": 61.5,
+            "Crises": 56.6,
+            "Padroes": 64.0
         },
         "count": 56,
         "insights": {
@@ -1782,11 +1787,11 @@ const users = [
         "avgDurSec": 31,
         "avgScore": 57.7,
         "skills": {
-            "Escuta": 61.1,
-            "Personalizacao": 69.4,
-            "Empatia": 56.7,
-            "Crises": 59.7,
-            "Padroes": 69.4
+            "Escuta": 63.7,
+            "Personalizacao": 64.1,
+            "Empatia": 59.2,
+            "Crises": 59.9,
+            "Padroes": 64.3
         },
         "count": 75,
         "insights": {
@@ -1977,11 +1982,11 @@ const users = [
         "avgDurSec": 7,
         "avgScore": 41.0,
         "skills": {
-            "Escuta": 42.8,
-            "Personalizacao": 45.9,
-            "Empatia": 44.1,
-            "Crises": 47.1,
-            "Padroes": 50.9
+            "Escuta": 40.0,
+            "Personalizacao": 52.9,
+            "Empatia": 48.9,
+            "Crises": 47.2,
+            "Padroes": 41.0
         },
         "count": 20,
         "insights": {
@@ -2080,10 +2085,10 @@ const users = [
         "avgDurSec": 54,
         "avgScore": 41.5,
         "skills": {
-            "Escuta": 42.7,
-            "Personalizacao": 53.9,
-            "Empatia": 48.1,
-            "Crises": 45.7,
+            "Escuta": 41.2,
+            "Personalizacao": 47.6,
+            "Empatia": 44.4,
+            "Crises": 45.0,
             "Padroes": 50.9
         },
         "count": 18,
