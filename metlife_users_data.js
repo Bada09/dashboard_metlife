@@ -3,11 +3,11 @@ const users = [
         "avgDurSec": 42,
         "avgScore": 70.3,
         "skills": {
-            "Escuta": 77.0,
-            "Personalizacao": 72.8,
-            "Empatia": 79.2,
-            "Crises": 63.8,
-            "Padroes": 72.7
+            "Escuta": 73.2,
+            "Personalizacao": 69.8,
+            "Empatia": 76.3,
+            "Crises": 71.2,
+            "Padroes": 83.0
         },
         "count": 27,
         "insights": {
@@ -113,11 +113,11 @@ const users = [
         "avgDurSec": 17,
         "avgScore": 49.7,
         "skills": {
-            "Escuta": 57.0,
-            "Personalizacao": 55.1,
-            "Empatia": 51.6,
-            "Crises": 56.4,
-            "Padroes": 51.9
+            "Escuta": 52.5,
+            "Personalizacao": 56.5,
+            "Empatia": 50.4,
+            "Crises": 50.0,
+            "Padroes": 60.8
         },
         "count": 23,
         "insights": {
@@ -181,36 +181,36 @@ const users = [
         "avgDurMin": 1
     },
     {
-        "avgDurSec": 55,
-        "avgScore": 63.7,
+        "avgDurSec": 14,
+        "avgScore": 68.0,
         "skills": {
-            "Escuta": 68.0,
-            "Personalizacao": 68.7,
-            "Empatia": 65.0,
-            "Crises": 73.7,
-            "Padroes": 69.3
+            "Escuta": 81.8,
+            "Personalizacao": 76.2,
+            "Empatia": 71.0,
+            "Crises": 68.8,
+            "Padroes": 77.0
         },
-        "count": 8,
+        "count": 9,
         "insights": {
             "pt": [
-                "Interpretei Camila, jovem executiva de tecnologia em Florianópolis, perfil DISC majoritariamente amarelo, digital-native, questionadora e analítica.",
-                "O discurso valorizou a abordagem consultiva e personalizada, reforçando a diferenciação no processo de planejamento.",
-                "Houve tentativa de criar conexão ao citar a indicação da amiga e alguns aspectos pessoais.",
-                "Utilizou a técnica da escolha forçada (manhã/tarde) para sugerir datas, mesmo com desvios.",
-                "Faltou validar e acolher francamente o sentimento por trás da objeção, antes de argumentar (“sim, mas…” ficou apressado).",
-                "Houve hesitação e frases pouco fluidas, especialmente na gestão da objeção inicial.",
-                "A argumentação contra o envio do material foi repetitiva e pouco fundamentada, sem explorar as vantagens da avaliação mútua ou as inadequações do suporte.",
-                "Faltaram perguntas abertas genuínas para descobrir os reais motivos da resistência (“Por que gostaria do material antes?”)."
+                "Fernanda, dentista autônoma, perfil dominante verde (DISC), objeção principal: PERTINÊNCIA (“não sei se é o valor certo”).",
+                "Você buscou descobrir a razão real do adiamento e tratou com ajuste personalizado.",
+                "Conseguiu obter a contratação agora, com a cliente tranquila e colaborativa. Objetivo plenamente atingido.",
+                "Demonstrou escuta ativa, perguntando várias vezes sobre o que impedia a decisão e testando hipóteses de objeção real.",
+                "Usou perguntas abertas e construiu o fechamento em ritmo consultivo, sem pressionar excessivamente.",
+                "Adaptou a proposta com flexibilidade, ajustando prêmios e coberturas conforme solicitação da cliente e sempre validando o conforto dela.",
+                "Traz ao final um acompanhamento pós-venda, reforçando o vínculo e a confiança na relação.",
+                "Diagnóstico da objeção"
             ],
             "fr": [
-                "Interpretei Camila, jovem executiva de tecnologia em Florianópolis, perfil DISC majoritariamente amarelo, digital-native, questionadora e analítica.",
-                "O discurso valorizou a abordagem consultiva e personalizada, reforçando a diferenciação no processo de planejamento.",
-                "Houve tentativa de criar conexão ao citar a indicação da amiga e alguns aspectos pessoais.",
-                "Utilizou a técnica da escolha forçada (manhã/tarde) para sugerir datas, mesmo com desvios.",
-                "Faltou validar e acolher francamente o sentimento por trás da objeção, antes de argumentar (“sim, mas…” ficou apressado).",
-                "Houve hesitação e frases pouco fluidas, especialmente na gestão da objeção inicial.",
-                "A argumentação contra o envio do material foi repetitiva e pouco fundamentada, sem explorar as vantagens da avaliação mútua ou as inadequações do suporte.",
-                "Faltaram perguntas abertas genuínas para descobrir os reais motivos da resistência (“Por que gostaria do material antes?”)."
+                "Fernanda, dentista autônoma, perfil dominante verde (DISC), objeção principal: PERTINÊNCIA (“não sei se é o valor certo”).",
+                "Você buscou descobrir a razão real do adiamento e tratou com ajuste personalizado.",
+                "Conseguiu obter a contratação agora, com a cliente tranquila e colaborativa. Objetivo plenamente atingido.",
+                "Demonstrou escuta ativa, perguntando várias vezes sobre o que impedia a decisão e testando hipóteses de objeção real.",
+                "Usou perguntas abertas e construiu o fechamento em ritmo consultivo, sem pressionar excessivamente.",
+                "Adaptou a proposta com flexibilidade, ajustando prêmios e coberturas conforme solicitação da cliente e sempre validando o conforto dela.",
+                "Traz ao final um acompanhamento pós-venda, reforçando o vínculo e a confiança na relação.",
+                "Diagnóstico da objeção"
             ]
         },
         "name": "Parceiro Gorilla01",
@@ -232,19 +232,20 @@ const users = [
             "08/07/2026",
             "08/07/2026",
             "08/07/2026",
-            "08/07/2026"
+            "08/07/2026",
+            "26/08/2026"
         ],
-        "avgDurMin": 2
+        "avgDurMin": 3
     },
     {
         "avgDurSec": 56,
         "avgScore": 57.0,
         "skills": {
-            "Escuta": 69.5,
-            "Personalizacao": 57.5,
-            "Empatia": 61.0,
-            "Crises": 73.0,
-            "Padroes": 62.0
+            "Escuta": 53.5,
+            "Personalizacao": 58.5,
+            "Empatia": 55.0,
+            "Crises": 69.5,
+            "Padroes": 70.0
         },
         "count": 14,
         "insights": {
@@ -302,11 +303,11 @@ const users = [
         "avgDurSec": 21,
         "avgScore": 54.9,
         "skills": {
-            "Escuta": 67.0,
-            "Personalizacao": 58.2,
-            "Empatia": 64.4,
-            "Crises": 55.1,
-            "Padroes": 58.3
+            "Escuta": 63.9,
+            "Personalizacao": 54.7,
+            "Empatia": 60.8,
+            "Crises": 52.7,
+            "Padroes": 61.2
         },
         "count": 18,
         "insights": {
@@ -444,11 +445,11 @@ const users = [
         "avgDurSec": 8,
         "avgScore": 74.5,
         "skills": {
-            "Escuta": 80.8,
-            "Personalizacao": 76.0,
-            "Empatia": 80.2,
-            "Crises": 75.5,
-            "Padroes": 79.0
+            "Escuta": 79.0,
+            "Personalizacao": 82.5,
+            "Empatia": 80.0,
+            "Crises": 73.5,
+            "Padroes": 78.8
         },
         "count": 6,
         "insights": {
@@ -498,11 +499,11 @@ const users = [
         "avgDurSec": 6,
         "avgScore": 38.1,
         "skills": {
-            "Escuta": 46.6,
-            "Personalizacao": 39.0,
-            "Empatia": 34.1,
-            "Crises": 34.7,
-            "Padroes": 38.3
+            "Escuta": 44.6,
+            "Personalizacao": 46.9,
+            "Empatia": 43.3,
+            "Crises": 41.7,
+            "Padroes": 34.0
         },
         "count": 18,
         "insights": {
@@ -564,11 +565,11 @@ const users = [
         "avgDurSec": 5,
         "avgScore": 56.0,
         "skills": {
-            "Escuta": 60.5,
-            "Personalizacao": 62.5,
-            "Empatia": 55.0,
-            "Crises": 62.5,
-            "Padroes": 55.5
+            "Escuta": 53.0,
+            "Personalizacao": 81.5,
+            "Empatia": 59.0,
+            "Crises": 58.0,
+            "Padroes": 63.5
         },
         "count": 3,
         "insights": {
@@ -691,11 +692,11 @@ const users = [
         "avgDurSec": 14,
         "avgScore": 66.2,
         "skills": {
-            "Escuta": 77.6,
-            "Personalizacao": 69.2,
-            "Empatia": 71.6,
-            "Crises": 71.4,
-            "Padroes": 68.6
+            "Escuta": 70.0,
+            "Personalizacao": 71.5,
+            "Empatia": 69.6,
+            "Crises": 70.5,
+            "Padroes": 74.4
         },
         "count": 17,
         "insights": {
@@ -756,11 +757,11 @@ const users = [
         "avgDurSec": 23,
         "avgScore": 66.5,
         "skills": {
-            "Escuta": 73.6,
-            "Personalizacao": 72.1,
-            "Empatia": 65.9,
-            "Crises": 69.2,
-            "Padroes": 65.3
+            "Escuta": 70.6,
+            "Personalizacao": 74.9,
+            "Empatia": 66.4,
+            "Crises": 62.9,
+            "Padroes": 67.9
         },
         "count": 21,
         "insights": {
@@ -912,11 +913,11 @@ const users = [
         "avgDurSec": 3,
         "avgScore": 58.0,
         "skills": {
-            "Escuta": 59.3,
-            "Personalizacao": 62.3,
-            "Empatia": 55.4,
-            "Crises": 59.6,
-            "Padroes": 58.0
+            "Escuta": 66.6,
+            "Personalizacao": 64.6,
+            "Empatia": 56.7,
+            "Crises": 53.3,
+            "Padroes": 66.3
         },
         "count": 19,
         "insights": {
@@ -979,11 +980,11 @@ const users = [
         "avgDurSec": 12,
         "avgScore": 54.7,
         "skills": {
-            "Escuta": 50.3,
+            "Escuta": 59.0,
             "Personalizacao": 54.7,
-            "Empatia": 51.3,
-            "Crises": 59.0,
-            "Padroes": 55.0
+            "Empatia": 55.7,
+            "Crises": 55.7,
+            "Padroes": 60.7
         },
         "count": 8,
         "insights": {
@@ -1032,16 +1033,16 @@ const users = [
         "avgDurMin": 1
     },
     {
-        "avgDurSec": 28,
-        "avgScore": 59.1,
+        "avgDurSec": 35,
+        "avgScore": 60.8,
         "skills": {
-            "Escuta": 63.1,
-            "Personalizacao": 62.7,
-            "Empatia": 63.5,
-            "Crises": 59.7,
-            "Padroes": 61.5
+            "Escuta": 68.0,
+            "Personalizacao": 61.9,
+            "Empatia": 69.6,
+            "Crises": 58.6,
+            "Padroes": 70.9
         },
-        "count": 28,
+        "count": 33,
         "insights": {
             "pt": [
                 "Mariana, perfil dominante Verde (DISC), médica ginecologista, transmite prudência e foco no impacto humano.",
@@ -1083,6 +1084,8 @@ const users = [
             "11/08/2026",
             "11/08/2026",
             "24/08/2026",
+            "25/08/2026",
+            "25/08/2026",
             "07/07/2026",
             "08/07/2026",
             "08/07/2026",
@@ -1095,6 +1098,8 @@ const users = [
             "14/07/2026",
             "24/08/2026",
             "25/08/2026",
+            "25/08/2026",
+            "25/08/2026",
             "28/07/2026",
             "28/07/2026",
             "28/07/2026",
@@ -1103,6 +1108,7 @@ const users = [
             "30/07/2026",
             "30/07/2026",
             "24/08/2026",
+            "25/08/2026",
             "25/08/2026"
         ],
         "avgDurMin": 1
@@ -1111,11 +1117,11 @@ const users = [
         "avgDurSec": 27,
         "avgScore": 65.8,
         "skills": {
-            "Escuta": 74.2,
-            "Personalizacao": 71.7,
-            "Empatia": 64.3,
-            "Crises": 71.8,
-            "Padroes": 74.2
+            "Escuta": 76.7,
+            "Personalizacao": 71.0,
+            "Empatia": 70.7,
+            "Crises": 65.0,
+            "Padroes": 77.5
         },
         "count": 7,
         "insights": {
@@ -1166,13 +1172,13 @@ const users = [
         "avgDurSec": 27,
         "avgScore": 37.7,
         "skills": {
-            "Escuta": 44.7,
-            "Personalizacao": 45.8,
-            "Empatia": 46.1,
-            "Crises": 44.0,
-            "Padroes": 38.0
+            "Escuta": 39.5,
+            "Personalizacao": 44.6,
+            "Empatia": 41.3,
+            "Crises": 40.0,
+            "Padroes": 38.6
         },
-        "count": 90,
+        "count": 91,
         "insights": {
             "pt": [
                 "Fernanda, dentiste indépendante à Belo Horizonte, quarante-huit ans, profil DISC vert majoritaire.",
@@ -1290,6 +1296,7 @@ const users = [
             "16/07/2026",
             "14/08/2026",
             "14/08/2026",
+            "25/08/2026",
             "28/07/2026",
             "28/07/2026",
             "31/07/2026",
@@ -1304,11 +1311,11 @@ const users = [
         "avgDurSec": 25,
         "avgScore": 46.5,
         "skills": {
-            "Escuta": 57.0,
-            "Personalizacao": 50.0,
-            "Empatia": 51.0,
-            "Crises": 48.5,
-            "Padroes": 51.0
+            "Escuta": 63.5,
+            "Personalizacao": 44.5,
+            "Empatia": 56.0,
+            "Crises": 45.0,
+            "Padroes": 54.5
         },
         "count": 5,
         "insights": {
@@ -1357,11 +1364,11 @@ const users = [
         "avgDurSec": 38,
         "avgScore": 63.5,
         "skills": {
-            "Escuta": 67.4,
-            "Personalizacao": 67.1,
-            "Empatia": 66.2,
-            "Crises": 69.0,
-            "Padroes": 67.4
+            "Escuta": 69.7,
+            "Personalizacao": 66.3,
+            "Empatia": 65.7,
+            "Crises": 63.2,
+            "Padroes": 72.1
         },
         "count": 48,
         "insights": {
@@ -1593,11 +1600,11 @@ const users = [
         "avgDurSec": 30,
         "avgScore": 61.0,
         "skills": {
-            "Escuta": 59.0,
-            "Personalizacao": 52.0,
-            "Empatia": 76.0,
-            "Crises": 50.0,
-            "Padroes": 55.0
+            "Escuta": 60.0,
+            "Personalizacao": 67.0,
+            "Empatia": 82.0,
+            "Crises": 65.0,
+            "Padroes": 50.0
         },
         "count": 7,
         "insights": {
@@ -1648,11 +1655,11 @@ const users = [
         "avgDurSec": 34,
         "avgScore": 60.5,
         "skills": {
-            "Escuta": 58.3,
-            "Personalizacao": 62.4,
-            "Empatia": 64.0,
-            "Crises": 63.6,
-            "Padroes": 67.5
+            "Escuta": 61.7,
+            "Personalizacao": 63.5,
+            "Empatia": 62.3,
+            "Crises": 56.6,
+            "Padroes": 59.7
         },
         "count": 56,
         "insights": {
@@ -1749,49 +1756,14 @@ const users = [
         "avgDurMin": 1
     },
     {
-        "avgDurSec": 0,
-        "avgScore": 0.0,
-        "skills": {
-            "Escuta": 0.0,
-            "Personalizacao": 0.0,
-            "Empatia": 0.0,
-            "Crises": 0.0,
-            "Padroes": 0.0
-        },
-        "count": 0,
-        "insights": {
-            "pt": [
-                "Usuário ainda não possui simulações avaliadas recentemente.",
-                "Incentive a realizar simulações para gerar análise comportamental detalhada."
-            ],
-            "fr": [
-                "Usuário ainda não possui simulações avaliadas recentemente.",
-                "Incentive a realizar simulações para gerar análise comportamental detalhada."
-            ]
-        },
-        "name": "Tom Landes",
-        "agency": "Outros",
-        "region": "Outros",
-        "lqaScore": 0.0,
-        "languages": [
-            "FR"
-        ],
-        "improvement": {
-            "pt": "Continuar praticando e trabalhando os pontos de melhoria identificados.",
-            "fr": "Continuer a pratiquer et travailler les points d amelioration identifies."
-        },
-        "dates": [],
-        "avgDurMin": 0
-    },
-    {
         "avgDurSec": 31,
         "avgScore": 57.7,
         "skills": {
-            "Escuta": 61.1,
+            "Escuta": 65.7,
             "Personalizacao": 62.4,
-            "Empatia": 58.7,
-            "Crises": 64.1,
-            "Padroes": 63.6
+            "Empatia": 60.7,
+            "Crises": 55.7,
+            "Padroes": 67.9
         },
         "count": 75,
         "insights": {
@@ -1944,49 +1916,14 @@ const users = [
         "avgDurMin": 0
     },
     {
-        "avgDurSec": 0,
-        "avgScore": 0.0,
-        "skills": {
-            "Escuta": 0.0,
-            "Personalizacao": 0.0,
-            "Empatia": 0.0,
-            "Crises": 0.0,
-            "Padroes": 0.0
-        },
-        "count": 0,
-        "insights": {
-            "pt": [
-                "Usuário ainda não possui simulações avaliadas recentemente.",
-                "Incentive a realizar simulações para gerar análise comportamental detalhada."
-            ],
-            "fr": [
-                "Usuário ainda não possui simulações avaliadas recentemente.",
-                "Incentive a realizar simulações para gerar análise comportamental detalhada."
-            ]
-        },
-        "name": "Sophie GTest",
-        "agency": "Outros",
-        "region": "Outros",
-        "lqaScore": 0.0,
-        "languages": [
-            "FR"
-        ],
-        "improvement": {
-            "pt": "Continuar praticando e trabalhando os pontos de melhoria identificados.",
-            "fr": "Continuer a pratiquer et travailler les points d amelioration identifies."
-        },
-        "dates": [],
-        "avgDurMin": 0
-    },
-    {
         "avgDurSec": 7,
         "avgScore": 41.0,
         "skills": {
-            "Escuta": 51.4,
-            "Personalizacao": 48.8,
-            "Empatia": 43.0,
-            "Crises": 45.8,
-            "Padroes": 34.8
+            "Escuta": 50.8,
+            "Personalizacao": 44.6,
+            "Empatia": 52.5,
+            "Crises": 40.8,
+            "Padroes": 51.5
         },
         "count": 20,
         "insights": {
@@ -2085,11 +2022,11 @@ const users = [
         "avgDurSec": 54,
         "avgScore": 41.5,
         "skills": {
-            "Escuta": 44.2,
-            "Personalizacao": 54.6,
-            "Empatia": 47.3,
-            "Crises": 42.9,
-            "Padroes": 47.1
+            "Escuta": 45.1,
+            "Personalizacao": 53.4,
+            "Empatia": 43.6,
+            "Crises": 42.6,
+            "Padroes": 49.6
         },
         "count": 18,
         "insights": {

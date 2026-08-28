@@ -1,4 +1,4 @@
-const LATEST_DUMP_DATE = "25/08/2026";
+const LATEST_DUMP_DATE = "27/08/2026";
 const RAW_SIMULATIONS = [
     {
         "name": "Juliana Pedrão",
@@ -3379,6 +3379,251 @@ const RAW_SIMULATIONS = [
         "finished": false,
         "feedback": "",
         "insights": []
+    },
+    {
+        "name": "Parceiro Gorilla01",
+        "agency": "Outros",
+        "region": "Outros",
+        "date": "26/08/2026",
+        "dur": "4m 49s",
+        "score": 81,
+        "scenario": "OBJECAO_ADIAMENTO",
+        "lqa": "N/A",
+        "interactions": 55,
+        "messages": [
+            {
+                "role": "HUMAN",
+                "text": "Perfeito então"
+            },
+            {
+                "role": "AI",
+                "text": "Achei a proposta muito completa, mas preciso pensar com calma antes de tomar uma decisão. Depois eu te dou uma resposta."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Então, eu entendo que você precisa pensar, mas vamo pensar juntos. O que que te impede de fechar agora?"
+            },
+            {
+                "role": "HUMAN",
+                "text": "De acordo com as informações que você me passou da DN, você tem capacidade de pagamento, você está no risco, você é o pilar financeiro da sua família"
+            },
+            {
+                "role": "HUMAN",
+                "text": "E a gente lida com o pra-- ooo"
+            },
+            {
+                "role": "HUMAN",
+                "text": "O fator tempo. A gente não tem tempo. Pode ser que hoje aconteça alguma coisa e a sua família está totalmente descoberta"
+            },
+            {
+                "role": "HUMAN",
+                "text": "O que que pode te imp-- o que que tá te impedindo de tomar essa decisão? O que que você tá-- precisa pensar? Vamo pensar juntos"
+            },
+            {
+                "role": "AI",
+                "text": "Preciso de mais tempo para conversar com minha irmã e organizar as contas do mês que vem.  \nTambém quero ter calma para revisar o impacto disso no fluxo do meu consultório antes de dizer sim."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Tá, cê precisa conversar com a sua irmã por quê? Ela que define as, as finanças, seria isso? Porque aqui na ADN você comentou que você não precisaria de ninguém, que só você era o suficiente pra tomada de decisão. O que que mudou?"
+            },
+            {
+                "role": "AI",
+                "text": "Minha irmã mexe com algumas questões práticas quando eu viajo ou tenho plantão, ela sempre ajuda a pagar contas urgentes da minha filha. Não é que ela decida, é que eu prefiro alinharmos isso por segurança antes de comprometer o caixa do consultório."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Eu tô entendendo que você tá inseguro com o valor? Olha, eu trago o, a melhor solução pra você, mas nada impede da gente fazer alguns ajustes. Você gostaria de ajustar?"
+            },
+            {
+                "role": "HUMAN",
+                "text": "E diminuir esse valor, você ficaria mais confortável?"
+            },
+            {
+                "role": "AI",
+                "text": "Sim, eu ficaria mais confortável se a parcela fosse menor.  \nMe explique rapidamente qual impacto isso teria na cobertura e se dá para reduzir só o prêmio sem cortar benefícios essenciais."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Sim, dá pra diminuir só o prêmio. Vamos abrir aqui e a gente faz juntos, tá?"
+            },
+            {
+                "role": "AI",
+                "text": "Perfeito, podemos fazer isso agora.  \nMe mostra duas opções: uma com a parcela menor e outra intermediária, só pra eu escolher a que cabe melhor no caixa do consultório."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Perfeito. Se a gente fizer isso, você já toma a decisão de imediato?"
+            },
+            {
+                "role": "AI",
+                "text": "Se as opções mantiverem os benefícios essenciais e a parcela caber no caixa do consultório, eu fecho agora.  \nMe mostra as duas opções pra eu escolher."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Perfeito. Então vamos lá, vou abrir o rotador e a gente faz juntos, analisa junto. Olha, o que que eu-- o-- diante do que você me passou Ééé, o que que você gostaria deee, de diminuir?"
+            },
+            {
+                "role": "AI",
+                "text": "Quero reduzir a parcela para caber no fluxo do consultório nos meses mais apertados.  \nEntão prefiro uma opção com prêmio menor mantendo as coberturas essenciais para minha filha."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Perfeito. Prêmio menor"
+            },
+            {
+                "role": "HUMAN",
+                "text": "Tá. O que que você gostaria de reduzir aqui? Ééé, diária de internação, ééé, doenças graves, morte, o que que você gostaria de fazer de redução?"
+            },
+            {
+                "role": "AI",
+                "text": "Reduz a parte de diária de internação e aumenta um pouco a franquia nela, mantendo morte e doenças graves como estavam.  \nQuero ver a opção com essa alteração e outra um pouco mais próxima da proposta original."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Perfeito. Ó, aqui a gente tinha colocado R$ 1000 de diária de internação. Eu vou abaixar pra R$ 500, tudo bem?"
+            },
+            {
+                "role": "AI",
+                "text": "Ok, tudo bem reduzir para quinhentos reais de diária.  \nAgora me mostra a simulação com essa alteração e a outra opção mais próxima da original para eu decidir."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Perfeito. Bom, o primeira opção tinha dado R$ 1000 a parcela Aqui a gente reduzindo, ela baixou pra R$ 800."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Você gostaria de abaixar mais? Qual valor ficaria confortável pra você?"
+            },
+            {
+                "role": "AI",
+                "text": "Quinhentos reais ficaria confortável no mês mais apertado do consultório.  \nSe descer pra esse valor, eu já consigo decidir agora."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Perfeito, então vamos lá Outra coisa que é um, é um cobertura cara é o DIT, Diário de Incapacidade Temporária"
+            },
+            {
+                "role": "HUMAN",
+                "text": "Ééé, eu tinha incluído aqui pra você R$ 400 por dia. Vamos abaixar pra R$ 300, tudo bem?"
+            },
+            {
+                "role": "AI",
+                "text": "Trezentos reais está melhor, eu aceito essa redução.  \nAgora me mostra a simulação final com diária de internação de quinhentos e DIT de trezentos pra eu decidir."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Tá."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Ééé"
+            },
+            {
+                "role": "HUMAN",
+                "text": "reduzi aqui, tudo foi praquele 550 Quer que reduz mais um pouco?"
+            },
+            {
+                "role": "AI",
+                "text": "Se ficar em quinhentos e cinquenta reais já ajuda muito.  \nNão quero reduzir mais, prefiro fechar nesse valor se mantiver as coberturas essenciais."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Perfeito. E é aquilo que eu sempre falo, viu? Ééé, a gente, com o tempo, daqui um ano, eu vou voltar a falar com você, porque as coisas vão mudando. De repente, o seu a-- o seu consultório começa a faturar mais, de repente as suas despesas, é, mudam. Então anualmente a gente vai tá conversando pra gente tá alterando ou incluindo coberturas, tudo bem?"
+            },
+            {
+                "role": "AI",
+                "text": "Tudo bem, gosto dessa ideia de revisar anualmente.  \nCombina comigo marcar um retorno daqui a um ano para reavaliarmos valores e coberturas."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Perfeito então. Ééé, bom, vou subir sua proposta, é, vou precisar de um documento seu, uma foto, eee vou subir a proposta, a MetLife vai analisar E assim que ela der um retorno, eu te aviso. Lembrando que a BetLife, ela vai fazer toda uma análise minuciosa. Então pode ser que venha alguma alteração, alguma coisa assim. Ééé, mas eu acredito que não, porque você é uma pessoa nova E você é uma pessoa que não tem nenhum tipo de doença Mas de qualquer forma eu vou tááá subindo a proposta, tá bom?"
+            },
+            {
+                "role": "AI",
+                "text": "Ok, pode subir a proposta.  \nVou te enviar a foto do documento pelo WhatsApp agora mesmo."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Olha, eu já subi a proposta, foi tudo aprovado. Meus parabéns, você tá em excelente cobertura, você tá em excelente corretora, a MetLife é número um e você tá muito bem assessorado. Pode ter certeza que eu estarei te acompanhando início, meio e fim. E passa o meu telefone pra alguém da sua confiança. Se algo acontecer com você, peça que me entre em contato. Tudo bem?"
+            },
+            {
+                "role": "AI",
+                "text": "Tudo bem, pode passar o meu telefone para uma pessoa de confiança.  \nMe avisa quando tiver qualquer andamento ou precisar de algo meu."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Perfeito Ó, já subi sua proposta, chegou o número do iToken, é, no seu celular Vai, pra você validar, cê pode entrar no site e já validar, por favor?"
+            },
+            {
+                "role": "AI",
+                "text": "Posso validar agora sim.  \nVou entrar no site e confirmar o iToken neste momento."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Perfeito então"
+            },
+            {
+                "role": "HUMAN",
+                "text": "Deu certo? Validou? De-- chegou?"
+            },
+            {
+                "role": "AI",
+                "text": "Deu certo, validei aqui e apareceu confirmado no site.  \nMe avisa se precisar que eu faça mais alguma coisa."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Não, você tá bem assessorado, meus parabéns pela escolha, você não vai se arrepender. E já chegou aqui, já foi aprovado, já subiu pra MetLife pra análise. Brigada, viu? E olha, é, assim que a, a apólice chegar, vai chegar tudo no seu e-mail, mas assim que chegar eu vou marcar um dia pa-pra entregar presencialmente pra você Tá bom?"
+            },
+            {
+                "role": "AI",
+                "text": "Perfeito, combinado.  \nMe avisa o dia que você pode entregar presencialmente que eu me organizo para receber."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Perfeito então, muito obrigada, viu?"
+            },
+            {
+                "role": "AI",
+                "text": "De nada, obrigada você pelo atendimento."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Não nada, não precisa falar"
+            },
+            {
+                "role": "AI",
+                "text": "Tudo bem, obrigado.  \nMe avisa quando a apólice chegar por e-mail que eu confirmo o recebimento."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Tá bom então, brigada. E precisando estou à disposição, tá bom? Um beijo, fica com Deus Tchau!"
+            },
+            {
+                "role": "AI",
+                "text": "Obrigado, fico à vontade sabendo que posso contar com você.  \nAté mais, tchau."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Tchau"
+            },
+            {
+                "role": "AI",
+                "text": "Tchau, obrigada pelo suporte."
+            }
+        ],
+        "finished": true,
+        "feedback": "Aqui está o debriefing da nossa troca.\n\n  \n🤓 PERSONA\n\n- Fernanda, dentista autônoma, perfil dominante verde (DISC), objeção principal: PERTINÊNCIA (“não sei se é o valor certo”).\n\n  \n🎯 OBJETIVO PRINCIPAL\n\n- Você buscou descobrir a razão real do adiamento e tratou com ajuste personalizado.\n- Conseguiu obter a contratação agora, com a cliente tranquila e colaborativa. Objetivo plenamente atingido.\n\n  \n➕ PONTOS FORTES\n\n- Demonstrou escuta ativa, perguntando várias vezes sobre o que impedia a decisão e testando hipóteses de objeção real.\n\n  \n- Usou perguntas abertas e construiu o fechamento em ritmo consultivo, sem pressionar excessivamente.\n\n  \n- Adaptou a proposta com flexibilidade, ajustando prêmios e coberturas conforme solicitação da cliente e sempre validando o conforto dela.\n\n  \n- Traz ao final um acompanhamento pós-venda, reforçando o vínculo e a confiança na relação.\n\n  \nParabéns pelo tom cooperativo e disponibilidade para customizar!\n\n  \n⚠️ PONTOS DE MELHORIA\n\n- Reconexão ADN\n  Não houve uma recapitulação explícita e organizada das necessidades identificadas (ADN) antes da proposta de fechamento, apenas menções pontuais.\n\n  \n- Técnica de impacto\n  Poderia ter usado uma frase de impacto comercial mais incisiva e feito um silêncio após, ampliando o peso do momento decisivo.\n\n  \n- Diagnóstico da objeção\n  Algumas perguntas ficaram um pouco repetitivas (“o que te impede de fechar agora?”) sem aprofundar totalmente, faltou explorar mais a objeção real (“é valor ou outra questão?”).\n\n  \nUse essas pistas para revisar sua preparação antes de cada encontro.\n\n  \n🩵 ANÁLISE EMOCIONAL\n\nO tom foi acolhedor, leve e informal, com ritmo fluido e vocabulário acessível. Sua postura foi predominantemente empática, transmitindo segurança à cliente.\n\n  \n🛅 MOMENTOS-CHAVE\n\nSituação: Cliente hesitou por valor → Você propôs ajuste real do prêmio, convidando para decidir juntos → Isso foi vital pois eliminou a barreira de preço, mostrando flexibilidade e foco no conforto da prospect.\n\n  \nSituação: Finalização do processo → Você reforçou acompanhamento e ofereceu presença em futuras necessidades → Isso selou a relação, aumentando a confiança.\n\n  \n🔊 REFORMULAÇÕES RECOMENDADAS\n\n- “Fernanda, a parte financeira pesa ou você tem outra preocupação para a gente pensar junto?”\n- “Seguro não é questão de querer, é questão de poder fazer enquanto está saudável. Posso seguir com sua autorização?”\n- “Se reduzirmos o valor para X e mantivermos as coberturas essenciais, faz sentido para você começarmos hoje?”\n- “Para quem você quer destinar o benefício principal, já que o mais importante é proteger quem você ama?”\n\n  \n➡️ RECOMENDAÇÕES\n\nInclua sempre uma recapitulação clara das necessidades, use uma frase de impacto seguida de silêncio e aprofunde ainda mais a investigação da objeção real. Seu domínio da personalização é ótimo, mantenha-se atento ao método MetLife para turbosinar suas taxas de fechamento — continue avançando!",
+        "insights": [
+            "Fernanda, dentista autônoma, perfil dominante verde (DISC), objeção principal: PERTINÊNCIA (“não sei se é o valor certo”).",
+            "Você buscou descobrir a razão real do adiamento e tratou com ajuste personalizado.",
+            "Conseguiu obter a contratação agora, com a cliente tranquila e colaborativa. Objetivo plenamente atingido.",
+            "Demonstrou escuta ativa, perguntando várias vezes sobre o que impedia a decisão e testando hipóteses de objeção real.",
+            "Usou perguntas abertas e construiu o fechamento em ritmo consultivo, sem pressionar excessivamente.",
+            "Adaptou a proposta com flexibilidade, ajustando prêmios e coberturas conforme solicitação da cliente e sempre validando o conforto dela.",
+            "Traz ao final um acompanhamento pós-venda, reforçando o vínculo e a confiança na relação.",
+            "Diagnóstico da objeção"
+        ]
     },
     {
         "name": "Parceiro Inside3a12",
@@ -13120,6 +13365,184 @@ const RAW_SIMULATIONS = [
         "name": "Parceira Ark",
         "agency": "Outros",
         "region": "Outros",
+        "date": "25/08/2026",
+        "dur": "1m 47s",
+        "score": 62,
+        "scenario": "OBJECAO_ADIAMENTO",
+        "lqa": "N/A",
+        "interactions": 17,
+        "messages": [
+            {
+                "role": "AI",
+                "text": "Achei a proposta muito boa, mas preciso pensar um pouco antes de decidir. Depois te dou uma resposta, tudo bem?"
+            },
+            {
+                "role": "HUMAN",
+                "text": "Claro, pode sim, mas vamo lá. Ééé, por que que você precisa pensar? Você ficou com alguma dúúúvida? É, tem algum questionamento pra mim?"
+            },
+            {
+                "role": "AI",
+                "text": "Quero conversar com a minha esposa antes de decidir, prefiro que a gente escolha juntos algo desse tamanho. Podemos marcar uma ligação rápida amanhã à noite para eu já levá-la na conversa?"
+            },
+            {
+                "role": "HUMAN",
+                "text": "Sim, com certeza. Mas você acha que a sua esposa não gostaria de ter uma proteção desse tamanho, caso acontecesse algo com você? Ela ficar sabendo que você tá, tá protegendo a família, não somente ela e você mesmo em vida"
+            },
+            {
+                "role": "AI",
+                "text": "Acho que ela vai gostar de saber que a família teria suporte, sim. Por isso prefiro que a gente converse juntas amanhã à noite, para ela entender direitinho e a gente decidir em conjunto."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Com certeza, é importante mesmo que ela entenda. É, você acha que os valores tão ajustados? Tem alguma proteção que não tá enquadrado pra sua realidade, que você ache que ela possa questionar? Porque normalmente, é, grandes empresários, grandes pessoas que pensam em proteção, costumam dar isso até de presente pras esposas. Por que que você não faz uma surpresa pra ela?"
+            },
+            {
+                "role": "AI",
+                "text": "Acho que os valores estão coerentes com o que você mostrou, sim.  \nPrefiro não fazer surpresa; quero que ela entenda os detalhes e participe da escolha amanhã à noite."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Perfeito então. Vamos marcar, a gente fala com ela amanhã à noite. É, enquanto isso, vamo fazer o seguinte: já que tá tudo enquadrado, você gostou da proposta e as proteções, vamos deixar pronta então a sua ficha de análise já com a seguradora, e aí a gente só valida com ela as questões e finaliza amanhã. O que você acha?"
+            },
+            {
+                "role": "AI",
+                "text": "Tudo bem, podemos deixar a ficha pronta.  \nSó peço que você não envie nada à seguradora sem eu confirmar com ela depois da conversa amanhã à noite."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Com certeza, pode ficar tranquilo, nós enviaremos amanhã. Então eu vou colocar aqui sua ficha em análise. Eee qual seria o principal ponto que você quer falar com ela? Seria o valor da mensalidade ou as coberturas?"
+            },
+            {
+                "role": "AI",
+                "text": "Quero que a gente foque principalmente nas coberturas, para ela entender exatamente o que está protegido.  \nSe sobrar tempo, aí a gente confirma o valor da mensalidade."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Ah, com certeza, ela vai amar as proteções, porque esse planejamento ele foi desenhado exclusivamente pra realidade de vocês. Então nós estamos protegendo 100% aqui a sua família. Então com certeza ela vai gostar. Vamos seguir. É, amanhã você consegue-- ela consegue falar com a gente por volta das dezoito horas?"
+            },
+            {
+                "role": "AI",
+                "text": "Sim, às dezoito horas funciona bem para a gente.  \nCombine de me mandar o link ou o contato para a chamada até o fim da tarde."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Com certeza, eu te passo o contato então. Então a sua proposta já vai, já tá com a ficha preenchida. Assim que nós validarmos com ela, a gente coloca em análise e com certeza sua família vai tá tomando a maior decisão"
+            },
+            {
+                "role": "AI",
+                "text": "Perfeito, agradeço.  \nAmanhã às dezoito horas estaremos prontos para a chamada."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Combinado então, nos vemos amanhã"
+            },
+            {
+                "role": "AI",
+                "text": "Até amanhã, então. Obrigado."
+            }
+        ],
+        "finished": true,
+        "feedback": "Aqui está o debriefing da nossa troca.  \n\n  \n🤓 PERSONA  \n\n- Rafael: perfil DISC dominante amarelo (YELLOW), pediatra carismático, decisão emocional e relacional, principal objeção: CONSENTIMENTO (\"preciso falar com minha esposa antes de decidir\").  \n\n  \n🎯 OBJETIVO PRINCIPAL  \n\n- O objetivo era identificar a objeção real e tratar com a CHAVE adequada, buscando obter a contratação hoje, com o cliente satisfeito. O objetivo foi parcialmente atingido, pois houve avanço ao fechamento, mas a decisão foi adiada para envolver a esposa.  \n\n  \n➕ PONTOS FORTES  \n\n- Demonstrou escuta ativa ao acolher a necessidade de consultar a esposa.  \n\n  \n- Identificou corretamente que a objeção principal era de consentimento e procurou alternativas, como envolver a esposa rapidamente.  \n\n  \n- Usou argumentos de personalização, ressaltando que a proposta foi feita sob medida para a realidade do cliente.  \n\n  \n- Manteve tom acolhedor, transmitindo tranquilidade e segurança quanto ao próximo passo. Parabéns pela postura de parceria!  \n\n  \n⚠️ PONTOS DE MELHORIA  \n\n- Faltou utilizar a história de conexão (Anel de Brilhantes) para dar mais força ao argumento da decisão afetuosa.  \n\n  \n- Ao sugerir fazer uma “surpresa para a esposa”, faltou validar sinceramente a necessidade de envolvimento dela e oferecer opção de conversar juntos.  \n\n  \n- A reconexão com pontos da ADN poderia ter sido mais explícita, relembrando motivos positivos (proteção futura, tranquilidade familiar) antes de sugerir o fechamento.  \n\n  \n- Deixou espaço para um novo agendamento, mas poderia ter usado uma frase de impacto com silêncio para reforçar o senso de oportunidade. Há espaço para pequenas refinadas, siga em frente!  \n\n  \n🩵 ANÁLISE EMOCIONAL  \n\n- Seu tom foi empático, gentil e consultivo, equilibrando firmeza e cordialidade. Houve segurança, mas ainda com leve hesitação na exploração mais profunda da objeção.  \n\n  \n🛅 MOMENTOS-CHAVE  \n\n- Quando sugeriu iniciar a ficha de análise para agilizar o processo, mostrou proatividade e manteve o cliente no fluxo de fechamento. Isso reforça a confiança e evita esfriamento.  \n\n  \n- Ao perguntar sobre o ponto principal para alinhar com a esposa (valor ou coberturas), focou na objeção real, ajudando o cliente a avançar.  \n\n  \n🔊 REFORMULAÇÕES RECOMENDADAS  \n\n- “Posso perguntar: sua dúvida é se vão fazer o seguro, ou quando farão juntos?”  \n\n- “Tem pessoas que veem esse gesto como uma declaração de proteção e cuidado com quem amam.”  \n\n- “Rafael, seria interessante fazermos a ligação juntos com sua esposa? Assim garantimos que ela se sinta segura.”  \n\n- “Podemos preencher juntos agora e, caso ela tenha alguma observação amanhã, ajustamos sem compromisso?”  \n\n- “Vamos proteger 100% sua família: colocamos sua esposa como beneficiária principal?”  \n\n  \n➡️ RECOMENDAÇÕES  \n\nAprofunde a exploração da objeção com perguntas abertas e histórias de conexão. Use frases de impacto comercial seguidas de silêncio estratégico. Reforce a reconexão com a motivação familiar da decisão. Você está no rumo certo para fechar mais negócios de forma consultiva e empática!",
+        "insights": [
+            "Rafael: perfil DISC dominante amarelo (YELLOW), pediatra carismático, decisão emocional e relacional, principal objeção: CONSENTIMENTO (\"preciso falar com minha esposa antes de decidir\").",
+            "O objetivo era identificar a objeção real e tratar com a CHAVE adequada, buscando obter a contratação hoje, com o cliente satisfeito. O objetivo foi parcialmente atingido, pois houve avanço ao fechamento, mas a decisão foi adiada para envolver a esposa.",
+            "Demonstrou escuta ativa ao acolher a necessidade de consultar a esposa.",
+            "Identificou corretamente que a objeção principal era de consentimento e procurou alternativas, como envolver a esposa rapidamente.",
+            "Usou argumentos de personalização, ressaltando que a proposta foi feita sob medida para a realidade do cliente.",
+            "Manteve tom acolhedor, transmitindo tranquilidade e segurança quanto ao próximo passo. Parabéns pela postura de parceria!",
+            "Faltou utilizar a história de conexão (Anel de Brilhantes) para dar mais força ao argumento da decisão afetuosa.",
+            "Ao sugerir fazer uma “surpresa para a esposa”, faltou validar sinceramente a necessidade de envolvimento dela e oferecer opção de conversar juntos."
+        ]
+    },
+    {
+        "name": "Parceira Ark",
+        "agency": "Outros",
+        "region": "Outros",
+        "date": "25/08/2026",
+        "dur": "1m 59s",
+        "score": 66,
+        "scenario": "OBJECAO_ADIAMENTO",
+        "lqa": "N/A",
+        "interactions": 15,
+        "messages": [
+            {
+                "role": "AI",
+                "text": "Achei a proposta muito interessante, mas preciso conversar com minha esposa antes de decidir. Depois eu te dou uma resposta, tudo bem?"
+            },
+            {
+                "role": "HUMAN",
+                "text": "Perfeito. É, me fala um pouquinho, é, você gostou da proposta, gostou dos valores, ficou com alguma dúvida com relação às proteções, aos capitais? Fala um pouquinho pra mim o que você achou e o que exatamente você precisa conversar com a sua esposa."
+            },
+            {
+                "role": "AI",
+                "text": "Gostei dos valores e das coberturas principais, tudo pareceu bem alinhado com o que conversamos.  \nPreciso falar com minha esposa para ajustar quem será o beneficiário e confirmar o débito automático no cartão dela ou no meu."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Ótimo, vamos lá. Existe-- o benefício, com relação aos beneficiários, fica tranquilo, você pode colocar qualquer pessoa que você ache agora, pode colocar sua esposa, seus filhos e depois você tem total autonomia pra alterar a qualquer momento, tá? Então com relação aos beneficiários, você consegue decidir. E com relação ao débito, você-- nós temos pra essa primeira parcela duas opções: ou você faz no cartão de crédito recorrente, ou você pode fazer débito em conta. Ééé, tem mais alguma questão que você precise falar com a sua esposa pra tomada de decisão? Ela vai te ajudar? Fala um pouquinho pra mim"
+            },
+            {
+                "role": "AI",
+                "text": "Ela vai me ajudar sim, basicamente pra confirmar quem colocamos como beneficiário e qual conta usar no débito.  \nSe der certo pra você, eu converso com ela hoje à noite e te dou um retorno amanhã."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Certo. Ééé, me, me fala, é somente a questão do pagamento que você tá em dúvida? Ficou com alguma outra questão que eu possa te ajudar? Ou se você quiser eu posso falar com ela também. Se você puder, é, será que ela consegue falar com a gente agora? Eu tô, tô disponível aqui"
+            },
+            {
+                "role": "AI",
+                "text": "Só a questão do pagamento e quem colocamos como beneficiário, nada além disso.  \nEla não pode falar agora, mas converso com ela hoje à noite e te retorno amanhã de manhã."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Perfeito. Ééé, então o que você acha da gente preencher já sua ficha de saúde? A gente já adianta a ficha. Ééé, você vai entender como funciona a dinâmica dos beneficiários, e aí você valida com ela quem você pensou em pôr o beneficiário e a gente só cadastra a forma de pagamento e antes de assinar, a gente va-valida com ela e já bota sua-- já coloca a suaaa"
+            },
+            {
+                "role": "HUMAN",
+                "text": "Proposta em análise, o que que você acha?"
+            },
+            {
+                "role": "AI",
+                "text": "Proposta em análise parece bem feita e alinhada com o que conversamos.  \nSe você puder adiantar a ficha de saúde agora, eu aceito que a gente deixe isso pronto enquanto eu confirmo beneficiário e débito com minha esposa."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Perfeito, vamos colocar então aqui. Ééé, me fala mais alguma coisa: quem que você pensa em colocar como beneficiário?"
+            },
+            {
+                "role": "AI",
+                "text": "Penso em colocar minha esposa como beneficiária principal e dividir uma parte entre meu filho e minha irmã como secundários."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Ótimo, isso é perfeito. A gente pode até já deixar isso preenchido aqui na sua ficha e após a validação com a sua esposa, a gente já assina e, e libera pra análise, certo?"
+            },
+            {
+                "role": "AI",
+                "text": "Perfeito, pode deixar preenchido então.  \nEu converso com ela hoje à noite e te retorno amanhã de manhã pra confirmar os últimos detalhes."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Combinado, fico no aguardo aqui da, da sua confirmação só pra gente assinar a proposta e já liberar pra análise"
+            }
+        ],
+        "finished": true,
+        "feedback": "Aqui está o debriefing da nossa troca.\n\n  \n🤓 PERSONA\n\n- Atuei como Rafael, pediatra carismático, perfil DISC amarelo, objeção principal de CONSENTIMENTO (“preciso falar com minha esposa”).\n\n  \n🎯 OBJETIVO PRINCIPAL\n\n- Você conseguiu tratar a objeção de consentimento e conduziu até a preparação para o fechamento, deixando o cliente seguro. Objetivo parcialmente atingido.\n\n  \n➕ PONTOS FORTES\n\n- Fez perguntas abertas logo de início para entender a razão do adiamento (“o que você achou e o que exatamente você precisa conversar?”).\n\n  \n- Ofereceu alternativas práticas de pagamento e esclareceu detalhes sobre a escolha do beneficiário de forma acolhedora.\n\n  \n- Sugeriu ligar para a esposa, mostrando iniciativa para acelerar a tomada de decisão, mas com respeito ao processo familiar.\n\n  \n- Manteve escuta ativa e disposição para ajudar em cada etapa, transmitindo segurança.\n\n  \nContinue nessa pegada consultiva, é meio caminho andado para um fechamento de sucesso!\n\n  \n⚠️ PONTOS DE MELHORIA\n\n- Faltou uma conexão emocional mais forte com a motivação da contratação (ADN), trazendo as necessidades identificadas anteriormente.\n\n  \n- A abordagem ficou levemente operacional (“preencher ficha”, “validar com ela”), pouco atrelada ao que é realmente importante para Rafael (proteção, família).\n\n  \n- Poderia ter utilizado uma história de conexão (anel de brilhantes) para reforçar que decisões de proteção também são atos de carinho pessoal.\n\n  \n- Seria valioso fazer silêncio logo após uma frase de impacto, para deixar o valor da decisão ressoar.\n\n  \nPratique aproximar mais o fechamento dos motivos emocionais do cliente e não só dos procedimentos.\n\n  \n🩵 ANÁLISE EMOCIONAL\n\nO tom esteve acolhedor, gentil e cooperativo, com vocabulário informal. Postura predominantemente empática e consultiva, sem sinais de pressão ou impaciência.\n\n  \n🛅 MOMENTOS-CHAVE\n\nSituação: Quando você perguntou se o cliente poderia ligar para a esposa naquele momento. O que fez: mostrou proatividade sem ser invasivo. Importância: acelerou o processo de tomada de decisão, favorecendo o avanço.\n\nSituação: Ofereceu opções de preenchimento e decisão sobre beneficiários. Impacto: reforçou a autonomia do cliente e tranquilizou sobre próximos passos.\n\n  \n🔊 REFORMULAÇÕES RECOMENDADAS\n\n- “Tem algo que te deixa inseguro na decisão hoje, além de conversar com sua esposa?”\n\n- “Muitas vezes decisões assim são gestos de carinho — como um presente de proteção para quem a gente ama.”\n\n- “Se quiser, podemos já adiantar tudo e você valida o beneficiário depois, tudo sob seu controle. Fez sentido pra você?”\n\n- “Prefere colocar cem por cento para sua esposa, ou dividir entre ela e seu filho?”\n\n  \n➡️ RECOMENDAÇÕES\n\nLeve sempre a conversa para o campo dos valores familiares e da motivação pessoal do cliente. Utilize histórias de conexão que fazem sentido para ele. Silêncios estratégicos dão tempo para o prospect sentir o impacto positivo da decisão. Você está no caminho — capriche no emocional e o fechamento virá com mais leveza!",
+        "insights": [
+            "Atuei como Rafael, pediatra carismático, perfil DISC amarelo, objeção principal de CONSENTIMENTO (“preciso falar com minha esposa”).",
+            "Você conseguiu tratar a objeção de consentimento e conduziu até a preparação para o fechamento, deixando o cliente seguro. Objetivo parcialmente atingido.",
+            "Fez perguntas abertas logo de início para entender a razão do adiamento (“o que você achou e o que exatamente você precisa conversar?”).",
+            "Ofereceu alternativas práticas de pagamento e esclareceu detalhes sobre a escolha do beneficiário de forma acolhedora.",
+            "Sugeriu ligar para a esposa, mostrando iniciativa para acelerar a tomada de decisão, mas com respeito ao processo familiar.",
+            "Manteve escuta ativa e disposição para ajudar em cada etapa, transmitindo segurança.",
+            "Faltou uma conexão emocional mais forte com a motivação da contratação (ADN), trazendo as necessidades identificadas anteriormente.",
+            "A abordagem ficou levemente operacional (“preencher ficha”, “validar com ela”), pouco atrelada ao que é realmente importante para Rafael (proteção, família)."
+        ]
+    },
+    {
+        "name": "Parceira Ark",
+        "agency": "Outros",
+        "region": "Outros",
         "date": "07/07/2026",
         "dur": "0m 33s",
         "score": 0,
@@ -13825,6 +14248,176 @@ const RAW_SIMULATIONS = [
         "name": "Parceira Ark",
         "agency": "Outros",
         "region": "Outros",
+        "date": "25/08/2026",
+        "dur": "2m 48s",
+        "score": 64,
+        "scenario": "OBJECAO_ADIAMENTO",
+        "lqa": "N/A",
+        "interactions": 10,
+        "messages": [
+            {
+                "role": "AI",
+                "text": "Achei a proposta clara e faz sentido, mas preciso pensar melhor antes de decidir. Vou levar o material e conversar com minha esposa, depois te dou uma resposta."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Certo, Eduardo, vamos lá. É, que bom que você gostou da proposta. Ela foi desenvolvida em cima mesmo da conversa que nós tivemos e da sua realidade atual. É, com relação às coberturas, ficou tudo claro. Me fala o que exatamente você precisa conversar com a sua esposa, que aí às vezes eu posso até te ajudar a esclarecer também"
+            },
+            {
+                "role": "AI",
+                "text": "Quero alinhar o impacto no nosso orçamento mensal e confirmar como ficará a escolha dos beneficiários. Se você puder resumir só esses dois pontos agora, ajuda a eu decidir antes de falar com minha esposa."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Perfeito, vamos lá. Esse valor que eu passei pra você então tá ajustado à sua situação financeira atual, certo? Cê já me passou. E como isso impacta? Você consegue fazer o pagamento do valor total anual em uma única parcela com desconto de até dez por cento, ou você pode pagar esse valor parcelado em doze vezes no cartão de crédito ou débito em conta, tá? É, se for no cartão de crédito, normalmente as pessoas preferem fazer o pagamento pelo cartão de crédito, porque aí acumula milhas, tem outros benefícios vinculados, não precisa ficar se preocupando em ver se caiu na conta, tudo certinho, tá? É, e o cartão de crédito ele também é debitado de maneira recorrente, não consumindo todo o crédito do seu cartão. Então isso também ajuda um pouquinho o impacto financeiro de vocês. É, com relação aos beneficiários, você pode definir qualquer pessoa que você entenda nesse momento pra colocar como beneficiário, pode colocar inclusive a sua esposa. E, e"
+            },
+            {
+                "role": "AI",
+                "text": "Certo, então prefiro parcelar no cartão em doze vezes para manter o fluxo livre.  \nQuanto ao beneficiário, vamos colocar minha esposa como principal e dividir uma reserva para os filhos como secundário."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Perfeito. Então, o que que eu já vou deixar pronto aqui pra você? Vamos já preencher a sua, a sua ficha, tá? Então a gente já vai deixar toda a sua análise pronta, a gente coloca o seu cartão de crédito e já deixa o seu seguro em análise com os beneficiários já definidos, sua esposa e seus filhos como secundários. Isso, é, ficou claro com você ou você ainda tem mais alguma dúvida que você precise esclarecer?"
+            },
+            {
+                "role": "AI",
+                "text": "Está claro. Pode preencher com o parcelamento em doze vezes no cartão e os beneficiários como falei. Vou avisar minha esposa que vocês podem entrar em contato se precisarem confirmar algo."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Perfeito, eu tô super à disposição pra atendê-la pra qualquer questão. Nós já vamos deixar a sua, hã, o seu seguro em análise, assim que a seguradora me der a resposta do aceite, é, eu te aviso e marcamos pra eu poder fazer a entrega da sua apólice. Parabéns pela escolha em proteger a sua vida e a proteger toda a sua família. Eu tô à disposição pra qualquer dúvida"
+            },
+            {
+                "role": "AI",
+                "text": "Perfeito, obrigado. Vou avisar minha esposa para atender caso entrem em contato."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Perfeito, fico à disposição também"
+            }
+        ],
+        "finished": true,
+        "feedback": "Aqui está o debriefing da nossa troca.\n\n  \n🤓 PERSONA\n\n- Eduardo, engenheiro metódico, perfil DISC azul, cético, valoriza lógica e segurança, principal objeção: CONSENTIMENTO (“preciso falar com minha esposa”).\n\n  \n🎯 OBJETIVO PRINCIPAL\n\n- O corretor tratou parcialmente a objeção principal, tentou avançar ao fechamento, mas não investigou em profundidade a questão do adiamento. O objetivo foi parcialmente atingido.\n\n  \n➕ PONTOS FORTES\n\n- Demonstrou domínio do produto e clareza na explicação das formas de pagamento, facilitando a visualização dos próximos passos.\n\n  \n- Trouxe praticidade ao sugerir deixar o seguro em análise, mostrando diligência e cuidado com o processo.\n\n  \n- Manteve postura acolhedora e tranquilizadora no fechamento, reforçando que estava disponível para esclarecimentos.\n\n  \n- Parabéns pela segurança na condução do início do preenchimento e pela comunicação clara dos benefícios.\n\nContinue valorizando seu conhecimento técnico e gentileza. Isso inspira confiança!\n\n  \n⚠️ PONTOS DE MELHORIA\n\n- Faltou uma escuta ativa mais presente — não buscou detalhar por que o cliente precisava conversar com a esposa, nem investigou se era uma dúvida real ou busca de consenso.\n\n  \n- Não utilizou uma CHAVE específica para objeção de consentimento (por exemplo, história do anel de brilhantes ou alternativa concreta como ligação para a esposa).\n\n  \n- Poderia ter feito uma pergunta de descoberta da objeção oculta (“o que seria indispensável a sua esposa aprovar?”), evitando tratar a dúvida apenas de forma genérica.\n\n  \n- A reconexão com as necessidades da ADN ficou implícita, sem um resgate emocional ou lógico das motivações identificadas.\n\nInvista tempo em perguntas abertas para aprofundar objeções. Isso facilita o fechamento e evita dúvidas pendentes.\n\n  \n🩵 ANÁLISE EMOCIONAL\n\nO tom foi profissional, cálido e seguro, porém com ritmo um pouco acelerado, o que pode passar sensação de ansiedade pela conclusão.\n\n  \n🛅 MOMENTOS-CHAVE\n\nSituação: Quando o cliente sinalizou precisar conversar com a esposa → O corretor explicou detalhes práticos e sugeriu iniciar o cadastro sem explorar a barreira → Importância: oportunidade de diagnosticar e tratar a real objeção foi perdida → Impacto: fechamento conduzido, mas sem dissipar resistências.\n\nSituação: Proposta do preenchimento imediato dos dados e benefíciários → Facilitou o avanço prático, mas faltou a validação conjunta para garantir total conforto do cliente.\n\n  \n🔊 REFORMULAÇÕES RECOMENDADAS\n\n- “Eduardo, me conta: o que é indispensável para que sua esposa se sinta segura com essa decisão?”\n\n- “Muitos clientes compartilham dúvidas com o cônjuge, mas reconhecem que proteger a família é também um gesto pessoal de cuidado. Posso compartilhar a história do anel de brilhantes?”\n\n- “Preferimos preencher a proposta juntos agora e, se surgir qualquer dúvida nova após a conversa com sua esposa, ajustamos antes da assinatura. Que tal?”\n\n- “Você acha que tem alguma questão específica que eu já possa esclarecer para ambos?”\n\n- Frase de impacto: “Seguro de vida não é sobre quando queremos fazer, e sim enquanto podemos fazer.”\n\n  \n➡️ RECOMENDAÇÕES\n\nPriorize escuta ativa: descubra a motivação real do adiamento e trate objetivamente cada barreira. Reconecte sempre com a ADN antes de fechar. Pratique perguntas exploratórias e aprofunde os motivos ligados ao consentimento. Continue aprimorando — cada troca é uma oportunidade para vender e proteger melhor!",
+        "insights": [
+            "Eduardo, engenheiro metódico, perfil DISC azul, cético, valoriza lógica e segurança, principal objeção: CONSENTIMENTO (“preciso falar com minha esposa”).",
+            "O corretor tratou parcialmente a objeção principal, tentou avançar ao fechamento, mas não investigou em profundidade a questão do adiamento. O objetivo foi parcialmente atingido.",
+            "Demonstrou domínio do produto e clareza na explicação das formas de pagamento, facilitando a visualização dos próximos passos.",
+            "Trouxe praticidade ao sugerir deixar o seguro em análise, mostrando diligência e cuidado com o processo.",
+            "Manteve postura acolhedora e tranquilizadora no fechamento, reforçando que estava disponível para esclarecimentos.",
+            "Parabéns pela segurança na condução do início do preenchimento e pela comunicação clara dos benefícios.",
+            "Faltou uma escuta ativa mais presente — não buscou detalhar por que o cliente precisava conversar com a esposa, nem investigou se era uma dúvida real ou busca de consenso.",
+            "Não utilizou uma CHAVE específica para objeção de consentimento (por exemplo, história do anel de brilhantes ou alternativa concreta como ligação para a esposa)."
+        ]
+    },
+    {
+        "name": "Parceira Ark",
+        "agency": "Outros",
+        "region": "Outros",
+        "date": "25/08/2026",
+        "dur": "2m 29s",
+        "score": 76,
+        "scenario": "OBJECAO_ADIAMENTO",
+        "lqa": "N/A",
+        "interactions": 20,
+        "messages": [
+            {
+                "role": "AI",
+                "text": "Achei a proposta bem interessante, mas preciso pensar com calma antes de tomar uma decisão. Depois eu te dou uma resposta."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Certo, Camila. Que bom que você gostou da proposta, porque ela foi desenhada exatamente dentro da, é, da possibilidade que a gente conversou. O que eu gostaria de entender com você é se ficou com alguma dúvida com relação às coberturas, ao capital segurado, ao valor. Você ficou com alguma dúvida? Fala pra mim que aí às vezes eu consigo te ajudar aqui"
+            },
+            {
+                "role": "AI",
+                "text": "Para mim parece que o valor está ok, mas eu preciso conversar com meu companheiro antes de decidir. Podemos agendar uma rápida ligação para ele participar nos próximos dois dias?"
+            },
+            {
+                "role": "HUMAN",
+                "text": "Claro, a gente pode falar com ele, acho até importante, mas me fala. Ééé, ele vai te ajudar a decidir com relação ao quê? O seguro, ele é importante pra você e ele vai trazer benefícios pra ele também. Então me fala, é, exatamente o que que você precisa falar com ele, o que que a gente precisa até pra eu organizar aqui a, aaa, as po-- a possibilidade pra gente conversar com ele"
+            },
+            {
+                "role": "AI",
+                "text": "Quero só que ele entenda o impacto financeiro mensal e quem fica como beneficiário se algo acontecer comigo. Podemos marcar uma chamada na parte da noite, daqui a dois dias."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Certo. É, o, quem fica como fina, é, beneficiário, você pode definir a qualquer momento, tá? Então assim, o próximo passo é a gente já colocar aqui sua ficha, é, preencher seus dados de saúde, né? E o beneficiário, vocêêê, se você não quiser, cê nem precisa colocar agora, a gente pode já colocar sua ficha pra análise e depois, a qualquer momento, você altera o beneficiário. Ou você já pode colocar 100% pra ele e também alterar depois"
+            },
+            {
+                "role": "HUMAN",
+                "text": "É, tem mais alguma questão que você queira falar além disso? Porque com relação ao pagamento, ele pode ser feito no cartão de crédito, de maneira recorrente ou em débito em conta"
+            },
+            {
+                "role": "AI",
+                "text": "Acho o débito em conta mais prático, mas prefiro confirmar com ele antes. Podemos agendar a chamada na noite de depois de amanhã, às oito horas?"
+            },
+            {
+                "role": "HUMAN",
+                "text": "Claro, podemos sim. Vamos fazer o seguinte: ééé, o que você acha da gente já preencher aqui a sua ficha de saúde e depois a gente só valida com ele pra assinatura"
+            },
+            {
+                "role": "AI",
+                "text": "Pode sim, vamos preencher a ficha de saúde agora então. Só preciso que você confirme se a entrevista médica pode ser agendada em casa, caso necessário."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Claro, pode sim. É, se tiver alguma necessidade deee, de exames, a MedLife vai me sinalizar e nós vamos orientar você com os próximos passos, tá bem? Porque aí os exames eles são feito direto pelo seu convênio médico, mas eu te oriento assim que tiver necessidade, caso, caso tiver, né?"
+            },
+            {
+                "role": "AI",
+                "text": "Beleza, então podemos seguir com o preenchimento da ficha de saúde agora. Só preciso confirmar: você vai usar meu convênio para eventuais exames?"
+            },
+            {
+                "role": "HUMAN",
+                "text": "Não, não. O seguro ele não tem nada a ver com o seu convênio, tá? Aqui eu vou colocar o seu, sua saúde em análise, caso a MetLife solicitar qualquer exames, aí eu te falo e você aciona o, o convênio caso você não tiver. Provavelmente você já tenha os exames do último ano, correto?"
+            },
+            {
+                "role": "AI",
+                "text": "Sim, tenho alguns exames do último ano, principalmente de sangue e check-up. Pode seguir com o preenchimento que eu confirmo depois se precisar acionar o convênio."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Perfeito então, vamo seguir. Ééé, o que eu acho aqui, ééé, tem-- além, além da nossa conversa com o seu companheiro, tem algum outro impeditivo da gente seguir com a, com a sua proposta?"
+            },
+            {
+                "role": "AI",
+                "text": "Acho que não, só preciso confirmar com ele sobre débito em conta e beneficiário na chamada. Pode seguir preenchendo a ficha enquanto isso."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Perfeito, vamos preencher a ficha e já vamos dar início então na análise, ok?"
+            },
+            {
+                "role": "AI",
+                "text": "Ok, pode seguir então com o preenchimento. Vou confirmar com ele sobre débito em conta e beneficiário na chamada marcada."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Combinado. Então nós vamos preencher aqui e nos falamos então daqui a dois dias à noite"
+            },
+            {
+                "role": "AI",
+                "text": "Perfeito, até lá então. Obrigada."
+            }
+        ],
+        "finished": true,
+        "feedback": "Aqui está o debriefing da nossa troca.\n\n  \n\n🤓 PERSONA\n\n- Jovem executiva, perfil DISC amarelo, principal objeção na família CONSENTIMENTO.\n  \n  \n\n🎯 OBJETIVO PRINCIPAL\n\n- O objetivo de tratar a razão real do adiamento e obter a contratação agora foi parcialmente atingido, sem pressão indevida.\n  \n  \n\n➕ PONTOS FORTES\n\n- Você demonstrou acolhimento, conversando de forma aberta e interessada no entendimento do motivo do adiamento.\n\n  \n- Incentivou o envolvimento do(a) companheiro(a) na decisão, validando a importância do consentimento.\n\n  \n- Apresentou alternativas concretas, como preencher a ficha de saúde antes da validação final.\n\n  \n- Manteve postura consultiva e explicou próximos passos sem gerar ansiedade.\n\n  \nÓtima escuta e flexibilidade para avançar!\n\n  \n\n⚠️ PONTOS DE MELHORIA\n\n- Faltou aprofundar com perguntas abertas para descobrir se o receio era SE fecharia ou apenas QUANDO, diferenciando objeção verdadeira de fuga.\n\n  \n- Ausência de recapitulação das necessidades principais (ADN) para reconectar o desejo de proteção à decisão.\n\n  \n- A argumentação ficou muito no prático (“preencher ficha”, “beneficiário pode mudar”), sem usar uma CHAVE emocional, como a história do Anel de Brilhantes, o que teria potencial para acelerar a confiança.\n\n  \n- Não usou frase de impacto comercial nem trabalhou o silêncio após um argumento forte, o que reduz o efeito de reforço do momentum.\n\n  \nSão ajustes simples para ganhar mais tração!\n\n  \n\n🩵 ANÁLISE EMOCIONAL\n\n- Seu tom foi calmo, acolhedor e seguro. O ritmo por vezes ficou hesitante, mas a empatia prevaleceu.\n\n  \n\n🛅 MOMENTOS-CHAVE\n\n- Ao propor começar o processo e depois validar a assinatura (“o que você acha da gente já preencher aqui…”), você impulsionou o fechamento consultivo e lidou positivamente com o consentimento.\n\n  \n- Ao validar que o beneficiário pode mudar e explicar o procedimento, gerou segurança operacional sem parecer forçar.\n\n  \n\n🔊 REFORMULAÇÕES RECOMENDADAS\n\n- “Você sente que ainda há algo que precisa esclarecer antes de decidir, ou é só uma questão de conversar com ele mesmo?”\n  \n- “Existem decisões que são só nossas — como o seguro, que é um ato de cuidado e liberdade.”\n  \n- “Se achar melhor, podemos ligar pra ele juntos agora ou já deixar encaminhado — como prefere?”\n  \n- “Podemos seguir com seus dados e depois só validar a assinatura, tudo bem?”\n\n  \n\n➡️ RECOMENDAÇÕES\n\nReforce a conexão com as necessidades identificadas (ADN), utilize frases de impacto comercial, e ajuste suas perguntas para investigar objeções ocultas. Experimente incorporar uma pequena história na abordagem e treine pausas estratégicas após frases marcantes. Continue sendo consultivo — seu potencial de conversão só tende a crescer!",
+        "insights": [
+            "Jovem executiva, perfil DISC amarelo, principal objeção na família CONSENTIMENTO.",
+            "O objetivo de tratar a razão real do adiamento e obter a contratação agora foi parcialmente atingido, sem pressão indevida.",
+            "Você demonstrou acolhimento, conversando de forma aberta e interessada no entendimento do motivo do adiamento.",
+            "Incentivou o envolvimento do(a) companheiro(a) na decisão, validando a importância do consentimento.",
+            "Apresentou alternativas concretas, como preencher a ficha de saúde antes da validação final.",
+            "Manteve postura consultiva e explicou próximos passos sem gerar ansiedade.",
+            "Faltou aprofundar com perguntas abertas para descobrir se o receio era SE fecharia ou apenas QUANDO, diferenciando objeção verdadeira de fuga.",
+            "Ausência de recapitulação das necessidades principais (ADN) para reconectar o desejo de proteção à decisão."
+        ]
+    },
+    {
+        "name": "Parceira Ark",
+        "agency": "Outros",
+        "region": "Outros",
         "date": "28/07/2026",
         "dur": "0m 0s",
         "score": 0,
@@ -14479,6 +15072,21 @@ const RAW_SIMULATIONS = [
             "Postura consultiva: não houve pressão nem promessas indevidas, o tom foi aberto e acolhedor.",
             "Faltou identificar explicitamente a razão do adiamento antes de negociar (“quero pensar se vale o preço ou se é o momento?”)."
         ]
+    },
+    {
+        "name": "Parceira Ark",
+        "agency": "Outros",
+        "region": "Outros",
+        "date": "25/08/2026",
+        "dur": "0m 0s",
+        "score": 0,
+        "scenario": "OBJECAO_ADIAMENTO",
+        "lqa": "N/A",
+        "interactions": 0,
+        "messages": [],
+        "finished": false,
+        "feedback": "",
+        "insights": []
     },
     {
         "name": "Ark Parceiro",
@@ -18450,6 +19058,26 @@ const RAW_SIMULATIONS = [
             {
                 "role": "AI",
                 "text": "Je comprends que les primes peuvent évoluer, mais je ne peux pas prendre ce risque aujourd'hui.  \nProposez-moi une option avec prime fixe sur dix ans et je revois mon budget avant de m'engager."
+            }
+        ],
+        "finished": false,
+        "feedback": "",
+        "insights": []
+    },
+    {
+        "name": "Sophie Géraud",
+        "agency": "Outros",
+        "region": "Outros",
+        "date": "25/08/2026",
+        "dur": "0m 0s",
+        "score": 0,
+        "scenario": "CONVENCER_PROSPECT",
+        "lqa": "N/A",
+        "interactions": 1,
+        "messages": [
+            {
+                "role": "AI",
+                "text": "Bonjour. Honnêtement, c'est un sujet pas facile à aborder. Pourquoi en parler maintenant ?"
             }
         ],
         "finished": false,
