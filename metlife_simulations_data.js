@@ -1,4 +1,4 @@
-const LATEST_DUMP_DATE = "27/08/2026";
+const LATEST_DUMP_DATE = "28/08/2026";
 const RAW_SIMULATIONS = [
     {
         "name": "Juliana Pedrão",
@@ -3624,6 +3624,579 @@ const RAW_SIMULATIONS = [
             "Traz ao final um acompanhamento pós-venda, reforçando o vínculo e a confiança na relação.",
             "Diagnóstico da objeção"
         ]
+    },
+    {
+        "name": "Parceiro Gorilla01",
+        "agency": "Outros",
+        "region": "Outros",
+        "date": "27/08/2026",
+        "dur": "1m 48s",
+        "score": 43,
+        "scenario": "OBJECAO_ADIAMENTO",
+        "lqa": "N/A",
+        "interactions": 29,
+        "messages": [
+            {
+                "role": "AI",
+                "text": "Achei a proposta muito clara e faz sentido, mas preciso conversar com minha esposa antes de decidir. Depois eu te dou uma resposta."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Eu entendo que você precisa conversar com a sua esposa"
+            },
+            {
+                "role": "HUMAN",
+                "text": "Mas no dia da nossa reunião, você até pergun-- eu até perguntei: \"Precisa de alguém estar presente na nossa próxima reunião?\" E você falou que só você bastava pra tomar a decisão. O que que de fato tá impedindo você de fechar hoje, se você gostou da proposta?"
+            },
+            {
+                "role": "AI",
+                "text": "Porque eu valorizo que decisões importantes sejam compartilhadas em casal. Você disse que eu poderia decidir sozinho, e é verdade, mas prefiro alinhar com minha esposa por respeito e para evitar surpresas no orçamento familiar. Podemos agendar uma conversa em conjunto nos próximos dias."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Eu superentendo Mas isso, de fato, é importante pra sua família? Porque se algo acontecer com você, aqui no ADN a gente já viu que você é o pilar financeiro"
+            },
+            {
+                "role": "HUMAN",
+                "text": "Como a sua esposa ficaria? Eu não vi nenhuma viúva ligando pra mim pra reclamar"
+            },
+            {
+                "role": "AI",
+                "text": "Eu não achei que sua colocação fosse um ataque, mas fico desconfortável com esse tom. Minha esposa é organizada com as finanças e precisa entender o impacto no orçamento antes de eu assumir um débito novo. Podemos agendar uma rápida conversa com ela na próxima semana?"
+            },
+            {
+                "role": "HUMAN",
+                "text": "Sim, podemos sim Ééé, hã Agora só pra eu entender"
+            },
+            {
+                "role": "HUMAN",
+                "text": "O valor ficou confortável, as, as"
+            },
+            {
+                "role": "AI",
+                "text": "Ficou confortável, sim,"
+            },
+            {
+                "role": "HUMAN",
+                "text": "As coberturas"
+            },
+            {
+                "role": "HUMAN",
+                "text": "As coberturas ficam confortáveis? Ééé, você mudaria alguma coisa? Só pra eu já deixar alinhado"
+            },
+            {
+                "role": "AI",
+                "text": "As coberturas estão alinhadas com o que discutimos sobre proteger a renda da família e garantir a educação dos filhos. Não mudaria nada agora; prefiro revisar com minha esposa antes de alterar valores ou coberturas."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Enten-entendi. Então, vamo fazer o seguinte: vamo marcar semana que vem, eu, você e ela, pode ser? Assim eu explico pra ela, porqueee"
+            },
+            {
+                "role": "HUMAN",
+                "text": "Às vezes você não vai conseguir explicar exatamente a, cada passo que eu, que eu expliquei pra você. Eu mesmo demorei um tempo pra entender todas as coberturas"
+            },
+            {
+                "role": "HUMAN",
+                "text": "A gente pode fazer assim"
+            },
+            {
+                "role": "AI",
+                "text": "Pode sim, horário da tarde funciona melhor pra nós. Qual dia da próxima semana você tem disponível para agendarmos?"
+            },
+            {
+                "role": "HUMAN",
+                "text": "Ó, segunda-feira eu tenho às 14h ou às 16h Qual que ficaria melhor pra vocês?"
+            },
+            {
+                "role": "AI",
+                "text": "Quatorze horas fica melhor para nós. Pode confirmar esse horário, por favor?"
+            },
+            {
+                "role": "HUMAN",
+                "text": "Perfeito. Então, a gente consegueee-- vocês que, ééé, cês não preferem vim até o escritório? Assim a gente já toma um café?"
+            },
+            {
+                "role": "AI",
+                "text": "Prefiro que você venha até nossa casa, fica mais prático com a rotina dos filhos. Se não for possível, podemos ir ao seu escritório, sem problema."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Ah, claro! Não, sem problemas, eu vou até vocês. Então combinado, segunda-feira às 14h"
+            },
+            {
+                "role": "AI",
+                "text": "Perfeito, então até segunda-feira às quatorze horas. Nos vemos em casa."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Tá bom, brigada, viu?"
+            },
+            {
+                "role": "AI",
+                "text": "De nada, até segunda-feira às quatorze horas."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Até. Qualquer dúvida, qualquer coisa que surgir até segunda-feira, eu estou à disposição"
+            },
+            {
+                "role": "AI",
+                "text": "Obrigado, até segunda-feira às quatorze horas. Se surgir algo, eu aviso."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Perfeito então, muito obrigada, viu?"
+            },
+            {
+                "role": "AI",
+                "text": "Obrigada você. Até segunda-feira às quatorze horas."
+            }
+        ],
+        "finished": true,
+        "feedback": "Aqui está o debriefing da nossa troca. \n\n  \n🤓 PERSONA\n\n- Eduardo, engenheiro de qualidade, perfil DISC azul, racional, foco analítico; objeção principal de consentimento: necessidade de falar com a esposa.\n\n  \n🎯 OBJETIVO PRINCIPAL\n\n- O objetivo era identificar e tratar a objeção real e obter a contratação agora, com tranquilidade e sem pressão. O objetivo não foi atingido, pois houve proposta de agendamento, não fechamento no encontro.\n\n  \n➕ PONTOS FORTES\n\n- Demonstrou empatia ao validar que o cliente deseja conversar com a esposa.\n\n  \n- Procurou identificar se havia alguma objeção oculta ao perguntar diretamente o que impedia o fechamento.\n\n  \n- Relembrou a importância da proteção para a família, conectando ao papel de “pilar financeiro”.\n\n  \nMuito bom manter o tom acolhedor! Continue explorando as motivações do cliente — está no caminho certo.\n\n  \n⚠️ PONTOS DE MELHORIA\n\n- Faltou utilizar uma história de conexão eficaz para tratar a objeção de consentimento, como o “Anel de Brilhantes”.\n\n  \n- Ao sugerir o agendamento, “marcar semana que vem”, caiu na armadilha de adiar junto com o cliente, ao invés de buscar o fechamento agora.\n\n  \n- Não reforçou o momentum com frase de impacto ou silêncio intencional após retomar a importância para a família.\n\n  \n- A pergunta tática (“O que de fato tá impedindo…”) foi positiva, mas poderia ter sido complementada por escuta e mais perguntas de aprofundamento.\n\n  \nBusque sempre trazer o cliente de volta para a decisão no momento, sem transparecer ansiedade.\n\n  \n🩵 ANÁLISE EMOCIONAL\n\nO tom foi acolhedor, respeitoso, mas em alguns momentos hesitante e um pouco disperso, sem assertividade clara para incentivar o fechamento imediato.\n\n  \n🛅 MOMENTOS-CHAVE\n\nSituação: Cliente alegou precisar envolver a esposa. Corretor validou mas rapidamente passou a sugerir agendar nova reunião. Isso diluiu o impacto e perdeu o momentum para fechar no encontro, levando o cliente a adiar.\n\n  \n🔊 REFORMULAÇÕES RECOMENDADAS\n\n“Eduardo, se hoje só dependesse de você, acredita que essa proteção faz sentido para sua família?”\n\n  \n“Você quer pensar se vai fazer ou só quando vai fazer?”\n\n  \n“Tem decisões que são puro cuidado. Seguro de vida não é uma questão de quando se quer, e sim de enquanto se pode.”\n\n  \n“Podemos escolher juntos agora: deixamos sua esposa como beneficiária principal?”\n\n  \n➡️ RECOMENDAÇÕES\n\nInsista mais em tratar a objeção sem aceitar o adiamento imediato. Traga sempre as motivações identificadas na ADN, use frases de impacto e faça silêncio para criar reflexão. Fechamento ético e focado no agora é seu maior aliado. Você tem potencial, siga ajustando!",
+        "insights": [
+            "Eduardo, engenheiro de qualidade, perfil DISC azul, racional, foco analítico; objeção principal de consentimento: necessidade de falar com a esposa.",
+            "O objetivo era identificar e tratar a objeção real e obter a contratação agora, com tranquilidade e sem pressão. O objetivo não foi atingido, pois houve proposta de agendamento, não fechamento no encontro.",
+            "Demonstrou empatia ao validar que o cliente deseja conversar com a esposa.",
+            "Procurou identificar se havia alguma objeção oculta ao perguntar diretamente o que impedia o fechamento.",
+            "Relembrou a importância da proteção para a família, conectando ao papel de “pilar financeiro”.",
+            "Muito bom manter o tom acolhedor! Continue explorando as motivações do cliente — está no caminho certo.",
+            "Faltou utilizar uma história de conexão eficaz para tratar a objeção de consentimento, como o “Anel de Brilhantes”.",
+            "Ao sugerir o agendamento, “marcar semana que vem”, caiu na armadilha de adiar junto com o cliente, ao invés de buscar o fechamento agora."
+        ]
+    },
+    {
+        "name": "Parceiro Gorilla01",
+        "agency": "Outros",
+        "region": "Outros",
+        "date": "27/08/2026",
+        "dur": "6m 0s",
+        "score": 0,
+        "scenario": "OBJECAO_ADIAMENTO",
+        "lqa": "N/A",
+        "interactions": 104,
+        "messages": [
+            {
+                "role": "AI",
+                "text": "Gostei da proposta e faz sentido, mas preciso conversar com a Helena antes de decidir. Depois te dou uma resposta."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Carlos, eu superentendo"
+            },
+            {
+                "role": "HUMAN",
+                "text": "É, mas o que que mudou diante da, da nossa conversa anterior?"
+            },
+            {
+                "role": "HUMAN",
+                "text": "Que você havia falado que só você bastava pra tomar a decisão"
+            },
+            {
+                "role": "AI",
+                "text": "Mudei de ideia porque agora quero que a Helena esteja alinhada com isso. Não é por dúvida técnica, é uma decisão conjunta para as finanças da família."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Eu superentendo, mas aqui a gente lida com o fator tempo"
+            },
+            {
+                "role": "HUMAN",
+                "text": "Eu já vi já um cliente que ele falou que ia conversar com a esposa"
+            },
+            {
+                "role": "AI",
+                "text": "Sim, esse e-mail está correto. Vou checar o inbox e te aviso em cinco minutos."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Que ele ia pensar e depois de uma semana ele não pôde mais fazer o seguro, porque ele, ele teve um acidente Então assim, a gente lida aqui com o fator tempo e a gente não tem muito tempo. Hoje a gente pode sair daqui Ia acontecer alguma coisa, a gente tem que parar pra refletir isso"
+            },
+            {
+                "role": "AI",
+                "text": "Entendo o risco do tempo, mas continuo preferindo alinhar com a Helena antes de fechar hoje. Podemos agendar uma ligação rápida dela com você ainda hoje à noite?"
+            },
+            {
+                "role": "HUMAN",
+                "text": "Agora ela não pode, porque aí a gente já define tudo certinho, eu explico cada detalhe pra ela"
+            },
+            {
+                "role": "AI",
+                "text": "Tudo bem, se hoje à noite não rola, então agende uma chamada amanhã no final do dia quando a Helena estiver disponível. Qual horário você sugere?"
+            },
+            {
+                "role": "HUMAN",
+                "text": "Olha"
+            },
+            {
+                "role": "HUMAN",
+                "text": "Vamos fazer o seguinte"
+            },
+            {
+                "role": "AI",
+                "text": "Diz aí o que você propõe."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Hoje à tarde eu consigo falar com a Helena e explicar pra ela?"
+            },
+            {
+                "role": "AI",
+                "text": "Hoje à tarde acho difícil, tenho duas cirurgias. Melhor ser no início da noite, por volta das oito. Isso funciona pra você?"
+            },
+            {
+                "role": "HUMAN",
+                "text": "Funcionam. Então, é, pode ser na casa de vocês ou vocês preferem no meu escritório?"
+            },
+            {
+                "role": "AI",
+                "text": "Melhor na nossa casa, é mais tranquilo pra ela depois das crianças jantar. Pode ser às oito, então."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Perfeito Cláudio Ééé, voc-- só pra eu entender, você gostou da-d-das coberturas que eu apliquei pra você? Você gostou do projeto? Você mudaria alguma coisa? Em relação aos valores, você ficou desconfortável com algum valor? Porque é aquilo que eu tava te falando, aqui, ééé, é uma vã-- é uma mão de duas, de duas vias. Nós dois conseguimos ajustar o plano de acordo com a necessidade do cliente. Lógico que eu, como consultora, eu sempre vou trazer exatamente a necessidade do meu cliente, mas nem sempre a necessidade é a realidade dele. Ééé, você gostou? Do-- o que que você achou? O que que você mudaria?"
+            },
+            {
+                "role": "AI",
+                "text": "Gostei do projeto, atende o que a gente falou sobre renda e educação.  \nO valor está dentro do que eu esperava, talvez ajustar a franquia de invalidez só para reduzir o prêmio se der."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Então você mudaria ooo valor"
+            },
+            {
+                "role": "HUMAN",
+                "text": "Com quanto ficaria confortável pra você?"
+            },
+            {
+                "role": "AI",
+                "text": "Ficaria confortável com um prêmio mensal que reduzisse cerca de vinte por cento em relação ao apresentado, mantendo o capital para educação e renda da família."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Perfeito. Eu vooou, já vo- vou estar alinhando aqui. Só um minutinho, por favor"
+            },
+            {
+                "role": "AI",
+                "text": "Tudo bem, aguardo. Me avise quando estiver pronta e aí confirmamos o horário das oito."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Perfeito"
+            },
+            {
+                "role": "HUMAN",
+                "text": "Eu vooou, já vou mexer, ó. Eu tava alinhando aqui no sistema Ééé, a proposta que tinha ficado R$ 800,00 Ela re-- eu reduzi ela pra R$ 500,00 E Carlos, eu sinceramente não quero que você saia descoberto, porque eu sei a importância. Eu já vi Ns coisas acontecendo na, no ato do \"vou pensar\". Vamos fazer o seguinte: eu reduzi o valor pra você, você gostou da proposta, a sua maior beneficiária é a sua esposa Vamos fazer o seguinte"
+            },
+            {
+                "role": "HUMAN",
+                "text": "Eu te dou de bonificação a segunda parcela"
+            },
+            {
+                "role": "HUMAN",
+                "text": "Mas é pra gente fechar agora"
+            },
+            {
+                "role": "AI",
+                "text": "Ok, gostei da bonificação e da redução do prêmio.  \nFechamos agora se você já enviar a proposta e marcar a ligação comigo e com a Helena às oito."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Tá, mas essa proposta de eu pa-- de eu te dar a segunda parcela, é só se a gente já sair daqui fechado E depois, com certeza, mesmo assim eu posso explicar cobertura por cobertura pra sua esposa Mas agora já pra gente pescar"
+            },
+            {
+                "role": "AI",
+                "text": "Certo, então fechamos agora mesmo. Envia a proposta e confirma a ligação com a Helena às oito."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Cê confirmou com ela? Posso então ir à casa de vocês?"
+            },
+            {
+                "role": "AI",
+                "text": "Confirmei não ainda, estou saindo do hospital agora. Se você puder ir, combine comigo por mensagem e eu aviso a Helena para estar em casa às oito."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Perfeito então, ó, já vou subir a proposta. Quem você vai querer pra como beneficiário? Sua esposa vai ser 100%? Você prefere que eu inclua seu filho? Como que você gostaria, por favor?"
+            },
+            {
+                "role": "AI",
+                "text": "Pode deixar a Helena como beneficiária cem por cento. Se quiser, deixa uma cláusula para a guarda dos meninos para ela."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Perfeito então. Só vou precisar dos dados, ééé, dos seus dados pessoais, tá?"
+            },
+            {
+                "role": "AI",
+                "text": "Posso passar sim, mas prefiro enviar por mensagem segura depois do expediente. Você confirma que o envio pelo WhatsApp profissional está ok?"
+            },
+            {
+                "role": "HUMAN",
+                "text": "Sim, eu entendo, mas a gente já vai subir agora. Quem serão seus beneficiários? E eu preciso dos dados do cartão. Preciso do número, é, vencimento e bandeira"
+            },
+            {
+                "role": "AI",
+                "text": "Não vou passar os dados do cartão por aqui. Posso enviar por mensagem segura depois do expediente ou autorizar débito automático com o cartão cadastrado no meu banco, se vocês aceitarem essa opção."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Não, infelizmente a gente só aceita cartão de crédito Ééé"
+            },
+            {
+                "role": "HUMAN",
+                "text": "Se você quiser, já digita no, no-- se você não quiser falar, digita no WhatsApp, eu olho e a gente já apaga, pode ser?"
+            },
+            {
+                "role": "AI",
+                "text": "Não vou digitar dados do cartão no WhatsApp.  \nEnvie a ordem de pagamento por link seguro ou eu autorizo o débito automático via banco depois do expediente."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Perfeito. Sobre a pro-pro-a proposta, ééé Você quer digitar os dados do seu cartão?"
+            },
+            {
+                "role": "HUMAN",
+                "text": "Você ficaria mais confortável?"
+            },
+            {
+                "role": "AI",
+                "text": "Não, não fico confortável.  \nEnvie um link de pagamento seguro ou faço a autorização do débito automático via banco depois do expediente."
+            },
+            {
+                "role": "HUMAN",
+                "text": "É que nós não temos essa opção, o débito em conta na primeira parcela, apenas cartão de crédito Vamo fazer o seguinte: gera um cartão virtual Assim ele expira em 24 horas"
+            },
+            {
+                "role": "HUMAN",
+                "text": "E você não vai ter a preocupação. Pode confiar, Carlos"
+            },
+            {
+                "role": "AI",
+                "text": "Prefiro não. Não quero gerar cartão virtual nem passar número por mensagem.  \nEnvie o link de pagamento seguro ou eu autorizo o cartão no banco depois do expediente."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Link de pagamento nós não temos"
+            },
+            {
+                "role": "HUMAN",
+                "text": "Eu só preciso das informações dos dados bancários, só número e vencimento. Ééé, eu não preciso do código de segurança do cartão"
+            },
+            {
+                "role": "AI",
+                "text": "Eu já falei que não vou passar número do cartão por mensagem.  \nSe vocês não têm link, aguardem eu enviar os dados por meio seguro depois do expediente ou agendem a cobrança para eu autorizar pelo banco."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Tá, Carlos, eu vou verificar aqui o que eu, o que eu Que eu consigo fazer? Mas"
+            },
+            {
+                "role": "AI",
+                "text": "Ok, aguardo você verificar.  \nMe avisa quando tiver a solução e eu confirmo se consigo autorizar pelo banco depois do expediente."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Tá bom. Ééé"
+            },
+            {
+                "role": "AI",
+                "text": "Certo, fico no aguardo então. Me avise assim que tiver a solução e eu confirmo se consigo autorizar pelo banco depois do expediente."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Perfeito, eu já vou te mandar aí, vai chegar um e-token pra validação da proposta"
+            },
+            {
+                "role": "HUMAN",
+                "text": "Cê pode verificar se você recebeu? Vai chegar ou por SMS ou por e-mail"
+            },
+            {
+                "role": "AI",
+                "text": "Ainda não chegou nada aqui. Vou checar o SMS e o e-mail agora e te aviso em até quinze minutos."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Perfeito, então eu vou ficar aguardando"
+            },
+            {
+                "role": "HUMAN",
+                "text": "Eee eu preciso digitar, é um cód-- é um código com seis dígitos, tá bom? Acho que já chegou aí"
+            },
+            {
+                "role": "AI",
+                "text": "Não recebi nada ainda. Vou checar o SMS e o e-mail agora e te falo em cinco minutos."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Apenas pra confirmar, Cláudio, seu e-mail claudio.viana@gmail.com?"
+            },
+            {
+                "role": "HUMAN",
+                "text": "Tá, eu tô aguardando então Que já, já chegou pra assinatura do contrato s-social"
+            },
+            {
+                "role": "AI",
+                "text": "Certo, vou ficar de olho no e-mail e no SMS. Te aviso em cinco minutos se chegou."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Perfeito então. Brigada, viu?"
+            },
+            {
+                "role": "AI",
+                "text": "De nada. Fico no aguardo do e-token e te aviso assim que chegar."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Conseguiu verificar se chegou? Acredito que já tenha chego, porque é instantâneo"
+            },
+            {
+                "role": "AI",
+                "text": "Ainda nada aqui. Vou checar o SMS e o e-mail mais uma vez e te confirmo em três minutos."
+            },
+            {
+                "role": "HUMAN",
+                "text": "E agora chegou?"
+            },
+            {
+                "role": "AI",
+                "text": "Ainda não chegou. Vou checar mais uma vez e te aviso em dois minutos."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Perfeito"
+            },
+            {
+                "role": "AI",
+                "text": "Beleza. Fico no aguardo do e-token e te aviso assim que receber."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Parece uma mensagem que foi, é, enviada com sucesso Você pode confirmar o recebimento, por favor?"
+            },
+            {
+                "role": "AI",
+                "text": "Ainda não chegou aqui. Vou checar o SMS e o e-mail mais uma vez e te digo em dois minutos."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Carlos"
+            },
+            {
+                "role": "HUMAN",
+                "text": "Conseguiu verificar?"
+            },
+            {
+                "role": "AI",
+                "text": "Ainda nada aqui. Verifiquei SMS e e-mail duas vezes. Se não chegou em mais dois minutos, avisa que eu peço para você reenviar por outra via segura."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Tá."
+            },
+            {
+                "role": "AI",
+                "text": "Certo. Se não chegou em mais dois minutos, reenvia por outra via segura ou me liga que eu confirmo na hora."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Carlos, e-mail enviado"
+            },
+            {
+                "role": "AI",
+                "text": "Recebi agora. Vou abrir e validar o e-token na hora. Te confirmo em dois minutos."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Perfeito, que ótimo que chegou"
+            },
+            {
+                "role": "AI",
+                "text": "Ótimo, vou validar o e-token agora e te confirmo em dois minutos."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Tá bom"
+            },
+            {
+                "role": "AI",
+                "text": "Recebeu o e-token então? Vou validar e já te confirmo."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Perfeito. Assim que cê confirmar, cê me avisa, por favor"
+            },
+            {
+                "role": "AI",
+                "text": "Já confirmei o e-token e validei a proposta. Pode seguir com a emissão e nos vemos às oito."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Perfeito, muito obrigada, Carlos, você fez uma excelente escolha"
+            },
+            {
+                "role": "HUMAN",
+                "text": "Ééé, depois eu só vou ficar aguardando a questão dos dados bancários, mas à noite quando eu for aí conversar com a sua esposa, a gente já alimenta o sistemaaa Ééé, você pode-- você mesmo já digita os dados do cartão, tá bom?"
+            },
+            {
+                "role": "AI",
+                "text": "Não vou digitar os dados do cartão aí na hora.  \nAmanhã à noite eu autorizo pelo meu banco ou envio por canal seguro depois do expediente."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Perfeito então. Ó, eu inclu-- eu, eu consegui uma autorização pra débito em conta. Você pode verificar, por gentileza, se já está constando no seu banco? Eu preciso que você autorize"
+            },
+            {
+                "role": "AI",
+                "text": "Não consigo verificar agora, estou voltando do hospital. Checo assim que chegar em casa e te confirmo por mensagem."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Perfeito, obrigada, Carlos Até hoje à noite"
+            },
+            {
+                "role": "AI",
+                "text": "Perfeito, até hoje à noite então.  \nQualquer coisa me manda mensagem que eu confirmo quando chegar em casa."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Tá bom. Proposta já implantada, só fica o pendente os dados bancários"
+            },
+            {
+                "role": "HUMAN",
+                "text": "Tá? Eee, mas já foi assinada, já tá tudo certo Aí à noite euuu fico no seu aguardo"
+            },
+            {
+                "role": "AI",
+                "text": "Perfeito. Fico no aguardo à noite às oito na nossa casa.  \nSe precisar de algo até lá, manda mensagem que eu confirmo quando chegar em casa."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Perfeito, obrigada, viu?"
+            },
+            {
+                "role": "HUMAN",
+                "text": "Ótimo retorno pra sua casa"
+            },
+            {
+                "role": "AI",
+                "text": "Obrigado. Te vejo às oito então."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Tá bom, brigada, tchau"
+            },
+            {
+                "role": "AI",
+                "text": "Tudo certo. Até às oito então, tchau."
+            }
+        ],
+        "finished": false,
+        "feedback": "",
+        "insights": []
     },
     {
         "name": "Parceiro Inside3a12",
@@ -11142,6 +11715,171 @@ const RAW_SIMULATIONS = [
             "Faltaram pedidos concretos de nomes: em nenhum momento foi solicitado explicitamente que o cliente fornecesse “nomes” ou perfis específicos, o que impediu a coleta das recomendações efetivas.",
             "Segmentação insuficiente",
             "Não confirmou detalhadamente a permissão para citar o nome, nem coletou informações qualitativas sobre os recomendados, o que ajudaria no contato personalizado."
+        ]
+    },
+    {
+        "name": "Parceiro Inside24mais",
+        "agency": "Outros",
+        "region": "Outros",
+        "date": "27/08/2026",
+        "dur": "3m 47s",
+        "score": 61,
+        "scenario": "OBJECAO_ADIAMENTO",
+        "lqa": "N/A",
+        "interactions": 35,
+        "messages": [
+            {
+                "role": "AI",
+                "text": "Achei a proposta muito boa, mas preciso pensar melhor antes de tomar uma decisão. Depois eu te dou uma resposta."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Ô Roberta, maravilha. É, só pra eu entender, você vai decidir se você vai fechar ou quando você vai fechar?"
+            },
+            {
+                "role": "AI",
+                "text": "Quero pensar se é a melhor escolha para nossa família antes de confirmar. Posso te dar uma resposta até o meio da próxima semana?"
+            },
+            {
+                "role": "HUMAN",
+                "text": "Claro, claro. Eu só vou passar alguns pontos, até algumas provocações pra vocêêê refletir. E como eu tenho uma experiência nesse sentido e a gente trabalha numa empresa de imprevisto, a gente nunca sabe quando acontece o imprevisto"
+            },
+            {
+                "role": "HUMAN",
+                "text": "Eu vou te colocar alguns pontos agora, tá bom?"
+            },
+            {
+                "role": "AI",
+                "text": "Tudo bem, pode falar. Vou escutar com atenção."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Vamo lá. Você falou que você é pilar financeira, né? Você é uma médica que trabalha, ééé, no dia a dia em função da sua saúde. Imagina se você para de trabalhar seis meses a um ano Ou tem uma invalidez permanente que Que você não consiga mais trabalhar. Como que você paga o colégio das crianças ou os custos da sua casa?"
+            },
+            {
+                "role": "AI",
+                "text": "Se isso acontecesse, eu teria que replanejar rápido o orçamento da casa e reduzir despesas. Também conversaria com meu parceiro sobre possibilidades de renda complementar e buscaríamos apoio familiar se necessário. Quero entender como essa apólice cobre incapacidade temporária ou permanente antes de decidir."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Não, perfeito. É, é sobre isso, sobre essa questão, porque em um momento de imprevisto, a nossa cabeça tá totalmente vinculada à nossa saúde. Só que se a gente não tem o recurso financeiro pra fazer o melhor tratamento ou fazer a manutenção da nossa casa, pagar o colégio das crianças, hã, esse momento fica Muito difícil, né? E aí você vai pedir dinheiro pros seus pais, pros seus irmãos, é confortável pra você fazer isso?"
+            },
+            {
+                "role": "AI",
+                "text": "Não me sinto confortável em pedir ajuda financeira à minha família. Prefiro buscar uma solução que nos dê autonomia, por isso quero entender melhor quais benefícios em vida essa apólice oferece."
+            },
+            {
+                "role": "HUMAN",
+                "text": "É então, é sobre isso que a gente vai-- conversou, né? Então eu te mostrei os benefícios que essa pólice tá te trazendo em vida. Então vou repetir aqui: se você fica inválida permanentemente, eu vou te dar R$ 2 milhões. Dois milhões rendendo, paga o custo de vida de R$ 20 mil que você tem. Se você ficar doente, eu vou te dar R$ 500 mil pra você fazer o melhor tratamento, né, sem pensar no recurso financeiro. Então você acaba dividindo responsabilidade financeira com a nossa empresa. E aí você tem aí um plano ideal pra você conquistar a sua aposentadoria, porque o dinheiro que você tá guardando é pra essa razão, não pra cobrir algum imprevisto que a vida venha a trazer"
+            },
+            {
+                "role": "AI",
+                "text": "Certo, faz sentido essa divisão de risco. Para eu avançar, preciso saber apenas uma coisa: qual é o valor do prêmio mensal que eu pagaria nesse plano?"
+            },
+            {
+                "role": "HUMAN",
+                "text": "Então, você, a gente combinou de fazer um valor até 5% do, do que você recebe, que fica saudável, né? A gente colocou aqui 3%, então isso não vai te afetar financeiramente, mas vai pegar uma responsabilidade muito grande ali da sua vida e da, tanto da pessoal quanto profissional, tá? Eu precisooo do seu CPF, por favor"
+            },
+            {
+                "role": "AI",
+                "text": "Não vou passar meu CPF agora. Prefiro que você me confirme o valor exato do prêmio mensal e as opções de pagamento antes de fornecer esse dado."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Ah, claro, ficou R$ 80, como a gente combinou, né? E vai ser mensalmente, todo dia 15"
+            },
+            {
+                "role": "AI",
+                "text": "Oitenta reais por mês parece razoável. Você pode me explicar rapidamente as formas de pagamento disponíveis?"
+            },
+            {
+                "role": "HUMAN",
+                "text": "Hã, mensal ou anual, o qual você prefere?"
+            },
+            {
+                "role": "AI",
+                "text": "Prefiro mensal, facilita o fluxo do meu orçamento. Pode ser débito automático no cartão?"
+            },
+            {
+                "role": "HUMAN",
+                "text": "Pode ser débito automático ou no cartão. Cartão você acumula pontos, né? Eu acho o pessoal-- a maioria das pessoas faz no cartão"
+            },
+            {
+                "role": "AI",
+                "text": "Cartão então, para acumular pontos. Me diz só: preciso autorizar agora ou posso confirmar até o meio da próxima semana?"
+            },
+            {
+                "role": "HUMAN",
+                "text": "A, a ideia é que a gente leve a proposta pra MetLife analisar se ela Quer ou não te segurar, porque tem esse risco, né? Dependendo das informações que você me passa, ela vai analisar o, o risco e escolher se ela quer ou não te segurar E aí nesse prazo a gente vai organizando. Então ela tem até 15 dias pra te dar uma resposta, tá bom? Eu vou pegar os seus dados agora pra gente montar essa proposta"
+            },
+            {
+                "role": "AI",
+                "text": "Não vou passar os meus dados pessoais agora. Podemos seguir assim: você monta a proposta com as informações básicas que já discutimos e me envia por e-mail para eu revisar até o meio da próxima semana."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Eu entendo completamente. Ééé, a gente já conversou sobre essas questões, né? É mais uma decisão pra você proteger a sua família. Como eu te falei, é, eu tenho clientes e até aconteceu comigo, que, é, dentro do prazo da, do cliente pensar É, não pegou o, o tempo de carência, essa pessoa não conseguiu receber esse benefício"
+            },
+            {
+                "role": "AI",
+                "text": "Entendo o risco, mas não vou fornecer meus dados"
+            },
+            {
+                "role": "HUMAN",
+                "text": "Se já entrou dentro do seu orçamento, você entendeu que há uma necessidade, vamo mandar essa proposta pra MetLife fazer essa análise?"
+            },
+            {
+                "role": "AI",
+                "text": "Podemos sim, desde que você monte a proposta com os dados que já levantamos e me envie por e-mail para eu revisar até o meio da próxima semana."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Ah, perfeito, mas eu já montei isso, já te mandei, tá tudo certo. Só faltaaa a gente decidir se a gente vai seguir em frente ou não"
+            },
+            {
+                "role": "AI",
+                "text": "Certo. Vou revisar o e-mail até o meio da próxima semana e te dou uma resposta final."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Ok"
+            },
+            {
+                "role": "HUMAN",
+                "text": "Então fica no seu risco, é, esses prazos que eu te coloquei de carência, de tudo mais, certo?"
+            },
+            {
+                "role": "AI",
+                "text": "Certo, entendi. Vou revisar a proposta que você disse ter enviado e te dou uma resposta final até o meio da próxima semana."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Perfeito então. Ah, quarta-feira que vem, a gente pode deixar organizado então pras 10h da manhã, esse mesmo horário?"
+            },
+            {
+                "role": "AI",
+                "text": "Quarta-feira às dez horas está ótimo para mim. Mantenha o envio por e-mail e nos falamos até lá."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Ok, obrigado Roberta"
+            },
+            {
+                "role": "AI",
+                "text": "De nada. Até quarta-feira às dez horas, então."
+            }
+        ],
+        "finished": true,
+        "feedback": "Aqui está o debriefing da nossa troca.  \n\n  \n🤓 PERSONA  \n\n- Mulher, trinta e seis anos, perfil DISC fortemente verde, médica sensível, cuidadosa, buscando proteção principalmente para família e maternidade.  \n- Expressou objeção principal da família TEMPO (“preciso pensar melhor”), com forte carga afetiva e prudência na decisão.  \n\n\n🎯 OBJETIVO PRINCIPAL  \n\n- Você buscou tratar a razão real do adiamento focando na urgência e vínculo emocional com proteção familiar.  \n- O fechamento AGORA não foi obtido; houve avanço parcial, mas ao final prevaleceu proposta de novo agendamento, objetivo apenas parcialmente atingido.  \n\n  \n➕ PONTOS FORTES  \n\n- Você identificou corretamente a objeção de TEMPO e fez a pergunta certa: “vai decidir se vai fechar ou quando vai fechar?”.  \n\n- Trouxe exemplos concretos conectando saúde, renda e impacto sobre a família, valorizando o lado humano, essencial para perfil verde.  \n\n- Recapitulou bem os benefícios financeiros, mostrando o quanto o seguro protege em situações graves.  \n\n- Teve coragem de sugerir ação direta (“eu preciso do seu CPF”) e propôs opções práticas de pagamento, demonstrando domínio operacional.  \n\nParabéns por aproximar o seguro do cotidiano e reforçar a proposta com múltiplos argumentos!  \n\n  \n⚠️ PONTOS DE MELHORIA  \n\n- Faltou acolher com mais pausa a emoção da objeção inicial, permitindo à cliente verbalizar mais seus sentimentos e motivações ocultas.  \n\n- O argumento da carência (“fica no seu risco”) soou quase como ameaça, e poderia ter sido substituído por frase de impacto mais empática e depois silêncio.  \n\n- Ao sinal de compra (“ok”), não aproveitou com fechamento parcial ou concordância tácita; sugeriu reagendamento, reduzindo o momentum.  \n\n- Em alguns momentos, faltou explorar a objeção real, limitando-se a repetir vantagens do produto. Preparar pergunta aberta para descobrir dúvidas profundas.  \n\nTem grande potencial! Invista mais na escuta ativa e use o silêncio a seu favor!  \n\n  \n🩵 ANÁLISE EMOCIONAL  \n\nO seu tom foi assertivo, seguro e especialista, mas por vezes apressado e pouco pausado. Dominância levemente diretiva, faltou mais acolhimento emocional e silêncio estratégico.  \n\n\n🛅 MOMENTOS-CHAVE  \n\nSituação: Pergunta inicial diferenciando SE vs. QUANDO fechar → Você mostrou visão consultiva, abrindo espaço para objeção real.  \nSituação: Ao anunciar o risco da carência com tom direto → Impacto foi de leve desconforto para cliente, reduzindo aderência à proposta.  \n\n\n🔊 REFORMULAÇÕES RECOMENDADAS  \n\n“Mariana, pensando no que conversamos, tem alguma dúvida ou ponto que ainda te impede de seguir com a proteção da sua família hoje?”  \n\n“Seguro de vida não é uma questão de quando se quer fazer, e sim de enquanto se pode fazer.”  \n\n“Se já faz sentido para você, que tal fazermos juntos o pedido e garantirmos essa segurança desde já?”  \n\n“Prefere o pagamento no débito automático ou no cartão?”  \n\n“Vamos proteger suas prioridades agora mesmo, enquanto temos essa oportunidade?”  \n\n\n➡️ RECOMENDAÇÕES  \n\nContinue demonstrando domínio técnico, mas equilibre com mais escuta e pausa para permitir à cliente expor seus receios. Valorize o poder do silêncio após frases de impacto e utilize perguntas de concordância tácita para fechar com naturalidade. Seu crescimento passa por afinar o ritmo consultivo—vá em frente!",
+        "insights": [
+            "Mulher, trinta e seis anos, perfil DISC fortemente verde, médica sensível, cuidadosa, buscando proteção principalmente para família e maternidade.",
+            "Expressou objeção principal da família TEMPO (“preciso pensar melhor”), com forte carga afetiva e prudência na decisão.",
+            "Você buscou tratar a razão real do adiamento focando na urgência e vínculo emocional com proteção familiar.",
+            "O fechamento AGORA não foi obtido; houve avanço parcial, mas ao final prevaleceu proposta de novo agendamento, objetivo apenas parcialmente atingido.",
+            "Você identificou corretamente a objeção de TEMPO e fez a pergunta certa: “vai decidir se vai fechar ou quando vai fechar?”.",
+            "Trouxe exemplos concretos conectando saúde, renda e impacto sobre a família, valorizando o lado humano, essencial para perfil verde.",
+            "Recapitulou bem os benefícios financeiros, mostrando o quanto o seguro protege em situações graves.",
+            "Teve coragem de sugerir ação direta (“eu preciso do seu CPF”) e propôs opções práticas de pagamento, demonstrando domínio operacional."
         ]
     },
     {
@@ -22890,6 +23628,26 @@ const RAW_SIMULATIONS = [
             "Demonstrou interesse genuíno na preocupação do cliente, ajustando o discurso conforme a resposta.",
             "Faltou aplicar a CHAVE da objeção de consentimento: reconhecer o papel do cônjuge e contar a história do “Anel de Brilhantes” ou propor alternativa concreta (ligação, agendamento com ambos)."
         ]
+    },
+    {
+        "name": "Parceiro Rivorio3a12",
+        "agency": "Outros",
+        "region": "Outros",
+        "date": "27/08/2026",
+        "dur": "0m 0s",
+        "score": 0,
+        "scenario": "OBJECAO_ADIAMENTO",
+        "lqa": "N/A",
+        "interactions": 1,
+        "messages": [
+            {
+                "role": "AI",
+                "text": "Achei a proposta muito boa, mas preciso"
+            }
+        ],
+        "finished": false,
+        "feedback": "",
+        "insights": []
     },
     {
         "name": "Parceiro Luark",

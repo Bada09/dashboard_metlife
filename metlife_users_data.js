@@ -3,11 +3,11 @@ const users = [
         "avgDurSec": 42,
         "avgScore": 70.3,
         "skills": {
-            "Escuta": 73.2,
-            "Personalizacao": 69.8,
-            "Empatia": 76.3,
-            "Crises": 71.2,
-            "Padroes": 83.0
+            "Escuta": 65.7,
+            "Personalizacao": 72.5,
+            "Empatia": 83.7,
+            "Crises": 74.2,
+            "Padroes": 71.8
         },
         "count": 27,
         "insights": {
@@ -113,11 +113,11 @@ const users = [
         "avgDurSec": 17,
         "avgScore": 49.7,
         "skills": {
-            "Escuta": 52.5,
-            "Personalizacao": 56.5,
-            "Empatia": 50.4,
-            "Crises": 50.0,
-            "Padroes": 60.8
+            "Escuta": 52.6,
+            "Personalizacao": 60.1,
+            "Empatia": 54.7,
+            "Crises": 47.7,
+            "Padroes": 55.4
         },
         "count": 23,
         "insights": {
@@ -181,36 +181,36 @@ const users = [
         "avgDurMin": 1
     },
     {
-        "avgDurSec": 14,
-        "avgScore": 68.0,
+        "avgDurSec": 24,
+        "avgScore": 63.0,
         "skills": {
-            "Escuta": 81.8,
-            "Personalizacao": 76.2,
-            "Empatia": 71.0,
-            "Crises": 68.8,
-            "Padroes": 77.0
+            "Escuta": 73.0,
+            "Personalizacao": 75.6,
+            "Empatia": 73.2,
+            "Crises": 59.6,
+            "Padroes": 57.8
         },
-        "count": 9,
+        "count": 11,
         "insights": {
             "pt": [
-                "Fernanda, dentista autônoma, perfil dominante verde (DISC), objeção principal: PERTINÊNCIA (“não sei se é o valor certo”).",
-                "Você buscou descobrir a razão real do adiamento e tratou com ajuste personalizado.",
-                "Conseguiu obter a contratação agora, com a cliente tranquila e colaborativa. Objetivo plenamente atingido.",
-                "Demonstrou escuta ativa, perguntando várias vezes sobre o que impedia a decisão e testando hipóteses de objeção real.",
-                "Usou perguntas abertas e construiu o fechamento em ritmo consultivo, sem pressionar excessivamente.",
-                "Adaptou a proposta com flexibilidade, ajustando prêmios e coberturas conforme solicitação da cliente e sempre validando o conforto dela.",
-                "Traz ao final um acompanhamento pós-venda, reforçando o vínculo e a confiança na relação.",
-                "Diagnóstico da objeção"
+                "Eduardo, engenheiro de qualidade, perfil DISC azul, racional, foco analítico; objeção principal de consentimento: necessidade de falar com a esposa.",
+                "O objetivo era identificar e tratar a objeção real e obter a contratação agora, com tranquilidade e sem pressão. O objetivo não foi atingido, pois houve proposta de agendamento, não fechamento no encontro.",
+                "Demonstrou empatia ao validar que o cliente deseja conversar com a esposa.",
+                "Procurou identificar se havia alguma objeção oculta ao perguntar diretamente o que impedia o fechamento.",
+                "Relembrou a importância da proteção para a família, conectando ao papel de “pilar financeiro”.",
+                "Muito bom manter o tom acolhedor! Continue explorando as motivações do cliente — está no caminho certo.",
+                "Faltou utilizar uma história de conexão eficaz para tratar a objeção de consentimento, como o “Anel de Brilhantes”.",
+                "Ao sugerir o agendamento, “marcar semana que vem”, caiu na armadilha de adiar junto com o cliente, ao invés de buscar o fechamento agora."
             ],
             "fr": [
-                "Fernanda, dentista autônoma, perfil dominante verde (DISC), objeção principal: PERTINÊNCIA (“não sei se é o valor certo”).",
-                "Você buscou descobrir a razão real do adiamento e tratou com ajuste personalizado.",
-                "Conseguiu obter a contratação agora, com a cliente tranquila e colaborativa. Objetivo plenamente atingido.",
-                "Demonstrou escuta ativa, perguntando várias vezes sobre o que impedia a decisão e testando hipóteses de objeção real.",
-                "Usou perguntas abertas e construiu o fechamento em ritmo consultivo, sem pressionar excessivamente.",
-                "Adaptou a proposta com flexibilidade, ajustando prêmios e coberturas conforme solicitação da cliente e sempre validando o conforto dela.",
-                "Traz ao final um acompanhamento pós-venda, reforçando o vínculo e a confiança na relação.",
-                "Diagnóstico da objeção"
+                "Eduardo, engenheiro de qualidade, perfil DISC azul, racional, foco analítico; objeção principal de consentimento: necessidade de falar com a esposa.",
+                "O objetivo era identificar e tratar a objeção real e obter a contratação agora, com tranquilidade e sem pressão. O objetivo não foi atingido, pois houve proposta de agendamento, não fechamento no encontro.",
+                "Demonstrou empatia ao validar que o cliente deseja conversar com a esposa.",
+                "Procurou identificar se havia alguma objeção oculta ao perguntar diretamente o que impedia o fechamento.",
+                "Relembrou a importância da proteção para a família, conectando ao papel de “pilar financeiro”.",
+                "Muito bom manter o tom acolhedor! Continue explorando as motivações do cliente — está no caminho certo.",
+                "Faltou utilizar uma história de conexão eficaz para tratar a objeção de consentimento, como o “Anel de Brilhantes”.",
+                "Ao sugerir o agendamento, “marcar semana que vem”, caiu na armadilha de adiar junto com o cliente, ao invés de buscar o fechamento agora."
             ]
         },
         "name": "Parceiro Gorilla01",
@@ -233,7 +233,9 @@ const users = [
             "08/07/2026",
             "08/07/2026",
             "08/07/2026",
-            "26/08/2026"
+            "26/08/2026",
+            "27/08/2026",
+            "27/08/2026"
         ],
         "avgDurMin": 3
     },
@@ -241,11 +243,11 @@ const users = [
         "avgDurSec": 56,
         "avgScore": 57.0,
         "skills": {
-            "Escuta": 53.5,
-            "Personalizacao": 58.5,
-            "Empatia": 55.0,
-            "Crises": 69.5,
-            "Padroes": 70.0
+            "Escuta": 61.0,
+            "Personalizacao": 68.0,
+            "Empatia": 59.0,
+            "Crises": 65.0,
+            "Padroes": 67.5
         },
         "count": 14,
         "insights": {
@@ -303,11 +305,11 @@ const users = [
         "avgDurSec": 21,
         "avgScore": 54.9,
         "skills": {
-            "Escuta": 63.9,
-            "Personalizacao": 54.7,
-            "Empatia": 60.8,
-            "Crises": 52.7,
-            "Padroes": 61.2
+            "Escuta": 53.3,
+            "Personalizacao": 66.6,
+            "Empatia": 59.0,
+            "Crises": 52.3,
+            "Padroes": 55.6
         },
         "count": 18,
         "insights": {
@@ -445,11 +447,11 @@ const users = [
         "avgDurSec": 8,
         "avgScore": 74.5,
         "skills": {
-            "Escuta": 79.0,
-            "Personalizacao": 82.5,
-            "Empatia": 80.0,
-            "Crises": 73.5,
-            "Padroes": 78.8
+            "Escuta": 78.8,
+            "Personalizacao": 83.2,
+            "Empatia": 77.8,
+            "Crises": 74.0,
+            "Padroes": 74.2
         },
         "count": 6,
         "insights": {
@@ -499,11 +501,11 @@ const users = [
         "avgDurSec": 6,
         "avgScore": 38.1,
         "skills": {
-            "Escuta": 44.6,
-            "Personalizacao": 46.9,
-            "Empatia": 43.3,
-            "Crises": 41.7,
-            "Padroes": 34.0
+            "Escuta": 47.7,
+            "Personalizacao": 43.4,
+            "Empatia": 39.0,
+            "Crises": 47.6,
+            "Padroes": 40.1
         },
         "count": 18,
         "insights": {
@@ -565,11 +567,11 @@ const users = [
         "avgDurSec": 5,
         "avgScore": 56.0,
         "skills": {
-            "Escuta": 53.0,
-            "Personalizacao": 81.5,
-            "Empatia": 59.0,
-            "Crises": 58.0,
-            "Padroes": 63.5
+            "Escuta": 66.5,
+            "Personalizacao": 70.5,
+            "Empatia": 70.5,
+            "Crises": 54.5,
+            "Padroes": 65.5
         },
         "count": 3,
         "insights": {
@@ -692,11 +694,11 @@ const users = [
         "avgDurSec": 14,
         "avgScore": 66.2,
         "skills": {
-            "Escuta": 70.0,
-            "Personalizacao": 71.5,
-            "Empatia": 69.6,
-            "Crises": 70.5,
-            "Padroes": 74.4
+            "Escuta": 70.9,
+            "Personalizacao": 76.9,
+            "Empatia": 74.5,
+            "Crises": 66.4,
+            "Padroes": 67.9
         },
         "count": 17,
         "insights": {
@@ -754,36 +756,36 @@ const users = [
         "avgDurMin": 2
     },
     {
-        "avgDurSec": 23,
-        "avgScore": 66.5,
+        "avgDurSec": 29,
+        "avgScore": 66.1,
         "skills": {
-            "Escuta": 70.6,
-            "Personalizacao": 74.9,
-            "Empatia": 66.4,
-            "Crises": 62.9,
-            "Padroes": 67.9
+            "Escuta": 67.1,
+            "Personalizacao": 80.3,
+            "Empatia": 67.9,
+            "Crises": 68.5,
+            "Padroes": 66.2
         },
-        "count": 21,
+        "count": 22,
         "insights": {
             "pt": [
-                "Participei como Patrícia, uma cliente perfil azul do DISC: analítica, exigente, racional e muito focada em clareza e cautela.",
-                "Reconhecimento explícito da importância da decisão do cliente logo na abertura, valorizando a confiança e a proteção familiar.",
-                "Tentativa de levar o cliente a verbalizar sua satisfação com o serviço e a solução apresentada.",
-                "Esclarecimento sobre o processo de indicação, explicando de forma transparente como será feita a abordagem junto aos indicados.",
-                "Abordagem consultiva e empática, sem pressa ou pressão exagerada ao tratar das recomendações.",
-                "Faltaram pedidos concretos de nomes: em nenhum momento foi solicitado explicitamente que o cliente fornecesse “nomes” ou perfis específicos, o que impediu a coleta das recomendações efetivas.",
-                "Segmentação insuficiente",
-                "Não confirmou detalhadamente a permissão para citar o nome, nem coletou informações qualitativas sobre os recomendados, o que ajudaria no contato personalizado."
+                "Mulher, trinta e seis anos, perfil DISC fortemente verde, médica sensível, cuidadosa, buscando proteção principalmente para família e maternidade.",
+                "Expressou objeção principal da família TEMPO (“preciso pensar melhor”), com forte carga afetiva e prudência na decisão.",
+                "Você buscou tratar a razão real do adiamento focando na urgência e vínculo emocional com proteção familiar.",
+                "O fechamento AGORA não foi obtido; houve avanço parcial, mas ao final prevaleceu proposta de novo agendamento, objetivo apenas parcialmente atingido.",
+                "Você identificou corretamente a objeção de TEMPO e fez a pergunta certa: “vai decidir se vai fechar ou quando vai fechar?”.",
+                "Trouxe exemplos concretos conectando saúde, renda e impacto sobre a família, valorizando o lado humano, essencial para perfil verde.",
+                "Recapitulou bem os benefícios financeiros, mostrando o quanto o seguro protege em situações graves.",
+                "Teve coragem de sugerir ação direta (“eu preciso do seu CPF”) e propôs opções práticas de pagamento, demonstrando domínio operacional."
             ],
             "fr": [
-                "Participei como Patrícia, uma cliente perfil azul do DISC: analítica, exigente, racional e muito focada em clareza e cautela.",
-                "Reconhecimento explícito da importância da decisão do cliente logo na abertura, valorizando a confiança e a proteção familiar.",
-                "Tentativa de levar o cliente a verbalizar sua satisfação com o serviço e a solução apresentada.",
-                "Esclarecimento sobre o processo de indicação, explicando de forma transparente como será feita a abordagem junto aos indicados.",
-                "Abordagem consultiva e empática, sem pressa ou pressão exagerada ao tratar das recomendações.",
-                "Faltaram pedidos concretos de nomes: em nenhum momento foi solicitado explicitamente que o cliente fornecesse “nomes” ou perfis específicos, o que impediu a coleta das recomendações efetivas.",
-                "Segmentação insuficiente",
-                "Não confirmou detalhadamente a permissão para citar o nome, nem coletou informações qualitativas sobre os recomendados, o que ajudaria no contato personalizado."
+                "Mulher, trinta e seis anos, perfil DISC fortemente verde, médica sensível, cuidadosa, buscando proteção principalmente para família e maternidade.",
+                "Expressou objeção principal da família TEMPO (“preciso pensar melhor”), com forte carga afetiva e prudência na decisão.",
+                "Você buscou tratar a razão real do adiamento focando na urgência e vínculo emocional com proteção familiar.",
+                "O fechamento AGORA não foi obtido; houve avanço parcial, mas ao final prevaleceu proposta de novo agendamento, objetivo apenas parcialmente atingido.",
+                "Você identificou corretamente a objeção de TEMPO e fez a pergunta certa: “vai decidir se vai fechar ou quando vai fechar?”.",
+                "Trouxe exemplos concretos conectando saúde, renda e impacto sobre a família, valorizando o lado humano, essencial para perfil verde.",
+                "Recapitulou bem os benefícios financeiros, mostrando o quanto o seguro protege em situações graves.",
+                "Teve coragem de sugerir ação direta (“eu preciso do seu CPF”) e propôs opções práticas de pagamento, demonstrando domínio operacional."
             ]
         },
         "name": "Parceiro Inside24mais",
@@ -818,7 +820,8 @@ const users = [
             "03/08/2026",
             "03/08/2026",
             "04/08/2026",
-            "20/08/2026"
+            "20/08/2026",
+            "27/08/2026"
         ],
         "avgDurMin": 1
     },
@@ -913,11 +916,11 @@ const users = [
         "avgDurSec": 3,
         "avgScore": 58.0,
         "skills": {
-            "Escuta": 66.6,
-            "Personalizacao": 64.6,
-            "Empatia": 56.7,
+            "Escuta": 61.3,
+            "Personalizacao": 73.1,
+            "Empatia": 61.7,
             "Crises": 53.3,
-            "Padroes": 66.3
+            "Padroes": 59.7
         },
         "count": 19,
         "insights": {
@@ -980,11 +983,11 @@ const users = [
         "avgDurSec": 12,
         "avgScore": 54.7,
         "skills": {
-            "Escuta": 59.0,
-            "Personalizacao": 54.7,
-            "Empatia": 55.7,
-            "Crises": 55.7,
-            "Padroes": 60.7
+            "Escuta": 59.7,
+            "Personalizacao": 66.0,
+            "Empatia": 50.0,
+            "Crises": 59.3,
+            "Padroes": 57.0
         },
         "count": 8,
         "insights": {
@@ -1036,11 +1039,11 @@ const users = [
         "avgDurSec": 35,
         "avgScore": 60.8,
         "skills": {
-            "Escuta": 68.0,
-            "Personalizacao": 61.9,
-            "Empatia": 69.6,
-            "Crises": 58.6,
-            "Padroes": 70.9
+            "Escuta": 61.7,
+            "Personalizacao": 75.6,
+            "Empatia": 67.2,
+            "Crises": 58.1,
+            "Padroes": 60.4
         },
         "count": 33,
         "insights": {
@@ -1117,11 +1120,11 @@ const users = [
         "avgDurSec": 27,
         "avgScore": 65.8,
         "skills": {
-            "Escuta": 76.7,
-            "Personalizacao": 71.0,
-            "Empatia": 70.7,
-            "Crises": 65.0,
-            "Padroes": 77.5
+            "Escuta": 70.7,
+            "Personalizacao": 74.3,
+            "Empatia": 71.7,
+            "Crises": 63.5,
+            "Padroes": 66.7
         },
         "count": 7,
         "insights": {
@@ -1172,11 +1175,11 @@ const users = [
         "avgDurSec": 27,
         "avgScore": 37.7,
         "skills": {
-            "Escuta": 39.5,
-            "Personalizacao": 44.6,
-            "Empatia": 41.3,
-            "Crises": 40.0,
-            "Padroes": 38.6
+            "Escuta": 43.5,
+            "Personalizacao": 43.5,
+            "Empatia": 42.0,
+            "Crises": 44.4,
+            "Padroes": 38.4
         },
         "count": 91,
         "insights": {
@@ -1311,11 +1314,11 @@ const users = [
         "avgDurSec": 25,
         "avgScore": 46.5,
         "skills": {
-            "Escuta": 63.5,
-            "Personalizacao": 44.5,
-            "Empatia": 56.0,
-            "Crises": 45.0,
-            "Padroes": 54.5
+            "Escuta": 36.0,
+            "Personalizacao": 69.0,
+            "Empatia": 46.5,
+            "Crises": 50.0,
+            "Padroes": 47.0
         },
         "count": 5,
         "insights": {
@@ -1364,13 +1367,13 @@ const users = [
         "avgDurSec": 38,
         "avgScore": 63.5,
         "skills": {
-            "Escuta": 69.7,
-            "Personalizacao": 66.3,
-            "Empatia": 65.7,
-            "Crises": 63.2,
-            "Padroes": 72.1
+            "Escuta": 67.0,
+            "Personalizacao": 75.0,
+            "Empatia": 70.8,
+            "Crises": 59.7,
+            "Padroes": 65.2
         },
-        "count": 48,
+        "count": 49,
         "insights": {
             "pt": [
                 "Executivo bancário do tipo DISC vermelho, muito analítico e direto.",
@@ -1452,7 +1455,8 @@ const users = [
             "02/08/2026",
             "02/08/2026",
             "02/08/2026",
-            "22/08/2026"
+            "22/08/2026",
+            "27/08/2026"
         ],
         "avgDurMin": 1
     },
@@ -1600,11 +1604,11 @@ const users = [
         "avgDurSec": 30,
         "avgScore": 61.0,
         "skills": {
-            "Escuta": 60.0,
-            "Personalizacao": 67.0,
-            "Empatia": 82.0,
-            "Crises": 65.0,
-            "Padroes": 50.0
+            "Escuta": 82.0,
+            "Personalizacao": 65.0,
+            "Empatia": 65.0,
+            "Crises": 76.0,
+            "Padroes": 63.0
         },
         "count": 7,
         "insights": {
@@ -1655,11 +1659,11 @@ const users = [
         "avgDurSec": 34,
         "avgScore": 60.5,
         "skills": {
-            "Escuta": 61.7,
-            "Personalizacao": 63.5,
-            "Empatia": 62.3,
-            "Crises": 56.6,
-            "Padroes": 59.7
+            "Escuta": 62.1,
+            "Personalizacao": 58.3,
+            "Empatia": 60.2,
+            "Crises": 60.1,
+            "Padroes": 58.5
         },
         "count": 56,
         "insights": {
@@ -1759,11 +1763,11 @@ const users = [
         "avgDurSec": 31,
         "avgScore": 57.7,
         "skills": {
-            "Escuta": 65.7,
-            "Personalizacao": 62.4,
-            "Empatia": 60.7,
-            "Crises": 55.7,
-            "Padroes": 67.9
+            "Escuta": 62.0,
+            "Personalizacao": 70.7,
+            "Empatia": 63.7,
+            "Crises": 56.6,
+            "Padroes": 58.6
         },
         "count": 75,
         "insights": {
@@ -1919,11 +1923,11 @@ const users = [
         "avgDurSec": 7,
         "avgScore": 41.0,
         "skills": {
-            "Escuta": 50.8,
-            "Personalizacao": 44.6,
-            "Empatia": 52.5,
-            "Crises": 40.8,
-            "Padroes": 51.5
+            "Escuta": 40.6,
+            "Personalizacao": 53.6,
+            "Empatia": 50.2,
+            "Crises": 42.1,
+            "Padroes": 43.6
         },
         "count": 20,
         "insights": {
@@ -2022,11 +2026,11 @@ const users = [
         "avgDurSec": 54,
         "avgScore": 41.5,
         "skills": {
-            "Escuta": 45.1,
-            "Personalizacao": 53.4,
-            "Empatia": 43.6,
-            "Crises": 42.6,
-            "Padroes": 49.6
+            "Escuta": 45.0,
+            "Personalizacao": 49.9,
+            "Empatia": 47.1,
+            "Crises": 40.9,
+            "Padroes": 47.1
         },
         "count": 18,
         "insights": {
