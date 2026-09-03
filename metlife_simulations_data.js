@@ -1,4 +1,4 @@
-const LATEST_DUMP_DATE = "28/08/2026";
+const LATEST_DUMP_DATE = "03/09/2026";
 const RAW_SIMULATIONS = [
     {
         "name": "Juliana Pedrão",
@@ -33021,6 +33021,357 @@ const RAW_SIMULATIONS = [
             "Faltou evidenciar explicitamente o “momento de ouro” pós-venda, celebrando a conquista da cliente antes de avançar ao pedido.",
             "Convite à expressão do valor"
         ]
+    },
+    {
+        "name": "Sabrina Oliveira",
+        "agency": "Outros",
+        "region": "Outros",
+        "date": "02/09/2026",
+        "dur": "0m 3s",
+        "score": 0,
+        "scenario": "OBJECAO_FINANCEIRA",
+        "lqa": "N/A",
+        "interactions": 5,
+        "messages": [
+            {
+                "role": "AI",
+                "text": "Achei a proposta muito bem explicada, mas agora não é momento de assumir mais um compromisso mensal. Preciso segurar os gastos até a situação melhorar."
+            },
+            {
+                "role": "HUMAN",
+                "text": "É né, não somos"
+            },
+            {
+                "role": "AI",
+                "text": "Pois é,"
+            },
+            {
+                "role": "HUMAN",
+                "text": "Não, não, não, não, não. Calma aí"
+            },
+            {
+                "role": "AI",
+                "text": "Desculpa, estou nervosa com as contas agora. Podemos falar só sobre opções mais baratas para proteger a minha família?"
+            }
+        ],
+        "finished": false,
+        "feedback": "",
+        "insights": []
+    },
+    {
+        "name": "Sabrina Oliveira",
+        "agency": "Outros",
+        "region": "Outros",
+        "date": "02/09/2026",
+        "dur": "0m 31s",
+        "score": 0,
+        "scenario": "OBJECAO_FINANCEIRA",
+        "lqa": "N/A",
+        "interactions": 21,
+        "messages": [
+            {
+                "role": "HUMAN",
+                "text": "Você nos ouve?"
+            },
+            {
+                "role": "AI",
+                "text": "Ouço sim, perfeitamente. Pode continuar, por favor."
+            },
+            {
+                "role": "HUMAN",
+                "text": "E o que você achou da proposta de redução apresentada?"
+            },
+            {
+                "role": "HUMAN",
+                "text": "Você nos ouve?"
+            },
+            {
+                "role": "AI",
+                "text": "Sim, eu escuto você. Pode seguir, por favor."
+            },
+            {
+                "role": "AI",
+                "text": "Achei a proposta muito boa, mas no momento meu orçamento está apertado e não consigo assumir mais um compromisso mensal agora. Talvez daqui a alguns meses eu consiga pensar nisso com mais calma."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Mariana, obrigado"
+            },
+            {
+                "role": "HUMAN",
+                "text": "Não tem nada contra o dinheiro também, né? [inaudível] Uma preocupação muito grande hoje, né? Que é o uso de drogas [ruído] Eu gasto bem sai, né? Ah, conta de água, luz"
+            },
+            {
+                "role": "HUMAN",
+                "text": "Tem, tem. Todos os outros vocês compreendem?"
+            },
+            {
+                "role": "HUMAN",
+                "text": "[inaudível]"
+            },
+            {
+                "role": "HUMAN",
+                "text": "Tudo bem no seu lar?"
+            },
+            {
+                "role": "HUMAN",
+                "text": "Tem apontos, você tem"
+            },
+            {
+                "role": "AI",
+                "text": "Tenho algumas contas em atraso, sim, mas nada que eu não esteja resolvendo aos poucos. Podemos falar sobre ajustar o valor da cobertura para caber no meu orçamento agora?"
+            },
+            {
+                "role": "HUMAN",
+                "text": "[inaudível]"
+            },
+            {
+                "role": "HUMAN",
+                "text": "Aí vem tem ponto nesse cara aqui, ó. Ele tem uma ideia muito louco"
+            },
+            {
+                "role": "HUMAN",
+                "text": "pouco provável que"
+            },
+            {
+                "role": "HUMAN",
+                "text": "Eu falo que, eu falo que pra mim foi um"
+            },
+            {
+                "role": "AI",
+                "text": "Pra mim foi importante entender que posso reduzir a cobertura agora e ampliar depois. Se você me mostrar opções de prêmio menor, a gente conversa sobre qual cabe no meu orçamento."
+            },
+            {
+                "role": "AI",
+                "text": "Achei razoável como ponto de partida. Gostaria de ver duas ou três opções de prêmio menor, para escolher a que cabe no meu orçamento agora."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Não"
+            },
+            {
+                "role": "AI",
+                "text": "Desculpa, não entendi o que você quis dizer com \"não\". Você pode explicar rápido se foi sobre as opções de prêmio menor?"
+            }
+        ],
+        "finished": false,
+        "feedback": "",
+        "insights": []
+    },
+    {
+        "name": "Sabrina Oliveira",
+        "agency": "Outros",
+        "region": "Outros",
+        "date": "02/09/2026",
+        "dur": "0m 17s",
+        "score": 0,
+        "scenario": "OBJECAO_FINANCEIRA",
+        "lqa": "N/A",
+        "interactions": 15,
+        "messages": [
+            {
+                "role": "AI",
+                "text": "Achei a proposta muito clara e faz sentido, mas neste momento as contas estão apertadas e não consigo assumir mais um compromisso mensal. Talvez mais adiante eu consiga reavaliar."
+            },
+            {
+                "role": "HUMAN",
+                "text": "É isso que eu tô falando. Eu gosto de pensar como a pessoa que me contratou"
+            },
+            {
+                "role": "HUMAN",
+                "text": "Eu tenho que comentar"
+            },
+            {
+                "role": "HUMAN",
+                "text": "Eles não vão ter como [ruído] [ruído]"
+            },
+            {
+                "role": "HUMAN",
+                "text": "[ruído]"
+            },
+            {
+                "role": "HUMAN",
+                "text": "[ruído]"
+            },
+            {
+                "role": "HUMAN",
+                "text": "[ruído]"
+            },
+            {
+                "role": "AI",
+                "text": "Desculpa, não entendi por causa do ruído. Você pode repetir só a parte importante, por favor?"
+            },
+            {
+                "role": "HUMAN",
+                "text": "Eu vou rir, pô A"
+            },
+            {
+                "role": "HUMAN",
+                "text": "Pode repetir?"
+            },
+            {
+                "role": "AI",
+                "text": "Desculpa, não tenho como repetir o que veio com ruído. Pode dizer só o que é importante agora, por favor?"
+            },
+            {
+                "role": "HUMAN",
+                "text": "[inaudível]"
+            },
+            {
+                "role": "HUMAN",
+                "text": "Mas o que causa isso?"
+            },
+            {
+                "role": "HUMAN",
+                "text": "[ruído]"
+            },
+            {
+                "role": "AI",
+                "text": "Desculpe, não entendi sua última pergunta por causa do ruído. Pode dizer de novo apenas o ponto principal sobre a proposta?"
+            }
+        ],
+        "finished": false,
+        "feedback": "",
+        "insights": []
+    },
+    {
+        "name": "Sabrina Oliveira",
+        "agency": "Outros",
+        "region": "Outros",
+        "date": "02/09/2026",
+        "dur": "0m 0s",
+        "score": 0,
+        "scenario": "OBJECAO_FINANCEIRA",
+        "lqa": "N/A",
+        "interactions": 0,
+        "messages": [],
+        "finished": false,
+        "feedback": "",
+        "insights": []
+    },
+    {
+        "name": "Sabrina Oliveira",
+        "agency": "Outros",
+        "region": "Outros",
+        "date": "02/09/2026",
+        "dur": "2m 55s",
+        "score": 0,
+        "scenario": "OBJECAO_FINANCEIRA",
+        "lqa": "N/A",
+        "interactions": 9,
+        "messages": [
+            {
+                "role": "AI",
+                "text": "Achei a proposta muito interessante, mas com as contas apertadas como estão, não consigo assumir mais um compromisso mensal agora."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Mariana, entendo perfeitamente. Eu gostaria de tirar apenas uma dúvida com você. Na nossa primeira reunião, você tinha comentado que o seu faturamento mensal é de 30 mil e que suas despesas são de 12 mil, o que demonstra que você tem um gap financeiro de 18 mil que você pode realizar aqui algum tipo de investimento. Mudou alguma coisa da nossa primeira reunião pra hoje?"
+            },
+            {
+                "role": "AI",
+                "text": "Mudou sim. Nos últimos dias houve aumento de gastos por exames, consultas e preparativos para a chegada do bebê, então o fluxo ficou mais apertado que antes. Posso avaliar reduzir o valor da cobertura para caber no meu orçamento agora, se isso for uma opção."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Perfeito, Mariana. Até te agradeço por essa nova informação. E a gente sabe que imprevistos acontecem, sempre vão acontecer, como gastos mensais, né? Hoje você tem um gasto, mês que vem você vai ter outro tipo de gasto e assim por diante. Então, é, acho que a gente não pode protelar uma decisão por conta disso, né? Até porque você fechando uma proposta hoje comigo, daqui a cinco, seis meses também, cê não vai pedir pra cancelar só porque você teve um gasto a mais, e sim readequar suas contas considerando o seu novo compromisso financeiro. Então vamo fazer o seguinte: eu trouxe aqui uma proposta pra você, com a sua realidade, o que você precisa de fato. Vamos ajustar algumas coberturas e começar um pouco mais devagar, com um valor menor, e eu vou fazer um acompanhamento ao longo do tempo e nós vamos melhorar a sua apólice conforme o tempo for passando. Inclusive, depois que você tiver o bebê, a gente pode sentar e rever todo o seu planejamento e fazer um complemento, tá bom? Então o que que eu vou fazer aqui, olha"
+            },
+            {
+                "role": "AI",
+                "text": "Tudo bem, gosto da proposta de começar menor e ir ajustando. Qual seria, em termos práticos, o valor do prêmio mensal que você sugere para caber no meu orçamento agora?"
+            },
+            {
+                "role": "HUMAN",
+                "text": "Ótimo, Mariana. R$ 990 por mês, você continua com todas as coberturas, diminuímos aqui somente o capital segurado. Futuramente a gente senta, a gente vê as possibilidades e readequa novamente, tá bom? Nós vamos fazer aqui no cartão de crédito ou no débito em conta?"
+            },
+            {
+                "role": "AI",
+                "text": "Prefiro débito em conta, fica mais prático para mim. Pode seguir com esse que é o melhor."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Perfeito, vou dar entrada na proposta agora"
+            },
+            {
+                "role": "AI",
+                "text": "Perfeito, fico aguardando então. Me avisa quando estiver tudo encaminhado para eu assinar. Obrigada."
+            }
+        ],
+        "finished": false,
+        "feedback": "",
+        "insights": []
+    },
+    {
+        "name": "Sabrina Oliveira",
+        "agency": "Outros",
+        "region": "Outros",
+        "date": "02/09/2026",
+        "dur": "2m 10s",
+        "score": 0,
+        "scenario": "OBJECAO_FINANCEIRA",
+        "lqa": "N/A",
+        "interactions": 14,
+        "messages": [
+            {
+                "role": "AI",
+                "text": "Gostei da explicação, mas no momento minhas contas estão muito apertadas. Não é hora de assumir mais um gasto mensal."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Fernanda, é, te entendo perfeitamente, é, compreendo também momentos difíceis todos nós passamos e é por isso que você precisa dessa proteção. Em um momento difícil, um momento como esse"
+            },
+            {
+                "role": "HUMAN",
+                "text": "Você correndo para a competição"
+            },
+            {
+                "role": "AI",
+                "text": "Desculpa, não entendi o que quis dizer com isso. Pode ser mais direta sobre o seguro ou sobre como quer seguir?"
+            },
+            {
+                "role": "HUMAN",
+                "text": "Miranda, vamos lá. Eu entendo perfeitamente o que você quer dizer. Imprevistos na vida acontecem e é por isso que você precisa de uma proteção como essa, né? Então, é, o que que a gente pode fazer? Como sugestão, vamos diminuir um pouco aqui as coberturas, automaticamente vai diminuir também aqui o valor que você vai pagar por mês e lá na frente a gente melhora novamente. O que que você acha?"
+            },
+            {
+                "role": "AI",
+                "text": "Pode ser uma boa ideia reduzir as coberturas por enquanto. Quanto você acha que isso reduziria no meu prêmio mensal?"
+            },
+            {
+                "role": "HUMAN",
+                "text": "Vamo lá, ó, seu prêmio mensal hoje tá em R$ 1.937. Eu vou diminuir um pouco o capital segurado aqui de algumas coberturas e você vai passar a pagar por mês R$ 990. Futuramente, a gente senta novamente e vai readequar de novo o seu plano. Meu papel é te acompanhar e oferecer o melhor pra você"
+            },
+            {
+                "role": "AI",
+                "text": "Certo, reduzir pela metade parece plausível. Antes de seguir, qual cobertura você reduz primeiro e quanto fica o capital protegido para educação da minha filha?"
+            },
+            {
+                "role": "HUMAN",
+                "text": "Ótimo! Não, a, a proteção da sua fa-- da sua filha, na realidade, é a prioridade pra, pra mim, com certeza, não só pra você. Não vamos mexer nessa cobertura, tá? Vamos manter aqui o capital segurado de meio milhão pra proteger a educação da sua filha e vamos manter aqui R$97 por mês nessa cobertura. Sugiro a gente diminuir aqui, de repente, doenças graves de 1 milhão pra meio milhão de capital segurado. Ao invés de você pagar R$700 por mês por essa cobertura, cê vai passar a pagar R$350. A gente diminui também invalidez de 1 milhão pra meio milhão. E aí você vai diminuir ali também o prêmio de R$64 pra R$32. A cobertura de cirurgia que tá R$300, a gente de-- R$300 mil de capital segurado, a gente diminui pela metade, R$150 mil de capital segurado. Ao invés de você pagar R$135 por essa cobertura, você também vai pagar metade do valor por ela"
+            },
+            {
+                "role": "AI",
+                "text": "Certo, gostei da proposta de reduzir essas coberturas. Antes de seguir, só confirma quanto fica então o prêmio total mensal após essas reduções?"
+            },
+            {
+                "role": "HUMAN",
+                "text": "R$ 990 por mês. Nós vamos fazer no crédito ou no débito? O que que você prefere?"
+            },
+            {
+                "role": "AI",
+                "text": "Prefiro débito, facilita o controle no meu fluxo de caixa. Pode ser em débito automático no meu conta corrente."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Ok, vou dar entrada na proposta agora, tá?"
+            },
+            {
+                "role": "AI",
+                "text": "Perfeito, então pode seguir com débito automático na minha conta. Favor agendar a entrevista médica para ser feita no meu consultório, no período da manhã."
+            }
+        ],
+        "finished": false,
+        "feedback": "",
+        "insights": []
     },
     {
         "name": "Gorilla Su2026",

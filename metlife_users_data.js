@@ -3,11 +3,11 @@ const users = [
         "avgDurSec": 42,
         "avgScore": 70.3,
         "skills": {
-            "Escuta": 69.3,
-            "Personalizacao": 68.3,
-            "Empatia": 75.2,
-            "Crises": 75.3,
-            "Padroes": 73.3
+            "Escuta": 77.8,
+            "Personalizacao": 71.2,
+            "Empatia": 72.8,
+            "Crises": 72.8,
+            "Padroes": 71.7
         },
         "count": 27,
         "insights": {
@@ -113,11 +113,11 @@ const users = [
         "avgDurSec": 17,
         "avgScore": 49.7,
         "skills": {
-            "Escuta": 62.0,
-            "Personalizacao": 65.1,
-            "Empatia": 58.1,
-            "Crises": 55.6,
-            "Padroes": 59.7
+            "Escuta": 56.5,
+            "Personalizacao": 59.2,
+            "Empatia": 54.8,
+            "Crises": 56.0,
+            "Padroes": 56.3
         },
         "count": 23,
         "insights": {
@@ -184,11 +184,11 @@ const users = [
         "avgDurSec": 24,
         "avgScore": 63.0,
         "skills": {
-            "Escuta": 67.4,
-            "Personalizacao": 62.8,
-            "Empatia": 60.2,
-            "Crises": 68.6,
-            "Padroes": 63.2
+            "Escuta": 72.8,
+            "Personalizacao": 75.6,
+            "Empatia": 66.2,
+            "Crises": 65.6,
+            "Padroes": 68.0
         },
         "count": 11,
         "insights": {
@@ -243,11 +243,11 @@ const users = [
         "avgDurSec": 56,
         "avgScore": 57.0,
         "skills": {
-            "Escuta": 73.5,
-            "Personalizacao": 73.5,
-            "Empatia": 67.5,
-            "Crises": 64.5,
-            "Padroes": 71.0
+            "Escuta": 56.5,
+            "Personalizacao": 61.5,
+            "Empatia": 73.0,
+            "Crises": 72.5,
+            "Padroes": 64.0
         },
         "count": 14,
         "insights": {
@@ -305,11 +305,11 @@ const users = [
         "avgDurSec": 21,
         "avgScore": 54.9,
         "skills": {
-            "Escuta": 65.6,
-            "Personalizacao": 69.7,
-            "Empatia": 67.9,
-            "Crises": 63.8,
-            "Padroes": 64.9
+            "Escuta": 68.4,
+            "Personalizacao": 61.7,
+            "Empatia": 64.7,
+            "Crises": 60.3,
+            "Padroes": 60.7
         },
         "count": 18,
         "insights": {
@@ -447,11 +447,11 @@ const users = [
         "avgDurSec": 8,
         "avgScore": 74.5,
         "skills": {
-            "Escuta": 81.8,
-            "Personalizacao": 86.8,
-            "Empatia": 90.5,
-            "Crises": 78.0,
-            "Padroes": 76.8
+            "Escuta": 82.5,
+            "Personalizacao": 79.0,
+            "Empatia": 80.2,
+            "Crises": 75.8,
+            "Padroes": 83.0
         },
         "count": 6,
         "insights": {
@@ -501,11 +501,11 @@ const users = [
         "avgDurSec": 6,
         "avgScore": 38.1,
         "skills": {
-            "Escuta": 41.7,
-            "Personalizacao": 47.0,
-            "Empatia": 39.9,
-            "Crises": 40.0,
-            "Padroes": 35.0
+            "Escuta": 44.9,
+            "Personalizacao": 39.3,
+            "Empatia": 42.0,
+            "Crises": 36.7,
+            "Padroes": 41.1
         },
         "count": 18,
         "insights": {
@@ -567,11 +567,11 @@ const users = [
         "avgDurSec": 5,
         "avgScore": 56.0,
         "skills": {
-            "Escuta": 68.5,
-            "Personalizacao": 73.5,
-            "Empatia": 56.5,
-            "Crises": 54.5,
-            "Padroes": 64.0
+            "Escuta": 53.0,
+            "Personalizacao": 73.0,
+            "Empatia": 47.0,
+            "Crises": 51.0,
+            "Padroes": 62.0
         },
         "count": 3,
         "insights": {
@@ -694,11 +694,11 @@ const users = [
         "avgDurSec": 14,
         "avgScore": 66.2,
         "skills": {
-            "Escuta": 78.2,
+            "Escuta": 73.1,
             "Personalizacao": 77.2,
-            "Empatia": 71.4,
-            "Crises": 68.1,
-            "Padroes": 72.1
+            "Empatia": 71.0,
+            "Crises": 71.2,
+            "Padroes": 73.0
         },
         "count": 17,
         "insights": {
@@ -759,11 +759,11 @@ const users = [
         "avgDurSec": 29,
         "avgScore": 66.1,
         "skills": {
-            "Escuta": 68.3,
-            "Personalizacao": 72.6,
-            "Empatia": 70.3,
-            "Crises": 73.9,
-            "Padroes": 68.6
+            "Escuta": 68.9,
+            "Personalizacao": 76.0,
+            "Empatia": 64.6,
+            "Crises": 68.4,
+            "Padroes": 65.4
         },
         "count": 22,
         "insights": {
@@ -916,11 +916,11 @@ const users = [
         "avgDurSec": 3,
         "avgScore": 58.0,
         "skills": {
-            "Escuta": 63.6,
-            "Personalizacao": 61.9,
-            "Empatia": 62.4,
-            "Crises": 64.7,
-            "Padroes": 63.9
+            "Escuta": 63.3,
+            "Personalizacao": 68.1,
+            "Empatia": 59.3,
+            "Crises": 60.9,
+            "Padroes": 63.3
         },
         "count": 19,
         "insights": {
@@ -983,11 +983,11 @@ const users = [
         "avgDurSec": 12,
         "avgScore": 54.7,
         "skills": {
-            "Escuta": 52.0,
-            "Personalizacao": 56.7,
-            "Empatia": 49.3,
-            "Crises": 65.3,
-            "Padroes": 54.7
+            "Escuta": 62.0,
+            "Personalizacao": 50.3,
+            "Empatia": 54.0,
+            "Crises": 57.3,
+            "Padroes": 49.0
         },
         "count": 8,
         "insights": {
@@ -1039,11 +1039,11 @@ const users = [
         "avgDurSec": 35,
         "avgScore": 60.8,
         "skills": {
-            "Escuta": 66.8,
-            "Personalizacao": 66.6,
-            "Empatia": 63.6,
-            "Crises": 71.1,
-            "Padroes": 68.9
+            "Escuta": 69.7,
+            "Personalizacao": 67.7,
+            "Empatia": 68.4,
+            "Crises": 63.2,
+            "Padroes": 66.9
         },
         "count": 33,
         "insights": {
@@ -1120,11 +1120,11 @@ const users = [
         "avgDurSec": 27,
         "avgScore": 65.8,
         "skills": {
-            "Escuta": 76.2,
-            "Personalizacao": 69.3,
-            "Empatia": 70.8,
-            "Crises": 72.8,
-            "Padroes": 73.8
+            "Escuta": 80.7,
+            "Personalizacao": 71.7,
+            "Empatia": 80.5,
+            "Crises": 68.7,
+            "Padroes": 78.7
         },
         "count": 7,
         "insights": {
@@ -1175,11 +1175,11 @@ const users = [
         "avgDurSec": 27,
         "avgScore": 37.7,
         "skills": {
-            "Escuta": 40.0,
-            "Personalizacao": 45.6,
-            "Empatia": 42.2,
-            "Crises": 39.2,
-            "Padroes": 40.2
+            "Escuta": 42.1,
+            "Personalizacao": 43.1,
+            "Empatia": 38.2,
+            "Crises": 39.7,
+            "Padroes": 45.9
         },
         "count": 91,
         "insights": {
@@ -1314,11 +1314,11 @@ const users = [
         "avgDurSec": 25,
         "avgScore": 46.5,
         "skills": {
-            "Escuta": 47.5,
-            "Personalizacao": 56.0,
-            "Empatia": 47.0,
-            "Crises": 61.0,
-            "Padroes": 62.5
+            "Escuta": 59.0,
+            "Personalizacao": 64.5,
+            "Empatia": 49.5,
+            "Crises": 48.5,
+            "Padroes": 56.0
         },
         "count": 5,
         "insights": {
@@ -1367,11 +1367,11 @@ const users = [
         "avgDurSec": 38,
         "avgScore": 63.5,
         "skills": {
-            "Escuta": 73.5,
-            "Personalizacao": 67.2,
-            "Empatia": 69.3,
-            "Crises": 69.5,
-            "Padroes": 67.1
+            "Escuta": 70.3,
+            "Personalizacao": 67.9,
+            "Empatia": 73.9,
+            "Crises": 67.6,
+            "Padroes": 68.0
         },
         "count": 49,
         "insights": {
@@ -1604,11 +1604,11 @@ const users = [
         "avgDurSec": 30,
         "avgScore": 61.0,
         "skills": {
-            "Escuta": 62.0,
-            "Personalizacao": 77.0,
-            "Empatia": 58.0,
-            "Crises": 66.0,
-            "Padroes": 54.0
+            "Escuta": 63.0,
+            "Personalizacao": 53.0,
+            "Empatia": 56.0,
+            "Crises": 54.0,
+            "Padroes": 51.0
         },
         "count": 7,
         "insights": {
@@ -1659,11 +1659,11 @@ const users = [
         "avgDurSec": 34,
         "avgScore": 60.5,
         "skills": {
-            "Escuta": 59.1,
-            "Personalizacao": 67.1,
-            "Empatia": 59.8,
-            "Crises": 59.0,
-            "Padroes": 61.1
+            "Escuta": 62.4,
+            "Personalizacao": 59.3,
+            "Empatia": 63.0,
+            "Crises": 60.8,
+            "Padroes": 60.9
         },
         "count": 56,
         "insights": {
@@ -1760,16 +1760,16 @@ const users = [
         "avgDurMin": 1
     },
     {
-        "avgDurSec": 31,
+        "avgDurSec": 29,
         "avgScore": 57.7,
         "skills": {
-            "Escuta": 64.2,
-            "Personalizacao": 59.8,
-            "Empatia": 60.2,
-            "Crises": 66.5,
-            "Padroes": 62.7
+            "Escuta": 69.0,
+            "Personalizacao": 63.4,
+            "Empatia": 67.1,
+            "Crises": 62.5,
+            "Padroes": 62.6
         },
-        "count": 75,
+        "count": 81,
         "insights": {
             "pt": [
                 "O objetivo foi atingido: você obteve duas recomendações qualificadas e a autorização para contatar utilizando o nome da cliente.",
@@ -1878,7 +1878,13 @@ const users = [
             "27/07/2026",
             "27/07/2026",
             "27/07/2026",
-            "27/07/2026"
+            "27/07/2026",
+            "02/09/2026",
+            "02/09/2026",
+            "02/09/2026",
+            "02/09/2026",
+            "02/09/2026",
+            "02/09/2026"
         ],
         "avgDurMin": 1
     },
@@ -1923,11 +1929,11 @@ const users = [
         "avgDurSec": 7,
         "avgScore": 41.0,
         "skills": {
-            "Escuta": 47.5,
-            "Personalizacao": 48.6,
-            "Empatia": 41.8,
-            "Crises": 47.6,
-            "Padroes": 42.8
+            "Escuta": 48.1,
+            "Personalizacao": 53.9,
+            "Empatia": 46.8,
+            "Crises": 42.1,
+            "Padroes": 44.1
         },
         "count": 20,
         "insights": {
@@ -2026,11 +2032,11 @@ const users = [
         "avgDurSec": 54,
         "avgScore": 41.5,
         "skills": {
-            "Escuta": 46.6,
-            "Personalizacao": 50.9,
-            "Empatia": 46.9,
-            "Crises": 45.6,
-            "Padroes": 49.3
+            "Escuta": 46.9,
+            "Personalizacao": 50.2,
+            "Empatia": 46.1,
+            "Crises": 44.1,
+            "Padroes": 48.9
         },
         "count": 18,
         "insights": {
