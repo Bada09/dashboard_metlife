@@ -3,11 +3,11 @@ const users = [
         "avgDurSec": 42,
         "avgScore": 70.3,
         "skills": {
-            "Escuta": 81.7,
-            "Personalizacao": 78.5,
-            "Empatia": 76.7,
-            "Crises": 69.3,
-            "Padroes": 70.8
+            "Escuta": 72.0,
+            "Personalizacao": 72.2,
+            "Empatia": 74.8,
+            "Crises": 66.5,
+            "Padroes": 75.5
         },
         "count": 27,
         "insights": {
@@ -113,11 +113,11 @@ const users = [
         "avgDurSec": 17,
         "avgScore": 49.7,
         "skills": {
-            "Escuta": 55.8,
-            "Personalizacao": 64.4,
-            "Empatia": 58.9,
-            "Crises": 53.2,
-            "Padroes": 52.0
+            "Escuta": 53.6,
+            "Personalizacao": 54.4,
+            "Empatia": 58.7,
+            "Crises": 51.3,
+            "Padroes": 56.2
         },
         "count": 23,
         "insights": {
@@ -184,11 +184,11 @@ const users = [
         "avgDurSec": 24,
         "avgScore": 63.0,
         "skills": {
-            "Escuta": 64.0,
-            "Personalizacao": 67.6,
-            "Empatia": 73.6,
-            "Crises": 70.2,
-            "Padroes": 62.2
+            "Escuta": 73.2,
+            "Personalizacao": 68.6,
+            "Empatia": 73.0,
+            "Crises": 70.6,
+            "Padroes": 64.4
         },
         "count": 11,
         "insights": {
@@ -243,11 +243,11 @@ const users = [
         "avgDurSec": 56,
         "avgScore": 57.0,
         "skills": {
-            "Escuta": 70.5,
-            "Personalizacao": 68.5,
-            "Empatia": 61.5,
-            "Crises": 69.0,
-            "Padroes": 61.5
+            "Escuta": 64.0,
+            "Personalizacao": 65.5,
+            "Empatia": 75.0,
+            "Crises": 64.5,
+            "Padroes": 63.5
         },
         "count": 14,
         "insights": {
@@ -305,11 +305,11 @@ const users = [
         "avgDurSec": 21,
         "avgScore": 54.9,
         "skills": {
-            "Escuta": 65.2,
-            "Personalizacao": 68.1,
-            "Empatia": 68.9,
-            "Crises": 59.1,
-            "Padroes": 62.7
+            "Escuta": 59.6,
+            "Personalizacao": 58.8,
+            "Empatia": 69.7,
+            "Crises": 57.3,
+            "Padroes": 60.9
         },
         "count": 18,
         "insights": {
@@ -447,11 +447,11 @@ const users = [
         "avgDurSec": 8,
         "avgScore": 74.5,
         "skills": {
-            "Escuta": 81.2,
-            "Personalizacao": 87.2,
-            "Empatia": 86.2,
+            "Escuta": 70.8,
+            "Personalizacao": 77.5,
+            "Empatia": 84.5,
             "Crises": 75.8,
-            "Padroes": 76.0
+            "Padroes": 75.0
         },
         "count": 6,
         "insights": {
@@ -501,11 +501,11 @@ const users = [
         "avgDurSec": 6,
         "avgScore": 38.1,
         "skills": {
-            "Escuta": 51.9,
-            "Personalizacao": 50.3,
-            "Empatia": 40.7,
-            "Crises": 38.6,
-            "Padroes": 32.4
+            "Escuta": 48.4,
+            "Personalizacao": 49.9,
+            "Empatia": 41.6,
+            "Crises": 36.9,
+            "Padroes": 36.9
         },
         "count": 18,
         "insights": {
@@ -567,11 +567,11 @@ const users = [
         "avgDurSec": 5,
         "avgScore": 56.0,
         "skills": {
-            "Escuta": 57.0,
-            "Personalizacao": 73.5,
-            "Empatia": 57.0,
-            "Crises": 58.5,
-            "Padroes": 61.5
+            "Escuta": 62.0,
+            "Personalizacao": 77.5,
+            "Empatia": 48.5,
+            "Crises": 52.5,
+            "Padroes": 71.0
         },
         "count": 3,
         "insights": {
@@ -695,10 +695,10 @@ const users = [
         "avgScore": 66.2,
         "skills": {
             "Escuta": 72.0,
-            "Personalizacao": 76.4,
-            "Empatia": 74.6,
-            "Crises": 72.6,
-            "Padroes": 67.5
+            "Personalizacao": 75.1,
+            "Empatia": 73.6,
+            "Crises": 66.1,
+            "Padroes": 70.6
         },
         "count": 17,
         "insights": {
@@ -759,11 +759,11 @@ const users = [
         "avgDurSec": 35,
         "avgScore": 66.9,
         "skills": {
-            "Escuta": 70.9,
-            "Personalizacao": 79.5,
-            "Empatia": 74.0,
-            "Crises": 71.3,
-            "Padroes": 67.6
+            "Escuta": 69.5,
+            "Personalizacao": 72.5,
+            "Empatia": 69.1,
+            "Crises": 65.1,
+            "Padroes": 72.1
         },
         "count": 23,
         "insights": {
@@ -917,11 +917,11 @@ const users = [
         "avgDurSec": 3,
         "avgScore": 58.0,
         "skills": {
-            "Escuta": 61.0,
-            "Personalizacao": 70.6,
-            "Empatia": 65.7,
-            "Crises": 61.6,
-            "Padroes": 60.7
+            "Escuta": 60.3,
+            "Personalizacao": 60.4,
+            "Empatia": 61.6,
+            "Crises": 58.6,
+            "Padroes": 68.3
         },
         "count": 19,
         "insights": {
@@ -984,11 +984,11 @@ const users = [
         "avgDurSec": 12,
         "avgScore": 54.7,
         "skills": {
-            "Escuta": 56.3,
+            "Escuta": 58.3,
             "Personalizacao": 58.3,
-            "Empatia": 62.0,
-            "Crises": 54.3,
-            "Padroes": 50.3
+            "Empatia": 45.0,
+            "Crises": 61.3,
+            "Padroes": 62.3
         },
         "count": 8,
         "insights": {
@@ -1040,11 +1040,11 @@ const users = [
         "avgDurSec": 46,
         "avgScore": 62.3,
         "skills": {
-            "Escuta": 62.9,
-            "Personalizacao": 69.1,
-            "Empatia": 77.0,
-            "Crises": 64.1,
-            "Padroes": 59.2
+            "Escuta": 66.9,
+            "Personalizacao": 60.4,
+            "Empatia": 72.2,
+            "Crises": 61.7,
+            "Padroes": 66.1
         },
         "count": 35,
         "insights": {
@@ -1123,11 +1123,11 @@ const users = [
         "avgDurSec": 27,
         "avgScore": 65.8,
         "skills": {
-            "Escuta": 71.0,
-            "Personalizacao": 68.3,
-            "Empatia": 76.0,
-            "Crises": 68.7,
-            "Padroes": 74.2
+            "Escuta": 73.0,
+            "Personalizacao": 61.0,
+            "Empatia": 80.7,
+            "Crises": 69.3,
+            "Padroes": 72.0
         },
         "count": 7,
         "insights": {
@@ -1176,35 +1176,35 @@ const users = [
     },
     {
         "avgDurSec": 27,
-        "avgScore": 37.7,
+        "avgScore": 39.3,
         "skills": {
-            "Escuta": 42.0,
-            "Personalizacao": 46.0,
-            "Empatia": 45.1,
-            "Crises": 40.3,
-            "Padroes": 39.4
+            "Escuta": 45.8,
+            "Personalizacao": 45.8,
+            "Empatia": 48.0,
+            "Crises": 41.3,
+            "Padroes": 43.9
         },
-        "count": 93,
+        "count": 97,
         "insights": {
             "pt": [
-                "Fernanda, dentiste indépendante à Belo Horizonte, quarante-huit ans, profil DISC vert majoritaire.",
-                "La principale objection exprimée touche à la famille TEMPS (“besoin de réfléchir avant de signer”).",
-                "Découvrir la vraie raison de l’ajournement et traiter l’objection par la bonne CHAVE.",
-                "Obtenir l’engagement au moment présent, dans une ambiance sereine pour la cliente.",
-                "Objectif partiellement atteint : la pression a prédominé, la raison profonde n’a pas émergé clairement et la signature n’a pas été actée.",
-                "Ton professionnel, direct, sans agressivité manifeste.",
-                "Mise en valeur du travail accompli (“cinq rendez-vous, revue des impacts fiscaux et de projets”).",
-                "Présentation explicite du droit de rétractation, rassurant la cliente sur la liberté d’annuler."
+                "J’ai incarné Fernanda, chirurgienne-dentiste, profil majoritairement vert (GREEN) selon le DISC, objection principale liée à une difficulté budgétaire réelle (“ce n’est pas le bon moment, budget serré”).",
+                "Objectif partiellement atteint : la raison réelle du blocage a été clarifiée et un ajustement du montant a été envisagé, mais aucune validation ferme de la souscription maintenant n’a eu lieu.",
+                "Belle écoute initiale : tu as spontanément cherché à comprendre s’il y avait un nouvel élément entre les deux rendez-vous.",
+                "Tu proposes spontanément d’ajuster le montant de la cotisation, signe d’adaptabilité et d’empathie.",
+                "Formulation ouverte pour impliquer la cliente dans la recherche d’un montant compatible avec son budget (“À combien penses-tu pouvoir cotiser ?”).",
+                "Attitude collaborative, naturelle, centrée sur la recherche d’une solution.",
+                "Reformulation et clarification",
+                "Ta question “Y a-t-il quelque chose d’autre...” mérite d’être encore plus explicite : cible ce qui a changé concrètement au niveau budget ou priorité."
             ],
             "fr": [
-                "Fernanda, dentiste indépendante à Belo Horizonte, quarante-huit ans, profil DISC vert majoritaire.",
-                "La principale objection exprimée touche à la famille TEMPS (“besoin de réfléchir avant de signer”).",
-                "Découvrir la vraie raison de l’ajournement et traiter l’objection par la bonne CHAVE.",
-                "Obtenir l’engagement au moment présent, dans une ambiance sereine pour la cliente.",
-                "Objectif partiellement atteint : la pression a prédominé, la raison profonde n’a pas émergé clairement et la signature n’a pas été actée.",
-                "Ton professionnel, direct, sans agressivité manifeste.",
-                "Mise en valeur du travail accompli (“cinq rendez-vous, revue des impacts fiscaux et de projets”).",
-                "Présentation explicite du droit de rétractation, rassurant la cliente sur la liberté d’annuler."
+                "J’ai incarné Fernanda, chirurgienne-dentiste, profil majoritairement vert (GREEN) selon le DISC, objection principale liée à une difficulté budgétaire réelle (“ce n’est pas le bon moment, budget serré”).",
+                "Objectif partiellement atteint : la raison réelle du blocage a été clarifiée et un ajustement du montant a été envisagé, mais aucune validation ferme de la souscription maintenant n’a eu lieu.",
+                "Belle écoute initiale : tu as spontanément cherché à comprendre s’il y avait un nouvel élément entre les deux rendez-vous.",
+                "Tu proposes spontanément d’ajuster le montant de la cotisation, signe d’adaptabilité et d’empathie.",
+                "Formulation ouverte pour impliquer la cliente dans la recherche d’un montant compatible avec son budget (“À combien penses-tu pouvoir cotiser ?”).",
+                "Attitude collaborative, naturelle, centrée sur la recherche d’une solution.",
+                "Reformulation et clarification",
+                "Ta question “Y a-t-il quelque chose d’autre...” mérite d’être encore plus explicite : cible ce qui a changé concrètement au niveau budget ou priorité."
             ]
         },
         "name": "Sophie Géraud",
@@ -1311,7 +1311,11 @@ const users = [
             "05/08/2026",
             "14/08/2026",
             "03/09/2026",
-            "03/09/2026"
+            "03/09/2026",
+            "04/09/2026",
+            "04/09/2026",
+            "04/09/2026",
+            "07/09/2026"
         ],
         "avgDurMin": 0
     },
@@ -1319,11 +1323,11 @@ const users = [
         "avgDurSec": 25,
         "avgScore": 46.5,
         "skills": {
-            "Escuta": 51.5,
-            "Personalizacao": 54.5,
-            "Empatia": 52.0,
-            "Crises": 60.0,
-            "Padroes": 47.5
+            "Escuta": 48.5,
+            "Personalizacao": 55.5,
+            "Empatia": 60.5,
+            "Crises": 45.5,
+            "Padroes": 57.0
         },
         "count": 5,
         "insights": {
@@ -1372,11 +1376,11 @@ const users = [
         "avgDurSec": 38,
         "avgScore": 63.5,
         "skills": {
-            "Escuta": 67.7,
-            "Personalizacao": 69.4,
-            "Empatia": 76.0,
-            "Crises": 68.2,
-            "Padroes": 65.2
+            "Escuta": 65.8,
+            "Personalizacao": 65.0,
+            "Empatia": 73.6,
+            "Crises": 65.9,
+            "Padroes": 68.7
         },
         "count": 49,
         "insights": {
@@ -1609,11 +1613,11 @@ const users = [
         "avgDurSec": 30,
         "avgScore": 61.0,
         "skills": {
-            "Escuta": 72.0,
-            "Personalizacao": 58.0,
-            "Empatia": 70.0,
-            "Crises": 48.0,
-            "Padroes": 47.0
+            "Escuta": 85.0,
+            "Personalizacao": 66.0,
+            "Empatia": 58.0,
+            "Crises": 67.0,
+            "Padroes": 56.0
         },
         "count": 7,
         "insights": {
@@ -1664,11 +1668,11 @@ const users = [
         "avgDurSec": 34,
         "avgScore": 60.5,
         "skills": {
-            "Escuta": 57.5,
-            "Personalizacao": 60.5,
-            "Empatia": 63.8,
-            "Crises": 62.6,
-            "Padroes": 54.8
+            "Escuta": 62.5,
+            "Personalizacao": 58.0,
+            "Empatia": 60.8,
+            "Crises": 63.5,
+            "Padroes": 58.3
         },
         "count": 56,
         "insights": {
@@ -1768,11 +1772,11 @@ const users = [
         "avgDurSec": 29,
         "avgScore": 57.7,
         "skills": {
-            "Escuta": 60.0,
-            "Personalizacao": 64.0,
-            "Empatia": 68.7,
-            "Crises": 61.2,
-            "Padroes": 62.1
+            "Escuta": 60.8,
+            "Personalizacao": 58.7,
+            "Empatia": 64.7,
+            "Crises": 62.1,
+            "Padroes": 65.4
         },
         "count": 81,
         "insights": {
@@ -1931,36 +1935,36 @@ const users = [
         "avgDurMin": 0
     },
     {
-        "avgDurSec": 7,
-        "avgScore": 41.0,
+        "avgDurSec": 48,
+        "avgScore": 50.9,
         "skills": {
-            "Escuta": 41.4,
-            "Personalizacao": 52.5,
-            "Empatia": 53.0,
-            "Crises": 44.1,
-            "Padroes": 39.2
+            "Escuta": 54.4,
+            "Personalizacao": 59.6,
+            "Empatia": 59.3,
+            "Crises": 50.1,
+            "Padroes": 58.6
         },
-        "count": 20,
+        "count": 23,
         "insights": {
             "pt": [
-                "Mulher, empreendedora, carismática e comunicativa, perfil DISC: majoritariamente amarelo, estilo relacional, rápida, emocional.",
-                "## :heavy_plus_sign: PONTOS FORTES",
-                "Você parabenizou e reconheceu a decisão da cliente, criando um ambiente positivo inicial.",
-                "Demonstrou preocupação com discrição e respeito pelo círculo da cliente ao mencionar abordagem sutil.",
-                "Tentou agendar um novo contato para dar tempo à cliente de pensar, em vez de pressionar por respostas imediatas.",
-                "Faltou explorar o momento de satisfação genuína da cliente com perguntas abertas sobre o que mais ela apreciou no atendimento.",
-                "O pedido de indicações foi realizado de forma genérica e sem segmentação (“familiares, amigos”), dificultando a lembrança de nomes concretos.",
-                "Não aplicou a técnica A.S.K.T.H.E.M.A.N (\"ASKZEMANN\") nem coletou informações qualificadas dos possíveis indicados."
+                "Jovem executiva, perfil DISC amarelo, focada em digitalização e comparação, principal objeção: prêmio alto no orçamento atual.",
+                "A situação financeira apertada foi apontada como barreira momentânea e prioridade imediata.",
+                "Você conseguiu identificar rapidamente que a objeção era financeira e ajustou o valor do prêmio para viabilizar a contratação agora.",
+                "Faltou investigar camadas adicionais e aprofundar as conexões com prioridades, mas o fechamento foi atingido, cliente ficou confortável.",
+                "Você escutou a objeção inicial sem minimizar, demonstrando respeito pela preocupação financeira exposta.",
+                "Trouxe o ajuste do prêmio para a realidade do cliente, mostrando flexibilidade.",
+                "Utilizou uma Power Phrase relevante (\"nunca vi alguém quebrar por pagar um seguro de vida\"), potencializando a percepção de valor.",
+                "Conduziu o fechamento com leveza, mantendo tom acolhedor e empático."
             ],
             "fr": [
-                "Mulher, empreendedora, carismática e comunicativa, perfil DISC: majoritariamente amarelo, estilo relacional, rápida, emocional.",
-                "## :heavy_plus_sign: PONTOS FORTES",
-                "Você parabenizou e reconheceu a decisão da cliente, criando um ambiente positivo inicial.",
-                "Demonstrou preocupação com discrição e respeito pelo círculo da cliente ao mencionar abordagem sutil.",
-                "Tentou agendar um novo contato para dar tempo à cliente de pensar, em vez de pressionar por respostas imediatas.",
-                "Faltou explorar o momento de satisfação genuína da cliente com perguntas abertas sobre o que mais ela apreciou no atendimento.",
-                "O pedido de indicações foi realizado de forma genérica e sem segmentação (“familiares, amigos”), dificultando a lembrança de nomes concretos.",
-                "Não aplicou a técnica A.S.K.T.H.E.M.A.N (\"ASKZEMANN\") nem coletou informações qualificadas dos possíveis indicados."
+                "Jovem executiva, perfil DISC amarelo, focada em digitalização e comparação, principal objeção: prêmio alto no orçamento atual.",
+                "A situação financeira apertada foi apontada como barreira momentânea e prioridade imediata.",
+                "Você conseguiu identificar rapidamente que a objeção era financeira e ajustou o valor do prêmio para viabilizar a contratação agora.",
+                "Faltou investigar camadas adicionais e aprofundar as conexões com prioridades, mas o fechamento foi atingido, cliente ficou confortável.",
+                "Você escutou a objeção inicial sem minimizar, demonstrando respeito pela preocupação financeira exposta.",
+                "Trouxe o ajuste do prêmio para a realidade do cliente, mostrando flexibilidade.",
+                "Utilizou uma Power Phrase relevante (\"nunca vi alguém quebrar por pagar um seguro de vida\"), potencializando a percepção de valor.",
+                "Conduziu o fechamento com leveza, mantendo tom acolhedor e empático."
             ]
         },
         "name": "Tabajara Dias",
@@ -1994,7 +1998,10 @@ const users = [
             "02/07/2026",
             "02/07/2026",
             "13/08/2026",
-            "13/08/2026"
+            "13/08/2026",
+            "04/09/2026",
+            "04/09/2026",
+            "04/09/2026"
         ],
         "avgDurMin": 1
     },
@@ -2037,11 +2044,11 @@ const users = [
         "avgDurSec": 54,
         "avgScore": 41.5,
         "skills": {
-            "Escuta": 45.1,
-            "Personalizacao": 51.0,
-            "Empatia": 45.1,
-            "Crises": 42.0,
-            "Padroes": 43.4
+            "Escuta": 46.1,
+            "Personalizacao": 48.8,
+            "Empatia": 48.8,
+            "Crises": 43.9,
+            "Padroes": 45.8
         },
         "count": 18,
         "insights": {
