@@ -34304,6 +34304,94 @@ const RAW_SIMULATIONS = [
         "insights": []
     },
     {
+        "name": "Sabrina Oliveira",
+        "agency": "Outros",
+        "region": "Outros",
+        "date": "09/09/2026",
+        "dur": "2m 46s",
+        "score": 0,
+        "scenario": "OBJECAO_FINANCEIRA",
+        "lqa": "N/A",
+        "interactions": 18,
+        "messages": [
+            {
+                "role": "AI",
+                "text": "Gostei da proposta e está bem apresentada, mas o momento financeiro está apertado. Não é hora de assumir mais um gasto mensal agora."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Oi, André. É, mas eu gostaria de entender o que mudou desde a nossa última conversa, porque quando nós falamos sobre essa proteção patrimonial, é, você disse que esse orçamento, esses valores que eu te passei, é, não, ééé, mudariam o seu estilo de vida e não comprometeriam a renda da sua casa, a renda da sua família, nem mesmo o valor que você destina pra reserva financeira. Então eu gostaria de entender o que mudou, se você tem alguma outra questão que você não tá trazendo aqui, porque o decisor final seria você desde o início e foi algo que a gente conversou, então queria entender se você tem alguma dúvida, se tem algo que não está claro pra você, pra que a gente possa realmente entender e discutir qual realmente é o empecilho pra gente"
+            },
+            {
+                "role": "AI",
+                "text": "Nada mudou na saúde ou na minha"
+            },
+            {
+                "role": "HUMAN",
+                "text": "Nada mudou na saúde"
+            },
+            {
+                "role": "AI",
+                "text": "Certo, saúde está igual. O que mudou foi o fluxo de caixa: as contas deste mês e alguns imprevistos consumiram parte da minha reserva. Não consigo assumir mais esse débito mensal neste instante."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Certo, certo. Mas pelo que a gente olhou aqui"
+            },
+            {
+                "role": "HUMAN",
+                "text": "Ééé, André"
+            },
+            {
+                "role": "HUMAN",
+                "text": "Ééé, esse valor comprometeria menos deee 4% do seu salário, entãooo eu não acredito que esse seja o principal motivo pra não s-- darmos continuidade"
+            },
+            {
+                "role": "AI",
+                "text": "Não estou contestando sua conta percentual. O que eu digo é que, com o fluxo de caixa apertado agora, mesmo esse percentual pequeno vira problema. Preciso que você proponha alguma alternativa concreta que não aumente meu aperto hoje."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Nós podemos fazer uma redução, né? Aqui a gente"
+            },
+            {
+                "role": "HUMAN",
+                "text": "Tem alguns valores que a gente pode ajustar"
+            },
+            {
+                "role": "HUMAN",
+                "text": "Dentro de algumas coberturas que a gente fechou e com isso fazer uma redução pra que você consiga, ééé"
+            },
+            {
+                "role": "HUMAN",
+                "text": "Ter esseee, esseee, esse seguro, né? Pra que você e sua família estejam protegidas"
+            },
+            {
+                "role": "AI",
+                "text": "Certo, reduções me interessam. Quero entender qual cobertura você reduziria e por quanto tempo essa redução seria aplicada. Pode ser temporária, com opção de retomar sem nova avaliação médica?"
+            },
+            {
+                "role": "HUMAN",
+                "text": "O que a gente pode fazer é fazer uma redução em cirurgias, né? Hoje o capital segurado tá aqui em R$ 300 mil, o prêmio mensal tá em R$ 135,63, sendo anual, fica R$ 1.562. O que nós podemos fazer é fazer uma diminuição nesse capital segurado pra que o prêmio mensal diminua em 15%, consequentemente, o prêmio anual também diminuiria em 15%. Além disso, a gente pode fazer uma diminuição também no, no, na fra-- na cobertura de fratura óssea, dividindo pela metade. Com isso, consequentemente, o prêmio mensal vai haver uma diminuição, tal como o anual. Funciona pra você?"
+            },
+            {
+                "role": "AI",
+                "text": "Antes de tudo, não quero número exato nem cálculo agora. Preciso saber duas coisas claras: essa redução de quinze por cento no prêmio é temporária ou permanente? E eu consigo retomar a cobertura anterior depois sem nova avaliação médica?"
+            },
+            {
+                "role": "HUMAN",
+                "text": "Ela seria permanente e pra você adquirir uma nova cobertura ou um aumento dessa cobertura, você deveria fazer uma outra apólice"
+            },
+            {
+                "role": "AI",
+                "text": "Permanente não dá. Se for para reduzir e perder a opção de voltar sem reavaliação, prefiro não mexer na estrutura agora. Tem alguma alternativa temporária que mantenha a possibilidade de retomar a cobertura sem nova apólice?"
+            }
+        ],
+        "finished": false,
+        "feedback": "",
+        "insights": []
+    },
+    {
         "name": "Gorilla Su2026",
         "agency": "Outros",
         "region": "Outros",
