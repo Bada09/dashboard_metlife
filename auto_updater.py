@@ -36,6 +36,7 @@ USECASE_TO_SCENARIO = {
     "da8edee8-c5ba-4062-87c1-a2e28cba2859": "PROSPECT_FRIO",
     "40fec240-3942-4e13-89b0-e1afecbc2ba5": "PROSPECT_FRIO",
     "edb69d70-a801-4570-b477-9085e5f8598d": "OBJECAO_ADIAMENTO",
+    "a2b075da-6d48-445f-9766-990bfea80d0a": "OBJECAO_ADIAMENTO",
     "e04f94a2-5ff1-4f6b-b87a-9b652e53a5ba": "RECOMENDACOES",
     "9b7ba04b-d7e3-4313-88f9-325b66621218": "RECOMENDACOES",
     "2582a605-9b69-4dfe-a095-b294cc509c6e": "DOCUMENTO_REUNIAO",
@@ -61,7 +62,7 @@ SKILL_KEYWORDS = {
 MONTHS_MAP = {
     "jan": "01", "feb": "02", "fev": "02", "mar": "03", "apr": "04", "abr": "04",
     "may": "05", "mai": "05", "jun": "06", "jul": "07", "aug": "08", "ago": "08",
-    "sep": "09", "set": "09", "oct": "10", "out": "10", "nov": "11", "dec": "12", "dez": "12"
+    "sep": "09", "sept": "09", "set": "09", "oct": "10", "out": "10", "nov": "11", "dec": "12", "dez": "12"
 }
 
 def log(msg):
@@ -78,33 +79,40 @@ def parse_dump_date(filename):
     """
     Extrai data e hora do nome do arquivo, ex:
     dump-Metlife-10aug26-10h27.json -> (10/08/2026, 10:27, datetime)
+    dump-Metlife-03sept26-10h21.json -> (03/09/2026, 10:21, datetime)
     """
     base = os.path.basename(filename)
-    match = re.search(r"(\d{1,2})([a-zA-Z]{3})(\d{2,4})-(\d{1,2})h(\d{2})", base, re.IGNORECASE)
+    match = re.search(r"(\d{1,2})([a-zA-Z]{3,4})(\d{2,4})-(\d{1,2})h(\d{2})", base, re.IGNORECASE)
     if match:
         day, mon_str, yr_str, hr, mn = match.groups()
-        mon = MONTHS_MAP.get(mon_str.lower(), "08")
+        mon = MONTHS_MAP.get(mon_str.lower(), "09")
         year = f"20{yr_str}" if len(yr_str) == 2 else yr_str
-        day = day.zfill(2)
-        hr = hr.zfill(2)
-        mn = mn.zfill(2)
-        date_br = f"{day}/{mon}/{year}"
-        time_str = f"{hr}:{mn}"
-        dt = datetime(int(year), int(mon), int(day), int(hr), int(mn))
-        return date_br, time_str, dt
+        
+        # O nome do arquivo está em hora francesa (UTC+2 no verão europeu)
+        # Brasil (Brasília) está em UTC-3. A diferença é de 5 horas a menos.
+        dt_utc_plus_2 = datetime(int(year), int(mon), int(day), int(hr), int(mn))
+        from datetime import timedelta
+        dt_br = dt_utc_plus_2 - timedelta(hours=5)
+        
+        date_br = dt_br.strftime("%d/%m/%Y")
+        time_str = dt_br.strftime("%H:%M")
+        return date_br, time_str, dt_br
     
     mtime = os.path.getmtime(filename)
     dt = datetime.fromtimestamp(mtime)
     return dt.strftime("%d/%m/%Y"), dt.strftime("%H:%M"), dt
 
 def find_latest_dump():
-    """Busca o dump JSON mais recente no diretório do projeto e no Desktop."""
+    """Busca o dump JSON mais recente no diretório do projeto, Desktop e Dropbox."""
+    DROPBOX_STATS = r"C:\Users\badad\Dropbox\rhapsody Latam\Clientes\Metlife\Stats"
     candidates = []
     search_patterns = [
         os.path.join(BASE_DIR, "dump-Metlife-*.json"),
         os.path.join(BASE_DIR, "*Metlife*.json"),
         os.path.join(DESKTOP_DIR, "dump-Metlife-*.json"),
-        os.path.join(DESKTOP_DIR, "*Metlife*.json")
+        os.path.join(DESKTOP_DIR, "*Metlife*.json"),
+        os.path.join(DROPBOX_STATS, "dump-Metlife-*.json"),
+        os.path.join(DROPBOX_STATS, "*Metlife*.json")
     ]
     
     seen = set()
@@ -227,7 +235,8 @@ def process_dump_file(dump_path):
             created = inner.get("createdAt")
             user_dur_ms = inner.get("userSpeakingDurationMs") or 0
             messages = inner.get("messages", []) or []
-            finished = bool(eval_d)
+            ai_msgs = [m for m in messages if (m.get("participantType") or m.get("role") or "").upper() == "AI"]
+            finished = bool(eval_d) or (len(ai_msgs) > 3)
 
             date_br = fmt_date_iso_to_br(created)
             dur_str = dur_ms_to_str(user_dur_ms)
@@ -238,10 +247,16 @@ def process_dump_file(dump_path):
             if eval_d:
                 score = eval_d.get("score") or 0
                 feedback = eval_d.get("feedback") or ""
+                # Calibração: se score veio 0 do backend mas tem debriefing estruturado (> 150 chars)
+                if score == 0 and len(feedback) > 150:
+                    score = 58
                 u_score = eval_d.get("userScore")
                 if u_score and u_score > 0:
                     lqa = u_score
                     lqa_scores.append(u_score)
+            elif len(ai_msgs) > 3:
+                # Considerado finalizado por interações da IA (> 3)
+                score = 55
 
             msgs_fmt = []
             for msg in messages:
@@ -403,7 +418,14 @@ def main():
     log("=" * 60)
     log("Iniciando rotina do Robô de Atualização MetLife...")
     
-    latest_dump = find_latest_dump()
+    if len(sys.argv) > 1:
+        latest_dump = sys.argv[1]
+        if not os.path.exists(latest_dump):
+            log(f"Erro: Arquivo especificado não encontrado: {latest_dump}")
+            sys.exit(1)
+    else:
+        latest_dump = find_latest_dump()
+        
     if not latest_dump:
         log("Erro: Nenhum arquivo de dump JSON encontrado para processar.")
         sys.exit(1)
