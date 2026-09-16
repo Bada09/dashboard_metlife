@@ -1573,6 +1573,133 @@
             white-space: pre-wrap;
         }
 
+        /* ── AUDIO REPRODUCTION IN TRANSCRIPT ── */
+        .transcript-header-row {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 1.25rem;
+            flex-wrap: wrap;
+            gap: 12px;
+        }
+        .audio-player-toolbar {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            background: rgba(4, 30, 66, 0.04);
+            padding: 5px 12px;
+            border-radius: 30px;
+            border: 1px solid rgba(4, 30, 66, 0.08);
+        }
+        .btn-audio-play {
+            display: inline-flex;
+            align-items: center;
+            gap: 7px;
+            background: linear-gradient(135deg, var(--primary), var(--primary-dark));
+            color: #ffffff;
+            border: none;
+            padding: 6px 14px;
+            border-radius: 20px;
+            font-size: 0.78rem;
+            font-weight: 700;
+            cursor: pointer;
+            transition: var(--transition);
+            box-shadow: 0 2px 8px rgba(0, 188, 242, 0.28);
+        }
+        .btn-audio-play:hover {
+            transform: translateY(-1px);
+            box-shadow: 0 4px 12px rgba(0, 188, 242, 0.4);
+        }
+        .btn-audio-stop {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            width: 28px;
+            height: 28px;
+            background: #e2e8f0;
+            color: #475569;
+            border: none;
+            border-radius: 50%;
+            font-size: 0.75rem;
+            cursor: pointer;
+            transition: var(--transition);
+        }
+        .btn-audio-stop:hover {
+            background: #cbd5e1;
+            color: #0f172a;
+        }
+        .audio-speed-group {
+            display: inline-flex;
+            align-items: center;
+            gap: 3px;
+            margin-left: 2px;
+        }
+        .audio-speed-btn {
+            background: transparent;
+            border: 1px solid transparent;
+            color: var(--text-muted);
+            font-size: 0.72rem;
+            font-weight: 600;
+            padding: 2px 7px;
+            border-radius: 12px;
+            cursor: pointer;
+            transition: var(--transition);
+        }
+        .audio-speed-btn:hover {
+            color: var(--text-main);
+            background: rgba(0, 0, 0, 0.05);
+        }
+        .audio-speed-btn.active {
+            background: var(--accent);
+            color: #ffffff;
+            font-weight: 700;
+        }
+        .btn-msg-speak {
+            background: transparent;
+            border: none;
+            color: var(--text-muted);
+            cursor: pointer;
+            padding: 3px 6px;
+            border-radius: 6px;
+            font-size: 0.75rem;
+            transition: var(--transition);
+            opacity: 0.55;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .btn-msg-speak:hover {
+            opacity: 1;
+            color: var(--primary);
+            background: rgba(0, 188, 242, 0.12);
+        }
+        .transcript-bubble.playing-bubble {
+            border-color: var(--primary) !important;
+            box-shadow: 0 0 0 3px rgba(0, 188, 242, 0.25), 0 4px 14px rgba(0, 188, 242, 0.15) !important;
+            transform: translateY(-2px);
+            background: rgba(0, 188, 242, 0.08) !important;
+        }
+        .audio-wave-anim {
+            display: inline-flex;
+            align-items: center;
+            gap: 2px;
+            height: 12px;
+            margin-left: 3px;
+        }
+        .audio-wave-anim .bar {
+            width: 2px;
+            height: 100%;
+            background: #ffffff;
+            border-radius: 1px;
+            animation: waveBounce 0.8s ease-in-out infinite alternate;
+        }
+        .audio-wave-anim .bar:nth-child(2) { animation-delay: 0.2s; }
+        .audio-wave-anim .bar:nth-child(3) { animation-delay: 0.4s; }
+        @keyframes waveBounce {
+            0% { height: 3px; }
+            100% { height: 12px; }
+        }
+
 
         /* Date Filter Period Buttons */
         .btn-period {
@@ -1906,6 +2033,11 @@
                 generalBtn: "Geral",
                 transcriptTitle: "Transcrição da Simulação",
                 noTranscript: "Nenhuma transcrição disponível para esta simulação.",
+                playAudio: "Ouvir Simulação",
+                pauseAudio: "Pausar",
+                resumeAudio: "Continuar",
+                stopAudio: "Parar",
+                playMessage: "Ouvir fala",
                 statusLabel: "Status dos Runs:",
                 statusAll: "Todos",
                 statusFinished: "Finalizados",
@@ -1993,6 +2125,11 @@
                 periodLabel: "Période Analysée:",
                 transcriptTitle: "Transcription de la Simulation",
                 noTranscript: "Aucune transcription disponible pour cette simulation.",
+                playAudio: "Écouter la Simulation",
+                pauseAudio: "Pause",
+                resumeAudio: "Reprendre",
+                stopAudio: "Arrêter",
+                playMessage: "Écouter ce message",
                 statusLabel: "Statut des Runs:",
                 statusAll: "Tous",
                 statusFinished: "Finalisés",
@@ -2377,7 +2514,216 @@
             else showGlobalStats();
         }
 
+        // ── CONTROLE DE REPRODUÇÃO DE ÁUDIO DA TRANSCRIÇÃO ──
+        let isAudioPlaying = false;
+        let isAudioPaused = false;
+        let currentPlayingMsgIndex = -1;
+        let audioSpeed = 1.0;
+
+        function getBestVoice(lang, isHuman) {
+            if (!('speechSynthesis' in window)) return null;
+            const voices = window.speechSynthesis.getVoices() || [];
+            if (!voices.length) return null;
+            const prefix = lang === 'fr' ? 'fr' : 'pt';
+            const matching = voices.filter(v => v.lang && v.lang.toLowerCase().startsWith(prefix));
+            if (!matching.length) return null;
+            if (matching.length > 1) {
+                return isHuman ? matching[0] : matching[matching.length - 1];
+            }
+            return matching[0];
+        }
+
+        function clearAudioHighlights() {
+            document.querySelectorAll('.transcript-bubble').forEach(b => {
+                b.classList.remove('playing-bubble');
+            });
+        }
+
+        function stopTranscriptAudio() {
+            if ('speechSynthesis' in window) {
+                window.speechSynthesis.cancel();
+            }
+            isAudioPlaying = false;
+            isAudioPaused = false;
+            currentPlayingMsgIndex = -1;
+            clearAudioHighlights();
+            updateAudioControlsUI();
+        }
+
+        function updateAudioControlsUI() {
+            const playBtn = document.getElementById('btnAudioPlay');
+            const stopBtn = document.getElementById('btnAudioStop');
+            const playIcon = document.getElementById('audioPlayIcon');
+            const playLabel = document.getElementById('audioPlayLabel');
+            const waveAnim = document.getElementById('audioWaveAnim');
+            if (!playBtn) return;
+
+            const playAudioText = (ui[currentLang] && ui[currentLang].playAudio) ? ui[currentLang].playAudio : 'Ouvir Simulação';
+            const pauseAudioText = (ui[currentLang] && ui[currentLang].pauseAudio) ? ui[currentLang].pauseAudio : 'Pausar';
+            const resumeAudioText = (ui[currentLang] && ui[currentLang].resumeAudio) ? ui[currentLang].resumeAudio : 'Continuar';
+
+            if (isAudioPlaying && !isAudioPaused) {
+                if (playIcon) playIcon.className = 'fas fa-pause';
+                if (playLabel) playLabel.innerText = pauseAudioText;
+                if (stopBtn) stopBtn.style.display = 'inline-flex';
+                if (waveAnim) waveAnim.style.display = 'inline-flex';
+            } else if (isAudioPaused) {
+                if (playIcon) playIcon.className = 'fas fa-play';
+                if (playLabel) playLabel.innerText = resumeAudioText;
+                if (stopBtn) stopBtn.style.display = 'inline-flex';
+                if (waveAnim) waveAnim.style.display = 'none';
+            } else {
+                if (playIcon) playIcon.className = 'fas fa-play';
+                if (playLabel) playLabel.innerText = playAudioText;
+                if (stopBtn) stopBtn.style.display = 'none';
+                if (waveAnim) waveAnim.style.display = 'none';
+            }
+        }
+
+        function toggleTranscriptAudio() {
+            if (isAudioPlaying && !isAudioPaused) {
+                if ('speechSynthesis' in window) {
+                    window.speechSynthesis.pause();
+                }
+                isAudioPlaying = false;
+                isAudioPaused = true;
+                updateAudioControlsUI();
+            } else if (isAudioPaused) {
+                if ('speechSynthesis' in window) {
+                    window.speechSynthesis.resume();
+                }
+                isAudioPlaying = true;
+                isAudioPaused = false;
+                updateAudioControlsUI();
+            } else {
+                playSimulationAudio(0);
+            }
+        }
+
+        function playSimulationAudio(startIndex = 0) {
+            if (!('speechSynthesis' in window)) {
+                alert('A reprodução de voz não é suportada pelo seu navegador.');
+                return;
+            }
+            window.speechSynthesis.cancel();
+            isAudioPlaying = true;
+            isAudioPaused = false;
+            currentPlayingMsgIndex = startIndex;
+            updateAudioControlsUI();
+            playNextTranscriptMessage();
+        }
+
+        function playNextTranscriptMessage() {
+            if (!isAudioPlaying || isAudioPaused) return;
+            const bubbles = document.querySelectorAll('.transcript-bubble');
+            if (currentPlayingMsgIndex >= bubbles.length) {
+                stopTranscriptAudio();
+                return;
+            }
+
+            clearAudioHighlights();
+            const activeBubble = bubbles[currentPlayingMsgIndex];
+            if (activeBubble) {
+                activeBubble.classList.add('playing-bubble');
+                activeBubble.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+            }
+
+            const textEl = activeBubble ? activeBubble.querySelector('.transcript-text') : null;
+            const isHuman = activeBubble && activeBubble.classList.contains('human');
+            const text = textEl ? textEl.innerText.trim() : '';
+
+            if (!text) {
+                currentPlayingMsgIndex++;
+                playNextTranscriptMessage();
+                return;
+            }
+
+            const utt = new SpeechSynthesisUtterance(text);
+            const lang = currentLang === 'fr' ? 'fr' : 'pt';
+            utt.lang = lang === 'fr' ? 'fr-FR' : 'pt-BR';
+            utt.rate = audioSpeed || 1.0;
+            utt.pitch = isHuman ? 0.95 : 1.12;
+
+            const voice = getBestVoice(lang, isHuman);
+            if (voice) utt.voice = voice;
+
+            utt.onend = () => {
+                if (isAudioPlaying && !isAudioPaused) {
+                    currentPlayingMsgIndex++;
+                    playNextTranscriptMessage();
+                }
+            };
+
+            utt.onerror = (e) => {
+                console.warn('SpeechSynthesis error:', e);
+                if (isAudioPlaying && !isAudioPaused) {
+                    currentPlayingMsgIndex++;
+                    playNextTranscriptMessage();
+                }
+            };
+
+            window.speechSynthesis.speak(utt);
+        }
+
+        function speakSingleMessage(index) {
+            if (!('speechSynthesis' in window)) {
+                alert('A reprodução de voz não é suportada pelo seu navegador.');
+                return;
+            }
+            window.speechSynthesis.cancel();
+            clearAudioHighlights();
+
+            const bubble = document.getElementById(`transcriptBubble-${index}`);
+            if (!bubble) return;
+
+            bubble.classList.add('playing-bubble');
+            isAudioPlaying = true;
+            isAudioPaused = false;
+            currentPlayingMsgIndex = index;
+            updateAudioControlsUI();
+
+            const textEl = bubble.querySelector('.transcript-text');
+            const isHuman = bubble.classList.contains('human');
+            const text = textEl ? textEl.innerText.trim() : '';
+
+            if (!text) {
+                stopTranscriptAudio();
+                return;
+            }
+
+            const utt = new SpeechSynthesisUtterance(text);
+            const lang = currentLang === 'fr' ? 'fr' : 'pt';
+            utt.lang = lang === 'fr' ? 'fr-FR' : 'pt-BR';
+            utt.rate = audioSpeed || 1.0;
+            utt.pitch = isHuman ? 0.95 : 1.12;
+
+            const voice = getBestVoice(lang, isHuman);
+            if (voice) utt.voice = voice;
+
+            utt.onend = () => {
+                stopTranscriptAudio();
+            };
+
+            utt.onerror = () => {
+                stopTranscriptAudio();
+            };
+
+            window.speechSynthesis.speak(utt);
+        }
+
+        function setAudioSpeed(speed) {
+            audioSpeed = speed;
+            document.querySelectorAll('.audio-speed-btn').forEach(b => {
+                b.classList.toggle('active', parseFloat(b.dataset.speed) === speed);
+            });
+            if (isAudioPlaying && !isAudioPaused && currentPlayingMsgIndex >= 0) {
+                window.speechSynthesis.cancel();
+                playNextTranscriptMessage();
+            }
+        }
+
         function showSimulationDetail(originalIndex, filterUser = null, skipTableSortChange = false) {
+            stopTranscriptAudio();
             currentFilterUser = filterUser === 'all' ? null : filterUser;
             const filtered = VALID_SIMS.filter(s => {
                 if (currentFilterUser && cleanName(s.name) !== cleanName(currentFilterUser)) return false;
@@ -2575,24 +2921,53 @@
                     ${(() => {
                         const transcriptTitle = ui[currentLang].transcriptTitle || 'Transcrição da Simulação';
                         const noTranscriptText = ui[currentLang].noTranscript || 'Nenhuma transcrição disponível para esta simulação.';
+                        const playAudioText = ui[currentLang].playAudio || 'Ouvir Simulação';
+                        const stopAudioText = ui[currentLang].stopAudio || 'Parar';
+                        const playMsgText = ui[currentLang].playMessage || 'Ouvir fala';
                         
                         if (sim.messages && sim.messages.length > 0) {
                             return `
                                 <div class="card" style="margin-top: 2rem;">
-                                    <h3 style="color: var(--accent); text-transform: uppercase; font-size: 0.8rem; letter-spacing: 0.1em; margin-bottom: 1.5rem;">
-                                        <i class="fas fa-comments" style="margin-right: 8px; color: var(--primary);"></i> ${transcriptTitle}
-                                    </h3>
-                                    <div class="transcript-container">
-                                        ${sim.messages.map(msg => {
+                                    <div class="transcript-header-row">
+                                        <h3 style="color: var(--accent); text-transform: uppercase; font-size: 0.8rem; letter-spacing: 0.1em; margin: 0; display: flex; align-items: center; gap: 8px;">
+                                            <i class="fas fa-comments" style="color: var(--primary);"></i> ${transcriptTitle}
+                                        </h3>
+                                        <div class="audio-player-toolbar">
+                                            <button id="btnAudioPlay" class="btn-audio-play" onclick="toggleTranscriptAudio()">
+                                                <i class="fas fa-play" id="audioPlayIcon"></i>
+                                                <span id="audioPlayLabel">${playAudioText}</span>
+                                                <span class="audio-wave-anim" id="audioWaveAnim" style="display: none;">
+                                                    <span class="bar"></span>
+                                                    <span class="bar"></span>
+                                                    <span class="bar"></span>
+                                                </span>
+                                            </button>
+                                            <button id="btnAudioStop" class="btn-audio-stop" onclick="stopTranscriptAudio()" style="display: none;" title="${stopAudioText}">
+                                                <i class="fas fa-stop"></i>
+                                            </button>
+                                            <div class="audio-speed-group">
+                                                <button class="audio-speed-btn active" data-speed="1" onclick="setAudioSpeed(1)">1x</button>
+                                                <button class="audio-speed-btn" data-speed="1.25" onclick="setAudioSpeed(1.25)">1.25x</button>
+                                                <button class="audio-speed-btn" data-speed="1.5" onclick="setAudioSpeed(1.5)">1.5x</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="transcript-container" id="transcriptContainer">
+                                        ${sim.messages.map((msg, mIdx) => {
                                             const isHuman = msg.role === 'HUMAN';
                                             const bubbleClass = isHuman ? 'human' : 'ai';
                                             const label = isHuman ? (currentLang === 'pt' ? 'Você' : 'Vous') : 'rhapsody';
                                             const icon = isHuman ? '<i class="fas fa-user"></i>' : '<i class="fas fa-robot"></i>';
                                             return `
-                                                <div class="transcript-bubble ${bubbleClass}">
-                                                    <span class="transcript-label ${bubbleClass}">
-                                                        ${isHuman ? label + ' ' + icon : icon + ' ' + label}
-                                                    </span>
+                                                <div class="transcript-bubble ${bubbleClass}" id="transcriptBubble-${mIdx}">
+                                                    <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 6px;">
+                                                        <span class="transcript-label ${bubbleClass}" style="margin-bottom: 0;">
+                                                            ${isHuman ? label + ' ' + icon : icon + ' ' + label}
+                                                        </span>
+                                                        <button class="btn-msg-speak" onclick="speakSingleMessage(${mIdx})" title="${playMsgText}">
+                                                            <i class="fas fa-volume-up"></i>
+                                                        </button>
+                                                    </div>
                                                     <p class="transcript-text">${fixEnc(msg.text)}</p>
                                                 </div>
                                             `;
@@ -2633,6 +3008,7 @@
             if (currentSimIndex < filtered.length - 1) showSimulationDetail(currentSimIndex + 1, currentFilterUser);
         }
         function hideSimNav() {
+            stopTranscriptAudio();
             document.getElementById('simNav').style.display = 'none';
             currentFilterUser = null;
         }
