@@ -2717,17 +2717,86 @@
         let currentPlayingMsgIndex = -1;
         let audioSpeed = 1.0;
 
+        let availableSpeechVoices = [];
+        function initVoices() {
+            if (!('speechSynthesis' in window)) return;
+            availableSpeechVoices = window.speechSynthesis.getVoices() || [];
+        }
+        if ('speechSynthesis' in window) {
+            initVoices();
+            window.speechSynthesis.onvoiceschanged = initVoices;
+        }
+
         function getBestVoice(lang, isHuman) {
             if (!('speechSynthesis' in window)) return null;
-            const voices = window.speechSynthesis.getVoices() || [];
+            let voices = availableSpeechVoices.length ? availableSpeechVoices : (window.speechSynthesis.getVoices() || []);
             if (!voices.length) return null;
+            
             const prefix = lang === 'fr' ? 'fr' : 'pt';
-            const matching = voices.filter(v => v.lang && v.lang.toLowerCase().startsWith(prefix));
+            const matching = voices.filter(v => v.lang && v.lang.toLowerCase().replace('_', '-').startsWith(prefix));
             if (!matching.length) return null;
-            if (matching.length > 1) {
-                return isHuman ? matching[0] : matching[matching.length - 1];
+
+            // Pontuação de qualidade: prioriza vozes neurais / online de alta definição
+            function getVoiceScore(voice) {
+                const name = (voice.name || '').toLowerCase();
+                let score = 0;
+                // Microsoft Edge "Natural" (Azure Neural - voz humana de estúdio)
+                if (name.includes('natural')) score += 120;
+                if (name.includes('neural')) score += 100;
+                if (name.includes('online')) score += 80;
+                // Google Online Voices (Chrome - voz fluida e natural)
+                if (name.includes('google')) score += 90;
+                if (!voice.localService) score += 30;
+                return score;
             }
-            return matching[0];
+
+            const sorted = matching.slice().sort((a, b) => getVoiceScore(b) - getVoiceScore(a));
+
+            // Para português: se houver vozes neurais/naturais distintas para humano e IA
+            if (prefix === 'pt') {
+                const naturalVoices = sorted.filter(v => getVoiceScore(v) >= 70);
+                if (naturalVoices.length >= 2) {
+                    return isHuman ? naturalVoices[0] : naturalVoices[1];
+                }
+                if (naturalVoices.length === 1) {
+                    // Se houver uma voz natural (ex: Google português do Brasil), usa ela como principal
+                    return naturalVoices[0];
+                }
+            }
+
+            // Para francês
+            if (prefix === 'fr') {
+                const naturalFr = sorted.filter(v => getVoiceScore(v) >= 70);
+                if (naturalFr.length) return naturalFr[0];
+            }
+
+            if (sorted.length > 1) {
+                return isHuman ? sorted[0] : sorted[1];
+            }
+            return sorted[0];
+        }
+
+        function prepareSpeechText(rawText) {
+            if (!rawText) return '';
+            let t = rawText;
+            // Remover tags HTML (ex: marcações de busca <mark>)
+            t = t.replace(/<[^>]+>/g, '');
+            // Ajustes fonéticos para pronúncia natural em Português
+            if (currentLang === 'pt') {
+                t = t.replace(/\bR\$\s*(\d+)/gi, '$1 reais');
+                t = t.replace(/\b(\d+)%/g, '$1 por cento');
+                t = t.replace(/\bMetLife\b/gi, 'Metlaife');
+                t = t.replace(/\brhapsody\b/gi, 'Rápsodi');
+                t = t.replace(/\bIA\b/g, 'I.A.');
+                t = t.replace(/\bDr\./gi, 'Doutor');
+                t = t.replace(/\bDra\./gi, 'Doutora');
+                t = t.replace(/\bSr\./gi, 'Senhor');
+                t = t.replace(/\bSra\./gi, 'Senhora');
+                t = t.replace(/\bvc\b/gi, 'você');
+                t = t.replace(/\btbm\b/gi, 'também');
+                t = t.replace(/\bpq\b/gi, 'porque');
+            }
+            return t;
         }
 
         function clearAudioHighlights() {
@@ -2829,17 +2898,18 @@
             const isHuman = activeBubble && activeBubble.classList.contains('human');
             const text = textEl ? textEl.innerText.trim() : '';
 
-            if (!text) {
+            const speechText = prepareSpeechText(text);
+            if (!speechText) {
                 currentPlayingMsgIndex++;
                 playNextTranscriptMessage();
                 return;
             }
 
-            const utt = new SpeechSynthesisUtterance(text);
+            const utt = new SpeechSynthesisUtterance(speechText);
             const lang = currentLang === 'fr' ? 'fr' : 'pt';
             utt.lang = lang === 'fr' ? 'fr-FR' : 'pt-BR';
-            utt.rate = audioSpeed || 1.0;
-            utt.pitch = isHuman ? 0.95 : 1.12;
+            utt.rate = (audioSpeed || 1.0) * (isHuman ? 0.98 : 1.02);
+            utt.pitch = isHuman ? 0.98 : 1.02;
 
             const voice = getBestVoice(lang, isHuman);
             if (voice) utt.voice = voice;
@@ -2882,17 +2952,18 @@
             const textEl = bubble.querySelector('.transcript-text');
             const isHuman = bubble.classList.contains('human');
             const text = textEl ? textEl.innerText.trim() : '';
+            const speechText = prepareSpeechText(text);
 
-            if (!text) {
+            if (!speechText) {
                 stopTranscriptAudio();
                 return;
             }
 
-            const utt = new SpeechSynthesisUtterance(text);
+            const utt = new SpeechSynthesisUtterance(speechText);
             const lang = currentLang === 'fr' ? 'fr' : 'pt';
             utt.lang = lang === 'fr' ? 'fr-FR' : 'pt-BR';
-            utt.rate = audioSpeed || 1.0;
-            utt.pitch = isHuman ? 0.95 : 1.12;
+            utt.rate = (audioSpeed || 1.0) * (isHuman ? 0.98 : 1.02);
+            utt.pitch = isHuman ? 0.98 : 1.02;
 
             const voice = getBestVoice(lang, isHuman);
             if (voice) utt.voice = voice;
