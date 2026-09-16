@@ -2510,6 +2510,42 @@
             }
         }
 
+        function getSortedAndFilteredSims(filterUser = null, filterArea = null) {
+            let indexedSims = VALID_SIMS.map((s, idx) => ({ originalIdx: idx, ...s }));
+            if (filterUser) {
+                indexedSims = indexedSims.filter(s => cleanName(s.name) === cleanName(filterUser));
+            }
+            const areaToFilter = filterArea !== undefined && filterArea !== null ? filterArea : currentFilterArea;
+            if (areaToFilter) {
+                indexedSims = indexedSims.filter(s => getArea(s.scenario) === areaToFilter);
+            }
+            let simList = getFilteredSims(indexedSims);
+
+            // Sorting logic
+            simList.sort((a, b) => {
+                let valA, valB;
+                if (sortField === 'date') {
+                    const [d1, m1, y1] = (a.date || '01/01/2000').split('/');
+                    const [d2, m2, y2] = (b.date || '01/01/2000').split('/');
+                    valA = new Date(y1, m1 - 1, d1).getTime();
+                    valB = new Date(y2, m2 - 1, d2).getTime();
+                } else if (sortField === 'score') {
+                    valA = a.finished ? a.score : -1;
+                    valB = b.finished ? b.score : -1;
+                } else if (sortField === 'name') {
+                    valA = (a.name || '').toLowerCase();
+                    valB = (b.name || '').toLowerCase();
+                } else {
+                    return 0;
+                }
+
+                if (valA < valB) return sortAsc ? -1 : 1;
+                if (valA > valB) return sortAsc ? 1 : -1;
+                return 0;
+            });
+            return simList;
+        }
+
         function renderSimulationsTable(filterUser = null, filterArea = null) {
             const hasKeyword = currentSimSearchKeyword && currentSimSearchKeyword.trim();
             let html = `
@@ -2576,37 +2612,7 @@
                             <tbody>
             `;
 
-            let indexedSims = VALID_SIMS.map((s, idx) => ({ originalIdx: idx, ...s }));
-            if (filterUser) {
-                indexedSims = indexedSims.filter(s => cleanName(s.name) === cleanName(filterUser));
-            }
-            if (filterArea) {
-                indexedSims = indexedSims.filter(s => getArea(s.scenario) === filterArea);
-            }
-            let simList = getFilteredSims(indexedSims);
-
-            // Sorting logic
-            simList.sort((a, b) => {
-                let valA, valB;
-                if (sortField === 'date') {
-                    const [d1, m1, y1] = a.date.split('/');
-                    const [d2, m2, y2] = b.date.split('/');
-                    valA = new Date(y1, m1 - 1, d1).getTime();
-                    valB = new Date(y2, m2 - 1, d2).getTime();
-                } else if (sortField === 'score') {
-                    valA = a.finished ? a.score : -1;
-                    valB = b.finished ? b.score : -1;
-                } else if (sortField === 'name') {
-                    valA = a.name.toLowerCase();
-                    valB = b.name.toLowerCase();
-                } else {
-                    return 0;
-                }
-
-                if (valA < valB) return sortAsc ? -1 : 1;
-                if (valA > valB) return sortAsc ? 1 : -1;
-                return 0;
-            });
+            let simList = getSortedAndFilteredSims(filterUser, filterArea);
 
             let simCount = 1;
             simList.forEach((s) => {
@@ -2916,20 +2922,32 @@
         function showSimulationDetail(originalIndex, filterUser = null, skipTableSortChange = false) {
             stopTranscriptAudio();
             currentFilterUser = filterUser === 'all' ? null : filterUser;
-            let baseSims = VALID_SIMS.map((s, idx) => ({ originalIdx: idx, ...s }));
-            if (currentFilterUser) {
-                baseSims = baseSims.filter(s => cleanName(s.name) === cleanName(currentFilterUser));
+            const filtered = getSortedAndFilteredSims(currentFilterUser);
+
+            let localIndex = -1;
+            let sim = null;
+
+            if (filtered && filtered.length > 0) {
+                localIndex = filtered.findIndex(s => s.originalIdx === originalIndex);
+                if (localIndex === -1 && typeof originalIndex === 'number' && originalIndex >= 0 && originalIndex < filtered.length) {
+                    localIndex = originalIndex;
+                }
+                if (localIndex !== -1) {
+                    sim = filtered[localIndex];
+                }
             }
-            const filtered = getFilteredSims(baseSims);
 
-            if (!filtered.length) return;
-            
-            // Find local index in filtered array
-            const sim = VALID_SIMS[originalIndex];
-            const localIndex = filtered.findIndex(s => s === sim);
-            if (localIndex === -1) return;
+            if (!sim) {
+                if (VALID_SIMS[originalIndex]) {
+                    sim = VALID_SIMS[originalIndex];
+                    localIndex = 0;
+                } else {
+                    return;
+                }
+            }
 
-            currentSimIndex = localIndex;
+            currentSimIndex = localIndex >= 0 ? localIndex : 0;
+            const totalSimsCount = (filtered && filtered.length > 0) ? filtered.length : 1;
             const user = activeUsers.find(u => u.name === sim.name) || activeUsers[0];
             const content = document.getElementById('mainContent');
 
@@ -2945,17 +2963,17 @@
             });
 
             const tones = ["Profissional", "Empático", "Proativo", "Calmo", "Diplomático"];
-            const simTone = sim.finished ? tones[localIndex % tones.length] : "N/A";
+            const simTone = sim.finished ? tones[currentSimIndex % tones.length] : "N/A";
             const simSent = !sim.finished ? "N/A" : (sim.score >= 75 ? "Positivo" : (sim.score >= 55 ? "Neutro" : "Atenção"));
             const sentClass = !sim.finished ? "sent-neu" : (sim.score >= 75 ? "sent-pos" : "sent-neu");
 
             // Show floater
             const floater = document.getElementById('simNav');
             floater.style.display = 'flex';
-            document.getElementById('currSimIdx').innerText = localIndex + 1;
-            document.getElementById('totalSims').innerText = filtered.length;
-            document.getElementById('prevSimBtn').disabled = (localIndex === 0);
-            document.getElementById('nextSimBtn').disabled = (localIndex === filtered.length - 1);
+            document.getElementById('currSimIdx').innerText = currentSimIndex + 1;
+            document.getElementById('totalSims').innerText = totalSimsCount;
+            document.getElementById('prevSimBtn').disabled = (currentSimIndex === 0);
+            document.getElementById('nextSimBtn').disabled = (currentSimIndex === totalSimsCount - 1);
 
             content.innerHTML = `
                 <div id="simDetail">
@@ -3195,21 +3213,13 @@
         }
 
         function prevSim() {
-            let baseSims = VALID_SIMS.map((s, idx) => ({ originalIdx: idx, ...s }));
-            if (currentFilterUser) {
-                baseSims = baseSims.filter(s => cleanName(s.name) === cleanName(currentFilterUser));
-            }
-            const filtered = getFilteredSims(baseSims);
+            const filtered = getSortedAndFilteredSims(currentFilterUser);
             if (currentSimIndex > 0 && filtered[currentSimIndex - 1]) {
                 showSimulationDetail(filtered[currentSimIndex - 1].originalIdx, currentFilterUser);
             }
         }
         function nextSim() {
-            let baseSims = VALID_SIMS.map((s, idx) => ({ originalIdx: idx, ...s }));
-            if (currentFilterUser) {
-                baseSims = baseSims.filter(s => cleanName(s.name) === cleanName(currentFilterUser));
-            }
-            const filtered = getFilteredSims(baseSims);
+            const filtered = getSortedAndFilteredSims(currentFilterUser);
             if (currentSimIndex < filtered.length - 1 && filtered[currentSimIndex + 1]) {
                 showSimulationDetail(filtered[currentSimIndex + 1].originalIdx, currentFilterUser);
             }
