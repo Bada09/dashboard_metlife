@@ -1679,6 +1679,11 @@
             transform: translateY(-2px);
             background: rgba(0, 188, 242, 0.08) !important;
         }
+        .transcript-bubble.search-matched-bubble {
+            border: 2px solid var(--primary) !important;
+            background: rgba(0, 188, 242, 0.08) !important;
+            box-shadow: 0 4px 15px rgba(0, 188, 242, 0.18) !important;
+        }
         .audio-wave-anim {
             display: inline-flex;
             align-items: center;
@@ -1956,6 +1961,7 @@
         var currentFilterStartDate = null;
         var currentFilterEndDate = null;
         var currentFilterPeriodPreset = 'all';
+        var currentSimSearchKeyword = '';
 
         const ui = {
             pt: {
@@ -2042,6 +2048,9 @@
                 statusAll: "Todos",
                 statusFinished: "Finalizados",
                 statusUnfinished: "Não Finalizados",
+                searchSimPlaceholder: "Buscar corretor ou fala na transcrição...",
+                searchBtn: "Buscar",
+                clearSearch: "Limpar",
                 skillNames: {
                     Escuta: "Escuta Ativa",
                     Empatia: "Qualificação Rápida",
@@ -2134,6 +2143,9 @@
                 statusAll: "Tous",
                 statusFinished: "Finalisés",
                 statusUnfinished: "Non Finalisés",
+                searchSimPlaceholder: "Chercher collaborateur ou texte...",
+                searchBtn: "Rechercher",
+                clearSearch: "Effacer",
                 skillNames: {
                     Escuta: "Écoute Active",
                     Empatia: "Qualification Rapide",
@@ -2409,12 +2421,138 @@
         let sortField = 'date'; // 'date' | 'score' | 'name'
         let sortAsc = false;
 
+        function getYesterdayDateStr() {
+            const d = new Date();
+            d.setDate(d.getDate() - 1);
+            const day = String(d.getDate()).padStart(2, '0');
+            const month = String(d.getMonth() + 1).padStart(2, '0');
+            const year = d.getFullYear();
+            const calcYesterday = `${day}/${month}/${year}`;
+
+            // Se houver simulações na data calculada de ontem, usa ela
+            if (typeof VALID_SIMS !== 'undefined' && VALID_SIMS.some(s => s.date === calcYesterday)) {
+                return calcYesterday;
+            }
+
+            // Fallback para LATEST_DUMP_DATE caso o relógio do sistema esteja desincronizado do dump
+            if (typeof LATEST_DUMP_DATE !== 'undefined' && LATEST_DUMP_DATE && typeof VALID_SIMS !== 'undefined' && VALID_SIMS.some(s => s.date === LATEST_DUMP_DATE)) {
+                return LATEST_DUMP_DATE;
+            }
+
+            // Fallback dinâmico para a data mais recente das simulações
+            if (typeof VALID_SIMS !== 'undefined' && VALID_SIMS.length > 0) {
+                const sortedDates = [...new Set(VALID_SIMS.map(s => s.date))].sort((a, b) => {
+                    const [d1, m1, y1] = a.split('/');
+                    const [d2, m2, y2] = b.split('/');
+                    return new Date(y2, m2 - 1, d2) - new Date(y1, m1 - 1, d1);
+                });
+                if (sortedDates.length > 0) return sortedDates[0];
+            }
+            return calcYesterday;
+        }
+
+        function highlightSearchTerm(text, term) {
+            if (!text || !term || !term.trim()) return fixEnc(text);
+            const safeText = fixEnc(text);
+            const rawTerm = term.trim();
+            const normTerm = rawTerm.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '');
+            if (!normTerm) return safeText;
+            const normText = safeText.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '');
+            
+            let result = '';
+            let lastIdx = 0;
+            let searchStart = 0;
+            const matchLen = rawTerm.length;
+            
+            while (searchStart < normText.length) {
+                const idx = normText.indexOf(normTerm, searchStart);
+                if (idx === -1) break;
+                result += safeText.substring(lastIdx, idx);
+                const matchChunk = safeText.substring(idx, idx + matchLen);
+                result += `<mark style="background: #fef08a; color: #854d0e; padding: 1px 4px; border-radius: 3px; font-weight: 700;">` + matchChunk + `</mark>`;
+                lastIdx = idx + matchLen;
+                searchStart = idx + normTerm.length;
+            }
+            result += safeText.substring(lastIdx);
+            return result;
+        }
+
+        function triggerSimSearch() {
+            const input = document.getElementById('simSearchInput');
+            if (input) {
+                currentSimSearchKeyword = input.value.trim();
+            }
+            refreshSimTable();
+        }
+
+        function clearSimSearch() {
+            currentSimSearchKeyword = '';
+            const input = document.getElementById('simSearchInput');
+            if (input) input.value = '';
+            refreshSimTable();
+        }
+
+        function refreshSimTable() {
+            const userName = window.activeUser ? window.activeUser.name : null;
+            const area = currentFilterArea;
+            const wrapper = document.getElementById('simTableWrapper');
+            if (wrapper) {
+                wrapper.innerHTML = renderSimulationsTable(userName, area);
+                const input = document.getElementById('simSearchInput');
+                if (input) {
+                    input.focus();
+                    const len = input.value.length;
+                    input.setSelectionRange(len, len);
+                }
+            } else {
+                if (window.activeUser) selectUser(window.activeUser);
+                else showGlobalStats();
+            }
+        }
+
         function renderSimulationsTable(filterUser = null, filterArea = null) {
+            const hasKeyword = currentSimSearchKeyword && currentSimSearchKeyword.trim();
             let html = `
                 <div class="sim-table-container">
-                    <h3 style="margin-bottom: 1.5rem; color: var(--accent); font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.1em;">
-                        ${ui[currentLang].simulationsList}
-                    </h3>
+                    <div class="sim-table-header-row" style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 1.5rem; flex-wrap: wrap; gap: 15px;">
+                        <div>
+                            <h3 style="margin: 0; color: var(--accent); font-size: 0.85rem; text-transform: uppercase; letter-spacing: 0.08em; font-weight: 700; display: flex; align-items: center; gap: 8px;">
+                                <i class="fas fa-history" style="color: var(--primary);"></i> ${ui[currentLang].simulationsList}
+                            </h3>
+                            ${hasKeyword ? `
+                                <div style="margin-top: 5px; font-size: 0.78rem; color: var(--text-muted); display: flex; align-items: center; gap: 6px;">
+                                    <span>${currentLang === 'pt' ? 'Filtrando por:' : 'Filtré par :'}</span>
+                                    <span style="background: rgba(0, 188, 242, 0.12); color: var(--primary-dark); font-weight: 700; padding: 2px 8px; border-radius: 12px;">
+                                        "${fixEnc(currentSimSearchKeyword)}"
+                                    </span>
+                                    <button onclick="clearSimSearch()" style="background: none; border: none; color: #ef4444; cursor: pointer; font-size: 0.75rem; font-weight: 600; padding: 0 4px; display: inline-flex; align-items: center; gap: 3px;">
+                                        <i class="fas fa-times-circle"></i> ${ui[currentLang].clearSearch}
+                                    </button>
+                                </div>
+                            ` : ''}
+                        </div>
+
+                        <!-- Barra de Busca de Palavra-chave -->
+                        <div class="sim-search-bar" style="display: flex; align-items: center; gap: 8px; flex-grow: 1; max-width: 480px; justify-content: flex-end;">
+                            <div style="position: relative; width: 100%; max-width: 380px;">
+                                <i class="fas fa-search" style="position: absolute; left: 12px; top: 50%; transform: translateY(-50%); color: var(--text-muted); font-size: 0.8rem;"></i>
+                                <input type="text" id="simSearchInput" value="${fixEnc(currentSimSearchKeyword)}"
+                                    placeholder="${ui[currentLang].searchSimPlaceholder}"
+                                    onkeydown="if(event.key === 'Enter') triggerSimSearch(); else if(event.key === 'Escape') clearSimSearch();"
+                                    style="width: 100%; padding: 9px 34px 9px 34px; border-radius: 8px; border: 1px solid var(--border); font-size: 0.82rem; background: var(--card-bg); color: var(--text-main); outline: none; transition: border-color 0.2s;"
+                                    onfocus="this.style.borderColor='var(--primary)'" onblur="this.style.borderColor='var(--border)'">
+                                ${hasKeyword ? `
+                                    <button onclick="clearSimSearch()" title="${ui[currentLang].clearSearch}" style="position: absolute; right: 8px; top: 50%; transform: translateY(-50%); background: none; border: none; color: var(--text-muted); cursor: pointer; font-size: 0.8rem; padding: 2px 4px;">
+                                        <i class="fas fa-times"></i>
+                                    </button>
+                                ` : ''}
+                            </div>
+                            <button onclick="triggerSimSearch()" class="btn-period active" style="padding: 9px 18px; border-radius: 8px; display: inline-flex; align-items: center; gap: 6px; font-weight: 700; white-space: nowrap; cursor: pointer; font-size: 0.82rem;">
+                                <i class="fas fa-search"></i>
+                                <span>${ui[currentLang].searchBtn}</span>
+                            </button>
+                        </div>
+                    </div>
                     <div style="overflow-x: auto;">
                         <table class="sim-table">
                             <thead>
@@ -2438,18 +2576,14 @@
                             <tbody>
             `;
 
-            let simList = [];
-            VALID_SIMS.forEach((s, idx) => {
-                if (filterUser && s.name !== filterUser) return;
-                let area = getArea(s.scenario);
-                if (filterArea && area !== filterArea) return;
-                if (currentFilterUseCase && s.scenario !== currentFilterUseCase) return;
-                if (currentFilterStatus) {
-                    if (currentFilterStatus === 'finished' && !s.finished) return;
-                    if (currentFilterStatus === 'unfinished' && s.finished) return;
-                }
-                simList.push({ originalIdx: idx, ...s });
-            });
+            let indexedSims = VALID_SIMS.map((s, idx) => ({ originalIdx: idx, ...s }));
+            if (filterUser) {
+                indexedSims = indexedSims.filter(s => cleanName(s.name) === cleanName(filterUser));
+            }
+            if (filterArea) {
+                indexedSims = indexedSims.filter(s => getArea(s.scenario) === filterArea);
+            }
+            let simList = getFilteredSims(indexedSims);
 
             // Sorting logic
             simList.sort((a, b) => {
@@ -2475,22 +2609,80 @@
             });
 
             let simCount = 1;
-            simList.forEach((s, sortedIdx) => {
+            simList.forEach((s) => {
                 const badgeClass = !s.finished ? 'score-low' : (s.score >= 80 ? 'score-high' : (s.score >= 60 ? 'score-mid' : 'score-low'));
                 const scoreText = !s.finished ? 'N/A' : `${s.score}%`;
 
-                // We must pass the originalIdx to showSimulationDetail so it navigation matches correctly
+                // Snippet da transcrição quando a busca der match no diálogo
+                let matchSnippet = '';
+                if (hasKeyword) {
+                    const rawTerm = currentSimSearchKeyword.trim().toLowerCase();
+                    const normTerm = rawTerm.normalize('NFD').replace(/[\u0300-\u036f]/g, '');
+                    if (s.messages && s.messages.length) {
+                        for (const m of s.messages) {
+                            const text = m.text || '';
+                            const txtNorm = text.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '');
+                            const idx = txtNorm.indexOf(normTerm);
+                            if (idx !== -1) {
+                                const start = Math.max(0, idx - 25);
+                                const end = Math.min(text.length, idx + normTerm.length + 35);
+                                const prefix = start > 0 ? '…' : '';
+                                const suffix = end < text.length ? '…' : '';
+                                const rawMatch = text.substring(idx, idx + normTerm.length);
+                                const beforeMatch = text.substring(start, idx);
+                                const afterMatch = text.substring(idx + normTerm.length, end);
+                                const roleLabel = m.role === 'HUMAN' ? (currentLang === 'pt' ? 'Corretor' : 'Collaborateur') : 'rhapsody IA';
+                                matchSnippet = `<strong>${roleLabel}:</strong> "${prefix}${fixEnc(beforeMatch)}<mark style="background: #fef08a; color: #854d0e; padding: 1px 4px; border-radius: 3px; font-weight: 700;">${fixEnc(rawMatch)}</mark>${fixEnc(afterMatch)}${suffix}"`;
+                                break;
+                            }
+                        }
+                    }
+                }
+
+                // Passa o originalIdx para showSimulationDetail manter a sincronia perfeita
                 html += `
                     <tr onclick="showSimulationDetail(${s.originalIdx}, ${filterUser ? `'${filterUser}'` : 'null'}, true)" style="cursor: pointer;">
                         <td>#${simCount++}</td>
-                        <td><strong>${s.name}</strong></td>
+                        <td><strong>${highlightSearchTerm(s.name, currentSimSearchKeyword)}</strong></td>
                         <td>${s.date}</td>
-                        <td>${translateScenario(s.scenario)}</td>
+                        <td>
+                            <div>${translateScenario(s.scenario)}</div>
+                            ${matchSnippet ? `
+                                <div style="font-size: 0.74rem; color: var(--text-main); background: #f0f9ff; border-left: 3px solid var(--primary); padding: 4px 8px; border-radius: 4px; margin-top: 6px; line-height: 1.35; max-width: 480px;">
+                                    <i class="fas fa-comment-dots" style="color: var(--primary); font-size: 0.7rem; margin-right: 4px;"></i>${matchSnippet}
+                                </div>
+                            ` : ''}
+                        </td>
                         <td><span class="score-badge ${badgeClass}">${scoreText}</span></td>
                         <td>${s.dur}</td>
                     </tr>
                 `;
             });
+
+            if (simList.length === 0) {
+                const emptyMsg = hasKeyword 
+                    ? (currentLang === 'pt' 
+                        ? `Nenhuma simulação encontrada com a palavra-chave "${fixEnc(currentSimSearchKeyword)}".` 
+                        : `Aucune simulation trouvée avec le mot-clé "${fixEnc(currentSimSearchKeyword)}".`)
+                    : (currentLang === 'pt' 
+                        ? 'Nenhuma simulação encontrada para os filtros selecionados.' 
+                        : 'Aucune simulation trouvée pour les filtres sélectionnés.');
+                html += `
+                    <tr>
+                        <td colspan="6" style="text-align: center; padding: 2.5rem; color: var(--text-muted); font-size: 0.9rem;">
+                            <i class="fas fa-search" style="font-size: 1.8rem; display: block; margin-bottom: 8px; opacity: 0.4;"></i>
+                            ${emptyMsg}
+                            ${hasKeyword ? `
+                                <div style="margin-top: 10px;">
+                                    <button onclick="clearSimSearch()" class="btn-secondary" style="padding: 6px 14px; font-size: 0.8rem;">
+                                        <i class="fas fa-times"></i> ${currentLang === 'pt' ? 'Limpar busca' : 'Effacer la recherche'}
+                                    </button>
+                                </div>
+                            ` : ''}
+                        </td>
+                    </tr>
+                `;
+            }
 
             html += `
                             </tbody>
@@ -2508,10 +2700,9 @@
                 sortAsc = !sortAsc;
             } else {
                 sortField = field;
-                sortAsc = (field === 'name') ? true : false; // Default: Asc for name, Desc for date/score
+                sortAsc = (field === 'name') ? true : false;
             }
-            if (window.activeUser) selectUser(window.activeUser);
-            else showGlobalStats();
+            refreshSimTable(u, a);
         }
 
         // ── CONTROLE DE REPRODUÇÃO DE ÁUDIO DA TRANSCRIÇÃO ──
@@ -2725,18 +2916,11 @@
         function showSimulationDetail(originalIndex, filterUser = null, skipTableSortChange = false) {
             stopTranscriptAudio();
             currentFilterUser = filterUser === 'all' ? null : filterUser;
-            const filtered = VALID_SIMS.filter(s => {
-                if (currentFilterUser && cleanName(s.name) !== cleanName(currentFilterUser)) return false;
-                if (currentFilterArea) {
-                    let area = getArea(s.scenario);
-                    if (area !== currentFilterArea) return false;
-                }
-                if (currentFilterStatus) {
-                    if (currentFilterStatus === 'finished' && !s.finished) return false;
-                    if (currentFilterStatus === 'unfinished' && s.finished) return false;
-                }
-                return true;
-            });
+            let baseSims = VALID_SIMS.map((s, idx) => ({ originalIdx: idx, ...s }));
+            if (currentFilterUser) {
+                baseSims = baseSims.filter(s => cleanName(s.name) === cleanName(currentFilterUser));
+            }
+            const filtered = getFilteredSims(baseSims);
 
             if (!filtered.length) return;
             
@@ -2958,17 +3142,24 @@
                                             const bubbleClass = isHuman ? 'human' : 'ai';
                                             const label = isHuman ? (currentLang === 'pt' ? 'Você' : 'Vous') : 'rhapsody';
                                             const icon = isHuman ? '<i class="fas fa-user"></i>' : '<i class="fas fa-robot"></i>';
+                                            const cleanMsgText = fixEnc(msg.text || '');
+                                            const normMsg = cleanMsgText.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '');
+                                            const normTerm = (currentSimSearchKeyword || '').trim().toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '');
+                                            const isMatch = normTerm && normMsg.includes(normTerm);
+                                            const matchedClass = isMatch ? ' search-matched-bubble' : '';
+                                            const displayText = isMatch ? highlightSearchTerm(cleanMsgText, currentSimSearchKeyword) : cleanMsgText;
                                             return `
-                                                <div class="transcript-bubble ${bubbleClass}" id="transcriptBubble-${mIdx}">
+                                                <div class="transcript-bubble ${bubbleClass}${matchedClass}" id="transcriptBubble-${mIdx}">
                                                     <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 6px;">
                                                         <span class="transcript-label ${bubbleClass}" style="margin-bottom: 0;">
                                                             ${isHuman ? label + ' ' + icon : icon + ' ' + label}
+                                                            ${isMatch ? `<span style="margin-left: 8px; font-size: 0.68rem; background: #fef08a; color: #854d0e; padding: 2px 6px; border-radius: 4px; font-weight: 700; text-transform: uppercase;"><i class="fas fa-search"></i> ${currentLang === 'pt' ? 'Correspondência' : 'Correspondance'}</span>` : ''}
                                                         </span>
                                                         <button class="btn-msg-speak" onclick="speakSingleMessage(${mIdx})" title="${playMsgText}">
                                                             <i class="fas fa-volume-up"></i>
                                                         </button>
                                                     </div>
-                                                    <p class="transcript-text">${fixEnc(msg.text)}</p>
+                                                    <p class="transcript-text">${displayText}</p>
                                                 </div>
                                             `;
                                         }).join('')}
@@ -2993,19 +3184,35 @@
             `;
             window.scrollTo({ top: 0, behavior: 'smooth' });
             runCountUp();
+            if (currentSimSearchKeyword && currentSimSearchKeyword.trim()) {
+                setTimeout(() => {
+                    const firstMatched = document.querySelector('.transcript-bubble.search-matched-bubble');
+                    if (firstMatched) {
+                        firstMatched.scrollIntoView({ behavior: 'smooth', block: 'center' });
+                    }
+                }, 250);
+            }
         }
 
-        function prevSim() { if (currentSimIndex > 0) showSimulationDetail(currentSimIndex - 1, currentFilterUser); }
+        function prevSim() {
+            let baseSims = VALID_SIMS.map((s, idx) => ({ originalIdx: idx, ...s }));
+            if (currentFilterUser) {
+                baseSims = baseSims.filter(s => cleanName(s.name) === cleanName(currentFilterUser));
+            }
+            const filtered = getFilteredSims(baseSims);
+            if (currentSimIndex > 0 && filtered[currentSimIndex - 1]) {
+                showSimulationDetail(filtered[currentSimIndex - 1].originalIdx, currentFilterUser);
+            }
+        }
         function nextSim() {
-            const filtered = VALID_SIMS.filter(s => {
-                if (currentFilterUser && cleanName(s.name) !== cleanName(currentFilterUser)) return false;
-                if (currentFilterArea) {
-                    let area = getArea(s.scenario);
-                    if (area !== currentFilterArea) return false;
-                }
-                return true;
-            });
-            if (currentSimIndex < filtered.length - 1) showSimulationDetail(currentSimIndex + 1, currentFilterUser);
+            let baseSims = VALID_SIMS.map((s, idx) => ({ originalIdx: idx, ...s }));
+            if (currentFilterUser) {
+                baseSims = baseSims.filter(s => cleanName(s.name) === cleanName(currentFilterUser));
+            }
+            const filtered = getFilteredSims(baseSims);
+            if (currentSimIndex < filtered.length - 1 && filtered[currentSimIndex + 1]) {
+                showSimulationDetail(filtered[currentSimIndex + 1].originalIdx, currentFilterUser);
+            }
         }
         function hideSimNav() {
             stopTranscriptAudio();
@@ -3060,6 +3267,10 @@
                 if (typeof LATEST_DUMP_DATE !== 'undefined' && LATEST_DUMP_DATE) {
                     lastDate = LATEST_DUMP_DATE;
                 }
+            } else if (currentFilterPeriodPreset === 'yesterday') {
+                const yDateStr = getYesterdayDateStr();
+                firstDate = yDateStr;
+                lastDate = yDateStr;
             } else if (currentFilterPeriodPreset === 'last7') {
                 const today = new Date();
                 const limit = new Date();
@@ -3098,7 +3309,7 @@
                         <div class="header-content-left">
                             <h1>${ui[currentLang].globalMetrics} <span>${ui[currentLang].operation}</span></h1>
                             <p style="font-size: 0.75rem; color: var(--text-muted); font-weight: 700; text-transform: uppercase; margin-top: 8px;">
-                                <i class="fas fa-calendar-alt"></i> ${ui[currentLang].periodLabel} ${firstDate} - ${lastDate}
+                                <i class="fas fa-calendar-alt"></i> ${ui[currentLang].periodLabel} ${firstDate === lastDate ? firstDate : firstDate + ' - ' + lastDate}
                             </p>
                         </div>
                         <div class="header-content-right">
@@ -3183,6 +3394,9 @@
                                 </h3>
                             </div>
                             <div style="display: flex; gap: 8px; flex-wrap: wrap;">
+                                <button class="btn-period ${currentFilterPeriodPreset === 'yesterday' ? 'active' : ''}" onclick="setPeriodFilter('yesterday')">
+                                    ${currentLang === 'pt' ? 'Ontem' : 'Hier'}
+                                </button>
                                 <button class="btn-period ${currentFilterPeriodPreset === 'all' ? 'active' : ''}" onclick="setPeriodFilter('all')">
                                     ${currentLang === 'pt' ? 'Todo o histórico' : 'Tout l\'historique'}
                                 </button>
@@ -3406,7 +3620,9 @@
                             </div>
                         </div>
                     </div>
-                    ${renderSimulationsTable(null, currentFilterArea)}
+                    <div id="simTableWrapper">
+                        ${renderSimulationsTable(null, currentFilterArea)}
+                    </div>
                 </div>
             `;
 
@@ -3574,9 +3790,53 @@
                             <h1>${ui[currentLang].performanceOf} <span>${user.name}</span></h1>
                         </div>
                         <div class="header-content-right">
-                            <p class="header-desc"><strong>${user.agency}</strong> &nbsp;·&nbsp; <strong>${user.region}</strong> &nbsp;·&nbsp; ${ui[currentLang].behaviorAnalysis} ${user.count} ${ui[currentLang].simulationsDone}</p>
+                            <p class="header-desc"><strong>${user.agency}</strong> &nbsp;·&nbsp; <strong>${user.region}</strong> &nbsp;·&nbsp; ${ui[currentLang].behaviorAnalysis} ${userFilteredSims.length} ${ui[currentLang].simulationsDone}</p>
                         </div>
                     </header>
+
+                    <!-- Date Filter Card -->
+                    <div class="card" style="margin-bottom: 2rem; background: var(--card-bg); border-radius: var(--radius); border: 1px solid var(--border); padding: 1.4rem 1.6rem; box-shadow: 0 4px 15px rgba(0,0,0,0.02);">
+                        <div style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 15px;">
+                            <div style="display: flex; align-items: center; gap: 10px;">
+                                <i class="fas fa-calendar-alt" style="font-size: 1.1rem; color: var(--primary);"></i>
+                                <h3 style="font-size: 0.85rem; font-weight: 700; margin: 0; text-transform: uppercase; letter-spacing: 0.05em; color: var(--accent);">
+                                    ${currentLang === 'pt' ? 'Período de Análise' : 'Période d\'Analyse'}
+                                </h3>
+                            </div>
+                            <div style="display: flex; gap: 8px; flex-wrap: wrap;">
+                                <button class="btn-period ${currentFilterPeriodPreset === 'yesterday' ? 'active' : ''}" onclick="setPeriodFilter('yesterday')">
+                                    ${currentLang === 'pt' ? 'Ontem' : 'Hier'}
+                                </button>
+                                <button class="btn-period ${currentFilterPeriodPreset === 'all' ? 'active' : ''}" onclick="setPeriodFilter('all')">
+                                    ${currentLang === 'pt' ? 'Todo o histórico' : 'Tout l\'historique'}
+                                </button>
+                                <button class="btn-period ${currentFilterPeriodPreset === 'last7' ? 'active' : ''}" onclick="setPeriodFilter('last7')">
+                                    ${currentLang === 'pt' ? 'Últimos 7 dias' : '7 derniers jours'}
+                                </button>
+                                <button class="btn-period ${currentFilterPeriodPreset === 'last30' ? 'active' : ''}" onclick="setPeriodFilter('last30')">
+                                    ${currentLang === 'pt' ? 'Últimos 30 dias' : '30 derniers jours'}
+                                </button>
+                                <button class="btn-period ${currentFilterPeriodPreset === 'custom' ? 'active' : ''}" onclick="setPeriodFilter('custom')">
+                                    ${currentLang === 'pt' ? 'Personalizado' : 'Personnalisé'}
+                                </button>
+                            </div>
+                        </div>
+                        
+                        <div id="custom-date-inputs" style="display: ${currentFilterPeriodPreset === 'custom' ? 'flex' : 'none'}; gap: 20px; margin-top: 1.2rem; align-items: center; flex-wrap: wrap; padding-top: 1rem; border-top: 1px dashed var(--border);">
+                            <div style="display: flex; align-items: center; gap: 8px;">
+                                <span style="font-size: 0.8rem; color: var(--text-muted); font-weight: 600; text-transform: uppercase; letter-spacing: 0.02em;">
+                                    ${currentLang === 'pt' ? 'De:' : 'Du :'}
+                                </span>
+                                <input type="date" id="input-start-date" value="${currentFilterStartDate || ''}" onchange="handleCustomDateChange()" style="padding: 8px 12px; font-size: 0.85rem; border-radius: 6px; border: 1px solid var(--border); background: var(--card-bg); color: var(--text); outline: none; transition: border-color 0.2s;" onfocus="this.style.borderColor='var(--primary)'" onblur="this.style.borderColor='var(--border)'">
+                            </div>
+                            <div style="display: flex; align-items: center; gap: 8px;">
+                                <span style="font-size: 0.8rem; color: var(--text-muted); font-weight: 600; text-transform: uppercase; letter-spacing: 0.02em;">
+                                    ${currentLang === 'pt' ? 'Até:' : 'Au :'}
+                                </span>
+                                <input type="date" id="input-end-date" value="${currentFilterEndDate || ''}" onchange="handleCustomDateChange()" style="padding: 8px 12px; font-size: 0.85rem; border-radius: 6px; border: 1px solid var(--border); background: var(--card-bg); color: var(--text); outline: none; transition: border-color 0.2s;" onfocus="this.style.borderColor='var(--primary)'" onblur="this.style.borderColor='var(--border)'">
+                            </div>
+                        </div>
+                    </div>
 
                     <div class="filter-bar-container" style="margin-bottom: 2.5rem; display: flex; align-items: center; gap: 20px; flex-wrap: wrap;">
 
@@ -3695,7 +3955,9 @@
                             <canvas id="userChart"></canvas>
                         </div>
                     </div>
-                    ${renderSimulationsTable(user.name, currentFilterArea)}
+                    <div id="simTableWrapper">
+                        ${renderSimulationsTable(user.name, currentFilterArea)}
+                    </div>
                 </div>
             `;
 
@@ -3734,7 +3996,7 @@
                 });
             }
 
-            renderUserChart(user);
+            renderUserChart(user, userFilteredSims);
             renderUserList();
 
             // Donuts do Perfil
@@ -3751,14 +4013,15 @@
             runCountUp();
         }
 
-        function renderUserChart(user) {
+        function renderUserChart(user, userFilteredSimsOverride) {
             const canvas = document.getElementById('userChart');
             if (!canvas) return;
             const ctx = canvas.getContext('2d');
             if (chart) chart.destroy();
 
-            // Pegar dados reais das simulações válidas do usuário
-            const userHistory = VALID_SIMS.filter(s => cleanName(s.name) === cleanName(user.name))
+            // Pegar dados reais das simulações válidas do usuário no filtro ativo
+            const source = userFilteredSimsOverride || VALID_SIMS.filter(s => cleanName(s.name) === cleanName(user.name));
+            const userHistory = [...source]
                 .sort((a, b) => {
                     const [d1, m1, y1] = a.date.split('/');
                     const [d2, m2, y2] = b.date.split('/');
@@ -3859,13 +4122,18 @@
             }
             if (currentFilterPeriodPreset !== 'all') {
                 const today = new Date();
-                if (currentFilterPeriodPreset === 'last7') {
+                if (currentFilterPeriodPreset === 'yesterday') {
+                    const yStr = getYesterdayDateStr();
+                    result = result.filter(s => s.date === yStr);
+                } else if (currentFilterPeriodPreset === 'last7') {
                     const limit = new Date();
                     limit.setDate(today.getDate() - 7);
+                    limit.setHours(0, 0, 0, 0);
                     result = result.filter(s => parseDateBR(s.date) >= limit);
                 } else if (currentFilterPeriodPreset === 'last30') {
                     const limit = new Date();
                     limit.setDate(today.getDate() - 30);
+                    limit.setHours(0, 0, 0, 0);
                     result = result.filter(s => parseDateBR(s.date) >= limit);
                 } else if (currentFilterPeriodPreset === 'custom') {
                     if (currentFilterStartDate) {
@@ -3877,6 +4145,21 @@
                         result = result.filter(s => parseDateBR(s.date) <= end);
                     }
                 }
+            }
+            if (currentSimSearchKeyword && currentSimSearchKeyword.trim()) {
+                const rawTerm = currentSimSearchKeyword.trim().toLowerCase();
+                const normTerm = rawTerm.normalize('NFD').replace(/[\u0300-\u036f]/g, '');
+                result = result.filter(s => {
+                    const nameNorm = (s.name || '').toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '');
+                    if (nameNorm.includes(normTerm)) return true;
+                    if (s.messages && s.messages.length) {
+                        return s.messages.some(m => {
+                            const txtNorm = (m.text || '').toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '');
+                            return txtNorm.includes(normTerm);
+                        });
+                    }
+                    return false;
+                });
             }
             return result;
         }
