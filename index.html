@@ -2718,13 +2718,61 @@
         let audioSpeed = 1.0;
         let currentAudioElement = null;
         let currentActiveSimOriginalIndex = 0;
+        let currentActiveSimBrokerName = '';
 
         let availableSpeechVoices = [];
         let userVoicePreference = localStorage.getItem('metlifePreferredVoice') || 'auto';
+        // Garantir migração suave: se havia uma voz única salva da versão anterior, volta para 'auto' (diálogo alternado)
+        if (userVoicePreference && userVoicePreference !== 'auto' && !userVoicePreference.startsWith('single_') && !userVoicePreference.startsWith('dual_')) {
+            userVoicePreference = 'auto';
+            localStorage.setItem('metlifePreferredVoice', 'auto');
+        }
 
         function setUserVoicePreference(val) {
             userVoicePreference = val;
             localStorage.setItem('metlifePreferredVoice', val);
+        }
+
+        function isBrokerFemale(name) {
+            if (!name) return false;
+            const clean = name.trim().split(/\s+/)[0].toLowerCase()
+                .normalize('NFD').replace(/[\u0300-\u036f]/g, '');
+            const femaleNames = [
+                'juliana', 'sabrina', 'carolina', 'ana', 'maria', 'patricia', 'fernanda', 'amanda',
+                'beatriz', 'camila', 'daniela', 'debora', 'gabriela', 'helena', 'isabela', 'jessica',
+                'larissa', 'leticia', 'luana', 'marina', 'natalia', 'paula', 'renata', 'sophie',
+                'tatiana', 'vanessa', 'yara', 'thais', 'aline', 'bruna', 'claudia', 'elaine',
+                'fabiana', 'giselle', 'luciana', 'mariana', 'monica', 'priscila', 'simone', 'valeria'
+            ];
+            if (femaleNames.includes(clean)) return true;
+            if (clean.endsWith('a') && !['luca', 'lucas', 'nicola', 'elias', 'jonas', 'ayrton'].includes(clean)) {
+                return true;
+            }
+            return false;
+        }
+
+        function isFemaleVoice(v) {
+            const n = ((v && v.name) || '').toLowerCase();
+            return /francisca|thalita|brenda|giovanna|leila|leticia|manuela|raquel|ysabella|maria|heloisa|yara|denise|celine|sylvie|female|mulher/i.test(n)
+                || (n.includes('google') && !n.includes('male') && !n.includes('homem'));
+        }
+
+        function isMaleVoice(v) {
+            const n = ((v && v.name) || '').toLowerCase();
+            return /antonio|donato|fabio|julio|nicolau|valerio|daniel|felipe|alain|henri|paul|male|homem/i.test(n);
+        }
+
+        function getVoiceScore(voice) {
+            const name = (voice.name || '').toLowerCase();
+            let score = 0;
+            // Microsoft Edge "Natural" (Azure Neural - voz humana de estúdio de alta fidelidade)
+            if (name.includes('natural')) score += 120;
+            if (name.includes('neural')) score += 100;
+            if (name.includes('online')) score += 80;
+            // Google Online Voices (Chrome - voz fluida)
+            if (name.includes('google')) score += 90;
+            if (!voice.localService) score += 30;
+            return score;
         }
 
         function populateVoiceSelector() {
@@ -2744,13 +2792,25 @@
                 return a.name.localeCompare(b.name);
             });
 
-            let optionsHtml = `<option value="auto">✨ ${currentLang === 'pt' ? 'Automático (Mais Natural)' : 'Auto (Plus Naturelle)'}</option>`;
+            let optionsHtml = '';
+            if (currentLang === 'pt') {
+                optionsHtml += `<option value="auto">🎭 Diálogo Automático (Alterna Você & rhapsody)</option>`;
+                optionsHtml += `<option value="dual_fem_ia_male_human">👩 rhapsody (Francisca) & 👨 Você (Antonio)</option>`;
+                optionsHtml += `<option value="dual_male_ia_fem_human">👨 rhapsody (Antonio) & 👩 Você (Francisca)</option>`;
+                optionsHtml += `<optgroup label="── Voz Fixa Única ──">`;
+            } else {
+                optionsHtml += `<option value="auto">🎭 Dialogue Automatique (Alterné)</option>`;
+                optionsHtml += `<optgroup label="── Voix Fixe ──">`;
+            }
+
             matching.forEach(v => {
                 const isNatural = /natural|neural|online|google/i.test(v.name);
                 const tag = isNatural ? '⭐ ' : '';
                 const cleanName = v.name.replace(/ - Portuguese \(Brazil\)| - French \(France\)/gi, '').trim();
-                optionsHtml += `<option value="${v.voiceURI || v.name}">${tag}${cleanName}</option>`;
+                optionsHtml += `<option value="single_${v.voiceURI || v.name}">${tag}${cleanName}</option>`;
             });
+
+            optionsHtml += `</optgroup>`;
 
             select.innerHTML = optionsHtml;
             if (userVoicePreference && [...select.options].some(o => o.value === userVoicePreference)) {
@@ -2775,9 +2835,10 @@
             let voices = availableSpeechVoices.length ? availableSpeechVoices : (window.speechSynthesis.getVoices() || []);
             if (!voices.length) return null;
 
-            // Se o usuário selecionou uma voz manual específica no seletor
-            if (userVoicePreference && userVoicePreference !== 'auto') {
-                const explicitVoice = voices.find(v => (v.voiceURI === userVoicePreference || v.name === userVoicePreference));
+            // Se o usuário selecionou uma voz única específica no seletor
+            if (userVoicePreference && userVoicePreference.startsWith('single_')) {
+                const targetName = userVoicePreference.replace('single_', '');
+                const explicitVoice = voices.find(v => (v.voiceURI === targetName || v.name === targetName));
                 if (explicitVoice) return explicitVoice;
             }
             
@@ -2785,44 +2846,36 @@
             const matching = voices.filter(v => v.lang && v.lang.toLowerCase().replace('_', '-').startsWith(prefix));
             if (!matching.length) return null;
 
-            // Pontuação de qualidade: prioriza vozes neurais / online de alta definição
-            function getVoiceScore(voice) {
-                const name = (voice.name || '').toLowerCase();
-                let score = 0;
-                // Microsoft Edge "Natural" (Azure Neural - voz humana de estúdio)
-                if (name.includes('natural')) score += 120;
-                if (name.includes('neural')) score += 100;
-                if (name.includes('online')) score += 80;
-                // Google Online Voices (Chrome - voz fluida e natural)
-                if (name.includes('google')) score += 90;
-                if (!voice.localService) score += 30;
-                return score;
-            }
-
+            // Ordenar por pontuação de qualidade neural
             const sorted = matching.slice().sort((a, b) => getVoiceScore(b) - getVoiceScore(a));
 
-            // Para português: se houver vozes neurais/naturais distintas para humano e IA
-            if (prefix === 'pt') {
-                const naturalVoices = sorted.filter(v => getVoiceScore(v) >= 70);
-                if (naturalVoices.length >= 2) {
-                    return isHuman ? naturalVoices[0] : naturalVoices[1];
-                }
-                if (naturalVoices.length === 1) {
-                    // Se houver uma voz natural (ex: Google português do Brasil), usa ela como principal
-                    return naturalVoices[0];
-                }
+            // Separar vozes femininas e masculinas
+            const femaleVoices = sorted.filter(isFemaleVoice);
+            const maleVoices = sorted.filter(isMaleVoice);
+
+            const bestFemale = femaleVoices[0] || sorted[0];
+            const bestMale = maleVoices[0] || (sorted.length > 1 ? sorted[1] : sorted[0]);
+
+            // Se selecionou par fixo no dropdown
+            if (userVoicePreference === 'dual_fem_ia_male_human') {
+                return isHuman ? bestMale : bestFemale;
+            }
+            if (userVoicePreference === 'dual_male_ia_fem_human') {
+                return isHuman ? bestFemale : bestMale;
             }
 
-            // Para francês
-            if (prefix === 'fr') {
-                const naturalFr = sorted.filter(v => getVoiceScore(v) >= 70);
-                if (naturalFr.length) return naturalFr[0];
-            }
+            // Modo Automático Inteligente ('auto'):
+            // Detecta o gênero do corretor para alternar com naturalidade máxima
+            const brokerName = currentActiveSimBrokerName || (window.activeUser ? window.activeUser.name : '');
+            const brokerFemale = isBrokerFemale(brokerName);
 
-            if (sorted.length > 1) {
-                return isHuman ? sorted[0] : sorted[1];
+            if (brokerFemale) {
+                // Corretora é mulher: "Você" fala com voz feminina, "rhapsody" com masculina
+                return isHuman ? bestFemale : bestMale;
+            } else {
+                // Corretor é homem (ou padrão): "Você" fala com voz masculina, "rhapsody" com feminina
+                return isHuman ? bestMale : bestFemale;
             }
-            return sorted[0];
         }
 
         function prepareSpeechText(rawText) {
@@ -2993,6 +3046,12 @@
                 window.speechSynthesis.speak(utt);
             };
 
+            // Se o usuário selecionou uma opção customizada (par alternado ou voz fixa), prioriza SpeechSynthesis diretamente
+            if (userVoicePreference && userVoicePreference !== 'auto') {
+                fallbackToSynth();
+                return;
+            }
+
             const audio = new Audio();
             audio.playbackRate = audioSpeed || 1.0;
 
@@ -3067,6 +3126,12 @@
                 window.speechSynthesis.speak(utt);
             };
 
+            // Se o usuário selecionou uma opção customizada (par alternado ou voz fixa), prioriza SpeechSynthesis diretamente
+            if (userVoicePreference && userVoicePreference !== 'auto') {
+                fallbackToSynth();
+                return;
+            }
+
             const audio = new Audio();
             audio.playbackRate = audioSpeed || 1.0;
 
@@ -3132,6 +3197,7 @@
 
             currentSimIndex = localIndex >= 0 ? localIndex : 0;
             currentActiveSimOriginalIndex = (sim.originalIdx !== undefined) ? sim.originalIdx : originalIndex;
+            currentActiveSimBrokerName = sim.name || '';
             const totalSimsCount = (filtered && filtered.length > 0) ? filtered.length : 1;
             const user = activeUsers.find(u => u.name === sim.name) || activeUsers[0];
             const content = document.getElementById('mainContent');
@@ -3339,8 +3405,8 @@
                                             </div>
                                             <div class="voice-selector-box" style="display: inline-flex; align-items: center; gap: 6px; margin-left: 6px;">
                                                 <i class="fas fa-headset" style="font-size: 0.75rem; color: var(--text-muted);" title="Seletor de Voz"></i>
-                                                <select id="selectVoiceOption" onchange="setUserVoicePreference(this.value)" style="padding: 4px 8px; border-radius: 6px; font-size: 0.75rem; border: 1px solid var(--border); background: var(--card-bg); color: var(--text-main); outline: none; cursor: pointer; max-width: 190px;">
-                                                    <option value="auto">✨ ${currentLang === 'pt' ? 'Voz Automática' : 'Voix Auto'}</option>
+                                                <select id="selectVoiceOption" onchange="setUserVoicePreference(this.value)" style="padding: 4px 8px; border-radius: 6px; font-size: 0.75rem; border: 1px solid var(--border); background: var(--card-bg); color: var(--text-main); outline: none; cursor: pointer; max-width: 250px;" title="Alternância de Vozes (rhapsody ↔ Você)">
+                                                    <option value="auto">🎭 ${currentLang === 'pt' ? 'Diálogo Automático (Alterna Você & rhapsody)' : 'Dialogue Automatique'}</option>
                                                 </select>
                                             </div>
                                         </div>
