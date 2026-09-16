@@ -2716,6 +2716,8 @@
         let isAudioPaused = false;
         let currentPlayingMsgIndex = -1;
         let audioSpeed = 1.0;
+        let currentAudioElement = null;
+        let currentActiveSimOriginalIndex = 0;
 
         let availableSpeechVoices = [];
         let userVoicePreference = localStorage.getItem('metlifePreferredVoice') || 'auto';
@@ -2853,6 +2855,11 @@
         }
 
         function stopTranscriptAudio() {
+            if (currentAudioElement) {
+                currentAudioElement.pause();
+                currentAudioElement.currentTime = 0;
+                currentAudioElement = null;
+            }
             if ('speechSynthesis' in window) {
                 window.speechSynthesis.cancel();
             }
@@ -2895,14 +2902,18 @@
 
         function toggleTranscriptAudio() {
             if (isAudioPlaying && !isAudioPaused) {
-                if ('speechSynthesis' in window) {
+                if (currentAudioElement) {
+                    currentAudioElement.pause();
+                } else if ('speechSynthesis' in window) {
                     window.speechSynthesis.pause();
                 }
                 isAudioPlaying = false;
                 isAudioPaused = true;
                 updateAudioControlsUI();
             } else if (isAudioPaused) {
-                if ('speechSynthesis' in window) {
+                if (currentAudioElement) {
+                    currentAudioElement.play().catch(() => {});
+                } else if ('speechSynthesis' in window) {
                     window.speechSynthesis.resume();
                 }
                 isAudioPlaying = true;
@@ -2914,11 +2925,7 @@
         }
 
         function playSimulationAudio(startIndex = 0) {
-            if (!('speechSynthesis' in window)) {
-                alert('A reprodução de voz não é suportada pelo seu navegador.');
-                return;
-            }
-            window.speechSynthesis.cancel();
+            stopTranscriptAudio();
             isAudioPlaying = true;
             isAudioPaused = false;
             currentPlayingMsgIndex = startIndex;
@@ -2944,48 +2951,76 @@
             const textEl = activeBubble ? activeBubble.querySelector('.transcript-text') : null;
             const isHuman = activeBubble && activeBubble.classList.contains('human');
             const text = textEl ? textEl.innerText.trim() : '';
-
             const speechText = prepareSpeechText(text);
+
             if (!speechText) {
                 currentPlayingMsgIndex++;
                 playNextTranscriptMessage();
                 return;
             }
 
-            const utt = new SpeechSynthesisUtterance(speechText);
-            const lang = currentLang === 'fr' ? 'fr' : 'pt';
-            utt.lang = lang === 'fr' ? 'fr-FR' : 'pt-BR';
-            utt.rate = (audioSpeed || 1.0) * (isHuman ? 0.98 : 1.02);
-            utt.pitch = isHuman ? 0.98 : 1.02;
+            // Tenta reproduzir arquivo .mp3 pré-gerado (Realismo Máximo Neural / Estúdio)
+            const origIdx = (currentActiveSimOriginalIndex !== undefined) ? currentActiveSimOriginalIndex : 0;
+            const mp3Path = `audio/sim_${origIdx}_msg_${currentPlayingMsgIndex}.mp3`;
 
-            const voice = getBestVoice(lang, isHuman);
-            if (voice) utt.voice = voice;
+            let fallbackExecuted = false;
+            const fallbackToSynth = () => {
+                if (fallbackExecuted) return;
+                fallbackExecuted = true;
+                currentAudioElement = null;
+                const utt = new SpeechSynthesisUtterance(speechText);
+                const lang = currentLang === 'fr' ? 'fr' : 'pt';
+                utt.lang = lang === 'fr' ? 'fr-FR' : 'pt-BR';
+                utt.rate = (audioSpeed || 1.0) * (isHuman ? 0.98 : 1.02);
+                utt.pitch = isHuman ? 0.98 : 1.02;
 
-            utt.onend = () => {
+                const voice = getBestVoice(lang, isHuman);
+                if (voice) utt.voice = voice;
+
+                utt.onend = () => {
+                    if (isAudioPlaying && !isAudioPaused) {
+                        currentPlayingMsgIndex++;
+                        playNextTranscriptMessage();
+                    }
+                };
+                utt.onerror = (e) => {
+                    console.warn('SpeechSynthesis error:', e);
+                    if (isAudioPlaying && !isAudioPaused) {
+                        currentPlayingMsgIndex++;
+                        playNextTranscriptMessage();
+                    }
+                };
+                window.speechSynthesis.speak(utt);
+            };
+
+            const audio = new Audio();
+            audio.playbackRate = audioSpeed || 1.0;
+
+            audio.oncanplaythrough = () => {
+                if (fallbackExecuted) return;
+                currentAudioElement = audio;
+                audio.play().catch(e => {
+                    fallbackToSynth();
+                });
+            };
+
+            audio.onended = () => {
+                currentAudioElement = null;
                 if (isAudioPlaying && !isAudioPaused) {
                     currentPlayingMsgIndex++;
                     playNextTranscriptMessage();
                 }
             };
 
-            utt.onerror = (e) => {
-                console.warn('SpeechSynthesis error:', e);
-                if (isAudioPlaying && !isAudioPaused) {
-                    currentPlayingMsgIndex++;
-                    playNextTranscriptMessage();
-                }
+            audio.onerror = () => {
+                fallbackToSynth();
             };
 
-            window.speechSynthesis.speak(utt);
+            audio.src = mp3Path;
         }
 
         function speakSingleMessage(index) {
-            if (!('speechSynthesis' in window)) {
-                alert('A reprodução de voz não é suportada pelo seu navegador.');
-                return;
-            }
-            window.speechSynthesis.cancel();
-            clearAudioHighlights();
+            stopTranscriptAudio();
 
             const bubble = document.getElementById(`transcriptBubble-${index}`);
             if (!bubble) return;
@@ -3006,32 +3041,63 @@
                 return;
             }
 
-            const utt = new SpeechSynthesisUtterance(speechText);
-            const lang = currentLang === 'fr' ? 'fr' : 'pt';
-            utt.lang = lang === 'fr' ? 'fr-FR' : 'pt-BR';
-            utt.rate = (audioSpeed || 1.0) * (isHuman ? 0.98 : 1.02);
-            utt.pitch = isHuman ? 0.98 : 1.02;
+            const origIdx = (currentActiveSimOriginalIndex !== undefined) ? currentActiveSimOriginalIndex : 0;
+            const mp3Path = `audio/sim_${origIdx}_msg_${index}.mp3`;
 
-            const voice = getBestVoice(lang, isHuman);
-            if (voice) utt.voice = voice;
+            let fallbackExecuted = false;
+            const fallbackToSynth = () => {
+                if (fallbackExecuted) return;
+                fallbackExecuted = true;
+                currentAudioElement = null;
+                const utt = new SpeechSynthesisUtterance(speechText);
+                const lang = currentLang === 'fr' ? 'fr' : 'pt';
+                utt.lang = lang === 'fr' ? 'fr-FR' : 'pt-BR';
+                utt.rate = (audioSpeed || 1.0) * (isHuman ? 0.98 : 1.02);
+                utt.pitch = isHuman ? 0.98 : 1.02;
 
-            utt.onend = () => {
+                const voice = getBestVoice(lang, isHuman);
+                if (voice) utt.voice = voice;
+
+                utt.onend = () => {
+                    stopTranscriptAudio();
+                };
+                utt.onerror = () => {
+                    stopTranscriptAudio();
+                };
+                window.speechSynthesis.speak(utt);
+            };
+
+            const audio = new Audio();
+            audio.playbackRate = audioSpeed || 1.0;
+
+            audio.oncanplaythrough = () => {
+                if (fallbackExecuted) return;
+                currentAudioElement = audio;
+                audio.play().catch(e => {
+                    fallbackToSynth();
+                });
+            };
+
+            audio.onended = () => {
                 stopTranscriptAudio();
             };
 
-            utt.onerror = () => {
-                stopTranscriptAudio();
+            audio.onerror = () => {
+                fallbackToSynth();
             };
 
-            window.speechSynthesis.speak(utt);
+            audio.src = mp3Path;
         }
 
         function setAudioSpeed(speed) {
             audioSpeed = speed;
+            if (currentAudioElement) {
+                currentAudioElement.playbackRate = speed;
+            }
             document.querySelectorAll('.audio-speed-btn').forEach(b => {
                 b.classList.toggle('active', parseFloat(b.dataset.speed) === speed);
             });
-            if (isAudioPlaying && !isAudioPaused && currentPlayingMsgIndex >= 0) {
+            if (isAudioPlaying && !isAudioPaused && currentPlayingMsgIndex >= 0 && !currentAudioElement) {
                 window.speechSynthesis.cancel();
                 playNextTranscriptMessage();
             }
@@ -3065,6 +3131,7 @@
             }
 
             currentSimIndex = localIndex >= 0 ? localIndex : 0;
+            currentActiveSimOriginalIndex = (sim.originalIdx !== undefined) ? sim.originalIdx : originalIndex;
             const totalSimsCount = (filtered && filtered.length > 0) ? filtered.length : 1;
             const user = activeUsers.find(u => u.name === sim.name) || activeUsers[0];
             const content = document.getElementById('mainContent');
