@@ -3,11 +3,11 @@ const users = [
         "avgDurSec": 42,
         "avgScore": 62.7,
         "skills": {
-            "Escuta": 34.8,
-            "Personalizacao": 39.6,
-            "Empatia": 33.8,
-            "Crises": 38.8,
-            "Padroes": 35.3
+            "Escuta": 35.3,
+            "Personalizacao": 33.8,
+            "Empatia": 34.3,
+            "Crises": 34.6,
+            "Padroes": 33.2
         },
         "count": 27,
         "insights": {
@@ -113,11 +113,11 @@ const users = [
         "avgDurSec": 17,
         "avgScore": 49.7,
         "skills": {
-            "Escuta": 55.1,
-            "Personalizacao": 67.8,
-            "Empatia": 56.6,
-            "Crises": 48.8,
-            "Padroes": 51.4
+            "Escuta": 52.9,
+            "Personalizacao": 55.8,
+            "Empatia": 52.9,
+            "Crises": 54.8,
+            "Padroes": 47.0
         },
         "count": 23,
         "insights": {
@@ -181,36 +181,36 @@ const users = [
         "avgDurMin": 1
     },
     {
-        "avgDurSec": 24,
-        "avgScore": 61.1,
+        "avgDurSec": 38,
+        "avgScore": 63.6,
         "skills": {
-            "Escuta": 59.7,
-            "Personalizacao": 58.4,
-            "Empatia": 55.6,
+            "Escuta": 67.4,
+            "Personalizacao": 61.8,
+            "Empatia": 66.1,
             "Crises": 55.6,
-            "Padroes": 53.6
+            "Padroes": 59.2
         },
-        "count": 11,
+        "count": 12,
         "insights": {
             "pt": [
-                "Eduardo, engenheiro de qualidade, perfil DISC azul, racional, foco analítico; objeção principal de consentimento: necessidade de falar com a esposa.",
-                "O objetivo era identificar e tratar a objeção real e obter a contratação agora, com tranquilidade e sem pressão. O objetivo não foi atingido, pois houve proposta de agendamento, não fechamento no encontro.",
-                "Demonstrou empatia ao validar que o cliente deseja conversar com a esposa.",
-                "Procurou identificar se havia alguma objeção oculta ao perguntar diretamente o que impedia o fechamento.",
-                "Relembrou a importância da proteção para a família, conectando ao papel de “pilar financeiro”.",
-                "Muito bom manter o tom acolhedor! Continue explorando as motivações do cliente — está no caminho certo.",
-                "Faltou utilizar uma história de conexão eficaz para tratar a objeção de consentimento, como o “Anel de Brilhantes”.",
-                "Ao sugerir o agendamento, “marcar semana que vem”, caiu na armadilha de adiar junto com o cliente, ao invés de buscar o fechamento agora."
+                "Você escutou a objeção inicial sem minimizar a dificuldade, mostrando empatia e interesse genuíno pela situação do cliente.",
+                "Conduziu uma negociação ativa do prêmio, ajustando o valor de acordo com a realidade financeira, e propôs soluções rápidas sem abandonar a proposta.",
+                "Explicou detalhadamente as coberturas e justificou cada ajuste, evitando sensação de \"empurrar\" produto.",
+                "Fez um fechamento claro e direto, pedindo o aceite e confirmação dos beneficiários com naturalidade.",
+                "Adotou postura próxima, acessível, reforçando suporte pessoal e transmitindo segurança.",
+                "Diagnóstico: Você começou o ajuste pelo valor e pelas coberturas, mas faltou perguntar de forma aberta qual era a dificuldade principal do cliente, além do valor (ex: “O que mais pesa na sua decisão além do orçamento?”), para identificar eventuais camadas ocultas de objeção.",
+                "Investigação: Ao perguntar “qual valor ficaria melhor pra você?”, transferiu ao cliente a responsabilidade de definir o preço, quando o ideal seria já sugerir faixas e conectá-las ao cenário familiar.",
+                "Cruz VOSSA/NOSSA: Faltou utilizar explicitamente a técnica da obrigação, desenhando a troca do valor do prêmio pelo capital segurado de forma visual ou mais concreta — reforçaria a percepção de ganho."
             ],
             "fr": [
-                "Eduardo, engenheiro de qualidade, perfil DISC azul, racional, foco analítico; objeção principal de consentimento: necessidade de falar com a esposa.",
-                "O objetivo era identificar e tratar a objeção real e obter a contratação agora, com tranquilidade e sem pressão. O objetivo não foi atingido, pois houve proposta de agendamento, não fechamento no encontro.",
-                "Demonstrou empatia ao validar que o cliente deseja conversar com a esposa.",
-                "Procurou identificar se havia alguma objeção oculta ao perguntar diretamente o que impedia o fechamento.",
-                "Relembrou a importância da proteção para a família, conectando ao papel de “pilar financeiro”.",
-                "Muito bom manter o tom acolhedor! Continue explorando as motivações do cliente — está no caminho certo.",
-                "Faltou utilizar uma história de conexão eficaz para tratar a objeção de consentimento, como o “Anel de Brilhantes”.",
-                "Ao sugerir o agendamento, “marcar semana que vem”, caiu na armadilha de adiar junto com o cliente, ao invés de buscar o fechamento agora."
+                "Você escutou a objeção inicial sem minimizar a dificuldade, mostrando empatia e interesse genuíno pela situação do cliente.",
+                "Conduziu uma negociação ativa do prêmio, ajustando o valor de acordo com a realidade financeira, e propôs soluções rápidas sem abandonar a proposta.",
+                "Explicou detalhadamente as coberturas e justificou cada ajuste, evitando sensação de \"empurrar\" produto.",
+                "Fez um fechamento claro e direto, pedindo o aceite e confirmação dos beneficiários com naturalidade.",
+                "Adotou postura próxima, acessível, reforçando suporte pessoal e transmitindo segurança.",
+                "Diagnóstico: Você começou o ajuste pelo valor e pelas coberturas, mas faltou perguntar de forma aberta qual era a dificuldade principal do cliente, além do valor (ex: “O que mais pesa na sua decisão além do orçamento?”), para identificar eventuais camadas ocultas de objeção.",
+                "Investigação: Ao perguntar “qual valor ficaria melhor pra você?”, transferiu ao cliente a responsabilidade de definir o preço, quando o ideal seria já sugerir faixas e conectá-las ao cenário familiar.",
+                "Cruz VOSSA/NOSSA: Faltou utilizar explicitamente a técnica da obrigação, desenhando a troca do valor do prêmio pelo capital segurado de forma visual ou mais concreta — reforçaria a percepção de ganho."
             ]
         },
         "name": "Parceiro Gorilla01",
@@ -235,7 +235,8 @@ const users = [
             "08/07/2026",
             "26/08/2026",
             "27/08/2026",
-            "27/08/2026"
+            "27/08/2026",
+            "15/09/2026"
         ],
         "avgDurMin": 3
     },
@@ -243,11 +244,11 @@ const users = [
         "avgDurSec": 56,
         "avgScore": 56.8,
         "skills": {
-            "Escuta": 44.5,
-            "Personalizacao": 49.5,
-            "Empatia": 53.2,
-            "Crises": 46.0,
-            "Padroes": 41.8
+            "Escuta": 39.2,
+            "Personalizacao": 43.5,
+            "Empatia": 51.8,
+            "Crises": 55.5,
+            "Padroes": 43.2
         },
         "count": 14,
         "insights": {
@@ -305,11 +306,11 @@ const users = [
         "avgDurSec": 21,
         "avgScore": 54.9,
         "skills": {
-            "Escuta": 60.6,
-            "Personalizacao": 72.1,
-            "Empatia": 63.8,
-            "Crises": 54.9,
-            "Padroes": 57.6
+            "Escuta": 63.0,
+            "Personalizacao": 59.8,
+            "Empatia": 61.4,
+            "Crises": 64.3,
+            "Padroes": 51.9
         },
         "count": 18,
         "insights": {
@@ -447,11 +448,11 @@ const users = [
         "avgDurSec": 8,
         "avgScore": 71.2,
         "skills": {
-            "Escuta": 74.8,
-            "Personalizacao": 82.0,
-            "Empatia": 80.4,
-            "Crises": 72.6,
-            "Padroes": 69.2
+            "Escuta": 72.6,
+            "Personalizacao": 81.2,
+            "Empatia": 75.0,
+            "Crises": 74.6,
+            "Padroes": 69.6
         },
         "count": 6,
         "insights": {
@@ -501,11 +502,11 @@ const users = [
         "avgDurSec": 6,
         "avgScore": 41.9,
         "skills": {
-            "Escuta": 34.9,
-            "Personalizacao": 33.0,
-            "Empatia": 40.0,
-            "Crises": 31.3,
-            "Padroes": 25.4
+            "Escuta": 29.7,
+            "Personalizacao": 31.6,
+            "Empatia": 33.0,
+            "Crises": 33.1,
+            "Padroes": 31.1
         },
         "count": 18,
         "insights": {
@@ -564,14 +565,89 @@ const users = [
         "avgDurMin": 1
     },
     {
+        "avgDurSec": 46,
+        "avgScore": 67.5,
+        "skills": {
+            "Escuta": 66.7,
+            "Personalizacao": 64.9,
+            "Empatia": 68.8,
+            "Crises": 64.5,
+            "Padroes": 65.2
+        },
+        "count": 27,
+        "insights": {
+            "pt": [
+                "Perfil DISC azul, engenheiro metódico e racional, articulou objeção financeira sincera: “não é o momento para mais gastos”.",
+                "Você demonstrou empatia inicial, mostrando que compreendia a preocupação orçamentária do prospect.",
+                "Compartilhou uma experiência pessoal para tentar gerar conexão e credibilidade, trazendo humanidade à abordagem.",
+                "Apresentou rapidamente uma solução concreta para liberar orçamento, propondo a migração do plano de saúde, demonstrando iniciativa para ajudar o cliente a viabilizar a contratação.",
+                "Explicou de forma objetiva os capitais segurados, tornando explícita a contrapartida do seguro versus o valor do prêmio, o que já vai na direção da cruz “VOSSA/NOSSA”.",
+                "Investigação insuficiente: não houve pergunta clara e aberta para descobrir o motivo real da objeção (“onde exatamente está apertando?”), apenas compreensão genérica.",
+                "A proposta de ajuste financeiro do plano de saúde partiu de pressupostos e soluções externas, não de uma negociação sobre o valor do prêmio do seguro em si (faltou propor redução do prêmio direto no seguro ou abertura para escalonamento de valor).",
+                "A explicação sobre as coberturas foi bem detalhada, mas faltou retomar explicitamente as necessidades identificadas na ADN do cliente, para conectar proteção à prioridade familiar."
+            ],
+            "fr": [
+                "Perfil DISC azul, engenheiro metódico e racional, articulou objeção financeira sincera: “não é o momento para mais gastos”.",
+                "Você demonstrou empatia inicial, mostrando que compreendia a preocupação orçamentária do prospect.",
+                "Compartilhou uma experiência pessoal para tentar gerar conexão e credibilidade, trazendo humanidade à abordagem.",
+                "Apresentou rapidamente uma solução concreta para liberar orçamento, propondo a migração do plano de saúde, demonstrando iniciativa para ajudar o cliente a viabilizar a contratação.",
+                "Explicou de forma objetiva os capitais segurados, tornando explícita a contrapartida do seguro versus o valor do prêmio, o que já vai na direção da cruz “VOSSA/NOSSA”.",
+                "Investigação insuficiente: não houve pergunta clara e aberta para descobrir o motivo real da objeção (“onde exatamente está apertando?”), apenas compreensão genérica.",
+                "A proposta de ajuste financeiro do plano de saúde partiu de pressupostos e soluções externas, não de uma negociação sobre o valor do prêmio do seguro em si (faltou propor redução do prêmio direto no seguro ou abertura para escalonamento de valor).",
+                "A explicação sobre as coberturas foi bem detalhada, mas faltou retomar explicitamente as necessidades identificadas na ADN do cliente, para conectar proteção à prioridade familiar."
+            ]
+        },
+        "name": "Parceiro Inside24mais",
+        "agency": "Outros",
+        "region": "Outros",
+        "lqaScore": 40.0,
+        "languages": [
+            "PT"
+        ],
+        "improvement": {
+            "pt": "Continuar praticando e trabalhando os pontos de melhoria identificados.",
+            "fr": "Continuer a pratiquer et travailler les points d amelioration identifies."
+        },
+        "dates": [
+            "20/08/2026",
+            "08/07/2026",
+            "08/07/2026",
+            "08/07/2026",
+            "08/07/2026",
+            "08/07/2026",
+            "08/07/2026",
+            "10/07/2026",
+            "10/07/2026",
+            "15/07/2026",
+            "15/07/2026",
+            "15/07/2026",
+            "15/07/2026",
+            "20/08/2026",
+            "30/07/2026",
+            "30/07/2026",
+            "30/07/2026",
+            "03/08/2026",
+            "03/08/2026",
+            "04/08/2026",
+            "20/08/2026",
+            "27/08/2026",
+            "03/09/2026",
+            "10/09/2026",
+            "10/09/2026",
+            "12/09/2026",
+            "15/09/2026"
+        ],
+        "avgDurMin": 1
+    },
+    {
         "avgDurSec": 5,
         "avgScore": 56.0,
         "skills": {
-            "Escuta": 72.5,
-            "Personalizacao": 77.5,
-            "Empatia": 53.5,
-            "Crises": 59.5,
-            "Padroes": 64.0
+            "Escuta": 60.5,
+            "Personalizacao": 65.5,
+            "Empatia": 66.5,
+            "Crises": 54.5,
+            "Padroes": 51.5
         },
         "count": 3,
         "insights": {
@@ -694,11 +770,11 @@ const users = [
         "avgDurSec": 14,
         "avgScore": 61.8,
         "skills": {
-            "Escuta": 56.5,
-            "Personalizacao": 59.3,
-            "Empatia": 57.0,
-            "Crises": 51.3,
-            "Padroes": 52.3
+            "Escuta": 52.7,
+            "Personalizacao": 54.7,
+            "Empatia": 60.1,
+            "Crises": 55.3,
+            "Padroes": 51.1
         },
         "count": 17,
         "insights": {
@@ -756,85 +832,14 @@ const users = [
         "avgDurMin": 2
     },
     {
-        "avgDurSec": 35,
-        "avgScore": 65.6,
-        "skills": {
-            "Escuta": 66.8,
-            "Personalizacao": 70.1,
-            "Empatia": 61.3,
-            "Crises": 62.3,
-            "Padroes": 60.7
-        },
-        "count": 23,
-        "insights": {
-            "pt": [
-                "Médico cirurgião, perfil DISC dominante RED, objetivo e direto.",
-                "A objeção principal foi de CONSENTIMENTO: “preciso falar com minha esposa antes de decidir”.",
-                "O objetivo era diagnosticar a razão real do adiamento e tratar a objeção, levando ao fechamento imediato e seguro para o cliente.",
-                "Objetivo ATINGIDO, pois houve fechamento consultivo e acordo do cliente sem pressão.",
-                "Diferenciação da objeção",
-                "Uso de história e conexão",
-                "Fechamento parcial respeitoso",
-                "Pergunta de descoberta"
-            ],
-            "fr": [
-                "Médico cirurgião, perfil DISC dominante RED, objetivo e direto.",
-                "A objeção principal foi de CONSENTIMENTO: “preciso falar com minha esposa antes de decidir”.",
-                "O objetivo era diagnosticar a razão real do adiamento e tratar a objeção, levando ao fechamento imediato e seguro para o cliente.",
-                "Objetivo ATINGIDO, pois houve fechamento consultivo e acordo do cliente sem pressão.",
-                "Diferenciação da objeção",
-                "Uso de história e conexão",
-                "Fechamento parcial respeitoso",
-                "Pergunta de descoberta"
-            ]
-        },
-        "name": "Parceiro Inside24mais",
-        "agency": "Outros",
-        "region": "Outros",
-        "lqaScore": 40.0,
-        "languages": [
-            "PT"
-        ],
-        "improvement": {
-            "pt": "Continuar praticando e trabalhando os pontos de melhoria identificados.",
-            "fr": "Continuer a pratiquer et travailler les points d amelioration identifies."
-        },
-        "dates": [
-            "20/08/2026",
-            "08/07/2026",
-            "08/07/2026",
-            "08/07/2026",
-            "08/07/2026",
-            "08/07/2026",
-            "08/07/2026",
-            "10/07/2026",
-            "10/07/2026",
-            "15/07/2026",
-            "15/07/2026",
-            "15/07/2026",
-            "15/07/2026",
-            "20/08/2026",
-            "30/07/2026",
-            "30/07/2026",
-            "30/07/2026",
-            "03/08/2026",
-            "03/08/2026",
-            "04/08/2026",
-            "20/08/2026",
-            "27/08/2026",
-            "03/09/2026"
-        ],
-        "avgDurMin": 1
-    },
-    {
         "avgDurSec": 56,
         "avgScore": 58.0,
         "skills": {
-            "Escuta": 58.0,
-            "Personalizacao": 67.0,
-            "Empatia": 72.5,
-            "Crises": 59.5,
-            "Padroes": 54.0
+            "Escuta": 58.5,
+            "Personalizacao": 75.0,
+            "Empatia": 68.0,
+            "Crises": 59.0,
+            "Padroes": 56.5
         },
         "count": 4,
         "insights": {
@@ -917,11 +922,11 @@ const users = [
         "avgDurSec": 3,
         "avgScore": 57.7,
         "skills": {
-            "Escuta": 58.3,
-            "Personalizacao": 66.4,
-            "Empatia": 52.1,
-            "Crises": 50.3,
-            "Padroes": 55.4
+            "Escuta": 56.0,
+            "Personalizacao": 55.9,
+            "Empatia": 59.2,
+            "Crises": 52.4,
+            "Padroes": 50.2
         },
         "count": 19,
         "insights": {
@@ -984,11 +989,11 @@ const users = [
         "avgDurSec": 12,
         "avgScore": 54.8,
         "skills": {
-            "Escuta": 30.6,
-            "Personalizacao": 37.8,
-            "Empatia": 38.6,
-            "Crises": 31.8,
-            "Padroes": 31.6
+            "Escuta": 32.4,
+            "Personalizacao": 31.2,
+            "Empatia": 35.0,
+            "Crises": 33.8,
+            "Padroes": 33.2
         },
         "count": 8,
         "insights": {
@@ -1037,36 +1042,36 @@ const users = [
         "avgDurMin": 1
     },
     {
-        "avgDurSec": 46,
-        "avgScore": 61.7,
+        "avgDurSec": 3,
+        "avgScore": 64.1,
         "skills": {
-            "Escuta": 58.1,
-            "Personalizacao": 69.4,
-            "Empatia": 60.7,
-            "Crises": 58.3,
-            "Padroes": 58.6
+            "Escuta": 67.2,
+            "Personalizacao": 64.7,
+            "Empatia": 67.2,
+            "Crises": 63.3,
+            "Padroes": 60.5
         },
-        "count": 35,
+        "count": 41,
         "insights": {
             "pt": [
-                "Jovem executiva digital-native, perfil DISC amarelo predominante, objeção principal na família CONSENTIMENTO (validação com parceiro).",
-                "Você sondou motivos do adiamento, tratou objeção de consentimento e concretizou a contratação sem pressão. Objetivo atingido.",
-                "Demonstrou escuta ativa ao investigar o que faltava para decisão e se havia dúvidas técnicas ou financeiras.",
-                "Trouxe perguntas-exploratórias para identificar se a dúvida era sobre valor, cobertura ou consentimento do parceiro.",
-                "Adotou postura acolhedora e paciente, deixando o ritmo confortável para o prospect.",
-                "Avançou para o fechamento de forma consultiva, usando perguntas de concordância tácita sobre beneficiário e forma de pagamento. Mantenha essa abordagem próxima, que ela vende sem “cara de vendedor”!",
-                "Faltou reconexão clara com as necessidades da ADN antes do fechamento, poderia retomar brevemente a motivação pessoal identificada (“viver muito”, “segurança financeira”).",
-                "Usou perguntas com excesso de variações no início (“me fala mais...o que exatamente...por que...”), o que soa confuso e reduz o impacto. Prefira uma descoberta por vez, mais pausada."
+                "Você mostrou escuta genuína ao acolher a objeção financeira sem interromper ou minimizar a preocupação da cliente.",
+                "Fez bom uso de Power Phrase (“nunca vi ninguém reclamar que tá apertado porque paga um seguro...”) e soube manter o foco no fechamento.",
+                "Trouxe argumento forte ao vincular a decisão à saúde e à imprevisibilidade, elevando o senso de urgência de forma ética.",
+                "Foi assertivo ao explicar com clareza o mecanismo do cartão e possíveis ajustes no vencimento, adaptando à rotina da cliente.",
+                "Aplicou concordância tácita ao perguntar suavemente sobre o beneficiário, conduzindo ao fechamento consultivo de forma natural.",
+                "Ajuste de valor: você não propôs ajuste de prêmio (redução do capital, prêmio mínimo). Se a cliente persistisse na objeção, seria fundamental mostrar flexibilidade ativa, ao invés de apenas confirmar o valor previamente proposto.",
+                "Pergunta de investigação: você perguntou “o que você acha que consegue ajustar?” — isso reconhece a necessidade de adaptação, mas transfere responsabilidade para a cliente encontrar a solução. Prefira propor alternativas específicas, como “Se flexibilizarmos o valor hoje, faz sentido para seu momento?”",
+                "Cruz VOSSA/NOSSA: na sua argumentação faltou trazer a troca vantajosa entre o pequeno esforço mensal e a grande proteção conquistada, visualizando os capitais segurados versus o prêmio, para ampliar a percepção de valor."
             ],
             "fr": [
-                "Jovem executiva digital-native, perfil DISC amarelo predominante, objeção principal na família CONSENTIMENTO (validação com parceiro).",
-                "Você sondou motivos do adiamento, tratou objeção de consentimento e concretizou a contratação sem pressão. Objetivo atingido.",
-                "Demonstrou escuta ativa ao investigar o que faltava para decisão e se havia dúvidas técnicas ou financeiras.",
-                "Trouxe perguntas-exploratórias para identificar se a dúvida era sobre valor, cobertura ou consentimento do parceiro.",
-                "Adotou postura acolhedora e paciente, deixando o ritmo confortável para o prospect.",
-                "Avançou para o fechamento de forma consultiva, usando perguntas de concordância tácita sobre beneficiário e forma de pagamento. Mantenha essa abordagem próxima, que ela vende sem “cara de vendedor”!",
-                "Faltou reconexão clara com as necessidades da ADN antes do fechamento, poderia retomar brevemente a motivação pessoal identificada (“viver muito”, “segurança financeira”).",
-                "Usou perguntas com excesso de variações no início (“me fala mais...o que exatamente...por que...”), o que soa confuso e reduz o impacto. Prefira uma descoberta por vez, mais pausada."
+                "Você mostrou escuta genuína ao acolher a objeção financeira sem interromper ou minimizar a preocupação da cliente.",
+                "Fez bom uso de Power Phrase (“nunca vi ninguém reclamar que tá apertado porque paga um seguro...”) e soube manter o foco no fechamento.",
+                "Trouxe argumento forte ao vincular a decisão à saúde e à imprevisibilidade, elevando o senso de urgência de forma ética.",
+                "Foi assertivo ao explicar com clareza o mecanismo do cartão e possíveis ajustes no vencimento, adaptando à rotina da cliente.",
+                "Aplicou concordância tácita ao perguntar suavemente sobre o beneficiário, conduzindo ao fechamento consultivo de forma natural.",
+                "Ajuste de valor: você não propôs ajuste de prêmio (redução do capital, prêmio mínimo). Se a cliente persistisse na objeção, seria fundamental mostrar flexibilidade ativa, ao invés de apenas confirmar o valor previamente proposto.",
+                "Pergunta de investigação: você perguntou “o que você acha que consegue ajustar?” — isso reconhece a necessidade de adaptação, mas transfere responsabilidade para a cliente encontrar a solução. Prefira propor alternativas específicas, como “Se flexibilizarmos o valor hoje, faz sentido para seu momento?”",
+                "Cruz VOSSA/NOSSA: na sua argumentação faltou trazer a troca vantajosa entre o pequeno esforço mensal e a grande proteção conquistada, visualizando os capitais segurados versus o prêmio, para ampliar a percepção de valor."
             ]
         },
         "name": "Parceira Ark",
@@ -1115,19 +1120,25 @@ const users = [
             "25/08/2026",
             "25/08/2026",
             "03/09/2026",
-            "03/09/2026"
+            "03/09/2026",
+            "09/09/2026",
+            "14/09/2026",
+            "14/09/2026",
+            "14/09/2026",
+            "14/09/2026",
+            "15/09/2026"
         ],
-        "avgDurMin": 1
+        "avgDurMin": 2
     },
     {
         "avgDurSec": 27,
         "avgScore": 65.8,
         "skills": {
-            "Escuta": 73.7,
-            "Personalizacao": 80.7,
-            "Empatia": 72.5,
-            "Crises": 59.0,
-            "Padroes": 68.0
+            "Escuta": 76.2,
+            "Personalizacao": 69.3,
+            "Empatia": 71.0,
+            "Crises": 71.0,
+            "Padroes": 64.0
         },
         "count": 7,
         "insights": {
@@ -1178,11 +1189,11 @@ const users = [
         "avgDurSec": 27,
         "avgScore": 45.5,
         "skills": {
-            "Escuta": 33.6,
-            "Personalizacao": 34.6,
-            "Empatia": 34.0,
-            "Crises": 30.6,
-            "Padroes": 31.2
+            "Escuta": 33.3,
+            "Personalizacao": 33.1,
+            "Empatia": 32.5,
+            "Crises": 30.5,
+            "Padroes": 30.8
         },
         "count": 99,
         "insights": {
@@ -1325,11 +1336,11 @@ const users = [
         "avgDurSec": 25,
         "avgScore": 46.5,
         "skills": {
-            "Escuta": 50.5,
-            "Personalizacao": 53.0,
-            "Empatia": 45.0,
+            "Escuta": 59.5,
+            "Personalizacao": 54.5,
+            "Empatia": 56.0,
             "Crises": 56.5,
-            "Padroes": 56.0
+            "Padroes": 53.0
         },
         "count": 5,
         "insights": {
@@ -1378,11 +1389,11 @@ const users = [
         "avgDurSec": 38,
         "avgScore": 62.0,
         "skills": {
-            "Escuta": 62.2,
-            "Personalizacao": 69.0,
-            "Empatia": 69.5,
-            "Crises": 60.4,
-            "Padroes": 59.1
+            "Escuta": 63.9,
+            "Personalizacao": 63.9,
+            "Empatia": 70.9,
+            "Crises": 62.9,
+            "Padroes": 61.5
         },
         "count": 49,
         "insights": {
@@ -1615,11 +1626,11 @@ const users = [
         "avgDurSec": 30,
         "avgScore": 58.0,
         "skills": {
-            "Escuta": 32.0,
-            "Personalizacao": 29.5,
-            "Empatia": 42.5,
-            "Crises": 33.5,
-            "Padroes": 36.0
+            "Escuta": 29.5,
+            "Personalizacao": 26.0,
+            "Empatia": 35.5,
+            "Crises": 30.0,
+            "Padroes": 31.5
         },
         "count": 7,
         "insights": {
@@ -1670,11 +1681,11 @@ const users = [
         "avgDurSec": 34,
         "avgScore": 58.5,
         "skills": {
-            "Escuta": 40.1,
-            "Personalizacao": 43.6,
-            "Empatia": 41.1,
-            "Crises": 41.7,
-            "Padroes": 39.5
+            "Escuta": 42.9,
+            "Personalizacao": 39.4,
+            "Empatia": 43.2,
+            "Crises": 39.5,
+            "Padroes": 40.9
         },
         "count": 56,
         "insights": {
@@ -1774,11 +1785,11 @@ const users = [
         "avgDurSec": 30,
         "avgScore": 57.1,
         "skills": {
-            "Escuta": 45.1,
-            "Personalizacao": 50.3,
-            "Empatia": 48.1,
-            "Crises": 41.0,
-            "Padroes": 42.3
+            "Escuta": 46.9,
+            "Personalizacao": 46.7,
+            "Empatia": 49.0,
+            "Crises": 45.2,
+            "Padroes": 43.7
         },
         "count": 82,
         "insights": {
@@ -1938,36 +1949,36 @@ const users = [
         "avgDurMin": 0
     },
     {
-        "avgDurSec": 11,
-        "avgScore": 52.9,
+        "avgDurSec": 14,
+        "avgScore": 54.4,
         "skills": {
-            "Escuta": 53.0,
-            "Personalizacao": 62.2,
-            "Empatia": 54.1,
-            "Crises": 51.5,
-            "Padroes": 49.6
+            "Escuta": 58.1,
+            "Personalizacao": 52.3,
+            "Empatia": 55.0,
+            "Crises": 52.5,
+            "Padroes": 51.5
         },
-        "count": 28,
+        "count": 29,
         "insights": {
             "pt": [
-                "Médica ginecologista, perfil verde (alta empatia, busca harmonia), expressou objeção orçamentária clara: “não cabe no meu orçamento”.",
-                "Você usou perguntas abertas para investigar se a dúvida era financeira ou ligada à importância do seguro (“Queria entender o real motivo... é sobre a disponibilidade mensal para gastar com isso ou dúvidas em relação à importância?”).",
-                "Demonstrou flexibilidade propondo alternativas no valor do prêmio, sinalizando disponibilidade para ajustar (“a gente pode ajustar aqui”, “se é uma questão financeira...”).",
-                "Aplicou a técnica do ajuste de prêmio para caber no orçamento, reduzindo os valores de capital segurado e mostrando proporcionalidade (“se reduzirmos à metade, cai pra quinhentos mensais...”).",
-                "Explicou de forma clara a relação entre o valor pago e o capital segurado, traduzindo a troca (cruz VOSSA/NOSSA), sem minimizar a importância da proteção.",
-                "Conduziu de modo consultivo e acolhedor, respeitando o ritmo do prospect, e concluiu o fechamento de forma concreta.",
-                "Ao perguntar “qual seria o valor que a senhora poderia desprender mensalmente?”, você transferiu a responsabilidade da decisão para a cliente. O ideal seria propor opções, alinhando-se à regra MetLife que recomenda não pedir que o cliente diga “quanto pode pagar”.",
-                "Sua tentativa de Power Phrase (“nunca vi alguém quebrar por contratar um seguro...”) mostrou intenção, mas poderia ser empregada em momento mais enfático, seguida de silêncio, para gerar impacto e reflexão."
+                "Fez escuta ativa logo na abertura, reconhecendo de forma empática o contexto econômico difícil.",
+                "Usou a Power Phrase clássica (“nunca vi alguém quebrar por ter feito um seguro de vida”) no momento certo para desafiar a crença do cliente.",
+                "Aplicou a técnica de ajuste do prêmio, reduzindo o valor e oferecendo possibilidade de aumento futuro, sem abandonar a venda.",
+                "Explicou a relação entre valor do prêmio e capitais assegurados (cruz VOSSA/NOSSA), tornando as escolhas transparentes.",
+                "Utilizou um fechamento consultivo, detalhando próximos passos, mantendo o tom acolhedor e ético até o fim.",
+                "Diagnóstico e formulação de perguntas",
+                "Demonstrar valor e reconectar com necessidades",
+                "Power Phrase e silêncio"
             ],
             "fr": [
-                "Médica ginecologista, perfil verde (alta empatia, busca harmonia), expressou objeção orçamentária clara: “não cabe no meu orçamento”.",
-                "Você usou perguntas abertas para investigar se a dúvida era financeira ou ligada à importância do seguro (“Queria entender o real motivo... é sobre a disponibilidade mensal para gastar com isso ou dúvidas em relação à importância?”).",
-                "Demonstrou flexibilidade propondo alternativas no valor do prêmio, sinalizando disponibilidade para ajustar (“a gente pode ajustar aqui”, “se é uma questão financeira...”).",
-                "Aplicou a técnica do ajuste de prêmio para caber no orçamento, reduzindo os valores de capital segurado e mostrando proporcionalidade (“se reduzirmos à metade, cai pra quinhentos mensais...”).",
-                "Explicou de forma clara a relação entre o valor pago e o capital segurado, traduzindo a troca (cruz VOSSA/NOSSA), sem minimizar a importância da proteção.",
-                "Conduziu de modo consultivo e acolhedor, respeitando o ritmo do prospect, e concluiu o fechamento de forma concreta.",
-                "Ao perguntar “qual seria o valor que a senhora poderia desprender mensalmente?”, você transferiu a responsabilidade da decisão para a cliente. O ideal seria propor opções, alinhando-se à regra MetLife que recomenda não pedir que o cliente diga “quanto pode pagar”.",
-                "Sua tentativa de Power Phrase (“nunca vi alguém quebrar por contratar um seguro...”) mostrou intenção, mas poderia ser empregada em momento mais enfático, seguida de silêncio, para gerar impacto e reflexão."
+                "Fez escuta ativa logo na abertura, reconhecendo de forma empática o contexto econômico difícil.",
+                "Usou a Power Phrase clássica (“nunca vi alguém quebrar por ter feito um seguro de vida”) no momento certo para desafiar a crença do cliente.",
+                "Aplicou a técnica de ajuste do prêmio, reduzindo o valor e oferecendo possibilidade de aumento futuro, sem abandonar a venda.",
+                "Explicou a relação entre valor do prêmio e capitais assegurados (cruz VOSSA/NOSSA), tornando as escolhas transparentes.",
+                "Utilizou um fechamento consultivo, detalhando próximos passos, mantendo o tom acolhedor e ético até o fim.",
+                "Diagnóstico e formulação de perguntas",
+                "Demonstrar valor e reconectar com necessidades",
+                "Power Phrase e silêncio"
             ]
         },
         "name": "Tabajara Dias",
@@ -2009,7 +2020,8 @@ const users = [
             "08/09/2026",
             "08/09/2026",
             "08/09/2026",
-            "08/09/2026"
+            "08/09/2026",
+            "14/09/2026"
         ],
         "avgDurMin": 2
     },
@@ -2052,11 +2064,11 @@ const users = [
         "avgDurSec": 54,
         "avgScore": 42.4,
         "skills": {
-            "Escuta": 43.5,
-            "Personalizacao": 50.9,
-            "Empatia": 42.3,
-            "Crises": 40.0,
-            "Padroes": 47.2
+            "Escuta": 40.3,
+            "Personalizacao": 45.0,
+            "Empatia": 43.1,
+            "Crises": 41.5,
+            "Padroes": 38.5
         },
         "count": 18,
         "insights": {
