@@ -1,4 +1,4 @@
-const LATEST_DUMP_DATE = "15/09/2026";
+const LATEST_DUMP_DATE = "17/09/2026";
 const RAW_SIMULATIONS = [
     {
         "name": "Juliana Pedrão",
@@ -6540,6 +6540,195 @@ const RAW_SIMULATIONS = [
             "Embora a argumentação tivesse boa estrutura, poderia aprofundar mais sobre como a conversa será produtiva para o prospect, valorizando o tempo dele, por exemplo: “Prometo que em quinze minutos já será possível enxergar caminhos práticos para seu caso”.",
             "Recomenda-se um fechamento mais empático: ao confirmar o horário, reforçar que está à disposição para qualquer dúvida antes do encontro.",
             "Continue assim: diplomático, respeitoso e direcionado—está no caminho certo para se tornar referência!"
+        ]
+    },
+    {
+        "name": "Parceiro Insidelu",
+        "agency": "Outros",
+        "region": "Outros",
+        "date": "16/09/2026",
+        "dur": "3m 52s",
+        "score": 67,
+        "scenario": "OBJECAO_ADIAMENTO",
+        "lqa": "N/A",
+        "interactions": 41,
+        "messages": [
+            {
+                "role": "HUMAN",
+                "text": "[ruído]"
+            },
+            {
+                "role": "AI",
+                "text": "Achei a proposta muito clara, mas preciso pensar melhor antes de decidir. Depois eu te dou uma resposta."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Eu entendo que você queira pensar e acho que todas as decisões importantes da nossa vida devem ser bem pensadas, né? Mas eu tô aqui até como especialista pra te ajudar, né? Qual o ponto Você precisa pensar ou talvez qual ponto eu possa te esclarecer melhor"
+            },
+            {
+                "role": "AI",
+                "text": "Eu gostei da explicação, mas preciso confirmar com meu parceiro antes de decidir. Podemos agendar uma ligação para conversarmos com ele presente na próxima semana?"
+            },
+            {
+                "role": "HUMAN",
+                "text": "Eu entendo e acho extremamente importante a gente estar alinhado com, com o parceiro, né? Mas deixa eu te trazer aqui uma reflexão, né? Eu não me oponho a, obviamente, a explicar pra ele, até porque preciso conhecê-lo, né? Eventualmente, entendo que ele também deva estar protegido, né, que a proteção do nosso parceiro, da nossa parceira, acaba, né, protegendo a gente também, né? Mas até uma questão, né, de responsabilidade financeira da nossa parte Será que não seria importante a gente já comunicá-lo que você já teve o carinho de pensar nele também nesse seu planejamento e que você já possa mostrar pra ele a sua decisão tomada de protegê-los, né? Com a apólice emitida na, na nossa reunião da próxima semana?"
+            },
+            {
+                "role": "AI",
+                "text": "Tudo bem, faz sentido comunicar isso a ele. Podemos agendar a ligação para a próxima semana com ele presente."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Perfeito, combinado. Então eu vou seguir aqui com a sua proposta pra que na semana que vem a gente possa explicar a decisão que você já tomou em conjunto e eu poder apresentar pra ele, né, pra que ele também, né, possa tomar a mesma decisão que você tá tomando hoje"
+            },
+            {
+                "role": "AI",
+                "text": "Certo, então podemos agendar. Prefiro que a ligação seja no período da manhã; qual dia da próxima semana você tem disponível pela manhã?"
+            },
+            {
+                "role": "HUMAN",
+                "text": "Olha só, eu liguei aqui"
+            },
+            {
+                "role": "HUMAN",
+                "text": "Olhei aqui pra minha agenda e vi que eu tenho disponível, é, na terça ou na quinta, no período da manhã. Qual que fica melhor pra vocês?"
+            },
+            {
+                "role": "AI",
+                "text": "Prefiro terça de manhã. Que horário você sugere?"
+            },
+            {
+                "role": "HUMAN",
+                "text": "Tenho às 9 ou às 11, qual que fica melhor pra você?"
+            },
+            {
+                "role": "AI",
+                "text": "Nove horas é melhor para nós. Pode confirmar terça às nove da manhã?"
+            },
+            {
+                "role": "HUMAN",
+                "text": "Tá confirmado. Então agora eu só preciso de algumas informações pra gente finalizar a sua proposta"
+            },
+            {
+                "role": "HUMAN",
+                "text": "Qual que é seu CPF, por favor?"
+            },
+            {
+                "role": "AI",
+                "text": "Desculpe, não posso fornecer meu CPF por mensagem. Posso confirmar outros dados necessários presencialmente ou na ligação agendada."
+            },
+            {
+                "role": "HUMAN",
+                "text": "A gente acabou de conversar sobre seguir com a sua proposta, né? E aí na ligação com o seu parceiro da próxima terça às 9, a gente já explicar a po- a apólice emitida pra ele, né? Então eu preciso do seu CPF justamente pra dar continuidade aqui no preenchimento"
+            },
+            {
+                "role": "AI",
+                "text": "Desculpe, não posso fornecer meu CPF por mensagem. Podemos preencher esses dados durante a ligação de terça às nove da manhã ou presencialmente."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Podemos, ééé"
+            },
+            {
+                "role": "HUMAN",
+                "text": "Sem problema nenhum preencher a ligação da próxima semana, mas eu entendo a sua questão de preservação dos dados, mas a gente já tá aqui em ligação, né, dessa reunião e Acabo num, não compreendendo qual a diferença"
+            },
+            {
+                "role": "HUMAN",
+                "text": "De hoje ou na próxima semana, em relação à questão de segurança que você tá me trazendo"
+            },
+            {
+                "role": "AI",
+                "text": "A diferença é que hoje, por mensagem ou atendimento externo, eu prefiro não compartilhar dados sensíveis por questão de segurança pessoal. Na ligação eu consigo confirmar o CPF de forma segura e verificar qualquer detalhe com meu parceiro presente."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Sim, tenta"
+            },
+            {
+                "role": "HUMAN",
+                "text": "Então essa decisão de fechar ou não essa proposta, ééé, depende da, da anuência do seu parceiro?"
+            },
+            {
+                "role": "AI",
+                "text": "Depende, sim. Quero conversar com ele para que entendamos juntos os detalhes antes de assinar."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Entendo"
+            },
+            {
+                "role": "HUMAN",
+                "text": "Caso, né, ele tenha a opinião de que você não deva se proteger"
+            },
+            {
+                "role": "HUMAN",
+                "text": "Você entende que você não fecharia esse negócio?"
+            },
+            {
+                "role": "AI",
+                "text": "Se ele for contrariamente terminante, eu não fecharei sem que a gente tenha conversado e entendido os motivos dele. Quero que a decisão seja conjunta, então prefiro adiar até conversarmos ambos."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Sim, entendo perfeitamente. Ééé, o único ponto que eu gostaria de trazer como informação"
+            },
+            {
+                "role": "HUMAN",
+                "text": "Hoje é uma estatística que inclusive A gente pode buscar lá na internet juntos, se for o caso, que durante o tratamento, por exemplo, de uma doença grave no Brasil, 70% das mulheres são abandonadas pelos parceiros, né, durante o tratamento. E o motivo principal desse Nesse caso, é a falta de recurso financeiro. Então, trazendo como reflexão"
+            },
+            {
+                "role": "HUMAN",
+                "text": "Tá aqui"
+            },
+            {
+                "role": "HUMAN",
+                "text": "Nos protegermos é tão importante que talvez essa não seja uma decisão que deva ser tomada em conjunto, mas sim comunicada ao parceiro, né? \"Eu fiz a minha proteção, caso aconteça alguma coisa, eu tenho algo que financeiramente vai resolver a-as nossas vidas\"."
+            },
+            {
+                "role": "AI",
+                "text": "Entendo o argumento e a preocupação, mas prefiro que a gente converse com meu parceiro antes de qualquer emissão.  \nNa ligação de terça às nove, eu e ele vamos ouvir vocês e decidiremos juntos."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Ter-terça às 21h a gente vai voltar a se falar"
+            },
+            {
+                "role": "HUMAN",
+                "text": "[respiração]"
+            },
+            {
+                "role": "HUMAN",
+                "text": "E posso utilizar essa mesma estatística na presença dele também em nossa reunião?"
+            },
+            {
+                "role": "AI",
+                "text": "Pode sim. Acha válido trazer a estatística e explicar o raciocínio que você usou ao planejar a proteção."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Combinado. Então eu já tô te mandando o invite e a gente"
+            },
+            {
+                "role": "HUMAN",
+                "text": "Se fala melhor na próxima reunião da terça às 21:00"
+            },
+            {
+                "role": "AI",
+                "text": "Confirma terça às nove da manhã, então. Até lá, vou avisar meu parceiro para ele estar disponível."
+            }
+        ],
+        "finished": true,
+        "feedback": "Aqui está o debriefing da nossa troca.  \n\n  \n\n🤓 PERSONA  \n\n- Persona feminina, perfil DISC verde (🟢), família de objeção principal: CONSENTIMENTO (“preciso falar com meu parceiro antes de decidir”).  \n\n  \n\n🎯 OBJETIVO PRINCIPAL  \n\n- Você investigou as razões para o adiamento e trabalhou a objeção principal com técnica, mas não obteve a contratação imediata. Objetivo parcialmente atingido.  \n\n  \n\n➕ PONTOS FORTES  \n\n- Demonstrou escuta ativa e validou as preocupações sobre decidir em conjunto, gerando empatia.  \n\n- Trouxe reflexões e questionamentos relevantes (“será que não seria importante já comunicar que você pensou nele?”), estimulando protagonismo na cliente.  \n\n- Tentou fechar com perguntas de concordância tácita (“qual horário fica melhor pra vocês?”), favorecendo avanço para o próximo passo.  \n\nQue bom ver essa sensibilidade consultiva—essa conexão já é meio caminho andado!  \n\n  \n\n⚠️ PONTOS DE MELHORIA  \n\n- Faltou investigar mais explicitamente se era uma objeção real ou apenas protocolo (“você precisa validar a decisão, ou só gostaria de compartilhar depois?”).  \n\n- Não retomou claramente as necessidades da ADN antes da tentativa de fechamento, perdendo a força de reconexão emocional e racional.  \n\n- Frases longas, com excesso de muletas verbais e explicações, diluíram o impacto comercial.  \n\n- Em alguns momentos, ao forçar para preencher na ligação, quase tropeçou em pressão sutil; cuidado para manter o cliente sempre confortável.  \n\nContinue afunilando a objeção e apoiando a decisão com benefícios diretamente conectados à realidade do prospect!  \n\n  \n\n🩵 ANÁLISE EMOCIONAL  \n\nSeu tom foi acolhedor e calmo, mas ocasionalmente hesitante, transmitindo vontade de ajudar, porém com leve ansiedade ao fechar.  \n\n  \n\n🛅 MOMENTOS-CHAVE  \n\n- Ao propor que ela comunique ao parceiro uma decisão já tomada, usou bem a CHAVE da objeção de consentimento, criando momento de impacto. Isso ajudou a prospect avançar.  \n\n- Quando tentou fechar o preenchimento dos dados, percebeu e respeitou a insegurança, reforçando ética profissional. Isso fortaleceu o clima de confiança.  \n\n  \n\n🔊 REFORMULAÇÕES RECOMENDADAS  \n\n- “Você sente que precisa de aprovação do seu parceiro, ou gostaria apenas de compartilhar essa decisão de proteção com ele depois?”  \n\n- “Seguro de vida é uma escolha de amor próprio e proteção: não é sobre esperar o momento certo, mas garantir enquanto se pode.”  \n\n- “O que acha de já deixar encaminhado para que ambos fiquem tranquilos, e depois apenas compartilhe com seu parceiro?”  \n\n- “Posso registrar a proposta agora com você e depois explico juntos para ele na terça?”  \n\n- “Prefere fazer o preenchimento hoje ou juntos na terça-feira?”  \n\n  \n\n➡️ RECOMENDAÇÕES  \n\nProcure sempre diferenciar a objeção real da social, retome explicitamente as necessidades da ADN antes do fechamento e evite frases muito longas. Valorize o silêncio após frases de impacto: ele pode ser decisivo. Avance com confiança—você já tem as ferramentas!",
+        "insights": [
+            "Persona feminina, perfil DISC verde (🟢), família de objeção principal: CONSENTIMENTO (“preciso falar com meu parceiro antes de decidir”).",
+            "Você investigou as razões para o adiamento e trabalhou a objeção principal com técnica, mas não obteve a contratação imediata. Objetivo parcialmente atingido.",
+            "Demonstrou escuta ativa e validou as preocupações sobre decidir em conjunto, gerando empatia.",
+            "Trouxe reflexões e questionamentos relevantes (“será que não seria importante já comunicar que você pensou nele?”), estimulando protagonismo na cliente.",
+            "Tentou fechar com perguntas de concordância tácita (“qual horário fica melhor pra vocês?”), favorecendo avanço para o próximo passo.",
+            "Que bom ver essa sensibilidade consultiva—essa conexão já é meio caminho andado!",
+            "Faltou investigar mais explicitamente se era uma objeção real ou apenas protocolo (“você precisa validar a decisão, ou só gostaria de compartilhar depois?”).",
+            "Não retomou claramente as necessidades da ADN antes da tentativa de fechamento, perdendo a força de reconexão emocional e racional."
         ]
     },
     {
