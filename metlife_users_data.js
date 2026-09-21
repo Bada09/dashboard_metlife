@@ -3,11 +3,11 @@ const users = [
         "avgDurSec": 42,
         "avgScore": 62.7,
         "skills": {
-            "Escuta": 34.9,
-            "Personalizacao": 38.2,
-            "Empatia": 38.8,
-            "Crises": 38.4,
-            "Padroes": 32.9
+            "Escuta": 35.7,
+            "Personalizacao": 39.8,
+            "Empatia": 34.7,
+            "Crises": 35.0,
+            "Padroes": 36.5
         },
         "count": 27,
         "insights": {
@@ -113,11 +113,11 @@ const users = [
         "avgDurSec": 17,
         "avgScore": 49.7,
         "skills": {
-            "Escuta": 58.8,
-            "Personalizacao": 60.6,
-            "Empatia": 49.8,
-            "Crises": 50.8,
-            "Padroes": 59.7
+            "Escuta": 57.1,
+            "Personalizacao": 67.0,
+            "Empatia": 53.6,
+            "Crises": 48.4,
+            "Padroes": 52.9
         },
         "count": 23,
         "insights": {
@@ -184,11 +184,11 @@ const users = [
         "avgDurSec": 38,
         "avgScore": 63.6,
         "skills": {
-            "Escuta": 56.5,
-            "Personalizacao": 58.8,
-            "Empatia": 58.1,
-            "Crises": 56.0,
-            "Padroes": 59.4
+            "Escuta": 63.4,
+            "Personalizacao": 62.6,
+            "Empatia": 64.4,
+            "Crises": 58.5,
+            "Padroes": 59.8
         },
         "count": 12,
         "insights": {
@@ -244,11 +244,11 @@ const users = [
         "avgDurSec": 56,
         "avgScore": 56.8,
         "skills": {
-            "Escuta": 53.5,
-            "Personalizacao": 44.8,
-            "Empatia": 39.5,
-            "Crises": 46.5,
-            "Padroes": 55.0
+            "Escuta": 44.8,
+            "Personalizacao": 47.8,
+            "Empatia": 43.8,
+            "Crises": 41.5,
+            "Padroes": 42.8
         },
         "count": 14,
         "insights": {
@@ -306,11 +306,11 @@ const users = [
         "avgDurSec": 21,
         "avgScore": 54.9,
         "skills": {
-            "Escuta": 60.8,
-            "Personalizacao": 69.2,
-            "Empatia": 57.8,
-            "Crises": 60.1,
-            "Padroes": 61.0
+            "Escuta": 58.0,
+            "Personalizacao": 72.4,
+            "Empatia": 67.8,
+            "Crises": 56.1,
+            "Padroes": 56.7
         },
         "count": 18,
         "insights": {
@@ -448,11 +448,11 @@ const users = [
         "avgDurSec": 31,
         "avgScore": 70.5,
         "skills": {
-            "Escuta": 76.2,
-            "Personalizacao": 83.0,
-            "Empatia": 74.5,
-            "Crises": 79.7,
-            "Padroes": 75.7
+            "Escuta": 76.7,
+            "Personalizacao": 81.8,
+            "Empatia": 77.2,
+            "Crises": 77.0,
+            "Padroes": 77.3
         },
         "count": 7,
         "insights": {
@@ -503,11 +503,11 @@ const users = [
         "avgDurSec": 6,
         "avgScore": 41.9,
         "skills": {
-            "Escuta": 32.9,
-            "Personalizacao": 35.4,
-            "Empatia": 35.1,
-            "Crises": 34.7,
-            "Padroes": 33.4
+            "Escuta": 37.6,
+            "Personalizacao": 31.6,
+            "Empatia": 34.0,
+            "Crises": 35.6,
+            "Padroes": 30.1
         },
         "count": 18,
         "insights": {
@@ -569,11 +569,11 @@ const users = [
         "avgDurSec": 46,
         "avgScore": 67.5,
         "skills": {
-            "Escuta": 65.9,
-            "Personalizacao": 68.1,
-            "Empatia": 64.1,
-            "Crises": 61.8,
-            "Padroes": 66.9
+            "Escuta": 64.5,
+            "Personalizacao": 71.3,
+            "Empatia": 68.5,
+            "Crises": 65.0,
+            "Padroes": 63.9
         },
         "count": 27,
         "insights": {
@@ -644,11 +644,11 @@ const users = [
         "avgDurSec": 5,
         "avgScore": 56.0,
         "skills": {
-            "Escuta": 53.5,
-            "Personalizacao": 67.5,
-            "Empatia": 50.0,
-            "Crises": 48.0,
-            "Padroes": 64.0
+            "Escuta": 60.5,
+            "Personalizacao": 76.5,
+            "Empatia": 49.5,
+            "Crises": 56.5,
+            "Padroes": 65.0
         },
         "count": 3,
         "insights": {
@@ -771,11 +771,11 @@ const users = [
         "avgDurSec": 14,
         "avgScore": 61.8,
         "skills": {
-            "Escuta": 55.9,
-            "Personalizacao": 58.1,
-            "Empatia": 50.5,
-            "Crises": 49.9,
-            "Padroes": 58.1
+            "Escuta": 51.9,
+            "Personalizacao": 57.1,
+            "Empatia": 53.1,
+            "Crises": 50.8,
+            "Padroes": 52.8
         },
         "count": 17,
         "insights": {
@@ -836,11 +836,11 @@ const users = [
         "avgDurSec": 56,
         "avgScore": 58.0,
         "skills": {
-            "Escuta": 68.0,
-            "Personalizacao": 66.5,
-            "Empatia": 49.5,
-            "Crises": 65.0,
-            "Padroes": 71.5
+            "Escuta": 69.0,
+            "Personalizacao": 71.5,
+            "Empatia": 53.5,
+            "Crises": 55.5,
+            "Padroes": 58.5
         },
         "count": 4,
         "insights": {
@@ -923,11 +923,11 @@ const users = [
         "avgDurSec": 3,
         "avgScore": 57.7,
         "skills": {
-            "Escuta": 56.8,
-            "Personalizacao": 54.3,
-            "Empatia": 50.9,
-            "Crises": 48.0,
-            "Padroes": 56.8
+            "Escuta": 53.1,
+            "Personalizacao": 63.9,
+            "Empatia": 55.7,
+            "Crises": 48.9,
+            "Padroes": 53.0
         },
         "count": 19,
         "insights": {
@@ -990,11 +990,11 @@ const users = [
         "avgDurSec": 12,
         "avgScore": 54.8,
         "skills": {
-            "Escuta": 37.4,
-            "Personalizacao": 36.6,
-            "Empatia": 34.4,
-            "Crises": 32.6,
-            "Padroes": 36.0
+            "Escuta": 34.6,
+            "Personalizacao": 31.6,
+            "Empatia": 35.6,
+            "Crises": 36.4,
+            "Padroes": 37.4
         },
         "count": 8,
         "insights": {
@@ -1043,36 +1043,36 @@ const users = [
         "avgDurMin": 1
     },
     {
-        "avgDurSec": 3,
-        "avgScore": 64.1,
+        "avgDurSec": 7,
+        "avgScore": 64.7,
         "skills": {
-            "Escuta": 62.6,
-            "Personalizacao": 63.8,
-            "Empatia": 63.8,
-            "Crises": 56.7,
-            "Padroes": 63.7
+            "Escuta": 64.1,
+            "Personalizacao": 69.0,
+            "Empatia": 71.0,
+            "Crises": 61.6,
+            "Padroes": 65.3
         },
-        "count": 41,
+        "count": 43,
         "insights": {
             "pt": [
-                "Você mostrou escuta genuína ao acolher a objeção financeira sem interromper ou minimizar a preocupação da cliente.",
-                "Fez bom uso de Power Phrase (“nunca vi ninguém reclamar que tá apertado porque paga um seguro...”) e soube manter o foco no fechamento.",
-                "Trouxe argumento forte ao vincular a decisão à saúde e à imprevisibilidade, elevando o senso de urgência de forma ética.",
-                "Foi assertivo ao explicar com clareza o mecanismo do cartão e possíveis ajustes no vencimento, adaptando à rotina da cliente.",
-                "Aplicou concordância tácita ao perguntar suavemente sobre o beneficiário, conduzindo ao fechamento consultivo de forma natural.",
-                "Ajuste de valor: você não propôs ajuste de prêmio (redução do capital, prêmio mínimo). Se a cliente persistisse na objeção, seria fundamental mostrar flexibilidade ativa, ao invés de apenas confirmar o valor previamente proposto.",
-                "Pergunta de investigação: você perguntou “o que você acha que consegue ajustar?” — isso reconhece a necessidade de adaptação, mas transfere responsabilidade para a cliente encontrar a solução. Prefira propor alternativas específicas, como “Se flexibilizarmos o valor hoje, faz sentido para seu momento?”",
-                "Cruz VOSSA/NOSSA: na sua argumentação faltou trazer a troca vantajosa entre o pequeno esforço mensal e a grande proteção conquistada, visualizando os capitais segurados versus o prêmio, para ampliar a percepção de valor."
+                "O objetivo foi atingido: a objeção financeira foi explorada e superada, e a contratação foi efetivada sem constrangimento para o cliente.",
+                "Você iniciou bem com perguntas abertas para identificar objeções além do aspecto financeiro, demonstrando escuta ativa e preocupação genuína.",
+                "Trouxe alternativas concretas de ajuste dos capitais segurados e do prêmio, permitindo a entrada do seguro mesmo diante do orçamento apertado, sem abandonar o fechamento.",
+                "Retomou as necessidades manifestadas na ADN para justificar as escolhas (proteção para a família, proteções em vida).",
+                "Detalhou claramente os próximos passos (escolha de beneficiários, processo do token, prazos), gerando segurança e transmitindo consultoria.",
+                "Manteve atitude acolhedora e ritmo humano, valorizando a decisão tomada pelo cliente. Continue assim!",
+                "A técnica da Cruz VOSSA/NOSSA foi abordada de forma tímida; você focou bastante no ajuste de prêmio, mas poderia explicitar melhor o valor trocado (prêmio x capital protegido) para fortalecer a percepção de vantagem.",
+                "Sua principal pergunta de investigação ficou um pouco longa e repetitiva (\"além do financeiro, tem algo mais... o que exatamente te impediria...\"), diluindo o impacto. Da próxima vez, uma frase mais direta e objetiva pode abrir o diálogo de forma mais clara."
             ],
             "fr": [
-                "Você mostrou escuta genuína ao acolher a objeção financeira sem interromper ou minimizar a preocupação da cliente.",
-                "Fez bom uso de Power Phrase (“nunca vi ninguém reclamar que tá apertado porque paga um seguro...”) e soube manter o foco no fechamento.",
-                "Trouxe argumento forte ao vincular a decisão à saúde e à imprevisibilidade, elevando o senso de urgência de forma ética.",
-                "Foi assertivo ao explicar com clareza o mecanismo do cartão e possíveis ajustes no vencimento, adaptando à rotina da cliente.",
-                "Aplicou concordância tácita ao perguntar suavemente sobre o beneficiário, conduzindo ao fechamento consultivo de forma natural.",
-                "Ajuste de valor: você não propôs ajuste de prêmio (redução do capital, prêmio mínimo). Se a cliente persistisse na objeção, seria fundamental mostrar flexibilidade ativa, ao invés de apenas confirmar o valor previamente proposto.",
-                "Pergunta de investigação: você perguntou “o que você acha que consegue ajustar?” — isso reconhece a necessidade de adaptação, mas transfere responsabilidade para a cliente encontrar a solução. Prefira propor alternativas específicas, como “Se flexibilizarmos o valor hoje, faz sentido para seu momento?”",
-                "Cruz VOSSA/NOSSA: na sua argumentação faltou trazer a troca vantajosa entre o pequeno esforço mensal e a grande proteção conquistada, visualizando os capitais segurados versus o prêmio, para ampliar a percepção de valor."
+                "O objetivo foi atingido: a objeção financeira foi explorada e superada, e a contratação foi efetivada sem constrangimento para o cliente.",
+                "Você iniciou bem com perguntas abertas para identificar objeções além do aspecto financeiro, demonstrando escuta ativa e preocupação genuína.",
+                "Trouxe alternativas concretas de ajuste dos capitais segurados e do prêmio, permitindo a entrada do seguro mesmo diante do orçamento apertado, sem abandonar o fechamento.",
+                "Retomou as necessidades manifestadas na ADN para justificar as escolhas (proteção para a família, proteções em vida).",
+                "Detalhou claramente os próximos passos (escolha de beneficiários, processo do token, prazos), gerando segurança e transmitindo consultoria.",
+                "Manteve atitude acolhedora e ritmo humano, valorizando a decisão tomada pelo cliente. Continue assim!",
+                "A técnica da Cruz VOSSA/NOSSA foi abordada de forma tímida; você focou bastante no ajuste de prêmio, mas poderia explicitar melhor o valor trocado (prêmio x capital protegido) para fortalecer a percepção de vantagem.",
+                "Sua principal pergunta de investigação ficou um pouco longa e repetitiva (\"além do financeiro, tem algo mais... o que exatamente te impediria...\"), diluindo o impacto. Da próxima vez, uma frase mais direta e objetiva pode abrir o diálogo de forma mais clara."
             ]
         },
         "name": "Parceira Ark",
@@ -1127,7 +1127,9 @@ const users = [
             "14/09/2026",
             "14/09/2026",
             "14/09/2026",
-            "15/09/2026"
+            "15/09/2026",
+            "18/09/2026",
+            "18/09/2026"
         ],
         "avgDurMin": 2
     },
@@ -1135,11 +1137,11 @@ const users = [
         "avgDurSec": 27,
         "avgScore": 65.8,
         "skills": {
-            "Escuta": 74.8,
-            "Personalizacao": 70.7,
-            "Empatia": 68.3,
-            "Crises": 61.3,
-            "Padroes": 74.7
+            "Escuta": 76.3,
+            "Personalizacao": 79.8,
+            "Empatia": 73.3,
+            "Crises": 60.3,
+            "Padroes": 77.5
         },
         "count": 7,
         "insights": {
@@ -1190,11 +1192,11 @@ const users = [
         "avgDurSec": 27,
         "avgScore": 45.5,
         "skills": {
-            "Escuta": 34.2,
-            "Personalizacao": 36.5,
-            "Empatia": 33.9,
-            "Crises": 32.9,
-            "Padroes": 33.2
+            "Escuta": 31.9,
+            "Personalizacao": 35.4,
+            "Empatia": 30.8,
+            "Crises": 34.0,
+            "Padroes": 31.0
         },
         "count": 99,
         "insights": {
@@ -1337,11 +1339,11 @@ const users = [
         "avgDurSec": 25,
         "avgScore": 46.5,
         "skills": {
-            "Escuta": 39.5,
-            "Personalizacao": 56.0,
-            "Empatia": 50.5,
-            "Crises": 47.5,
-            "Padroes": 52.5
+            "Escuta": 42.0,
+            "Personalizacao": 59.0,
+            "Empatia": 63.5,
+            "Crises": 62.0,
+            "Padroes": 62.5
         },
         "count": 5,
         "insights": {
@@ -1390,11 +1392,11 @@ const users = [
         "avgDurSec": 38,
         "avgScore": 62.0,
         "skills": {
-            "Escuta": 68.8,
-            "Personalizacao": 63.6,
-            "Empatia": 62.2,
-            "Crises": 59.1,
-            "Padroes": 66.3
+            "Escuta": 65.4,
+            "Personalizacao": 66.0,
+            "Empatia": 68.6,
+            "Crises": 58.3,
+            "Padroes": 61.8
         },
         "count": 49,
         "insights": {
@@ -1627,11 +1629,11 @@ const users = [
         "avgDurSec": 30,
         "avgScore": 58.0,
         "skills": {
-            "Escuta": 36.0,
-            "Personalizacao": 38.0,
-            "Empatia": 41.5,
-            "Crises": 34.0,
-            "Padroes": 33.0
+            "Escuta": 35.0,
+            "Personalizacao": 27.0,
+            "Empatia": 43.0,
+            "Crises": 26.0,
+            "Padroes": 35.5
         },
         "count": 7,
         "insights": {
@@ -1682,11 +1684,11 @@ const users = [
         "avgDurSec": 34,
         "avgScore": 58.5,
         "skills": {
-            "Escuta": 40.1,
-            "Personalizacao": 45.7,
-            "Empatia": 44.3,
-            "Crises": 42.0,
-            "Padroes": 42.2
+            "Escuta": 40.5,
+            "Personalizacao": 42.0,
+            "Empatia": 41.0,
+            "Crises": 44.2,
+            "Padroes": 38.8
         },
         "count": 56,
         "insights": {
@@ -1786,11 +1788,11 @@ const users = [
         "avgDurSec": 30,
         "avgScore": 57.1,
         "skills": {
-            "Escuta": 47.6,
-            "Personalizacao": 48.5,
-            "Empatia": 44.1,
-            "Crises": 42.4,
-            "Padroes": 45.9
+            "Escuta": 45.5,
+            "Personalizacao": 49.3,
+            "Empatia": 47.6,
+            "Crises": 45.4,
+            "Padroes": 46.6
         },
         "count": 82,
         "insights": {
@@ -1953,11 +1955,11 @@ const users = [
         "avgDurSec": 14,
         "avgScore": 54.4,
         "skills": {
-            "Escuta": 52.9,
-            "Personalizacao": 57.9,
-            "Empatia": 54.5,
-            "Crises": 46.9,
-            "Padroes": 57.2
+            "Escuta": 54.9,
+            "Personalizacao": 61.3,
+            "Empatia": 56.8,
+            "Crises": 53.3,
+            "Padroes": 54.9
         },
         "count": 29,
         "insights": {
@@ -2065,11 +2067,11 @@ const users = [
         "avgDurSec": 54,
         "avgScore": 42.4,
         "skills": {
-            "Escuta": 40.9,
-            "Personalizacao": 49.0,
-            "Empatia": 42.8,
-            "Crises": 38.5,
-            "Padroes": 44.1
+            "Escuta": 43.5,
+            "Personalizacao": 51.1,
+            "Empatia": 40.3,
+            "Crises": 39.9,
+            "Padroes": 46.4
         },
         "count": 18,
         "insights": {

@@ -1,4 +1,4 @@
-const LATEST_DUMP_DATE = "18/09/2026";
+const LATEST_DUMP_DATE = "21/09/2026";
 const RAW_SIMULATIONS = [
     {
         "name": "Juliana Pedrão",
@@ -18163,6 +18163,184 @@ const RAW_SIMULATIONS = [
             "Ajuste de valor: você não propôs ajuste de prêmio (redução do capital, prêmio mínimo). Se a cliente persistisse na objeção, seria fundamental mostrar flexibilidade ativa, ao invés de apenas confirmar o valor previamente proposto.",
             "Pergunta de investigação: você perguntou “o que você acha que consegue ajustar?” — isso reconhece a necessidade de adaptação, mas transfere responsabilidade para a cliente encontrar a solução. Prefira propor alternativas específicas, como “Se flexibilizarmos o valor hoje, faz sentido para seu momento?”",
             "Cruz VOSSA/NOSSA: na sua argumentação faltou trazer a troca vantajosa entre o pequeno esforço mensal e a grande proteção conquistada, visualizando os capitais segurados versus o prêmio, para ampliar a percepção de valor."
+        ]
+    },
+    {
+        "name": "Parceira Ark",
+        "agency": "Outros",
+        "region": "Outros",
+        "date": "18/09/2026",
+        "dur": "2m 45s",
+        "score": 61,
+        "scenario": "OBJECAO_FINANCEIRA",
+        "lqa": "N/A",
+        "interactions": 13,
+        "messages": [
+            {
+                "role": "AI",
+                "text": "Gostei da explicação, foi clara, mas o momento financeiro está apertado. Não é hora de assumir mais um gasto mensal agora."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Perfeito. O valor que eu te apresentei está dentro do que nós comentamos, do que nós combinamos, na verdade, na nossa última reunião, correto? Eu disse que eu iria trazer algo entre R$ 500 e R$ 1.000 e tá enquadrado. E esse valor de R$ 630 tá muito fora pra você? Me, me fala como queee, que você vê o que você precisa efetivamente ajustar"
+            },
+            {
+                "role": "AI",
+                "text": "Olha, eu valorizei que você tenha mantido o combinado, mas sessenta e trinta reais ainda pesa no meu fluxo este mês. Não consigo dizer um número exato agora, depende do que você conseguir me propor para ajustar esse impacto no curto prazo."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Muito bom, vamos lá. É, antes de, de qualquer ajuste que a gente possa fazer, porque sim, a gente pode ajustar o valor, diminuir um pouco o capital segurado pra gente, é, ajustar o valor do prêmio, tá? Que é a mensalidade que você paga. Mas antes de tudo, deixa eu te explicar como funcionam os próximos passos, tá? Os próximos passos é preencher a sua ficha de saúde, pra que a MetLife possa fazer a análise da sua saúde. Após essa ficha aprovada, que a MetLife vai fazer a cobrança. Então o que que a gente consegue fazer? A gente consegue colocar, é, o seu seguro no seu cartão de crédito. Por quê? Porque todo mês vai ser debitado esse valor de seiscentos e trinta reais no seu cartão. Então a De-- a MetLife vai primeiro fazer a análise, que é o que a gente vai colocar aqui, é, no preenchimento da ficha. Após aprovada a análise, a MetLife faz o desconto da primeira parcela no seu cartão de crédito. Aí, o que que nós podemos fazer? Colocar o vencimento"
+            },
+            {
+                "role": "AI",
+                "text": "Coloca no cartão, sim, mas esse vencimento precisa cair depois do meu salário. Pode ser o dia vinte e cinco. Antes disso ainda aperta meu fluxo."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Perfeito, muito bom. É, então vamos já dar início aqui ao preenchimento da sua ficha. Quem que você gostaria de colocar como beneficiário na sua, na sua apólice?"
+            },
+            {
+                "role": "AI",
+                "text": "Minha esposa, Beatriz, como titular e os nossos dois filhos como secundários, divididos em partes iguais."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Perfeito, muito bom. Vou colocar aqui a sua esposa com 50% e os seus dois filhos, cada um com 25% em proporção igual. É, vou preencher aqui a sua ficha, te mando o talking pra validação. Após a sua assinatura, sua, sua, a proposta já está em análise"
+            },
+            {
+                "role": "AI",
+                "text": "Certo, manda o talking para eu validar hoje à noite. Prefiro assinar amanhã pela manhã, depois que eu conferir."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Correto. É, eu já vou preencher agora e já mando. Se você quiser dar uma conferi-- você já conferir agora, a gente já valida junto, porque se você tiver qualquer dúvida, você aproveita que eu tô aqui, já esclareço suas dúvidas e já fica tudo certo. Vamos seguir assim?"
+            },
+            {
+                "role": "AI",
+                "text": "Tudo bem, confere agora então. Vou revisar rápido quando chegar e, se estiver ok, assino amanhã de manhã."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Combinado então. Tudo perfeito. Muito obrigada. Então parabéns pela sua escolha. A partir de agora você estará protegido"
+            },
+            {
+                "role": "AI",
+                "text": "Obrigado. Fica com o meu ok para enviar o talking; eu reviso hoje à noite e assino amanhã de manhã. Boa noite."
+            }
+        ],
+        "finished": true,
+        "feedback": "Aqui está o debriefing da nossa troca.\n\n🤓 PERSONA\n\nExecutivo sênior, perfil dominante vermelho, analítico, capaz de questionar argumentos, expressa objeção financeira ligada ao orçamento.\n\n🎯 OBJETIVO PRINCIPAL\n\nO objetivo era tratar a objeção financeira, ajustar à realidade do cliente e obter a contratação sem pressão. O objetivo foi atingido.\n\n➕ PONTOS FORTES\n\n- Boa escuta ativa: você ouviu a preocupação do cliente e não interrompeu, demonstrando respeito.\n\n- Tentou calibrar a proposta ao orçamento já no início, referindo os valores combinados em outra conversa.\n\n- Explicou de forma clara e didática os próximos passos, mostrando transparência e diminuindo eventual ansiedade do cliente.\n\n- Ofereceu ajuste do prêmio e orientou quanto à possibilidade de flexibilização, ponto fundamental da etapa de negociação.\n\n- Fez fechamento natural, perguntando sobre os beneficiários, usando concordância tácita de modo consultivo.\n\nParabéns pela postura consultiva e por transformar o desconforto inicial do cliente em um acordo claro!\n\n📈 PONTOS DE MELHORIA\n\n- Tratamento do valor: você ajustou o prêmio, mas poderia ter sido um pouco mais incisivo na visualização da troca vantajosa (cruz VOSSA/NOSSA), explicitando o que o cliente recebe versus quanto paga.\n\n- Power Phrase: faltou uma frase de impacto que fixe o valor da proteção e o risco do adiamento, por exemplo, “o melhor seguro é aquele que cabe no momento – até porque o imprevisível não espera nossa folga no orçamento!”.\n\n- Diagnóstico mais profundo: fez uma tentativa de investigação (“me fala como que você vê o que você precisa ajustar”), mas pode formular isso de modo mais direto para extrair objeções ocultas, do tipo “Além do valor, há algo mais que pesou na sua decisão?”\n\nVocê está no caminho certo! Tornando mais visível o benefício e reforçando o valor único do seguro, o convencimento fica ainda mais sólido.\n\n🩵 ANÁLISE EMOCIONAL\n\nO tom foi calmo, cordial e profissional, transmitindo confiança e controle durante todas as etapas da argumentação.\n\n🛅 MOMENTOS-CHAVE\n\nNa dúvida sobre o valor do prêmio, você rapidamente sugeriu o ajuste e focou no processo, permitindo ao cliente se sentir no comando da decisão; ao iniciar o fechamento perguntando diretamente sobre beneficiários, utilizou bem a técnica da concordância tácita.\n\n🔊 REFORMULAÇÕES RECOMENDADAS\n\n- “Posso mostrar rapidamente o que esses seiscentos e trinta reais estão protegendo na sua vida e da sua família?”\n\n- “Ricardo, além do valor mensal, existe algo mais que te deixe inseguro em relação a essa decisão?”\n\n- “O melhor seguro é aquele que te protege hoje, do jeito que está, e pode crescer quando sua situação melhorar.”\n\n- “Vamos então proteger o que realmente importa? Posso colocar sua esposa como beneficiária principal?”\n\n- “Se surgir qualquer dúvida ao revisar, eu fico aqui disponível para esclarecer, combinado?”\n\n➡️ RECOMENDAÇÕES\n\nMantenha o olhar consultivo, aprofunde a investigação das reais objeções e leve sempre a troca de valor para o campo visual e concreto. Seja ainda mais explícito ao usar Power Phrases. Você mostra domínio – continue aperfeiçoando o tato nas objeções financeiras. Seu fechamento ficou natural e seguro!",
+        "insights": [
+            "Boa escuta ativa: você ouviu a preocupação do cliente e não interrompeu, demonstrando respeito.",
+            "Tentou calibrar a proposta ao orçamento já no início, referindo os valores combinados em outra conversa.",
+            "Explicou de forma clara e didática os próximos passos, mostrando transparência e diminuindo eventual ansiedade do cliente.",
+            "Ofereceu ajuste do prêmio e orientou quanto à possibilidade de flexibilização, ponto fundamental da etapa de negociação.",
+            "Fez fechamento natural, perguntando sobre os beneficiários, usando concordância tácita de modo consultivo.",
+            "Tratamento do valor: você ajustou o prêmio, mas poderia ter sido um pouco mais incisivo na visualização da troca vantajosa (cruz VOSSA/NOSSA), explicitando o que o cliente recebe versus quanto paga.",
+            "Power Phrase: faltou uma frase de impacto que fixe o valor da proteção e o risco do adiamento, por exemplo, “o melhor seguro é aquele que cabe no momento – até porque o imprevisível não espera nossa folga no orçamento!”.",
+            "Diagnóstico mais profundo: fez uma tentativa de investigação (“me fala como que você vê o que você precisa ajustar”), mas pode formular isso de modo mais direto para extrair objeções ocultas, do tipo “Além do valor, há algo mais que pesou na sua decisão?”"
+        ]
+    },
+    {
+        "name": "Parceira Ark",
+        "agency": "Outros",
+        "region": "Outros",
+        "date": "18/09/2026",
+        "dur": "3m 52s",
+        "score": 86,
+        "scenario": "OBJECAO_FINANCEIRA",
+        "lqa": "N/A",
+        "interactions": 19,
+        "messages": [
+            {
+                "role": "AI",
+                "text": "Gostei da proposta e faz sentido, mas o momento financeiro não está nada fácil. Não é hora de acrescentar mais gastos ao meu orçamento."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Que bom que você gostou da proposta e que ela fez sentido pra você. Além do momento financeiro, tem alguma outra questão que te impeça de fazer agora? Porque, ééé, o-o que exatamente te levar-- te impediria de fechar essa proposta hoje? Ela tá super ajustada ao seu momento. O ponto principal aqui é proteger quem realmente importa pra você eee, e ela tá enquadrada. Então eu queria te ouvir um pouco mais"
+            },
+            {
+                "role": "AI",
+                "text": "No momento é só a questão do caixa mesmo. Não vem de desconfiança ou da proposta em si. Se você tiver uma alternativa que reduza o peso no mês, eu ouço."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Perfeito. O que a gente consegue fazer, essa daqui é a proposta ajustada pro seu momento e foi totalmente baseada na nossa última conversa. Inclusive, ela está ajustada ao valor que nós combinamos, que eu traria pra você algo entre mil e mil e quinhentos reais. Eu consigo diminuir, é, eu consigo, na verdade, ajustar os valores, reduzindo o capital segurado, tá? Então o que que a gente pode pensar? Como hoje você tem zero proteção, pra você iniciar a proteção da sua família e, e as suas proteções em vida, que é o principal que você, que, é, gostaria, você me falou, eu colocaria aqui uma proposta ajustada pra você ter um planejamento inicial. E aí daqui um tempo, nós podemos fazer, quando você tiver mais estabilizado financeiramente, nós faremos a revisão e voltamos à proposta real. É, eu consigo ajustar aqui os capitais. Fala pra mim qual capital, é, qual é a cober"
+            },
+            {
+                "role": "AI",
+                "text": "Não vou sugerir números; depende do que você me oferecer. Se você consegue baixar o prêmio para caber no caixa agora, eu avalio. Quero ouvir a sua proposta concreta de ajuste."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Perfeito. Como você tem aqui uma preocupação, eu vou ajustar o capital de morte, vou ajustar também o capital de invalidez e vou colocar aqui um capital que atenda a sua necessidade por oito meses, no caso de uma doença grave, reduzindo o, a sua proposta de R$ 1.500 para R$ 1.000. Tudo bem pra você?"
+            },
+            {
+                "role": "AI",
+                "text": "Reduzir pra mil reais parece razoável, desde que fique claro que é temporário e que a gente revisa em quanto tempo. Qual seria o prazo sugerido pra essa revisão e como a alteração impacta os capitais cobertos?"
+            },
+            {
+                "role": "HUMAN",
+                "text": "Perfeita, ótima pergunta. É, nós podemos aguardar um prazo mínimo aí de seis meses pra poder fazer essa revisão e após esses seis meses, o que que a gente faz? Em vez de nós pausarmos essa proposta que já vai estar em andamento, nós vamos fazer uma nova proposta complementar aos capitais, é, executando aqui, fazendo o seu planejamento cem por cento ajustado pro seu momento. Pode ser até que nós aumentamos até um pouco mais, dependendo do momento, correto?"
+            },
+            {
+                "role": "AI",
+                "text": "Seis meses parece aceitável. Combine então que você me avisa quando abrir a janela para complementar e a gente agenda a revisão."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Com certeza, eu já vou deixar até na, anotado na minha agenda pra gente voltar a falar daqui a seis meses sobre as suas proteções. É, os próximos passos agora é definir quem você vai colocar de beneficiário"
+            },
+            {
+                "role": "AI",
+                "text": "Coloque minha esposa como beneficiária principal e dividir cem por cento entre ela e os dois filhos como secundários, com porcentagem a definir depois. Podemos seguir com esse rascunho e eu te confirmo as porcentagens em até sete dias."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Perfeito. O que que a gente consegue fazer agora? Eu sugiro a gente colocar aqui a sua esposa com 50% do capital e a gente divide 25%, vinte e cinco pros seus filhos e a gente já deixa aqui, é, os beneficiários inicialmente colocados e daqui a sete dias você pode verificar qual que é o percentual exato que você quer e ajustamos, porque beneficiário você pode modificar a qualquer momento na sua proposta, tudo bem?"
+            },
+            {
+                "role": "AI",
+                "text": "Tudo bem, pode seguir com esse rascunho.  \nConfirmo que te dou os percentuais finais dentro de sete dias."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Perfeito, isso não vai impedir da gente seguir aqui com a sua análise de saúde, tá bem? Eu vou colocar dessa forma e a gente preenche aqui a sua ficha de saúde. Ao final da ficha de saúde, nós vamos cadastrar a forma de pagamento e eu vou te mandar o token pra você assinar Após a assinatura do talking, a sua proposta já vai estar em análise e a MetLife só vai fazer o débito no seu cartão após a aprovação da sua proposta, ok?"
+            },
+            {
+                "role": "AI",
+                "text": "Ok, pode seguir com a ficha de saúde e o rascunho dos beneficiários.  \nQuando receber o token eu assino, e eu confirmo os percentuais finais dentro de sete dias."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Combinado, então tá tudo certo, vamos seguir aqui com a sua proposta. Parabéns pela sua escolha. Fico feliz em estar representando aí a sua, o seu seguro de vida e eu sou o seu ponto de apoio. Qualquer coisa você vai falar comigo daqui pra frente. Seja bem-vindo à MetLife e parabéns por proteger a sua família"
+            },
+            {
+                "role": "AI",
+                "text": "Obrigado. Vou acompanhar o processo e assinar quando receber o token.  \nMe avise por mensagem assim que a proposta entrar em análise pela seguradora."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Correto, eu te mando agora mesmo o token, assim que você liberar ela já vai estar em análise, mas eu te aviso"
+            },
+            {
+                "role": "AI",
+                "text": "Perfeito. Recebo o token e assino hoje à noite. Me avise quando"
+            }
+        ],
+        "finished": true,
+        "feedback": "Aqui está o debriefing da nossa troca.\n\n  \n\n🤓 PERSONA\n\nExecutivo sênior, perfil DISC vermelho, altamente analítico e exigente, trazendo como objeção principal a preocupação com o orçamento e o valor do prêmio mensal.\n\n  \n\n🎯 OBJETIVO PRINCIPAL\n\nO objetivo foi atingido: a objeção financeira foi explorada e superada, e a contratação foi efetivada sem constrangimento para o cliente.\n\n  \n\n➕ PONTOS FORTES\n\n- Você iniciou bem com perguntas abertas para identificar objeções além do aspecto financeiro, demonstrando escuta ativa e preocupação genuína.\n\n- Trouxe alternativas concretas de ajuste dos capitais segurados e do prêmio, permitindo a entrada do seguro mesmo diante do orçamento apertado, sem abandonar o fechamento.\n\n- Retomou as necessidades manifestadas na ADN para justificar as escolhas (proteção para a família, proteções em vida).\n\n- Detalhou claramente os próximos passos (escolha de beneficiários, processo do token, prazos), gerando segurança e transmitindo consultoria.\n\n- Manteve atitude acolhedora e ritmo humano, valorizando a decisão tomada pelo cliente. Continue assim!\n\n  \n\n📈 PONTOS DE MELHORIA\n\n- A técnica da Cruz VOSSA/NOSSA foi abordada de forma tímida; você focou bastante no ajuste de prêmio, mas poderia explicitar melhor o valor trocado (prêmio x capital protegido) para fortalecer a percepção de vantagem.\n\n- Sua principal pergunta de investigação ficou um pouco longa e repetitiva (\"além do financeiro, tem algo mais... o que exatamente te impediria...\"), diluindo o impacto. Da próxima vez, uma frase mais direta e objetiva pode abrir o diálogo de forma mais clara.\n\n- Você solicitou ao cliente indicar o valor ou cobertura preferida (“fala pra mim qual capital...”), transferindo a responsabilidade da proposta. Lembre-se, a iniciativa é sempre do corretor, principalmente com clientes analíticos.\n\nProgredindo nesses pontos, suas conversas vão fluir ainda melhor!\n\n  \n\n🩵 ANÁLISE EMOCIONAL\n\nSeu tom foi sereno, acolhedor e transparente. Mostrou confiança sem agressividade, alinhando-se bem ao perfil exigente do cliente.\n\n  \n\n🛅 MOMENTOS-CHAVE\n\nVocê propôs ajustar o seguro conforme o momento financeiro do cliente, em vez de forçar o fechamento no valor original — abordagem essencial para superar objeção real.\n\nAo explicar cada passo do processo (beneficiários, saúde, assinatura), você transmitiu domínio consultivo e segurança, o que favoreceu a aceitação final.\n\n  \n\n🔊 REFORMULAÇÕES RECOMENDADAS\n\nUma Power Phrase: “Ricardo, nunca vi uma família se arrepender por proteger quem ama. Só por deixar para depois.”\n\nPergunta de descoberta (refinando a sua): “Além do valor, existe algum outro ponto que te preocupa em decidir hoje?”\n\nPergunta de concordância tácita: “Vamos deixar sua esposa como beneficiária principal, tudo bem para você começarmos assim?”\n\nRetomando a Cruz: “Ricardo, por um valor mensal menor do que um jantar em família, você garante um capital de milhões para quem mais importa.”\n\n  \n\n➡️ RECOMENDAÇÕES\n\nExplore com mais clareza o trade-off prêmio/capital (Cruz VOSSA/NOSSA) e assuma sempre a condução da proposta, mesmo em ajustes. Mantenha objetividade e tempo de fala enxuto — clientes vermelhos valorizam isso. Mandou bem, agora é ajustar pequenos detalhes para apresentar ainda mais confiança!",
+        "insights": [
+            "O objetivo foi atingido: a objeção financeira foi explorada e superada, e a contratação foi efetivada sem constrangimento para o cliente.",
+            "Você iniciou bem com perguntas abertas para identificar objeções além do aspecto financeiro, demonstrando escuta ativa e preocupação genuína.",
+            "Trouxe alternativas concretas de ajuste dos capitais segurados e do prêmio, permitindo a entrada do seguro mesmo diante do orçamento apertado, sem abandonar o fechamento.",
+            "Retomou as necessidades manifestadas na ADN para justificar as escolhas (proteção para a família, proteções em vida).",
+            "Detalhou claramente os próximos passos (escolha de beneficiários, processo do token, prazos), gerando segurança e transmitindo consultoria.",
+            "Manteve atitude acolhedora e ritmo humano, valorizando a decisão tomada pelo cliente. Continue assim!",
+            "A técnica da Cruz VOSSA/NOSSA foi abordada de forma tímida; você focou bastante no ajuste de prêmio, mas poderia explicitar melhor o valor trocado (prêmio x capital protegido) para fortalecer a percepção de vantagem.",
+            "Sua principal pergunta de investigação ficou um pouco longa e repetitiva (\"além do financeiro, tem algo mais... o que exatamente te impediria...\"), diluindo o impacto. Da próxima vez, uma frase mais direta e objetiva pode abrir o diálogo de forma mais clara."
         ]
     },
     {
