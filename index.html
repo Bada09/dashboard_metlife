@@ -10,8 +10,8 @@
         rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-    <script src="metlife_users_data.js?v=44"></script>
-    <script src="metlife_simulations_data.js?v=44"></script>
+    <script src="metlife_users_data.js?v=46"></script>
+    <script src="metlife_simulations_data.js?v=46"></script>
 
     <style>
         :root {
@@ -1573,7 +1573,6 @@
             white-space: pre-wrap;
         }
 
-        /* ── AUDIO REPRODUCTION IN TRANSCRIPT ── */
         .transcript-header-row {
             display: flex;
             justify-content: space-between;
@@ -1582,129 +1581,11 @@
             flex-wrap: wrap;
             gap: 12px;
         }
-        .audio-player-toolbar {
-            display: inline-flex;
-            align-items: center;
-            gap: 8px;
-            background: rgba(4, 30, 66, 0.04);
-            padding: 5px 12px;
-            border-radius: 30px;
-            border: 1px solid rgba(4, 30, 66, 0.08);
-        }
-        .btn-audio-play {
-            display: inline-flex;
-            align-items: center;
-            gap: 7px;
-            background: linear-gradient(135deg, var(--primary), var(--primary-dark));
-            color: #ffffff;
-            border: none;
-            padding: 6px 14px;
-            border-radius: 20px;
-            font-size: 0.78rem;
-            font-weight: 700;
-            cursor: pointer;
-            transition: var(--transition);
-            box-shadow: 0 2px 8px rgba(0, 188, 242, 0.28);
-        }
-        .btn-audio-play:hover {
-            transform: translateY(-1px);
-            box-shadow: 0 4px 12px rgba(0, 188, 242, 0.4);
-        }
-        .btn-audio-stop {
-            display: inline-flex;
-            align-items: center;
-            justify-content: center;
-            width: 28px;
-            height: 28px;
-            background: #e2e8f0;
-            color: #475569;
-            border: none;
-            border-radius: 50%;
-            font-size: 0.75rem;
-            cursor: pointer;
-            transition: var(--transition);
-        }
-        .btn-audio-stop:hover {
-            background: #cbd5e1;
-            color: #0f172a;
-        }
-        .audio-speed-group {
-            display: inline-flex;
-            align-items: center;
-            gap: 3px;
-            margin-left: 2px;
-        }
-        .audio-speed-btn {
-            background: transparent;
-            border: 1px solid transparent;
-            color: var(--text-muted);
-            font-size: 0.72rem;
-            font-weight: 600;
-            padding: 2px 7px;
-            border-radius: 12px;
-            cursor: pointer;
-            transition: var(--transition);
-        }
-        .audio-speed-btn:hover {
-            color: var(--text-main);
-            background: rgba(0, 0, 0, 0.05);
-        }
-        .audio-speed-btn.active {
-            background: var(--accent);
-            color: #ffffff;
-            font-weight: 700;
-        }
-        .btn-msg-speak {
-            background: transparent;
-            border: none;
-            color: var(--text-muted);
-            cursor: pointer;
-            padding: 3px 6px;
-            border-radius: 6px;
-            font-size: 0.75rem;
-            transition: var(--transition);
-            opacity: 0.55;
-            display: inline-flex;
-            align-items: center;
-            justify-content: center;
-        }
-        .btn-msg-speak:hover {
-            opacity: 1;
-            color: var(--primary);
-            background: rgba(0, 188, 242, 0.12);
-        }
-        .transcript-bubble.playing-bubble {
-            border-color: var(--primary) !important;
-            box-shadow: 0 0 0 3px rgba(0, 188, 242, 0.25), 0 4px 14px rgba(0, 188, 242, 0.15) !important;
-            transform: translateY(-2px);
-            background: rgba(0, 188, 242, 0.08) !important;
-        }
         .transcript-bubble.search-matched-bubble {
             border: 2px solid var(--primary) !important;
             background: rgba(0, 188, 242, 0.08) !important;
             box-shadow: 0 4px 15px rgba(0, 188, 242, 0.18) !important;
         }
-        .audio-wave-anim {
-            display: inline-flex;
-            align-items: center;
-            gap: 2px;
-            height: 12px;
-            margin-left: 3px;
-        }
-        .audio-wave-anim .bar {
-            width: 2px;
-            height: 100%;
-            background: #ffffff;
-            border-radius: 1px;
-            animation: waveBounce 0.8s ease-in-out infinite alternate;
-        }
-        .audio-wave-anim .bar:nth-child(2) { animation-delay: 0.2s; }
-        .audio-wave-anim .bar:nth-child(3) { animation-delay: 0.4s; }
-        @keyframes waveBounce {
-            0% { height: 3px; }
-            100% { height: 12px; }
-        }
-
 
         /* Date Filter Period Buttons */
         .btn-period {
@@ -1746,6 +1627,88 @@
             * { -webkit-print-color-adjust: exact !important; print-color-adjust: exact !important; }
             .donut-container canvas { max-width: 120px !important; max-height: 120px !important; }
         }
+
+        /* ── SOFT SKILLS ── */
+        .softskills-area-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(290px, 1fr));
+            gap: 1.25rem;
+            margin-bottom: 2rem;
+        }
+        .softskills-area-card {
+            background: var(--card-bg);
+            border: 1px solid var(--card-border);
+            border-radius: var(--radius);
+            padding: 1.5rem;
+            cursor: pointer;
+            transition: var(--transition);
+        }
+        .softskills-area-card:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+            border-color: var(--primary);
+        }
+        .ssac-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.6rem; }
+        .ssac-header h3 { margin: 0; }
+        .ssac-score { font-family: 'Outfit'; font-weight: 700; font-size: 1.35rem; color: var(--primary-dark); }
+        .ssac-meta { display: flex; gap: 16px; font-size: 0.78rem; color: var(--text-muted); font-weight: 600; margin-bottom: 1rem; flex-wrap: wrap; }
+        .ssac-characteristic { font-size: 0.82rem; line-height: 1.55; color: var(--text-muted); margin-bottom: 1.1rem; min-height: 44px; }
+        .ssac-characteristic .txt-strength { color: #15803d; font-weight: 700; }
+        .ssac-characteristic .txt-gap { color: #b45309; font-weight: 700; margin-left: 4px; }
+        .executive-summary { font-size: 0.9rem; line-height: 1.65; color: var(--text-main); background: #f8fafc; border-left: 3px solid var(--primary); padding: 0.9rem 1.1rem; border-radius: 8px; margin-bottom: 1.2rem; }
+        .skill-legend { font-size: 0.72rem; color: var(--text-muted); margin-bottom: 0.9rem; line-height: 1.5; }
+        .ssac-cta { font-size: 0.75rem; font-weight: 800; color: var(--primary-dark); text-transform: uppercase; letter-spacing: 0.05em; display: flex; align-items: center; gap: 6px; }
+
+        .skill-pill {
+            display: inline-flex; align-items: center; gap: 4px;
+            font-size: 0.72rem; font-weight: 700; padding: 4px 10px;
+            border-radius: 999px; white-space: nowrap; line-height: 1.4;
+        }
+        .skill-pill.strength { background: rgba(34,197,94,0.12); color: #15803d; }
+        .skill-pill.gap { background: rgba(245,158,11,0.15); color: #b45309; }
+        .skill-pill.neutral { background: #f1f5f9; color: var(--text-muted); }
+
+        .expected-behavior-grid {
+            display: grid; grid-template-columns: repeat(auto-fit, minmax(270px, 1fr)); gap: 1.2rem;
+        }
+        .expected-behavior-item { display: flex; gap: 12px; align-items: flex-start; }
+        .ebi-emoji { font-size: 1.5rem; line-height: 1; }
+        .ebi-title { font-weight: 700; font-size: 0.88rem; color: var(--text-main); margin-bottom: 3px; }
+        .ebi-desc { font-size: 0.78rem; color: var(--text-muted); line-height: 1.45; }
+
+        .softskills-person-list { display: flex; flex-direction: column; gap: 1rem; }
+        .softskills-person-card {
+            background: var(--card-bg); border: 1px solid var(--card-border); border-radius: var(--radius);
+            padding: 1.3rem 1.6rem;
+        }
+        .sspc-top { display: flex; justify-content: space-between; align-items: center; cursor: pointer; gap: 1rem; flex-wrap: wrap; }
+        .sspc-name { font-weight: 700; font-size: 1.02rem; color: var(--text-main); }
+        .sspc-meta { font-size: 0.78rem; color: var(--text-muted); margin-top: 3px; }
+        .sspc-right { display: flex; align-items: center; gap: 16px; }
+        .toggle-caret { transition: transform 0.25s ease; color: var(--text-muted); }
+        .evolution-badge { font-size: 0.75rem; font-weight: 800; padding: 5px 11px; border-radius: 999px; display: inline-flex; align-items: center; gap: 5px; }
+        .evolution-badge.up { background: rgba(34,197,94,0.12); color: #15803d; }
+        .evolution-badge.down { background: rgba(239,68,68,0.12); color: #b91c1c; }
+        .evolution-badge.flat { background: #f1f5f9; color: var(--text-muted); }
+        .sspc-synthesis { margin-top: 1.1rem; padding-top: 1.1rem; border-top: 1px solid var(--card-border); }
+        .ss-inline-title { font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.06em; color: var(--text-muted); font-weight: 800; margin-bottom: 0.8rem; }
+        .skill-synthesis { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 1.2rem; }
+        .ss-col-title { font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.05em; font-weight: 800; margin-bottom: 0.7rem; display: flex; align-items: center; gap: 6px; }
+        .ss-col-title.strength { color: #15803d; }
+        .ss-col-title.gap { color: #b45309; }
+        .ss-col-pills { display: flex; flex-wrap: wrap; gap: 6px; }
+        .skill-pill-count { font-weight: 800; opacity: 0.75; margin-left: 2px; }
+        .sspc-detail { margin-top: 1.15rem; padding-top: 1.15rem; border-top: 1px dashed var(--card-border); }
+        .sspc-detail h4 { font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.06em; color: var(--text-muted); margin-bottom: 0.9rem; font-weight: 800; }
+        .session-history { display: flex; flex-direction: column; gap: 0.9rem; }
+        .session-history-item { background: #f8fafc; border-radius: 10px; padding: 0.95rem 1.05rem; }
+        .shi-top { display: flex; gap: 12px; align-items: center; flex-wrap: wrap; margin-bottom: 0.45rem; }
+        .shi-date { font-size: 0.75rem; font-weight: 700; color: var(--text-muted); }
+        .shi-scenario { font-size: 0.78rem; font-weight: 600; color: var(--text-main); }
+        .shi-score { margin-left: auto; font-weight: 800; color: var(--primary-dark); }
+        .shi-block { font-size: 0.82rem; line-height: 1.55; color: var(--text-muted); margin-top: 0.35rem; }
+        .shi-block.strength strong { color: #15803d; }
+        .shi-block.gap strong { color: #b45309; }
 </style>
 </head>
 
@@ -1767,7 +1730,8 @@
                 <span id="t-lastUpdate" style="color: rgba(255,255,255,0.65); font-size: 0.75rem; font-weight: 600; margin-left: 10px; background: rgba(255,255,255,0.08); padding: 4px 12px; border-radius: 12px; border: 1px solid rgba(255,255,255,0.12); backdrop-filter: blur(4px); letter-spacing: 0.02em;"></span>
             </div>
             <nav class="nav-menu">
-                <a href="#" class="nav-link active"><span id="t-menuDashboard">Dashboard</span></a>
+                <a href="#" class="nav-link active" id="navDashboard" onclick="event.preventDefault(); showGlobalStats();"><span id="t-menuDashboard">Dashboard</span></a>
+                <a href="#" class="nav-link" id="navSoftSkills" onclick="event.preventDefault(); showSoftSkillsHome();"><span id="t-menuSoftSkills">Soft Skills</span></a>
             </nav>
             <div class="header-controls">
                 <div class="lang-switch">
@@ -2039,11 +2003,6 @@
                 generalBtn: "Geral",
                 transcriptTitle: "Transcrição da Simulação",
                 noTranscript: "Nenhuma transcrição disponível para esta simulação.",
-                playAudio: "Ouvir Simulação",
-                pauseAudio: "Pausar",
-                resumeAudio: "Continuar",
-                stopAudio: "Parar",
-                playMessage: "Ouvir fala",
                 statusLabel: "Status dos Runs:",
                 statusAll: "Todos",
                 statusFinished: "Finalizados",
@@ -2057,7 +2016,24 @@
                     Crises: "Lidar com Objeções",
                     Padroes: "Assertividade",
                     Personalizacao: "Postura Consultiva"
-                }
+                },
+                menuSoftSkills: "Soft Skills",
+                softSkillsTitle: "Soft Skills",
+                softSkillsTitleAccent: "Consultivas",
+                softSkillsSubtitle: "Resumo de competências de venda consultiva por área de atuação e por corretor, com histórico de evolução e síntese das técnicas MetLife dominadas e a desenvolver.",
+                softSkillsAreaDesc: "Detalhamento por corretor: evolução de score, competências consistentes e pontos de melhoria comparando as sessões mais antigas com as mais recentes.",
+                viewDetails: "Ver detalhes",
+                expectedBehaviorTitle: "O que se espera de uma venda consultiva MetLife",
+                evolutionHistory: "Histórico de Evolução",
+                strengthsLabel: "Pontos fortes",
+                improvementsLabel: "Pontos de Melhoria",
+                noPatternYet: "Ainda sem padrão claro",
+                softSkillsSessionsAnalyzed: "simulações analisadas",
+                areaSynthesisTitle: "Síntese da Área",
+                personSynthesisTitle: "Resumo Executivo",
+                goodDominionOf: "Bom domínio de",
+                stillNeedsToDevelop: "Pontos de Melhoria:",
+                skillLegend: "Cada competência aparece só de um lado (forte ou a desenvolver), com base no saldo entre menções positivas e negativas nas simulações analisadas."
             },
             fr: {
                 menuDashboard: "Dashboard",
@@ -2134,11 +2110,6 @@
                 periodLabel: "Période Analysée:",
                 transcriptTitle: "Transcription de la Simulation",
                 noTranscript: "Aucune transcription disponible pour cette simulation.",
-                playAudio: "Écouter la Simulation",
-                pauseAudio: "Pause",
-                resumeAudio: "Reprendre",
-                stopAudio: "Arrêter",
-                playMessage: "Écouter ce message",
                 statusLabel: "Statut des Runs:",
                 statusAll: "Tous",
                 statusFinished: "Finalisés",
@@ -2152,7 +2123,24 @@
                     Crises: "Gestion des Objections",
                     Padroes: "Assertivité",
                     Personalizacao: "Posture Consultative"
-                }
+                },
+                menuSoftSkills: "Soft Skills",
+                softSkillsTitle: "Soft Skills",
+                softSkillsTitleAccent: "Consultatives",
+                softSkillsSubtitle: "Résumé des compétences de vente consultative par domaine d'activité et par collaborateur, avec historique d'évolution et synthèse des techniques MetLife maîtrisées et à développer.",
+                softSkillsAreaDesc: "Détail par collaborateur : évolution du score, compétences constantes et points de développement en comparant les sessions les plus anciennes aux plus récentes.",
+                viewDetails: "Voir les détails",
+                expectedBehaviorTitle: "Ce qu'on attend d'une vente consultative MetLife",
+                evolutionHistory: "Historique d'Évolution",
+                strengthsLabel: "Points forts",
+                improvementsLabel: "Points de Développement",
+                noPatternYet: "Pas encore de tendance claire",
+                softSkillsSessionsAnalyzed: "simulations analysées",
+                areaSynthesisTitle: "Synthèse du Domaine",
+                personSynthesisTitle: "Résumé Exécutif",
+                goodDominionOf: "Bonne maîtrise de",
+                stillNeedsToDevelop: "Points de Développement :",
+                skillLegend: "Chaque compétence apparaît d'un seul côté (point fort ou à développer), selon le solde entre mentions positives et négatives dans les simulations analysées."
             }
         };
 
@@ -2171,8 +2159,14 @@
             if (searchEl) searchEl.placeholder = ui[lang].search;
 
             renderUserList();
-            if (window.activeUser) selectUser(window.activeUser);
-            else showGlobalStats();
+            if (typeof currentView !== 'undefined' && currentView === 'softskills') {
+                if (currentSoftSkillArea) renderSoftSkillAreaDetail();
+                else renderSoftSkillsHome();
+            } else if (window.activeUser) {
+                selectUser(window.activeUser);
+            } else {
+                showGlobalStats();
+            }
         }
 
         // ── Helper: Correção de Acentos e Encoding ──
@@ -2711,465 +2705,8 @@
             refreshSimTable(u, a);
         }
 
-        // ── CONTROLE DE REPRODUÇÃO DE ÁUDIO DA TRANSCRIÇÃO ──
-        let isAudioPlaying = false;
-        let isAudioPaused = false;
-        let currentPlayingMsgIndex = -1;
-        let audioSpeed = 1.0;
-        let currentAudioElement = null;
-        let currentActiveSimOriginalIndex = 0;
-        let currentActiveSimBrokerName = '';
-
-        let availableSpeechVoices = [];
-        let userVoicePreference = localStorage.getItem('metlifePreferredVoice') || 'auto';
-        // Garantir migração suave: se havia uma voz única salva da versão anterior, volta para 'auto' (diálogo alternado)
-        if (userVoicePreference && userVoicePreference !== 'auto' && !userVoicePreference.startsWith('single_') && !userVoicePreference.startsWith('dual_')) {
-            userVoicePreference = 'auto';
-            localStorage.setItem('metlifePreferredVoice', 'auto');
-        }
-
-        function setUserVoicePreference(val) {
-            userVoicePreference = val;
-            localStorage.setItem('metlifePreferredVoice', val);
-        }
-
-        function isBrokerFemale(name) {
-            if (!name) return false;
-            const clean = name.trim().split(/\s+/)[0].toLowerCase()
-                .normalize('NFD').replace(/[\u0300-\u036f]/g, '');
-            const femaleNames = [
-                'juliana', 'sabrina', 'carolina', 'ana', 'maria', 'patricia', 'fernanda', 'amanda',
-                'beatriz', 'camila', 'daniela', 'debora', 'gabriela', 'helena', 'isabela', 'jessica',
-                'larissa', 'leticia', 'luana', 'marina', 'natalia', 'paula', 'renata', 'sophie',
-                'tatiana', 'vanessa', 'yara', 'thais', 'aline', 'bruna', 'claudia', 'elaine',
-                'fabiana', 'giselle', 'luciana', 'mariana', 'monica', 'priscila', 'simone', 'valeria'
-            ];
-            if (femaleNames.includes(clean)) return true;
-            if (clean.endsWith('a') && !['luca', 'lucas', 'nicola', 'elias', 'jonas', 'ayrton'].includes(clean)) {
-                return true;
-            }
-            return false;
-        }
-
-        function isFemaleVoice(v) {
-            const n = ((v && v.name) || '').toLowerCase();
-            return /francisca|thalita|brenda|giovanna|leila|leticia|manuela|raquel|ysabella|maria|heloisa|yara|denise|celine|sylvie|female|mulher/i.test(n)
-                || (n.includes('google') && !n.includes('male') && !n.includes('homem'));
-        }
-
-        function isMaleVoice(v) {
-            const n = ((v && v.name) || '').toLowerCase();
-            return /antonio|donato|fabio|julio|nicolau|valerio|daniel|felipe|alain|henri|paul|male|homem/i.test(n);
-        }
-
-        function getVoiceScore(voice) {
-            const name = (voice.name || '').toLowerCase();
-            let score = 0;
-            // Microsoft Edge "Natural" (Azure Neural - voz humana de estúdio de alta fidelidade)
-            if (name.includes('natural')) score += 120;
-            if (name.includes('neural')) score += 100;
-            if (name.includes('online')) score += 80;
-            // Google Online Voices (Chrome - voz fluida)
-            if (name.includes('google')) score += 90;
-            if (!voice.localService) score += 30;
-            return score;
-        }
-
-        function populateVoiceSelector() {
-            const select = document.getElementById('selectVoiceOption');
-            if (!select || !('speechSynthesis' in window)) return;
-            
-            let voices = availableSpeechVoices.length ? availableSpeechVoices : (window.speechSynthesis.getVoices() || []);
-            const prefix = currentLang === 'fr' ? 'fr' : 'pt';
-            const matching = voices.filter(v => v.lang && v.lang.toLowerCase().replace('_', '-').startsWith(prefix));
-
-            // Classificar: neurais/naturais primeiro
-            matching.sort((a, b) => {
-                const isNatA = /natural|neural|online|google/i.test(a.name);
-                const isNatB = /natural|neural|online|google/i.test(b.name);
-                if (isNatA && !isNatB) return -1;
-                if (!isNatA && isNatB) return 1;
-                return a.name.localeCompare(b.name);
-            });
-
-            let optionsHtml = '';
-            if (currentLang === 'pt') {
-                optionsHtml += `<option value="auto">🎭 Diálogo Automático (Alterna Você & rhapsody)</option>`;
-                optionsHtml += `<option value="dual_fem_ia_male_human">👩 rhapsody (Francisca) & 👨 Você (Antonio)</option>`;
-                optionsHtml += `<option value="dual_male_ia_fem_human">👨 rhapsody (Antonio) & 👩 Você (Francisca)</option>`;
-                optionsHtml += `<optgroup label="── Voz Fixa Única ──">`;
-            } else {
-                optionsHtml += `<option value="auto">🎭 Dialogue Automatique (Alterné)</option>`;
-                optionsHtml += `<optgroup label="── Voix Fixe ──">`;
-            }
-
-            matching.forEach(v => {
-                const isNatural = /natural|neural|online|google/i.test(v.name);
-                const tag = isNatural ? '⭐ ' : '';
-                const cleanName = v.name.replace(/ - Portuguese \(Brazil\)| - French \(France\)/gi, '').trim();
-                optionsHtml += `<option value="single_${v.voiceURI || v.name}">${tag}${cleanName}</option>`;
-            });
-
-            optionsHtml += `</optgroup>`;
-
-            select.innerHTML = optionsHtml;
-            if (userVoicePreference && [...select.options].some(o => o.value === userVoicePreference)) {
-                select.value = userVoicePreference;
-            } else {
-                select.value = 'auto';
-            }
-        }
-
-        function initVoices() {
-            if (!('speechSynthesis' in window)) return;
-            availableSpeechVoices = window.speechSynthesis.getVoices() || [];
-            populateVoiceSelector();
-        }
-        if ('speechSynthesis' in window) {
-            initVoices();
-            window.speechSynthesis.onvoiceschanged = initVoices;
-        }
-
-        function getBestVoice(lang, isHuman) {
-            if (!('speechSynthesis' in window)) return null;
-            let voices = availableSpeechVoices.length ? availableSpeechVoices : (window.speechSynthesis.getVoices() || []);
-            if (!voices.length) return null;
-
-            // Se o usuário selecionou uma voz única específica no seletor
-            if (userVoicePreference && userVoicePreference.startsWith('single_')) {
-                const targetName = userVoicePreference.replace('single_', '');
-                const explicitVoice = voices.find(v => (v.voiceURI === targetName || v.name === targetName));
-                if (explicitVoice) return explicitVoice;
-            }
-            
-            const prefix = lang === 'fr' ? 'fr' : 'pt';
-            const matching = voices.filter(v => v.lang && v.lang.toLowerCase().replace('_', '-').startsWith(prefix));
-            if (!matching.length) return null;
-
-            // Ordenar por pontuação de qualidade neural
-            const sorted = matching.slice().sort((a, b) => getVoiceScore(b) - getVoiceScore(a));
-
-            // Separar vozes femininas e masculinas
-            const femaleVoices = sorted.filter(isFemaleVoice);
-            const maleVoices = sorted.filter(isMaleVoice);
-
-            const bestFemale = femaleVoices[0] || sorted[0];
-            const bestMale = maleVoices[0] || (sorted.length > 1 ? sorted[1] : sorted[0]);
-
-            // Se selecionou par fixo no dropdown
-            if (userVoicePreference === 'dual_fem_ia_male_human') {
-                return isHuman ? bestMale : bestFemale;
-            }
-            if (userVoicePreference === 'dual_male_ia_fem_human') {
-                return isHuman ? bestFemale : bestMale;
-            }
-
-            // Modo Automático Inteligente ('auto'):
-            // Detecta o gênero do corretor para alternar com naturalidade máxima
-            const brokerName = currentActiveSimBrokerName || (window.activeUser ? window.activeUser.name : '');
-            const brokerFemale = isBrokerFemale(brokerName);
-
-            if (brokerFemale) {
-                // Corretora é mulher: "Você" fala com voz feminina, "rhapsody" com masculina
-                return isHuman ? bestFemale : bestMale;
-            } else {
-                // Corretor é homem (ou padrão): "Você" fala com voz masculina, "rhapsody" com feminina
-                return isHuman ? bestMale : bestFemale;
-            }
-        }
-
-        function prepareSpeechText(rawText) {
-            if (!rawText) return '';
-            let t = rawText;
-            // Remover tags HTML (ex: marcações de busca <mark>)
-            t = t.replace(/<[^>]+>/g, '');
-            // Ajustes fonéticos para pronúncia natural em Português
-            if (currentLang === 'pt') {
-                t = t.replace(/\bR\$\s*(\d+)/gi, '$1 reais');
-                t = t.replace(/\b(\d+)%/g, '$1 por cento');
-                t = t.replace(/\bMetLife\b/gi, 'Metlaife');
-                t = t.replace(/\brhapsody\b/gi, 'Rápsodi');
-                t = t.replace(/\bIA\b/g, 'I.A.');
-                t = t.replace(/\bDr\./gi, 'Doutor');
-                t = t.replace(/\bDra\./gi, 'Doutora');
-                t = t.replace(/\bSr\./gi, 'Senhor');
-                t = t.replace(/\bSra\./gi, 'Senhora');
-                t = t.replace(/\bvc\b/gi, 'você');
-                t = t.replace(/\btbm\b/gi, 'também');
-                t = t.replace(/\bpq\b/gi, 'porque');
-            }
-            return t;
-        }
-
-        function clearAudioHighlights() {
-            document.querySelectorAll('.transcript-bubble').forEach(b => {
-                b.classList.remove('playing-bubble');
-            });
-        }
-
-        function stopTranscriptAudio() {
-            if (currentAudioElement) {
-                currentAudioElement.pause();
-                currentAudioElement.currentTime = 0;
-                currentAudioElement = null;
-            }
-            if ('speechSynthesis' in window) {
-                window.speechSynthesis.cancel();
-            }
-            isAudioPlaying = false;
-            isAudioPaused = false;
-            currentPlayingMsgIndex = -1;
-            clearAudioHighlights();
-            updateAudioControlsUI();
-        }
-
-        function updateAudioControlsUI() {
-            const playBtn = document.getElementById('btnAudioPlay');
-            const stopBtn = document.getElementById('btnAudioStop');
-            const playIcon = document.getElementById('audioPlayIcon');
-            const playLabel = document.getElementById('audioPlayLabel');
-            const waveAnim = document.getElementById('audioWaveAnim');
-            if (!playBtn) return;
-
-            const playAudioText = (ui[currentLang] && ui[currentLang].playAudio) ? ui[currentLang].playAudio : 'Ouvir Simulação';
-            const pauseAudioText = (ui[currentLang] && ui[currentLang].pauseAudio) ? ui[currentLang].pauseAudio : 'Pausar';
-            const resumeAudioText = (ui[currentLang] && ui[currentLang].resumeAudio) ? ui[currentLang].resumeAudio : 'Continuar';
-
-            if (isAudioPlaying && !isAudioPaused) {
-                if (playIcon) playIcon.className = 'fas fa-pause';
-                if (playLabel) playLabel.innerText = pauseAudioText;
-                if (stopBtn) stopBtn.style.display = 'inline-flex';
-                if (waveAnim) waveAnim.style.display = 'inline-flex';
-            } else if (isAudioPaused) {
-                if (playIcon) playIcon.className = 'fas fa-play';
-                if (playLabel) playLabel.innerText = resumeAudioText;
-                if (stopBtn) stopBtn.style.display = 'inline-flex';
-                if (waveAnim) waveAnim.style.display = 'none';
-            } else {
-                if (playIcon) playIcon.className = 'fas fa-play';
-                if (playLabel) playLabel.innerText = playAudioText;
-                if (stopBtn) stopBtn.style.display = 'none';
-                if (waveAnim) waveAnim.style.display = 'none';
-            }
-        }
-
-        function toggleTranscriptAudio() {
-            if (isAudioPlaying && !isAudioPaused) {
-                if (currentAudioElement) {
-                    currentAudioElement.pause();
-                } else if ('speechSynthesis' in window) {
-                    window.speechSynthesis.pause();
-                }
-                isAudioPlaying = false;
-                isAudioPaused = true;
-                updateAudioControlsUI();
-            } else if (isAudioPaused) {
-                if (currentAudioElement) {
-                    currentAudioElement.play().catch(() => {});
-                } else if ('speechSynthesis' in window) {
-                    window.speechSynthesis.resume();
-                }
-                isAudioPlaying = true;
-                isAudioPaused = false;
-                updateAudioControlsUI();
-            } else {
-                playSimulationAudio(0);
-            }
-        }
-
-        function playSimulationAudio(startIndex = 0) {
-            stopTranscriptAudio();
-            isAudioPlaying = true;
-            isAudioPaused = false;
-            currentPlayingMsgIndex = startIndex;
-            updateAudioControlsUI();
-            playNextTranscriptMessage();
-        }
-
-        function playNextTranscriptMessage() {
-            if (!isAudioPlaying || isAudioPaused) return;
-            const bubbles = document.querySelectorAll('.transcript-bubble');
-            if (currentPlayingMsgIndex >= bubbles.length) {
-                stopTranscriptAudio();
-                return;
-            }
-
-            clearAudioHighlights();
-            const activeBubble = bubbles[currentPlayingMsgIndex];
-            if (activeBubble) {
-                activeBubble.classList.add('playing-bubble');
-                activeBubble.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
-            }
-
-            const textEl = activeBubble ? activeBubble.querySelector('.transcript-text') : null;
-            const isHuman = activeBubble && activeBubble.classList.contains('human');
-            const text = textEl ? textEl.innerText.trim() : '';
-            const speechText = prepareSpeechText(text);
-
-            if (!speechText) {
-                currentPlayingMsgIndex++;
-                playNextTranscriptMessage();
-                return;
-            }
-
-            // Tenta reproduzir arquivo .mp3 pré-gerado (Realismo Máximo Neural / Estúdio)
-            const origIdx = (currentActiveSimOriginalIndex !== undefined) ? currentActiveSimOriginalIndex : 0;
-            const mp3Path = `audio/sim_${origIdx}_msg_${currentPlayingMsgIndex}.mp3`;
-
-            let fallbackExecuted = false;
-            const fallbackToSynth = () => {
-                if (fallbackExecuted) return;
-                fallbackExecuted = true;
-                currentAudioElement = null;
-                const utt = new SpeechSynthesisUtterance(speechText);
-                const lang = currentLang === 'fr' ? 'fr' : 'pt';
-                utt.lang = lang === 'fr' ? 'fr-FR' : 'pt-BR';
-                utt.rate = (audioSpeed || 1.0) * (isHuman ? 0.98 : 1.02);
-                utt.pitch = isHuman ? 0.98 : 1.02;
-
-                const voice = getBestVoice(lang, isHuman);
-                if (voice) utt.voice = voice;
-
-                utt.onend = () => {
-                    if (isAudioPlaying && !isAudioPaused) {
-                        currentPlayingMsgIndex++;
-                        playNextTranscriptMessage();
-                    }
-                };
-                utt.onerror = (e) => {
-                    console.warn('SpeechSynthesis error:', e);
-                    if (isAudioPlaying && !isAudioPaused) {
-                        currentPlayingMsgIndex++;
-                        playNextTranscriptMessage();
-                    }
-                };
-                window.speechSynthesis.speak(utt);
-            };
-
-            // Se o usuário selecionou uma opção customizada (par alternado ou voz fixa), prioriza SpeechSynthesis diretamente
-            if (userVoicePreference && userVoicePreference !== 'auto') {
-                fallbackToSynth();
-                return;
-            }
-
-            const audio = new Audio();
-            audio.playbackRate = audioSpeed || 1.0;
-
-            audio.oncanplaythrough = () => {
-                if (fallbackExecuted) return;
-                currentAudioElement = audio;
-                audio.play().catch(e => {
-                    fallbackToSynth();
-                });
-            };
-
-            audio.onended = () => {
-                currentAudioElement = null;
-                if (isAudioPlaying && !isAudioPaused) {
-                    currentPlayingMsgIndex++;
-                    playNextTranscriptMessage();
-                }
-            };
-
-            audio.onerror = () => {
-                fallbackToSynth();
-            };
-
-            audio.src = mp3Path;
-        }
-
-        function speakSingleMessage(index) {
-            stopTranscriptAudio();
-
-            const bubble = document.getElementById(`transcriptBubble-${index}`);
-            if (!bubble) return;
-
-            bubble.classList.add('playing-bubble');
-            isAudioPlaying = true;
-            isAudioPaused = false;
-            currentPlayingMsgIndex = index;
-            updateAudioControlsUI();
-
-            const textEl = bubble.querySelector('.transcript-text');
-            const isHuman = bubble.classList.contains('human');
-            const text = textEl ? textEl.innerText.trim() : '';
-            const speechText = prepareSpeechText(text);
-
-            if (!speechText) {
-                stopTranscriptAudio();
-                return;
-            }
-
-            const origIdx = (currentActiveSimOriginalIndex !== undefined) ? currentActiveSimOriginalIndex : 0;
-            const mp3Path = `audio/sim_${origIdx}_msg_${index}.mp3`;
-
-            let fallbackExecuted = false;
-            const fallbackToSynth = () => {
-                if (fallbackExecuted) return;
-                fallbackExecuted = true;
-                currentAudioElement = null;
-                const utt = new SpeechSynthesisUtterance(speechText);
-                const lang = currentLang === 'fr' ? 'fr' : 'pt';
-                utt.lang = lang === 'fr' ? 'fr-FR' : 'pt-BR';
-                utt.rate = (audioSpeed || 1.0) * (isHuman ? 0.98 : 1.02);
-                utt.pitch = isHuman ? 0.98 : 1.02;
-
-                const voice = getBestVoice(lang, isHuman);
-                if (voice) utt.voice = voice;
-
-                utt.onend = () => {
-                    stopTranscriptAudio();
-                };
-                utt.onerror = () => {
-                    stopTranscriptAudio();
-                };
-                window.speechSynthesis.speak(utt);
-            };
-
-            // Se o usuário selecionou uma opção customizada (par alternado ou voz fixa), prioriza SpeechSynthesis diretamente
-            if (userVoicePreference && userVoicePreference !== 'auto') {
-                fallbackToSynth();
-                return;
-            }
-
-            const audio = new Audio();
-            audio.playbackRate = audioSpeed || 1.0;
-
-            audio.oncanplaythrough = () => {
-                if (fallbackExecuted) return;
-                currentAudioElement = audio;
-                audio.play().catch(e => {
-                    fallbackToSynth();
-                });
-            };
-
-            audio.onended = () => {
-                stopTranscriptAudio();
-            };
-
-            audio.onerror = () => {
-                fallbackToSynth();
-            };
-
-            audio.src = mp3Path;
-        }
-
-        function setAudioSpeed(speed) {
-            audioSpeed = speed;
-            if (currentAudioElement) {
-                currentAudioElement.playbackRate = speed;
-            }
-            document.querySelectorAll('.audio-speed-btn').forEach(b => {
-                b.classList.toggle('active', parseFloat(b.dataset.speed) === speed);
-            });
-            if (isAudioPlaying && !isAudioPaused && currentPlayingMsgIndex >= 0 && !currentAudioElement) {
-                window.speechSynthesis.cancel();
-                playNextTranscriptMessage();
-            }
-        }
 
         function showSimulationDetail(originalIndex, filterUser = null, skipTableSortChange = false) {
-            stopTranscriptAudio();
             currentFilterUser = filterUser === 'all' ? null : filterUser;
             const filtered = getSortedAndFilteredSims(currentFilterUser);
 
@@ -3196,8 +2733,6 @@
             }
 
             currentSimIndex = localIndex >= 0 ? localIndex : 0;
-            currentActiveSimOriginalIndex = (sim.originalIdx !== undefined) ? sim.originalIdx : originalIndex;
-            currentActiveSimBrokerName = sim.name || '';
             const totalSimsCount = (filtered && filtered.length > 0) ? filtered.length : 1;
             const user = activeUsers.find(u => u.name === sim.name) || activeUsers[0];
             const content = document.getElementById('mainContent');
@@ -3374,10 +2909,6 @@
                     ${(() => {
                         const transcriptTitle = ui[currentLang].transcriptTitle || 'Transcrição da Simulação';
                         const noTranscriptText = ui[currentLang].noTranscript || 'Nenhuma transcrição disponível para esta simulação.';
-                        const playAudioText = ui[currentLang].playAudio || 'Ouvir Simulação';
-                        const stopAudioText = ui[currentLang].stopAudio || 'Parar';
-                        const playMsgText = ui[currentLang].playMessage || 'Ouvir fala';
-                        
                         if (sim.messages && sim.messages.length > 0) {
                             return `
                                 <div class="card" style="margin-top: 2rem;">
@@ -3385,31 +2916,6 @@
                                         <h3 style="color: var(--accent); text-transform: uppercase; font-size: 0.8rem; letter-spacing: 0.1em; margin: 0; display: flex; align-items: center; gap: 8px;">
                                             <i class="fas fa-comments" style="color: var(--primary);"></i> ${transcriptTitle}
                                         </h3>
-                                        <div class="audio-player-toolbar">
-                                            <button id="btnAudioPlay" class="btn-audio-play" onclick="toggleTranscriptAudio()">
-                                                <i class="fas fa-play" id="audioPlayIcon"></i>
-                                                <span id="audioPlayLabel">${playAudioText}</span>
-                                                <span class="audio-wave-anim" id="audioWaveAnim" style="display: none;">
-                                                    <span class="bar"></span>
-                                                    <span class="bar"></span>
-                                                    <span class="bar"></span>
-                                                </span>
-                                            </button>
-                                            <button id="btnAudioStop" class="btn-audio-stop" onclick="stopTranscriptAudio()" style="display: none;" title="${stopAudioText}">
-                                                <i class="fas fa-stop"></i>
-                                            </button>
-                                            <div class="audio-speed-group">
-                                                <button class="audio-speed-btn active" data-speed="1" onclick="setAudioSpeed(1)">1x</button>
-                                                <button class="audio-speed-btn" data-speed="1.25" onclick="setAudioSpeed(1.25)">1.25x</button>
-                                                <button class="audio-speed-btn" data-speed="1.5" onclick="setAudioSpeed(1.5)">1.5x</button>
-                                            </div>
-                                            <div class="voice-selector-box" style="display: inline-flex; align-items: center; gap: 6px; margin-left: 6px;">
-                                                <i class="fas fa-headset" style="font-size: 0.75rem; color: var(--text-muted);" title="Seletor de Voz"></i>
-                                                <select id="selectVoiceOption" onchange="setUserVoicePreference(this.value)" style="padding: 4px 8px; border-radius: 6px; font-size: 0.75rem; border: 1px solid var(--border); background: var(--card-bg); color: var(--text-main); outline: none; cursor: pointer; max-width: 250px;" title="Alternância de Vozes (rhapsody ↔ Você)">
-                                                    <option value="auto">🎭 ${currentLang === 'pt' ? 'Diálogo Automático (Alterna Você & rhapsody)' : 'Dialogue Automatique'}</option>
-                                                </select>
-                                            </div>
-                                        </div>
                                     </div>
                                     <div class="transcript-container" id="transcriptContainer">
                                         ${sim.messages.map((msg, mIdx) => {
@@ -3430,9 +2936,6 @@
                                                             ${isHuman ? label + ' ' + icon : icon + ' ' + label}
                                                             ${isMatch ? `<span style="margin-left: 8px; font-size: 0.68rem; background: #fef08a; color: #854d0e; padding: 2px 6px; border-radius: 4px; font-weight: 700; text-transform: uppercase;"><i class="fas fa-search"></i> ${currentLang === 'pt' ? 'Correspondência' : 'Correspondance'}</span>` : ''}
                                                         </span>
-                                                        <button class="btn-msg-speak" onclick="speakSingleMessage(${mIdx})" title="${playMsgText}">
-                                                            <i class="fas fa-volume-up"></i>
-                                                        </button>
                                                     </div>
                                                     <p class="transcript-text">${displayText}</p>
                                                 </div>
@@ -3459,7 +2962,6 @@
             `;
             window.scrollTo({ top: 0, behavior: 'smooth' });
             runCountUp();
-            populateVoiceSelector();
             if (currentSimSearchKeyword && currentSimSearchKeyword.trim()) {
                 setTimeout(() => {
                     const firstMatched = document.querySelector('.transcript-bubble.search-matched-bubble');
@@ -3483,13 +2985,14 @@
             }
         }
         function hideSimNav() {
-            stopTranscriptAudio();
             document.getElementById('simNav').style.display = 'none';
             currentFilterUser = null;
         }
 
         function showGlobalStats() {
             hideSimNav();
+            currentView = 'dashboard';
+            syncNavActive();
             window.activeUser = null;
             renderUserList();
 
@@ -3989,6 +3492,8 @@
 
         function selectUser(user) {
             hideSimNav();
+            currentView = 'dashboard';
+            syncNavActive();
             window.activeUser = user;
             const userSims = getFilteredSims(VALID_SIMS.filter(s => cleanName(s.name) === cleanName(user.name)));
             const userTotalSeconds = userSims.reduce((acc, s) => acc + getSec(s.dur), 0);
@@ -4199,11 +3704,11 @@
                             <div id="u-skills"></div>
                         </div>
                         <div class="card">
-                            <h3 style="color: var(--accent); text-transform: uppercase; font-size: 0.8rem; letter-spacing: 0.1em; margin-bottom: 2rem;">${ui[currentLang].aiFeedback}</h3>
+                            <h3 style="color: var(--accent); text-transform: uppercase; font-size: 0.8rem; letter-spacing: 0.1em; margin-bottom: 2rem;">${ui[currentLang].behavior}</h3>
                             <div class="insight-box">
                                 <div class="insight-header">
-                                    <i class="fas fa-microphone"></i>
-                                    <h4>${ui[currentLang].realTimeSession}</h4>
+                                    <i class="fas fa-lightbulb"></i>
+                                    <h4>${ui[currentLang].contextLabel}</h4>
                                 </div>
                                 <ul class="bullet-list" id="u-insight"></ul>
                                 <div class="skill-bar-container" style="margin-top: 2rem; padding-top: 1.5rem; border-top: 1px solid #e2e8f0;">
@@ -4229,11 +3734,14 @@
                 </div>
             `;
 
-            // Bullet Summary
+            // Bullet Summary — resumo de características agregado de TODAS as
+            // simulações da pessoa (não apenas uma corrida específica).
             const insightBox = document.getElementById('u-insight');
-            (user.insights[currentLang] || []).forEach(txt => {
+            const matchingSim = getSoftSkillsSims().find(s => cleanName(s.name) === cleanName(user.name));
+            const charProfile = matchingSim ? buildPersonProfile(matchingSim.name, getSoftSkillsSims()) : null;
+            characteristicsBullets(charProfile).forEach(txt => {
                 const li = document.createElement('li');
-                li.innerText = fixEnc(txt);
+                li.innerText = txt;
                 insightBox.appendChild(li);
             });
 
@@ -4493,7 +4001,635 @@
             });
         });
 
-                // Initialize
+                // ══════════════════════════════════════════════════════════════════
+        // SOFT SKILLS — resumo por área e por corretor, baseado nas
+        // competências e técnicas de venda consultiva definidas pela
+        // MetLife/rhapsody (roteiro de 8 etapas, tratamento de objeções,
+        // técnica de fechamento, ativação de indicações, etc.)
+        // ══════════════════════════════════════════════════════════════════
+
+        var currentView = 'dashboard';
+        var currentSoftSkillArea = null;
+
+        function syncNavActive() {
+            const navD = document.getElementById('navDashboard');
+            const navS = document.getElementById('navSoftSkills');
+            if (navD) navD.classList.toggle('active', currentView === 'dashboard');
+            if (navS) navS.classList.toggle('active', currentView === 'softskills');
+        }
+
+        // As 11 competências de venda consultiva avaliadas, cobrindo todo o funil
+        // MetLife: prospecção → qualificação → argumentação → objeções →
+        // fechamento → pós-venda. Cada uma corresponde a uma técnica nomeada
+        // nos próprios cenários e critérios de avaliação da operação MetLife.
+        const SALES_SKILLS = [
+            { key: 'escuta', emoji: '👂',
+              pt: 'Escuta Ativa', fr: 'Écoute Active',
+              desc: { pt: 'Manter a calma e ouvir genuinamente o prospect antes de responder — uma das competências oficiais avaliadas pela rhapsody IA em todo o funil MetLife, e um dos objetivos explícitos do roteiro de prospecção fria.',
+                      fr: 'Garder son calme et écouter réellement le prospect avant de répondre — l\'une des compétences officielles évaluées par rhapsody IA sur tout l\'entonnoir MetLife, et un objectif explicite du script de prospection à froid.' },
+              kw: ['escuta','escutar','ouvi','ouvir','ecoute','ecouter','atento','atenta','calma','calme','paciencia','paciente'] },
+            { key: 'qualificacao', emoji: '🎯',
+              pt: 'Qualificação Rápida e Fina', fr: 'Qualification Rapide et Fine',
+              desc: { pt: 'Diagnosticar rapidamente a real necessidade do prospect e o tipo de objeção em jogo (explícita, vaga ou pergunta) — competência oficial avaliada pela rhapsody IA, essencial para não perder tempo em uma ligação de prospecção.',
+                      fr: 'Diagnostiquer rapidement le vrai besoin du prospect et le type d\'objection en jeu (explicite, vague ou question) — compétence officielle évaluée par rhapsody IA, essentielle pour ne pas perdre de temps lors d\'un appel de prospection.' },
+              kw: ['qualific','necessidade','besoin','diagnostic','perfil','identificar a objec','tipo de objec','type d\'objection'] },
+            { key: 'roteiro', emoji: '📋',
+              pt: 'Domínio do Roteiro Consultivo', fr: 'Maîtrise du Script Consultatif',
+              desc: { pt: 'Dominar o roteiro de ligação em 8 etapas e manter o controle da conversa sem ser agressivo — objetivo central do cenário de transformar um prospect frio em reunião qualificada.',
+                      fr: 'Maîtriser le script d\'appel en 8 étapes et garder le contrôle de la conversation sans être agressif — objectif central du scénario de transformation d\'un prospect froid en rendez-vous qualifié.' },
+              kw: ['roteiro','script','etapa','étape','controle da ligacao','controle du call','agenda','estrutura da ligacao'] },
+            { key: 'objeccoes', emoji: '🔧',
+              pt: 'Tratamento de Objeções ("Sim, Mas")', fr: 'Traitement des Objections (« Oui, Mais »)',
+              desc: { pt: 'Usar o método "Sim, mas..." para acolher a objeção do prospect sem confronto direto e redirecionar a conversa — técnica nomeada explicitamente nos critérios de avaliação da MetLife.',
+                      fr: 'Utiliser la méthode « Oui, mais... » pour accueillir l\'objection du prospect sans confrontation directe et rediriger la conversation — technique explicitement nommée dans les critères d\'évaluation MetLife.' },
+              kw: ['objec','sim mas','oui mais','yes but','contorna','contourne','rebate'] },
+            { key: 'neutralizacao', emoji: '🪃',
+              pt: 'Neutralização de Adiamento (Bumerangue/CLOSE)', fr: 'Neutralisation du Report (Boomerang/CLOSE)',
+              desc: { pt: 'Aplicar a sequência completa Sim Mas · Bumerangue · Recapitulação · CLOSE para descobrir a verdadeira objeção por trás de um "vou pensar" ou "está caro" e neutralizar o adiamento — técnica MetLife nomeada nos cenários de objeção financeira e de adiamento.',
+                      fr: 'Appliquer la séquence complète Oui Mais · Boomerang · Récapitulation · CLOSE pour découvrir la vraie objection derrière un « je vais réfléchir » ou « c\'est cher » et neutraliser le report — technique MetLife nommée dans les scénarios d\'objection financière et de report.' },
+              kw: ['bumerangue','boomerang','recapitul','récapitul','close','adiamento','report','vou pensar','je vais reflechir','esta caro','c\'est cher','power phrase','cruz vossa','cruz nossa','tecnica gorilla','technique gorilla','tecnica russa','obligation','swap'] },
+            { key: 'assertividade', emoji: '💬',
+              pt: 'Assertividade', fr: 'Assertivité',
+              desc: { pt: 'Transmitir confiança e energia na voz, conduzindo a ligação com firmeza — competência oficial avaliada pela rhapsody IA e objetivo explícito do roteiro de prospecção fria.',
+                      fr: 'Transmettre confiance et énergie dans la voix, en menant l\'appel avec fermeté — compétence officielle évaluée par rhapsody IA et objectif explicite du script de prospection à froid.' },
+              kw: ['assertiv','confianca','confiance','energia na voz','energie dans la voix','firmeza','fermete'] },
+            { key: 'fechamento', emoji: '🤝',
+              pt: 'Fechamento por Eleição Forçada', fr: 'Conclusion par Choix Forcé',
+              desc: { pt: 'Aplicar a "eleição forçada" para travar o agendamento (oferecendo duas opções de horário, nunca um "quando você puder") e, quando possível, fechar a contratação ainda no primeiro encontro, sem pressão.',
+                      fr: 'Appliquer le « choix forcé » pour verrouiller le rendez-vous (en proposant deux créneaux, jamais un « quand vous voulez ») et, si possible, conclure le contrat dès le premier entretien, sans pression.' },
+              kw: ['eleicao forcada','escolha forcada','choix force','concordancia tacita','accord tacite','fechar','conclure','agendar','prise de rendez-vous','fechamento','conclusion'] },
+            { key: 'personalizacao', emoji: '📄',
+              pt: 'Recusa de Material Genérico', fr: 'Refus de Matériel Générique',
+              desc: { pt: 'Recusar o envio de material não personalizado quando o prospect pede "me manda um documento" e redirecionar a conversa para o agendamento de uma reunião — objetivo nomeado no cenário "Envie-me um documento".',
+                      fr: 'Refuser l\'envoi de matériel non personnalisé quand le prospect demande « envoyez-moi un document » et rediriger la conversation vers la prise de rendez-vous — objectif nommé dans le scénario « Envoyez-moi un document ».' },
+              kw: ['material generico','materiel generique','envie um documento','envoyez-moi un document','redirecionar','rediriger'] },
+            { key: 'sensibilizacao', emoji: '🕊️',
+              pt: 'Abordagem Ética de Temas Sensíveis', fr: 'Approche Éthique des Sujets Sensibles',
+              desc: { pt: 'Dedramatizar o tema da cobertura por morte com tato e empatia, mostrando o interesse real das soluções MetLife para proteger a família do prospect — objetivo do cenário de argumentação sobre cobertura de vida/sucessão.',
+                      fr: 'Dédramatiser le sujet de la garantie décès avec tact et empathie, en montrant l\'intérêt réel des solutions MetLife pour protéger les proches du prospect — objectif du scénario d\'argumentaire sur la couverture décès.' },
+              kw: ['dedramatiz','dédramatis','morte','deces','proteger a familia','proteger os entes','proteger ses proches','sensivel','sensible'] },
+            { key: 'reconexao', emoji: '🧭',
+              pt: 'Reconexão com o Propósito de Proteção', fr: 'Reconnexion au But de Protection',
+              desc: { pt: 'Reativar o desejo original de proteção do prospect, reconectando-o ao motivo que o levou a considerar o seguro — parte da técnica MetLife de neutralização de adiamento no cenário de objeções ao fechamento do contrato.',
+                      fr: 'Réactiver le désir initial de protection du prospect, en le reconnectant au motif qui l\'a poussé à considérer l\'assurance — élément de la technique MetLife de neutralisation du report dans le scénario d\'objections à la signature.' },
+              kw: ['proposito','but','motivo original','raison initiale','protecao da familia','protecao familiar','protection familiale','reconectar','reconnecter'] },
+            { key: 'indicacoes', emoji: '🔗',
+              pt: 'Ativação de Indicações (Momento UAU)', fr: 'Activation de Recommandations (Moment WOW)',
+              desc: { pt: 'Aproveitar o "momento UAU" pós-venda — quando o cliente está mais satisfeito — para obter recomendações qualificadas de forma natural, sem parecer uma abordagem comercial forçada, usando a técnica A.S.K.T.H.E.M.A.N.; alimenta o KPI oficial "número de recomendações".',
+                      fr: 'Exploiter le « moment WOW » post-vente — quand le client est le plus satisfait — pour obtenir des recommandations qualifiées de manière naturelle, sans donner l\'impression d\'une démarche commerciale forcée, avec la technique A.S.K.T.H.E.M.A.N. ; alimente le KPI officiel « nombre de recommandations ».' },
+              kw: ['indicac','recommand','recomendac','momento uau','moment wow','momento wow','momento de ouro','a.s.k.t.h.e.m.a.n','ask them man'] },
+            { key: 'consultiva', emoji: '🎓',
+              pt: 'Postura Consultiva', fr: 'Posture Consultative',
+              desc: { pt: 'Conduzir a venda como um consultor que educa e recomenda no interesse do cliente, sem pressão nem tom de vendedor — a própria MetLife nomeia essa postura como uma das competências centrais avaliadas em todo o funil.',
+                      fr: 'Mener la vente comme un consultant qui éduque et recommande dans l\'intérêt du client, sans pression ni ton commercial — MetLife elle-même désigne cette posture comme l\'une des compétences centrales évaluées sur tout l\'entonnoir.' },
+              kw: ['postura consultiva','posture consultative','consultor','consultant','sem pressao','sans pression'] }
+        ];
+
+        function normTxt(s) {
+            return (s || '').toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, '');
+        }
+
+        function skillPill(key, kind) {
+            const sk = SALES_SKILLS.find(s => s.key === key);
+            if (!sk) return '';
+            return `<span class="skill-pill ${kind}">${sk.emoji} ${sk[currentLang]}</span>`;
+        }
+
+        // Cada competência entra SÓ de um lado (forte OU a desenvolver), nunca nos
+        // dois — o saldo é (menções como ponto forte) - (menções como melhoria).
+        function computeNetSkills(strengthCounts, gapCounts) {
+            const strengths = [], gaps = [];
+            SALES_SKILLS.forEach(sk => {
+                const s = (strengthCounts && strengthCounts[sk.key]) || 0;
+                const g = (gapCounts && gapCounts[sk.key]) || 0;
+                const net = s - g;
+                if (net > 0) strengths.push({ key: sk.key, count: s, net });
+                else if (net < 0) gaps.push({ key: sk.key, count: g, net });
+            });
+            strengths.sort((a, b) => b.net - a.net || b.count - a.count);
+            gaps.sort((a, b) => a.net - b.net || b.count - a.count);
+            return { strengths, gaps };
+        }
+
+        function renderSkillPillsFromList(list, kind, emptyLabel) {
+            if (!list.length) return `<span class="skill-pill neutral">${emptyLabel}</span>`;
+            return list.map(({ key, count }) => {
+                const sk = SALES_SKILLS.find(s => s.key === key);
+                if (!sk) return '';
+                return `<span class="skill-pill ${kind}">${sk.emoji} ${sk[currentLang]} <span class="skill-pill-count">×${count}</span></span>`;
+            }).join('');
+        }
+
+        function renderSkillSynthesis(strengthCounts, gapCounts) {
+            const L = ui[currentLang];
+            const { strengths, gaps } = computeNetSkills(strengthCounts, gapCounts);
+            return `
+                <div class="skill-legend">${L.skillLegend}</div>
+                <div class="skill-synthesis">
+                    <div class="skill-synthesis-col">
+                        <h5 class="ss-col-title strength"><i class="fas fa-circle-check"></i> ${L.strengthsLabel}</h5>
+                        <div class="ss-col-pills">${renderSkillPillsFromList(strengths, 'strength', L.noPatternYet)}</div>
+                    </div>
+                    <div class="skill-synthesis-col">
+                        <h5 class="ss-col-title gap"><i class="fas fa-triangle-exclamation"></i> ${L.improvementsLabel}</h5>
+                        <div class="ss-col-pills">${renderSkillPillsFromList(gaps, 'gap', L.noPatternYet)}</div>
+                    </div>
+                </div>
+            `;
+        }
+
+        // Junta nomes de competências em uma frase natural: "A, B e C"
+        function joinSkillLabels(keys, max) {
+            const labels = (keys || []).slice(0, max).map(k => {
+                const sk = SALES_SKILLS.find(s => s.key === k);
+                return sk ? sk[currentLang] : null;
+            }).filter(Boolean);
+            if (!labels.length) return '';
+            if (labels.length === 1) return labels[0];
+            const conj = currentLang === 'fr' ? 'et' : 'e';
+            return `${labels.slice(0, -1).join(', ')} ${conj} ${labels[labels.length - 1]}`;
+        }
+
+        // Resumo executivo em texto corrido — característica geral da área,
+        // baseada nas competências de venda consultiva esperadas pela MetLife.
+        function areaExecutiveSummary(area) {
+            const L = ui[currentLang];
+            const areaLabel = L['area' + area.area.replace(/\s/g, '')] || area.area;
+            const { strengths, gaps } = computeNetSkills(area.strengthCounts, area.gapCounts);
+            const strengthsTxt = joinSkillLabels(strengths.map(s => s.key), 3);
+            const gapsTxt = joinSkillLabels(gaps.map(g => g.key), 2);
+            if (currentLang === 'fr') {
+                let s = `L'équipe ${areaLabel} affiche un score moyen de ${area.avgScore}%.`;
+                if (strengthsTxt) s += ` Bonne maîtrise de : ${strengthsTxt}.`;
+                if (gapsTxt) s += ` Points de développement : ${gapsTxt}.`;
+                return s;
+            }
+            let s = `A área de ${areaLabel} tem score médio de ${area.avgScore}%.`;
+            if (strengthsTxt) s += ` Bom domínio de ${strengthsTxt}.`;
+            if (gapsTxt) s += ` Pontos de melhoria: ${gapsTxt}.`;
+            return s;
+        }
+
+        // Resumo executivo individual — evolução de score + o que melhorou e o
+        // que ainda precisa desenvolver, comparando as sessões mais antigas com
+        // as mais recentes do mesmo corretor.
+        function personExecutiveSummary(p) {
+            const firstName = p.name.trim().split(' ')[0];
+            const { strengths } = computeNetSkills(p.strengthCounts, p.gapCounts);
+            const improvedTxt = joinSkillLabels(p.resolvedGaps, 2);
+            const stillTxt = joinSkillLabels(p.persistentGaps, 2);
+            // não repete uma competência já citada como "pontos de melhoria" (persistente
+            // ou já resolvida) na lista de "ponto forte consistente" — evita a mesma
+            // competência aparecer simultaneamente nos dois lados do resumo.
+            const consistentStrengthKeys = strengths.map(s => s.key).filter(k => !p.resolvedGaps.includes(k) && !p.persistentGaps.includes(k));
+            const topStrengthTxt = joinSkillLabels(consistentStrengthKeys, 2);
+
+            const parts = [];
+            if (currentLang === 'fr') {
+                if (p.count > 1) {
+                    if (p.delta > 0) parts.push(`${firstName} a progressé de ${p.delta} points depuis sa première session évaluée (${p.firstScore}% → ${p.lastScore}%)`);
+                    else if (p.delta < 0) parts.push(`${firstName} a reculé de ${Math.abs(p.delta)} points depuis sa première session évaluée (${p.firstScore}% → ${p.lastScore}%)`);
+                    else parts.push(`${firstName} maintient un score stable, autour de ${p.avgScore}%`);
+                } else {
+                    parts.push(`${firstName} a une session évaluée, avec un score de ${p.avgScore}%`);
+                }
+                if (topStrengthTxt) parts.push(`point fort constant en ${topStrengthTxt}`);
+                if (improvedTxt) parts.push(`a progressé en ${improvedTxt}`);
+                if (stillTxt) parts.push(`points de développement : ${stillTxt}`);
+                return parts.join('. ') + '.';
+            }
+
+            if (p.count > 1) {
+                if (p.delta > 0) parts.push(`${firstName} evoluiu ${p.delta} pontos percentuais desde a primeira sessão avaliada (${p.firstScore}% → ${p.lastScore}%)`);
+                else if (p.delta < 0) parts.push(`${firstName} caiu ${Math.abs(p.delta)} pontos percentuais desde a primeira sessão avaliada (${p.firstScore}% → ${p.lastScore}%)`);
+                else parts.push(`${firstName} mantém um score estável, em torno de ${p.avgScore}%`);
+            } else {
+                parts.push(`${firstName} tem uma sessão avaliada, com score de ${p.avgScore}%`);
+            }
+            if (topStrengthTxt) parts.push(`ponto forte consistente em ${topStrengthTxt}`);
+            if (improvedTxt) parts.push(`já evoluiu em ${improvedTxt}`);
+            if (stillTxt) parts.push(`pontos de melhoria: ${stillTxt}`);
+            return parts.join('. ') + '.';
+        }
+
+        // Resumo de características em bullets, agregado a partir de TODAS as
+        // simulações da pessoa (não de uma corrida específica) — ao contrário do
+        // campo estático `insights` (que descreve apenas uma sessão pontual), este
+        // resumo reflete o padrão de comportamento consolidado da pessoa.
+        function characteristicsBullets(p) {
+            if (!p) return [];
+            const { strengths } = computeNetSkills(p.strengthCounts, p.gapCounts);
+            const consistentStrengthKeys = strengths.map(s => s.key).filter(k => !p.resolvedGaps.includes(k) && !p.persistentGaps.includes(k));
+            const topStrengthTxt = joinSkillLabels(consistentStrengthKeys, 3);
+            const improvedTxt = joinSkillLabels(p.resolvedGaps, 2);
+            const stillTxt = joinSkillLabels(p.persistentGaps, 2);
+            const bullets = [];
+
+            if (currentLang === 'fr') {
+                bullets.push(p.count > 1
+                    ? `Score moyen de ${p.avgScore}% sur ${p.count} simulations évaluées.`
+                    : `Score de ${p.avgScore}% sur son unique simulation évaluée.`);
+                if (topStrengthTxt) bullets.push(`Point fort constant : ${topStrengthTxt}.`);
+                if (stillTxt) bullets.push(`Points de développement récurrents : ${stillTxt}.`);
+                if (improvedTxt) bullets.push(`A déjà progressé en : ${improvedTxt}.`);
+                if (p.count > 1 && p.delta !== 0) {
+                    bullets.push(p.delta > 0
+                        ? `Évolution positive de ${p.delta} points entre la première et la dernière simulation.`
+                        : `Recul de ${Math.abs(p.delta)} points entre la première et la dernière simulation.`);
+                }
+                return bullets;
+            }
+
+            bullets.push(p.count > 1
+                ? `Score médio de ${p.avgScore}% em ${p.count} simulações avaliadas.`
+                : `Score de ${p.avgScore}% na única simulação avaliada.`);
+            if (topStrengthTxt) bullets.push(`Ponto forte consistente: ${topStrengthTxt}.`);
+            if (stillTxt) bullets.push(`Pontos de desenvolvimento recorrentes: ${stillTxt}.`);
+            if (improvedTxt) bullets.push(`Já evoluiu em: ${improvedTxt}.`);
+            if (p.count > 1 && p.delta !== 0) {
+                bullets.push(p.delta > 0
+                    ? `Evolução de ${p.delta} pontos percentuais entre a primeira e a última simulação.`
+                    : `Queda de ${Math.abs(p.delta)} pontos percentuais entre a primeira e a última simulação.`);
+            }
+            return bullets;
+        }
+
+        const SS_STRENGTH_RE = /pontos?\s+forte?s?(?:\s+da\s+interven[cç][aã]o)?\s*:?|points?\s+forts?(?:\s+de\s+l['’]interven\w*)?\s*:?/gi;
+        const SS_IMPROVEMENT_RE = /pontos?\s+de\s+melhoria(?:\s+da\s+interven[cç][aã]o)?\s*:?|eixos?\s+de\s+melhoria\s*:?|[aá]reas?\s+de\s+melhoria\s*:?|axes?\s+d['’]am[ée]lior\w*(?:\s+de\s+l['’]interven\w*)?\s*:?|eixos?\s+de\s+desenvolvimento\s*:?|[aá]reas?\s+de\s+desenvolvimento\s*:?|pontos?\s+de\s+desenvolvimento\s*:?|pontos?\s+a\s+desenvolver\s*:?/gi;
+        // Observação: frases curtas e genéricas como "a melhorar"/"a aprimorar" foram
+        // propositalmente excluídas da lista acima — mesmo motivo documentado no
+        // dashboard Fairmont: evita cortes de frase incorretos em texto corrido.
+        const SS_NEUTRAL_RE = /an[áa]lise\s+emocional|analyse\s+[ée]motionnelle|recomenda[çc][õo]es|recommandations|verifica[çc][õo]es\s+factuais|\bpersona\b|vis[ãa]o\s+geral|objetivo\s+principal|momento[\s-]chave|para\s+lembrar|oportunidades\s+perdidas|mapa\s+de\s+compet[êe]ncias/gi;
+
+        function heuristicPivotSplit(fb) {
+            const pivotRegex = /(no entanto|contudo|todavia|entretanto|cependant|toutefois|neanmoins|néanmoins|para enriquecer|pour enrichir|sugiro|je te conseille|je vous conseille|je vous invite|uma dica|outra dica|erro comum)/i;
+            const m = pivotRegex.exec(fb);
+            let head = fb, tail = '';
+            if (m) { head = fb.slice(0, m.index); tail = fb.slice(m.index); }
+            const splitSentences = (t) => t.split(/(?<=[.!?])\s+/).map(s => s.trim()).filter(s => s.length > 25);
+            let strengths = splitSentences(head).slice(m ? -3 : 0, m ? undefined : 2);
+            let improvements = m ? splitSentences(tail).slice(0, 3) : [];
+            return { strengths, improvements };
+        }
+
+        function splitFeedbackSections(rawFeedback) {
+            const fb = fixEnc(rawFeedback || '').replace(/\[(linha em branco|ligne vide)\]/gi, '').trim();
+            if (!fb) return { strengths: [], improvements: [] };
+
+            let hits = [];
+            [['strength', SS_STRENGTH_RE], ['improvement', SS_IMPROVEMENT_RE], ['other', SS_NEUTRAL_RE]].forEach(([type, re]) => {
+                re.lastIndex = 0;
+                let match;
+                while ((match = re.exec(fb)) !== null) {
+                    hits.push({ idx: match.index, end: match.index + match[0].length, type });
+                    if (match[0].length === 0) re.lastIndex++;
+                }
+            });
+
+            if (!hits.length) return heuristicPivotSplit(fb);
+
+            hits.sort((a, b) => a.idx - b.idx);
+            const merged = [];
+            hits.forEach(h => {
+                const last = merged[merged.length - 1];
+                if (last && h.idx - last.end < 3) return;
+                merged.push(h);
+            });
+
+            let strengths = [], improvements = [];
+            for (let i = 0; i < merged.length; i++) {
+                const cur = merged[i];
+                if (cur.type === 'other') continue;
+                const start = cur.end;
+                const end = (i + 1 < merged.length) ? merged[i + 1].idx : fb.length;
+                let body = fb.slice(start, end).replace(/^[:,.\-—–#\s]+/, '').trim();
+                if (!body) continue;
+                const lines = body.split('\n')
+                    .map(l => l.replace(/^[\s\-•▶🟢🔴🟡➕⚠️#]+/, '').trim())
+                    .filter(l => l.length > 12 && !/^\[(linha em branco|ligne vide|\.\.\.)\]$/i.test(l));
+                const chunks = lines.length > 1 ? lines : body.split(/(?<=[.!?])\s+/).map(s => s.trim()).filter(s => s.length > 15);
+                if (cur.type === 'strength') strengths.push(...chunks.slice(0, 4));
+                else improvements.push(...chunks.slice(0, 4));
+            }
+
+            if (!strengths.length && !improvements.length) return heuristicPivotSplit(fb);
+            return { strengths, improvements };
+        }
+
+        function tagSkills(sentences) {
+            const counts = {};
+            SALES_SKILLS.forEach(sk => counts[sk.key] = 0);
+            (sentences || []).forEach(sent => {
+                const n = normTxt(sent);
+                SALES_SKILLS.forEach(sk => {
+                    if (sk.kw.some(k => n.includes(normTxt(k)))) counts[sk.key]++;
+                });
+            });
+            return counts;
+        }
+
+        function topSkillKeys(counts, n) {
+            return Object.entries(counts).filter(([k, v]) => v > 0).sort((a, b) => b[1] - a[1]).slice(0, n).map(([k]) => k);
+        }
+
+        // Base de sessões elegível: finalizadas, com nota e com debriefing de texto
+        function getSoftSkillsSims() {
+            return VALID_SIMS.filter(s => s.finished && s.feedback && s.score !== null && s.score !== undefined);
+        }
+
+        function buildPersonProfile(name, sims) {
+            const mine = sims.filter(s => s.name === name).sort((a, b) => parseDateBR(a.date) - parseDateBR(b.date));
+            if (!mine.length) return null;
+
+            let strengthCounts = {}, gapCounts = {};
+            SALES_SKILLS.forEach(sk => { strengthCounts[sk.key] = 0; gapCounts[sk.key] = 0; });
+
+            const sessions = mine.map(s => {
+                const parsed = splitFeedbackSections(s.feedback);
+                const sC = tagSkills(parsed.strengths);
+                const gC = tagSkills(parsed.improvements);
+                SALES_SKILLS.forEach(sk => { strengthCounts[sk.key] += sC[sk.key]; gapCounts[sk.key] += gC[sk.key]; });
+                return {
+                    date: s.date, score: s.score, scenario: s.scenario,
+                    strengths: parsed.strengths, improvements: parsed.improvements,
+                    gapKeys: Object.entries(gC).filter(([k, v]) => v > 0).map(([k]) => k)
+                };
+            });
+
+            const scores = mine.map(s => s.score);
+            const avgScore = Math.round(scores.reduce((a, b) => a + b, 0) / scores.length);
+            const firstScore = scores[0], lastScore = scores[scores.length - 1];
+            const delta = scores.length > 1 ? (lastScore - firstScore) : 0;
+
+            const n = sessions.length;
+            const splitAt = n >= 3 ? Math.floor(n / 2) : (n === 2 ? 1 : n);
+            const earlySessions = sessions.slice(0, splitAt);
+            const recentSessions = n === 1 ? sessions : sessions.slice(splitAt);
+            const earlyGapSet = new Set(earlySessions.flatMap(s => s.gapKeys));
+            const recentGapSet = new Set(recentSessions.flatMap(s => s.gapKeys));
+            const recentGapCounts = {};
+            recentSessions.forEach(s => s.gapKeys.forEach(k => { recentGapCounts[k] = (recentGapCounts[k] || 0) + 1; }));
+            const earlyGapCounts = {};
+            earlySessions.forEach(s => s.gapKeys.forEach(k => { earlyGapCounts[k] = (earlyGapCounts[k] || 0) + 1; }));
+            const resolvedGaps = [...earlyGapSet].filter(k => !recentGapSet.has(k))
+                .sort((a, b) => (earlyGapCounts[b] || 0) - (earlyGapCounts[a] || 0));
+            const persistentGaps = [...recentGapSet]
+                .sort((a, b) => (recentGapCounts[b] || 0) - (recentGapCounts[a] || 0));
+
+            // Recupera o Resumo Comportamental Técnico estático (insights) da pessoa,
+            // a mesma fonte usada no card individual do dashboard principal.
+            const original = (typeof users !== 'undefined' ? users : []).find(u => cleanName(u.name) === cleanName(name)) || {};
+            const insights = original.insights || { pt: [], fr: [] };
+
+            return {
+                name,
+                count: mine.length,
+                avgScore, firstScore, lastScore, delta,
+                sessions,
+                strengthCounts, gapCounts,
+                resolvedGaps, persistentGaps,
+                insights,
+                topStrengths: topSkillKeys(strengthCounts, 3),
+                topGaps: topSkillKeys(gapCounts, 3)
+            };
+        }
+
+        function getSoftSkillAreas() {
+            const sims = getSoftSkillsSims();
+            const areaMap = {};
+            sims.forEach(s => {
+                const area = getArea(s.scenario);
+                (areaMap[area] = areaMap[area] || []).push(s);
+            });
+            return Object.entries(areaMap).map(([area, list]) => {
+                const names = [...new Set(list.map(s => s.name))];
+                const avgScore = Math.round(list.reduce((a, b) => a + b.score, 0) / list.length);
+                let strengthCounts = {}, gapCounts = {};
+                SALES_SKILLS.forEach(sk => { strengthCounts[sk.key] = 0; gapCounts[sk.key] = 0; });
+                list.forEach(s => {
+                    const parsed = splitFeedbackSections(s.feedback);
+                    const sC = tagSkills(parsed.strengths), gC = tagSkills(parsed.improvements);
+                    SALES_SKILLS.forEach(sk => { strengthCounts[sk.key] += sC[sk.key]; gapCounts[sk.key] += gC[sk.key]; });
+                });
+                return {
+                    area, memberCount: names.length, sessionCount: list.length, avgScore,
+                    strengthCounts, gapCounts,
+                    topStrengths: topSkillKeys(strengthCounts, 3),
+                    topGaps: topSkillKeys(gapCounts, 3)
+                };
+            }).sort((a, b) => b.sessionCount - a.sessionCount);
+        }
+
+        function showSoftSkillsHome() {
+            hideSimNav();
+            window.activeUser = null;
+            currentView = 'softskills';
+            currentSoftSkillArea = null;
+            syncNavActive();
+            renderUserList();
+            renderSoftSkillsHome();
+        }
+
+        function renderSoftSkillsHome() {
+            const L = ui[currentLang];
+            const areas = getSoftSkillAreas();
+            const totalSessions = areas.reduce((a, b) => a + b.sessionCount, 0);
+            const content = document.getElementById('mainContent');
+            content.innerHTML = `
+                <div class="global-stats">
+                    <header class="header-section">
+                        <div class="header-content-left">
+                            <h1>${L.softSkillsTitle} <span>${L.softSkillsTitleAccent}</span></h1>
+                            <p style="font-size: 0.75rem; color: var(--text-muted); font-weight: 700; text-transform: uppercase; margin-top: 8px;">
+                                <i class="fas fa-user-tie"></i> ${totalSessions} ${L.softSkillsSessionsAnalyzed}
+                            </p>
+                        </div>
+                        <div class="header-content-right">
+                            <p class="header-desc">${L.softSkillsSubtitle}</p>
+                        </div>
+                    </header>
+
+                    <div class="softskills-area-grid">
+                        ${areas.map(a => renderAreaCard(a)).join('') || `<div class="card">${L.waitingData}</div>`}
+                    </div>
+
+                    <div class="card">
+                        <h3 style="color: var(--accent); text-transform: uppercase; font-size: 0.8rem; letter-spacing: 0.1em; margin-bottom: 1.6rem;">
+                            <i class="fas fa-graduation-cap" style="color: var(--primary);"></i> ${L.expectedBehaviorTitle}
+                        </h3>
+                        <div class="expected-behavior-grid">
+                            ${SALES_SKILLS.map(sk => `
+                                <div class="expected-behavior-item">
+                                    <span class="ebi-emoji">${sk.emoji}</span>
+                                    <div>
+                                        <div class="ebi-title">${sk[currentLang]}</div>
+                                        <div class="ebi-desc">${sk.desc[currentLang]}</div>
+                                    </div>
+                                </div>
+                            `).join('')}
+                        </div>
+                    </div>
+                </div>
+            `;
+        }
+
+        function renderAreaCard(a) {
+            const L = ui[currentLang];
+            const areaLabel = L['area' + a.area.replace(/\s/g, '')] || a.area;
+            const { strengths, gaps } = computeNetSkills(a.strengthCounts, a.gapCounts);
+            const strengthsTxt = joinSkillLabels(strengths.map(s => s.key), 3);
+            const gapsTxt = joinSkillLabels(gaps.map(g => g.key), 2);
+            return `
+                <div class="softskills-area-card" onclick="showSoftSkillArea('${a.area.replace(/'/g, "\\'")}')">
+                    <div class="ssac-header">
+                        <h3>${areaLabel}</h3>
+                        <span class="ssac-score">${a.avgScore}%</span>
+                    </div>
+                    <div class="ssac-meta">
+                        <span><i class="fas fa-user-tie"></i> ${a.memberCount} ${L.collaborators.toLowerCase()}</span>
+                        <span><i class="fas fa-comments"></i> ${a.sessionCount} ${L.sessions.toLowerCase()}</span>
+                    </div>
+                    <p class="ssac-characteristic">
+                        ${strengthsTxt ? `<strong class="txt-strength">${L.goodDominionOf}</strong> ${strengthsTxt}.` : ''}
+                        ${gapsTxt ? `<strong class="txt-gap">${L.stillNeedsToDevelop}</strong> ${gapsTxt}.` : ''}
+                        ${(!strengthsTxt && !gapsTxt) ? L.noPatternYet : ''}
+                    </p>
+                    <div class="ssac-cta">${L.viewDetails} <i class="fas fa-arrow-right"></i></div>
+                </div>
+            `;
+        }
+
+        function showSoftSkillArea(area) {
+            currentSoftSkillArea = area;
+            renderSoftSkillAreaDetail();
+        }
+
+        function renderSoftSkillAreaDetail() {
+            const L = ui[currentLang];
+            const sims = getSoftSkillsSims().filter(s => getArea(s.scenario) === currentSoftSkillArea);
+            const names = [...new Set(sims.map(s => s.name))];
+            const profiles = names.map(n => buildPersonProfile(n, sims)).filter(Boolean).sort((a, b) => b.avgScore - a.avgScore);
+            const areaLabel = L['area' + currentSoftSkillArea.replace(/\s/g, '')] || currentSoftSkillArea;
+            const areaEntry = getSoftSkillAreas().find(a => a.area === currentSoftSkillArea);
+            const content = document.getElementById('mainContent');
+            content.innerHTML = `
+                <div id="softSkillsAreaDetail">
+                    <button onclick="showSoftSkillsHome()" class="btn-secondary" style="font-size: 0.85rem; padding: 10px 18px; border-radius: 10px; font-weight: 600; display: inline-flex; align-items: center; gap: 8px; margin-bottom: 1.5rem;">
+                        <i class="fas fa-arrow-left"></i> ${L.back}
+                    </button>
+                    <header class="header-section" style="padding: 2.5rem !important; min-height: auto; margin-bottom: 2rem !important;">
+                        <div class="header-content-left">
+                            <h1>${areaLabel}</h1>
+                            <p class="header-desc" style="margin-top: 10px;">${L.softSkillsAreaDesc}</p>
+                        </div>
+                    </header>
+
+                    <div class="card" style="margin-bottom: 2rem;">
+                        <h3 style="color: var(--accent); text-transform: uppercase; font-size: 0.8rem; letter-spacing: 0.1em; margin-bottom: 1.2rem;">
+                            <i class="fas fa-layer-group" style="color: var(--primary);"></i> ${L.areaSynthesisTitle}
+                        </h3>
+                        ${areaEntry ? `<p class="executive-summary">${areaExecutiveSummary(areaEntry)}</p>` : ''}
+                        ${areaEntry ? renderSkillSynthesis(areaEntry.strengthCounts, areaEntry.gapCounts) : ''}
+                    </div>
+
+                    <div class="softskills-person-list">
+                        ${profiles.map(p => renderPersonCard(p)).join('') || `<div class="card">${L.waitingData}</div>`}
+                    </div>
+                </div>
+            `;
+            profiles.forEach(p => drawSparkline(p));
+        }
+
+        function safeId(name) {
+            return 'ss-' + name.replace(/[^a-zA-Z0-9]/g, '');
+        }
+
+        function renderPersonCard(p) {
+            const L = ui[currentLang];
+            const deltaClass = p.delta > 0 ? 'up' : (p.delta < 0 ? 'down' : 'flat');
+            const deltaIcon = p.delta > 0 ? 'fa-arrow-trend-up' : (p.delta < 0 ? 'fa-arrow-trend-down' : 'fa-minus');
+            const id = safeId(p.name);
+            const charBullets = characteristicsBullets(p);
+            return `
+            <div class="softskills-person-card">
+                <div class="sspc-top" onclick="togglePersonDetail('${id}')">
+                    <div>
+                        <div class="sspc-name">${p.name}</div>
+                        <div class="sspc-meta">${p.count} ${L.sessions.toLowerCase()} • ${L.avgScore}: <strong>${p.avgScore}%</strong></div>
+                    </div>
+                    <div class="sspc-right">
+                        <canvas id="spark-${id}" width="120" height="36"></canvas>
+                        ${p.count > 1 ? `<span class="evolution-badge ${deltaClass}"><i class="fas ${deltaIcon}"></i> ${p.delta > 0 ? '+' : ''}${p.delta}%</span>` : ''}
+                        <i class="fas fa-chevron-down toggle-caret" id="caret-${id}"></i>
+                    </div>
+                </div>
+                <div class="sspc-synthesis">
+                    <h5 class="ss-inline-title">${L.personSynthesisTitle}</h5>
+                    <p class="executive-summary">${personExecutiveSummary(p)}</p>
+                    ${renderSkillSynthesis(p.strengthCounts, p.gapCounts)}
+                    ${charBullets.length ? `
+                    <div class="insight-box" style="margin-top: 1.5rem;">
+                        <div class="insight-header">
+                            <i class="fas fa-lightbulb"></i>
+                            <h4>${L.contextLabel}</h4>
+                        </div>
+                        <ul class="bullet-list">
+                            ${charBullets.map(txt => `<li>${txt}</li>`).join('')}
+                        </ul>
+                    </div>` : ''}
+                </div>
+                <div class="sspc-detail" id="detail-${id}" style="display: none;">
+                    <h4>${L.evolutionHistory}</h4>
+                    <div class="session-history">
+                        ${p.sessions.map(s => `
+                            <div class="session-history-item">
+                                <div class="shi-top">
+                                    <span class="shi-date">${s.date}</span>
+                                    <span class="shi-scenario">${translateScenario(s.scenario)}</span>
+                                    <span class="shi-score">${s.score}%</span>
+                                </div>
+                                ${s.strengths.length ? `<div class="shi-block strength"><strong>${L.strengthsLabel}:</strong> ${fixEnc(s.strengths.join(' '))}</div>` : ''}
+                                ${s.improvements.length ? `<div class="shi-block gap"><strong>${L.improvementsLabel}:</strong> ${fixEnc(s.improvements.join(' '))}</div>` : ''}
+                            </div>
+                        `).join('')}
+                    </div>
+                </div>
+            </div>`;
+        }
+
+        function togglePersonDetail(id) {
+            const el = document.getElementById('detail-' + id);
+            const caret = document.getElementById('caret-' + id);
+            if (!el) return;
+            const isOpen = el.style.display !== 'none';
+            el.style.display = isOpen ? 'none' : 'block';
+            if (caret) caret.style.transform = isOpen ? 'rotate(0deg)' : 'rotate(180deg)';
+        }
+
+        function drawSparkline(p) {
+            const id = safeId(p.name);
+            const canvas = document.getElementById('spark-' + id);
+            if (!canvas || typeof Chart === 'undefined') return;
+            new Chart(canvas.getContext('2d'), {
+                type: 'line',
+                data: {
+                    labels: p.sessions.map(s => s.date),
+                    datasets: [{
+                        data: p.sessions.map(s => s.score),
+                        borderColor: '#00bcf2',
+                        backgroundColor: 'rgba(0,188,242,0.10)',
+                        borderWidth: 2, pointRadius: 0, tension: 0.35, fill: true
+                    }]
+                },
+                options: {
+                    responsive: false, animation: false,
+                    plugins: { legend: { display: false }, tooltip: { enabled: false } },
+                    scales: { x: { display: false }, y: { display: false, min: 0, max: 100 } }
+                }
+            });
+        }
+
+        // Initialize
         const savedLang = localStorage.getItem('metlifeLang') || 'pt';
         setLang(savedLang);
     </script>
