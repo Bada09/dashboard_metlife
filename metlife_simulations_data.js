@@ -1,4 +1,4 @@
-const LATEST_DUMP_DATE = "21/09/2026";
+const LATEST_DUMP_DATE = "23/09/2026";
 const RAW_SIMULATIONS = [
     {
         "name": "Juliana Pedrão",
@@ -14829,6 +14829,63 @@ const RAW_SIMULATIONS = [
             "Parabéns pela assertividade e naturalidade: isso cria ambiente seguro para recomendações sinceras.",
             "Mensagem de valor inicial.",
             "Faltou uma saudação clara e um reconhecimento explícito pela decisão do cliente antes do pedido de recomendações — um “momento uau” faria diferença."
+        ]
+    },
+    {
+        "name": "Geracao Lu.Parceiro",
+        "agency": "Outros",
+        "region": "Outros",
+        "date": "22/09/2026",
+        "dur": "1m 28s",
+        "score": 61,
+        "scenario": "OBJECAO_FINANCEIRA",
+        "lqa": "N/A",
+        "interactions": 8,
+        "messages": [
+            {
+                "role": "AI",
+                "text": "Gostei da proposta e tudo ficou claro, mas o momento financeiro está complicado. Não dá para assumir mais um gasto mensal agora."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Claro, eu imagino, Fulano. Acho que o momento tá complicado pra todo mundo, né? As despesas tão muito altas, os custos muito altos, eu entendo isso perfeitamente. O grande ponto aqui é o seguinte: se hoje As despesas tão altas, os custos estão altos, o momento financeiro está difícil com você, com toda a sua força de trabalho, com toda a sua força ativa aí conseguindo trabalhar, imagina se acontece um imprevisto e que nem essa força ativa vai estar mais disponível. Aí sim que o seu momento financeiro, tenho dúvidas que esse seria desastroso, você não acha?"
+            },
+            {
+                "role": "AI",
+                "text": "Você tem razão no ponto técnico, só que eu falei do meu caixa hoje. Não estou fechado, só não dá para assumir mais essa despesa agora."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Eu concordo que às vezes R$ 300 pode ser-- parecer um valor relevante que vai apertar o seu caixa. Mas quando a gente percebe que R$ 300, nada mais, nada menos, significa que R$ 10 por dia, que não seria nem um pão de queijo, uma Coca-Cola, eu acho que a gente começa a ter uma visão melhor, principalmente sabendo que com R$ 300 você vai proteger o padrão de vida da sua família, garantir a educação dos seus filhos e garantir toda a sua força ativa, independente de nenhum imprevisto, a sua renda vai continuar entrando. Eu tenho certeza que vendo dessa forma, esse valor fica mais acessível"
+            },
+            {
+                "role": "AI",
+                "text": "Olha, eu entendo a comparação, mas meu ponto é prático: hoje o caixa está justo. Não posso assumir nenhum compromisso novo agora. Talvez daqui a alguns meses, quando o fluxo estiver mais folgado."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Quando você fala que o seu caixa está justo"
+            },
+            {
+                "role": "HUMAN",
+                "text": "Hoje, em média, quanto que você gasta de lazer ou de cartão de crédito na sua realidade atual?"
+            },
+            {
+                "role": "AI",
+                "text": "Não vou entrar em detalhes de números. O que posso dizer é que cortei boa parte dos supérfluos e o lazer está bem reduzido; o cartão só é usado para despesas profissionais esporádicas. Neste momento não sobra folga mensal para compromissos novos."
+            }
+        ],
+        "finished": true,
+        "feedback": "Aqui está o debriefing da nossa troca.\n\n  \n🤓 PERSONA\n\nBruno, cirurgião cardiotorácico, perfil DISC vermelho, expressou objeção de orçamento: o momento financeiro está difícil, não cabe novo gasto.\n\n  \n🎯 OBJETIVO PRINCIPAL\n\nDescobrir a razão real do bloqueio financeiro, aplicar prática MetLife e buscar fechar agora. Objetivo parcialmente atingido: objeção parcialmente diagnosticada e trabalhada, sem fechamento.\n\n  \n➕ PONTOS FORTES\n\n- Você demonstrou empatia ao validar a dificuldade do momento financeiro do cliente logo de início.\n\n  \n- Trouxe a perspectiva do impacto maior sem proteção, usando argumentos do medo de imprevistos para conectar risco e orçamento.\n\n  \n- Tentou ancorar o valor do prêmio usando o comparativo diário, buscando diminuir a sensação de peso do gasto.\n\n  \n- Esboçou uma investigação ao perguntar sobre gastos de lazer/cartão, aproximando-se do diagnóstico mais concreto do orçamento.\n\n  \nMuito bom perceber essas tentativas de aprofundar, principalmente para um perfil direto como o do Bruno!\n\n  \n📈 PONTOS DE MELHORIA\n\n- Momentos de pressão excessiva\nEm partes da argumentação (“imagina se acontece um imprevisto... aí sim o seu momento financeiro seria desastroso”), pegou pesado demais no medo, o que pode afastar um cliente vermelho.\n\n  \n- Diagnóstico da objeção\nApesar de iniciar uma abordagem investigativa, sua pergunta sobre gastos de lazer/cartão ficou superficial. Seria útil relacioná-la claramente com a decisão (“o que compromete hoje, de fato, sua decisão?”).\n\n  \n- Prática MetLife (Cruz Vossa/Nossa)\nVocê aproximou, mas não verbalizou claramente a troca vantajosa entre obrigação (prêmio) e proteção (capitais). Faltou desenhar o benefício de forma visual/concreta.\n\n  \n- Fechamento parcial e power phrase\nFaltou propor ajuste efetivo do valor do prêmio (\"façamos com o que cabe hoje\") e usar uma power phrase, além de um convite claro ao fechamento.\n\n  \nSeus avanços indicam potencial, só precisa lapidar para conectar lógica e emoção!\n\n  \n🩵 ANÁLISE EMOCIONAL\n\nO tom foi engajado, porém um pouco ansioso e incisivo em alguns momentos. Demonstrou intenção de ajudar, mas transmitiu certa pressa na argumentação.\n\n  \n🛅 MOMENTOS-CHAVE\n\nSituação: Cliente justifica que não cabe no caixa.  \nVocê: Compara o valor a gastos diários, tentando amenizar o peso do prêmio.  \nPor que é importante: Ajuda o cliente a relativizar o esforço, mas faltou um convite direto ao fechamento.\n\n  \n🔊 REFORMULAÇÕES RECOMENDADAS\n\n- Power Phrase: “Nunca vi um cliente quebrar por proteger a família; já vi muitos se arrependerem por não fazer isso a tempo.”\n\n  \n- Diagnóstico (refinando sua última pergunta, de modo mais direto): “O que mais pesa hoje na sua decisão de segurar esse gasto?”\n\n  \n- Fechamento consultivo: “Que tal começarmos com um valor que realmente caiba no seu orçamento e ajustamos depois, se fizer sentido?”\n\n  \n- Concordância tácita: “Podemos colocar sua esposa como beneficiária principal?”\n\n  \n➡️ RECOMENDAÇÕES\n\nDirecione mais perguntas para descobrir a real trava do orçamento e conecte de forma clara a proteção à rotina/família do cliente. Ajuste o valor como alternativa sem perder a urgência do fechamento. Continue aprofundando: seu jogo comercial já está bem estruturado, só falta ajustar a mira!",
+        "insights": [
+            "Bruno, cirurgião cardiotorácico, perfil DISC vermelho, expressou objeção de orçamento: o momento financeiro está difícil, não cabe novo gasto.",
+            "Descobrir a razão real do bloqueio financeiro, aplicar prática MetLife e buscar fechar agora. Objetivo parcialmente atingido: objeção parcialmente diagnosticada e trabalhada, sem fechamento.",
+            "Você demonstrou empatia ao validar a dificuldade do momento financeiro do cliente logo de início.",
+            "Trouxe a perspectiva do impacto maior sem proteção, usando argumentos do medo de imprevistos para conectar risco e orçamento.",
+            "Tentou ancorar o valor do prêmio usando o comparativo diário, buscando diminuir a sensação de peso do gasto.",
+            "Esboçou uma investigação ao perguntar sobre gastos de lazer/cartão, aproximando-se do diagnóstico mais concreto do orçamento.",
+            "Momentos de pressão excessiva",
+            "Diagnóstico da objeção"
         ]
     },
     {
