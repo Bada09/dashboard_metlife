@@ -1,4 +1,4 @@
-const LATEST_DUMP_DATE = "23/09/2026";
+const LATEST_DUMP_DATE = "25/09/2026";
 const RAW_SIMULATIONS = [
     {
         "name": "Juliana Pedrão",
@@ -11077,6 +11077,227 @@ const RAW_SIMULATIONS = [
             "Invista mais tempo no início criando vínculo e contexto, peça autorização explícita para seguir com perguntas e cite sempre a recomendação recebida. Troque o tom de interrogatório por escuta ativa e curiosidade genuína. Mantenha-se humano, mesmo com metas na mesa!",
             "Você está no caminho certo. Lapide sua escuta e empatia: resultados virão!"
         ]
+    },
+    {
+        "name": "Marcelo Bernardes",
+        "agency": "Outros",
+        "region": "Outros",
+        "date": "24/09/2026",
+        "dur": "1m 20s",
+        "score": 63,
+        "scenario": "OBJECAO_FINANCEIRA",
+        "lqa": "N/A",
+        "interactions": 15,
+        "messages": [
+            {
+                "role": "AI",
+                "text": "Gostei da apresentação e faz sentido, mas o momento financeiro não está fácil. Não é hora de eu assumir mais um gasto fixo agora."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Claro, eu entendo a sua preocupação"
+            },
+            {
+                "role": "HUMAN",
+                "text": "Mas é exatamente esse o meu papel, é trazer clareza pra você. E eu te mostrei na-nessa nossa reunião o quê? Soluções que pode Que vá-- que pode não, que vai proteger tudo se algo vier a acontecer. Por quê? Hoje, você já tá com um momento financeiro apertado. Agora imagina se você descobre uma doença grave, se vocêêê vem a ficar inválido, se você fica Desprovido da sua renda"
+            },
+            {
+                "role": "HUMAN",
+                "text": "O que que você vai fazer?"
+            },
+            {
+                "role": "AI",
+                "text": "A pergunta é boa. Vou proteger minha família só quando eu tiver folga financeira para pagar sem apertar hoje. Não quero comprometer o orçamento mensal agora."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Claro"
+            },
+            {
+                "role": "HUMAN",
+                "text": "Te entendo completamente. Eu estaria preocupado também se eu estivesse na sua posição Porém, como eu disse, o meu trabalho é trazer clareza pra você. E como eu te expliquei, tudo isso que eu preparei pra você tá de acordo com o seu momento, como a gente fez aquela primeira reunião, agora é a segunda reunião, então tá dentro do orçamento que você me passou, entendeu? E detalhe Você me disse que no momento"
+            },
+            {
+                "role": "HUMAN",
+                "text": "Você tá-- que vai proteger a família só quando tiver uma folga financeira"
+            },
+            {
+                "role": "HUMAN",
+                "text": "E se essa folga financeira nunca chegar?"
+            },
+            {
+                "role": "AI",
+                "text": "Pode ser que nunca chegue. Por isso eu digo: prefiro não assumir outro débito agora e seguir com a reserva que tenho."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Vamos lá"
+            },
+            {
+                "role": "HUMAN",
+                "text": "O que que te impede de fechar hoje? É só isso?"
+            },
+            {
+                "role": "AI",
+                "text": "É só isso por enquanto. Minha prioridade é não comprometer o caixa familiar hoje. Se você tiver uma opção que caiba no orçamento sem me apertar, aí a conversa muda."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Certo. Ééé, eu sei que esse seguro ficou aqui R$ 500. E se eu ajustar aqui quebras de ossos, fraturas, ééé, na questão também de invalidez, aí o seguro vai ficar dentro dos R$ 250, que é o que você pode pagar"
+            },
+            {
+                "role": "AI",
+                "text": "Não gosto de números assim jogados pra mim. Se você diz que dá pra ficar em duzentos e cinquenta, me explique rápido o que sai da cobertura e o impacto real pra família. Se isso não matar a proteção essencial, seguimos."
+            }
+        ],
+        "finished": true,
+        "feedback": "Aqui está o debriefing da nossa troca.\n\n🤓 PERSONA\n\nBruno, cirurgião cardiotorácico, perfil DISC vermelho, expressou objeção financeira primária: “não é o momento de acrescentar gastos”.\n\n🎯 OBJETIVO PRINCIPAL\n\nO objetivo era identificar e tratar a objeção financeira real com prática MetLife e efetivar a contratação agora, garantindo tranquilidade ao cliente. O objetivo foi parcialmente atingido.\n\n➕ PONTOS FORTES\n\n- Você reconheceu explicitamente a preocupação do cliente e demonstrou empatia (“Te entendo completamente. Eu estaria preocupado também...”).\n \n- Tentou transformar a objeção relativa ao momento financeiro em reflexão sobre consequências maiores (“Agora imagina se... ficar desprovido da sua renda”).\n\n- Propôs ajuste concreto do prêmio para acomodar o orçamento do cliente, mostrando flexibilidade e foco em solução (“o seguro vai ficar dentro dos R$ 250, que é o que você pode pagar”).\n\n- Utilizou perguntas para investigar possíveis barreiras adicionais (“O que te impede de fechar hoje? É só isso?”). Belo avanço!\n\nContinue explorando perguntas abertas — esse é um bom caminho!\n\n📈 PONTOS DE MELHORIA\n\n- Falta de cruz VOSSA/NOSSA explícita. Embora você contextualize, não construiu visualmente ou verbalmente a troca direta prêmio x capitais e obrigações (“a troca vantajosa”). Tente anchorear mais concretamente o valor entregue.\n\n- Investigação. Você começou bem ao perguntar sobre impedimentos, mas poderia aprofundar com perguntas mais abertas para entender, por exemplo, se há outros fatores além do valor. Isso ajudaria a revelar camadas secundárias ou objeções ocultas com mais clareza.\n\n- Power Phrase. Faltou um fechamento com frase de força e, principalmente, dar um tempo de silêncio logo após — em vez de rapidamente preencher o espaço. O silêncio vale ouro!\n\n- Reforço da ADN. Ao propor ajuste, seria ideal reconectar com as prioridades do cliente (“Como isso protege exatamente sua família, filhos, plano de vida”).\n\nLembre-se: quanto mais natural e conectado ao cliente, melhor o impacto!\n\n🩵 ANÁLISE EMOCIONAL\n\nTom empático, ritmo moderado, vocabulário acessível. Seu estado emocional foi acolhedor, mas um pouco automático em partes críticas de argumentação.\n\n🛅 MOMENTOS-CHAVE\n\nSituação: Quando o cliente reiterou preocupação com orçamento. Você reconheceu esse incômodo e redirecionou para a importância de proteger a renda, mostrando preocupação genuína — isso facilitou abertura do cliente ao ajuste de prêmio.\n\n🔊 REFORMULAÇÕES RECOMENDADAS\n\n- Power Phrase: “Bruno, nunca vi ninguém quebrar por pagar um seguro, mas já vi gente perder tudo por não ter proteção na hora certa.”\n\n- Pergunta aberta de objeção oculta — ajustando a que você já fez, de forma mais ampla: “Tem algo além do valor que ainda te deixa inseguro hoje para avançarmos?”\n\n- Concordância tácita: “Podemos colocar cem por cento para sua esposa como beneficiária e já agendar a entrevista?”\n\n- Cruz VOSSA/NOSSA: “Bruno, por menos de nove reais por dia você protege toda sua renda e garante que seus filhos sigam seus planos mesmo se algo acontecer.”\n\n➡️ RECOMENDAÇÕES\n\nContinue desenvolvendo a visualização da troca (prêmio x proteção) e use o silêncio após frases de impacto para dar espaço à decisão do cliente. Foque em perguntas abertas antes de avançar. Você está progredindo — só falta lapidar o fechamento!",
+        "insights": [
+            "Bruno, cirurgião cardiotorácico, perfil DISC vermelho, expressou objeção financeira primária: “não é o momento de acrescentar gastos”.",
+            "Você reconheceu explicitamente a preocupação do cliente e demonstrou empatia (“Te entendo completamente. Eu estaria preocupado também...”).",
+            "Tentou transformar a objeção relativa ao momento financeiro em reflexão sobre consequências maiores (“Agora imagina se... ficar desprovido da sua renda”).",
+            "Propôs ajuste concreto do prêmio para acomodar o orçamento do cliente, mostrando flexibilidade e foco em solução (“o seguro vai ficar dentro dos R$ 250, que é o que você pode pagar”).",
+            "Utilizou perguntas para investigar possíveis barreiras adicionais (“O que te impede de fechar hoje? É só isso?”). Belo avanço!",
+            "Continue explorando perguntas abertas — esse é um bom caminho!",
+            "Falta de cruz VOSSA/NOSSA explícita. Embora você contextualize, não construiu visualmente ou verbalmente a troca direta prêmio x capitais e obrigações (“a troca vantajosa”). Tente anchorear mais concretamente o valor entregue.",
+            "Investigação. Você começou bem ao perguntar sobre impedimentos, mas poderia aprofundar com perguntas mais abertas para entender, por exemplo, se há outros fatores além do valor. Isso ajudaria a revelar camadas secundárias ou objeções ocultas com mais clareza."
+        ]
+    },
+    {
+        "name": "Marcelo Bernardes",
+        "agency": "Outros",
+        "region": "Outros",
+        "date": "24/09/2026",
+        "dur": "0m 36s",
+        "score": 55,
+        "scenario": "OBJECAO_ADIAMENTO",
+        "lqa": "N/A",
+        "interactions": 19,
+        "messages": [
+            {
+                "role": "HUMAN",
+                "text": "É"
+            },
+            {
+                "role": "AI",
+                "text": "Achei a proposta muito interessante, mas preciso conversar com minha esposa antes de decidir."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Sim, gente"
+            },
+            {
+                "role": "HUMAN",
+                "text": "Vai conversando com ele, vai conversando. Pode ficar falando Poxa, se tivesse uma voz assim ruim"
+            },
+            {
+                "role": "HUMAN",
+                "text": "Ah, mas quem é que toma decisão na sua casa?"
+            },
+            {
+                "role": "AI",
+                "text": "Normalmente eu e minha esposa decidimos juntos.  \nSe for algo rápido e claro, eu avanço; se precisar de tempo, prefiro discutir com ela antes de fechar."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Mas no início de nossa conversa você falou que tomava decisões"
+            },
+            {
+                "role": "AI",
+                "text": "Você tem razão, eu disse que participo das decisões.  \nQuero decidir junto quando for algo que envolve a família, especialmente valor e beneficiário."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Isso aí é o quê? Coxa ou sobrecoxa? Sobrecoxa sem pele, coxa com pele. E olha o preço, R$ 15. Lá em Ribeirão é quase 30. Lembra? 25, 26"
+            },
+            {
+                "role": "HUMAN",
+                "text": "E quer saber se eu sou um tio Iago? Não, não é possível"
+            },
+            {
+                "role": "HUMAN",
+                "text": "Eu estou aqui com o cara que está me ensinando. Então, eu vou pedir pra ele"
+            },
+            {
+                "role": "HUMAN",
+                "text": "Maique, eu não vi se o Paulo, se o Paulo nada Fala pra mim, se o Paulo lá pra mim"
+            },
+            {
+                "role": "AI",
+                "text": "Olha, eu não conheço"
+            },
+            {
+                "role": "HUMAN",
+                "text": "É tudo igual?"
+            },
+            {
+                "role": "HUMAN",
+                "text": "Mas tem algo? Não"
+            },
+            {
+                "role": "AI",
+                "text": "Não, por enquanto está tudo certo.  \nSe quiser, liga para minha esposa"
+            },
+            {
+                "role": "HUMAN",
+                "text": "Tá passando? Perfeito"
+            },
+            {
+                "role": "HUMAN",
+                "text": "Isso aqui é da Matchlight, eles criaram um aplicatinho que cê coloca"
+            },
+            {
+                "role": "AI",
+                "text": "Legal, manda o link que eu dou uma olhada e mostro pra minha esposa."
+            }
+        ],
+        "finished": true,
+        "feedback": "",
+        "insights": []
+    },
+    {
+        "name": "Marcelo Bernardes",
+        "agency": "Outros",
+        "region": "Outros",
+        "date": "25/09/2026",
+        "dur": "0m 40s",
+        "score": 0,
+        "scenario": "OBJECAO_ADIAMENTO",
+        "lqa": "N/A",
+        "interactions": 7,
+        "messages": [
+            {
+                "role": "AI",
+                "text": "Achei a proposta muito interessante, mas preciso conversar com minha esposa antes de decidir. Depois eu te dou uma resposta."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Oi, ééé, eu quero mandar uma mensagem pros clientes que eu fiz consultoria e eles não dá devolutiva se vão fechar ou não"
+            },
+            {
+                "role": "HUMAN",
+                "text": "E eu queria mandar uma mensagem meio que pressionando, falando que semana que vem estarei de férias e gostaria de resolver O seguro"
+            },
+            {
+                "role": "AI",
+                "text": "Você pode mandar algo direto, dizendo que na próxima semana estará de férias e quer encerrar os casos pendentes antes. Sugiro uma frase curta e educada, oferecendo um último horário para assinatura. Quer que eu esboce a mensagem pra você?"
+            },
+            {
+                "role": "HUMAN",
+                "text": "Quero que esboce a mensagem, mas eu quero ser al-- quero trazer umas senso de urgência, falando que intercorrências acontecem, que a gente precisa finalizar esse assunto que é importante, que foi baseado na estrutura, na estrutura familiar deles"
+            },
+            {
+                "role": "AI",
+                "text": "Ótimo, então me manda um esboço curto que eu possa enviar hoje antes que você saia de férias. Quero que mencione que a proposta foi feita com base na estrutura familiar deles e que intercorrências acontecem."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Tem um cliente meu que diz que está com a situação financeira ruim, que apareceu o-outras questões. Ai, eu tinha"
+            }
+        ],
+        "finished": false,
+        "feedback": "",
+        "insights": []
     },
     {
         "name": "Parceiro Gorillalu",
@@ -26609,6 +26830,264 @@ const RAW_SIMULATIONS = [
         "finished": false,
         "feedback": "",
         "insights": []
+    },
+    {
+        "name": "Parceiro Rivorio3a12",
+        "agency": "Outros",
+        "region": "Outros",
+        "date": "24/09/2026",
+        "dur": "3m 21s",
+        "score": 75,
+        "scenario": "OBJECAO_FINANCEIRA",
+        "lqa": "N/A",
+        "interactions": 26,
+        "messages": [
+            {
+                "role": "AI",
+                "text": "Gostei da explicação, foi clara, mas o momento financeiro aqui está apertado. Não me parece prudente assumir mais um gasto mensal agora."
+            },
+            {
+                "role": "HUMAN",
+                "text": "O que é isso? Ah, mas que bom que você gostou da explicação e que ficou tudo muito claro. Eu super entendo sobre o momento financeiro, mas o que acontece? Os imprevistos não esperam e a gente, né, justamente por ser imprevisto, nunca sabe quando vai acontecer. Então é muito importante, como eu expliquei pra você desde o início, que você faça o seguro pra que você fique protegido, pra que você proteja sua renda, proteja sua família. Então, é de suma importância que você faça agora, né? A gente botou um, um valor que cabe no seu orçamento e conforme for, se for o caso, mais pra frente a gente revisa, refaz. Mas nesse momento, o que eu apresentei pra você, né, tá dentro do seu orçamento e Além disso, tem toda a importância do seguro"
+            },
+            {
+                "role": "AI",
+                "text": "Entendo a urgência, mas insisto que agora não é prudente para o meu orçamento. Se você tiver uma alternativa que diminua o impacto mensal, me mostre; caso contrário, prefiro adiar por enquanto."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Sim, me ajuda a entender, por favor. É, tem algo a mais além disso? Porque a gente viu que o valor do, do seguro, ele é um valor apenas de uma consulta sua. Né, então não, não seria assim um, um peso, né, pro orçamento que a gente analisou, ele tá dentro do que eu sempre monto pros clientes. É, a gente pode sim reduzir um pouco o valor do prêmio, tá? Eu posso refazer o planejamento, a gente reduz um pouquinho o valor do prêmio, mas realmente é muito importante que você faça esse seguro agora"
+            },
+            {
+                "role": "AI",
+                "text": "Não sei bem, depende do que você conseguir me propor. Se a redução for pequena e ainda pesar no fim do mês, não resolve. Explique claramente qual opção concreta você tem para reduzir o prêmio e por quanto tempo essa redução valeria."
+            },
+            {
+                "role": "HUMAN",
+                "text": "É, a redução vale por quanto tempo a gente deixar, né? Enquanto tempo a gente aumen-- é, reduzir o valor do capital segurado, ela vai ficar lá. Agora, ééé, eu tô entendendo que você tá enxergando mais o preço do que o valor do seguro. Então talvez eu não tenha feito um bom trabalho nesse sentido de te explicar o valor. Mas o seguro é algo que protege você e a sua família de imprevistos, que protege toda a renda que você construiu ao longo da sua carreira e também o seu futuro"
+            },
+            {
+                "role": "AI",
+                "text": "Certo, mas preciso saber uma coisa concreta: qual seria a redução do prêmio que você propõe e por quanto tempo ela fica assim. Se for algo que alivie claramente o mês, eu posso considerar."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Tá. O que eu vou fazer, o que eu preciso fazer é entrar no contador pra ver exatamente o valor, eu não tenho como te falar assim de cabeça, tá? Tá. Agora, ela fica reduzido por quanto tempo você quiser. Isso aí depois mais à frente, se você quiser aumentar um pouquinho o valor do, do capital segurado, aí a gente mexe de novo no seu planejamento"
+            },
+            {
+                "role": "AI",
+                "text": "Tudo bem, mas não posso esperar que você consulte contador agora e volte sem número. Combine uma proposta concreta de redução e me traga o valor mensal já calculado. Se não tiver esse número, marcamos outra hora para quando você tiver."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Não, eu, é, não é o contador, é o cotador. Eu posso abrir meu computador aqui rapidinho agora e vou te, te mostrar os números. A proposta vai cair de 450 pra 310"
+            },
+            {
+                "role": "AI",
+                "text": "Quatrocentos e cinquenta para trezentos e dez já é uma redução significativa. Me diga então: esse novo valor é definitivo agora ou é temporário até a gente reavaliar no futuro?"
+            },
+            {
+                "role": "HUMAN",
+                "text": "Ele é definitivo. A gente vai reavaliar no futuro, caso você tenha, ééé, essa vontade, essa intenção. Senão o valor é esse mesmo"
+            },
+            {
+                "role": "AI",
+                "text": "Certo, agradeço. Então vamos seguir assim: me envie por mensagem o detalhamento com trezentos e dez reais por mês, e a gente agenda a assinatura na próxima semana."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Tá OK, eu posso fazer isso, mas como eu sigo com meus clientes é de uma forma diferente, tá? A gente vai dar entrada agora na sua análise de risco. Vou pegar algumas informações com você. É, enquanto isso, cê já fica protegido pelo capital de morte, pela seguradora, tá? E aí conforme ela, ela analisar o seu risco e aceitar sua proposta, aí a gente dá seguimento. Mas de qualquer forma, eu posso sim mandar o detalhamento pra você. E além disso, assim que a sua apólice for emitida, eu também vou combinar com você um cafezinho pra gente-- pra eu poder te entregar a apólice e relembrar todas as suas coberturas"
+            },
+            {
+                "role": "AI",
+                "text": "Certo, então me envie por mensagem o detalhamento com trezentos e dez reais por mês. Vamos agendar a assinatura para a próxima semana; prefere segunda ou quarta de manhã?"
+            },
+            {
+                "role": "HUMAN",
+                "text": "É então, eu quero fazer a assinatura agora, como eu te falei, vamo dar entrada na análise de risco, assim você já vai assinar e já vai ficar tudo encaminhado pra seguradora também tem o tempo dela de análise, tá? E a partir daí"
+            },
+            {
+                "role": "HUMAN",
+                "text": "É, depois a gente-- eu te mando a apólice emitida"
+            },
+            {
+                "role": "AI",
+                "text": "Tudo bem. Então já pode dar entrada na análise de risco agora mesmo. Me avisa quando estiver encaminhado para eu marcar o cafezinho e assinar os papéis finais."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Tá bom, aqui não tem assinatura física de papéis. Ééé, cê já vai assinar eletronicamente agora na análise de risco, tá? Pode ficar tranquilo quanto a isso"
+            },
+            {
+                "role": "AI",
+                "text": "Tudo bem, então manda o link pra assinatura eletrônica agora mesmo. Quando eu assinar, me avisa por mensagem pra eu já marcar o cafezinho quando a apólice ficar emitida."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Tá ok, pode deixar"
+            },
+            {
+                "role": "AI",
+                "text": "Perfeito. Manda o link quando estiver pronto que eu assino agora."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Maravilha, combinado"
+            },
+            {
+                "role": "AI",
+                "text": "Certo, fico no aguardo do link para assinar então. Quando você enviar, eu assino e te aviso por mensagem."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Combinado, tchau, tchau"
+            },
+            {
+                "role": "AI",
+                "text": "Tchau, até mais."
+            }
+        ],
+        "finished": true,
+        "feedback": "Aqui está o debriefing da nossa troca.\n\n🤓 PERSONA\n\nClínico geral, perfil DISC verde, expressou objeção financeira sincera sobre o peso do seguro no orçamento (“não é o momento”).\n\n🎯 OBJETIVO PRINCIPAL\n\nO objetivo de identificar e tratar a objeção financeira real e obter a contratação agora foi atingido.\n\n➕ PONTOS FORTES\n\n- Você escutou a objeção sem interromper e validou o momento financeiro difícil do cliente antes de propor ajustes.\n\n- Houve oferecimento imediato de redução do valor do prêmio, alinhando a proposta à limitação do orçamento.\n\n- Aplicou, de forma genuína, a técnica de ajuste de prêmio (“posso sim reduzir um pouco o valor do prêmio”), mostrando flexibilidade.\n\n- Avançou para o fechamento consultivo com explicações claras sobre processo, assinatura eletrônica e próximos passos.\n\nParabéns, você demonstrou empatia e domínio do processo consultivo ao longo da conversa!\n\n📈 PONTOS DE MELHORIA\n\n- Cruz VOSSA/NOSSA parcialmente: você fez referência ao valor da proteção (“protege sua renda, sua família”), mas faltou explicitar com mais força a troca vantajosa entre o prêmio e os capitais segurados. Um desenho verbal mais enfático da “obrigação” da seguradora traria ainda mais clareza.\n\n- Descoberta da objeção oculta: você esboçou investigação (“me ajuda a entender, tem algo a mais?”), mas poderia trazer perguntas abertas mais específicas, por exemplo, sobre outras prioridades ou receios de longo prazo.\n\n- Power Phrase: tentou destacar o valor do seguro, mas faltou uma frase de impacto do tipo “nunca vi ninguém quebrar por pagar um prêmio, mas já vi famílias quebrarem por não ter seguro”.\n\nVocê está no caminho — pequenas reformulações trarão ainda mais segurança e fechamento.\n\n🩵 ANÁLISE EMOCIONAL\n\nSeu tom foi acolhedor, ritmo pausado e vocabulário claro; estado emocional predominante: empático e seguro.\n\n🛅 MOMENTOS-CHAVE\n\nSituação: Cliente resistiu ao valor. Você propôs imediatamente ajuste do prêmio, mostrando flexibilidade — isso manteve o fechamento na mesa.\nOutro momento: Explicação clara do passo a passo até a assinatura eletrônica transmitiu confiança e reduziu ansiedade do cliente.\n\n🔊 REFORMULAÇÕES RECOMENDADAS\n\n- “Posso mostrar o quanto essa proteção cobre de tudo que você construiu — esse prêmio de trezentos e dez reais garante o futuro da sua família se o imprevisto acontecer.”\n- “Tem mais algum compromisso ou preocupação que pesa na decisão hoje além do orçamento?”\n- “Vamos deixar cem por cento do capital para sua esposa? Assim já começo a preencher a proposta.”\n\n➡️ RECOMENDAÇÕES\n\nIntensifique o uso de perguntas para investigar as reais causas da hesitação e aprofunde a explicação da troca prêmio versus capital. Exercite frases de força e convide o silêncio após elas. Seu processo está sólido — continue avançando, sem medo de apimentar a argumentação!",
+        "insights": [
+            "Você escutou a objeção sem interromper e validou o momento financeiro difícil do cliente antes de propor ajustes.",
+            "Houve oferecimento imediato de redução do valor do prêmio, alinhando a proposta à limitação do orçamento.",
+            "Aplicou, de forma genuína, a técnica de ajuste de prêmio (“posso sim reduzir um pouco o valor do prêmio”), mostrando flexibilidade.",
+            "Avançou para o fechamento consultivo com explicações claras sobre processo, assinatura eletrônica e próximos passos.",
+            "Cruz VOSSA/NOSSA parcialmente: você fez referência ao valor da proteção (“protege sua renda, sua família”), mas faltou explicitar com mais força a troca vantajosa entre o prêmio e os capitais segurados. Um desenho verbal mais enfático da “obrigação” da seguradora traria ainda mais clareza.",
+            "Descoberta da objeção oculta: você esboçou investigação (“me ajuda a entender, tem algo a mais?”), mas poderia trazer perguntas abertas mais específicas, por exemplo, sobre outras prioridades ou receios de longo prazo.",
+            "Power Phrase: tentou destacar o valor do seguro, mas faltou uma frase de impacto do tipo “nunca vi ninguém quebrar por pagar um prêmio, mas já vi famílias quebrarem por não ter seguro”.",
+            "Você está no caminho — pequenas reformulações trarão ainda mais segurança e fechamento."
+        ]
+    },
+    {
+        "name": "Parceiro Rivorio3a12",
+        "agency": "Outros",
+        "region": "Outros",
+        "date": "24/09/2026",
+        "dur": "2m 38s",
+        "score": 83,
+        "scenario": "OBJECAO_FINANCEIRA",
+        "lqa": "N/A",
+        "interactions": 26,
+        "messages": [
+            {
+                "role": "HUMAN",
+                "text": "Esse valor de prêmio corresponde apenas a uma consulta sua?"
+            },
+            {
+                "role": "AI",
+                "text": "Gostei da explicação, ficou tudo claro, mas o momento financeiro aqui está apertado. Não é hora de aumentar os gastos mensais agora."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Ah, eu entendi. É, que bom que você gostou de tudo, mas sobre o momento financeiro, eu compreendo. O que acontece? Justamente por tá um momento financeiro agora mais apertado, conforme a gente conversou, é que você precisa mais ainda da proteção. Por quê?"
+            },
+            {
+                "role": "HUMAN",
+                "text": "Caso aconteça algum imprevisto, né, e ninguém tá livre disso, você fica protegida, protege o seu patrimônio, tudo que você construiu até agora e também a sua família"
+            },
+            {
+                "role": "AI",
+                "text": "Eu entendo a razão, faz sentido proteger o que a gente construiu.  \nMas, sendo honesto, agora não sobra muita folga no orçamento; preciso saber se tem como ajustar o valor pra caber no meu mês antes de pensar em seguir."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Entende? É, mas a gente não viu queee, hã"
+            },
+            {
+                "role": "AI",
+                "text": "Não, não é só o valor de uma consulta.  \nÉ um custo mensal que garante cobertura para família, invalidez e outras proteções que conversamos."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Exatamente. E pra ser bem sincera, isso é algo que não tem preço"
+            },
+            {
+                "role": "HUMAN",
+                "text": "Isso é algo de muito valor, isso agrega muito valor essa segurança pra sua família. Então realmente, é, os imprevistos não avisam pra gente quando vão acontecer. E a proteção nossa e da nossa família é de suma importância"
+            },
+            {
+                "role": "AI",
+                "text": "Concordo que tem valor, sim.  \nMas preciso ver se dá para ajustar o prêmio ao meu orçamento agora; não consigo assumir do jeito que está."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Tá, eu vou fazer o seguinte: eu tô com meu cotador aqui aberto e eu vou reduzir o valor do seu prêmio de R$ 800 pra R$ 700. Tá ok assim?"
+            },
+            {
+                "role": "AI",
+                "text": "Não sei bem, depende do que você mudou na cobertura pra cortar esse valor. Pode me explicar rapidamente o que foi reduzido?"
+            },
+            {
+                "role": "HUMAN",
+                "text": "Claro, é, eu cortei, reduzi um pouco o valor do capital segurado de morte acidental. Como você já tem uma cobertura de morte, que é a base, é, eu escolhi esse, essa cobertura pra reduzir um pouco o valor do capital segurado"
+            },
+            {
+                "role": "AI",
+                "text": "Certo, agradeço o ajuste, mas antes de seguir: essa redução afeta também as coberturas por invalidez ou doenças graves?"
+            },
+            {
+                "role": "HUMAN",
+                "text": "Não, de forma alguma. Isso eu mantive igualzinho como tá"
+            },
+            {
+                "role": "AI",
+                "text": "Tá bom, então.  \nSe as coberturas de invalidez e doenças graves ficaram iguais, acho que dá pra avaliar melhor.  \nVocê pode me mostrar por escrito o novo resumo da proposta pra eu levar e conversar com a Larissa antes da decisão?"
+            },
+            {
+                "role": "HUMAN",
+                "text": "Claro, posso sim, mas me ajuda aqui a entender. O que que você precisa conversar com a Larissa sobre isso?"
+            },
+            {
+                "role": "AI",
+                "text": "Preciso explicar pra ela como fica a proteção da família com esse ajuste, especialmente o capital de morte acidental e se isso muda algum cenário prático para a Larissa e os netos.  \nTambém quero que ela veja os valores mensais e confirme se aceita seguir com esse prêmio reduzido."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Entendi. Você lembra lá na nossa primeira conversa, que eu perguntei pra você se você precisava de alguém pra tomar essa decisão e você me disse que não?"
+            },
+            {
+                "role": "AI",
+                "text": "Lembro sim, e eu queria decidir sozinho naquele momento por princípio.  \nAgora, pelo valor envolvido e por ter família dependente, prefiro que a Larissa veja também antes de eu assinar."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Eu entendo. É, a Larissa vai ver sim tudo, a gente vai sentar, vai conversar. É, eu vou explicar cobertura a cobertura, valores de prêmio. Vou explicar também que mais à frente, quando você tiver num momento financeiro melhor, a gente pode reajustar isso sem problema algum, tá? Agora, o que eu faço com os meus clientes é, nesse momento, eu já dou entrada na análise de risco com a proposta, tá? Porque dessa forma você já fica coberto, né? Como a gente conversou e você tem até aquele caso que você conhece, né, de um imprevisto que aconteceu bem grande, você sabe da importância da cobertura do seguro. Então vamo fazer o seguinte: vamos dar entrada agora na sua análise de risco"
+            },
+            {
+                "role": "AI",
+                "text": "Tudo"
+            },
+            {
+                "role": "HUMAN",
+                "text": "E aí, a partir daí, ééé, a seguradora vai fazer a análise. Enquanto isso, você fica coberta em relação às coberturas de morte. E aí, ééé, assim que sair a sua apólice, eu vou te avisar, enfim, vou, vou combinar com você um cafezinho pra fazer essa entrega de apólice, explicar, relembrar todas as coberturas, o capital, ééé, segurado de cada uma, né? A gente pode convidar a Larissa pra esse café também, que aí se ela tiver qualquer dúvida, eu já tiro as dúvidas dela também, sem problema algum, tá bom?"
+            },
+            {
+                "role": "AI",
+                "text": "Tudo bem, combina.  \nPode dar entrada na análise de risco agora pra eu ficar com a cobertura.  \nMarca o café com a Larissa quando a apólice sair que a gente conversa."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Perfeito, combinado. Então vou dar segmento agora"
+            },
+            {
+                "role": "AI",
+                "text": "Certo, fico no aguardo então.  \nAvise quando marcar o café com a Larissa para eu me programar."
+            }
+        ],
+        "finished": true,
+        "feedback": "Aqui está o debriefing da nossa troca.\n\n  \n🤓 PERSONA\n\nPaciente, perfil majoritariamente Verde (Green) no DISC, expressando objeção de orçamento apertado e posterior envolvimento do cônjuge na decisão.\n\n  \n🎯 OBJETIVO PRINCIPAL\n\nCorretor () conseguiu tratar a objeção financeira, adaptar a proposta e conduzir ao fechamento, com cliente confortável e sem pressão. Objetivo atingido.\n\n  \n➕ PONTOS FORTES\n\n- Escutou a objeção sem interromper e demonstrou compreensão genuína do momento financeiro do cliente.\n\n  \n- Aplicou a técnica da Obrigação (cruz VOSSA/NOSSA) ao relacionar o prêmio a uma consulta, tornando o valor concreto e mostrando a vantagem da proteção em relação ao custo.\n\n  \n- Propôs de forma proativa o ajuste do valor do prêmio para caber no orçamento, sem ceder ao abandono da contratação.\n\n  \n- Usou argumentação consultiva (“posso te ajudar a explicar para Larissa...”, “podemos marcar um café juntos para explicar”) ao envolver o cônjuge sem perder o ritmo do fechamento.\n\n  \n- Fechou de maneira ética e consultiva, sem pressionar e explicando todos os próximos passos com transparência. Belo trabalho!\n\n  \n📈 PONTOS DE MELHORIA\n\n- Diagnóstico da objeção oculta  \n  A tentativa de investigação (“me ajuda aqui a entender… o que precisa conversar com a Larissa?”) poderia ser mais aberta e empática, buscando explorar o verdadeiro papel da decisão compartilhada, sem deixar a pergunta parecer um “confere”.\n\n  \n- Explique mais explicitamente a troca vantajosa  \n  Embora tenha esboçado a cruz VOSSA/NOSSA (comparação com valor de consulta), poderia tornar ainda mais concreta a relação entre prêmio e capitais segurados, reforçando o benefício numérico.\n\n  \n- Potencialize a Power Phrase e faça silêncio  \n  Faltou marcar bem uma frase de impacto (“Nunca vi ninguém quebrar por pagar um seguro, já vi famílias quebrarem por não ter.”), seguida de pausa, para forçar a reflexão.\n\n  \nVocê já demonstra boa sensibilidade para conduzir ajustes e tangibilizar valor — siga lapidando as perguntas e aproveite as pausas.\n\n  \n🩵 ANÁLISE EMOCIONAL\n\nO tom foi calmo, genuíno e acolhedor, com ritmo adequado ao cliente Green, promovendo segurança e abertura. Postura confiante e serena predominou.\n\n  \n🛅 MOMENTOS-CHAVE\n\nSituação: Cliente hesitou citando orçamento.  \nCorretor () propôs ajuste do valor do prêmio e explicou de onde viria a redução.  \nImpacto: Tornou a decisão mais acessível sem sacrificar a proteção, avançando a negociação para o fechamento consultivo.\n\n  \nSituação: Cliente trouxe Larissa para a conversa.  \nCorretor () envolveu o cônjuge no pós-venda e sugeriu um café, mantendo a fluidez.  \nImpacto: Evitou travamento ou adiamento, garantindo ritmo natural ao fechamento.\n\n  \n🔊 REFORMULAÇÕES RECOMENDADAS\n\n“A maioria dos meus clientes percebe que o prêmio do seguro, na verdade, custa menos que uma consulta — mas entrega uma proteção que vale uma vida inteira.”\n\n  \n“Me conta, além do valor do prêmio, existe algo mais que te preocupa nesta decisão agora?” (essa mesma pergunta que você já esboçou, de forma mais ampla e acolhedora).\n\n  \n“Sendo assim, posso dar entrada na sua proposta agora? A gente já garante a proteção e, se precisar, depois ajusta juntos.”\n\n  \n“Se quiser, já marcamos um café com a Larissa para tirar dúvidas de ambos, pode ser?”\n\n  \n➡️ RECOMENDAÇÕES\n\nContinue aprimorando perguntas investigativas para entender o contexto familiar e financeiro completo, aprofunde a cruz VOSSA/NOSSA com números claros, e valorize as pausas após frases de impacto. Seu tom consultivo já é sua maior força – mantenha e refine!",
+        "insights": [
+            "Escutou a objeção sem interromper e demonstrou compreensão genuína do momento financeiro do cliente.",
+            "Aplicou a técnica da Obrigação (cruz VOSSA/NOSSA) ao relacionar o prêmio a uma consulta, tornando o valor concreto e mostrando a vantagem da proteção em relação ao custo.",
+            "Propôs de forma proativa o ajuste do valor do prêmio para caber no orçamento, sem ceder ao abandono da contratação.",
+            "Usou argumentação consultiva (“posso te ajudar a explicar para Larissa...”, “podemos marcar um café juntos para explicar”) ao envolver o cônjuge sem perder o ritmo do fechamento.",
+            "Fechou de maneira ética e consultiva, sem pressionar e explicando todos os próximos passos com transparência. Belo trabalho!",
+            "Diagnóstico da objeção oculta",
+            "Explique mais explicitamente a troca vantajosa",
+            "Potencialize a Power Phrase e faça silêncio"
+        ]
     },
     {
         "name": "Parceiro Luark",

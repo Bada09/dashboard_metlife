@@ -3,11 +3,11 @@ const users = [
         "avgDurSec": 42,
         "avgScore": 62.7,
         "skills": {
-            "Escuta": 32.3,
-            "Personalizacao": 41.1,
-            "Empatia": 36.9,
-            "Crises": 37.4,
-            "Padroes": 29.9
+            "Escuta": 74.5,
+            "Personalizacao": 77.0,
+            "Empatia": 77.8,
+            "Crises": 77.8,
+            "Padroes": 74.5
         },
         "count": 27,
         "insights": {
@@ -113,11 +113,11 @@ const users = [
         "avgDurSec": 17,
         "avgScore": 49.7,
         "skills": {
-            "Escuta": 54.5,
-            "Personalizacao": 60.6,
-            "Empatia": 49.6,
-            "Crises": 55.2,
-            "Padroes": 51.2
+            "Escuta": 54.7,
+            "Personalizacao": 53.6,
+            "Empatia": 57.6,
+            "Crises": 55.4,
+            "Padroes": 55.1
         },
         "count": 23,
         "insights": {
@@ -184,11 +184,11 @@ const users = [
         "avgDurSec": 38,
         "avgScore": 63.6,
         "skills": {
-            "Escuta": 59.6,
-            "Personalizacao": 70.5,
-            "Empatia": 64.9,
-            "Crises": 54.5,
-            "Padroes": 54.5
+            "Escuta": 71.3,
+            "Personalizacao": 67.0,
+            "Empatia": 74.9,
+            "Crises": 69.9,
+            "Padroes": 68.4
         },
         "count": 12,
         "insights": {
@@ -244,11 +244,11 @@ const users = [
         "avgDurSec": 56,
         "avgScore": 56.8,
         "skills": {
-            "Escuta": 37.8,
-            "Personalizacao": 45.8,
-            "Empatia": 50.2,
-            "Crises": 56.8,
-            "Padroes": 42.2
+            "Escuta": 59.0,
+            "Personalizacao": 57.3,
+            "Empatia": 64.0,
+            "Crises": 62.3,
+            "Padroes": 64.0
         },
         "count": 14,
         "insights": {
@@ -306,11 +306,11 @@ const users = [
         "avgDurSec": 21,
         "avgScore": 54.9,
         "skills": {
-            "Escuta": 60.2,
-            "Personalizacao": 62.9,
-            "Empatia": 59.7,
-            "Crises": 59.0,
-            "Padroes": 53.9
+            "Escuta": 60.4,
+            "Personalizacao": 58.2,
+            "Empatia": 62.7,
+            "Crises": 59.9,
+            "Padroes": 61.0
         },
         "count": 18,
         "insights": {
@@ -448,11 +448,11 @@ const users = [
         "avgDurSec": 31,
         "avgScore": 70.5,
         "skills": {
-            "Escuta": 74.5,
-            "Personalizacao": 76.3,
-            "Empatia": 77.8,
-            "Crises": 72.7,
-            "Padroes": 69.3
+            "Escuta": 74.7,
+            "Personalizacao": 71.3,
+            "Empatia": 81.8,
+            "Crises": 76.0,
+            "Padroes": 74.3
         },
         "count": 7,
         "insights": {
@@ -503,11 +503,11 @@ const users = [
         "avgDurSec": 6,
         "avgScore": 41.9,
         "skills": {
-            "Escuta": 32.3,
-            "Personalizacao": 43.0,
-            "Empatia": 33.7,
-            "Crises": 33.6,
-            "Padroes": 29.1
+            "Escuta": 45.3,
+            "Personalizacao": 38.9,
+            "Empatia": 46.0,
+            "Crises": 39.6,
+            "Padroes": 44.6
         },
         "count": 18,
         "insights": {
@@ -569,11 +569,11 @@ const users = [
         "avgDurSec": 46,
         "avgScore": 67.5,
         "skills": {
-            "Escuta": 63.4,
-            "Personalizacao": 73.5,
-            "Empatia": 67.5,
-            "Crises": 63.5,
-            "Padroes": 61.6
+            "Escuta": 72.3,
+            "Personalizacao": 72.2,
+            "Empatia": 78.2,
+            "Crises": 72.3,
+            "Padroes": 74.8
         },
         "count": 27,
         "insights": {
@@ -641,42 +641,36 @@ const users = [
         "avgDurMin": 1
     },
     {
-        "avgDurSec": 5,
-        "avgScore": 56.0,
+        "avgDurSec": 58,
+        "avgScore": 57.5,
         "skills": {
-            "Escuta": 58.0,
-            "Personalizacao": 81.5,
-            "Empatia": 68.5,
-            "Crises": 53.0,
-            "Padroes": 55.5
+            "Escuta": 61.7,
+            "Personalizacao": 60.0,
+            "Empatia": 66.7,
+            "Crises": 63.3,
+            "Padroes": 60.0
         },
-        "count": 3,
+        "count": 6,
         "insights": {
             "pt": [
-                "Você reforçou a confirmação do agendamento por WhatsApp e e-mail, mostrando organização e zelo.",
-                "Invista mais tempo no início criando vínculo e contexto, peça autorização explícita para seguir com perguntas e cite sempre a recomendação recebida. Troque o tom de interrogatório por escuta ativa e curiosidade genuína. Mantenha-se humano, mesmo com metas na mesa!",
-                "Você está no caminho certo. Lapide sua escuta e empatia: resultados virão!",
-                "Abordagem inicial educada e direta, buscando rapidamente trazer a conversa para o tema da reunião.",
-                "Tentou se colocar como consultor ao sugerir entender o momento de vida, patrimônio e planos do cliente.",
-                "Propôs um horário concreto para a reunião, fugindo de datas vagas e facilitando a tomada de decisão.",
-                "Atitude acolhedora e mostra de disponibilidade ao garantir envio rápido de informações por WhatsApp.",
-                "Faltou pedir autorização explícita antes de seguir com a abordagem, ponto essencial do método MetLife.",
-                "Não ativou a recomendação (não citou a indicação de Paulo nem associou credibilidade ao contato).",
-                "Quebra-gelo pessoal ausente, o que poderia criar conexão e baixar defesas do prospect.",
-                "Não utilizou escolha forçada entre dois horários; propôs apenas um, limitando engajamento."
+                "Bruno, cirurgião cardiotorácico, perfil DISC vermelho, expressou objeção financeira primária: “não é o momento de acrescentar gastos”.",
+                "Você reconheceu explicitamente a preocupação do cliente e demonstrou empatia (“Te entendo completamente. Eu estaria preocupado também...”).",
+                "Tentou transformar a objeção relativa ao momento financeiro em reflexão sobre consequências maiores (“Agora imagina se... ficar desprovido da sua renda”).",
+                "Propôs ajuste concreto do prêmio para acomodar o orçamento do cliente, mostrando flexibilidade e foco em solução (“o seguro vai ficar dentro dos R$ 250, que é o que você pode pagar”).",
+                "Utilizou perguntas para investigar possíveis barreiras adicionais (“O que te impede de fechar hoje? É só isso?”). Belo avanço!",
+                "Continue explorando perguntas abertas — esse é um bom caminho!",
+                "Falta de cruz VOSSA/NOSSA explícita. Embora você contextualize, não construiu visualmente ou verbalmente a troca direta prêmio x capitais e obrigações (“a troca vantajosa”). Tente anchorear mais concretamente o valor entregue.",
+                "Investigação. Você começou bem ao perguntar sobre impedimentos, mas poderia aprofundar com perguntas mais abertas para entender, por exemplo, se há outros fatores além do valor. Isso ajudaria a revelar camadas secundárias ou objeções ocultas com mais clareza."
             ],
             "fr": [
-                "Você reforçou a confirmação do agendamento por WhatsApp e e-mail, mostrando organização e zelo.",
-                "Invista mais tempo no início criando vínculo e contexto, peça autorização explícita para seguir com perguntas e cite sempre a recomendação recebida. Troque o tom de interrogatório por escuta ativa e curiosidade genuína. Mantenha-se humano, mesmo com metas na mesa!",
-                "Você está no caminho certo. Lapide sua escuta e empatia: resultados virão!",
-                "Abordagem inicial educada e direta, buscando rapidamente trazer a conversa para o tema da reunião.",
-                "Tentou se colocar como consultor ao sugerir entender o momento de vida, patrimônio e planos do cliente.",
-                "Propôs um horário concreto para a reunião, fugindo de datas vagas e facilitando a tomada de decisão.",
-                "Atitude acolhedora e mostra de disponibilidade ao garantir envio rápido de informações por WhatsApp.",
-                "Faltou pedir autorização explícita antes de seguir com a abordagem, ponto essencial do método MetLife.",
-                "Não ativou a recomendação (não citou a indicação de Paulo nem associou credibilidade ao contato).",
-                "Quebra-gelo pessoal ausente, o que poderia criar conexão e baixar defesas do prospect.",
-                "Não utilizou escolha forçada entre dois horários; propôs apenas um, limitando engajamento."
+                "Bruno, cirurgião cardiotorácico, perfil DISC vermelho, expressou objeção financeira primária: “não é o momento de acrescentar gastos”.",
+                "Você reconheceu explicitamente a preocupação do cliente e demonstrou empatia (“Te entendo completamente. Eu estaria preocupado também...”).",
+                "Tentou transformar a objeção relativa ao momento financeiro em reflexão sobre consequências maiores (“Agora imagina se... ficar desprovido da sua renda”).",
+                "Propôs ajuste concreto do prêmio para acomodar o orçamento do cliente, mostrando flexibilidade e foco em solução (“o seguro vai ficar dentro dos R$ 250, que é o que você pode pagar”).",
+                "Utilizou perguntas para investigar possíveis barreiras adicionais (“O que te impede de fechar hoje? É só isso?”). Belo avanço!",
+                "Continue explorando perguntas abertas — esse é um bom caminho!",
+                "Falta de cruz VOSSA/NOSSA explícita. Embora você contextualize, não construiu visualmente ou verbalmente a troca direta prêmio x capitais e obrigações (“a troca vantajosa”). Tente anchorear mais concretamente o valor entregue.",
+                "Investigação. Você começou bem ao perguntar sobre impedimentos, mas poderia aprofundar com perguntas mais abertas para entender, por exemplo, se há outros fatores além do valor. Isso ajudaria a revelar camadas secundárias ou objeções ocultas com mais clareza."
             ]
         },
         "name": "Marcelo Bernardes",
@@ -693,9 +687,12 @@ const users = [
         "dates": [
             "02/07/2026",
             "04/07/2026",
-            "06/07/2026"
+            "06/07/2026",
+            "24/09/2026",
+            "24/09/2026",
+            "25/09/2026"
         ],
-        "avgDurMin": 1
+        "avgDurMin": 0
     },
     {
         "avgDurSec": 0,
@@ -771,11 +768,11 @@ const users = [
         "avgDurSec": 14,
         "avgScore": 61.8,
         "skills": {
-            "Escuta": 52.6,
-            "Personalizacao": 59.3,
-            "Empatia": 58.1,
-            "Crises": 53.9,
-            "Padroes": 49.6
+            "Escuta": 69.8,
+            "Personalizacao": 64.8,
+            "Empatia": 71.4,
+            "Crises": 68.9,
+            "Padroes": 68.9
         },
         "count": 17,
         "insights": {
@@ -836,11 +833,11 @@ const users = [
         "avgDurSec": 56,
         "avgScore": 58.0,
         "skills": {
-            "Escuta": 62.5,
-            "Personalizacao": 65.5,
-            "Empatia": 63.5,
-            "Crises": 66.0,
-            "Padroes": 51.0
+            "Escuta": 63.0,
+            "Personalizacao": 60.5,
+            "Empatia": 65.5,
+            "Crises": 63.0,
+            "Padroes": 65.5
         },
         "count": 4,
         "insights": {
@@ -923,11 +920,11 @@ const users = [
         "avgDurSec": 3,
         "avgScore": 57.7,
         "skills": {
-            "Escuta": 52.2,
-            "Personalizacao": 65.0,
-            "Empatia": 52.1,
-            "Crises": 46.2,
-            "Padroes": 50.8
+            "Escuta": 60.5,
+            "Personalizacao": 60.5,
+            "Empatia": 66.1,
+            "Crises": 62.4,
+            "Padroes": 63.6
         },
         "count": 19,
         "insights": {
@@ -990,11 +987,11 @@ const users = [
         "avgDurSec": 14,
         "avgScore": 55.8,
         "skills": {
-            "Escuta": 39.5,
-            "Personalizacao": 46.7,
-            "Empatia": 41.2,
-            "Crises": 38.8,
-            "Padroes": 37.0
+            "Escuta": 57.5,
+            "Personalizacao": 57.5,
+            "Empatia": 65.0,
+            "Crises": 58.8,
+            "Padroes": 61.2
         },
         "count": 9,
         "insights": {
@@ -1047,11 +1044,11 @@ const users = [
         "avgDurSec": 7,
         "avgScore": 64.7,
         "skills": {
-            "Escuta": 66.5,
-            "Personalizacao": 73.1,
-            "Empatia": 67.0,
-            "Crises": 62.1,
-            "Padroes": 57.3
+            "Escuta": 70.0,
+            "Personalizacao": 67.8,
+            "Empatia": 74.3,
+            "Crises": 70.0,
+            "Padroes": 70.3
         },
         "count": 43,
         "insights": {
@@ -1138,11 +1135,11 @@ const users = [
         "avgDurSec": 27,
         "avgScore": 65.8,
         "skills": {
-            "Escuta": 74.7,
-            "Personalizacao": 74.5,
-            "Empatia": 67.2,
-            "Crises": 67.2,
-            "Padroes": 68.2
+            "Escuta": 70.8,
+            "Personalizacao": 66.7,
+            "Empatia": 71.7,
+            "Crises": 71.7,
+            "Padroes": 71.7
         },
         "count": 7,
         "insights": {
@@ -1193,11 +1190,11 @@ const users = [
         "avgDurSec": 27,
         "avgScore": 45.5,
         "skills": {
-            "Escuta": 33.6,
-            "Personalizacao": 35.7,
-            "Empatia": 31.2,
-            "Crises": 32.1,
-            "Padroes": 33.5
+            "Escuta": 45.6,
+            "Personalizacao": 43.1,
+            "Empatia": 46.1,
+            "Crises": 46.6,
+            "Padroes": 45.4
         },
         "count": 99,
         "insights": {
@@ -1340,11 +1337,11 @@ const users = [
         "avgDurSec": 25,
         "avgScore": 46.5,
         "skills": {
-            "Escuta": 51.5,
-            "Personalizacao": 65.5,
-            "Empatia": 50.0,
-            "Crises": 47.5,
-            "Padroes": 46.0
+            "Escuta": 49.0,
+            "Personalizacao": 46.5,
+            "Empatia": 54.0,
+            "Crises": 51.5,
+            "Padroes": 54.0
         },
         "count": 5,
         "insights": {
@@ -1390,36 +1387,36 @@ const users = [
         "avgDurMin": 0
     },
     {
-        "avgDurSec": 38,
-        "avgScore": 62.0,
+        "avgDurSec": 42,
+        "avgScore": 63.1,
         "skills": {
-            "Escuta": 65.2,
-            "Personalizacao": 68.8,
-            "Empatia": 66.7,
-            "Crises": 65.8,
-            "Padroes": 61.1
+            "Escuta": 67.6,
+            "Personalizacao": 65.7,
+            "Empatia": 70.1,
+            "Crises": 67.6,
+            "Padroes": 67.7
         },
-        "count": 49,
+        "count": 51,
         "insights": {
             "pt": [
-                "Executivo bancário do tipo DISC vermelho, muito analítico e direto.",
-                "Objeção principal de consentimento: necessidade de validar a decisão com o cônjuge.",
-                "O corretor explorou a hesitação, fez perguntas para descobrir a razão do adiamento, mas não tratou a objeção com uma CHAVE concreta.",
-                "O fechamento imediato não foi atingido, faltou alinhamento consultivo e progressão efetiva rumo ao sim.",
-                "Demonstrou escuta ativa ao acolher o motivo de adiamento e perguntar diretamente sobre o que precisava consultar.",
-                "Buscou confirmar se o ponto de valor já havia sido esclarecido desde a reunião anterior.",
-                "Demonstrou interesse genuíno na preocupação do cliente, ajustando o discurso conforme a resposta.",
-                "Faltou aplicar a CHAVE da objeção de consentimento: reconhecer o papel do cônjuge e contar a história do “Anel de Brilhantes” ou propor alternativa concreta (ligação, agendamento com ambos)."
+                "Escutou a objeção sem interromper e demonstrou compreensão genuína do momento financeiro do cliente.",
+                "Aplicou a técnica da Obrigação (cruz VOSSA/NOSSA) ao relacionar o prêmio a uma consulta, tornando o valor concreto e mostrando a vantagem da proteção em relação ao custo.",
+                "Propôs de forma proativa o ajuste do valor do prêmio para caber no orçamento, sem ceder ao abandono da contratação.",
+                "Usou argumentação consultiva (“posso te ajudar a explicar para Larissa...”, “podemos marcar um café juntos para explicar”) ao envolver o cônjuge sem perder o ritmo do fechamento.",
+                "Fechou de maneira ética e consultiva, sem pressionar e explicando todos os próximos passos com transparência. Belo trabalho!",
+                "Diagnóstico da objeção oculta",
+                "Explique mais explicitamente a troca vantajosa",
+                "Potencialize a Power Phrase e faça silêncio"
             ],
             "fr": [
-                "Executivo bancário do tipo DISC vermelho, muito analítico e direto.",
-                "Objeção principal de consentimento: necessidade de validar a decisão com o cônjuge.",
-                "O corretor explorou a hesitação, fez perguntas para descobrir a razão do adiamento, mas não tratou a objeção com uma CHAVE concreta.",
-                "O fechamento imediato não foi atingido, faltou alinhamento consultivo e progressão efetiva rumo ao sim.",
-                "Demonstrou escuta ativa ao acolher o motivo de adiamento e perguntar diretamente sobre o que precisava consultar.",
-                "Buscou confirmar se o ponto de valor já havia sido esclarecido desde a reunião anterior.",
-                "Demonstrou interesse genuíno na preocupação do cliente, ajustando o discurso conforme a resposta.",
-                "Faltou aplicar a CHAVE da objeção de consentimento: reconhecer o papel do cônjuge e contar a história do “Anel de Brilhantes” ou propor alternativa concreta (ligação, agendamento com ambos)."
+                "Escutou a objeção sem interromper e demonstrou compreensão genuína do momento financeiro do cliente.",
+                "Aplicou a técnica da Obrigação (cruz VOSSA/NOSSA) ao relacionar o prêmio a uma consulta, tornando o valor concreto e mostrando a vantagem da proteção em relação ao custo.",
+                "Propôs de forma proativa o ajuste do valor do prêmio para caber no orçamento, sem ceder ao abandono da contratação.",
+                "Usou argumentação consultiva (“posso te ajudar a explicar para Larissa...”, “podemos marcar um café juntos para explicar”) ao envolver o cônjuge sem perder o ritmo do fechamento.",
+                "Fechou de maneira ética e consultiva, sem pressionar e explicando todos os próximos passos com transparência. Belo trabalho!",
+                "Diagnóstico da objeção oculta",
+                "Explique mais explicitamente a troca vantajosa",
+                "Potencialize a Power Phrase e faça silêncio"
             ]
         },
         "name": "Parceiro Rivorio3a12",
@@ -1482,7 +1479,9 @@ const users = [
             "02/08/2026",
             "02/08/2026",
             "22/08/2026",
-            "27/08/2026"
+            "27/08/2026",
+            "24/09/2026",
+            "24/09/2026"
         ],
         "avgDurMin": 1
     },
@@ -1630,11 +1629,11 @@ const users = [
         "avgDurSec": 30,
         "avgScore": 58.0,
         "skills": {
-            "Escuta": 32.5,
-            "Personalizacao": 34.5,
-            "Empatia": 41.5,
-            "Crises": 34.0,
-            "Padroes": 24.0
+            "Escuta": 71.0,
+            "Personalizacao": 61.0,
+            "Empatia": 71.0,
+            "Crises": 61.0,
+            "Padroes": 66.0
         },
         "count": 7,
         "insights": {
@@ -1685,11 +1684,11 @@ const users = [
         "avgDurSec": 34,
         "avgScore": 58.5,
         "skills": {
-            "Escuta": 40.9,
-            "Personalizacao": 41.1,
-            "Empatia": 40.1,
-            "Crises": 43.6,
-            "Padroes": 42.0
+            "Escuta": 63.1,
+            "Personalizacao": 61.1,
+            "Empatia": 62.9,
+            "Crises": 65.1,
+            "Padroes": 63.9
         },
         "count": 56,
         "insights": {
@@ -1789,11 +1788,11 @@ const users = [
         "avgDurSec": 30,
         "avgScore": 57.1,
         "skills": {
-            "Escuta": 48.1,
-            "Personalizacao": 51.3,
-            "Empatia": 46.0,
-            "Crises": 45.3,
-            "Padroes": 44.1
+            "Escuta": 62.4,
+            "Personalizacao": 59.0,
+            "Empatia": 66.0,
+            "Crises": 62.8,
+            "Padroes": 64.4
         },
         "count": 82,
         "insights": {
@@ -1956,11 +1955,11 @@ const users = [
         "avgDurSec": 14,
         "avgScore": 54.4,
         "skills": {
-            "Escuta": 57.0,
-            "Personalizacao": 66.9,
-            "Empatia": 54.7,
-            "Crises": 49.7,
-            "Padroes": 47.3
+            "Escuta": 59.0,
+            "Personalizacao": 56.9,
+            "Empatia": 63.6,
+            "Crises": 59.4,
+            "Padroes": 58.6
         },
         "count": 29,
         "insights": {
@@ -2068,11 +2067,11 @@ const users = [
         "avgDurSec": 54,
         "avgScore": 42.4,
         "skills": {
-            "Escuta": 43.0,
-            "Personalizacao": 48.7,
-            "Empatia": 43.9,
-            "Crises": 41.1,
-            "Padroes": 37.8
+            "Escuta": 45.1,
+            "Personalizacao": 42.9,
+            "Empatia": 51.9,
+            "Crises": 45.8,
+            "Padroes": 48.3
         },
         "count": 18,
         "insights": {

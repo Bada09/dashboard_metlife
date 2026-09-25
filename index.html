@@ -10,8 +10,8 @@
         rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-    <script src="metlife_users_data.js?v=47"></script>
-    <script src="metlife_simulations_data.js?v=47"></script>
+    <script src="metlife_users_data.js?v=49"></script>
+    <script src="metlife_simulations_data.js?v=49"></script>
 
     <style>
         :root {
@@ -1930,7 +1930,7 @@
         const ui = {
             pt: {
                 menuDashboard: "Dashboard",
-                lastUpdate: "Última atualização: 23/09/2026 - 16:28",
+                lastUpdate: "Última atualização: 25/09/2026 - 12:23",
                 menuReport: "Resumo",
                 export: "Exportar Excel",
                 sessions: "Simulações",
@@ -2015,7 +2015,8 @@
                     Empatia: "Qualificação Rápida",
                     Crises: "Lidar com Objeções",
                     Padroes: "Assertividade",
-                    Personalizacao: "Postura Consultiva"
+                    Personalizacao: "Postura Consultiva",
+                    Fechamento: "Fechamento"
                 },
                 menuSoftSkills: "Soft Skills",
                 softSkillsTitle: "Soft Skills",
@@ -2033,11 +2034,13 @@
                 personSynthesisTitle: "Resumo Executivo",
                 goodDominionOf: "Bom domínio de",
                 stillNeedsToDevelop: "Pontos de Melhoria:",
-                skillLegend: "Cada competência aparece só de um lado (forte ou a desenvolver), com base no saldo entre menções positivas e negativas nas simulações analisadas."
+                skillLegend: "Cada competência aparece só de um lado (forte ou a desenvolver), com base no saldo entre menções positivas e negativas nas simulações analisadas.",
+                matrixNoData: "sem dados",
+                matrixLegend: "Quando o debriefing traz o Mapa de Competências, usa a nota da IA (3/5 = 60%). Caso contrário: % de menções positivas sobre o total de menções da competência nos debriefings (pontos fortes vs. pontos de melhoria). Mesma base da aba Soft Skills: acima de 50% = ponto forte, abaixo = a desenvolver."
             },
             fr: {
                 menuDashboard: "Dashboard",
-                lastUpdate: "Mise à jour : 23/09/2026 - 16h28",
+                lastUpdate: "Mise à jour : 25/09/2026 - 12h23",
                 menuReport: "Résumé",
                 export: "Exporter Excel",
                 sessions: "Simulations",
@@ -2122,7 +2125,8 @@
                     Empatia: "Qualification Rapide",
                     Crises: "Gestion des Objections",
                     Padroes: "Assertivité",
-                    Personalizacao: "Posture Consultative"
+                    Personalizacao: "Posture Consultative",
+                    Fechamento: "Conclusion"
                 },
                 menuSoftSkills: "Soft Skills",
                 softSkillsTitle: "Soft Skills",
@@ -2140,7 +2144,9 @@
                 personSynthesisTitle: "Résumé Exécutif",
                 goodDominionOf: "Bonne maîtrise de",
                 stillNeedsToDevelop: "Points de Développement :",
-                skillLegend: "Chaque compétence apparaît d'un seul côté (point fort ou à développer), selon le solde entre mentions positives et négatives dans les simulations analysées."
+                skillLegend: "Chaque compétence apparaît d'un seul côté (point fort ou à développer), selon le solde entre mentions positives et négatives dans les simulations analysées.",
+                matrixNoData: "pas de données",
+                matrixLegend: "Si le debriefing contient la Carte des Compétences, utilise la note de l'IA (3/5 = 60 %). Sinon : % de mentions positives sur le total des mentions de la compétence dans les debriefings (points forts vs. axes d'amélioration). Même base que l'onglet Soft Skills : au-dessus de 50 % = point fort, en dessous = à développer."
             }
         };
 
@@ -2324,7 +2330,7 @@
                     languages: original.languages || ['PT'],
                     langsCount: langsCount,
                     dates: [...new Set(userSims.map(s => s.date))],
-                    skills: original.skills || { Escuta: 75, Empatia: 80, Crises: 65, Padroes: 85, Personalizacao: 70 },
+                    skills: null, // Matriz calculada sob demanda por getUserMatrix(), mesma fonte da aba Soft Skills
                     insights: original.insights || { pt: [], fr: [] },
                     avgSecs: avgSecs,
                     recencyScore: recencyScore,
@@ -2737,16 +2743,8 @@
             const user = activeUsers.find(u => u.name === sim.name) || activeUsers[0];
             const content = document.getElementById('mainContent');
 
-            // Derive sim-specific skills (seguro contra divisão por zero / NaN)
-            const userScoreBase = (user && user.avgScore > 0) ? user.avgScore : 60;
-            const simScoreBase = (sim && sim.score > 0) ? sim.score : (sim.finished ? 58 : 30);
-            const ratio = sim.finished ? (simScoreBase / userScoreBase) : 0.5;
-            const simSkills = {};
-            const userSkills = (user && user.skills) ? user.skills : { Escuta: 70, Empatia: 75, Crises: 65, Padroes: 70, Personalizacao: 70 };
-            Object.keys(userSkills).forEach(k => {
-                const baseVal = userSkills[k] > 0 ? userSkills[k] : 65;
-                simSkills[k] = Math.min(100, Math.max(20, Math.round(baseVal * ratio + (Math.random() * 6 - 3))));
-            });
+            // Matriz da simulação: calculada a partir do debriefing desta sessão (sem valores aleatórios)
+            const simSkills = getSimMatrix(sim);
 
             const tones = ["Profissional", "Empático", "Proativo", "Calmo", "Diplomático"];
             const simTone = sim.finished ? tones[currentSimIndex % tones.length] : "N/A";
@@ -2891,17 +2889,7 @@
                         <div class="card">
                             <h3 style="color: var(--accent); text-transform: uppercase; font-size: 0.8rem; letter-spacing: 0.1em; margin-bottom: 2rem;">${ui[currentLang].skills}</h3>
                             <div id="u-skills-sim">
-                                ${Object.keys(simSkills).map(k => `
-                                    <div class="skill-bar-container">
-                                        <div class="skill-label-row">
-                                            <span>${ui[currentLang].skillNames[k] || k}</span>
-                                            <span>${simSkills[k]}%</span>
-                                        </div>
-                                        <div class="skill-track">
-                                            <div class="skill-bar-fill" style="width: ${simSkills[k]}%"></div>
-                                        </div>
-                                    </div>
-                                `).join('')}
+                                ${matrixBarsHTML(simSkills)}
                             </div>
                         </div>
                     </div>
@@ -3757,19 +3745,7 @@
             // Matriz de Competências
             const skillsDiv = document.getElementById('u-skills');
             if (skillsDiv) {
-                skillsDiv.innerHTML = ''; // Limpa antes de renderizar
-                Object.entries(user.skills).forEach(([skill, val]) => {
-                    const translatedName = (ui[currentLang].skillNames && ui[currentLang].skillNames[skill]) ? ui[currentLang].skillNames[skill] : skill;
-                    skillsDiv.innerHTML += `
-                        <div class="skill-bar-container">
-                            <div class="skill-label-row">
-                                <span>${translatedName}</span>
-                                <span>${val}%</span>
-                            </div>
-                            <div class="skill-track"><div class="skill-bar-fill" style="width: ${val}%;"></div></div>
-                        </div>
-                    `;
-                });
+                skillsDiv.innerHTML = matrixBarsHTML(getUserMatrix(user));
             }
 
             renderUserChart(user, userFilteredSims);
@@ -3840,11 +3816,11 @@
         }
 
                 function exportCSV() {
-            let csv = 'Nome;Rank;Engajamento;Score Geral;Aderencia ao Metbook;Tempo Medio;Simulacoes;Ultima Sessao;Escuta Ativa;Postura Consultiva;Qualificacao Rapida;Lidar com Objeçoes;Assertividade\n';
+            let csv = 'Nome;Rank;Engajamento;Score Geral;Aderencia ao Metbook;Tempo Medio;Simulacoes;Ultima Sessao;Escuta Ativa;Postura Consultiva;Qualificacao Rapida;Lidar com Objeçoes;Assertividade;Fechamento\n';
             activeUsers.forEach((u, idx) => {
                 const rank = idx + 1;
                 const tempo = `${Math.floor(u.avgSecs / 60)}m ${Math.floor(u.avgSecs % 60)}s`;
-                csv += `"${u.name}";${rank};${u.engagementScore};${u.avgScore};${u.lqaScore};"${tempo}";${u.count};"${u.dates[u.dates.length - 1]}";${u.skills.Escuta};${u.skills.Personalizacao};${u.skills.Empatia};${u.skills.Crises};${u.skills.Padroes}
+                csv += `"${u.name}";${rank};${u.engagementScore};${u.avgScore};${u.lqaScore};"${tempo}";${u.count};"${u.dates[u.dates.length - 1]}";${csvMatrix(u)}
 `;
             });
             
@@ -4252,6 +4228,99 @@
                     : `Queda de ${Math.abs(p.delta)} pontos percentuais entre a primeira e a última simulação.`);
             }
             return bullets;
+        }
+
+        // ══════════════════════════════════════════════════════════════════
+        // MATRIZ DE COMPETÊNCIAS — mesma fonte e mesmas palavras-chave da aba
+        // Soft Skills. Cada barra = menções positivas / (positivas + negativas)
+        // da competência nas seções "pontos fortes" e "pontos de melhoria".
+        // Sem menções → "sem dados" (nunca um valor inventado).
+        // ══════════════════════════════════════════════════════════════════
+        function matrixMap() {
+            // chave da matriz → competência correspondente em SALES_SKILLS (rótulo exibido entre parênteses)
+            return {
+                Escuta: 'escuta',              // Escuta Ativa
+                Empatia: 'qualificacao',       // Qualificação Rápida
+                Crises: 'objeccoes',           // Lidar com Objeções
+                Padroes: 'assertividade',      // Assertividade
+                Personalizacao: 'consultiva',  // Postura Consultiva
+                Fechamento: 'fechamento'       // Fechamento
+            };
+        }
+        function matrixFromCounts(sC, gC) {
+            const out = {};
+            Object.entries(matrixMap()).forEach(([k, key]) => {
+                const s = (sC && sC[key]) || 0, g = (gC && gC[key]) || 0;
+                out[k] = (s + g) > 0 ? Math.round(100 * s / (s + g)) : null;
+            });
+            return out;
+        }
+        // Lê o "📊 MAPA DE COMPETÊNCIAS" do debriefing (linhas "Nome ▰▰▰▱▱ 3/5").
+        // Quando existe, é a fonte oficial: nota dada pela IA, convertida em % (3/5 = 60%).
+        function parseCompetencyMap(feedback) {
+            const fb = fixEnc(feedback || '');
+            const h = fb.search(/mapa\s+de\s+compet[êe]ncias|carte\s+des\s+comp[ée]tences/i);
+            if (h < 0) return null;
+            const labelToKey = {};
+            const names = [ui.pt.skillNames, ui.fr.skillNames];
+            names.forEach(n => Object.entries(n || {}).forEach(([k, lbl]) => { labelToKey[normTxt(lbl)] = k; }));
+            const out = {}; let found = 0;
+            const re = /^[\s>*\-•]*([^\n▰▱]+?)\s*[▰▱]+\s*(\d)\s*\/\s*5/gm;
+            let m; const section = fb.slice(h, h + 1500);
+            while ((m = re.exec(section)) !== null) {
+                const k = labelToKey[normTxt(m[1].trim())];
+                if (k) { out[k] = Math.round(parseInt(m[2], 10) * 20); found++; }
+            }
+            return found ? out : null;
+        }
+        function averageMaps(maps) {
+            const out = {};
+            Object.keys(matrixMap()).forEach(k => {
+                const vals = maps.map(m => m[k]).filter(v => v !== undefined && v !== null);
+                out[k] = vals.length ? Math.round(vals.reduce((a, b) => a + b, 0) / vals.length) : null;
+            });
+            return out;
+        }
+        function getUserMatrix(user) {
+            if (!user) return matrixFromCounts({}, {});
+            const sims = getSoftSkillsSims();
+            const mine = sims.filter(s => cleanName(s.name) === cleanName(user.name));
+            // 1º: notas oficiais do mapa de competências, se os debriefings já trazem
+            const maps = mine.map(s => parseCompetencyMap(s.feedback)).filter(Boolean);
+            if (maps.length) return averageMaps(maps);
+            // 2º: fallback — saldo de menções nos pontos fortes / de melhoria
+            const prof = mine.length ? buildPersonProfile(mine[0].name, sims) : null;
+            return prof ? matrixFromCounts(prof.strengthCounts, prof.gapCounts) : matrixFromCounts({}, {});
+        }
+        function getSimMatrix(sim) {
+            if (!sim || !sim.finished || !sim.feedback) return matrixFromCounts({}, {});
+            const map = parseCompetencyMap(sim.feedback);
+            if (map) return averageMaps([map]);
+            const parsed = splitFeedbackSections(sim.feedback);
+            return matrixFromCounts(tagSkills(parsed.strengths), tagSkills(parsed.improvements));
+        }
+        function matrixBarsHTML(skills) {
+            const L = ui[currentLang];
+            const bars = Object.keys(matrixMap()).map(k => {
+                const v = skills ? skills[k] : null;
+                const name = (L.skillNames && L.skillNames[k]) || k;
+                const has = v !== null && v !== undefined;
+                return `
+                    <div class="skill-bar-container">
+                        <div class="skill-label-row">
+                            <span>${name}</span>
+                            <span${has ? '' : ' style="color: var(--text-muted); font-weight: 500;"'}>${has ? v + '%' : L.matrixNoData}</span>
+                        </div>
+                        <div class="skill-track"><div class="skill-bar-fill" style="width: ${has ? v : 0}%;"></div></div>
+                    </div>`;
+            }).join('');
+            return bars + `<div class="skill-legend" style="margin-top: 1rem;">${L.matrixLegend}</div>`;
+        }
+        function csvMatrix(u) {
+            const m = getUserMatrix(u);
+            const f = v => (v === null || v === undefined) ? '' : v;
+            // ordem das colunas do cabeçalho: Escuta, Postura Consultiva, Qualificação, Objeções, Assertividade
+            return [m.Escuta, m.Personalizacao, m.Empatia, m.Crises, m.Padroes, m.Fechamento].map(f).join(';');
         }
 
         const SS_STRENGTH_RE = /pontos?\s+forte?s?(?:\s+da\s+interven[cç][aã]o)?\s*:?|points?\s+forts?(?:\s+de\s+l['’]interven\w*)?\s*:?/gi;
