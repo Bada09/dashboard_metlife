@@ -10,8 +10,8 @@
         rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-    <script src="metlife_users_data.js?v=49"></script>
-    <script src="metlife_simulations_data.js?v=49"></script>
+    <script src="metlife_users_data.js?v=53"></script>
+    <script src="metlife_simulations_data.js?v=53"></script>
 
     <style>
         :root {
@@ -1930,7 +1930,7 @@
         const ui = {
             pt: {
                 menuDashboard: "Dashboard",
-                lastUpdate: "Última atualização: 25/09/2026 - 12:23",
+                lastUpdate: "Última atualização: 29/09/2026 - 11:55",
                 menuReport: "Resumo",
                 export: "Exportar Excel",
                 sessions: "Simulações",
@@ -2040,7 +2040,7 @@
             },
             fr: {
                 menuDashboard: "Dashboard",
-                lastUpdate: "Mise à jour : 25/09/2026 - 12h23",
+                lastUpdate: "Mise à jour : 29/09/2026 - 11h55",
                 menuReport: "Résumé",
                 export: "Exporter Excel",
                 sessions: "Simulations",
@@ -2264,24 +2264,19 @@
 
         // ── Inteligência de Dados (Pós-Carregamento) ──
 
-        // ── Atualização do Status de Run Conforme Regra de Interações da IA ──
+        // ── Calibração de Score para Simulações Avaliadas ──
         RAW_SIMULATIONS.forEach(s => {
-            const aiCount = (s.messages || []).filter(m => (m.role || '').toUpperCase() === 'AI').length;
-            if (aiCount > 3) {
-                s.finished = true;
-                // Calibração se o score veio 0 do backend mas tem debriefing estruturado
-                if ((!s.score || s.score === 0) && s.feedback && s.feedback.length > 100) {
-                    s.score = 58;
-                }
+            // Calibração se o score veio 0 do backend mas tem debriefing estruturado
+            if (s.finished && (!s.score || s.score === 0) && s.feedback && s.feedback.length > 100) {
+                s.score = 58;
             }
         });
 
         // Todas as simulações válidas da operação (excluindo equipe da Rhapsody)
+        // Considera as 193 simulações de Corretores (avaliadas e com diálogo real)
         const ALL_OPERATION_SIMS = RAW_SIMULATIONS.filter(s => {
             if (isRhapsody(s.name)) return false;
-            const aiCount = (s.messages || []).filter(m => (m.role || '').toUpperCase() === 'AI').length;
-            const minInteractions = s.finished ? (aiCount > 3 || (s.interactions && s.interactions >= 3) || getSec(s.dur) >= 45) : (aiCount > 3);
-            return minInteractions;
+            return s.finished;
         });
 
         let VALID_SIMS = [];

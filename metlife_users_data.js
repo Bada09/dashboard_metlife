@@ -1,7 +1,7 @@
 const users = [
     {
         "avgDurSec": 42,
-        "avgScore": 62.7,
+        "avgScore": 61.1,
         "skills": {
             "Escuta": 74.5,
             "Personalizacao": 77.0,
@@ -9,7 +9,7 @@ const users = [
             "Crises": 77.8,
             "Padroes": 74.5
         },
-        "count": 27,
+        "count": 15,
         "insights": {
             "pt": [
                 "Interpretei André, médico clínico geral, perfil DISC vermelho (direto, exigente), com objeção principal de adiamento para pensar melhor.",
@@ -111,7 +111,7 @@ const users = [
     },
     {
         "avgDurSec": 17,
-        "avgScore": 49.7,
+        "avgScore": 50.4,
         "skills": {
             "Escuta": 54.7,
             "Personalizacao": 53.6,
@@ -119,7 +119,7 @@ const users = [
             "Crises": 55.4,
             "Padroes": 55.1
         },
-        "count": 23,
+        "count": 16,
         "insights": {
             "pt": [
                 "Você interagiu com Eduardo, engenheiro metódico, perfil azul DISC: racional, analítico, valoriza clareza e respeito no relacionamento.",
@@ -190,7 +190,7 @@ const users = [
             "Crises": 69.9,
             "Padroes": 68.4
         },
-        "count": 12,
+        "count": 8,
         "insights": {
             "pt": [
                 "Você escutou a objeção inicial sem minimizar a dificuldade, mostrando empatia e interesse genuíno pela situação do cliente.",
@@ -250,7 +250,7 @@ const users = [
             "Crises": 62.3,
             "Padroes": 64.0
         },
-        "count": 14,
+        "count": 4,
         "insights": {
             "pt": [
                 "Marcos, professor de história, quarenta e dois anos, perfil DISC majoritariamente verde: calmo, relacional, evita conflitos e pressão comercial.",
@@ -312,7 +312,7 @@ const users = [
             "Crises": 59.9,
             "Padroes": 61.0
         },
-        "count": 18,
+        "count": 14,
         "insights": {
             "pt": [
                 "A escuta ativa foi prejudicada por excesso de explicações e pouco espaço para as respostas da prospect — ritmo acelerado.",
@@ -454,7 +454,7 @@ const users = [
             "Crises": 76.0,
             "Padroes": 74.3
         },
-        "count": 7,
+        "count": 6,
         "insights": {
             "pt": [
                 "Persona feminina, perfil DISC verde (🟢), família de objeção principal: CONSENTIMENTO (“preciso falar com meu parceiro antes de decidir”).",
@@ -501,7 +501,7 @@ const users = [
     },
     {
         "avgDurSec": 6,
-        "avgScore": 41.9,
+        "avgScore": 45.2,
         "skills": {
             "Escuta": 45.3,
             "Personalizacao": 38.9,
@@ -509,7 +509,7 @@ const users = [
             "Crises": 39.6,
             "Padroes": 44.6
         },
-        "count": 18,
+        "count": 12,
         "insights": {
             "pt": [
                 "Banqueiro sênior analítico e exigente, direto, perfil DISC dominante vermelho.",
@@ -567,7 +567,7 @@ const users = [
     },
     {
         "avgDurSec": 46,
-        "avgScore": 67.5,
+        "avgScore": 67.0,
         "skills": {
             "Escuta": 72.3,
             "Personalizacao": 72.2,
@@ -575,7 +575,7 @@ const users = [
             "Crises": 72.3,
             "Padroes": 74.8
         },
-        "count": 27,
+        "count": 23,
         "insights": {
             "pt": [
                 "Perfil DISC azul, engenheiro metódico e racional, articulou objeção financeira sincera: “não é o momento para mais gastos”.",
@@ -642,7 +642,7 @@ const users = [
     },
     {
         "avgDurSec": 58,
-        "avgScore": 57.5,
+        "avgScore": 57.0,
         "skills": {
             "Escuta": 61.7,
             "Personalizacao": 60.0,
@@ -650,7 +650,7 @@ const users = [
             "Crises": 63.3,
             "Padroes": 60.0
         },
-        "count": 6,
+        "count": 5,
         "insights": {
             "pt": [
                 "Bruno, cirurgião cardiotorácico, perfil DISC vermelho, expressou objeção financeira primária: “não é o momento de acrescentar gastos”.",
@@ -774,7 +774,7 @@ const users = [
             "Crises": 68.9,
             "Padroes": 68.9
         },
-        "count": 17,
+        "count": 15,
         "insights": {
             "pt": [
                 "Trouxe a recomendação já nos primeiros segundos e citou nome conhecido, criando gatilho social relevante.",
@@ -831,7 +831,7 @@ const users = [
     },
     {
         "avgDurSec": 56,
-        "avgScore": 58.0,
+        "avgScore": 57.0,
         "skills": {
             "Escuta": 63.0,
             "Personalizacao": 60.5,
@@ -839,7 +839,7 @@ const users = [
             "Crises": 63.0,
             "Padroes": 65.5
         },
-        "count": 4,
+        "count": 3,
         "insights": {
             "pt": [
                 "Larissa, empreendedora carismática de salão de beleza, com perfil DISC majoritariamente amarelo: expressiva, relacional, veloz e motivada por conexões pessoais.",
@@ -918,7 +918,7 @@ const users = [
     },
     {
         "avgDurSec": 3,
-        "avgScore": 57.7,
+        "avgScore": 57.2,
         "skills": {
             "Escuta": 60.5,
             "Personalizacao": 60.5,
@@ -926,7 +926,7 @@ const users = [
             "Crises": 62.4,
             "Padroes": 63.6
         },
-        "count": 19,
+        "count": 11,
         "insights": {
             "pt": [
                 "Construiu uma ponte de confiança ao mencionar a Camila como referência logo no início.",
@@ -985,7 +985,7 @@ const users = [
     },
     {
         "avgDurSec": 14,
-        "avgScore": 55.8,
+        "avgScore": 55.7,
         "skills": {
             "Escuta": 57.5,
             "Personalizacao": 57.5,
@@ -993,7 +993,7 @@ const users = [
             "Crises": 58.8,
             "Padroes": 61.2
         },
-        "count": 9,
+        "count": 7,
         "insights": {
             "pt": [
                 "Bruno, cirurgião cardiotorácico, perfil DISC vermelho, expressou objeção de orçamento: o momento financeiro está difícil, não cabe novo gasto.",
@@ -1042,7 +1042,7 @@ const users = [
     },
     {
         "avgDurSec": 7,
-        "avgScore": 64.7,
+        "avgScore": 63.6,
         "skills": {
             "Escuta": 70.0,
             "Personalizacao": 67.8,
@@ -1050,7 +1050,7 @@ const users = [
             "Crises": 70.0,
             "Padroes": 70.3
         },
-        "count": 43,
+        "count": 35,
         "insights": {
             "pt": [
                 "O objetivo foi atingido: a objeção financeira foi explorada e superada, e a contratação foi efetivada sem constrangimento para o cliente.",
@@ -1141,7 +1141,7 @@ const users = [
             "Crises": 71.7,
             "Padroes": 71.7
         },
-        "count": 7,
+        "count": 6,
         "insights": {
             "pt": [
                 "Persona interpretada: prospect pessoa física, perfil dominante DISC amarelo, jovem fisioterapeuta, ocupado e desconfiado de propostas comerciais.",
@@ -1188,7 +1188,7 @@ const users = [
     },
     {
         "avgDurSec": 27,
-        "avgScore": 45.5,
+        "avgScore": 47.2,
         "skills": {
             "Escuta": 45.6,
             "Personalizacao": 43.1,
@@ -1196,7 +1196,7 @@ const users = [
             "Crises": 46.6,
             "Padroes": 45.4
         },
-        "count": 99,
+        "count": 51,
         "insights": {
             "pt": [
                 "L’objectif était d’identifier la vraie raison du blocage financier, traiter l’objection par une pratique MetLife et obtenir la souscription immédiate dans l’aisance. Ici, l’objectif est partiellement atteint : bonne investigation, mais pas de clôture ni transformation décisive.",
@@ -1335,7 +1335,7 @@ const users = [
     },
     {
         "avgDurSec": 25,
-        "avgScore": 46.5,
+        "avgScore": 49.3,
         "skills": {
             "Escuta": 49.0,
             "Personalizacao": 46.5,
@@ -1343,7 +1343,7 @@ const users = [
             "Crises": 51.5,
             "Padroes": 54.0
         },
-        "count": 5,
+        "count": 3,
         "insights": {
             "pt": [
                 "Persona interpretada: Fernanda, dentista autônoma, perfil dominância do DISC Verde, pragmática, analítica e cuidadosa com decisões financeiras.",
@@ -1388,7 +1388,7 @@ const users = [
     },
     {
         "avgDurSec": 42,
-        "avgScore": 63.1,
+        "avgScore": 62.0,
         "skills": {
             "Escuta": 67.6,
             "Personalizacao": 65.7,
@@ -1396,7 +1396,7 @@ const users = [
             "Crises": 67.6,
             "Padroes": 67.7
         },
-        "count": 51,
+        "count": 35,
         "insights": {
             "pt": [
                 "Escutou a objeção sem interromper e demonstrou compreensão genuína do momento financeiro do cliente.",
@@ -1627,7 +1627,7 @@ const users = [
     },
     {
         "avgDurSec": 30,
-        "avgScore": 58.0,
+        "avgScore": 56.0,
         "skills": {
             "Escuta": 71.0,
             "Personalizacao": 61.0,
@@ -1635,7 +1635,7 @@ const users = [
             "Crises": 61.0,
             "Padroes": 66.0
         },
-        "count": 7,
+        "count": 6,
         "insights": {
             "pt": [
                 "Você aproveitou o momento de satisfação do cliente logo após o fechamento do contrato, engajando em clima positivo.",
@@ -1682,7 +1682,7 @@ const users = [
     },
     {
         "avgDurSec": 34,
-        "avgScore": 58.5,
+        "avgScore": 57.8,
         "skills": {
             "Escuta": 63.1,
             "Personalizacao": 61.1,
@@ -1690,7 +1690,7 @@ const users = [
             "Crises": 65.1,
             "Padroes": 63.9
         },
-        "count": 56,
+        "count": 48,
         "insights": {
             "pt": [
                 "Gynécologue-obstétricienne, profil DISC majoritairement vert, exprimant principalement une objection liée à la nécessité de consulter le conjoint avant décision.",
@@ -1786,7 +1786,7 @@ const users = [
     },
     {
         "avgDurSec": 30,
-        "avgScore": 57.1,
+        "avgScore": 56.5,
         "skills": {
             "Escuta": 62.4,
             "Personalizacao": 59.0,
@@ -1794,7 +1794,7 @@ const users = [
             "Crises": 62.8,
             "Padroes": 64.4
         },
-        "count": 82,
+        "count": 47,
         "insights": {
             "pt": [
                 "O objetivo foi atingido: você obteve duas recomendações qualificadas e a autorização para contatar utilizando o nome da cliente.",
@@ -1924,7 +1924,7 @@ const users = [
             "Crises": 0.0,
             "Padroes": 0.0
         },
-        "count": 1,
+        "count": 0,
         "insights": {
             "pt": [
                 "Usuário ainda não possui simulações avaliadas recentemente.",
@@ -1953,7 +1953,7 @@ const users = [
     },
     {
         "avgDurSec": 14,
-        "avgScore": 54.4,
+        "avgScore": 54.5,
         "skills": {
             "Escuta": 59.0,
             "Personalizacao": 56.9,
@@ -1961,7 +1961,7 @@ const users = [
             "Crises": 59.4,
             "Padroes": 58.6
         },
-        "count": 29,
+        "count": 18,
         "insights": {
             "pt": [
                 "Fez escuta ativa logo na abertura, reconhecendo de forma empática o contexto econômico difícil.",
@@ -2065,7 +2065,7 @@ const users = [
     },
     {
         "avgDurSec": 54,
-        "avgScore": 42.4,
+        "avgScore": 43.2,
         "skills": {
             "Escuta": 45.1,
             "Personalizacao": 42.9,
@@ -2073,7 +2073,7 @@ const users = [
             "Crises": 45.8,
             "Padroes": 48.3
         },
-        "count": 18,
+        "count": 16,
         "insights": {
             "pt": [
                 "Você iniciou reconhecendo e parabenizando o cliente pela escolha, valorizando o momento UAU do pós-venda.",

@@ -1,4 +1,4 @@
-const LATEST_DUMP_DATE = "25/09/2026";
+const LATEST_DUMP_DATE = "29/09/2026";
 const RAW_SIMULATIONS = [
     {
         "name": "Juliana Pedrão",
@@ -266,7 +266,7 @@ const RAW_SIMULATIONS = [
         "region": "Outros",
         "date": "19/06/2026",
         "dur": "0m 9s",
-        "score": 0,
+        "score": 55,
         "scenario": "PROSPECT_FRIO",
         "lqa": "N/A",
         "interactions": 5,
@@ -292,7 +292,7 @@ const RAW_SIMULATIONS = [
                 "text": "(risos) Tá bom. Continua, então. O que exatamente"
             }
         ],
-        "finished": false,
+        "finished": true,
         "feedback": "",
         "insights": []
     },
@@ -739,7 +739,7 @@ const RAW_SIMULATIONS = [
         "region": "Outros",
         "date": "04/08/2026",
         "dur": "0m 13s",
-        "score": 0,
+        "score": 55,
         "scenario": "OBJECAO_ADIAMENTO",
         "lqa": "N/A",
         "interactions": 3,
@@ -757,7 +757,7 @@ const RAW_SIMULATIONS = [
                 "text": "Porque decisões financeiras importantes a gente costuma tomar em conjunto. Minha esposa acompanha investimentos e quer entender o impacto no planejamento familiar antes de dizer sim. Podemos agendar uma conversa breve com ela na próxima semana?"
             }
         ],
-        "finished": false,
+        "finished": true,
         "feedback": "",
         "insights": []
     },
@@ -1241,7 +1241,7 @@ const RAW_SIMULATIONS = [
         "region": "Outros",
         "date": "05/08/2026",
         "dur": "0m 27s",
-        "score": 0,
+        "score": 55,
         "scenario": "RECOMENDACOES",
         "lqa": "N/A",
         "interactions": 3,
@@ -1259,7 +1259,7 @@ const RAW_SIMULATIONS = [
                 "text": "Olha, vou ser sincero: é meio cedo pra eu sair dando nome assim, prefiro primeiro ver como isso vai ficar na prática com a minha família. Podemos combinar que eu te passo um contato depois, quando eu avisar a pessoa antes?"
             }
         ],
-        "finished": false,
+        "finished": true,
         "feedback": "",
         "insights": []
     },
@@ -2312,7 +2312,7 @@ const RAW_SIMULATIONS = [
         "region": "Outros",
         "date": "23/06/2026",
         "dur": "0m 3s",
-        "score": 0,
+        "score": 55,
         "scenario": "PROSPECT_FRIO",
         "lqa": "N/A",
         "interactions": 5,
@@ -2338,7 +2338,7 @@ const RAW_SIMULATIONS = [
                 "text": "Se for pra continuar a ligação, fala direto o que você quer e seja objetiva. Tenho poucos minutos."
             }
         ],
-        "finished": false,
+        "finished": true,
         "feedback": "",
         "insights": []
     },
@@ -2348,7 +2348,7 @@ const RAW_SIMULATIONS = [
         "region": "Outros",
         "date": "23/06/2026",
         "dur": "0m 9s",
-        "score": 0,
+        "score": 55,
         "scenario": "PROSPECT_FRIO",
         "lqa": "N/A",
         "interactions": 3,
@@ -2366,7 +2366,7 @@ const RAW_SIMULATIONS = [
                 "text": "Oi, Carol. Posso agora, mas tô no meio de um procedimento. Fala rápido por favor."
             }
         ],
-        "finished": false,
+        "finished": true,
         "feedback": "",
         "insights": []
     },
@@ -4971,7 +4971,7 @@ const RAW_SIMULATIONS = [
         "region": "Outros",
         "date": "19/08/2026",
         "dur": "0m 16s",
-        "score": 0,
+        "score": 55,
         "scenario": "PROSPECT_FRIO",
         "lqa": "N/A",
         "interactions": 7,
@@ -5005,7 +5005,7 @@ const RAW_SIMULATIONS = [
                 "text": "[inaudível]"
             }
         ],
-        "finished": false,
+        "finished": true,
         "feedback": "",
         "insights": []
     },
@@ -5045,7 +5045,7 @@ const RAW_SIMULATIONS = [
         "region": "Outros",
         "date": "03/07/2026",
         "dur": "0m 3s",
-        "score": 0,
+        "score": 55,
         "scenario": "PROSPECT_FRIO",
         "lqa": "N/A",
         "interactions": 4,
@@ -5067,7 +5067,7 @@ const RAW_SIMULATIONS = [
                 "text": "If you-- if you're having trouble sleeping at night because of your anxiety about COVID-19, there's help out there."
             }
         ],
-        "finished": false,
+        "finished": true,
         "feedback": "",
         "insights": []
     },
@@ -5092,7 +5092,7 @@ const RAW_SIMULATIONS = [
         "region": "Outros",
         "date": "03/07/2026",
         "dur": "0m 6s",
-        "score": 0,
+        "score": 55,
         "scenario": "PROSPECT_FRIO",
         "lqa": "N/A",
         "interactions": 3,
@@ -5110,7 +5110,7 @@ const RAW_SIMULATIONS = [
                 "text": "Oxe, é outro esforção? É, você conectou..."
             }
         ],
-        "finished": false,
+        "finished": true,
         "feedback": "",
         "insights": []
     },
@@ -5307,7 +5307,7 @@ const RAW_SIMULATIONS = [
         "region": "Outros",
         "date": "06/07/2026",
         "dur": "0m 3s",
-        "score": 0,
+        "score": 55,
         "scenario": "PROSPECT_FRIO",
         "lqa": "N/A",
         "interactions": 2,
@@ -5321,7 +5321,7 @@ const RAW_SIMULATIONS = [
                 "text": "Você deve ter enganado o contato, não sou a Renata. Quem é Débora?"
             }
         ],
-        "finished": false,
+        "finished": true,
         "feedback": "",
         "insights": []
     },
@@ -5750,7 +5750,7 @@ const RAW_SIMULATIONS = [
         "region": "Outros",
         "date": "06/07/2026",
         "dur": "1m 5s",
-        "score": 0,
+        "score": 55,
         "scenario": "PROSPECT_FRIO",
         "lqa": "N/A",
         "interactions": 5,
@@ -5776,7 +5776,7 @@ const RAW_SIMULATIONS = [
                 "text": "Ah, perfeito, fica tranquilo, a maioria dos clientes que estão dent-- meus den-- clientes são dentistas assim como você, e tem um tempo super corrido mesmo, é normal, tá? Mas ó, esse trabalho que eu faço, ele é específico para proteger as suas rendas, a sua renda principalmente porque os dentistas eles trabalham..."
             }
         ],
-        "finished": false,
+        "finished": true,
         "feedback": "",
         "insights": []
     },
@@ -6757,7 +6757,7 @@ const RAW_SIMULATIONS = [
         "region": "Outros",
         "date": "07/07/2026",
         "dur": "0m 7s",
-        "score": 0,
+        "score": 55,
         "scenario": "PROSPECT_FRIO",
         "lqa": "N/A",
         "interactions": 2,
@@ -6771,7 +6771,7 @@ const RAW_SIMULATIONS = [
                 "text": "I am busy at the moment and can only spare a few minutes. Why did Elizângela share my contact with you?"
             }
         ],
-        "finished": false,
+        "finished": true,
         "feedback": "",
         "insights": []
     },
@@ -7188,7 +7188,7 @@ const RAW_SIMULATIONS = [
         "region": "Outros",
         "date": "30/07/2026",
         "dur": "0m 5s",
-        "score": 0,
+        "score": 55,
         "scenario": "RECOMENDACOES",
         "lqa": "N/A",
         "interactions": 4,
@@ -7210,7 +7210,7 @@ const RAW_SIMULATIONS = [
                 "text": "Ok, take your time to write in Portuguese. I’ll wait."
             }
         ],
-        "finished": false,
+        "finished": true,
         "feedback": "",
         "insights": []
     },
@@ -7235,7 +7235,7 @@ const RAW_SIMULATIONS = [
         "region": "Outros",
         "date": "30/07/2026",
         "dur": "0m 2s",
-        "score": 0,
+        "score": 55,
         "scenario": "RECOMENDACOES",
         "lqa": "N/A",
         "interactions": 2,
@@ -7249,7 +7249,7 @@ const RAW_SIMULATIONS = [
                 "text": "Afternoon, I am good, thanks. The papers are signed and I feel relieved."
             }
         ],
-        "finished": false,
+        "finished": true,
         "feedback": "",
         "insights": []
     },
@@ -7952,7 +7952,7 @@ const RAW_SIMULATIONS = [
         "region": "Outros",
         "date": "08/07/2026",
         "dur": "0m 3s",
-        "score": 0,
+        "score": 55,
         "scenario": "PROSPECT_FRIO",
         "lqa": "N/A",
         "interactions": 4,
@@ -7974,7 +7974,7 @@ const RAW_SIMULATIONS = [
                 "text": "Desculpa, acho que você se enganou. Eu não sou o Paulo. Quem é você e como conseguiu meu número?"
             }
         ],
-        "finished": false,
+        "finished": true,
         "feedback": "",
         "insights": []
     },
@@ -11261,7 +11261,7 @@ const RAW_SIMULATIONS = [
         "region": "Outros",
         "date": "25/09/2026",
         "dur": "0m 40s",
-        "score": 0,
+        "score": 55,
         "scenario": "OBJECAO_ADIAMENTO",
         "lqa": "N/A",
         "interactions": 7,
@@ -11295,7 +11295,7 @@ const RAW_SIMULATIONS = [
                 "text": "Tem um cliente meu que diz que está com a situação financeira ruim, que apareceu o-outras questões. Ai, eu tinha"
             }
         ],
-        "finished": false,
+        "finished": true,
         "feedback": "",
         "insights": []
     },
@@ -13441,7 +13441,7 @@ const RAW_SIMULATIONS = [
         "region": "Outros",
         "date": "02/07/2026",
         "dur": "0m 48s",
-        "score": 0,
+        "score": 55,
         "scenario": "DOCUMENTO_REUNIAO",
         "lqa": "N/A",
         "interactions": 3,
@@ -13459,7 +13459,7 @@ const RAW_SIMULATIONS = [
                 "text": "Desculpe, não posso agendar sem antes receber o material por e-mail.  \nSe preferir, envie um resumo técnico objetivo com coberturas e custo estimado."
             }
         ],
-        "finished": false,
+        "finished": true,
         "feedback": "",
         "insights": []
     },
@@ -14124,7 +14124,7 @@ const RAW_SIMULATIONS = [
         "region": "Outros",
         "date": "03/08/2026",
         "dur": "0m 9s",
-        "score": 0,
+        "score": 55,
         "scenario": "RECOMENDACOES",
         "lqa": "N/A",
         "interactions": 7,
@@ -14158,7 +14158,7 @@ const RAW_SIMULATIONS = [
                 "text": "Good. The hire looks solid and fits what we discussed. What do you need from me next?"
             }
         ],
-        "finished": false,
+        "finished": true,
         "feedback": "",
         "insights": []
     },
@@ -14168,7 +14168,7 @@ const RAW_SIMULATIONS = [
         "region": "Outros",
         "date": "03/08/2026",
         "dur": "0m 29s",
-        "score": 0,
+        "score": 55,
         "scenario": "RECOMENDACOES",
         "lqa": "N/A",
         "interactions": 4,
@@ -14190,7 +14190,7 @@ const RAW_SIMULATIONS = [
                 "text": "Look, before anything, I want you to ask first. I don’t give names out of the blue.  \nIf you explain"
             }
         ],
-        "finished": false,
+        "finished": true,
         "feedback": "",
         "insights": []
     },
@@ -14636,7 +14636,7 @@ const RAW_SIMULATIONS = [
         "region": "Outros",
         "date": "07/07/2026",
         "dur": "0m 19s",
-        "score": 0,
+        "score": 55,
         "scenario": "RECOMENDACOES",
         "lqa": "N/A",
         "interactions": 6,
@@ -14666,7 +14666,7 @@ const RAW_SIMULATIONS = [
                 "text": "First, thank you for the clear work today. \n\nSuggest asking the client for one or two people who match his profile, framing it as offering a no-obligation financial review for them.  \nMake explicit that you will not call anyone until he gives permission, and that the first contact will be friendly, informational, and free of sales pressure."
             }
         ],
-        "finished": false,
+        "finished": true,
         "feedback": "",
         "insights": []
     },
@@ -15377,7 +15377,7 @@ const RAW_SIMULATIONS = [
         "region": "Outros",
         "date": "11/08/2026",
         "dur": "0m 17s",
-        "score": 0,
+        "score": 55,
         "scenario": "RECOMENDACOES",
         "lqa": "N/A",
         "interactions": 5,
@@ -15403,7 +15403,7 @@ const RAW_SIMULATIONS = [
                 "text": "Perfeito, vamos lá. É, é, é até importante você mencionar, porque como eu mencionei lá no início da nossa conversa, não existe a possibilidade das pessoas conhecerem esse trabalho sem, ééé, é"
             }
         ],
-        "finished": false,
+        "finished": true,
         "feedback": "",
         "insights": []
     },
@@ -15724,7 +15724,7 @@ const RAW_SIMULATIONS = [
         "region": "Outros",
         "date": "07/07/2026",
         "dur": "0m 33s",
-        "score": 0,
+        "score": 55,
         "scenario": "DOCUMENTO_REUNIAO",
         "lqa": "N/A",
         "interactions": 5,
@@ -15750,7 +15750,7 @@ const RAW_SIMULATIONS = [
                 "text": "Desculpe, senhora, eu prefiro receber o material antes. Se não puder enviar, então não consigo agendar. Adeus."
             }
         ],
-        "finished": false,
+        "finished": true,
         "feedback": "",
         "insights": []
     },
@@ -15775,7 +15775,7 @@ const RAW_SIMULATIONS = [
         "region": "Outros",
         "date": "08/07/2026",
         "dur": "0m 2s",
-        "score": 0,
+        "score": 55,
         "scenario": "PROSPECT_FRIO",
         "lqa": "N/A",
         "interactions": 2,
@@ -15789,7 +15789,7 @@ const RAW_SIMULATIONS = [
                 "text": "Afternoon, Aline. I’m a bit busy right now. Who are you with and what do you want?"
             }
         ],
-        "finished": false,
+        "finished": true,
         "feedback": "",
         "insights": []
     },
@@ -16614,7 +16614,7 @@ const RAW_SIMULATIONS = [
         "region": "Outros",
         "date": "28/07/2026",
         "dur": "0m 11s",
-        "score": 0,
+        "score": 55,
         "scenario": "RECOMENDACOES",
         "lqa": "N/A",
         "interactions": 3,
@@ -16632,7 +16632,7 @@ const RAW_SIMULATIONS = [
                 "text": "You did well. The presentation was clear and focused on what"
             }
         ],
-        "finished": false,
+        "finished": true,
         "feedback": "",
         "insights": []
     },
@@ -19537,7 +19537,7 @@ const RAW_SIMULATIONS = [
         "region": "Outros",
         "date": "14/08/2026",
         "dur": "0m 23s",
-        "score": 0,
+        "score": 55,
         "scenario": "OBJECAO_ADIAMENTO",
         "lqa": "N/A",
         "interactions": 6,
@@ -19567,7 +19567,7 @@ const RAW_SIMULATIONS = [
                 "text": "<estado_interno> nivel_atual: ALTA objecao_1: Preciso pensar melhor chave_obj1_tratada: não gatilho_reforco_acionado: não objecao_2: nenhuma ainda chave_obj2_tratada: não aplicavel turnos_consecutivos_na_objecao_atual: 2 ultima_fala_user_resumo: Tu demandes si j'ai la documentation esta_fala_contem_chave_ou_gatilho: não decisao: baixar 1 nível e emitir sinal de compra verificacao_antiloop: não </estado_interno>\n\nOui, je l'ai. Envoie-la par email, s'il te plaît, pour que je puisse la relire tranquillement ce week-end."
             }
         ],
-        "finished": false,
+        "finished": true,
         "feedback": "",
         "insights": []
     },
@@ -20557,7 +20557,7 @@ const RAW_SIMULATIONS = [
         "region": "Outros",
         "date": "13/05/2026",
         "dur": "0m 0s",
-        "score": 55,
+        "score": 0,
         "scenario": "RECOMENDACOES",
         "lqa": "N/A",
         "interactions": 22,
@@ -20651,7 +20651,7 @@ const RAW_SIMULATIONS = [
                 "text": "Par message privé, court et direct, en précisant que vous les avez en tête et que je les ai invités à échanger. Si vous préférez, je peux d'abord les prévenir de votre message et demander l'autorisation de transmettre leur email."
             }
         ],
-        "finished": true,
+        "finished": false,
         "feedback": "",
         "insights": []
     },
@@ -21250,7 +21250,7 @@ const RAW_SIMULATIONS = [
         "region": "Outros",
         "date": "10/07/2026",
         "dur": "0m 2s",
-        "score": 0,
+        "score": 55,
         "scenario": "PROSPECT_FRIO",
         "lqa": "N/A",
         "interactions": 2,
@@ -21264,7 +21264,7 @@ const RAW_SIMULATIONS = [
                 "text": "Bonjour. Je suis occupée"
             }
         ],
-        "finished": false,
+        "finished": true,
         "feedback": "",
         "insights": []
     },
@@ -21364,7 +21364,7 @@ const RAW_SIMULATIONS = [
         "region": "Outros",
         "date": "10/07/2026",
         "dur": "0m 2s",
-        "score": 0,
+        "score": 55,
         "scenario": "PROSPECT_FRIO",
         "lqa": "N/A",
         "interactions": 2,
@@ -21378,7 +21378,7 @@ const RAW_SIMULATIONS = [
                 "text": "Estou bem, obrigado. Estou no meio de uma tarefa agora, sou direto: qual é o motivo da ligação?"
             }
         ],
-        "finished": false,
+        "finished": true,
         "feedback": "",
         "insights": []
     },
@@ -21388,7 +21388,7 @@ const RAW_SIMULATIONS = [
         "region": "Outros",
         "date": "10/07/2026",
         "dur": "0m 2s",
-        "score": 0,
+        "score": 55,
         "scenario": "PROSPECT_FRIO",
         "lqa": "N/A",
         "interactions": 3,
@@ -21406,7 +21406,7 @@ const RAW_SIMULATIONS = [
                 "text": "Certo. Estou no meio de uma tarefa, fala rápido. Quem está falando"
             }
         ],
-        "finished": false,
+        "finished": true,
         "feedback": "",
         "insights": []
     },
@@ -21908,7 +21908,7 @@ const RAW_SIMULATIONS = [
         "region": "Outros",
         "date": "16/07/2026",
         "dur": "0m 34s",
-        "score": 0,
+        "score": 55,
         "scenario": "PROSPECT_FRIO",
         "lqa": "N/A",
         "interactions": 6,
@@ -21938,7 +21938,7 @@ const RAW_SIMULATIONS = [
                 "text": "Bon. Je suis pressée et je n'aime pas être appelée à"
             }
         ],
-        "finished": false,
+        "finished": true,
         "feedback": "",
         "insights": []
     },
@@ -22076,7 +22076,7 @@ const RAW_SIMULATIONS = [
         "region": "Outros",
         "date": "16/07/2026",
         "dur": "0m 8s",
-        "score": 0,
+        "score": 55,
         "scenario": "PROSPECT_FRIO",
         "lqa": "N/A",
         "interactions": 3,
@@ -22094,7 +22094,7 @@ const RAW_SIMULATIONS = [
                 "text": "Allô? Qui parle? Je suis occupée, allez droit au but."
             }
         ],
-        "finished": false,
+        "finished": true,
         "feedback": "",
         "insights": []
     },
@@ -22157,7 +22157,7 @@ const RAW_SIMULATIONS = [
         "region": "Outros",
         "date": "16/07/2026",
         "dur": "0m 26s",
-        "score": 0,
+        "score": 55,
         "scenario": "PROSPECT_FRIO",
         "lqa": "N/A",
         "interactions": 4,
@@ -22179,7 +22179,7 @@ const RAW_SIMULATIONS = [
                 "text": "Bon, je suis pressée. Je ne peux pas recevoir quelqu'un en physique ces jours-ci. Expliquez-moi rapidement pourquoi je perdrais quinze minutes en visio."
             }
         ],
-        "finished": false,
+        "finished": true,
         "feedback": "",
         "insights": []
     },
@@ -22189,7 +22189,7 @@ const RAW_SIMULATIONS = [
         "region": "Outros",
         "date": "16/07/2026",
         "dur": "0m 18s",
-        "score": 0,
+        "score": 55,
         "scenario": "PROSPECT_FRIO",
         "lqa": "N/A",
         "interactions": 3,
@@ -22207,7 +22207,7 @@ const RAW_SIMULATIONS = [
                 "text": "Allô? Qui est-ce? Je suis prise, allez droit au but."
             }
         ],
-        "finished": false,
+        "finished": true,
         "feedback": "",
         "insights": []
     },
@@ -22237,7 +22237,7 @@ const RAW_SIMULATIONS = [
         "region": "Outros",
         "date": "16/07/2026",
         "dur": "0m 25s",
-        "score": 0,
+        "score": 55,
         "scenario": "PROSPECT_FRIO",
         "lqa": "N/A",
         "interactions": 8,
@@ -22275,7 +22275,7 @@ const RAW_SIMULATIONS = [
                 "text": "Ensuite ? Je n'ai pas compris ce que vous voulez dire par « et le livre ». Expliquez clairement."
             }
         ],
-        "finished": false,
+        "finished": true,
         "feedback": "",
         "insights": []
     },
@@ -22735,7 +22735,7 @@ const RAW_SIMULATIONS = [
         "region": "Outros",
         "date": "31/07/2026",
         "dur": "0m 5s",
-        "score": 0,
+        "score": 55,
         "scenario": "PROSPECT_FRIO",
         "lqa": "N/A",
         "interactions": 4,
@@ -22757,7 +22757,7 @@ const RAW_SIMULATIONS = [
                 "text": "Paolo ne m'a pas prévenue de cet appel. Expliquez directement ce que vous proposez et pourquoi ça m'intéresserait."
             }
         ],
-        "finished": false,
+        "finished": true,
         "feedback": "",
         "insights": []
     },
@@ -23339,7 +23339,7 @@ const RAW_SIMULATIONS = [
         "region": "Outros",
         "date": "17/07/2026",
         "dur": "0m 11s",
-        "score": 0,
+        "score": 55,
         "scenario": "PROSPECT_FRIO",
         "lqa": "N/A",
         "interactions": 2,
@@ -23353,7 +23353,7 @@ const RAW_SIMULATIONS = [
                 "text": "Oi, tudo bem. Estou ocupada agora e prefiro marcar só se eu souber o que vou ganhar com essa conversa. Você pode resumir em uma frase qual o benefício concreto pra mim?"
             }
         ],
-        "finished": false,
+        "finished": true,
         "feedback": "",
         "insights": []
     },
@@ -24166,7 +24166,7 @@ const RAW_SIMULATIONS = [
         "region": "Outros",
         "date": "23/07/2026",
         "dur": "0m 2s",
-        "score": 0,
+        "score": 55,
         "scenario": "PROSPECT_FRIO",
         "lqa": "N/A",
         "interactions": 2,
@@ -24180,7 +24180,7 @@ const RAW_SIMULATIONS = [
                 "text": "Good evening. I am busy at the moment; who are you and why are you calling?"
             }
         ],
-        "finished": false,
+        "finished": true,
         "feedback": "",
         "insights": []
     },
@@ -24214,7 +24214,7 @@ const RAW_SIMULATIONS = [
         "region": "Outros",
         "date": "23/07/2026",
         "dur": "0m 10s",
-        "score": 0,
+        "score": 55,
         "scenario": "PROSPECT_FRIO",
         "lqa": "N/A",
         "interactions": 4,
@@ -24236,7 +24236,7 @@ const RAW_SIMULATIONS = [
                 "text": "[som de engasgo]"
             }
         ],
-        "finished": false,
+        "finished": true,
         "feedback": "",
         "insights": []
     },
@@ -24430,7 +24430,7 @@ const RAW_SIMULATIONS = [
         "region": "Outros",
         "date": "23/07/2026",
         "dur": "0m 2s",
-        "score": 0,
+        "score": 55,
         "scenario": "PROSPECT_FRIO",
         "lqa": "N/A",
         "interactions": 3,
@@ -24448,7 +24448,7 @@ const RAW_SIMULATIONS = [
                 "text": "Não, você não fala com o Paulo. Quem é você e qual o motivo da ligação?"
             }
         ],
-        "finished": false,
+        "finished": true,
         "feedback": "",
         "insights": []
     },
@@ -24788,7 +24788,7 @@ const RAW_SIMULATIONS = [
         "region": "Outros",
         "date": "23/07/2026",
         "dur": "0m 2s",
-        "score": 0,
+        "score": 55,
         "scenario": "DOCUMENTO_REUNIAO",
         "lqa": "N/A",
         "interactions": 2,
@@ -24802,7 +24802,7 @@ const RAW_SIMULATIONS = [
                 "text": "Ah, João, super entendo que tu possa parecer, é, uma"
             }
         ],
-        "finished": false,
+        "finished": true,
         "feedback": "",
         "insights": []
     },
@@ -25314,7 +25314,7 @@ const RAW_SIMULATIONS = [
         "region": "Outros",
         "date": "23/07/2026",
         "dur": "0m 12s",
-        "score": 0,
+        "score": 55,
         "scenario": "DOCUMENTO_REUNIAO",
         "lqa": "N/A",
         "interactions": 4,
@@ -25336,7 +25336,7 @@ const RAW_SIMULATIONS = [
                 "text": "Ah, entendi, João. Fala pra mim, por gentileza, por que que você quer receber esse material online?"
             }
         ],
-        "finished": false,
+        "finished": true,
         "feedback": "",
         "insights": []
     },
@@ -27095,7 +27095,7 @@ const RAW_SIMULATIONS = [
         "region": "Outros",
         "date": "20/07/2026",
         "dur": "0m 2s",
-        "score": 0,
+        "score": 55,
         "scenario": "PROSPECT_FRIO",
         "lqa": "N/A",
         "interactions": 5,
@@ -27121,7 +27121,7 @@ const RAW_SIMULATIONS = [
                 "text": "Não, porque eu enten"
             }
         ],
-        "finished": false,
+        "finished": true,
         "feedback": "",
         "insights": []
     },
@@ -27131,7 +27131,7 @@ const RAW_SIMULATIONS = [
         "region": "Outros",
         "date": "20/07/2026",
         "dur": "0m 6s",
-        "score": 0,
+        "score": 55,
         "scenario": "PROSPECT_FRIO",
         "lqa": "N/A",
         "interactions": 9,
@@ -27173,7 +27173,7 @@ const RAW_SIMULATIONS = [
                 "text": "Não entendi o que você saiu"
             }
         ],
-        "finished": false,
+        "finished": true,
         "feedback": "",
         "insights": []
     },
@@ -27183,7 +27183,7 @@ const RAW_SIMULATIONS = [
         "region": "Outros",
         "date": "20/07/2026",
         "dur": "0m 5s",
-        "score": 0,
+        "score": 55,
         "scenario": "PROSPECT_FRIO",
         "lqa": "N/A",
         "interactions": 5,
@@ -27209,7 +27209,7 @@ const RAW_SIMULATIONS = [
                 "text": "Qual foi? Cê também não me falou"
             }
         ],
-        "finished": false,
+        "finished": true,
         "feedback": "",
         "insights": []
     },
@@ -27327,7 +27327,7 @@ const RAW_SIMULATIONS = [
         "region": "Outros",
         "date": "05/08/2026",
         "dur": "0m 20s",
-        "score": 0,
+        "score": 55,
         "scenario": "RECOMENDACOES",
         "lqa": "N/A",
         "interactions": 8,
@@ -27365,7 +27365,7 @@ const RAW_SIMULATIONS = [
                 "text": "Fala"
             }
         ],
-        "finished": false,
+        "finished": true,
         "feedback": "",
         "insights": []
     },
@@ -27761,7 +27761,7 @@ const RAW_SIMULATIONS = [
         "region": "Outros",
         "date": "13/05/2026",
         "dur": "0m 0s",
-        "score": 55,
+        "score": 0,
         "scenario": "DOCUMENTO_REUNIAO",
         "lqa": "N/A",
         "interactions": 31,
@@ -27891,7 +27891,7 @@ const RAW_SIMULATIONS = [
                 "text": "Non. Je maintiens ma position : pas d'entretien préalable.  \nEnvoyez la fiche synthétique comparant trois scénarios avec hypothèses de rendement, coûts annuels nets"
             }
         ],
-        "finished": true,
+        "finished": false,
         "feedback": "",
         "insights": []
     },
@@ -28018,7 +28018,7 @@ const RAW_SIMULATIONS = [
         "region": "Outros",
         "date": "13/05/2026",
         "dur": "0m 0s",
-        "score": 55,
+        "score": 0,
         "scenario": "DOCUMENTO_REUNIAO",
         "lqa": "N/A",
         "interactions": 28,
@@ -28136,7 +28136,7 @@ const RAW_SIMULATIONS = [
                 "text": "C'est intéressant."
             }
         ],
-        "finished": true,
+        "finished": false,
         "feedback": "",
         "insights": []
     },
@@ -28432,7 +28432,7 @@ const RAW_SIMULATIONS = [
         "region": "Outros",
         "date": "13/05/2026",
         "dur": "0m 0s",
-        "score": 55,
+        "score": 0,
         "scenario": "DOCUMENTO_REUNIAO",
         "lqa": "N/A",
         "interactions": 37,
@@ -28586,7 +28586,7 @@ const RAW_SIMULATIONS = [
                 "text": "Très bien.  \nJe serai connecté vendredi à dix heures trente, quinze minutes prévues.  \nEnvoyez le lien par e‑mail."
             }
         ],
-        "finished": true,
+        "finished": false,
         "feedback": "",
         "insights": []
     },
@@ -28712,7 +28712,7 @@ const RAW_SIMULATIONS = [
         "region": "Outros",
         "date": "19/06/2026",
         "dur": "0m 2s",
-        "score": 0,
+        "score": 55,
         "scenario": "DOCUMENTO_REUNIAO",
         "lqa": "N/A",
         "interactions": 4,
@@ -28734,7 +28734,7 @@ const RAW_SIMULATIONS = [
                 "text": "Ça marche, merci. Au revoir."
             }
         ],
-        "finished": false,
+        "finished": true,
         "feedback": "",
         "insights": []
     },
@@ -28744,7 +28744,7 @@ const RAW_SIMULATIONS = [
         "region": "Outros",
         "date": "29/06/2026",
         "dur": "0m 7s",
-        "score": 0,
+        "score": 55,
         "scenario": "RECOMENDACOES",
         "lqa": "N/A",
         "interactions": 2,
@@ -28758,7 +28758,7 @@ const RAW_SIMULATIONS = [
                 "text": "Desculpe, não entendi bem. Poderia explicar de forma mais concreta o que quer dizer com \"identificação\" aqui?"
             }
         ],
-        "finished": false,
+        "finished": true,
         "feedback": "",
         "insights": []
     },
@@ -28768,7 +28768,7 @@ const RAW_SIMULATIONS = [
         "region": "Outros",
         "date": "29/06/2026",
         "dur": "0m 14s",
-        "score": 0,
+        "score": 55,
         "scenario": "RECOMENDACOES",
         "lqa": "N/A",
         "interactions": 4,
@@ -28790,7 +28790,7 @@ const RAW_SIMULATIONS = [
                 "text": "Ravi que ça se soit bien passé. Si vous pensez que quelques proches pourraient en bénéficier, je peux réfléchir et vous donner deux ou trois noms cette semaine."
             }
         ],
-        "finished": false,
+        "finished": true,
         "feedback": "",
         "insights": []
     },
@@ -28800,7 +28800,7 @@ const RAW_SIMULATIONS = [
         "region": "Outros",
         "date": "29/06/2026",
         "dur": "0m 27s",
-        "score": 0,
+        "score": 55,
         "scenario": "RECOMENDACOES",
         "lqa": "N/A",
         "interactions": 6,
@@ -28830,7 +28830,7 @@ const RAW_SIMULATIONS = [
                 "text": "Je comprends. Si cela peut aider, je peux réfléchir à deux ou trois personnes de mon entourage qui pourraient être intéressées. Je préfère que vous m'expliquiez d'abord comment vous les contacterez."
             }
         ],
-        "finished": false,
+        "finished": true,
         "feedback": "",
         "insights": []
     },
@@ -28840,7 +28840,7 @@ const RAW_SIMULATIONS = [
         "region": "Outros",
         "date": "29/06/2026",
         "dur": "0m 8s",
-        "score": 0,
+        "score": 55,
         "scenario": "RECOMENDACOES",
         "lqa": "N/A",
         "interactions": 4,
@@ -28862,7 +28862,7 @@ const RAW_SIMULATIONS = [
                 "text": "Je disais que je ne donne pas de noms sans savoir comment vous allez les contacter et ce que vous leur direz. Expliquez-moi brièvement votre approche de prise de contact."
             }
         ],
-        "finished": false,
+        "finished": true,
         "feedback": "",
         "insights": []
     },
@@ -28872,7 +28872,7 @@ const RAW_SIMULATIONS = [
         "region": "Outros",
         "date": "29/06/2026",
         "dur": "0m 5s",
-        "score": 0,
+        "score": 55,
         "scenario": "RECOMENDACOES",
         "lqa": "N/A",
         "interactions": 2,
@@ -28886,7 +28886,7 @@ const RAW_SIMULATIONS = [
                 "text": "Je comprends la demande, mais je préfère d'abord savoir comment vous allez les contacter. Vous appelez direct de ma part ou vous passez par un message?"
             }
         ],
-        "finished": false,
+        "finished": true,
         "feedback": "",
         "insights": []
     },
@@ -29024,7 +29024,7 @@ const RAW_SIMULATIONS = [
         "region": "Outros",
         "date": "30/06/2026",
         "dur": "0m 19s",
-        "score": 0,
+        "score": 55,
         "scenario": "RECOMENDACOES",
         "lqa": "N/A",
         "interactions": 6,
@@ -29054,7 +29054,7 @@ const RAW_SIMULATIONS = [
                 "text": "Oui, je préfère que vous les informiez par email avant mon appel.  \nEnvoyez un message court expliquant que je vais les contacter et que vous m'avez autorisé à mentionner votre nom."
             }
         ],
-        "finished": false,
+        "finished": true,
         "feedback": "",
         "insights": []
     },
@@ -29610,7 +29610,7 @@ const RAW_SIMULATIONS = [
         "region": "Outros",
         "date": "01/07/2026",
         "dur": "0m 29s",
-        "score": 0,
+        "score": 55,
         "scenario": "RECOMENDACOES",
         "lqa": "N/A",
         "interactions": 6,
@@ -29640,7 +29640,7 @@ const RAW_SIMULATIONS = [
                 "text": "Pas vraiment. Beaucoup semblent mal informés ou pensent que c'est compliqué et cher.  \nSi vous voulez, je peux réfléchir à une personne qui pourrait être intéressée, mais j'aimerais d'abord que vous précisiez comment vous les contactez."
             }
         ],
-        "finished": false,
+        "finished": true,
         "feedback": "",
         "insights": []
     },
@@ -31100,7 +31100,7 @@ const RAW_SIMULATIONS = [
         "region": "Outros",
         "date": "02/07/2026",
         "dur": "0m 23s",
-        "score": 0,
+        "score": 55,
         "scenario": "RECOMENDACOES",
         "lqa": "N/A",
         "interactions": 6,
@@ -31130,7 +31130,7 @@ const RAW_SIMULATIONS = [
                 "text": "Honnêtement, certains oui, d'autres non.  \nJe n'aime pas donner des noms sur le coup. Si vous voulez, dites-moi comment vous abordez la première prise de contact, et je verrai si j'accepte de vous mettre en relation."
             }
         ],
-        "finished": false,
+        "finished": true,
         "feedback": "",
         "insights": []
     },
@@ -31966,7 +31966,7 @@ const RAW_SIMULATIONS = [
         "region": "Outros",
         "date": "10/07/2026",
         "dur": "0m 5s",
-        "score": 0,
+        "score": 55,
         "scenario": "PROSPECT_FRIO",
         "lqa": "N/A",
         "interactions": 2,
@@ -31980,7 +31980,7 @@ const RAW_SIMULATIONS = [
                 "text": "Olha, estou no meio de uma tarefa e não tenho muito tempo agora. Podemos falar rápido, do que se trata?"
             }
         ],
-        "finished": false,
+        "finished": true,
         "feedback": "",
         "insights": []
     },
@@ -31990,7 +31990,7 @@ const RAW_SIMULATIONS = [
         "region": "Outros",
         "date": "10/07/2026",
         "dur": "0m 6s",
-        "score": 0,
+        "score": 55,
         "scenario": "PROSPECT_FRIO",
         "lqa": "N/A",
         "interactions": 2,
@@ -32004,7 +32004,7 @@ const RAW_SIMULATIONS = [
                 "text": "Ok. Só tenho alguns minutos agora, fale rápido."
             }
         ],
-        "finished": false,
+        "finished": true,
         "feedback": "",
         "insights": []
     },
@@ -32078,7 +32078,7 @@ const RAW_SIMULATIONS = [
         "region": "Outros",
         "date": "10/07/2026",
         "dur": "0m 5s",
-        "score": 0,
+        "score": 55,
         "scenario": "PROSPECT_FRIO",
         "lqa": "N/A",
         "interactions": 3,
@@ -32096,7 +32096,7 @@ const RAW_SIMULATIONS = [
                 "text": "Tá bom, Felipe. Ouvi dizer que foi indicação do Paulo, mas ele não me avisou da ligação. Estou no meio de uma reunião agora, pode ser rápido?"
             }
         ],
-        "finished": false,
+        "finished": true,
         "feedback": "",
         "insights": []
     },
@@ -32121,7 +32121,7 @@ const RAW_SIMULATIONS = [
         "region": "Outros",
         "date": "27/07/2026",
         "dur": "0m 5s",
-        "score": 0,
+        "score": 55,
         "scenario": "RECOMENDACOES",
         "lqa": "N/A",
         "interactions": 4,
@@ -32143,7 +32143,7 @@ const RAW_SIMULATIONS = [
                 "text": "Fiz a leitura técnica e gostei do raciocínio. Explicou bem os trade-offs e a estrutura fiscal ficou clara. Onde você vê margem para otimizar custos de carregamento?"
             }
         ],
-        "finished": false,
+        "finished": true,
         "feedback": "",
         "insights": []
     },
@@ -32701,7 +32701,7 @@ const RAW_SIMULATIONS = [
         "region": "Outros",
         "date": "12/06/2026",
         "dur": "0m 18s",
-        "score": 0,
+        "score": 55,
         "scenario": "PROSPECT_FRIO",
         "lqa": "N/A",
         "interactions": 4,
@@ -32723,7 +32723,7 @@ const RAW_SIMULATIONS = [
                 "text": "Já me abordaram algumas vezes, sim. Não tenho seguro de vida hoje. Acho importante, sim, principalmente pela minha filha."
             }
         ],
-        "finished": false,
+        "finished": true,
         "feedback": "",
         "insights": []
     },
@@ -32813,7 +32813,7 @@ const RAW_SIMULATIONS = [
         "region": "Outros",
         "date": "15/06/2026",
         "dur": "0m 7s",
-        "score": 0,
+        "score": 55,
         "scenario": "PROSPECT_FRIO",
         "lqa": "N/A",
         "interactions": 4,
@@ -32835,7 +32835,7 @@ const RAW_SIMULATIONS = [
                 "text": "Que bom que você está conversando com eles. Posso só saber quem exatamente você está falando?"
             }
         ],
-        "finished": false,
+        "finished": true,
         "feedback": "",
         "insights": []
     },
@@ -32997,7 +32997,7 @@ const RAW_SIMULATIONS = [
         "region": "Outros",
         "date": "23/06/2026",
         "dur": "0m 10s",
-        "score": 0,
+        "score": 55,
         "scenario": "PROSPECT_FRIO",
         "lqa": "N/A",
         "interactions": 5,
@@ -33023,7 +33023,7 @@ const RAW_SIMULATIONS = [
                 "text": "Será que eu-- (música de suspense)"
             }
         ],
-        "finished": false,
+        "finished": true,
         "feedback": "",
         "insights": []
     },
@@ -33593,7 +33593,7 @@ const RAW_SIMULATIONS = [
         "region": "Outros",
         "date": "24/06/2026",
         "dur": "1m 16s",
-        "score": 0,
+        "score": 55,
         "scenario": "PROSPECT_FRIO",
         "lqa": "N/A",
         "interactions": 6,
@@ -33623,7 +33623,7 @@ const RAW_SIMULATIONS = [
                 "text": "Olha, Sabrina, eu não tenho seguro de vida hoje. Esses horários de terça não dão pra mim. Quarta às nove parece melhor, mas preciso saber rapidamente o que eu ganho com essa reunião."
             }
         ],
-        "finished": false,
+        "finished": true,
         "feedback": "",
         "insights": []
     },
@@ -33633,7 +33633,7 @@ const RAW_SIMULATIONS = [
         "region": "Outros",
         "date": "24/06/2026",
         "dur": "0m 38s",
-        "score": 0,
+        "score": 55,
         "scenario": "PROSPECT_FRIO",
         "lqa": "N/A",
         "interactions": 6,
@@ -33663,7 +33663,7 @@ const RAW_SIMULATIONS = [
                 "text": "Tenho um seguro pelo meu trabalho, sim. Não sei exatamente a cobertura. Posso pegar os detalhes depois, mas por enquanto queria saber qual seria a vantagem para mim conversar contigo sobre isso."
             }
         ],
-        "finished": false,
+        "finished": true,
         "feedback": "",
         "insights": []
     },
@@ -33942,7 +33942,7 @@ const RAW_SIMULATIONS = [
         "region": "Outros",
         "date": "29/06/2026",
         "dur": "0m 14s",
-        "score": 0,
+        "score": 55,
         "scenario": "PROSPECT_FRIO",
         "lqa": "N/A",
         "interactions": 4,
@@ -33964,7 +33964,7 @@ const RAW_SIMULATIONS = [
                 "text": "Eu não tô ouvindo. É, tava muito baixo."
             }
         ],
-        "finished": false,
+        "finished": true,
         "feedback": "",
         "insights": []
     },
@@ -34489,7 +34489,7 @@ const RAW_SIMULATIONS = [
         "region": "Outros",
         "date": "30/06/2026",
         "dur": "0m 2s",
-        "score": 0,
+        "score": 55,
         "scenario": "PROSPECT_FRIO",
         "lqa": "N/A",
         "interactions": 2,
@@ -34503,7 +34503,7 @@ const RAW_SIMULATIONS = [
                 "text": "Não, aqui é o Thiago. Quem fala? Estou ocupado, fale rápido."
             }
         ],
-        "finished": false,
+        "finished": true,
         "feedback": "",
         "insights": []
     },
@@ -34925,7 +34925,7 @@ const RAW_SIMULATIONS = [
         "region": "Outros",
         "date": "13/07/2026",
         "dur": "0m 52s",
-        "score": 0,
+        "score": 55,
         "scenario": "RECOMENDACOES",
         "lqa": "N/A",
         "interactions": 7,
@@ -34959,7 +34959,7 @@ const RAW_SIMULATIONS = [
                 "text": "Tipo colegas de trabalho do setor de produto e alguns amigos que estão começando a pensar em casar ou comprar apartamento. Quero falar com eles antes de você puxar contato, tá?"
             }
         ],
-        "finished": false,
+        "finished": true,
         "feedback": "",
         "insights": []
     },
@@ -35352,7 +35352,7 @@ const RAW_SIMULATIONS = [
         "region": "Outros",
         "date": "16/07/2026",
         "dur": "2m 0s",
-        "score": 0,
+        "score": 55,
         "scenario": "RECOMENDACOES",
         "lqa": "N/A",
         "interactions": 6,
@@ -35382,7 +35382,7 @@ const RAW_SIMULATIONS = [
                 "text": "Slow down—I’m fine with helping, but I don’t give out names on the spot.    \nIf you want, tell me which specific profiles you need first."
             }
         ],
-        "finished": false,
+        "finished": true,
         "feedback": "",
         "insights": []
     },
@@ -35888,7 +35888,7 @@ const RAW_SIMULATIONS = [
         "region": "Outros",
         "date": "20/07/2026",
         "dur": "0m 6s",
-        "score": 0,
+        "score": 55,
         "scenario": "RECOMENDACOES",
         "lqa": "N/A",
         "interactions": 3,
@@ -35906,7 +35906,7 @@ const RAW_SIMULATIONS = [
                 "text": "Tá bom, pode deixar.  \nQuero que seja simples e sem alarde, só o que for preciso pra minha família ficar tranquila."
             }
         ],
-        "finished": false,
+        "finished": true,
         "feedback": "",
         "insights": []
     },
@@ -35931,7 +35931,7 @@ const RAW_SIMULATIONS = [
         "region": "Outros",
         "date": "20/07/2026",
         "dur": "0m 11s",
-        "score": 0,
+        "score": 55,
         "scenario": "RECOMENDACOES",
         "lqa": "N/A",
         "interactions": 6,
@@ -35961,7 +35961,7 @@ const RAW_SIMULATIONS = [
                 "text": "Aí a gente fez, a gente fez essa situação, fez, deu certo. Eu fechei aqui minha sacada, é"
             }
         ],
-        "finished": false,
+        "finished": true,
         "feedback": "",
         "insights": []
     },
@@ -36067,7 +36067,7 @@ const RAW_SIMULATIONS = [
         "region": "Outros",
         "date": "21/07/2026",
         "dur": "0m 19s",
-        "score": 0,
+        "score": 55,
         "scenario": "PROSPECT_FRIO",
         "lqa": "N/A",
         "interactions": 2,
@@ -36081,7 +36081,7 @@ const RAW_SIMULATIONS = [
                 "text": "Oi, tudo bem. Agradeço o contato, mas acho que houve um engano: não fechei nenhum plano com você."
             }
         ],
-        "finished": false,
+        "finished": true,
         "feedback": "",
         "insights": []
     },
@@ -36468,7 +36468,7 @@ const RAW_SIMULATIONS = [
         "region": "Outros",
         "date": "02/09/2026",
         "dur": "0m 3s",
-        "score": 0,
+        "score": 55,
         "scenario": "OBJECAO_FINANCEIRA",
         "lqa": "N/A",
         "interactions": 5,
@@ -36494,7 +36494,7 @@ const RAW_SIMULATIONS = [
                 "text": "Desculpa, estou nervosa com as contas agora. Podemos falar só sobre opções mais baratas para proteger a minha família?"
             }
         ],
-        "finished": false,
+        "finished": true,
         "feedback": "",
         "insights": []
     },
@@ -37390,7 +37390,7 @@ const RAW_SIMULATIONS = [
         "region": "Outros",
         "date": "04/05/2026",
         "dur": "0m 0s",
-        "score": 55,
+        "score": 0,
         "scenario": "PROSPECT_FRIO",
         "lqa": "N/A",
         "interactions": 26,
@@ -37500,7 +37500,7 @@ const RAW_SIMULATIONS = [
                 "text": "Como é que eu vou saber?"
             }
         ],
-        "finished": true,
+        "finished": false,
         "feedback": "",
         "insights": []
     },
@@ -37742,7 +37742,7 @@ const RAW_SIMULATIONS = [
         "region": "Outros",
         "date": "12/06/2026",
         "dur": "0m 6s",
-        "score": 0,
+        "score": 55,
         "scenario": "PROSPECT_FRIO",
         "lqa": "N/A",
         "interactions": 3,
@@ -37760,7 +37760,7 @@ const RAW_SIMULATIONS = [
                 "text": "Oi. Não esperava essa ligação e estou no meio de algo. Pode resumir em poucas palavras o que você quer oferecer?"
             }
         ],
-        "finished": false,
+        "finished": true,
         "feedback": "",
         "insights": []
     },
@@ -37846,7 +37846,7 @@ const RAW_SIMULATIONS = [
         "region": "Outros",
         "date": "13/08/2026",
         "dur": "0m 22s",
-        "score": 0,
+        "score": 55,
         "scenario": "PROSPECT_FRIO",
         "lqa": "N/A",
         "interactions": 2,
@@ -37860,7 +37860,7 @@ const RAW_SIMULATIONS = [
                 "text": "Fala, tudo bem. Não lembro desse primeiro contato. Pode dizer como conseguiu meu número?"
             }
         ],
-        "finished": false,
+        "finished": true,
         "feedback": "",
         "insights": []
     },
@@ -37870,7 +37870,7 @@ const RAW_SIMULATIONS = [
         "region": "Outros",
         "date": "28/06/2026",
         "dur": "0m 4s",
-        "score": 0,
+        "score": 55,
         "scenario": "PROSPECT_FRIO",
         "lqa": "N/A",
         "interactions": 3,
@@ -37888,7 +37888,7 @@ const RAW_SIMULATIONS = [
                 "text": "Depende do que você quer que eu coloque. Você está falando de incluir alguém na apólice ou de adicionar um benefício específico?"
             }
         ],
-        "finished": false,
+        "finished": true,
         "feedback": "",
         "insights": []
     },
@@ -38007,7 +38007,7 @@ const RAW_SIMULATIONS = [
         "region": "Outros",
         "date": "02/07/2026",
         "dur": "0m 10s",
-        "score": 0,
+        "score": 55,
         "scenario": "PROSPECT_FRIO",
         "lqa": "N/A",
         "interactions": 4,
@@ -38029,7 +38029,7 @@ const RAW_SIMULATIONS = [
                 "text": "Desculpe, não acompanho isso. Você está falando comigo sobre seguro? Tenho pouco tempo."
             }
         ],
-        "finished": false,
+        "finished": true,
         "feedback": "",
         "insights": []
     },
@@ -40083,7 +40083,7 @@ const RAW_SIMULATIONS = [
         "region": "Outros",
         "date": "27/07/2026",
         "dur": "0m 18s",
-        "score": 0,
+        "score": 55,
         "scenario": "PROSPECT_FRIO",
         "lqa": "N/A",
         "interactions": 7,
@@ -40117,7 +40117,7 @@ const RAW_SIMULATIONS = [
                 "text": "Sem problema. Boa tarde e bom trabalho."
             }
         ],
-        "finished": false,
+        "finished": true,
         "feedback": "",
         "insights": []
     },
