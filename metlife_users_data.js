@@ -1952,36 +1952,36 @@ const users = [
         "avgDurMin": 0
     },
     {
-        "avgDurSec": 14,
-        "avgScore": 54.5,
+        "avgDurSec": 54,
+        "avgScore": 53.4,
         "skills": {
-            "Escuta": 59.0,
-            "Personalizacao": 56.9,
-            "Empatia": 63.6,
-            "Crises": 59.4,
-            "Padroes": 58.6
+            "Escuta": 57.1,
+            "Personalizacao": 55.1,
+            "Empatia": 61.5,
+            "Crises": 57.8,
+            "Padroes": 57.1
         },
-        "count": 18,
+        "count": 20,
         "insights": {
             "pt": [
-                "Fez escuta ativa logo na abertura, reconhecendo de forma empática o contexto econômico difícil.",
-                "Usou a Power Phrase clássica (“nunca vi alguém quebrar por ter feito um seguro de vida”) no momento certo para desafiar a crença do cliente.",
-                "Aplicou a técnica de ajuste do prêmio, reduzindo o valor e oferecendo possibilidade de aumento futuro, sem abandonar a venda.",
-                "Explicou a relação entre valor do prêmio e capitais assegurados (cruz VOSSA/NOSSA), tornando as escolhas transparentes.",
-                "Utilizou um fechamento consultivo, detalhando próximos passos, mantendo o tom acolhedor e ético até o fim.",
-                "Diagnóstico e formulação de perguntas",
-                "Demonstrar valor e reconectar com necessidades",
-                "Power Phrase e silêncio"
+                "Eduardo, fifty-year-old aeronautic quality engineer, rational and methodical, predominantly Blue DISC profile.",
+                "Main objection family: CONSENTIMENTO (needing to talk to spouse before deciding).",
+                "The focus was to identify the true reason for delay and treat the consent objection effectively.",
+                "The contract was not closed during this interaction; the objective was not fully achieved.",
+                "Your attempt to clarify the offer and mention of auxiliary plans and discounts showed concern for value.",
+                "You proactively proposed a concrete time for follow-up, keeping momentum in the process.",
+                "The closing phrase was polite, and you maintained a professional tone throughout.",
+                "You attempted to appeal to the family and the client's objectives, which aligns with consultative selling."
             ],
             "fr": [
-                "Fez escuta ativa logo na abertura, reconhecendo de forma empática o contexto econômico difícil.",
-                "Usou a Power Phrase clássica (“nunca vi alguém quebrar por ter feito um seguro de vida”) no momento certo para desafiar a crença do cliente.",
-                "Aplicou a técnica de ajuste do prêmio, reduzindo o valor e oferecendo possibilidade de aumento futuro, sem abandonar a venda.",
-                "Explicou a relação entre valor do prêmio e capitais assegurados (cruz VOSSA/NOSSA), tornando as escolhas transparentes.",
-                "Utilizou um fechamento consultivo, detalhando próximos passos, mantendo o tom acolhedor e ético até o fim.",
-                "Diagnóstico e formulação de perguntas",
-                "Demonstrar valor e reconectar com necessidades",
-                "Power Phrase e silêncio"
+                "Eduardo, fifty-year-old aeronautic quality engineer, rational and methodical, predominantly Blue DISC profile.",
+                "Main objection family: CONSENTIMENTO (needing to talk to spouse before deciding).",
+                "The focus was to identify the true reason for delay and treat the consent objection effectively.",
+                "The contract was not closed during this interaction; the objective was not fully achieved.",
+                "Your attempt to clarify the offer and mention of auxiliary plans and discounts showed concern for value.",
+                "You proactively proposed a concrete time for follow-up, keeping momentum in the process.",
+                "The closing phrase was polite, and you maintained a professional tone throughout.",
+                "You attempted to appeal to the family and the client's objectives, which aligns with consultative selling."
             ]
         },
         "name": "Tabajara Dias",
@@ -2024,9 +2024,13 @@ const users = [
             "08/09/2026",
             "08/09/2026",
             "08/09/2026",
-            "14/09/2026"
+            "14/09/2026",
+            "01/10/2026",
+            "06/10/2026",
+            "06/10/2026",
+            "06/10/2026"
         ],
-        "avgDurMin": 2
+        "avgDurMin": 1
     },
     {
         "avgDurSec": 0,

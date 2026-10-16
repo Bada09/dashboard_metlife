@@ -1,4 +1,4 @@
-const LATEST_DUMP_DATE = "29/09/2026";
+const LATEST_DUMP_DATE = "14/10/2026";
 const RAW_SIMULATIONS = [
     {
         "name": "Juliana Pedrão",
@@ -38979,6 +38979,166 @@ const RAW_SIMULATIONS = [
             "Diagnóstico e formulação de perguntas",
             "Demonstrar valor e reconectar com necessidades",
             "Power Phrase e silêncio"
+        ]
+    },
+    {
+        "name": "Tabajara Dias",
+        "agency": "Outros",
+        "region": "Outros",
+        "date": "01/10/2026",
+        "dur": "0m 0s",
+        "score": 0,
+        "scenario": "PROSPECT_FRIO",
+        "lqa": "N/A",
+        "interactions": 0,
+        "messages": [],
+        "finished": false,
+        "feedback": "",
+        "insights": []
+    },
+    {
+        "name": "Tabajara Dias",
+        "agency": "Outros",
+        "region": "Outros",
+        "date": "06/10/2026",
+        "dur": "0m 0s",
+        "score": 0,
+        "scenario": "PROSPECT_FRIO",
+        "lqa": "N/A",
+        "interactions": 2,
+        "messages": [
+            {
+                "role": "HUMAN",
+                "text": "Well, that's what they find"
+            },
+            {
+                "role": "AI",
+                "text": "That may be, but you called me without warning. Why did Paulo pass you my number?"
+            }
+        ],
+        "finished": false,
+        "feedback": "",
+        "insights": []
+    },
+    {
+        "name": "Tabajara Dias",
+        "agency": "Outros",
+        "region": "Outros",
+        "date": "06/10/2026",
+        "dur": "0m 7s",
+        "score": 55,
+        "scenario": "RECOMENDACOES",
+        "lqa": "N/A",
+        "interactions": 7,
+        "messages": [
+            {
+                "role": "HUMAN",
+                "text": "Olá, tudo bem? Como vai?"
+            },
+            {
+                "role": "AI",
+                "text": "I'm well, thanks. The paperwork is signed and I'm satisfied with how you handled everything. Do you need anything else from me right now?"
+            },
+            {
+                "role": "HUMAN",
+                "text": "Tá, senhor Paulo, vou apresentar pra você aqui rapidamente o que é a Rhapsody"
+            },
+            {
+                "role": "HUMAN",
+                "text": "Eu tenho 15 minutos"
+            },
+            {
+                "role": "AI",
+                "text": "Fifteen minutes works for me. Please be concise and focus on what differentiates Rhapsody from competitors."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Okay"
+            },
+            {
+                "role": "AI",
+                "text": "Go ahead. I'm listening."
+            }
+        ],
+        "finished": true,
+        "feedback": "",
+        "insights": []
+    },
+    {
+        "name": "Tabajara Dias",
+        "agency": "Outros",
+        "region": "Outros",
+        "date": "06/10/2026",
+        "dur": "0m 21s",
+        "score": 31,
+        "scenario": "OBJECAO_ADIAMENTO",
+        "lqa": "N/A",
+        "interactions": 13,
+        "messages": [
+            {
+                "role": "AI",
+                "text": "I found the proposal clear and it makes sense, but I need some time to think it over. I will talk it over with my wife and come back to you later."
+            },
+            {
+                "role": "HUMAN",
+                "text": "I mean, you know, close falar com ela pra gente enviar a proposta e Você deu um desconto"
+            },
+            {
+                "role": "HUMAN",
+                "text": "A vocês"
+            },
+            {
+                "role": "AI",
+                "text": "You offered the discount to you, right? I need to know if that discount applies now when we sign, or only if I pay immediately."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Mm-hmm."
+            },
+            {
+                "role": "HUMAN",
+                "text": "O senhor assinar o contrato"
+            },
+            {
+                "role": "HUMAN",
+                "text": "As condições que a gente tá oferecendo como Como planos auxiliares eee desconto no fundo"
+            },
+            {
+                "role": "HUMAN",
+                "text": "Bastante, é, objetivos ao senhor e sua família"
+            },
+            {
+                "role": "AI",
+                "text": "Good, that’s the objective I value most. I will discuss these conditions with my wife tonight and call you back tomorrow afternoon with our decision."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Que horas o senhor prefere? Às 15h, pode ser?"
+            },
+            {
+                "role": "AI",
+                "text": "Three o'clock works for me. I will call you then after I speak with my wife."
+            },
+            {
+                "role": "HUMAN",
+                "text": "Perfeito, combinado. Até mais"
+            },
+            {
+                "role": "AI",
+                "text": "Good. See you at three o'clock tomorrow then. Goodbye."
+            }
+        ],
+        "finished": true,
+        "feedback": "Aqui está o debriefing da nossa troca.\n\n  \n🤓 PERSONA\n\n- Eduardo, fifty-year-old aeronautic quality engineer, rational and methodical, predominantly Blue DISC profile.\n  \n- Main objection family: CONSENTIMENTO (needing to talk to spouse before deciding).\n\n\n\n🎯 OBJETIVO PRINCIPAL\n\n- The focus was to identify the true reason for delay and treat the consent objection effectively.\n\n- The contract was not closed during this interaction; the objective was not fully achieved.\n\n  \n\n➕ PONTOS FORTES\n\n- Your attempt to clarify the offer and mention of auxiliary plans and discounts showed concern for value.\n\n  \n- You proactively proposed a concrete time for follow-up, keeping momentum in the process.\n\n  \n- The closing phrase was polite, and you maintained a professional tone throughout.\n\n  \n- You attempted to appeal to the family and the client's objectives, which aligns with consultative selling.\n\n  \n\n⚠️ PONTOS DE MELHORIA\n\n- Missing: You accepted the need to speak to the spouse without exploring if it was about WHETHER to buy or simply WHEN.\n\n  \n- Lack of discovery: There was no explicit question to unveil the true barrier or differentiate between true and false objection.\n\n  \n- Critical step skipped: No emotional or logical reconnection with what matters most to Eduardo (his family’s protection, legacy, or ADN needs).\n\n  \n- By offering a discount immediately, you risked reducing the perceived value and looked transactional, not consultative.\n\n  \n- No phrase of commercial impact or silence after presenting strong points, and no use of partial closing techniques.\n\n  \n\n🩵 ANÁLISE EMOCIONAL\n\nYour tone was polite but cautious, with a slightly mechanical rhythm. Assertiveness was present, but emotional engagement and curiosity were limited.\n\n  \n\n🛅 MOMENTOS-CHAVE\n\nOne key moment: You promptly proposed a follow-up time after failed closing, showing agility but missing the chance to treat the objection with a proper CHAVE. This influenced the outcome by prioritizing process over client motive.\n\n  \n\n🔊 REFORMULAÇÕES RECOMENDADAS\n\n“Eduardo, when you say you’d like to speak with your wife, is it about deciding IF you’ll go ahead or just WHEN?”\n\n“Curious: What would she want to feel sure of to support this?”\n\n“Insurance is not about when we want it, but about while we can get it—shall we secure this protection now for your family?”\n\n“If it makes sense, would you prefer your wife as primary beneficiary?”\n\n  \n\n➡️ RECOMENDAÇÕES\n\nAlways investigate the real decision-making barrier before suggesting follow-up. Reconnect emotionally (ADN) and use a phrase of impact plus silence to let Eduardo reflect. Your next meeting could be a closing celebration, not a consultation repeat! Keep evolving your curiosity.",
+        "insights": [
+            "Eduardo, fifty-year-old aeronautic quality engineer, rational and methodical, predominantly Blue DISC profile.",
+            "Main objection family: CONSENTIMENTO (needing to talk to spouse before deciding).",
+            "The focus was to identify the true reason for delay and treat the consent objection effectively.",
+            "The contract was not closed during this interaction; the objective was not fully achieved.",
+            "Your attempt to clarify the offer and mention of auxiliary plans and discounts showed concern for value.",
+            "You proactively proposed a concrete time for follow-up, keeping momentum in the process.",
+            "The closing phrase was polite, and you maintained a professional tone throughout.",
+            "You attempted to appeal to the family and the client's objectives, which aligns with consultative selling."
         ]
     },
     {
